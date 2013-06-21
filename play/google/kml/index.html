@@ -19,12 +19,12 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var trailLayer1 = new google.maps.KmlLayer({
-    url: 'http://studio.stamen.com/~zach/parks_conservancy/play/google/kml/data/park_conservancy_trails_part1.kml?v=4'
+    url: 'http://studio.stamen.com/open/parks-conservancy/play/google/kml/data/park_conservancy_trails_part1.kml?v=1' //kml files are pulled by google's servers, so to blow away the cache, use a query string
   });
   trailLayer1.setMap(map);
   
   var trailLayer2 = new google.maps.KmlLayer({
-    url: 'http://studio.stamen.com/~zach/parks_conservancy/play/google/kml/data/park_conservancy_trails_part2.kml?v=4'
+    url: 'http://studio.stamen.com/open/parks-conservancy/play/google/kml/data/park_conservancy_trails_part2.kml?v=1' //kml files are pulled by google's servers, so to blow away the cache, use a query string
   });
   trailLayer2.setMap(map);
 }
