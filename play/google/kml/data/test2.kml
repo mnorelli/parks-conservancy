@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel
+- || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="orangeLine">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pinkLine">
+      <LineStyle>
+        <color>ffff33ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>ff66a1cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>ffcc00cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="yellowLine">
+      <LineStyle>
+        <color>ff61f2f2</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+<Schema name="park_conservancy_trails" id="park_conservancy_trails">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="trail_name" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="use_type" type="string"></SimpleField>
+	<SimpleField name="trail_type" type="string"></SimpleField>
+	<SimpleField name="tread" type="string"></SimpleField>
+	<SimpleField name="maintained" type="string"></SimpleField>
+	<SimpleField name="maint_by" type="string"></SimpleField>
+	<SimpleField name="mgmt_bndry" type="string"></SimpleField>
+	<SimpleField name="CA_coastal" type="string"></SimpleField>
+	<SimpleField name="Regional" type="string"></SimpleField>
+	<SimpleField name="Treatment" type="string"></SimpleField>
+	<SimpleField name="LRTP_Trans" type="string"></SimpleField>
+	<SimpleField name="Asset_loc_" type="string"></SimpleField>
+	<SimpleField name="Status" type="string"></SimpleField>
+	<SimpleField name="temp_name" type="string"></SimpleField>
+	<SimpleField name="Asset_code" type="string"></SimpleField>
+	<SimpleField name="Route_ID" type="string"></SimpleField>
+	<SimpleField name="Notes" type="string"></SimpleField>
+	<SimpleField name="Length_ft" type="float"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+</Schema>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>4</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#park_conservancy_trails">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="trail_name">Bolinas Ridge Trail</SimpleData>
+		<SimpleData name="alt_name"></SimpleData>
+		<SimpleData name="use_type">Multi-Use</SimpleData>
+		<SimpleData name="trail_type">Fire Road</SimpleData>
+		<SimpleData name="tread"></SimpleData>
+		<SimpleData name="maintained"></SimpleData>
+		<SimpleData name="maint_by"></SimpleData>
+		<SimpleData name="mgmt_bndry"></SimpleData>
+		<SimpleData name="CA_coastal"></SimpleData>
+		<SimpleData name="Regional">R</SimpleData>
+		<SimpleData name="Treatment"></SimpleData>
+		<SimpleData name="LRTP_Trans"></SimpleData>
+		<SimpleData name="Asset_loc_"></SimpleData>
+		<SimpleData name="Status"></SimpleData>
+		<SimpleData name="temp_name"></SimpleData>
+		<SimpleData name="Asset_code"></SimpleData>
+		<SimpleData name="Route_ID"></SimpleData>
+		<SimpleData name="Notes"></SimpleData>
+		<SimpleData name="Length_ft">5412.60000000000</SimpleData>
+		<SimpleData name="Shape_Leng">1649.22220273000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.712445952512851,37.983422688746082 -122.712480789007998,37.983425172237979 -122.712561210840136,37.983425368794322 -122.71264019170367,37.98343006822423 -122.712781142977178,37.983421399593453 -122.712820980480288,37.983426003313049 -122.713096996351808,37.983458222029135 -122.713179465612498,37.983480955401483 -122.713224214907513,37.983503596757366 -122.713242543693269,37.983548705932115 -122.713268077173453,37.983571300422675 -122.713459955543541,37.983643871193244 -122.713559295708919,37.983720722782444 -122.713710682998126,37.984140191072839 -122.713774275264271,37.984442277877243 -122.713894180661384,37.984721969383067 -122.714010463862536,37.984834913375337 -122.714113224883491,37.984947824385323 -122.714186164173015,37.985042637051215 -122.714232128418672,37.985119358345344 -122.714418086572522,37.985435261330437 -122.714700815386223,37.986125433888624 -122.71472904006697,37.986188592605068 -122.714954615683808,37.98656768102645 -122.715136034030976,37.986770910643486 -122.715160023789224,37.98682504610079 -122.715183961320321,37.986892700765814 -122.715281013443843,37.987194867645876 -122.715264554153975,37.987402124327161 -122.715221551427248,37.987663394086098 -122.715221879950008,37.987762536690809 -122.71525125050178,37.987897801172657 -122.715216424996441,37.98806896179218 -122.715176477740442,37.988276161557131 -122.715159828844151,37.988348224365716 -122.715133163195887,37.988433782247178 -122.71508068288442,37.988568848487873 -122.715018914781083,37.988712905088533 -122.714955645464102,37.988784854894654 -122.714949749951415,37.98892904684601 -122.715061890010986,37.989195198812489 -122.715130997115423,37.989362104662732 -122.715196458638999,37.989551533862979 -122.715251191858997,37.989754456381569 -122.715294659113766,37.989925806488827 -122.715449351047539,37.990232619035432 -122.715529171270944,37.990390537655401 -122.715618973964055,37.990543973910555 -122.715700235812733,37.990697389449203 -122.715770335720336,37.990792194188742 -122.715919806474517,37.990977319488017 -122.716065094190085,37.991139902277887 -122.716185522544095,37.991288905570229 -122.716283313426047,37.991401802586161 -122.716401069033935,37.991505734774506 -122.716537990928884,37.991623232366599 -122.716691353485672,37.991722743629033 -122.716856799379045,37.991826790223101 -122.717052679188015,37.991975974230613 -122.717256997391047,37.992152216851458 -122.717617269854898,37.992495572023827 -122.717776070993708,37.992662691554955 -122.718151973274686,37.993015095455469 -122.718295932512248,37.993155140053595 -122.718395795565669,37.993286066016935 -122.718510417223854,37.993466598076374 -122.719102838541545,37.994346770549576 -122.719651887738351,37.995217823670252 -122.719784310803249,37.995398396869852 -122.72022863240889,37.995922201723971 -122.720284372489544,37.995989930905488</coordinates></LineString>
+  </Placemark>
+
+    <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <LineString>
+        <coordinates>       
+-122.475346984679661,37.808552620570836
+-122.475349143564941,37.808576001152161
+-122.47542047816215,37.808667696338262
+-122.475538700710473,37.808716776303235
+-122.475844570217731,37.808733310325437
+-122.47618109993644,37.808740876663329
+-122.476500349630655,37.808829210947394
+-122.476736352457422,37.808919348576623
+-122.476799445008737,37.809000723272497
+-122.476833960622102,37.809450829382264
+-122.476901607193454,37.809621064549361
+-122.47696886877786,37.809845920942664
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>
