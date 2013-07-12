@@ -1,0 +1,265 @@
+{
+  "bounds": [
+    -123.5934,
+    36.6882,
+    -121.1105,
+    38.6533
+  ],
+  "center": [
+    -122.433,
+    37.7718,
+    9
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 9,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        -122.95246099987489,
+        37.4359860002539,
+        -122.1318739999852,
+        38.16675200030474
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "ggnpc_locations_20130417",
+        "key_field": "ogc_fid",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13687005.3502859,4500053.10539959,-13595658.0233066,4603009.13363453",
+        "host": "geo.local",
+        "user": "ggnpc",
+        "dbname": "ggnpc"
+      },
+      "id": "ggnpclocations201304",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "ggnpclocations201304"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.63930499591294,
+        37.61314869135355,
+        -122.42084785991182,
+        37.8975877730478
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "ggnra_parkingareas",
+        "key_field": "ogc_fid",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13652144.983386,4524919.91992802,-13627826.4462462,4564968.48469433",
+        "host": "geo.local",
+        "user": "ggnpc",
+        "dbname": "ggnpc"
+      },
+      "id": "ggnraparkingareas",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "ggnraparkingareas"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.76051473560494,
+        37.39883762504385,
+        -122.27743410810312,
+        38.035996036771095
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "ggnra_trails_20130309",
+        "key_field": "",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13665637.9898877,4494846.3789645,-13611861.7004221,4584512.09433066",
+        "host": "geo.local",
+        "user": "ggnpc",
+        "dbname": "ggnpc"
+      },
+      "id": "ggnratrails20130309",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "ggnratrails20130309"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.9382817400341,
+        37.43380924452312,
+        -122.27679085174981,
+        38.221743861810815
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "goga_legislative_2013",
+        "key_field": "",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13685426.9223006,4499747.93946836,-13611790.0934524,4610798.3164362",
+        "host": "geo.local",
+        "user": "ggnpc",
+        "dbname": "ggnpc"
+      },
+      "id": "gogalegislative2013",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "gogalegislative2013"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.48472305608932,
+        37.78710171883444,
+        -122.4472723315074,
+        37.811026298016884
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "parking_2010",
+        "key_field": "",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13634937.000559,4549393.92842553,-13630768.0049687,4552764.45474733",
+        "host": "geo.local",
+        "user": "ggnpc",
+        "dbname": "ggnpc"
+      },
+      "id": "parking2010",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "parking2010"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.71971011872492,
+        37.44512266821413,
+        -122.29615145354326,
+        37.96928391164085
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "restorationareas_20120216",
+        "key_field": "",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13661095.6407146,4501334.09917914,-13613945.3057855,4575087.56801062",
+        "host": "geo.local",
+        "user": "ggnpc",
+        "dbname": "ggnpc"
+      },
+      "id": "restorationareas2012",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "restorationareas2012"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.4217815197688,
+        32.53427134298068,
+        -114.13146079263862,
+        42.009503674401635
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "cpad19_holdings",
+        "key_field": "",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13850569.3623726,3833648.18425745,-12705056.098929,5162403.15470979",
+        "host": "geo.local",
+        "user": "cpad",
+        "dbname": "cpad"
+      },
+      "id": "cpad19holdings",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "cpad19holdings",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.4217815197688,
+        32.53427134298068,
+        -114.13146079263862,
+        42.009503674401635
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "cpad19_units",
+        "key_field": "",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13850569.3623726,3833648.18425745,-12705056.098929,5162403.15470979",
+        "host": "geo.local",
+        "user": "cpad",
+        "dbname": "cpad"
+      },
+      "id": "cpad19units",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "cpad19units",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.4217815197688,
+        32.53427134298068,
+        -114.13146079263862,
+        42.009503674401635
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "cpad19_superunits",
+        "key_field": "",
+        "geometry_field": "",
+        "extent_cache": "auto",
+        "extent": "-13850569.3623726,3833648.18425745,-12705056.098929,5162403.15470979",
+        "host": "geo.local",
+        "user": "cpad",
+        "dbname": "cpad"
+      },
+      "id": "cpad19superunits",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "cpad19superunits",
+      "status": "off"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Parks Conservancy",
+  "description": "Testing available layers for Parks Conservancy map",
+  "attribution": ""
+}
