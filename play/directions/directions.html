@@ -29,17 +29,41 @@
       .zoom path {
         stroke: #fff;
       }
+
+      #controls {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 10px;
+      }
+
+      #controls #reset {
+        background: red;
+        padding: 50px;
+        cursor: pointer;
+      }
     </style>
   </head>
 
   <body>
 
     <div id="map"></div>
+    <div id="controls">
+      <!--       
+      <div id="reset">
+        <div class="text">new points</div>
+        <div class="countdown"></div>
+      </div> 
+      
+      <div id="reset">reset!</div>
+      -->
+    </div>
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script src="js/vendor/d3.v3.js"></script>
     <script src="js/vendor/polymaps.js"></script>
     <script>
+
       var coords = {
         origin: {lat: 37.7706, lon: -122.3782},
         destination: {lat: 37.6527, lon: -120.9249}
@@ -48,19 +72,21 @@
       var directionsService = new google.maps.DirectionsService();
       var features = [],
           endpoints = [],
-          reqs = 10;
+          reqs = 10,
+          locations;
 
-      d3.csv("locations.csv", function(locations) {
-        // directionsService = new google.maps.DirectionsService();
-        getendpoints(locations);
+      d3.csv("locations.csv", function(locs) {
+        locations = locs;
+        getendpoints();
       });
 
-      function getendpoints(locations) {
+      function getendpoints() {
         endpoints = [];
         for (var i = 0; i < reqs; i++) {
           var idx = ~~(Math.random() * locations.length);
           endpoints.push(locations[idx]);
         }
+        // console.log(endpoints.map(function(pt) { return pt.Name; }));
         routes(endpoints);
       }
 
@@ -68,6 +94,7 @@
       var durations = [],
           size;
       function routes(endpoints) {
+        directionsService = new google.maps.DirectionsService();
         var end = endpoints.length;
         endpoints.forEach(function(endpoint, i) {
           var request = {
@@ -139,15 +166,39 @@
           // d3.select(feature.element).on("mouseover", function(d) { 
           //   console.log(feature.data.properties.durations[i]);
           // });
-          var color = "hsl(" + Math.random() * 360 + ", 100%, 70%)";
+          var color = "hsl(" + Math.random() * 360 + ", 100%, 70%)",
+              duration = feature.data.properties.duration;
           // console.log("duration:", feature.data.properties.duration, "; i:", i);
           // feature.element.parentNode.insertBefore(feature.element.parentNode.firstChild);
-          feature.element.setAttribute("data-duration", feature.data.properties.duration);
+          feature.element.setAttribute("data-duration", duration);
           feature.element.setAttribute("stroke", color);
-          feature.element.setAttribute("stroke-width", size(feature.data.properties.duration));
+          feature.element.setAttribute("stroke-width", size(duration));
         });
       }
 
+      // var interval, time = 5;
+      // d3.select("#reset").on("click", function() {
+      //   var countdown = d3.select("#countdown");
+      //   if (interval) clearInterval(interval);
+      //   interval = setInterval(function() { 
+      //     if (time === 0) {
+      //       clearInterval(interval);
+      //       time = 5;
+      //     }
+      //     countdown.html(time--);
+      //   }, 1000);
+      // });
+
+      var resetter = d3.select("#reset");
+      resetter.on("click", function() {
+        reset();
+      });
+
+      function reset() {
+        d3.selectAll("g.layer path").remove();
+        features = [];
+        getendpoints();
+      }
 
       // XXX to do it via request:
       // var url = ["http://maps.googleapis.com/maps/api/directions/json?origin=",
