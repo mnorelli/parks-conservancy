@@ -49,6 +49,12 @@
 
     <div id="map"></div>
     <div id="controls">
+      <select>
+        <option>DRIVING</option>
+        <option>WALKING</option>
+        <option>BICYCLING</option>
+        <option>TRANSIT</option>
+      </select>
       <!--       
       <div id="reset">
         <div class="text">new points</div>
@@ -63,6 +69,15 @@
     <script src="js/vendor/d3.v3.js"></script>
     <script src="js/vendor/polymaps.js"></script>
     <script>
+
+      var opts = {transit: "DRIVING"};
+      var optsBox = d3.select("select");
+      optsBox.on("change", function() {
+        opts.transit = optsBox.property("value");
+        endpoints = [];
+        features = [];
+        getendpoints();
+      });
 
       var coords = {
         origin: {lat: 37.7648, lon: -122.4198},
@@ -100,7 +115,7 @@
           var request = {
             origin: new google.maps.LatLng(coords.origin.lat, coords.origin.lon),
             destination: new google.maps.LatLng(+endpoint.POINT_Y, +endpoint.POINT_X),
-            travelMode: google.maps.TravelMode["DRIVING"]
+            travelMode: google.maps.TravelMode[opts.transit]  // WALKING, BICYCLING, TRANSIT, DRIVING
           };
           directionsService.route(request, function(response, status) {
             if (status != google.maps.DirectionsStatus.OK) {
