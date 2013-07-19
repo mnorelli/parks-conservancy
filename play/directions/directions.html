@@ -20,12 +20,10 @@
       }
 
       g.layer path {
-        /*stroke: red;*/
         fill: none;
         stroke-linejoin: round;
         stroke-linecap: round;
         opacity: 0.5;
-        /*stroke-width: 2;*/
       }
 
       .zoom path {
@@ -105,11 +103,8 @@
             }
             if (--end === 0) {
               features.sort(function(a,b) { return d3.descending(a.properties.duration, b.properties.duration); });
-              var minwidth = features[0].properties.duration,
-                  maxwidth = features[features.length-1].properties.duration;
-              // var minwidth = d3.min(features, function(feat) { return feat.properties.duration; }),
-                  // maxwidth = d3.max(features, function(feat) { return feat.properties.duration; });
-              size = d3.scale.linear().domain([minwidth, maxwidth]).range([2, 50]);
+              var extent = d3.extent(features, function(feat) { return feat.properties.duration; });
+              size = d3.scale.linear().domain(extent).range([2, 50]);
               mapthat(features);
             }
           });
