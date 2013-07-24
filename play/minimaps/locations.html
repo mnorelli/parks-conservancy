@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      .map {
+        width: 256px;
+        height: 256px;
+        float: left;
+        margin: 10px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="content"></div>
+
+    <script src="js/d3.v3.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+    <script>
+      var content = d3.select("#content");
+
+      var qs = function() {
+        var args = {},
+            parts = window.location.search.substr(1).split("&");
+        
+        parts.forEach(function(arg) {
+          arg = arg.split("=");
+          args[arg[0]] = arg[1];
+        });
+        return args;
+      };
+      var args = qs();
+
+      var format = function(str, replacements) {
+        Object.keys(replacements).forEach(function(repl) {
+          str.replace(repl, replacements[repl]);
+        });
+        return str;
+      }
+
+      d3.csv("data/locations.csv", function(err, locations) {
+        var types = {};
+        locations.forEach(function(row) {
+          var fmt = row.Type
+              .toLowerCase()
+              .replace(/[^\-\w\s]/g, "")
+              .split(" ")
+              .filter(function(part) { return part != false; })
+              .join("-");
+          types[fmt] = row.Type;
+        });
+
+        var loctype = args.type || null;
+        if (!args || !loctype) {
+          var html = [];
+          var list = Object.keys(types).forEach(function(fmt) {
+            var link = [
+              "<a href=locations.html?type=",
+              fmt,
+              ">",
+              types[fmt],
+              "</a>"
+            ].join("");
+            html.push(link);
+          });
+          content.html(html.join("<br>"));
+          return;
+        }
+        
+        var filtered = locations.filter(function(location) {
+          return location.Type === types[loctype];
+        });
+
+        content.html("<h3>type=" + types[loctype].toLowerCase() + "</h3>");
+        var div = content.selectAll("div")
+          .data(filtered)
+        .enter().append("div")
+          .attr("class", "map")
+          .attr("id", function(d, i) { return "map" + i; });
+
+        filtered.forEach(function(point, i) {
+          var glocation = new google.maps.LatLng(+point.POINT_Y, +point.POINT_X);
+          var opts = {
+            zoom: 16,
+            center: glocation,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+          };
+          var map = new google.maps.Map(document.getElementById('map' + i), opts);
+
+          var display = {
+            strokeWeight: 0,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35,
+            map: map,
+            center: glocation,
+            radius: 20
+          };
+          var circle = new google.maps.Circle(display);
+
+        });
+
+      });
+
+    </script>
+
+  </body>
+</html>
