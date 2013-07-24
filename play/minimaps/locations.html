@@ -76,7 +76,7 @@
           return location.Type === types[loctype];
         });
 
-        content.html("<h3>type=" + types[loctype].toLowerCase() + "</h3>");
+        content.html(["<h3>type=", types[loctype].toLowerCase(), " (", filtered.length, " points)</h3>"].join(""));
         var div = content.selectAll("div")
           .data(filtered)
         .enter().append("div")
@@ -95,10 +95,10 @@
           var display = {
             strokeWeight: 0,
             fillColor: '#FF0000',
-            fillOpacity: 0.35,
+            fillOpacity: 0.7,
             map: map,
             center: glocation,
-            radius: 20
+            radius: 30
           };
           var circle = new google.maps.Circle(display);
 
