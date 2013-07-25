@@ -19,6 +19,10 @@
         height: 320px;
       }
 
+      .count {
+        font-size: 10px;
+      }
+
     </style>
   </head>
 
@@ -67,9 +71,9 @@
               encodeURIComponent(entry.key),
               ">",
               entry.key,
-              "</a> (",
+              "</a> <span class=\"count\">(",
               entry.values.length,
-              " points)"
+              " points)</span>"
             ].join("");
             return link;
           });
