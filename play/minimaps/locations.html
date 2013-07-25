@@ -11,11 +11,12 @@
       .map {
         display: inline-block;
         margin: 10px;
+        width: 235px;
       }
 
       .map div {
-        width: 256px;
-        height: 256px;
+        width: 235px;
+        height: 320px;
       }
 
     </style>
@@ -37,7 +38,7 @@
         
         parts.forEach(function(arg) {
           arg = arg.split("=");
-          args[arg[0]] = arg[1];
+          args[arg[0]] = decodeURIComponent(arg[1]);
         });
         return args;
       };
@@ -51,41 +52,34 @@
       }
 
       d3.csv("data/locations.csv", function(err, locations) {
-        var types = {};
-        locations.forEach(function(row) {
-          var fmt = row.type
-              .toLowerCase()
-              .replace(/[^\-\w\s]/g, "")
-              .split(" ")
-              .filter(function(part) { return part != false; })
-              .join("-");
-          types[fmt] = row.type;
-        });
+        var nest = d3.nest()
+          .key(function(d) { return d.type; });
+
+        var entries = nest.entries(locations);
+        var entries_by_type = nest.map(locations);
 
         var loctype = args.type || null;
         if (!args || !loctype) {
-          var html = [];
-          var list = Object.keys(types).forEach(function(fmt) {
+          var list = entries.map(function(entry) {
+            console.log(entry);
             var link = [
               "<a href=locations.html?type=",
-              fmt,
+              encodeURIComponent(entry.key),
               ">",
-              types[fmt],
-              "</a>"
+              entry.key,
+              "</a> (",
+              entry.values.length,
+              " points)"
             ].join("");
-            html.push(link);
+            return link;
           });
-          content.html("<h2>" + locations.length + " locations</h2>" + html.join("<br>"));
+          content.html("<h2>" + locations.length + " locations</h2>" + list.join("<br>"));
           return;
         }
-        
-        var filtered = locations.filter(function(location) {
-          return location.type === types[loctype];
-        });
 
-        console.log("filtered:", filtered);
+        var filtered = entries_by_type[loctype];
 
-        content.html(["<h3>type=", types[loctype].toLowerCase(), " (", filtered.length, " points)</h3>"].join(""));
+        content.html(["<h3>type=", loctype, " (", filtered.length, " points)</h3>"].join(""));
         var div = content.selectAll("div")
           .data(filtered)
         .enter().append("div")
