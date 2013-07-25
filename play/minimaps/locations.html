@@ -4,11 +4,18 @@
     <meta charset="utf-8">
     <style>
 
+      body {
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+      }
+
       .map {
+        display: inline-block;
+        margin: 10px;
+      }
+
+      .map div {
         width: 256px;
         height: 256px;
-        float: left;
-        margin: 10px;
       }
 
     </style>
@@ -46,13 +53,13 @@
       d3.csv("data/locations.csv", function(err, locations) {
         var types = {};
         locations.forEach(function(row) {
-          var fmt = row.Type
+          var fmt = row.type
               .toLowerCase()
               .replace(/[^\-\w\s]/g, "")
               .split(" ")
               .filter(function(part) { return part != false; })
               .join("-");
-          types[fmt] = row.Type;
+          types[fmt] = row.type;
         });
 
         var loctype = args.type || null;
@@ -68,26 +75,35 @@
             ].join("");
             html.push(link);
           });
-          content.html(html.join("<br>"));
+          content.html("<h2>" + locations.length + " locations</h2>" + html.join("<br>"));
           return;
         }
         
         var filtered = locations.filter(function(location) {
-          return location.Type === types[loctype];
+          return location.type === types[loctype];
         });
+
+        console.log("filtered:", filtered);
 
         content.html(["<h3>type=", types[loctype].toLowerCase(), " (", filtered.length, " points)</h3>"].join(""));
         var div = content.selectAll("div")
           .data(filtered)
         .enter().append("div")
-          .attr("class", "map")
+          .attr("class", "map");
+
+        div.append("h5")
+          .text(function(d) { return d.name; });
+
+        div.append("div")
           .attr("id", function(d, i) { return "map" + i; });
 
         filtered.forEach(function(point, i) {
-          var glocation = new google.maps.LatLng(+point.POINT_Y, +point.POINT_X);
+          var glocation = new google.maps.LatLng(+point.Y, +point.X);
           var opts = {
-            zoom: 16,
+            zoom: 14,
             center: glocation,
+            disableDefaultUI: true,
+            scrollwheel: false,
             mapTypeId: google.maps.MapTypeId.TERRAIN
           };
           var map = new google.maps.Map(document.getElementById('map' + i), opts);
@@ -103,6 +119,8 @@
           var circle = new google.maps.Circle(display);
 
         });
+
+
 
       });
 
