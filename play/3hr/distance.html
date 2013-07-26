@@ -6,9 +6,12 @@
 
       body {
         font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+        margin: 0;
+        padding: 0;
       }
 
       #content {
+
       }
 
     </style>
@@ -25,8 +28,8 @@
       var content = d3.select("#content");
 
       var margin = 50;
-      content.style("width", window.innerWidth - margin + "px")
-             .style("height", window.innerHeight - margin + "px");
+      content.style("width", window.innerWidth + "px")
+             .style("height", window.innerHeight + "px");
 
       google.maps.visualRefresh = true;
       var center = new google.maps.LatLng(37.7750, -122.4183);
