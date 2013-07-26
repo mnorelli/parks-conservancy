@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+      }
+
+      #content {
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="content"></div>
+
+    <script src="js/d3.v3.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
+
+    <script>
+      var content = d3.select("#content");
+
+      var margin = 50;
+      content.style("width", window.innerWidth - margin + "px")
+             .style("height", window.innerHeight - margin + "px");
+
+      google.maps.visualRefresh = true;
+      var center = new google.maps.LatLng(37.7750, -122.4183);
+      // var center = new google.maps.LatLng(0,0);
+      var opts = {
+        zoom: 14,
+        center: center
+        // mapTypeId: google.maps.MapTypeId.TERRAIN
+      };
+      var map = new google.maps.Map(document.getElementById("content"), opts);
+
+      d3.json("json/test.json", function(distances) {
+
+        // console.log(distances);
+
+        d3.json("json/test-destinations.json", function(coordinates) {
+
+          var points = distances.destination_addresses.map(function(dest, i) {
+            var coords = coordinates[i].split(",").map(Number);
+            return {
+              destination: dest, 
+              trip: distances.rows[0].elements[i],
+              coordinates: new google.maps.LatLng(coords[0], coords[1])
+            };
+          });
+
+          // sort points into groups
+          var clusters = {};
+          points.forEach(function(pt) {
+            var value = pt.trip.distance.value,
+                rvalue = 5000 * Math.round(value/5000);
+
+            if (!clusters[rvalue]) clusters[rvalue] = [];
+            clusters[rvalue].push(pt);
+          });
+
+          // put each group into a polygon on the map
+
+          Object.keys(clusters).forEach(function(dist) {
+            var cluster = clusters[dist];
+            var coords = cluster.map(function(c) { return c.coordinates; });
+
+            bermudaTriangle = new google.maps.Polygon({
+              paths: coords,
+              strokeColor: '#FF0000',
+              strokeOpacity: 0.8,
+              strokeWeight: 3,
+              fillColor: '#FF0000',
+              fillOpacity: 0.35
+            });
+
+            bermudaTriangle.setMap(map);
+          });
+
+          // var display = {
+          //   strokeWeight: 0,
+          //   fillColor: '#FF0000',
+          //   fillOpacity: 0.7,
+          //   map: map,
+          //   center: glocation,
+          //   radius: 30
+          // };
+          // var circle = new google.maps.Circle(display);
+
+        });
+
+      });
+
+
+    </script>
+
+  </body>
+</html>
