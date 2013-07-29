@@ -1,0 +1,25 @@
+{
+  "name": "parks-conservancy",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stamen/parks-conservancy.git#www"
+  },
+  "author": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/stamen/parks-conservancy/issues"
+  },
+  "dependencies": {
+    "express": "~3.2.6",
+    "ejs": "~0.8.4",
+    "express-partials": "~0.1.1"
+  },
+  "engines": {
+    "node": "~0.10.10",
+    "npm": "1.2.25"
+  }
+}
