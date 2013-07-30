@@ -23,6 +23,7 @@
 
     <script src="js/d3.v3.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
+    <script src="js/markerwithlabel.js"></script>
 
     <script>
 
@@ -64,33 +65,68 @@
               || t === "Overlook";
         });
 
-        var origin = [center.jb, center.kb];
+        var origin = center; //[center.jb, center.kb];
         var distances = [];
         locations.forEach(function(location, i) {
-          var destination = [location.Y, location.X].map(Number);
-          var distance = getDistance(origin, destination);
+          var coords = [location.Y, location.X].map(Number);
+          var destination = new google.maps.LatLng(coords[0], coords[1]);
+          // var distance = getDistance(origin, destination);
+          var distance = distHaversine(origin, destination);
           distances.push([distance, i]);
         });
         distances.sort(function(a,b) { return d3.ascending(a[0], b[0]); });
         // distances = distances.slice(0, 30);
+        console.log("distances:", distances);
 
         var extent = d3.extent(distances.map(function(d) { return d[0]; }));
         var hue = d3.scale.linear().domain(extent).range([80, 0]);
+
+        var radials = d3.range(2, 100, 2).reverse(),
+            max_points_in_radial = 0;
+
+        radials.forEach(function(radial) {
+          var in_circle = distances.filter(function(point) {
+            return point[0] < radial * 1000 && point[0] > (radial - 2) * 1000;
+          });
+          max_points_in_radial = in_circle.length > max_points_in_radial ? in_circle.length : max_points_in_radial;
+        });
+
+        var radial_hue = d3.scale.linear().domain([0, max_points_in_radial]).range([200, 360]);
+
+        radials.forEach(function(radial) {
+          var in_circle = distances.filter(function(point) {
+            return point[0] < radial * 1000 && point[0] > (radial - 2) * 1000;
+          });
+          // console.log(radial + " in_circle:", in_circle.length);
+          var style = {
+            strokeWeight: 10,
+            strokeColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
+            strokeOpacity: in_circle.length > 0 ? 1 : 0,
+            // strokeColor: "#000000",
+            // fillColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
+            // fillColor: "none",
+            fillOpacity: 0,
+            map: map,
+            center: center,
+            radius: radial * 1000 // meters -> km
+          };
+          var circle = new google.maps.Circle(style);
+        });
 
         distances.forEach(function(dist) {
           var distance = dist[0],
               data = locations[dist[1]];
 
-          var display = {
+          var style = {
             strokeWeight: 1,
             strokeColor: "#000000",
             fillColor: "hsl(" + hue(distance) + ", 100%, 70%)",
             fillOpacity: 0.7,
             map: map,
             center: new google.maps.LatLng(+data.Y, +data.X),
-            radius: 300
+            radius: 200
           };
-          var circle = new google.maps.Circle(display);
+          var circle = new google.maps.Circle(style);
         });
       });
 
@@ -98,18 +134,19 @@
         return degrees * (Math.PI / 180);
       }
 
-      function getDistance(p1, p2) {
-        p1 = p1.map(deg2rad);
-        p2 = p2.map(deg2rad);            
-        // var dlon = lon2 - lon1,
-        //     dlat = lat2 - lat1;
-        var dlon = p2[1] - p1[1],
-            dlat = p2[0] - p1[0];
-        // a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
-        var a = Math.pow(Math.sin(dlat/2), 2) * Math.cos(p1[0]) * Math.cos(p2[0]) * Math.pow(Math.sin(dlon/2), 2),
-            c = 2 * Math.asin(Math.sqrt(a)),
-            km = 6367 * c;
-        return km;
+      rad = function(x) {return x*Math.PI/180;}
+
+      distHaversine = function(p1, p2) {
+        var R = 6371; // earth's mean radius in km
+        var dLat  = rad(p2.lat() - p1.lat());
+        var dLong = rad(p2.lng() - p1.lng());
+
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(rad(p1.lat())) * Math.cos(rad(p2.lat())) * Math.sin(dLong/2) * Math.sin(dLong/2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        var d = R * c;
+
+        return d * 1000; // km -> meters
       }
 
     </script>
