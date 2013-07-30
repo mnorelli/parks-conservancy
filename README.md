@@ -7,7 +7,8 @@ the basemap to show up within TileMill.
 
 ## Data
 
-To download data, run `make data`. To load data, ...
+To load data (missing source files will be downloaded automatically), run `make
+data`. Careful, though, as it may already be loaded.
 
 ### Prerequisites
 
