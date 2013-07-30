@@ -6,5 +6,6 @@ Redesign of the interactive map used on
 
 ## Branches
 
-* `master` - you're looking at it.
-* `www` - site templates for testing in situ.
+* [`master`](https://github.com/stamen/parks-conservancy) - you're looking at it.
+* [`www`](https://github.com/stamen/parks-conservancy/tree/www) - site templates for testing in situ.
+* [`basemap`](https://github.com/stamen/parks-conservancy/tree/basemap) - Basemap and data import scripts.
