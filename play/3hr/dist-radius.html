@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #content {
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="content"></div>
+
+    <script src="js/d3.v3.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
+
+    <script>
+
+      var content = d3.select("#content");
+
+      var margin = 50;
+      content.style("width", window.innerWidth + "px")
+             .style("height", window.innerHeight + "px");
+
+      google.maps.visualRefresh = true;
+      var center = new google.maps.LatLng(37.7750, -122.4183);
+      // var center = new google.maps.LatLng(0,0);
+      var opts = {
+        zoom: 12,
+        center: center
+        // mapTypeId: google.maps.MapTypeId.TERRAIN
+      };
+      var map = new google.maps.Map(document.getElementById("content"), opts);
+
+      var display = {
+        strokeWeight: 0,
+        fillColor: '#ff0000',
+        fillOpacity: 0.7,
+        map: map,
+        center: center,
+        radius: 300
+      };
+      var circle = new google.maps.Circle(display);
+
+      d3.csv("data/locations.csv", function(err, locations) {
+        // console.log("locations:", locations);
+        locations = locations.filter(function(loc) {
+          var t = loc.type;
+          return t === "Meeting Place" 
+              || t === "Park" 
+              || t === "Trailhead" 
+              || t === "Beach"
+              || t === "Site of Interest"
+              || t === "Overlook";
+        });
+
+        var origin = [center.jb, center.kb];
+        var distances = [];
+        locations.forEach(function(location, i) {
+          var destination = [location.Y, location.X].map(Number);
+          var distance = getDistance(origin, destination);
+          distances.push([distance, i]);
+        });
+        distances.sort(function(a,b) { return d3.ascending(a[0], b[0]); });
+        // distances = distances.slice(0, 30);
+
+        var extent = d3.extent(distances.map(function(d) { return d[0]; }));
+        var hue = d3.scale.linear().domain(extent).range([80, 0]);
+
+        distances.forEach(function(dist) {
+          var distance = dist[0],
+              data = locations[dist[1]];
+
+          var display = {
+            strokeWeight: 1,
+            strokeColor: "#000000",
+            fillColor: "hsl(" + hue(distance) + ", 100%, 70%)",
+            fillOpacity: 0.7,
+            map: map,
+            center: new google.maps.LatLng(+data.Y, +data.X),
+            radius: 300
+          };
+          var circle = new google.maps.Circle(display);
+        });
+      });
+
+      function deg2rad(degrees) {
+        return degrees * (Math.PI / 180);
+      }
+
+      function getDistance(p1, p2) {
+        p1 = p1.map(deg2rad);
+        p2 = p2.map(deg2rad);            
+        // var dlon = lon2 - lon1,
+        //     dlat = lat2 - lat1;
+        var dlon = p2[1] - p1[1],
+            dlat = p2[0] - p1[0];
+        // a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+        var a = Math.pow(Math.sin(dlat/2), 2) * Math.cos(p1[0]) * Math.cos(p2[0]) * Math.pow(Math.sin(dlon/2), 2),
+            c = 2 * Math.asin(Math.sqrt(a)),
+            km = 6367 * c;
+        return km;
+      }
+
+    </script>
+
+  </body>
+</html>
