@@ -23,7 +23,6 @@
 
     <script src="js/d3.v3.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
-    <script src="js/markerwithlabel.js"></script>
 
     <script>
 
@@ -76,7 +75,7 @@
         });
         distances.sort(function(a,b) { return d3.ascending(a[0], b[0]); });
         // distances = distances.slice(0, 30);
-        console.log("distances:", distances);
+        // console.log("distances:", distances);
 
         var extent = d3.extent(distances.map(function(d) { return d[0]; }));
         var hue = d3.scale.linear().domain(extent).range([80, 0]);
@@ -99,7 +98,7 @@
           });
           // console.log(radial + " in_circle:", in_circle.length);
           var style = {
-            strokeWeight: 10,
+            strokeWeight: 2,
             strokeColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
             strokeOpacity: in_circle.length > 0 ? 1 : 0,
             // strokeColor: "#000000",
@@ -111,23 +110,40 @@
             radius: radial * 1000 // meters -> km
           };
           var circle = new google.maps.Circle(style);
+
+          in_circle.forEach(function(point) {
+            var distance = point[0],
+                data = locations[point[1]];
+
+            var style = {
+              strokeWeight: 1,
+              strokeColor: "#000000",
+              // fillColor: "hsl(" + hue(distance) + ", 100%, 70%)",
+              fillColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
+              fillOpacity: 0.7,
+              map: map,
+              center: new google.maps.LatLng(+data.Y, +data.X),
+              radius: 100
+            };
+            var circle = new google.maps.Circle(style);
+          });
         });
 
-        distances.forEach(function(dist) {
-          var distance = dist[0],
-              data = locations[dist[1]];
+      //   distances.forEach(function(dist) {
+      //     var distance = dist[0],
+      //         data = locations[dist[1]];
 
-          var style = {
-            strokeWeight: 1,
-            strokeColor: "#000000",
-            fillColor: "hsl(" + hue(distance) + ", 100%, 70%)",
-            fillOpacity: 0.7,
-            map: map,
-            center: new google.maps.LatLng(+data.Y, +data.X),
-            radius: 200
-          };
-          var circle = new google.maps.Circle(style);
-        });
+      //     var style = {
+      //       strokeWeight: 1,
+      //       strokeColor: "#000000",
+      //       fillColor: "hsl(" + hue(distance) + ", 100%, 70%)",
+      //       fillOpacity: 0.7,
+      //       map: map,
+      //       center: new google.maps.LatLng(+data.Y, +data.X),
+      //       radius: 200
+      //     };
+      //     var circle = new google.maps.Circle(style);
+      //   });
       });
 
       function deg2rad(degrees) {
