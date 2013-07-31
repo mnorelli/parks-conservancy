@@ -6,125 +6,23 @@ var moment = require('moment');
 var pg = require('pg');
 var hstore = require('node-postgres-hstore');
 
+var opts = require("optimist")
+    .usage("--test will run the Convio feed inhaler in a with out saving to DB.  Optional can set a specific kind in environment variable.")
+    .demand([]);
+
+var ARGV = opts.argv;
+var testKind = 'all';
+
 var DEBUG = true;
 var DEBUGLEVEL = 2;
 var logger = function(level, msg){
     if(DEBUG && level >= DEBUGLEVEL)console.log(msg);
 }
 
-var xmlFile = 'http://www.parksconservancy.org/z-testing/stamens-sandbox/stamen-xml-feed.xml';
+var PG_CONNECTION_STRING = process.env.PG_CONN_STR;
+var XML_PATH = process.env.XML_PATH
 
-// ssh -gvN -L 5433:localhost:5432 geo.local
-// psql -U ggnpc -d ggnpc -p 5433 -h 127.0.0.1
-var pgConString = "postgres://ggnpc:@localhost:5433/ggnpc";
-
-// type is used when we export these out
-// as JSON
-var eventsDef = {
-    'id': {query: './id'},
-    'title': {query: './Title'},
-    'description': {query: './Description'},
-    'filename': {query: './FileName'},
-    'image': {query: './Image', attr: 'src', child: true},
-    'thumbnail': {query: './ImageThumb', attr: 'src', child: true},
-    'location': {query: './Location'},
-    'startdate': {query: './StartDate', type: 'date', format: 'YYYY-MM-DD H:mm'},
-    'enddate': {query: './EndDate', type: 'date', format: 'YYYY-MM-DD H:mm'},
-    'displaydate': {query: './DisplayDateTime' },
-    'cost': {query: './Cost' },
-    'eventtypes': {query: './EventType', type:'array'},
-    'phone': {query: './Phone' },
-    'audience': {query: './Audience', type:'array'},
-    'relatedpark': {query: './RelatedParks' },
-    'relatedprogram': {query: './RelatedPrograms' },
-    'relatedsubprogram': {query: './RelatedSubPrograms' }
-}
-
-var parksDef = {
-    'id': {query: './id'},
-    'filename': {query: './FileName'},
-    'title': {query: './Title'},
-    'description': {query: './Description'},
-    'hours': {query: './Hours'},
-    'address': {query: './StreetAddress'},
-    'location': {query: './Location'},
-    'link': {query: './Link'},
-    'dogs': {query: './Dogs' },
-    'image': {query: './ImageMain', attr: 'src', child: true},
-    'thumbnail': {query: './ImageThumb', attr: 'src', child: true},
-    'relatedproject': {query: './RelatedProject' }
-}
-
-var locationDef = {
-    'id': {query: './id'},
-    'filename': {query: './FileName'},
-    'title': {query: './Title'},
-    'description': {query: './Description'},
-    'hours': {query: './Hours'},
-    'address': {query: './StreetAddress'},
-    'location': {query: './Location'},
-    'link': {query: './Link'},
-    'parklocationtype': {query: './ParkLocationType' },
-    'relatedpark': {query: './RelatedPark' }
-}
-
-var programDef = {
-    'id': {query: './id'},
-    'filename': {query: './FileName'},
-    'url': {query: './Link'},
-    'title': {query: './Title'},
-    'description': {query: './Description'},
-    'image': {query: './Image', attr: 'src', child: true},
-    'contactinfo': {query: './ContactInfo'},
-    'donationurl': {query: './DonationUrl'},
-    'location': {query: './Location'}
-}
-
-var subprogramDef = {
-    'id': {query: './id'},
-    'filename': {query: './FileName'},
-    'url': {query: './Link'},
-    'title': {query: './Title'},
-    'description': {query: './Description'},
-    'contactinfo': {query: './ContactInfo'},
-    'volunteertype': {query: './VolunteerType'},
-    'agegroup': {query: './AgeGroup'},
-    'registrationurl': {query: './RegistrationUrl'},
-    'date': {query: './Date'},
-    'meetinglocation': {query: './MeetingLocation'},
-    'image': {query: './Image', attr: 'src', child: true},
-    'thumbnail': {query: './ImageThumb', attr: 'src', child: true},
-    'relatedprogram': {query: './RelatedProgram'},
-    'relatedpark': {query: './RelatedPark'}
-}
-
-var projectsDef = {
-    'id': {query: './id'},
-    'filename': {query: './FileName'},
-    'url': {query: './Link'},
-    'title': {query: './Title'},
-    'description': {query: './Description'},
-    'image': {query: './Image', attr: 'src', child: true},
-    'thumbnail': {query: './ImageThumb', attr: 'src', child: true},
-    'startdate': {query: './StartDate'},
-    'enddate': {query: './EndDate'},
-    'contactinfo': {query: './ContactInfo'},
-    'relatedprogram': {query: './RelatedProgram'},
-    'relatedpark': {query: './RelatedPark'},
-    'relatedspecies': {query: './RelatedSpecies'}
-}
-
-var speciesDef = {
-    'id': {query: './id'},
-    'filename': {query: './FileName'},
-    'url': {query: './Link'},
-    'title': {query: './Title'},
-    'description': {query: './Description'},
-    'image': {query: './Image', attr: 'src', child: true},
-    'thumbnail': {query: './ImageThumb', attr: 'src', child: true},
-    'relatedprogram': {query: './RelatedProgram'},
-    'relatedpark': {query: './RelatedPark'}
-}
+var defs = require("./lib/template_definitions.js")();
 
 // normalizes GGNPC dates to 'YYYY-MM-DD H:mm' format
 // found problems, like: '2013-07-12 9am'
@@ -190,24 +88,6 @@ var applyInsertFormat = function(item, type, format){
             }
             */
 
-        break;
-        default:
-            return item;
-        break;
-    }
-}
-
-var applyOutputFormat = function(item, type, format){
-    switch(type){
-        case 'date':
-            if(format){
-                return moment(item, format);
-            }else{
-                return moment(item)
-            }
-        break;
-        case 'array':
-            return item.split(',');
         break;
         default:
             return item;
@@ -301,7 +181,7 @@ var findNodes = function(kind, query, defs, xml, writer){
 // Load XML file
 // TODO: how to identify new items?
 var loadXmlFile = function(callback){
-    request(xmlFile, function (error, response, body) {
+    request(XML_PATH, function (error, response, body) {
         if (!error && response.statusCode == 200) {
 
             var xml = et.parse(body.toString());
@@ -315,7 +195,7 @@ var loadXmlFile = function(callback){
 }
 
 var run = function(){
-    pg.connect(pgConString, function(err, client, done) {
+    pg.connect(PG_CONNECTION_STRING, function(err, client, done) {
 
         var handleError = function(err) {
           if(!err) return false;
@@ -359,13 +239,13 @@ var run = function(){
                 setupTransaction( function(){
 
                     // run through all the types
-                    findNodes('event', './Events/Event', eventsDef, xml, writeData);
-                    findNodes('park', './Parks/Park', parksDef, xml, writeData);
-                    findNodes('location', './ParkLocations/ParkLocation', locationDef, xml, writeData);
-                    findNodes('program', './Programs/Program', programDef, xml, writeData);
-                    findNodes('subprogram', './SubPrograms/SubProgram', subprogramDef, xml, writeData);
-                    findNodes('project', './Projects/Project', projectsDef, xml, writeData);
-                    findNodes('specie', './Species/Specie', speciesDef, xml, writeData);
+                    findNodes('event', './Events/Event', defs.eventsDef, xml, writeData);
+                    findNodes('park', './Parks/Park', defs.parksDef, xml, writeData);
+                    findNodes('location', './ParkLocations/ParkLocation', defs.locationDef, xml, writeData);
+                    findNodes('program', './Programs/Program', defs.programDef, xml, writeData);
+                    findNodes('subprogram', './SubPrograms/SubProgram', defs.subprogramDef, xml, writeData);
+                    findNodes('project', './Projects/Project', defs.projectsDef, xml, writeData);
+                    findNodes('specie', './Species/Specie', defs.speciesDef, xml, writeData);
 
                     // commit
                     client.query('COMMIT',function(err, result) {
@@ -406,27 +286,26 @@ var groupProperty = function(items, prop){
 var test = function(){
     loadXmlFile(function(xml){
         if(xml){
-
-            findNodes('event', './Events/Event', eventsDef, xml, null);
-
-            //var items = findNodes('park', './Parks/Park', parksDef, xml, null);
-            //groupProperty(items, 'link');
-
-            //var items = findNodes('location', './ParkLocations/ParkLocation', locationDef, xml, null);
-            //groupProperty(items, 'relatedpark');
-
-            //var items = findNodes('program', './Programs/Program', programDef, xml, null);
-            //findNodes('subprogram', './SubPrograms/SubProgram', subprogramDef, xml, null);
-
-            //findNodes('subprogram', './Projects/Project', projectsDef, xml, null);
-
-            //findNodes('species', './Species/Specie', speciesDef, xml, null);
-
+            if(testKind == 'all' || testKind == 'event')        findNodes('event', './Events/Event', defs.eventsDef, xml, null);
+            if(testKind == 'all' || testKind == 'park')         findNodes('park', './Parks/Park', defs.parksDef, xml, null);
+            if(testKind == 'all' || testKind == 'location')     findNodes('location', './ParkLocations/ParkLocation', defs.locationDef, xml, null);
+            if(testKind == 'all' || testKind == 'program')      findNodes('program', './Programs/Program', defs.programDef, xml, null);
+            if(testKind == 'all' || testKind == 'subprogram')   findNodes('subprogram', './SubPrograms/SubProgram', defs.subprogramDef, xml, null);
+            if(testKind == 'all' || testKind == 'project')      findNodes('project', './Projects/Project', defs.projectsDef, xml, null);
+            if(testKind == 'all' || testKind == 'specie')      findNodes('species', './Species/Specie', defs.speciesDef, xml, null);
         }
     });
 }
-//test();
-run();
+
+if(ARGV.test){
+    testKind = ARGV.test || 'all';
+    if(testKind == true)testKind = 'all';
+
+    console.log("TEST: ", testKind);
+    //test();
+}else{
+    //run();
+}
 
 
 

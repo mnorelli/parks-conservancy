@@ -10,7 +10,9 @@
     "elementtree": "",
     "moment": "",
     "pg": "",
-    "node-postgres-hstore": ""
+    "node-postgres-hstore": "",
+    "restify": "",
+    "optimist": ""
   },
   "engines": {
     "node": "~0.10.13",
