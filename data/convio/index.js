@@ -126,11 +126,61 @@ var speciesDef = {
     'relatedpark': {query: './RelatedPark'}
 }
 
+// normalizes GGNPC dates to 'YYYY-MM-DD H:mm' format
+// found problems, like: '2013-07-12 9am'
+var normalizeDate = function(item){
+    if(!item)return '';
 
-var applyFormat = function(item, type, format){
+    var temp = item.replace(/[^\d:-\s]/g, '').trim();
+    var parts = temp.split(' ');
+    var hour,
+        minutes,
+        date,
+        time;
+
+    if(parts.length){
+        date = parts[0];
+        if(parts.length == 1){ // no time for date
+            return date + ' 00:00';
+        }else{
+            var timeParts = parts[1].split(':');
+
+            // fix time
+            if(timeParts.length){
+                hour = timeParts[0].trim();
+
+                if(hour.length < 1){
+                    hour = '00';
+                }else if(hour.length == 1){ // missing leading zero
+                    hour = '0' + hour;
+                }else{
+                    hour = hour.slice(0,2);
+                }
+
+                if(timeParts.length == 2){
+                    minutes = timeParts[1].trim();
+                }else{
+                    minutes = '00';
+                }
+
+                time = hour + ':' + minutes;
+
+
+            }else{
+                time = '00:00';
+            }
+
+            return date + ' ' + time;
+        }
+    }
+
+    return item;
+}
+
+var applyInsertFormat = function(item, type, format){
     switch(type){
         case 'date':
-            return item;
+            return normalizeDate(item);
 
             /*
             if(format){
@@ -140,6 +190,21 @@ var applyFormat = function(item, type, format){
             }
             */
 
+        break;
+        default:
+            return item;
+        break;
+    }
+}
+
+var applyOutputFormat = function(item, type, format){
+    switch(type){
+        case 'date':
+            if(format){
+                return moment(item, format);
+            }else{
+                return moment(item)
+            }
         break;
         case 'array':
             return item.split(',');
@@ -152,9 +217,12 @@ var applyFormat = function(item, type, format){
 
 // parser for each item in a tree
 var parseItem = function(item, mapper){
-    return item.findtext(mapper.query);
 
     var value;
+    // do various things to item to pull out it's content
+    // for example, links to images are an attribute of an img tag
+    // skipping for now
+    /*
     if(mapper.attr){
 
         if(mapper.child){
@@ -184,12 +252,18 @@ var parseItem = function(item, mapper){
         }
 
     }
+    */
 
-    // do this on output only?
+    // remove this if using the above code
+    try{
+        value = item.findtext(mapper.query);
+    }catch(e){
+        logger(1, '[Error] - Could not find text.');
+    }
+
+    // apply any type and format mutations
     if(mapper.type && value){
-
-        //value = applyFormat(value, mapper.type, mapper.format || '');
-
+        value = applyInsertFormat(value, mapper.type, mapper.format || '');
     }
 
     return value;
@@ -219,8 +293,6 @@ var findNodes = function(kind, query, defs, xml, writer){
         parsed.push(obj);
 
         if(writer) writer(kind, obj);
-
-
     });
 
     return parsed;
@@ -335,7 +407,7 @@ var test = function(){
     loadXmlFile(function(xml){
         if(xml){
 
-            //var items = findNodes('event', './Events/Event', eventsDef, xml, null);
+            findNodes('event', './Events/Event', eventsDef, xml, null);
 
             //var items = findNodes('park', './Parks/Park', parksDef, xml, null);
             //groupProperty(items, 'link');
@@ -353,7 +425,7 @@ var test = function(){
         }
     });
 }
-
+//test();
 run();
 
 
