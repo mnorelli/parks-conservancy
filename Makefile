@@ -1,5 +1,5 @@
 PGDATABASE?=ggnpc
-PGHOST?=geo.local
+PGHOST?=localhost
 PGPORT?=5432
 PGUSER?=ggnpc
 
