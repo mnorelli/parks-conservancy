@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+      }
+
+      .map {
+        display: inline-block;
+        margin: 10px;
+        width: 235px;
+      }
+
+      .map div {
+        width: 235px;
+        height: 320px;
+      }
+
+      .count {
+        font-size: 10px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="content"></div>
+
+    <script src="js/d3.v3.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+    <script>
+      var content = d3.select("#content");
+
+      var qs = function() {
+        var args = {},
+            parts = window.location.search.substr(1).split("&");
+        
+        parts.forEach(function(arg) {
+          arg = arg.split("=");
+          args[arg[0]] = decodeURIComponent(arg[1]);
+        });
+        return args;
+      };
+      var args = qs();
+
+      var format = function(str, replacements) {
+        Object.keys(replacements).forEach(function(repl) {
+          str.replace(repl, replacements[repl]);
+        });
+        return str;
+      }
+
+      d3.csv("data/locations.csv", function(err, locations) {
+        var nest = d3.nest()
+          .key(function(d) { return d.type; });
+
+        var entries = nest.entries(locations);
+        var entries_by_type = nest.map(locations);
+
+        var loctype = args.type || null;
+        if (!args || !loctype) {
+          var list = entries.map(function(entry) {
+            console.log(entry);
+            var link = [
+              "<a href=locations.html?type=",
+              encodeURIComponent(entry.key),
+              ">",
+              entry.key,
+              "</a> <span class=\"count\">(",
+              entry.values.length,
+              " points)</span>"
+            ].join("");
+            return link;
+          });
+          content.html("<h2>" + locations.length + " locations</h2>" + list.join("<br>"));
+          return;
+        }
+
+        var filtered = entries_by_type[loctype];
+
+        content.html(["<h3>type=", loctype, " (", filtered.length, " points)</h3>"].join(""));
+        var div = content.selectAll("div")
+          .data(filtered)
+        .enter().append("div")
+          .attr("class", "map");
+
+        div.append("h5")
+          .text(function(d) { return d.name; });
+
+        div.append("div")
+          .attr("id", function(d, i) { return "map" + i; });
+
+        filtered.forEach(function(point, i) {
+          var glocation = new google.maps.LatLng(+point.Y, +point.X);
+          var opts = {
+            zoom: 14,
+            center: glocation,
+            disableDefaultUI: true,
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+          };
+          var map = new google.maps.Map(document.getElementById('map' + i), opts);
+
+          var display = {
+            strokeWeight: 0,
+            fillColor: '#FF0000',
+            fillOpacity: 0.7,
+            map: map,
+            center: glocation,
+            radius: 30
+          };
+          var circle = new google.maps.Circle(display);
+
+        });
+
+
+
+      });
+
+    </script>
+
+  </body>
+</html>

@@ -12,11 +12,11 @@
       }
 
       body {
-        background: #1a1a1a;
+        /*background: #1a1a1a;*/
       }
 
       svg image {
-        opacity: 0.2;
+        /*opacity: 0.2;*/
       }
 
       g.layer path {
@@ -42,6 +42,13 @@
         padding: 50px;
         cursor: pointer;
       }
+
+      #tooltip {
+        position: fixed;
+        display: none;
+        background: #fff;
+        padding: 5px;
+      }
     </style>
   </head>
 
@@ -64,6 +71,7 @@
       <div id="reset">reset!</div>
       -->
     </div>
+    <div id="tooltip"></div>
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script src="js/vendor/d3.v3.js"></script>
@@ -164,30 +172,50 @@
           .add(po.hash());
       
       map.add(po.image()
-          .url(po.url("http://tile.stamen.com/toner/{Z}/{X}/{Y}.jpg")
-          .hosts(["a.", "b.", "c.", ""])));
+        .url(po.url("https://mts1.googleapis.com/vt?lyrs=m@225212212&src=apiv3&hl=en-US&x={X}&y={Y}&z={Z}&s=Gali&apistyle=s.t%3A3%7Cp.v%3Aoff%2Cs.t%3A4%7Cp.v%3Aoff%2Cs.e%3Al%7Cp.v%3Aoff&style=59,37%7Csmartmaps")));
+
+      // map.add(po.image()
+      //     .url(po.url("http://{S}tile.stamen.com/toner/{Z}/{X}/{Y}.jpg")
+      //     .hosts(["a.", "b.", "c.", ""])));
 
       map.add(po.compass()
           .pan("none"));
 
-      var geo = po.geoJson();
+      function min2hours(mins) {
+        return mins/60 < 1 ? mins : (mins/60).toFixed(2);
+      }
+
+      var geo = po.geoJson(),
+          tooltip = d3.select("#tooltip");
       function mapthat(features) {
         map.add(geo.features(features)
           .on("load", load));
+        var routes = d3.selectAll("path.route")[0];
+        routes.forEach(function(route) { 
+          route.addEventListener("mousemove", function(e) { 
+            tooltip
+              .style("display", "inline")
+              .style("top", e.y + 10 + "px")
+              .style("left", e.x + 10 + "px")
+              .html("Duration:<br>" + min2hours(route.getAttribute("data-duration") * 2 + 60) + " hours");
+          });
+          route.addEventListener("mouseout", function() {
+            tooltip.style("display", "none");
+          });
+        })
       }
 
       function load(e) {
         e.features.forEach(function(feature, i) {
-          // d3.select(feature.element).on("mouseover", function(d) { 
-          //   console.log(feature.data.properties.durations[i]);
-          // });
           var color = "hsl(" + Math.random() * 360 + ", 100%, 70%)",
               duration = feature.data.properties.duration;
           // console.log("duration:", feature.data.properties.duration, "; i:", i);
           // feature.element.parentNode.insertBefore(feature.element.parentNode.firstChild);
           feature.element.setAttribute("data-duration", duration);
+          // feature.element.setAttribute("data-name", feature.data.properties.Name);
           feature.element.setAttribute("stroke", color);
           feature.element.setAttribute("stroke-width", size(duration));
+          feature.element.setAttribute("class", "route");
         });
       }
 
