@@ -3,17 +3,7 @@ PGHOST?=geo.local
 PGPORT?=5432
 PGUSER?=ggnpc
 
-mml: project.mml
-
-setup:
-	npm install -g js-yaml
-
-install:
-	mkdir -p ${HOME}/Documents/MapBox/project
-	ln -s `pwd` ${HOME}/Documents/MapBox/project/GGNPC-basemap
-
 clean:
-	rm project.mml
 	rm -rf tmp/
 
 distclean:
@@ -21,9 +11,6 @@ distclean:
 
 psql:
 	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql
-
-project.mml: project.yml
-	js-yaml --to-json project.yml > project.mml
 
 data: data-cpad data-osm data-osm-coastline \
       data-nhd \
