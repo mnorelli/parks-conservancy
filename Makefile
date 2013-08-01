@@ -37,6 +37,7 @@ data-osm: data/sf-bay-area.osm.pbf
 		      -U ${PGUSER} \
 			  -H ${PGHOST} \
 			  -P ${PGPORT} \
+			  -W \
 			  -c \
 			  -C2000 \
 			  --number-processes=4 \
