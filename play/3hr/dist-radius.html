@@ -14,19 +14,55 @@
 
       }
 
+      div#controls {
+        position: fixed;
+        top: 0;
+        left: 20%;
+        padding: 10px;
+        background: #fff;
+        width: 500px;
+        opacity: 0.8;
+      }
+
+      input#origin {
+        width: 300px;
+        float: left;
+      }
+
+      #go {
+        padding: 10px;
+        max-width: 50px;
+        margin-left: 3px;
+        font-weight: bold;
+        background: #ccc;
+        cursor: pointer;
+        float: left;
+      }
+
+      #go:hover {
+        background: #00ccff;
+      }
+
     </style>
   </head>
 
   <body>
 
     <div id="content"></div>
+    <div id="controls">
+      <input type="text" id="origin">
+      <div id="go">GO</div>
+    </div>
+
 
     <script src="js/d3.v3.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
 
     <script>
 
-      var content = d3.select("#content");
+      var content = d3.select("#content"),
+          origin_input = d3.select("#origin"),
+          go_button = d3.select("#go");
 
       var margin = 50;
       content.style("width", window.innerWidth + "px")
@@ -42,16 +78,7 @@
       };
       var map = new google.maps.Map(document.getElementById("content"), opts);
 
-      // create the origin marker (where you are)
-      var display = {
-        strokeWeight: 0,
-        fillColor: '#ff0000',
-        fillOpacity: 0.7,
-        map: map,
-        center: center,
-        radius: 300
-      };
-      var circle = new google.maps.Circle(display);
+      var markers = [];
 
       var locations,
           valid = ["Meeting Place", "Park", "Trailhead", "Beach", "Site of Interest", "Overlook"];
@@ -65,7 +92,55 @@
         drawmap();
       });
 
+      go_button.on("click", function() {
+        console.log("clicked go");
+        codeAddress(origin_input.property("value"), getGeocodeResults);
+      });
+
+      function addMarker(style) {
+        var circle = new google.maps.Circle(style);
+        markers.push(circle);
+      }
+
+      function clearAllMarkers() {
+        markers.forEach(function(marker) {
+          marker.setMap(null);
+        });
+        markers = [];
+      }
+
+      var geocoder = new google.maps.Geocoder();
+      function codeAddress(address, callback) {
+        // XXX from SC
+        geocoder.geocode({address: address}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            callback(results[0].geometry.location)
+          } else {
+            callback(null);
+          }
+        });
+      }
+
+      function getGeocodeResults(result) {
+        clearAllMarkers();
+        center = result;
+        drawmap();
+      }
+
+
       function drawmap() {
+
+        // create the origin marker (where you are)
+        var centerStyle = {
+          strokeWeight: 0,
+          fillColor: '#ff0000',
+          fillOpacity: 0.7,
+          map: map,
+          center: center,
+          radius: 300
+        };
+        addMarker(centerStyle);
+
         var origin = center;
         var distances = [];
         locations.forEach(function(location, i) {
@@ -101,10 +176,10 @@
             strokeOpacity: in_circle.length > 0 ? 1 : 0,
             fillOpacity: 0,
             map: map,
-            center: center,
+            center: origin,
             radius: radial.ring * 1000 // meters -> km
           };
-          var circle = new google.maps.Circle(style);
+          addMarker(style);
 
           // var delaunay = d3.geom.delaunay()
           //       .x(function(d) { return +d[1].X; })
@@ -146,7 +221,7 @@
               center: location,
               radius: 200
             };
-            var circle = new google.maps.Circle(style);
+            addMarker(style);
 
             // var line = new google.maps.Polyline({
             //   path: [location, center], // XXX these variables could be named better
