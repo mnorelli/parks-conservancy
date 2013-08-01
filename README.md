@@ -8,4 +8,5 @@ Redesign of the interactive map used on
 
 * [`master`](https://github.com/stamen/parks-conservancy) - you're looking at it.
 * [`www`](https://github.com/stamen/parks-conservancy/tree/www) - site templates for testing in situ.
-* [`basemap`](https://github.com/stamen/parks-conservancy/tree/basemap) - Basemap and data import scripts.
+* [`basemap`](https://github.com/stamen/parks-conservancy/tree/basemap) - Basemap.
+* [`data`](https://github.com/stamen/parks-conservancy/tree/data) - Data import scripts.
