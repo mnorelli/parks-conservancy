@@ -30,10 +30,10 @@
       }
 
       #go {
-        padding: 10px;
+        padding: 2px;
         max-width: 50px;
         margin-left: 3px;
-        font-weight: bold;
+        /*font-weight: bold;*/
         background: #ccc;
         cursor: pointer;
         float: left;
@@ -214,7 +214,8 @@
             var color = "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)";
 
             var style = {
-              strokeWeight: 0,
+              strokeColor: "#ffffff",
+              strokeWeight: 0.5,
               fillColor: color,
               fillOpacity: 0.7,
               map: map,
