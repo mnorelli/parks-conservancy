@@ -106,7 +106,7 @@ var processResult = function(kind, result){
     return out;
 }
 
-var normalizeFilename = function(filename){
+var normalizeFilename = lib.normalizeFilename = function(filename){
     filename = filename.split('.').shift();
     filename += '.html';
     return filename;
@@ -162,6 +162,7 @@ var makeWhereStatement = lib.makeWhereStatement = function(paramsObject){
                 for(var attr in value){
                     var attrValue = value[attr];
                     if(attr == 'filename')attrValue = normalizeFilename(attrValue);
+
                     connectors();
                     if(attrValue.charAt(0) == "!"){
                         where += "attributes->'" + attr + "' != $" + idx;
@@ -189,15 +190,18 @@ var makeWhereStatement = lib.makeWhereStatement = function(paramsObject){
 
 
 
-lib.baseQuery = function(columns, where, order, limit, callback){
-    var query = '',
-        params = [];
+lib.baseQuery = function(columns, where, params, order, limit, callback){
+    var query = '';
+
+    params = params || [];
 
     columns = columns || ['*'];
     columns = columns.join(",");
 
     query = "SELECT " + columns + " FROM convio";
+    query += " " + where;
 
+    /*
     if(where && where instanceof Object){
         var w = makeWhereStatement(where);
         query += " " + w.where;
@@ -205,6 +209,7 @@ lib.baseQuery = function(columns, where, order, limit, callback){
     }else if(where && where.length){
         query += " " + where;
     }
+    */
 
     if(order && order.length){
         query += " ORDER BY " + order;
@@ -220,43 +225,36 @@ lib.baseQuery = function(columns, where, order, limit, callback){
             return callback( err );
         }
 
-        var kind;
-        if(where && where.kind){
-            kind = where.kind;
-        }
-
-        return callback( null, processResult(kind, data) );
+        return callback( null, processResult('', data) );
     });
 
 }
 
 
 lib.findStuffForPark = function(filename, kind, callback){
-    var where = {
-        kind: 'park',
-        attributes: {
-            filename: filename
-        }
-    };
+    var where = "WHERE kind = 'park' AND attributes->'filename' = $1";
 
-    //(columns, where, order, limit, callback)
-    lib.baseQuery(["*"], where, '', '', function(err, parent){
+    //(columns, where, params, order, limit, callback)
+    lib.baseQuery(["*"], where, [filename], '', '', function(err, parent){
         if(err){
             return callback( err );
         }
         if(parent.results.length){
+            var m = moment().format('YYYY-MM-DD H:mm');
 
             var id = parent.results[0].attributes.id;
+            var params;
 
-            //if(kind == "*") kind = "!park";
-            where = {
-                kind: kind,
-                attributes: {
-                    relatedpark: id
-                }
-            };
+            if(kind != "*"){
+                where = "WHERE kind = $1 AND attributes->'relatedpark' = $2";
+                params = [kind, id];
+            }else{
+                where = "WHERE kind != 'park' AND attributes->'relatedpark' = $1";
+                params = [id]
+            }
 
-            lib.baseQuery(['*'], where, '', '', function(err, children){
+
+            lib.baseQuery(['*'], where, params, '', '', function(err, children){
                 if(err){
                     return callback( err );
                 }
@@ -273,6 +271,5 @@ lib.findStuffForPark = function(filename, kind, callback){
             return callback( [] );
         }
     });
-
 }
 
