@@ -300,11 +300,9 @@ var test = function(){
 if(ARGV.test){
     testKind = ARGV.test || 'all';
     if(testKind == true)testKind = 'all';
-
-    console.log("TEST: ", testKind);
-    //test();
+    test();
 }else{
-    //run();
+    run();
 }
 
 
