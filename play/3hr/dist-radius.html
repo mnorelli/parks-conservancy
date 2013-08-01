@@ -53,30 +53,28 @@
       };
       var circle = new google.maps.Circle(display);
 
-      d3.csv("data/locations.csv", function(err, locations) {
-        // console.log("locations:", locations);
-        locations = locations.filter(function(loc) {
-          var t = loc.type;
-          return t === "Meeting Place" 
-              || t === "Park" 
-              || t === "Trailhead" 
-              || t === "Beach"
-              || t === "Site of Interest"
-              || t === "Overlook";
-        });
+      var locations,
+          valid = ["Meeting Place", "Park", "Trailhead", "Beach", "Site of Interest", "Overlook"];
 
-        var origin = center; //[center.jb, center.kb];
+      d3.csv("data/locations.csv", function(err, locs) {
+
+        locations = locs.filter(function(loc) {
+          var t = loc.type;
+          return valid.indexOf(t) > -1;
+        });
+        drawmap();
+      });
+
+      function drawmap() {
+        var origin = center;
         var distances = [];
         locations.forEach(function(location, i) {
           var coords = [location.Y, location.X].map(Number);
           var destination = new google.maps.LatLng(coords[0], coords[1]);
-          // var distance = getDistance(origin, destination);
           var distance = distHaversine(origin, destination);
           distances.push([distance, i]);
         });
         distances.sort(function(a,b) { return d3.ascending(a[0], b[0]); });
-        // distances = distances.slice(0, 30);
-        // console.log("distances:", distances);
 
         // var extent = d3.extent(distances.map(function(d) { return d[0]; }));
         // var hue = d3.scale.linear().domain(extent).range([80, 0]);
@@ -89,16 +87,14 @@
             return point[0] < radial * 1000 
                 && point[0] > (radial - 2) * 1000;
           });
+          radials[i] = {points: in_circle, ring: radial};
           if (in_circle.length > max_points_in_radial) max_points_in_radial = in_circle.length;
         });
 
         var radial_hue = d3.scale.linear().domain([0, max_points_in_radial]).range([200, 360]);
 
-        radials.forEach(function(radial) {
-          var in_circle = distances.filter(function(point) {
-            return point[0] < radial * 1000 
-                && point[0] > (radial - 2) * 1000;
-          });
+        radials.forEach(function(radial, i) {
+          var in_circle = radial.points;
           var style = {
             strokeWeight: 2,
             strokeColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
@@ -106,7 +102,7 @@
             fillOpacity: 0,
             map: map,
             center: center,
-            radius: radial * 1000 // meters -> km
+            radius: radial.ring * 1000 // meters -> km
           };
           var circle = new google.maps.Circle(style);
 
@@ -114,25 +110,26 @@
           //       .x(function(d) { return +d[1].X; })
           //       .y(function(d) { return +d[1].Y; });
 
-          if (in_circle.length) {
-            var for_delaunay = in_circle.map(function(pt) {
-                var data = locations[pt[1]];
-                return [+data.X, +data.Y, pt]; 
-            });
-            var connections = d3.geom.delaunay(for_delaunay);
-            connections.forEach(function(conn) {
-              var polygon_points = conn.map(function(pt) { return new google.maps.LatLng(pt[1], pt[0]); });
-              var polygon = new google.maps.Polygon({
-                paths: polygon_points,
-                strokeColor: style.strokeColor,
-                strokeOpacity: 0.7,
-                strokeWeight: 2,
-                fillOpacity: 0
-              });
+          // if (in_circle.length) {
+          //   var for_delaunay = in_circle.map(function(pt) {
+          //       var data = locations[pt[1]];
+          //       return [+data.X, +data.Y, pt]; 
+          //   });
+          //   for_delaunay = for_delaunay.concat([[center.lng(), center.lat()]]);
+          //   var connections = d3.geom.delaunay(for_delaunay);
+          //   connections.forEach(function(conn) {
+          //     var polygon_points = conn.map(function(pt) { return new google.maps.LatLng(pt[1], pt[0]); });
+          //     var polygon = new google.maps.Polygon({
+          //       paths: polygon_points,
+          //       strokeColor: style.strokeColor,
+          //       strokeOpacity: 0.7,
+          //       strokeWeight: 1, //2,
+          //       fillOpacity: 0
+          //     });
 
-              polygon.setMap(map);
-            });
-          }
+          //     polygon.setMap(map);
+          //   });
+          // }
 
           in_circle.forEach(function(point) {
             var distance = point[0],
@@ -162,7 +159,7 @@
 
           });
         });
-      });
+      }
 
       function deg2rad(degrees) {
         return degrees * (Math.PI / 180);
