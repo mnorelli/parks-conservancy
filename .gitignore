@@ -1,4 +1,8 @@
 blog/
 *.DS_Store
-*.env
+.env
 data/convio/node_modules
+project.mml
+data/
+tmp/
+data-*
