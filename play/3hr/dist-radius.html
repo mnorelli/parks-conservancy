@@ -22,7 +22,7 @@
     <div id="content"></div>
 
     <script src="js/d3.v3.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
 
     <script>
 
@@ -42,6 +42,7 @@
       };
       var map = new google.maps.Map(document.getElementById("content"), opts);
 
+      // create the origin marker (where you are)
       var display = {
         strokeWeight: 0,
         fillColor: '#ff0000',
@@ -77,33 +78,31 @@
         // distances = distances.slice(0, 30);
         // console.log("distances:", distances);
 
-        var extent = d3.extent(distances.map(function(d) { return d[0]; }));
-        var hue = d3.scale.linear().domain(extent).range([80, 0]);
+        // var extent = d3.extent(distances.map(function(d) { return d[0]; }));
+        // var hue = d3.scale.linear().domain(extent).range([80, 0]);
 
         var radials = d3.range(2, 100, 2).reverse(),
             max_points_in_radial = 0;
 
-        radials.forEach(function(radial) {
+        radials.forEach(function(radial, i) {
           var in_circle = distances.filter(function(point) {
-            return point[0] < radial * 1000 && point[0] > (radial - 2) * 1000;
+            return point[0] < radial * 1000 
+                && point[0] > (radial - 2) * 1000;
           });
-          max_points_in_radial = in_circle.length > max_points_in_radial ? in_circle.length : max_points_in_radial;
+          if (in_circle.length > max_points_in_radial) max_points_in_radial = in_circle.length;
         });
 
         var radial_hue = d3.scale.linear().domain([0, max_points_in_radial]).range([200, 360]);
 
         radials.forEach(function(radial) {
           var in_circle = distances.filter(function(point) {
-            return point[0] < radial * 1000 && point[0] > (radial - 2) * 1000;
+            return point[0] < radial * 1000 
+                && point[0] > (radial - 2) * 1000;
           });
-          // console.log(radial + " in_circle:", in_circle.length);
           var style = {
             strokeWeight: 2,
             strokeColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
             strokeOpacity: in_circle.length > 0 ? 1 : 0,
-            // strokeColor: "#000000",
-            // fillColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
-            // fillColor: "none",
             fillOpacity: 0,
             map: map,
             center: center,
@@ -111,39 +110,58 @@
           };
           var circle = new google.maps.Circle(style);
 
+          // var delaunay = d3.geom.delaunay()
+          //       .x(function(d) { return +d[1].X; })
+          //       .y(function(d) { return +d[1].Y; });
+
+          if (in_circle.length) {
+            var for_delaunay = in_circle.map(function(pt) {
+                var data = locations[pt[1]];
+                return [+data.X, +data.Y, pt]; 
+            });
+            var connections = d3.geom.delaunay(for_delaunay);
+            connections.forEach(function(conn) {
+              var polygon_points = conn.map(function(pt) { return new google.maps.LatLng(pt[1], pt[0]); });
+              var polygon = new google.maps.Polygon({
+                paths: polygon_points,
+                strokeColor: style.strokeColor,
+                strokeOpacity: 0.7,
+                strokeWeight: 2,
+                fillOpacity: 0
+              });
+
+              polygon.setMap(map);
+            });
+          }
+
           in_circle.forEach(function(point) {
             var distance = point[0],
-                data = locations[point[1]];
+                data = locations[point[1]],
+                location = new google.maps.LatLng(+data.Y, +data.X);
+
+            var color = "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)";
 
             var style = {
-              strokeWeight: 1,
-              strokeColor: "#000000",
-              // fillColor: "hsl(" + hue(distance) + ", 100%, 70%)",
-              fillColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
+              strokeWeight: 0,
+              fillColor: color,
               fillOpacity: 0.7,
               map: map,
-              center: new google.maps.LatLng(+data.Y, +data.X),
-              radius: 100
+              center: location,
+              radius: 200
             };
             var circle = new google.maps.Circle(style);
+
+            // var line = new google.maps.Polyline({
+            //   path: [location, center], // XXX these variables could be named better
+            //   strokeColor: color,
+            //   strokeOpacity: 0.5,
+            //   strokeWeight: 1,
+            //   geodesic: true,
+            //   map: map
+            // });
+
           });
         });
-
-      //   distances.forEach(function(dist) {
-      //     var distance = dist[0],
-      //         data = locations[dist[1]];
-
-      //     var style = {
-      //       strokeWeight: 1,
-      //       strokeColor: "#000000",
-      //       fillColor: "hsl(" + hue(distance) + ", 100%, 70%)",
-      //       fillOpacity: 0.7,
-      //       map: map,
-      //       center: new google.maps.LatLng(+data.Y, +data.X),
-      //       radius: 200
-      //     };
-      //     var circle = new google.maps.Circle(style);
-      //   });
       });
 
       function deg2rad(degrees) {
