@@ -15,7 +15,7 @@ module.exports = exports = function(options) {
 
 var lib = {};
 
-var CONNECTION_STRING = process.env.PG_CONN_STR;
+var CONNECTION_STRING = process.env.DATABASE_URL;
 
 var runQuery = function(query, params, callback){
     pg.connect(CONNECTION_STRING, function(err, client, done) {
@@ -66,24 +66,36 @@ var processResult = function(kind, result){
     var out = {};
     out.results = [];
 
+    kind = kind || '';
+
     if(result && result.rows){
 
         result.rows.forEach(function(row){
 
-            var attributes = hstore.parse(row.attributes);
+            kind = row.kind || kind;
 
-            if(defs.kinds.hasOwnProperty(kind)){
-                var def = defs.kinds[kind];
+            var obj = {};
+            for(var key in row){
+                if(key == 'attributes'){
+                    var attributes = hstore.parse(row.attributes);
 
-                for(var key in attributes){
-                    attributes[key] = applyOutputFormat(attributes[key], def[key].type || '', def[key].format || '' )
+                    if(defs.kinds.hasOwnProperty(kind)){
+                        var def = defs.kinds[kind];
+
+                        for(var attr in attributes){
+                            attributes[attr] = applyOutputFormat(attributes[attr], def[attr].type || '', def[attr].format || '' )
+                        }
+                    }
+
+                    obj.attributes = attributes;
+
+                }else{
+                    obj[key] = row[key];
                 }
+
             }
 
-            out.results.push({
-                'kind': row.kind,
-                'attributes':  attributes
-            });
+            out.results.push(obj);
         });
 
     }
@@ -94,40 +106,113 @@ var processResult = function(kind, result){
     return out;
 }
 
-lib.searchByTitle = function(kind, title, callback){
-
-    var query = "select * from convio where kind = $1 AND to_tsvector('english', attributes->'title') @@ to_tsquery('english', $2)";
-    var params = [kind, title];
-
-    runQuery(query, params, function(err, data){
-
-        if(err){
-            return callback( err );
-        }
-
-        return callback( processResult(kind, data) );
-    });
-}
-
-lib.findByFilename = function(kind, filename, callback){
+var normalizeFilename = function(filename){
     filename = filename.split('.').shift();
     filename += '.html';
-    var query = "select * from convio where kind = $1 AND attributes->'filename' = $2";
-    var params = [kind, filename];
-
-    runQuery(query, params, function(err, data){
-
-        if(err){
-            return callback( err );
-        }
-
-        return callback( processResult(kind, data) );
-    });
+    return filename;
 }
 
-lib.findById = function(kind, id, callback){
-    var query = "select * from convio where kind = $1 AND attributes->'id' = $2";
-    var params = [kind, id];
+var validKind = function(kind){
+    return defs.kinds.hasOwnProperty(kind);
+}
+
+var normalizeKind = lib.normalizeKind = function(kind){
+    return (validKind(kind)) ? kind : "*";
+}
+
+// TODO: write me
+var validAttribute = function(){
+
+}
+
+
+/**
+  * {kind: 'park', attributes: {'id':<val>,{'filename':<val>,...}, textsearch: {attribute:<val>, needle: <val>}}
+  */
+var makeWhereStatement = lib.makeWhereStatement = function(paramsObject){
+    var where = "";
+    var params = [];
+    var idx = 1;
+
+    function connectors(){
+        if(!where.length){
+            where = "WHERE ";
+        }else{
+            where += " AND ";
+        }
+    }
+
+    for(var key in paramsObject){
+        var value = paramsObject[key];
+
+        if(key == 'kind' && validKind(value) && value != '*'){ // '*' or any non-valid kind will not restrict query to a specific kind
+            connectors();
+            if(value.charAt(0) == "!"){
+                where += "kind != $" + idx;
+                params.push(value.slice(1));
+            }else{
+                where += "kind = $" + idx;
+                params.push(value);
+            }
+
+
+            idx++;
+        }else if(key == 'attributes'){
+            if(value instanceof Object){
+                for(var attr in value){
+                    var attrValue = value[attr];
+                    if(attr == 'filename')attrValue = normalizeFilename(attrValue);
+                    connectors();
+                    if(attrValue.charAt(0) == "!"){
+                        where += "attributes->'" + attr + "' != $" + idx;
+                        params.push(attrValue.slice(1));
+                    }else{
+                        where += "attributes->'" + attr + "' = $" + idx;
+                        params.push(attrValue);
+                    }
+                    idx++;
+                }
+            }
+        }else if(key == 'textsearch'){
+            if(value.attribute && value.needle){
+                connectors();
+                where += "to_tsvector('english', attributes->'" + value.attribute + "')";
+                where += " @@ to_tsquery('english', $" + idx + ")";
+                params.push(value.needle);
+                idx++;
+            }
+        }
+    }
+
+    return {where: where, params: params};
+}
+
+
+
+lib.baseQuery = function(columns, where, order, limit, callback){
+    var query = '',
+        params = [];
+
+    columns = columns || ['*'];
+    columns = columns.join(",");
+
+    query = "SELECT " + columns + " FROM convio";
+
+    if(where && where instanceof Object){
+        var w = makeWhereStatement(where);
+        query += " " + w.where;
+        params = w.params;
+    }else if(where && where.length){
+        query += " " + where;
+    }
+
+    if(order && order.length){
+        query += " ORDER BY " + order;
+    }
+
+    if(limit){
+        query += " LIMIT " + parseInt(limit, 10);
+    }
 
     runQuery(query, params, function(err, data){
 
@@ -135,7 +220,59 @@ lib.findById = function(kind, id, callback){
             return callback( err );
         }
 
-        return callback( processResult(kind, data) );
+        var kind;
+        if(where && where.kind){
+            kind = where.kind;
+        }
+
+        return callback( null, processResult(kind, data) );
     });
+
+}
+
+
+lib.findStuffForPark = function(filename, kind, callback){
+    var where = {
+        kind: 'park',
+        attributes: {
+            filename: filename
+        }
+    };
+
+    //(columns, where, order, limit, callback)
+    lib.baseQuery(["*"], where, '', '', function(err, parent){
+        if(err){
+            return callback( err );
+        }
+        if(parent.results.length){
+
+            var id = parent.results[0].attributes.id;
+
+            //if(kind == "*") kind = "!park";
+            where = {
+                kind: kind,
+                attributes: {
+                    relatedpark: id
+                }
+            };
+
+            lib.baseQuery(['*'], where, '', '', function(err, children){
+                if(err){
+                    return callback( err );
+                }
+
+                var stuff = {
+                    parent: parent.results[0],
+                    children: children,
+                }
+
+                return callback( null, stuff );
+            });
+
+        }else{
+            return callback( [] );
+        }
+    });
+
 }
 

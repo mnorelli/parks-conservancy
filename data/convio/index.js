@@ -19,7 +19,7 @@ var logger = function(level, msg){
     if(DEBUG && level >= DEBUGLEVEL)console.log(msg);
 }
 
-var PG_CONNECTION_STRING = process.env.PG_CONN_STR;
+var PG_CONNECTION_STRING = process.env.DATABASE_URL;
 var XML_PATH = process.env.XML_PATH
 
 var defs = require("./lib/template_definitions.js")();
