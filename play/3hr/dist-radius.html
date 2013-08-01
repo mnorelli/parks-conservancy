@@ -14,19 +14,55 @@
 
       }
 
+      div#controls {
+        position: fixed;
+        top: 0;
+        left: 20%;
+        padding: 10px;
+        background: #fff;
+        width: 500px;
+        opacity: 0.8;
+      }
+
+      input#origin {
+        width: 300px;
+        float: left;
+      }
+
+      #go {
+        padding: 2px;
+        max-width: 50px;
+        margin-left: 3px;
+        /*font-weight: bold;*/
+        background: #ccc;
+        cursor: pointer;
+        float: left;
+      }
+
+      #go:hover {
+        background: #00ccff;
+      }
+
     </style>
   </head>
 
   <body>
 
     <div id="content"></div>
+    <div id="controls">
+      <input type="text" id="origin">
+      <div id="go">GO</div>
+    </div>
+
 
     <script src="js/d3.v3.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
 
     <script>
 
-      var content = d3.select("#content");
+      var content = d3.select("#content"),
+          origin_input = d3.select("#origin"),
+          go_button = d3.select("#go");
 
       var margin = 50;
       content.style("width", window.innerWidth + "px")
@@ -42,41 +78,78 @@
       };
       var map = new google.maps.Map(document.getElementById("content"), opts);
 
-      // create the origin marker (where you are)
-      var display = {
-        strokeWeight: 0,
-        fillColor: '#ff0000',
-        fillOpacity: 0.7,
-        map: map,
-        center: center,
-        radius: 300
-      };
-      var circle = new google.maps.Circle(display);
+      var markers = [];
 
-      d3.csv("data/locations.csv", function(err, locations) {
-        // console.log("locations:", locations);
-        locations = locations.filter(function(loc) {
+      var locations,
+          valid = ["Meeting Place", "Park", "Trailhead", "Beach", "Site of Interest", "Overlook"];
+
+      d3.csv("data/locations.csv", function(err, locs) {
+
+        locations = locs.filter(function(loc) {
           var t = loc.type;
-          return t === "Meeting Place" 
-              || t === "Park" 
-              || t === "Trailhead" 
-              || t === "Beach"
-              || t === "Site of Interest"
-              || t === "Overlook";
+          return valid.indexOf(t) > -1;
         });
+        drawmap();
+      });
 
-        var origin = center; //[center.jb, center.kb];
+      go_button.on("click", function() {
+        console.log("clicked go");
+        codeAddress(origin_input.property("value"), getGeocodeResults);
+      });
+
+      function addMarker(style) {
+        var circle = new google.maps.Circle(style);
+        markers.push(circle);
+      }
+
+      function clearAllMarkers() {
+        markers.forEach(function(marker) {
+          marker.setMap(null);
+        });
+        markers = [];
+      }
+
+      var geocoder = new google.maps.Geocoder();
+      function codeAddress(address, callback) {
+        // XXX from SC
+        geocoder.geocode({address: address}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            callback(results[0].geometry.location)
+          } else {
+            callback(null);
+          }
+        });
+      }
+
+      function getGeocodeResults(result) {
+        clearAllMarkers();
+        center = result;
+        drawmap();
+      }
+
+
+      function drawmap() {
+
+        // create the origin marker (where you are)
+        var centerStyle = {
+          strokeWeight: 0,
+          fillColor: '#ff0000',
+          fillOpacity: 0.7,
+          map: map,
+          center: center,
+          radius: 300
+        };
+        addMarker(centerStyle);
+
+        var origin = center;
         var distances = [];
         locations.forEach(function(location, i) {
           var coords = [location.Y, location.X].map(Number);
           var destination = new google.maps.LatLng(coords[0], coords[1]);
-          // var distance = getDistance(origin, destination);
           var distance = distHaversine(origin, destination);
           distances.push([distance, i]);
         });
         distances.sort(function(a,b) { return d3.ascending(a[0], b[0]); });
-        // distances = distances.slice(0, 30);
-        // console.log("distances:", distances);
 
         // var extent = d3.extent(distances.map(function(d) { return d[0]; }));
         // var hue = d3.scale.linear().domain(extent).range([80, 0]);
@@ -89,50 +162,49 @@
             return point[0] < radial * 1000 
                 && point[0] > (radial - 2) * 1000;
           });
+          radials[i] = {points: in_circle, ring: radial};
           if (in_circle.length > max_points_in_radial) max_points_in_radial = in_circle.length;
         });
 
         var radial_hue = d3.scale.linear().domain([0, max_points_in_radial]).range([200, 360]);
 
-        radials.forEach(function(radial) {
-          var in_circle = distances.filter(function(point) {
-            return point[0] < radial * 1000 
-                && point[0] > (radial - 2) * 1000;
-          });
+        radials.forEach(function(radial, i) {
+          var in_circle = radial.points;
           var style = {
             strokeWeight: 2,
             strokeColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
             strokeOpacity: in_circle.length > 0 ? 1 : 0,
             fillOpacity: 0,
             map: map,
-            center: center,
-            radius: radial * 1000 // meters -> km
+            center: origin,
+            radius: radial.ring * 1000 // meters -> km
           };
-          var circle = new google.maps.Circle(style);
+          addMarker(style);
 
           // var delaunay = d3.geom.delaunay()
           //       .x(function(d) { return +d[1].X; })
           //       .y(function(d) { return +d[1].Y; });
 
-          if (in_circle.length) {
-            var for_delaunay = in_circle.map(function(pt) {
-                var data = locations[pt[1]];
-                return [+data.X, +data.Y, pt]; 
-            });
-            var connections = d3.geom.delaunay(for_delaunay);
-            connections.forEach(function(conn) {
-              var polygon_points = conn.map(function(pt) { return new google.maps.LatLng(pt[1], pt[0]); });
-              var polygon = new google.maps.Polygon({
-                paths: polygon_points,
-                strokeColor: style.strokeColor,
-                strokeOpacity: 0.7,
-                strokeWeight: 2,
-                fillOpacity: 0
-              });
+          // if (in_circle.length) {
+          //   var for_delaunay = in_circle.map(function(pt) {
+          //       var data = locations[pt[1]];
+          //       return [+data.X, +data.Y, pt]; 
+          //   });
+          //   for_delaunay = for_delaunay.concat([[center.lng(), center.lat()]]);
+          //   var connections = d3.geom.delaunay(for_delaunay);
+          //   connections.forEach(function(conn) {
+          //     var polygon_points = conn.map(function(pt) { return new google.maps.LatLng(pt[1], pt[0]); });
+          //     var polygon = new google.maps.Polygon({
+          //       paths: polygon_points,
+          //       strokeColor: style.strokeColor,
+          //       strokeOpacity: 0.7,
+          //       strokeWeight: 1, //2,
+          //       fillOpacity: 0
+          //     });
 
-              polygon.setMap(map);
-            });
-          }
+          //     polygon.setMap(map);
+          //   });
+          // }
 
           in_circle.forEach(function(point) {
             var distance = point[0],
@@ -142,14 +214,15 @@
             var color = "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)";
 
             var style = {
-              strokeWeight: 0,
+              strokeColor: "#ffffff",
+              strokeWeight: 0.5,
               fillColor: color,
               fillOpacity: 0.7,
               map: map,
               center: location,
               radius: 200
             };
-            var circle = new google.maps.Circle(style);
+            addMarker(style);
 
             // var line = new google.maps.Polyline({
             //   path: [location, center], // XXX these variables could be named better
@@ -162,7 +235,7 @@
 
           });
         });
-      });
+      }
 
       function deg2rad(degrees) {
         return degrees * (Math.PI / 180);
