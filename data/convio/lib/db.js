@@ -231,7 +231,7 @@ lib.baseQuery = function(columns, where, params, order, limit, callback){
 }
 
 
-lib.findStuffForPark = function(filename, kind, callback){
+lib.findStuffForPark = function(filename, kind, restrictDate, callback){
     var where = "WHERE kind = 'park' AND attributes->'filename' = $1";
 
     //(columns, where, params, order, limit, callback)
@@ -253,10 +253,14 @@ lib.findStuffForPark = function(filename, kind, callback){
                 params = [id]
             }
 
-
             lib.baseQuery(['*'], where, params, '', '', function(err, children){
                 if(err){
                     return callback( err );
+                }
+
+                if(restrictDate){
+                    children.results = filterEventsByDate(children.results, +new Date());
+                    children.length = children.results.length;
                 }
 
                 var stuff = {
@@ -272,4 +276,21 @@ lib.findStuffForPark = function(filename, kind, callback){
         }
     });
 }
+
+var filterEventsByDate = function(items, date){
+    var results = [];
+
+    items.forEach(function(item){
+        if(item.kind && item.kind == 'event'){
+            var endDate = (item.attributes.enddate) ? moment(item.attributes.enddate, 'YYYY-MM-DD H:mm').toDate() : null;
+            if(endDate && (+endDate >= date)) results.push(item);
+
+        }else{
+            results.push(item);
+        }
+    });
+
+    return results;
+}
+
 

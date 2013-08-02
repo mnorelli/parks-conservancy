@@ -42,6 +42,78 @@
         #parks-search:focus{
             outline: 0;
         }
+
+        .panel{
+            position: absolute;
+            z-index: 10;
+            background: #fff;
+
+        }
+        .listwrapper{
+            min-width: 300px;
+        }
+        .list-inner{
+            height: 300px;
+            overflow: scroll;
+            margin-bottom: 20px;
+        }
+        .list{
+            margin: 20px;
+        }
+        .hide{
+            display: none;
+        }
+
+        #kinds{
+            top: 100px;
+            left: 120px;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        .list ul li{
+            padding: 5px;
+            background: #eee;
+            margin-bottom: 1px;
+            cursor: pointer;
+        }
+        .list ul li:hover{
+            background: #ccc;
+        }
+        #kinds h3{
+            margin-left: 20px;
+        }
+        #kinds h5 {
+            font-size: 0.83em;
+            margin: 0;
+        }
+
+        ul.infolist{
+
+        }
+        ul.infolist li {
+            border-top: 1px dashed #fff;
+            border-bottom: 1px dashed #ccc;
+            margin: 5px 0;
+            padding: 5px 0;
+            color: #666;
+            font-size: 13px;
+        }
+        ul.infolist li strong{
+            color: #333;
+            font-size: 14px;
+        }
+        ul.infolist li img{
+            vertical-align: top;
+            height: 50px;
+            width: auto;
+        }
+
+
+
+
     </style>
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
@@ -52,6 +124,21 @@
         <div id="parks">
             <label>Show me stuff for <select id="parks-search"></select></label>
         </div>
+
+        <div id="kinds" class='panel hide'>
+            <div class='listwrapper'>
+                <h3>Geospatial anchors</h3>
+                <div id="locationsList" class="list-inner"></div>
+            </div>
+
+            <div class='listwrapper'>
+                <h3>No geospatial anchors</h3>
+                <div id="noLocationsList" class="list-inner"></div>
+            </div>
+        </div>
+
+
+
         <div id="map"></div>
     </div>
 
@@ -61,16 +148,31 @@
         var searching = false;
         var map, infowindow, markers = [];
 
+        var availableParks;
+
         var makeInfoContent = function(place){
+            var text = "<ul class='infolist'>";
+            for(var key in place){
+                var value = place[key];
+                if(key == 'kind'){
+                    text += '<li><strong>' + key + '</strong>: ' + value + '</li>';
+                }else if(key == 'attributes'){
+                    for(var val in value){
+                        var attrValue = value[val];
+                        text += '<li><strong>' + val + '</strong>: ' + attrValue + '</li>';
+                    };
+                }
 
-
-            return JSON.stringify(place);
+            }
+            text += "</ul>";
+            return text;
         }
 
         var createMarker = function(latlng, data) {
             var marker = new google.maps.Marker({
                 map: map,
-                position: latlng
+                position: latlng,
+                ggnpc: data
             });
 
 
@@ -80,10 +182,19 @@
             });
 
             markers.push(marker);
+
+            return marker;
         }
 
         var clearMarkers = function(){
+            if(infowindow)infowindow.close();
+
+            d3.select('#kinds').classed('hide', true);
+            d3.select('#noLocationsList').html('')
+            d3.select('#locationsList').html('')
+
             if(!markers)return;
+
             markers.forEach(function(marker){
                 marker.setMap(null);
             });
@@ -92,50 +203,235 @@
         var loadStuff = function(){
             if(searching) return;
             if(!currentPlace) return;
-            var url = API_URL_BASE + '/stuff/park/' + currentPlace + '/kind/all';
+            var url = API_URL_BASE + '/stuff/park/' + currentPlace + '/kind/all?restrictEvents=true';
             searching = true;
+            clearMarkers();
+
             d3.json(url, function(data){
                 searching = false;
-                clearMarkers();
 
                 var bounds = new google.maps.LatLngBounds();
                 var now = +new Date();
 
-                if(data && data.children && data.children.results){
+                var withLocations = [];
+                var noLocations = [];
+
+                var parentLocation = null,
+                    loc;
+                if(data && data.parent){
+                    loc = data.parent.attributes.location.split(',');
+                    if(loc.length == 2 && !isNaN(loc[0]) && !isNaN(loc[1])){
+
+                        parentLocation = new google.maps.LatLng(loc[0], loc[1]);
+                    }
+                }
+                if(data && data.children && data.children.results.length){
                     data.children.results.forEach(function(d){
+
                         if(d.attributes.location){
                             var skip = (d.kind == 'event' && (+new Date(d.attributes.enddate) < now)) ? true : false;
+                            if(d.kind != 'event')skip = false;
                             if(!skip){
-                                var loc = d.attributes.location.split(',');
+                                //console.log(d.kind)
+                                loc = d.attributes.location.split(',');
                                 if(loc.length == 2 && !isNaN(loc[0]) && !isNaN(loc[1])){
+
                                     var latlng = new google.maps.LatLng(loc[0], loc[1]);
 
-                                    createMarker(latlng, d);
-                                    //console.log(loc[0], loc[1])
+                                    var marker = createMarker(latlng, d);
                                     bounds.extend(latlng);
+
+                                    d.marker = marker;
+                                    withLocations.push(d);
                                 }
 
                             }
-
+                        }else{
+                            d.marker = null;
+                            d.parentLocation = parentLocation;
+                            noLocations.push(d);
                         }
+
                     });
 
+
+                    map.setCenter(bounds.getCenter());
+
+                    createLists(withLocations, noLocations);
+                }else{
+                    var place = currentPlace;
+
+                    try{
+                        place = data.parent.attributes.title;
+                    }catch(e){}
+
+                    alert("No stuff for " + place);
                 }
 
-                console.log(bounds.getCenter())
-                //map.fitBounds(bounds);
-                map.setCenter(bounds.getCenter());
+
+
             })
         }
-        var setupParksDropdown = function(parks){
-            console.log(parks);
 
+        function setKeyNavigation(){
+
+          d3.select(window).on('keyup.parks', function(){
+
+            var code = d3.event.keyCode || null;
+            switch(code){
+              case 38: // up
+              case 40: //dwn
+                  d3.event.preventDefault && d3.event.preventDefault();
+                  d3.event.returnValue = false;
+                  if(searching) return;
+
+                  if(code == 38){
+                    prevPark()
+                  }else if(code == 40){
+                    nextPark()
+                  }
+
+                break;
+
+              default:
+                break;
+            }
+          });
+        }
+
+        function nextPark(){
+            var select = document.getElementById("parks-search");
+            var idx = select.selectedIndex;
+            var len = availableParks.length - 1;
+            idx += 1;
+            if(idx > len){
+                idx = 0;
+            }
+
+
+            select.selectedIndex = idx;
+            changePlace(availableParks[idx].attributes.filename);
+        }
+        function prevPark(){
+            var select = document.getElementById("parks-search");
+            var idx = select.selectedIndex;
+            var len = availableParks.length - 1;
+            idx -= 1;
+            if(idx < 0){
+                idx = len;
+            }
+
+
+            select.selectedIndex = idx;
+            changePlace(availableParks[idx].attributes.filename);
+        }
+
+
+        var writeList = function(root, data){
+            root = d3.select(root);
+            if(!data.length){
+                d3.select(root.node().parentNode).classed('hide', true);
+                return;
+            }else{
+                d3.select(root.node().parentNode).classed('hide', false);
+            }
+
+            var lists = root.selectAll('.list')
+                .data(data)
+                .enter()
+                .append('div')
+                .attr('class', 'list');
+
+            lists.call(function(){
+                this.append('h5');
+                this.append('ul');
+            });
+
+            lists.call(function(){
+                this.select('h5')
+                    .text(function(d){
+                        return d.key;
+                    });
+
+                var children = null;
+                try{
+                    children = this.datum().values;
+                }catch(e){}
+
+                if(children){
+                    this.select('ul')
+                        .selectAll('li')
+                        .data(children)
+                        .enter()
+                        .append('li')
+                        .text(function(s){
+                            return s.attributes.title;
+                        });
+                }
+
+
+            })
+
+            root.selectAll('li').on('click', function(d){
+                if(d){
+                    if(d.marker){
+                        infowindow.setContent(makeInfoContent(d));
+                        infowindow.open(map, d.marker);
+                    }else if(d.parentLocation){
+                        infowindow.setContent(makeInfoContent(d));
+                        infowindow.setPosition(d.parentLocation);
+                        infowindow.open(map);
+                    }
+                }
+            })
+
+            //infowindow.setContent(makeInfoContent(data));
+            //infowindow.open(map, this);
+        }
+
+        var createLists = function(locs, nolocs){
+
+            var locationsByType = d3.nest()
+                .key(function(d){
+                    return d.kind;
+                })
+                .entries(locs);
+
+            var noLocationsByType = d3.nest()
+                .key(function(d){
+                    return d.kind;
+                })
+                .entries(nolocs);
+
+
+            writeList('#noLocationsList', noLocationsByType);
+            writeList('#locationsList', locationsByType);
+
+            d3.select('#kinds').classed('hide', false);
+
+        }
+
+        var changePlace = function(filename){
+            var place = filename.replace('.html','');
+            if(currentPlace != place && !searching){
+                currentPlace = place;
+                loadStuff();
+            }
+        }
+        var setupParksDropdown = function(){
+            var parks = availableParks;
+
+            if(!availableParks) return;
+
+            /*
             parks.unshift({
                 attributes: {
                     filename: '',
                     title: ''
                 }
             });
+            */
+
             var select = d3.select("#parks-search");
             select .selectAll('option')
                 .data(parks)
@@ -151,12 +447,25 @@
             select.on('change', function(){
                 if(!this.value.length)return;
 
-                var place = this.value.replace('.html','');
-                if(currentPlace != place && !searching){
-                    currentPlace = place;
-                    loadStuff();
+                changePlace(this.value);
+            });
+
+            if(!currentPlace){
+                var len = availableParks.length;
+                var randomPlace;
+                var rdm;
+                while(!randomPlace){
+                    rdm = Math.round(Math.random() * (len - 2)) + 1;
+                    if(availableParks[rdm] && availableParks[rdm].attributes && availableParks[rdm].attributes.filename ){
+                        randomPlace = availableParks[rdm].attributes.filename;
+                    }
                 }
-            })
+
+                select.node().selectedIndex = rdm;
+                changePlace(randomPlace);
+
+            }
+            setKeyNavigation();
         };
 
         var getParks = function(callback){
@@ -180,8 +489,9 @@
             });
         }
         window.onload = function(){
-            getParks(function(parks){
-                setupParksDropdown(parks);
+            getParks(function(data){
+                availableParks = data;
+                setupParksDropdown();
             });
         }
     </script>

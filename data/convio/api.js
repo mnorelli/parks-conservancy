@@ -100,10 +100,10 @@ function getByKind(req, res, next){
 function getStuffForPark(req, res, next){
     var url_parts = url.parse(req.url, true);
     var query = url_parts.query;
-    console.log(query)
 
-    //if(query && query.enddate)
-    db.findStuffForPark(db.normalizeFilename(req.params.file), db.normalizeKind(req.params.kind), function(err, out){
+    var restrictDate = (query && query.restrictEvents) ? true : false;
+
+    db.findStuffForPark(db.normalizeFilename(req.params.file), db.normalizeKind(req.params.kind), restrictDate, function(err, out){
         if(err){
             res.json(200, err);
         }else{
