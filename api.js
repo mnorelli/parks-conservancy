@@ -128,6 +128,6 @@ server.get('/:kind/id/:id', getById);
 server.get('/stuff/park/:file/kind/:kind', getStuffForPark);
 
 // start server
-server.listen(8080, function() {
+server.listen(process.env.PORT || 8080, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
