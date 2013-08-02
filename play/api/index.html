@@ -490,6 +490,9 @@
         }
         window.onload = function(){
             getParks(function(data){
+                data = data.sort(function(a,b){
+                    return a.attributes.filename < b.attributes.filename ? -1 : a.attributes.filename > b.attributes.filename ? 1 : 0;
+                });
                 availableParks = data;
                 setupParksDropdown();
             });
