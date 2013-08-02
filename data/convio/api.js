@@ -9,16 +9,16 @@ function getByName(req, res, next) {
     var kind = db.normalizeKind(req.params.kind);
     var where;
     var params;
-
+    var needle = (req.params.name == 'all') ? "" : req.params.name;
     if(kind == '*'){
         where = "WHERE to_tsvector('english', attributes->'title')";
         where += " @@ to_tsquery('english', $1)";
-        params = [req.params.name];
+        params = [needle];
     }else{
         where = "WHERE kind = $1 AND";
         where += " to_tsvector('english', attributes->'title')";
         where += " @@ to_tsquery('english', $2)";
-        params = [kind, req.params.name];
+        params = [kind, needle];
     }
 
 
@@ -80,7 +80,24 @@ function getById(req, res, next) {
 
 }
 
-function getParkStuff(req, res, next){
+function getByKind(req, res, next){
+    var kind = db.normalizeKind(req.params.kind);
+    if(kind == "*"){
+        res.json(200, {'error': 'invalid kind'});
+    }else{
+        var where = "WHERE kind = $1";
+        var params = [kind];
+        db.baseQuery(['*'], where, params, '', '', function(err, out){
+            if(err){
+                res.json(200, err);
+            }else{
+                res.json(200, out);
+            }
+        });
+    }
+}
+
+function getStuffForPark(req, res, next){
     var url_parts = url.parse(req.url, true);
     var query = url_parts.query;
     console.log(query)
@@ -103,11 +120,12 @@ server.use(restify.fullResponse());
 server.use(restify.gzipResponse());
 
 // API Methods
+server.get('/kind/:kind', getByKind);
 server.get('/:kind/name/:name', getByName);
 server.get('/:kind/file/:file', getByFilename);
 server.get('/:kind/id/:id', getById);
 
-server.get('/park/:file/kind/:kind', getParkStuff);
+server.get('/stuff/park/:file/kind/:kind', getStuffForPark);
 
 // start server
 server.listen(8080, function() {

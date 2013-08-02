@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>API</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body, html{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', helvetica, 'Source Sans', arial, sans-serif;
+        }
+        #content, #map{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+
+        }
+        #parks{
+            position: absolute;
+            top: 20px;
+            left: 120px;
+            background: #fff;
+            padding: 20px;
+            z-index: 10;
+        }
+        #parks-search{
+            margin-left: 10px;
+            outline: 0;
+        }
+        #parks-search:focus{
+            outline: 0;
+        }
+    </style>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="parks">
+            <label>Show me stuff for <select id="parks-search"></select></label>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script>
+        var API_URL_BASE = "http://0.0.0.0:8080/";
+        var currentPlace = '';
+        var searching = false;
+        var map, infowindow, markers = [];
+
+        var makeInfoContent = function(place){
+
+
+            return JSON.stringify(place);
+        }
+
+        var createMarker = function(latlng, data) {
+            var marker = new google.maps.Marker({
+                map: map,
+                position: latlng
+            });
+
+
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.setContent(makeInfoContent(data));
+                infowindow.open(map, this);
+            });
+
+            markers.push(marker);
+        }
+
+        var clearMarkers = function(){
+            if(!markers)return;
+            markers.forEach(function(marker){
+                marker.setMap(null);
+            });
+        }
+
+        var loadStuff = function(){
+            if(searching) return;
+            if(!currentPlace) return;
+            var url = API_URL_BASE + '/stuff/park/' + currentPlace + '/kind/all';
+            searching = true;
+            d3.json(url, function(data){
+                searching = false;
+                clearMarkers();
+
+                var bounds = new google.maps.LatLngBounds();
+                var now = +new Date();
+
+                if(data && data.children && data.children.results){
+                    data.children.results.forEach(function(d){
+                        if(d.attributes.location){
+                            var skip = (d.kind == 'event' && (+new Date(d.attributes.enddate) < now)) ? true : false;
+                            if(!skip){
+                                var loc = d.attributes.location.split(',');
+                                if(loc.length == 2 && !isNaN(loc[0]) && !isNaN(loc[1])){
+                                    var latlng = new google.maps.LatLng(loc[0], loc[1]);
+
+                                    createMarker(latlng, d);
+                                    //console.log(loc[0], loc[1])
+                                    bounds.extend(latlng);
+                                }
+
+                            }
+
+                        }
+                    });
+
+                }
+
+                console.log(bounds.getCenter())
+                //map.fitBounds(bounds);
+                map.setCenter(bounds.getCenter());
+            })
+        }
+        var setupParksDropdown = function(parks){
+            console.log(parks);
+
+            parks.unshift({
+                attributes: {
+                    filename: '',
+                    title: ''
+                }
+            });
+            var select = d3.select("#parks-search");
+            select .selectAll('option')
+                .data(parks)
+                .enter()
+                .append('option')
+                .property('value', function(d){
+                    return d.attributes.filename;
+                })
+                .text(function(d){
+                    return d.attributes.title;
+                });
+
+            select.on('change', function(){
+                if(!this.value.length)return;
+
+                var place = this.value.replace('.html','');
+                if(currentPlace != place && !searching){
+                    currentPlace = place;
+                    loadStuff();
+                }
+            })
+        };
+
+        var getParks = function(callback){
+            var url = API_URL_BASE + "kind/park";
+            d3.json(url, function(data){
+                if(data){
+                    callback(data.results);
+
+                    var mapOptions = {
+                        center: new google.maps.LatLng(37.7706, -122.3782),
+                        zoom: 12,
+                        mapTypeId: google.maps.MapTypeId.TERRAIN
+                    };
+
+                    map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+                    //info-window
+                    infowindow = new google.maps.InfoWindow();
+                }
+
+            });
+        }
+        window.onload = function(){
+            getParks(function(parks){
+                setupParksDropdown(parks);
+            });
+        }
+    </script>
+</body>
+</html>
