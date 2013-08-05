@@ -1,0 +1,22 @@
+<style type="text/css">
+    .enviornment-context{
+        position: relative;
+        height: 40px;
+        width: 100%;
+        line-height: 40px;
+        margin: 0;
+        padding: 0;
+        background: #ccc;
+        color: #333;
+        font-size: 16px;
+        text-align: center;
+    }
+</style>
+
+
+<% if (environment && environment == 'staging') { %>
+    <div class='enviornment-context'>You're on staging.parks.stamen.com. Stuff shouldn't be breaking too much here.</div>
+<% }else{ %>
+    <div class='enviornment-context'>You're on dev.parks.stamen.com. Stuff might break.</div>
+<% } %>
+

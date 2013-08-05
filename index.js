@@ -4,14 +4,13 @@ var express = require("express"),
     partials = require("express-partials"),
     app = express();
 
-app.use(express.logger());
+//app.use(express.logger());
 app.use(partials());
 
 app.configure("production", function() {
   // add some cache headers
   app.use(function(req, res, next) {
     res.set("Cache-Control", "public,max-age=300,stale-while-revalidate=300,stale-if-error=300");
-
     next();
   });
 });
@@ -19,39 +18,44 @@ app.configure("production", function() {
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function(req, res) {
-  res.locals.st_nocache = 200;
   return res.render("index.html.ejs", {
-    layout: "layouts/index.html.ejs"
+    layout: "layouts/index.html.ejs",
+    environment: process.env.PARKS_ENV
   });
 });
 
 app.get("/visit/park-sites/muir-woods-national-monument.html", function(req, res) {
   return res.render("muwo.html.ejs", {
-    layout: "layouts/park-site.html.ejs"
+    layout: "layouts/park-site.html.ejs",
+    environment: process.env.PARKS_ENV
   });
 });
 
 app.get("/park-improvements/current-projects/marin/", function(req, res) {
   return res.render("countyprojects.html.ejs", {
-    layout: "layouts/projects-county.html.ejs"
+    layout: "layouts/projects-county.html.ejs",
+    environment: process.env.PARKS_ENV
   });
 });
 
 app.get("/park-improvements/current-projects/marin/redwood-creek.html", function(req, res) {
   return res.render("project-rcmu.html.ejs", {
-    layout: "layouts/projects-project.html.ejs"
+    layout: "layouts/projects-project.html.ejs",
+    environment: process.env.PARKS_ENV
   });
 });
 
 app.get("/get-involved/volunteer/upcoming-events/", function(req, res) {
   return res.render("events.html.ejs", {
-    layout: "layouts/events.html.ejs"
+    layout: "layouts/events.html.ejs",
+    environment: process.env.PARKS_ENV
   });
 });
 
 app.get("/events/volunteer-events/special-events/california-coastal-cleanup.html", function(req, res) {
   return res.render("event-cccd.html.ejs", {
-    layout: "layouts/events-event.html.ejs"
+    layout: "layouts/events-event.html.ejs",
+    environment: process.env.PARKS_ENV
   });
 });
 
