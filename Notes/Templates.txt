@@ -1,0 +1,149 @@
+// Events
+<t:if test="length > 0">
+    <t:list>
+        <Event>
+            <id>${itemID}</id>
+            <Title><![CDATA[${title}]]></Title>
+            <Link>${url}</Link>
+            <FileName><![CDATA[${filename}]]></FileName>
+            <Description><![CDATA[${description}]]></Description>
+            <Image><![CDATA[${main_image}]]></Image>
+            <ImageThumb><![CDATA[${listing_image}]]></ImageThumb>
+            <Location><![CDATA[${park_location}]]></Location>
+            <StartDate><t:value id="start_date" format="yyyy-MM-dd"></t:value> <t:value id="start_time"></t:value></StartDate>
+            <EndDate><t:value id="end_date" format="yyyy-MM-dd"></t:value> <t:value id="end_time"></t:value></EndDate>
+            <DisplayDateTime><![CDATA[${time}]]></DisplayDateTime>
+            <Cost><![CDATA[${cost}]]></Cost>
+            <EventType><![CDATA[${event_type}]]></EventType>
+            <Phone><![CDATA[${phone}]]></Phone>
+            <Audience><![CDATA[${audience}]]></Audience>
+            <RelatedParks><![CDATA[${related_parks.itemID}]]></RelatedParks>
+            <RelatedPrograms><![CDATA[${related_programs.itemID}]]></RelatedPrograms>
+            <RelatedSubPrograms><![CDATA[${related_sub_program.itemID}]]></RelatedSubPrograms>
+        </Event>
+    </t:list>
+</t:if>
+
+// Parks
+<t:if test="length > 0">
+    <t:list>
+        <Park>
+            <id>${itemID}</id>
+            <Title><![CDATA[${title}]]></Title>
+            <FileName><![CDATA[${filename}]]></FileName>
+            <Description><![CDATA[${description}]]></Description>
+            <Hours><![CDATA[${hours}]]></Hours>
+            <StreetAddress><![CDATA[${street_address}]]></StreetAddress>
+            <Location><![CDATA[${park_latitude}, ${park_longitude}]]></Location>
+            <Link>${url}</Link>
+            <Dogs>${dog_friendly}</Dogs>
+            <Phone><![CDATA[${main_phone}]]></Phone>
+            <ImageMain><![CDATA[${banner_image}]]></ImageMain>
+            <ImageThumb><![CDATA[${thumbnail}]]></ImageThumb>
+            <RelatedProject><![CDATA[${related_project.itemID}]]></RelatedProject>
+        </Park>
+    </t:list>
+</t:if>
+
+
+// Park Location
+<t:if test="length > 0">
+<t:list>
+<ParkLocation>
+    <id>${itemID}</id>
+    <FileName><![CDATA[${filename}]]></FileName>
+    <Title><![CDATA[${title}]]></Title>
+    <Description><![CDATA[${description}]]></Description>
+    <Hours><![CDATA[${hours}]]></Hours>
+    <StreetAddress><![CDATA[${street_address}]]></StreetAddress>
+    <Location><![CDATA[${location}]]></Location>
+    <ParkLocationType><t:list id="park_location_type"><![CDATA[${label}]]></t:list></ParkLocationType>
+    <Link>${url}</Link>
+    <RelatedPark><![CDATA[${related_park.itemID}]]></RelatedPark>
+</ParkLocation>
+</t:list>
+</t:if>
+
+// Programs
+<t:if test="length > 0">
+<t:list>
+<Program>
+    <id>${itemID}</id>
+    <FileName><![CDATA[${filename}]]></FileName>
+    <Link>${url}</Link>
+    <Title><![CDATA[${title}]]></Title>
+    <Description><![CDATA[${description}]]></Description>
+    <Image><![CDATA[${program_image}]]></Image>
+    <ContactInfo><![CDATA[${contact_information}]]></ContactInfo>
+    <DonationUrl><![CDATA[${donation_form_url}]]></DonationUrl>
+    <Location><![CDATA[${office_location}]]></Location>
+</Program>
+</t:list>
+</t:if>
+
+// Sub Programs
+<t:if test="length > 0">
+<t:list>
+<SubProgram>
+    <id>${itemID}</id>
+    <FileName><![CDATA[${filename}]]></FileName>
+    <Link>${url}</Link>
+    <Title><![CDATA[${title}]]></Title>
+    <Description><![CDATA[${description}]]></Description>
+    <ContactInfo><![CDATA[${contact_information}]]></ContactInfo>
+    <VolunteerType><![CDATA[${vol_op_type}]]></VolunteerType>
+    <AgeGroup><![CDATA[${age_group}]]></AgeGroup>
+    <RegistrationUrl><![CDATA[${registration_url}]]></RegistrationUrl>
+    <Date><![CDATA[${date}]]></Date>
+    <MeetingLocation><![CDATA[${meeting_location}]]></MeetingLocation>
+    <Image><![CDATA[${banner_image}]]></Image>
+    <ImageThumb><![CDATA[${thumbnail}]]></ImageThumb>
+    <RelatedProgram><![CDATA[${related_program.itemID}]]></RelatedProgram>
+    <RelatedPark><![CDATA[${related_park.itemID}]]></RelatedPark>
+</SubProgram>
+</t:list>
+</t:if>
+
+// Projects
+<t:if test="length > 0">
+<t:list>
+<Project>
+    <id>${itemID}</id>
+    <FileName><![CDATA[${filename}]]></FileName>
+    <Link>${url}</Link>
+    <Title><![CDATA[${title}]]></Title>
+    <Description><![CDATA[${description}]]></Description>
+    <Image><![CDATA[${banner_image}]]></Image>
+    <ImageThumb><![CDATA[${thumbnail}]]></ImageThumb>
+    <StartDate><![CDATA[${beginning_date}]]></StartDate>
+    <EndDate><![CDATA[${completion_date}]]></EndDate>
+    <ContactInfo><![CDATA[${contact_information}]]></ContactInfo>
+    <RelatedProgram><![CDATA[${related_program.itemID}]]></RelatedProgram>
+    <RelatedPark><![CDATA[${related_park.itemID}]]></RelatedPark>
+    <RelatedSpecies><![CDATA[${related_species.itemID}]]></RelatedSpecies>
+</Project>
+</t:list>
+</t:if>
+
+// Species
+<t:if test="length > 0">
+<t:list>
+<Specie>
+    <id>${itemID}</id>
+    <FileName><![CDATA[${filename}]]></FileName>
+    <Link>${url}</Link>
+    <Title><![CDATA[${title}]]></Title>
+    <Description><![CDATA[${description}]]></Description>
+    <Image><![CDATA[${banner_image}]]></Image>
+    <ImageThumb><![CDATA[${thumbnail}]]></ImageThumb>
+    <RelatedPark><![CDATA[${related_park.itemID}]]></RelatedPark>
+    <RelatedProgram><![CDATA[${related_program.itemID}]]></RelatedProgram>
+</Specie>
+</t:list>
+</t:if>
+
+
+
+
+
+

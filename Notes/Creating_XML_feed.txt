@@ -1,0 +1,31 @@
+Adding new list
+1. login
+2. Click 'Content Types' menu, select 'More'
+3. Click link under 'Label' column for the type of list you are planning to add
+4. Click 'New template' link at lower right side of screen
+5. Enter label name, ie: 'Stamen Park Locations'
+6. Click 'create' button
+7. On next screen, just click 'Save'
+8. Click 'Source' link for newly created template under Display Template at bottom of page
+9. Paste code into window then click 'Save'
+10. Template done!
+
+Outputting XML
+1. Click 'Website Explorer' menu, select 'Z-Testing'
+2. In right frame, click "Stamen's Sandbox"
+3. Click 'Add Item' icon, select 'New XML'
+4. Enter Title, then click 'Next>>'
+5. Click the 'Gear thingy w/ plus sign' icon
+6. Popup appears
+7. Component Type, select 'List'
+8. Click 'OK', new popup appears
+9. Set 'Content Type' dropdown to the list type you created earlier, ie: 'Events' or 'Parks'
+10. Set 'List Template' to the template you made earlier
+11. Set 'Filter' and 'Sort' appropriately
+12. Limit Size and Page Size, set to a high number like 10000 to retreive all items on a single page
+13. Click 'OK'
+14. Convio should of auto-magically inserted the template tag
+15. You can leave it as is or you can manually wrap the tag.  Depends on how you wrote your template.
+16. Once your done fussing around, click orange 'Publish' button
+17. If all goes well you should see a overview page for your XML document
+18. The URL for XML feed is to right of column titled 'URL'
