@@ -30,6 +30,12 @@ DATABASE_URL='postgres://ggnpc:@localhost:5433/ggnpc'
 XML_PATH='http://www.parksconservancy.org/z-testing/stamens-sandbox/stamen-xml-feed.xml'
 ```
 
+### Need a postgres table that looks like this:
+
+```
+CREATE TABLE convio (kind varchar, attributes hstore);
+```
+
 ### Ingest CONVIO XML feed
 
 ```bash
@@ -72,6 +78,8 @@ heroku run node index.js
 ### API server
 
 Will be running at http://stamen-parks-api-staging.herokuapp.com/
+
+[Try this query for all parks](http://stamen-parks-api-staging.herokuapp.com/kind/park) if you want to see some stuff
 
 
 ## Current API Methods & examples:
