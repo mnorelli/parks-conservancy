@@ -65,3 +65,28 @@ This will push the templates to http://staging.parks.stamen.com/
 ```bash
 git push staging www:master
 ```
+
+## Heroku Environment Variables
+
+Banner to display current relies on Heroku, PARKS_ENV, environment variable
+
+```bash
+heroku config:set PARKS_ENV=development --app stamen-parks-dev
+heroku config:set PARKS_ENV=staging --app stamen-parks-staging
+```
+
+
+### Current available layouts
+
+Index - [staging](http://staging.parks.stamen.com/) | [development](http://dev.parks.stamen.com/)
+Single Park - [staging](http://staging.parks.stamen.com/visit/park-sites/muir-woods-national-monument.html) | [development](http://dev.parks.stamen.com/visit/park-sites/muir-woods-national-monument.html)
+County Projects - [staging](http://staging.parks.stamen.com/park-improvements/current-projects/marin/) | [development](http://dev.parks.stamen.com/park-improvements/current-projects/marin/)
+Single Project - [staging](http://staging.parks.stamen.com/park-improvements/current-projects/marin/redwood-creek.html) | [development](http://dev.parks.stamen.com/park-improvements/current-projects/marin/redwood-creek.html)
+Events List - [staging](http://staging.parks.stamen.com/get-involved/volunteer/upcoming-events/) | [development](http://dev.parks.stamen.com/get-involved/volunteer/upcoming-events/)
+Single Event - [staging](http://staging.parks.stamen.com/events/volunteer-events/special-events/california-coastal-cleanup.html) | [development](http://dev.parks.stamen.com/events/volunteer-events/special-events/california-coastal-cleanup.html)
+
+
+
+
+
+
