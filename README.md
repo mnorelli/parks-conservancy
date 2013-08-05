@@ -68,7 +68,7 @@ git push staging www:master
 
 ## Heroku Environment Variables
 
-Banner to display current relies on Heroku, PARKS_ENV, environment variable
+Banner to display current environment context relies on Heroku, PARKS_ENV, environment variable
 
 ```bash
 heroku config:set PARKS_ENV=development --app stamen-parks-dev
