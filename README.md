@@ -12,9 +12,9 @@ There are three main steps to getting the api working.
 * Writing API interface that interacts with database
 
 
-## Creating or updating CONVIO XML
+## Creating and/or updating CONVIO XML feeds
 
-Notes for this process are [here](https://github.com/stamen/parks-conservancy/blob/master/Notes/Creating_XML_feed.txt)
+Basic notes for this process are [here](https://github.com/stamen/parks-conservancy/blob/master/Notes/Creating_XML_feed.txt)
 
 Current XML templates/schemas are [here](https://github.com/stamen/parks-conservancy/blob/master/Notes/Templates.txt)
 
@@ -23,7 +23,7 @@ Current XML templates/schemas are [here](https://github.com/stamen/parks-conserv
 
 ### Setup
 
-Create a '.env' file for foreman and requires the two variables below:
+Create a '.env' file for foreman, requires the two variables below:
 
 ```bash
 DATABASE_URL='postgres://ggnpc:@localhost:5433/ggnpc'
@@ -86,7 +86,7 @@ Will be running at http://stamen-parks-api-staging.herokuapp.com/
 
 [See api.js file](https://github.com/stamen/parks-conservancy/blob/api/api.js)
 
-Also, these blog posts:
+Also, see these blog posts:
 
 [Simple API Demo](http://studio.stamen.com/parks_conservancy/blog/?p=645)
 
