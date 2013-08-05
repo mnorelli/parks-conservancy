@@ -52,7 +52,7 @@ git remote add staging git@heroku.com:stamen-parks-staging.git
 
 ### Development
 
-This will push the templates to http://dev.parks.stamen.com/:
+This will push the templates to http://dev.parks.stamen.com/
 
 ```bash
 git push development www:master
@@ -60,7 +60,7 @@ git push development www:master
 
 ### Staging
 
-This will push the templates to http://staging.parks.stamen.com/:
+This will push the templates to http://staging.parks.stamen.com/
 
 ```bash
 git push staging www:master
