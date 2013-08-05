@@ -39,7 +39,7 @@ CREATE TABLE convio (kind varchar, attributes hstore);
 ### Ingest CONVIO XML feed
 
 ```bash
-node index.js
+node ingest.js
 ```
 
 ### Starting API server
@@ -72,7 +72,7 @@ git push api-staging api:master
 ### Ingesting CONVIO XML feed
 
 ```bash
-heroku run node index.js
+heroku run node ingest.js
 ```
 
 ### API server
