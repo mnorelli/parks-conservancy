@@ -1,8 +1,0 @@
-// select everything in park 295058454
-select * from convio where attributes->'relatedpark' = '295058454';
-
-// select events that start after July 1, 2013
-select attributes->'startdate' as startdate, attributes->'title' as title from convio where kind = 'event' and  CAST(attributes->'startdate' as date) > '2013-07-01';
-
-// select park with 'presidio' in title
-select attributes->'id' as id, attributes->'title' as title from convio where kind = 'park' AND to_tsvector('english', attributes->'title') @@ to_tsquery('english', 'presidio');
