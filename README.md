@@ -31,3 +31,6 @@ git clone git@github.com:stamen/parks-conservancy.git -b <branch> parks-conserva
 ## Heroku Databases
 
 * `HEROKU_POSTGRESQL_COBALT` (see stamen-data for the connection string)
+
+## Big map
+Is in the 'www' directory of master branch
