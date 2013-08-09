@@ -52,7 +52,7 @@ angular.module('app').controller('AppController', ['$scope', '$location', '$rout
     var processData = function(data){
 
         $scope.currentData = data;
-
+        console.log('$scope.currentData: ', $scope.currentData)
         $scope.kindsList = d3.nest().key(function(d){
             return d.kind;
         }).entries(data.children.results);
@@ -80,9 +80,12 @@ angular.module('app').controller('AppController', ['$scope', '$location', '$rout
     };
 
     $scope.filterMarkerKind = '';
-    $scope.filterMarkers = function($event){
+    $scope.filterStates = {};
+    $scope.filterMarkers = function($event, obj){
         $event.preventDefault && $event.preventDefault();
         $event.returnValue = false;
+
+        $scope.filterStates[obj.key] = obj.selected;
 
         var target = $event.target;
         var ct = 0;
@@ -103,6 +106,21 @@ angular.module('app').controller('AppController', ['$scope', '$location', '$rout
 
         return false;
     }
+
+    $scope.currentMarker = null;
+    $scope.showMarker = function($event, id){
+        $event.preventDefault && $event.preventDefault();
+        $event.returnValue = false;
+
+        if(id && id == $scope.currentMarker){
+            $scope.currentMarker = null;
+        }else{
+            $scope.currentMarker = id;
+        }
+        return false;
+    }
+
+
 
     // Listen for changes to the Route. When the route
     // changes, let's set the renderAction model value so
@@ -214,6 +232,10 @@ angular.module('map', ['maps.markers'])
         mapsMarkers.filter($scope.filterMarkerKind);
         console.log($scope.filterMarkerKind);
     });
+
+    $scope.$watch('currentMarker', function(){
+        console.log("CURRENT MARKER: ", $scope.currentMarker);
+    })
 
 }]);
 

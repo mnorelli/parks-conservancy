@@ -26,7 +26,7 @@
         <div id="ggnpc-demo">
             <div ng-controller="ddController">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-default">{{selectedPark}}</button>
+                  <button type="button" class="btn btn-default">{{selectedPark | uppercase}}</button>
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
                   </button>
@@ -39,17 +39,23 @@
 
         <div id="ggnpc-results" class="panel">
 
-            <h3>Filter by kind:</h3>
+            <h3>Filter by kind</h3>
             <div class="list-group">
-
-
-              <a href="#" class="list-group-item" ng-repeat="result in kindsList" ng-class="{'active': result.selected }" ng-click="result.selected = !result.selected; filterMarkers($event)" data-kind="{{result.key}}">
+              <a href="#" class="list-group-item" ng-repeat="result in kindsList" ng-class="{'active': result.selected }" ng-click="result.selected = !result.selected; filterMarkers($event, result)" data-kind="{{result.key}}">
                 <span class="badge kind-{{result.key}}">{{result.values.length}}</span>
                 <span class="color-bar" ng-style="{background: markerColors[result.key]}"></span>
                 {{result.key}}
               </a>
             </div>
 
+            <h3>Park Items</h3>
+            <div id="currentDataList">
+                <div class="list-group">
+                  <a href="#" class="list-group-item" ng-show="!filterStates[result.kind]" ng-repeat="result in currentData.children.results | orderBy: '+kind'" ng-click="showMarker($event, result.attributes.id);">
+                    {{result.kind}} : {{result.attributes.title}}
+                  </a>
+                </div>
+            </div>
         </div>
 
         <div id="ggnpc-map" ng-controller="mapController"></div>
