@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" >
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <title>Big Map</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/ggnpc-map.css">
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="js/vendor/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+    <script src="js/vendor/d3.v3.min.js" charset="utf-8"></script>
+
+    <script src="js/ggnpc-utils.js"></script>
+    <script src="js/ggnpc-map.js"></script>
+</head>
+<body ng-controller="AppController">
+    <!-- prefix id's and classes w/ 'ggnpc' -->
+    <div id="ggnpc-content">
+
+        <div id="ggnpc-demo">
+            <div ng-controller="ddController">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default">{{selectedPark}}</button>
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li ng-repeat="result in parksList"><a href='#/visit/park-sites/{{result.attributes.filename}}'>{{result.attributes.title}}</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="ggnpc-results" class="panel">
+
+            <h3>Filter by kind:</h3>
+            <div class="list-group">
+
+
+              <a href="#" class="list-group-item" ng-repeat="result in kindsList" ng-class="{'active': result.selected }" ng-click="result.selected = !result.selected; filterMarkers($event)" data-kind="{{result.key}}">
+                <span class="badge">{{result.values.length}}</span>
+                {{result.key}}
+              </a>
+            </div>
+
+        </div>
+
+        <div id="ggnpc-map" ng-controller="mapController"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+   <!-- <script src="js/Controllers/appController.js"></script> -->
+
+    <script>
+        var map;
+        function initialize(){
+            if(GGNPC){
+               // map = GGNPC.maps.base({root: 'ggnpc-map'});
+            }
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+</body>
+</html>
+
+
