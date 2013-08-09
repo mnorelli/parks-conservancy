@@ -44,7 +44,8 @@
 
 
               <a href="#" class="list-group-item" ng-repeat="result in kindsList" ng-class="{'active': result.selected }" ng-click="result.selected = !result.selected; filterMarkers($event)" data-kind="{{result.key}}">
-                <span class="badge">{{result.values.length}}</span>
+                <span class="badge kind-{{result.key}}">{{result.values.length}}</span>
+                <span class="color-bar" ng-style="{background: markerColors[result.key]}"></span>
                 {{result.key}}
               </a>
             </div>

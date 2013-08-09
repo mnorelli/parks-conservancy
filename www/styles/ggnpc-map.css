@@ -69,4 +69,11 @@ body{
     overflow: scroll;
     min-width: 400px;
 }
+.color-bar{
+    position: absolute;
+    width: 10px;
+    height: 50%;
+    left: -15px;
+    top: 20%;
+}
 

@@ -25,6 +25,17 @@ angular.module('app').controller('AppController', ['$scope', '$location', '$rout
     $scope.kindsList = [];
 
 
+    $scope.markerColors = {
+        'event': '#E41A1C',
+        'park': '#377EB8',
+        'location': '#4DAF4A',
+        'program': '#984EA3',
+        'subprogram': '#FF7F00',
+        'project': '#FFFF33',
+        'specie': '#A65628'
+    }
+
+
     var callApi = function(){
         api.get($routeParams.park, function(error, data){
             if(error){
@@ -137,7 +148,10 @@ angular.module('dropdown', [])
     }).
     success(function(data, status, headers, config) {
         console.log("parks: ", data);
-        $scope.parksList = data.results;
+        data = data.results.sort(function(a,b){
+            return a.attributes.filename < b.attributes.filename ? -1 : a.attributes.filename > b.attributes.filename ? 1 : 0;
+        });
+        $scope.parksList = data;
     }).
     error(function(data, status, headers, config) {
 
@@ -214,6 +228,7 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
             map: markers.map,
             position: latlng,
             ggnpc_data: data,
+            icon: getCircle(data),
             vizible: true
         });
 
@@ -225,6 +240,29 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
         markerPool.push(marker);
 
         return marker;
+    }
+
+    var markerColors = {
+        'event': '#E41A1C',
+        'park': '#377EB8',
+        'location': '#4DAF4A',
+        'program': '#984EA3',
+        'subprogram': '#FF7F00',
+        'project': '#FFFF33',
+        'specie': '#A65628'
+    };
+
+    function getCircle(data) {
+        var magnitude = 2;
+
+      return {
+        path: google.maps.SymbolPath.CIRCLE,
+        fillColor: markerColors[data.kind] || '#000000',
+        fillOpacity: .8,
+        scale: 8,
+        strokeColor: '#333',
+        strokeWeight: 2
+      };
     }
 
     var clearMarkers = function(){
