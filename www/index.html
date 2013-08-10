@@ -15,6 +15,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
     <script src="js/vendor/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/vendor/underscore.js" charset="utf-8"></script>
 
     <script src="js/ggnpc-utils.js"></script>
     <script src="js/ggnpc-map.js"></script>
@@ -22,6 +23,9 @@
 <body ng-controller="AppController">
     <!-- prefix id's and classes w/ 'ggnpc' -->
     <div id="ggnpc-content">
+        <div id="loading" ng-show="loadingData">
+            <span>Loading</span>
+        </div>
 
         <div id="ggnpc-demo">
             <div ng-controller="ddController">
