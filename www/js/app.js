@@ -51,12 +51,10 @@ angular.module('app').controller('AppController', ['$scope', '$location', '$rout
     var processData = function(data){
 
         $scope.currentData = data;
-        console.log('$scope.currentData: ', $scope.currentData)
         $scope.kindsList = d3.nest().key(function(d){
             return d.kind;
         }).entries(data.children.results);
 
-        console.log($scope.kindsList)
     }
 
 
@@ -166,7 +164,6 @@ angular.module('dropdown', [])
         withCredentials: false
     }).
     success(function(data, status, headers, config) {
-        console.log("parks: ", data);
         data = data.results.sort(function(a,b){
             return a.attributes.filename < b.attributes.filename ? -1 : a.attributes.filename > b.attributes.filename ? 1 : 0;
         });
@@ -202,7 +199,6 @@ angular.module('dropdown', [])
         })
 
     }
-
 
     $scope.$on(
         "$routeChangeSuccess",
@@ -297,13 +293,16 @@ angular.module('map', ['maps.markers'])
     var drawPolygon = function(feature){
         feature = feature[0] || null;
         if(!feature)return;
+        var bounds = new google.maps.LatLngBounds();
         var coords = feature.geometry.coordinates;
         var paths = _.map(coords, function(entry) {
             return _.reduce(entry, function(list, polygon) {
                 // This map() only transforms the data.
                 _.each(_.map(polygon, function(point) {
                     // Important: the lat/lng are vice-versa in GeoJSON
-                    return new google.maps.LatLng(point[1], point[0]);
+                    var point = new google.maps.LatLng(point[1], point[0]);
+                    bounds.extend(point);
+                    return point;
                 }), function(point) {
                     list.push(point);
                 });
@@ -311,11 +310,12 @@ angular.module('map', ['maps.markers'])
                 return list;
             }, []);
         });
-
-        return paths;
+        if(!paths)paths = [];
+        return [paths, bounds]
     }
 
     var showTrails = function(){
+        if(!$scope.currentData)return;
         var poly = geodata.getOutline($scope.currentData.parent.attributes.title, 'trails');
 
         if(poly){
@@ -325,11 +325,16 @@ angular.module('map', ['maps.markers'])
         }
     }
     var showBoundary = function(){
+        if(!$scope.currentData)return;
         var poly = geodata.getOutline($scope.currentData.parent.attributes.title, 'boundary');
 
         if(poly){
-            var paths = drawPolygon(poly);
-            if(!paths)return;
+            var pathAndBounds = drawPolygon(poly);
+            if(!pathAndBounds)return;
+
+            var paths = pathAndBounds[0] || null,
+                bounds = pathAndBounds[1] || null;
+            if(!paths && !paths.length)return;
             selectedParkOutline = new google.maps.Polygon({
                 paths: paths,
                 strokeColor: '#333',
@@ -342,25 +347,33 @@ angular.module('map', ['maps.markers'])
 
             selectedParkOutline.setMap($scope.map);
 
+            if(bounds)$scope.map.fitBounds(bounds);
+
         }else{
             console.log("Geodata not ready!!!: ");
         }
     }
 
     var showParking = function(type){
+        if(!$scope.currentData)return;
         var poly = geodata.getOutline($scope.currentData.parent.attributes.title, type);
         if(poly){
             poly.forEach(function(p){
-                var paths = drawPolygon([p]);
-                var polygon = new google.maps.Polygon({
-                    paths: paths,
-                    strokeWeight: 0,
-                    fillColor: "#000",
-                    fillOpacity: 0.9,
-                    zIndex: 1500
-                  });
-                polygon.setMap($scope.map);
-                otherPolys.push(polygon);
+                var pathAndBounds = drawPolygon(poly);
+                if(!pathAndBounds){
+                    var paths = pathAndBounds[0] || null,
+                        bounds = pathAndBounds[1] || null;
+                    if(!paths) return;
+                    var polygon = new google.maps.Polygon({
+                        paths: paths,
+                        strokeWeight: 0,
+                        fillColor: "#000",
+                        fillOpacity: 0.9,
+                        zIndex: 1500
+                      });
+                    polygon.setMap($scope.map);
+                    otherPolys.push(polygon);
+                }
             })
         }else{
             console.log("Geodata not ready!!!: ");
@@ -416,7 +429,6 @@ angular.module('map', ['maps.markers'])
     });
 
     $scope.$watch('currentMarker', function(){
-        console.log("CURRENT MARKER: ", $scope.currentMarker);
         mapsMarkers.showInfo($scope.currentMarker)
     });
 }]);
@@ -480,6 +492,7 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
         markerPool.forEach(function(marker){
             marker.setMap(null);
         });
+
         markerPool.length = 0;
     }
 
@@ -543,8 +556,7 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
 
                 zBase++;
             });
-
-            markers.map.setCenter(bounds.getCenter());
+            markers.map.fitBounds(bounds);
 
         }else{
 
@@ -583,7 +595,6 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
                     text += '<li><strong>' + val + '</strong>: ' + attrValue + '</li>';
                 };
             }
-
         }
         text += "</ul>";
         return text;
@@ -719,7 +730,6 @@ angular.module('services.geodata',[]).factory('geodata', ['$http', '$q', '$rootS
                         geodata.lib[key].data = result.data.features;
                     }
                 });
-                console.log("geodata.lib: ",geodata.lib)
             }
 
             $rootScope.loadingData = false;
