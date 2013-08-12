@@ -202,6 +202,7 @@ angular.module('map', ['maps.markers'])
     geodata.init();
 
     var maps = {};
+    var infowindow;
 
     maps.base = function(options){
         options = GGNPC.utils.extend({}, maps.base.defaults, options);
@@ -225,8 +226,12 @@ angular.module('map', ['maps.markers'])
     $scope.map = maps.base();
     mapsMarkers.map = $scope.map;
 
+    infowindow = mapsMarkers.infowindow = new google.maps.InfoWindow();
+
+
     var selectedParkOutline = null;
     var selectedTrails = [];
+    var otherPolys = [];
 
     var drawTrails = function(features){
         selectedTrails.length = 0;
@@ -279,17 +284,7 @@ angular.module('map', ['maps.markers'])
             }, []);
         });
 
-        selectedParkOutline = new google.maps.Polygon({
-            paths: paths,
-            strokeColor: '#333',
-            strokeOpacity: .4,
-            strokeWeight: 1,
-            fillColor: "#4afb05",
-            fillOpacity: 0.55,
-            zIndex: 1000
-          });
-
-        selectedParkOutline.setMap($scope.map);
+        return paths;
     }
 
     var showTrails = function(){
@@ -305,7 +300,40 @@ angular.module('map', ['maps.markers'])
         var poly = geodata.getOutline($scope.currentData.parent.attributes.title, 'boundary');
 
         if(poly){
-            drawPolygon(poly);
+            var paths = drawPolygon(poly);
+
+            selectedParkOutline = new google.maps.Polygon({
+                paths: paths,
+                strokeColor: '#333',
+                strokeOpacity: .4,
+                strokeWeight: 1,
+                fillColor: "#4afb05",
+                fillOpacity: 0.55,
+                zIndex: 1000
+              });
+
+            selectedParkOutline.setMap($scope.map);
+
+        }else{
+            console.log("Geodata not ready!!!: ");
+        }
+    }
+
+    var showParking = function(type){
+        var poly = geodata.getOutline($scope.currentData.parent.attributes.title, type);
+        if(poly){
+            poly.forEach(function(p){
+                var paths = drawPolygon([p]);
+                var polygon = new google.maps.Polygon({
+                    paths: paths,
+                    strokeWeight: 0,
+                    fillColor: "#000",
+                    fillOpacity: 0.9,
+                    zIndex: 1500
+                  });
+                polygon.setMap($scope.map);
+                otherPolys.push(polygon);
+            })
         }else{
             console.log("Geodata not ready!!!: ");
         }
@@ -314,6 +342,8 @@ angular.module('map', ['maps.markers'])
     var getGeoData = function(){
         showBoundary();
         showTrails();
+        showParking('parkingOne');
+        showParking('parkingTwo');
     }
 
     var loadDataChange = function(){
@@ -333,9 +363,15 @@ angular.module('map', ['maps.markers'])
                 trail.setMap(null);
             });
         }
+        if(otherPolys){
+            otherPolys.forEach(function(p){
+                p.setMap(null);
+            });
+        }
 
         selectedParkOutline = null;
         selectedTrails.length = 0;
+        otherPolys.length = 0;
     }
 
     $scope.$on('update', function(){
@@ -353,13 +389,15 @@ angular.module('map', ['maps.markers'])
 
     $scope.$watch('currentMarker', function(){
         console.log("CURRENT MARKER: ", $scope.currentMarker);
-    })
-
+        mapsMarkers.showInfo($scope.currentMarker)
+    });
 }]);
 
 
 angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
     var markers = {};
+    markers.infowindow = null;
+    markers.map = null;
 
     var markerPool = [];
 
@@ -373,12 +411,12 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
             zIndex: zBase || 3000
         });
 
-        google.maps.event.addListener(marker, 'click', function() {
-            //infowindow.setContent(makeInfoContent(data));
-            //infowindow.open(map, this);
-        });
-
         markerPool.push(marker);
+
+        google.maps.event.addListener(marker, 'click', function() {
+            markers.infowindow.setContent(markers.makeInfoContent(data));
+            markers.infowindow.open(markers.map, this);
+        });
 
         return marker;
     }
@@ -407,7 +445,7 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
     }
 
     var clearMarkers = function(){
-        //if(infowindow)infowindow.close();
+        if(markers.infowindow)markers.infowindow.close();
 
         if(!markerPool)return;
 
@@ -485,11 +523,41 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
         }
     }
 
-
-    markers.map = null;
-
     markers.update = function(data){
         update(data);
+    }
+
+    markers.showInfo = function(id){
+        if(!id)return;
+        if(!markerPool)return;
+
+        var marker = markerPool.filter(function(m){
+            return m.ggnpc_data.attributes.id == id;
+        });
+
+        if(marker && marker.length){
+            var m = marker[0];
+            markers.infowindow.setContent(markers.makeInfoContent(m.ggnpc_data));
+            markers.infowindow.open(markers.map, m);
+        }
+    }
+
+    markers.makeInfoContent = function(place){
+        var text = "<ul class='infolist'>";
+        for(var key in place){
+            var value = place[key];
+            if(key == 'kind'){
+                text += '<li><strong>' + key + '</strong>: ' + value + '</li>';
+            }else if(key == 'attributes'){
+                for(var val in value){
+                    var attrValue = value[val];
+                    text += '<li><strong>' + val + '</strong>: ' + attrValue + '</li>';
+                };
+            }
+
+        }
+        text += "</ul>";
+        return text;
     }
 
     var currentFilter = null;
@@ -570,6 +638,16 @@ angular.module('services.geodata',[]).factory('geodata', ['$http', '$q', '$rootS
         'trails': {
             'data': null,
             'file': 'geodata/trails.json'
+        },
+
+        'parkingOne': {
+            'data': null,
+            'file': 'geodata/parking1.json'
+        },
+
+        'parkingTwo': {
+            'data': null,
+            'file': 'geodata/parking2.json'
         }
     };
 
@@ -611,7 +689,7 @@ angular.module('services.geodata',[]).factory('geodata', ['$http', '$q', '$rootS
                         geodata.lib[key].data = result.data.features;
                     }
                 });
-
+                console.log("geodata.lib: ",geodata.lib)
             }
 
             $rootScope.loadingData = false;
@@ -631,6 +709,12 @@ angular.module('services.geodata',[]).factory('geodata', ['$http', '$q', '$rootS
 
             return features.filter(function(item){
                 return item.properties.name.toLowerCase() == parkName.toLowerCase();
+            })
+        }else if(geodata.lib.hasOwnProperty(type) && geodata.lib[type].data){
+            var features = geodata.lib[type].data;
+
+            return features.filter(function(item){
+                return item.properties.park.toLowerCase() == parkName.toLowerCase();
             })
         }
 
