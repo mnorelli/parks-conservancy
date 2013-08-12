@@ -64,12 +64,12 @@ angular.module('app').controller('AppController', ['$scope', '$location', '$rout
 
         // Pull the "action" value out of the
         // currently selected route.
-        var renderAction = $route.current.action;
+        //var renderAction = $route.current.action;
 
         // Also, let's update the render path so that
         // we can start conditionally rendering parts
         // of the page.
-        var renderPath = renderAction.split( "." );
+        //var renderPath = renderAction.split( "." );
 
 
         //$scope.renderAction = renderAction;
@@ -81,15 +81,15 @@ angular.module('app').controller('AppController', ['$scope', '$location', '$rout
     $scope.filterMarkerKind = '';
     $scope.filterStates = {};
     $scope.filterMarkers = function($event, obj){
-        $event.preventDefault && $event.preventDefault();
-        $event.returnValue = false;
-
+        //$event.preventDefault && $event.preventDefault();
+        //$event.returnValue = false;
+        if($event.target.type !== 'checkbox')return;
         $scope.filterStates[obj.key] = obj.selected;
 
         var target = $event.target;
         var ct = 0;
 
-        while (target && target.nodeName.toLowerCase() !== 'a' && ct < 3) {
+        while (target && target.nodeName.toLowerCase() !== 'div' && ct < 3) {
           target = target.parentNode;
           ct++;
         }
@@ -156,7 +156,9 @@ angular.module('display', [])
 angular.module('dropdown', [])
 .controller('ddController', ['$scope', '$http', '$routeParams', '$rootScope', function($scope, $http, $routeParams, $rootScope){
     var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
-    var url = API_URL_BASE + 'kind/park'
+    var url = API_URL_BASE + 'kind/park';
+
+
 
     $http({
         method: 'GET',
@@ -169,6 +171,15 @@ angular.module('dropdown', [])
             return a.attributes.filename < b.attributes.filename ? -1 : a.attributes.filename > b.attributes.filename ? 1 : 0;
         });
         $scope.parksList = data;
+        $scope.ddOptions = [];
+        $scope.parksList.forEach(function(p){
+            $scope.ddOptions.push({
+                'title': p.attributes.title,
+                'value': p.attributes.filename
+            });
+        });
+        setDropDown();
+
     }).
     error(function(data, status, headers, config) {
 
@@ -177,12 +188,29 @@ angular.module('dropdown', [])
 
     $scope.selectedPark = '';
 
+    $scope.change = function(){
+        console.log("CHANGE", this)
+        //$scope.ddSelection = this;
+        location.hash = '#/visit/park-sites/' + this.ddSelection.value;
+    }
+
+    function setDropDown(){
+        if(!$scope.selectParkValue)return;
+        if(!$scope.ddOptions)return;
+        $scope.ddOptions.forEach(function(opt, idx){
+            if(opt.value == $scope.selectParkValue)return $scope.ddSelection = $scope.ddOptions[idx];
+        })
+
+    }
 
 
     $scope.$on(
         "$routeChangeSuccess",
         function( $currentRoute, $previousRoute ){
            var park = ($routeParams.park || "");
+
+           $scope.selectParkValue = park;
+           setDropDown();
            $scope.selectedPark = park.replace(".html", "");
            $rootScope.thisPark = $scope.selectedPark;
         }
@@ -301,7 +329,7 @@ angular.module('map', ['maps.markers'])
 
         if(poly){
             var paths = drawPolygon(poly);
-
+            if(!paths)return;
             selectedParkOutline = new google.maps.Polygon({
                 paths: paths,
                 strokeColor: '#333',
@@ -512,6 +540,7 @@ angular.module('maps.markers',[]).factory('mapsMarkers', [function(){
                     //withLocations.push(d);
                     noLocations.push(d);
                 }
+
                 zBase++;
             });
 
@@ -597,6 +626,7 @@ angular.module('services.api',[]).factory('api', ['$http', function($http){
     api.currentData = null;
 
     api.get = function(name, callback){
+        if(!name) return;
         var place = name.replace('.html','');
         var url = API_URL_BASE + '/stuff/park/' + place + '/kind/all?restrictEvents=true';
 

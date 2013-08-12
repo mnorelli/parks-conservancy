@@ -24,12 +24,13 @@ body{
 
 #ggnpc-demo{
     position: absolute;
-    top: 0;
+    top: 25px;
     right: 10px;
     background: transparent;
     z-index: 10;
     padding: .3em;
     width: auto;
+    min-width: 400px;
 
 }
 #ggnpc-demo h1{
