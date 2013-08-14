@@ -82,20 +82,24 @@ function getById(req, res, next) {
 
 function getByKind(req, res, next){
     var kind = db.normalizeKind(req.params.kind);
-    var where;
+    var where = '';
+    var params = [];
+
     if(kind == "*"){
-        where = "";
+        return res.json(200, {'error': 'invalid kind'});
     }else{
         where = "WHERE kind = $1";
-        var params = [kind];
-        db.baseQuery(['*'], where, params, '', '', function(err, out){
-            if(err){
-                res.json(200, err);
-            }else{
-                res.json(200, out);
-            }
-        });
+        params = [kind];
     }
+
+    db.baseQuery(['*'], where, params, '', '', function(err, out){
+        if(err){
+            res.json(200, err);
+        }else{
+            res.json(200, out);
+        }
+    });
+
 }
 
 function getStuffForPark(req, res, next){
@@ -114,6 +118,28 @@ function getStuffForPark(req, res, next){
     });
 }
 
+function listByKind(req, res, next){
+    var kind = db.normalizeKind(req.params.kind);
+    var where = '';
+    var params = [];
+
+
+    if(kind == "*"){
+        where = '';
+    }else{
+        where = "WHERE kind = $1";
+        params = [kind];
+    }
+
+    db.baseQuery(["attributes->'title' as title", 'kind'], where, params, '', '', function(err, out){
+        if(err){
+            res.json(200, err);
+        }else{
+            res.json(200, out);
+        }
+    });
+}
+
 // server setup
 var server = restify.createServer();
 server.use(restify.CORS());
@@ -126,9 +152,11 @@ server.get('/:kind/name/:name', getByName);
 server.get('/:kind/file/:file', getByFilename);
 server.get('/:kind/id/:id', getById);
 
+server.get('/list/:kind', listByKind); // return title,kind
+
 server.get('/stuff/park/:file/kind/:kind', getStuffForPark);
 
 // start server
-server.listen(process.env.PORT || 8080, function() {
+server.listen( process.env.PORT || 5555, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
