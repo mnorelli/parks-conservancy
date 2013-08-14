@@ -131,7 +131,7 @@ function listByKind(req, res, next){
         params = [kind];
     }
 
-    db.baseQuery(["attributes->'title' as title", 'kind'], where, params, '', '', function(err, out){
+    db.baseQuery(["attributes->'filename' as filename", "attributes->'title' as title", 'kind'], where, params, '', '', function(err, out){
         if(err){
             res.json(200, err);
         }else{
