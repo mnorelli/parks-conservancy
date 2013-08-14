@@ -16,7 +16,8 @@ data: data-cpad data-osm data-osm-coastline \
       data-nhd \
       data-ggnpc-locations data-ggnra-trails data-ggnra-boundary \
       data-ggnra-legislative data-restoration-areas \
-      data-pt-parking-areas data-ggnra-parking-areas
+      data-pt-parking-areas data-ggnra-parking-areas \
+      data-ggnra-park-units
 
 data-nhd: data/nhdh1805.7z tmp/.placeholder
 	7z -otmp/ -y x data/nhdh1805.7z > /dev/null
@@ -125,6 +126,18 @@ data-ggnra-boundary: data/ggnra_boundary.zip
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	touch $@
 
+data-park-units: data/park_units.zip
+	ogr2ogr --config PG_USE_COPY YES \
+		    -t_srs EPSG:900913 \
+			-nln park_units \
+			-nlt PROMOTE_TO_MULTI \
+			-lco GEOMETRY_NAME=geom \
+			-lco SRID=900913 \
+			-f PGDump /vsistdout/ \
+			/vsizip/data/park_units.zip/GGNRA_web_boundaries_20130813.shp | \
+			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+	touch $@
+
 data-ggnra-legislative: data/ggnra_legislative.zip
 	ogr2ogr --config PG_USE_COPY YES \
 		    -t_srs EPSG:900913 \
@@ -196,6 +209,9 @@ data/ggnra_boundary.zip: data/.placeholder
 
 data/ggnra_legislative.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/06_GGNRA_legislative_2013.zip -o $@
+
+data/park_units.zip: data/.placeholder
+	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/park_units.zip -o $@
 
 data/restoration_areas.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/07_RestorationAreas_20120216.zip -o $@
