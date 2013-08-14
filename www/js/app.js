@@ -300,9 +300,9 @@ angular.module('map', ['maps.markers'])
                 // This map() only transforms the data.
                 _.each(_.map(polygon, function(point) {
                     // Important: the lat/lng are vice-versa in GeoJSON
-                    var point = new google.maps.LatLng(point[1], point[0]);
-                    bounds.extend(point);
-                    return point;
+                    var pt = new google.maps.LatLng(point[1], point[0]);
+                    bounds.extend(pt);
+                    return pt;
                 }), function(point) {
                     list.push(point);
                 });
@@ -328,26 +328,33 @@ angular.module('map', ['maps.markers'])
         if(!$scope.currentData)return;
         var poly = geodata.getOutline($scope.currentData.parent.attributes.title, 'boundary');
 
-        if(poly){
-            var pathAndBounds = drawPolygon(poly);
-            if(!pathAndBounds)return;
+        if(poly && poly.length){
 
-            var paths = pathAndBounds[0] || null,
-                bounds = pathAndBounds[1] || null;
-            if(!paths && !paths.length)return;
-            selectedParkOutline = new google.maps.Polygon({
-                paths: paths,
+            var featureStyles = {
                 strokeColor: '#333',
                 strokeOpacity: .4,
                 strokeWeight: 1,
                 fillColor: "#4afb05",
                 fillOpacity: 0.55,
                 zIndex: 1000
-              });
+              };
 
-            selectedParkOutline.setMap($scope.map);
+            selectedParkOutline = new GeoJSON(poly[0], featureStyles, true);
 
-            if(bounds)$scope.map.fitBounds(bounds);
+            if (selectedParkOutline.error){
+                console.log("Error: no boundary for this park")
+            }else{
+
+                if(selectedParkOutline instanceof Array){
+                    selectedParkOutline.forEach(function(p){
+                        p.setMap($scope.map);
+                    });
+                }else{
+                    selectedParkOutline.setMap($scope.map);
+                }
+
+                if(selectedParkOutline.geojsonBounds)$scope.map.fitBounds(selectedParkOutline.geojsonBounds);
+            }
 
         }else{
             console.log("Geodata not ready!!!: ");
@@ -382,7 +389,7 @@ angular.module('map', ['maps.markers'])
 
     var getGeoData = function(){
         showBoundary();
-        showTrails();
+        //showTrails();
         showParking('parkingOne');
         showParking('parkingTwo');
     }
@@ -398,7 +405,18 @@ angular.module('map', ['maps.markers'])
     });
 
     var clearGeodata = function(){
-        if(selectedParkOutline)selectedParkOutline.setMap(null);
+        if(selectedParkOutline){
+            if(selectedParkOutline instanceof Array){
+                selectedParkOutline.forEach(function(p){
+                    p.setMap(null);
+                });
+                selectedParkOutline.length = 0;
+            }else{
+                selectedParkOutline.setMap(null);
+            }
+            selectedParkOutline = null;
+        }
+
         if(selectedTrails){
             selectedTrails.forEach(function(trail){
                 trail.setMap(null);
@@ -673,7 +691,7 @@ angular.module('services.geodata',[]).factory('geodata', ['$http', '$q', '$rootS
 
         'boundary': {
             'data': null,
-            'file': 'geodata/park_boundaries.json'
+            'file': 'geodata/park_units.json'
         },
 
         'trails': {
@@ -748,7 +766,13 @@ angular.module('services.geodata',[]).factory('geodata', ['$http', '$q', '$rootS
             var features = geodata.lib.boundary.data;
 
             return features.filter(function(item){
-                return item.properties.name.toLowerCase() == parkName.toLowerCase();
+                var boundary_name = '';
+
+                try{
+                    boundary_name = item.properties['Unit_name'].trim().toLowerCase();
+                }catch(e){}
+                //console.log(boundary_name,parkName.toLowerCase())
+                return boundary_name == parkName.toLowerCase();
             })
         }else if(geodata.lib.hasOwnProperty(type) && geodata.lib[type].data){
             var features = geodata.lib[type].data;
