@@ -1,6 +1,6 @@
 # Parks Conservancy Map
 
-![map thumbnail](https://raw.github.com/stamen/parks-conservancy/basemap/.thumb.png)
+![map thumbnail](https://github.com/stamen/parks-conservancy/raw/basemap/.thumb.png)
 
 To set the project up for the first time, run `make install`. This will cause
 the basemap to show up within TileMill and will configure git hooks so that
