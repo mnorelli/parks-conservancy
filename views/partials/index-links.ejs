@@ -1,8 +1,19 @@
 <script>
 
-$.getJSON('ajax/test.json', function(data) {
+$.getJSON('http://stamen-parks-api-staging.herokuapp.com/list/all', function(data) {
   var items = [];
 
+
+  var nested = {};
+  data.results.forEach(function(item){
+    var kind = item.kind;
+    if(!nested[kind])nested[kind] = [];
+    nested[kind].push(item);
+  });
+
+  console.log(nested);
+
+  /*
   $.each(data, function(key, val) {
     items.push('<li id="' + key + '">' + val + '</li>');
   });
@@ -11,5 +22,6 @@ $.getJSON('ajax/test.json', function(data) {
     'class': 'my-new-list',
     html: items.join('')
   }).appendTo('body');
+  */
 });
 </script>
