@@ -1,43 +1,15 @@
-<% if (environment && environment == 'staging') { %>
+<script>
 
-    <h3>Current available layouts</h3>
+$.getJSON('ajax/test.json', function(data) {
+  var items = [];
 
-    <p><a href="http://staging.parks.stamen.com/visit/park-sites/muir-woods-national-monument.html">Muir Woods National Monument</a></p>
+  $.each(data, function(key, val) {
+    items.push('<li id="' + key + '">' + val + '</li>');
+  });
 
-    <p><a href="http://staging.parks.stamen.com/park-improvements/current-projects/marin/">Projects page for Marin County</a></p>
-
-    <p><a href="http://staging.parks.stamen.com/park-improvements/current-projects/marin/redwood-creek.html">Redwood Creek project</a></p>
-
-    <p><a href="http://staging.parks.stamen.com/get-involved/volunteer/upcoming-events/">Volunteer events</a></p>
-
-    <p><a href="http://staging.parks.stamen.com/events/volunteer-events/special-events/california-coastal-cleanup.html">California Coastal Cleanup event</a></p>
-
-<% }else if(environment && environment == 'development'){ %>
-
-    <h3>Current available layouts</h3>
-
-    <p><a href="http://dev.parks.stamen.com/visit/park-sites/muir-woods-national-monument.html">Muir Woods National Monument</a></p>
-
-    <p><a href="http://dev.parks.stamen.com/park-improvements/current-projects/marin/">Projects page for Marin County</a></p>
-
-    <p><a href="http://dev.parks.stamen.com/park-improvements/current-projects/marin/redwood-creek.html">Redwood Creek project</a></p>
-
-    <p><a href="http://dev.parks.stamen.com/get-involved/volunteer/upcoming-events/">Volunteer events</a></p>
-
-    <p><a href="http://dev.parks.stamen.com/events/volunteer-events/special-events/california-coastal-cleanup.html">California Coastal Cleanup event</a></p>
-
-<% } else { %>
-
-    <h3>Current available layouts</h3>
-
-    <p><a href="http://0.0.0.0:8080/visit/park-sites/muir-woods-national-monument.html">Muir Woods National Monument</a></p>
-
-    <p><a href="http://0.0.0.0:8080/park-improvements/current-projects/marin/">Projects page for Marin County</a></p>
-
-    <p><a href="http://0.0.0.0:8080/park-improvements/current-projects/marin/redwood-creek.html">Redwood Creek project</a></p>
-
-    <p><a href="http://0.0.0.0:8080/get-involved/volunteer/upcoming-events/">Volunteer events</a></p>
-
-    <p><a href="http://0.0.0.0:8080/events/volunteer-events/special-events/california-coastal-cleanup.html">California Coastal Cleanup event</a></p>
-
-<% } %>
+  $('<ul/>', {
+    'class': 'my-new-list',
+    html: items.join('')
+  }).appendTo('body');
+});
+</script>
