@@ -82,10 +82,11 @@ function getById(req, res, next) {
 
 function getByKind(req, res, next){
     var kind = db.normalizeKind(req.params.kind);
+    var where;
     if(kind == "*"){
-        res.json(200, {'error': 'invalid kind'});
+        where = "";
     }else{
-        var where = "WHERE kind = $1";
+        where = "WHERE kind = $1";
         var params = [kind];
         db.baseQuery(['*'], where, params, '', '', function(err, out){
             if(err){
