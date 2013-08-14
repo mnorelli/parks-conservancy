@@ -59,6 +59,13 @@ app.get("/events/volunteer-events/special-events/california-coastal-cleanup.html
   });
 });
 
+app.get('*', function(req, res){
+  return res.render("index.html.ejs", {
+    layout: "layouts/index.html.ejs",
+    environment: process.env.PARKS_ENV
+  });
+});
+
 app.listen(process.env.PORT || 8080, function() {
   console.log("Listening at http://%s:%d/", this.address().address, this.address().port);
 });

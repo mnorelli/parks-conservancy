@@ -52,6 +52,7 @@ $(document).ready(function() {
 
 <script type="text/javascript" src="http://www.parksconservancy.org/assets/js/tabshow.js "></script>
 <link type="text/css" href="http://www.parksconservancy.org/assets/css/tabshow.css" rel="stylesheet" />
+
 <script type="text/javascript">
     var ts = new Tabshow();
     ts.name = "ts";  // name of the javascript variable used to refer to this instance
@@ -62,30 +63,6 @@ $(document).ready(function() {
 </script>
 
 
-
-<script type="text/javascript" src="/assets/js/slideshow1.js"></script>
-<link type="text/css" href="/assets/css/slideshow.css" rel="stylesheet" />
-<script type="text/javascript">
-    var ss = new Slideshow();
-    ss.name = "ss";  // name of the javascript variable used to refer to this instance
-    ss.iid = "ss0_";  // id prefix used to create this instance of the slideshow
-    ss.loadingImage = "http://www.parksconservancy.org/assets/images/ajax-loader.gif";
-    ss.mainImgWidth = 642;
-    ss.mainImgHeight = 309;
-    ss.separateTitle = false;
-    ss.navPadBottom = 3;
-    ss.navPadRight = 10;
-    ss.navBg = "http://www.parksconservancy.org/assets/images/slide_navbg.png";
-    ss.navPanelHeight = 51;
-    ss.currentThumbnailBorderImage = "http://www.parksconservancy.org/assets/images/slide_navselection.png";
-    ss.clearImage = "http://www.parksconservancy.org/assets/images/clear.gif";
-    ss.maxThumbs = 4;
-    ss.rotateSpeed = (5*1000);
-    ss.fadeTimeMs = 300;
-    ss.autoPlay = true;
-    ss.slideShowContentsSelector = "#slideshow div";
-</script>
-
 </head>
 <body class="home">
   <% include ./../partials/context.ejs %>
@@ -94,15 +71,6 @@ $(document).ready(function() {
       <!--start header-->
       <div id="header" class="clrfix">
           <div id="convio-content-415207591" style="display: inline;">
-
-
-
-
-
-
-
-
-
 
 
   <!-- Standard dependencies for embedded COM content -->
@@ -508,144 +476,8 @@ $(document).ready(function() {
 
   <a name="main"></a>
   <div id="leftcolumn">
-      <div id="templatelist-351065475" style="display: inline;">
-
-
-
-
-
-
-      <div id="slideshow" style="display: none;">
-
-
-              <div id="slide1">
-                  <img class="slide_image" src="http://www.parksconservancy.org/assets/homepage-images/roving-ranger.jpg" alt="" longdesc="http://www.parksconservancy.org/learn/roving-ranger/" />
-                  <img class="slide_thumb" src="http://www.parksconservancy.org/assets/homepage-images/thumbs/roving-ranger.jpg" />
-              </div>
-
-
-              <div id="slide2">
-                  <img class="slide_image" src="http://www.parksconservancy.org/assets/homepage-images/px.jpg" alt="" longdesc="http://www.parksconservancy.org/park-improvements/current-projects/san-francisco/proposed-presidio-exchange.html" />
-                  <img class="slide_thumb" src="http://www.parksconservancy.org/assets/homepage-images/thumbs/presidio-exchange.jpg" />
-              </div>
-
-
-              <div id="slide3">
-                  <img class="slide_image" src="http://www.parksconservancy.org/assets/homepage-images/favorite-park.jpg" alt="" longdesc="https://apps.facebook.com/parkfave/pages/ed17704111daa86b" />
-                  <img class="slide_thumb" src="http://www.parksconservancy.org/assets/homepage-images/thumbs/favorite-park.jpg" />
-              </div>
-
-
-              <div id="slide4">
-                  <img class="slide_image" src="http://www.parksconservancy.org/assets/homepage-images/planned-giving.jpg" alt="" longdesc="http://www.parksconservancy.org/get-involved/donate/other-ways-to-give/planned-giving.html" />
-                  <img class="slide_thumb" src="http://www.parksconservancy.org/assets/homepage-images/thumbs/planned-giving.jpg" />
-              </div>
-
-
-      </div>
-  </div>
-  <div id="event_calendar">
-  <div id="item-351065476" style="display: inline;">
-
-
-
-
-
-
-
-  <link rel='stylesheet' type='text/css' href="https://secure3.convio.net/ggnpc/site/SPageServer?pagename=calendar_css&pgwrap=n" />
-  <!-- Dependencies -->
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.7.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
-  <!-- Source file -->
-  <script type="text/javascript" src="http://yui.yahooapis.com/2.7.0/build/calendar/calendar-min.js"></script>
-  <div id="calendar_picker"><!-- Calendar will be populated here --></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script type="text/javascript">
-      YAHOO.util.Event.onDOMReady(function() {
-          // initialize the calendar
-          var selectedDate = pageDate = "";
-          var aSelectedParts = [];
-          var sQS = location.search.replace("?","");
-          var aParams = sQS.split("&");
-
-          for (i=0;i<aParams.length;i++) {
-              sKey=aParams[i].split("=")[0];
-              sValue=aParams[i].split("=")[1];
-              switch (sKey) {
-                  case "startDate":
-                      selectedDate = sValue;
-                      aSelectedParts = sValue.split("/");
-                      pageDate = aSelectedParts[0] + "/" + aSelectedParts[2];
-                      break;
-              }
-          }
-          if (selectedDate != "") {
-              var calendarPicker = new YAHOO.widget.Calendar("calendar_picker", {pageDate: pageDate, selected: selectedDate, hide_blank_weeks: true});
-          } else {
-              var calendarPicker = new YAHOO.widget.Calendar("calendar_picker", {hide_blank_weeks: true});
-          }
-          calendarPicker.render();
-
-          calendarPicker.selectEvent.subscribe(function(type, args, obj) {
-                  // get the date picker date the user selected
-                  var selectedDate = args[0][0];
-                  getEventsAJAX(selectedDate);
-          });
-      });
-
-      function getEventsAJAX(selectedDate) {
-              var sUrl = "http://www.parksconservancy.org/events/?dateType=start_date&startDate="+selectedDate[1]+'/'+selectedDate[2]+'/'+ selectedDate[0]+'&endDate=';
-              if ('' != '') { sUrl += '&park_location=' ;}
-              else { sUrl += '&park_location='; }
-              if ('' != '') {sUrl += '&audience='; }
-              else { sUrl += '&audience='; }
-              if ('' != '') { sUrl += '&program='; }
-              sUrl += '&event_type=';
-              var postData = "";
-              window.location = sUrl;
-  }
-  </script>
-
-
-
-  </div>
-  </div>
-  <div id="upcoming_events">
-  <div id="templatelist-351065477" style="display: inline;">
-
-
-
-
-
-
-  <h2><a href="http://www.parksconservancy.org/events/">Upcoming Events</a></h2>
-  <ul>
-
-  <li class="homepage_events"><a href="http://www.parksconservancy.org/events/park-academy/2013-park-academy/park-academy-advanced-plant-taxonomy.html">Advanced Plant Taxonomy</a> (July&nbsp;30,&nbsp;2013)</li>
-
-  <li class="homepage_events"><a href="http://www.parksconservancy.org/events/presidio-trust/presidio-exchange-open-house.html">Presidio Exchange Open House</a> (July&nbsp;31,&nbsp;2013)</li>
-
-  <li class="homepage_events"><a href="http://www.parksconservancy.org/events/park-interp/healthy-parks-healthy-1-1.html">Healthy Parks, Healthy People: Hiking for Heartbeats</a> (August&nbsp;3,&nbsp;2013)</li>
-
-  </ul>
-  <p><a class="read-more" href="http://www.parksconservancy.org/events/">See all upcoming events</a></p>
-  </div>
-  </div>
+    <!-- ADD LINKS TO SPECIFIC TEST PAGES HERE -->
+    <% include ./../partials/index-links.ejs %>
   </div>
   <div id="rightcolumn">
       <div id="sidebar-map"><%- body -%></div>
@@ -1005,7 +837,11 @@ $(document).ready(function() {
           </div>
       </div>
   </div>
-  <script type="text/javascript">ss.init();</script>
+
+  <!-- link wormhole in progress -->
+  <% include ./../partials/link-shifter.ejs %>
+
+
   <script type="text/javascript" src="http://www.parksconservancy.org/assets/js/fancybox/onload.js"></script>
 
   <!--Highlight current menu link-->

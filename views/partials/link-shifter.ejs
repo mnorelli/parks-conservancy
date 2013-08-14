@@ -1,0 +1,19 @@
+<script>
+
+var environmentBaseUrl = 'http://0.0.0.0:8080';
+<% if (environment && environment == 'staging') { %>
+    environmentBaseUrl = 'http://staging.parks.stamen.com';
+<% }else if(environment && environment == 'development'){ %>
+    environmentBaseUrl = 'http://dev.parks.stamen.com';
+<% } else { %>
+    environmentBaseUrl = 'http://0.0.0.0:8080';
+<% } %>
+
+$(function(){
+
+    // switching links to env
+    $("a[href^='http://www.parksconservancy.org']").each(function(link){
+        this.href = this.href.replace('http://www.parksconservancy.org', environmentBaseUrl)
+    })
+});
+</script>
