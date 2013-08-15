@@ -25,6 +25,14 @@ app.get("/", function(req, res) {
   });
 });
 
+app.get("/map", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: "Map :: " + req.params['filename']
+  });
+});
+
 app.get("/visit/park-sites/:filename", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
