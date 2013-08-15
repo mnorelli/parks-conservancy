@@ -20,9 +20,70 @@ app.use(express.static(__dirname + "/public"));
 app.get("/", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/index.html.ejs",
-    environment: process.env.PARKS_ENV
+    environment: process.env.PARKS_ENV,
+    title: 'Homepage :: Golden Gate National Parks Conservancy'
   });
 });
+
+app.get("/visit/park-sites/:filename", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: req.params['filename']
+  });
+});
+
+app.get("/events/:filename", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: req.params['filename']
+  });
+});
+
+app.get("/location/:filename", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: req.params['filename']
+  });
+});
+
+app.get("/learn/:filename", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: req.params['filename']
+  });
+});
+
+app.get("/learn/community-programs/:filename", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: req.params['filename']
+  });
+});
+
+app.get("/conservation/plants-animals/endangered-species/:filename", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: req.params['filename']
+  });
+});
+
+app.get("/park-improvements/current-projects/:filename", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/basic.ejs",
+    environment: process.env.PARKS_ENV,
+    title: req.params['filename']
+  });
+});
+
+/*
+
+
 
 app.get("/visit/park-sites/muir-woods-national-monument.html", function(req, res) {
   return res.render("muwo.html.ejs", {
@@ -58,12 +119,9 @@ app.get("/events/volunteer-events/special-events/california-coastal-cleanup.html
     environment: process.env.PARKS_ENV
   });
 });
-
-app.get('*', function(req, res){
-  return res.render("index.html.ejs", {
-    layout: "layouts/index.html.ejs",
-    environment: process.env.PARKS_ENV
-  });
+*/
+app.get('*', function(req, res, next){
+  res.redirect('/');
 });
 
 app.listen(process.env.PORT || 8080, function() {
