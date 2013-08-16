@@ -30,6 +30,16 @@ data-nhd: data/nhdh1805.7z tmp/.placeholder
 			-f PGDump /vsistdout/ \
 			tmp/NHDH1805.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+	ogr2ogr --config PG_USE_COPY YES \
+		    -s_srs EPSG:4326 \
+			-t_srs EPSG:900913 \
+			-nlt PROMOTE_TO_MULTI \
+			-lco GEOMETRY_NAME=geom \
+			-lco SRID=900913 \
+			-f PGDump /vsistdout/ \
+			-sql "SELECT * FROM nhdflowline WHERE fcode IN (56600, 56700)" \
+			tmp/NHDH1805.gdb | \
+			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	rm -rf tmp/NHDH1805_101v210.gdb
 	touch $@
 
