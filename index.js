@@ -4,6 +4,24 @@ var express = require("express"),
     partials = require("express-partials"),
     app = express();
 
+
+var getEnvironmentUrl = function(){
+  var environment = process.env.PARKS_ENV || null;
+
+  var environmentBaseUrl = 'http://0.0.0.0:8080';
+
+  if (environment && environment == 'staging') {
+      environmentBaseUrl = 'http://staging.parks.stamen.com';
+  }else if(environment && environment == 'development'){
+      environmentBaseUrl = 'http://dev.parks.stamen.com';
+  } else {
+      environmentBaseUrl = 'http://0.0.0.0:8080';
+  }
+
+  return environmentBaseUrl;
+}
+
+
 //app.use(express.logger());
 app.use(partials());
 
@@ -21,6 +39,7 @@ app.get("/", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/index.html.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: 'Homepage :: Golden Gate National Parks Conservancy'
   });
 });
@@ -128,9 +147,11 @@ app.get("/events/volunteer-events/special-events/california-coastal-cleanup.html
   });
 });
 */
+
 app.get('*', function(req, res, next){
   res.redirect('/');
 });
+
 
 app.listen(process.env.PORT || 8080, function() {
   console.log("Listening at http://%s:%d/", this.address().address, this.address().port);
