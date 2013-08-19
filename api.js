@@ -144,10 +144,10 @@ function getParkBoundary(req, res, next){
     var park = req.params.park || null;
 
     if(park){
-        var where = "WHERE Unit_name = $1";
+        var where = "WHERE unit_name = $1";
         var params = [park];
 
-        db.baseQuery(['*'], where, params, '', '', function(err, out){
+        db.baseGeoQuery(['*'], where, params, '', '', function(err, out){
             if(err){
                 res.json(200, err);
             }else{
