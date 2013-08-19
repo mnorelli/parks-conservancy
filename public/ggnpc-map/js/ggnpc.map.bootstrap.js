@@ -169,7 +169,7 @@
             content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
 
             if(exports.GGNPC_MAP.mapSize == 'small'){
-                content += '<a ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
+                content += '<a style="display:none;" ng-show="linkToBigMap" ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
             }
 
             rootElement.innerHTML = content;
