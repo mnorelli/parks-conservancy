@@ -85,7 +85,9 @@
         var showBoundary = function(path){
             if(!$scope.parkData)return;
 
-            if(path && path.length){
+            path = JSON.parse(path);
+            console.log( path );
+            if(path && path.coordinates){
 
                 var featureStyles = {
                     strokeColor: '#333',
@@ -95,9 +97,9 @@
                     fillOpacity: 0.55,
                     zIndex: 1000
                   };
-                console.log(path)
 
-                selectedParkOutline = new GeoJSON([path], featureStyles, true);
+
+                selectedParkOutline = new GeoJSON(path, featureStyles, true);
 
                 console.log('selectedParkOutline: ', selectedParkOutline)
 
