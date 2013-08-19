@@ -19,7 +19,8 @@
           );
     }]);
 
-    angular.module('app').controller('AppController', ['$scope', '$location', '$route', '$routeParams', 'api', function($scope, $location, $route, $routeParams, api) {
+    angular.module('app').controller('AppController', ['$scope', '$rootScope', '$location', '$route', '$routeParams', 'api', function($scope, $rootScope, $location, $route, $routeParams, api) {
+        $rootScope.loadingData = false;
 
         // not using the $routeProvider for now
         $scope.routeParams = ''
@@ -43,6 +44,8 @@
 
 
         var callApi = function(){
+            $rootScope.loadingData = true;
+
             api.get($scope.routeParams, function(error, data){
                 if(error){
                     console.log(error);
@@ -198,7 +201,7 @@
 
             var requests = [];
 
-            if(!name) return [];
+            if(!name) name = 'all';
 
             var place = name.replace('.html','');
             var url = API_URL_BASE + '/stuff/park/' + place + '/kind/all?restrictEvents=true';
@@ -219,7 +222,7 @@
                 api.currentData = rsp;
                 callback(null, rsp);
 
-                //$rootScope.loadingData = false;
+                $rootScope.loadingData = false;
             });
 
         }
