@@ -1,5 +1,38 @@
+#sidebar-map{ position: relative; }
+
+body.map #leftcolumn{
+    width: 100%;
+}
+
+body.map #ggnpc-map{
+    height: 500px;
+}
+
 #sidebar-map #ggnpc-map{
     position: relative;
     height: 100%;
     width: 100%;
 }
+
+#ggnpc-link-big-map{
+    background: #f63;
+    color: #fff;
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+}
+
+body.map #ggnpc-link-big-map{
+    display: none;
+}
+
+.hide { display: none; }

@@ -46,10 +46,10 @@ app.get("/", function(req, res) {
 
 app.get("/map", function(req, res) {
   return res.render("index.html.ejs", {
-    layout: "layouts/basic.ejs",
+    layout: "layouts/map.ejs",
     environment: process.env.PARKS_ENV,
     environmentBaseUrl: getEnvironmentUrl(),
-    title: "Map :: " + req.params['filename']
+    title: "Map"
   });
 });
 

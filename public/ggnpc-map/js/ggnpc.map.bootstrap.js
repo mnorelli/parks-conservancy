@@ -146,19 +146,33 @@
         var writeDOM = function(){
             console.log('writing dom');
 
-            var rootElement = document.getElementById('sidebar-map') || null;
+            var rootElement = document.getElementById('main-map') || document.getElementById('sidebar-map');
 
             exports.GGNPC_MAP.root = rootElement;
-            exports.GGNPC_MAP.mapSize = 'small';
+            exports.GGNPC_MAP.mapSize = (rootElement.id == 'main-map') ? 'big' : 'small';
 
             if(!rootElement){
-                alert("No element named sidebar-map");
+                alert("No element named sidebar-map or main-map");
                 return
             }
-
+            // TOOD: fragments
             rootElement.setAttribute('ng-app', 'app')
             rootElement.setAttribute('ng-controller', 'AppController');
-            rootElement.innerHTML = '<div id="ggnpc-map" ng-controller="mapController"></div>';
+
+            var content = '';
+
+            // TODO: remove this when done testing
+            if(exports.GGNPC_MAP.mapSize == 'big'){
+                content += '<h1 style="display:none;" ng-show="ggnpcPageName">{{ggnpcPageName}}</h1>';
+            }
+
+            content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
+
+            if(exports.GGNPC_MAP.mapSize == 'small'){
+                content += '<a ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
+            }
+
+            rootElement.innerHTML = content;
         }
 
         writeDOM();

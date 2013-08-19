@@ -1,25 +1,46 @@
 (function(exports){
     "use strict";
 
+
     console.log("APP LOADED");
     console.log(exports.GGNPC_MAP);
 
     angular.module("app", ['services', 'map']);
 
+    angular.module('app').config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+      //$locationProvider.html5Mode(true);
+
+      $routeProvider
+          .when(
+              "/map",
+              {
+                  action: "map"
+              }
+          );
+    }]);
+
     angular.module('app').controller('AppController', ['$scope', '$location', '$route', '$routeParams', 'api', function($scope, $location, $route, $routeParams, api) {
 
         // not using the $routeProvider for now
         $scope.routeParams = ''
+
         var getParkContext = function(path){
+
             if(path.indexOf('/visit/park-sites/') === 0){
                 $scope.routeParams = path.split('/').pop();
+                $scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
                 return 'visit';
             }
+
             return '';
         }
 
-        $scope.parkContext = getParkContext( window.location.pathname );
+        var pathname = window.location.pathname;
+        if(pathname.indexOf('/map') == 0) pathname = window.location.hash.substring(1);
+        $scope.parkContext = getParkContext( pathname );
         $scope.parkData = null;
+
+
 
         var callApi = function(){
             api.get($scope.routeParams, function(error, data){
@@ -27,14 +48,20 @@
                     console.log(error);
                     return false;
                 }
+                if(!data || !data.length)return;
 
+                if( data[0].data.key == 'stuff'){
+                    $scope.ggnpcPageName = data[0].data.parent.attributes.title;
+
+                    console.log('$scope.ggnpcPageName: ',$scope.ggnpcPageName)
+                }
                 $scope.parkData = data;
             });
         }
 
         $scope.$watch('parkContext', function(){
             callApi();
-        })
+        });
 
     }]);
 
@@ -175,7 +202,7 @@
 
             var place = name.replace('.html','');
             var url = API_URL_BASE + '/stuff/park/' + place + '/kind/all?restrictEvents=true';
-            var outline = API_URL_BASE + '/geo/park/' + 'Muir Beach';
+            var outline = API_URL_BASE + 'geo/park/' + name;
             requests.push( request(url, 'stuff') );
             requests.push( request(outline, 'outline') );
 
