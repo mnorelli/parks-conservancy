@@ -140,6 +140,24 @@ function listByKind(req, res, next){
     });
 }
 
+function getParkBoundary(req, res, next){
+    var park = req.params.park || null;
+
+    if(park){
+        var where = "WHERE Unit_name = $1";
+        var params = [park];
+
+        db.baseQuery(['*'], where, params, '', '', function(err, out){
+            if(err){
+                res.json(200, err);
+            }else{
+                res.json(200, out);
+            }
+        });
+
+    }
+}
+
 // server setup
 var server = restify.createServer();
 server.use(restify.CORS());
@@ -155,6 +173,9 @@ server.get('/:kind/id/:id', getById);
 server.get('/list/:kind', listByKind); // return title,kind
 
 server.get('/stuff/park/:file/kind/:kind', getStuffForPark);
+
+server.get('/geo/park/:park', getParkBoundary);
+
 
 // start server
 server.listen( process.env.PORT || 5555, function() {
