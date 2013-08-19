@@ -144,7 +144,7 @@ function getParkBoundary(req, res, next){
     var park = req.params.park || null;
 
     if(park){
-        var where = "WHERE unit_name = $1";
+        var where = "WHERE convio_filename = $1";
         var params = [park];
 
         db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
