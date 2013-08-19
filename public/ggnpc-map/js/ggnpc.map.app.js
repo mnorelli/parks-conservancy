@@ -5,8 +5,37 @@
     console.log(exports.GGNPC_MAP);
 
     angular.module("app", ['services', 'map']);
+
     angular.module('app').controller('AppController', ['$scope', '$location', '$route', '$routeParams', 'api', function($scope, $location, $route, $routeParams, api) {
-        // Update the rendering of the page.
+
+        // not using the $routeProvider for now
+        $scope.routeParams = ''
+        var getParkContext = function(path){
+            if(path.indexOf('/visit/park-sites/') === 0){
+                $scope.routeParams = path.split('/').pop();
+                return 'visit';
+            }
+            return '';
+        }
+
+        $scope.parkContext = getParkContext( window.location.pathname );
+        $scope.parkData = null;
+
+        var callApi = function(){
+            api.get($scope.routeParams, function(error, data){
+                if(error){
+                    console.log(error);
+                    return false;
+                }
+
+                $scope.parkData = data;
+            });
+        }
+
+        $scope.$watch('parkContext', function(){
+            callApi();
+        })
+
     }]);
 
     angular.module('map', [])
@@ -51,35 +80,117 @@
 
 
 
+        var selectedParkOutline = null;
+        //obj.data.results[0].geom
+        var showBoundary = function(path){
+            if(!$scope.parkData)return;
+
+            if(path && path.length){
+
+                var featureStyles = {
+                    strokeColor: '#333',
+                    strokeOpacity: .4,
+                    strokeWeight: 1,
+                    fillColor: "#4afb05",
+                    fillOpacity: 0.55,
+                    zIndex: 1000
+                  };
+                console.log(path)
+
+                selectedParkOutline = new GeoJSON([path], featureStyles, true);
+
+                console.log('selectedParkOutline: ', selectedParkOutline)
+
+                if (selectedParkOutline.type == 'Error'){
+                    console.log("Error: no boundary for this park")
+                }else{
+
+                    if(selectedParkOutline instanceof Array){
+                        selectedParkOutline.forEach(function(p){
+                            p.setMap(map);
+                        });
+                    }else{
+                        selectedParkOutline.setMap(map);
+                    }
+
+                    if(selectedParkOutline.geojsonBounds)map.fitBounds(selectedParkOutline.geojsonBounds);
+                }
+
+            }else{
+                console.log("Geodata not ready!!!: ");
+            }
+        }
+
+        function handleContextChange(){
+            var p = $scope.parkData[1].data.results[0].geom;
+            showBoundary(p)
+        }
+
+        $scope.$watch('parkData', function(){
+            if(!$scope.parkData) return;
+
+            console.log("CHANGED: ", $scope.parkData);
+            handleContextChange();
+        })
+
+
+
         var map = maps.base();
     }]);
 
-
+    //http://stamen-parks-api-staging.herokuapp.com/geo/park/Montara
     /* Services */
     angular.module('services', ['services.api']);
-    angular.module('services.api',[]).factory('api', ['$http', function($http){
+    angular.module('services.api',[]).factory('api', ['$http', '$q', function($http, $q){
         var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
+
+
+        var request = function(url, key){
+            return $http({
+                method: 'GET',
+                url: url,
+                withCredentials: false
+            }).
+            success(function(data, status, headers, config) {
+                data = data || {};
+                data.key = key;
+            }).
+            error(function(data, status, headers, config) {
+                data = data || {};
+                data.key = key;
+            });
+        }
 
         var api = {};
 
         api.currentData = null;
 
         api.get = function(name, callback){
-            if(!name) return;
+
+            var requests = [];
+
+            if(!name) return [];
+
             var place = name.replace('.html','');
             var url = API_URL_BASE + '/stuff/park/' + place + '/kind/all?restrictEvents=true';
+            var outline = API_URL_BASE + '/geo/park/' + 'Muir Beach';
+            requests.push( request(url, 'stuff') );
+            requests.push( request(outline, 'outline') );
 
-            $http({
-                method: 'GET',
-                url: url,
-                withCredentials: false
-            }).
-            success(function(data, status, headers, config) {
-                api.currentData = data;
-                callback(null, api.currentData);
-            }).
-            error(function(data, status, headers, config) {
-                callback('Error: loading data from API server!');
+
+            $q.all(requests).then(function(results){
+
+                var rsp = [];
+                if(results){
+                    results.forEach(function(result){
+                        var key = result.data.key;
+                        rsp.push({'type': key, 'data': result.data});
+                    });
+                }
+                api.currentData = rsp;
+                callback(null, rsp);
+
+                //$rootScope.loadingData = false;
             });
 
         }

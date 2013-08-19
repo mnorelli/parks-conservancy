@@ -113,7 +113,7 @@ $(document).ready(function() {
               <h1><%= title %></h1>
             </div>
             <div id="rightcolumn">
-              <div id="sidebar-map"><% include ./../partials/little-map.ejs %></div>
+              <div id="sidebar-map"></div>
             </div>
           </div>
         </div> <!-- end inner_content -->
@@ -123,6 +123,10 @@ $(document).ready(function() {
 
   <!-- link wormhole in progress -->
   <% include ./../partials/link-shifter.ejs %>
+
+  <!-- Big/Little Map here -->
+  <!-- could actually put it in #sidebar-map -->
+  <% include ./../partials/little-map.ejs %>
 
 
   <script type="text/javascript" src="http://www.parksconservancy.org/assets/js/fancybox/onload.js"></script>

@@ -48,6 +48,7 @@ app.get("/map", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: "Map :: " + req.params['filename']
   });
 });
@@ -56,6 +57,7 @@ app.get("/visit/park-sites/:filename", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: req.params['filename']
   });
 });
@@ -64,6 +66,7 @@ app.get("/events/:filename", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: req.params['filename']
   });
 });
@@ -72,6 +75,7 @@ app.get("/location/:filename", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: req.params['filename']
   });
 });
@@ -80,6 +84,7 @@ app.get("/learn/:filename", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: req.params['filename']
   });
 });
@@ -88,6 +93,7 @@ app.get("/learn/community-programs/:filename", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: req.params['filename']
   });
 });
@@ -96,6 +102,7 @@ app.get("/conservation/plants-animals/endangered-species/:filename", function(re
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: req.params['filename']
   });
 });
@@ -104,6 +111,7 @@ app.get("/park-improvements/current-projects/:filename", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/basic.ejs",
     environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
     title: req.params['filename']
   });
 });
