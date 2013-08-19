@@ -142,10 +142,14 @@ function listByKind(req, res, next){
 
 function getParkBoundary(req, res, next){
     var park = req.params.park || null;
-
+    var params = []
     if(park){
         var where = "WHERE convio_filename = $1";
-        var params = [park];
+        params = [park];
+        if(park == 'all'){
+            where = "WHERE convio_filename is not null";
+            params = [];
+        }
 
         db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
             if(err){
