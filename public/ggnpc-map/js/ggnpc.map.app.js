@@ -31,6 +31,9 @@
                 $scope.routeParams = path.split('/').pop();
                 $scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
                 return 'visit';
+            }else{
+                $scope.linkToBigMap = environmentBaseUrl + "/map";
+                $scope.ggnpcPageName = "Index"
             }
 
             return '';
@@ -52,8 +55,8 @@
                     return false;
                 }
                 if(!data || !data.length)return;
-
-                if( data[0].data.key == 'stuff'){
+                console.log(data)
+                if( data[0].data.key == 'stuff' && data[0].data.parent){
                     $scope.ggnpcPageName = data[0].data.parent.attributes.title;
 
                     console.log('$scope.ggnpcPageName: ',$scope.ggnpcPageName)
@@ -110,13 +113,14 @@
 
 
 
-        var selectedParkOutline = null;
+        var selectedParkOutline = [];
         //obj.data.results[0].geom
         var showBoundary = function(path){
             if(!$scope.parkData)return;
 
             path = JSON.parse(path);
-            console.log( path );
+
+            var bounds = null;
             if(path && path.coordinates){
 
                 var featureStyles = {
@@ -129,33 +133,47 @@
                   };
 
 
-                selectedParkOutline = new GeoJSON(path, featureStyles, true);
+                var boundary = new GeoJSON(path, featureStyles, true);
 
-                console.log('selectedParkOutline: ', selectedParkOutline)
 
-                if (selectedParkOutline.type == 'Error'){
+
+                if (boundary.type == 'Error'){
                     console.log("Error: no boundary for this park")
                 }else{
 
-                    if(selectedParkOutline instanceof Array){
-                        selectedParkOutline.forEach(function(p){
+                    if(boundary instanceof Array){
+                        boundary.forEach(function(p){
                             p.setMap(map);
                         });
                     }else{
-                        selectedParkOutline.setMap(map);
+                        boundary.setMap(map);
                     }
 
-                    if(selectedParkOutline.geojsonBounds)map.fitBounds(selectedParkOutline.geojsonBounds);
+                    selectedParkOutline.push(boundary);
+
+                    //if(boundary.geojsonBounds)map.fitBounds(boundary.geojsonBounds);
+                    if(boundary.geojsonBounds) bounds = boundary.geojsonBounds;
                 }
 
             }else{
                 console.log("Geodata not ready!!!: ");
             }
+
+            return bounds;
         }
 
         function handleContextChange(){
-            var p = $scope.parkData[1].data.results[0].geom;
-            showBoundary(p)
+            var extent = new google.maps.LatLngBounds();
+            $scope.parkData[1].data.results.forEach(function(result){
+                var p = result.geom;
+                var bounds = showBoundary(p);
+                if(bounds){
+                    extent.extend(bounds.getNorthEast());
+                    extent.extend(bounds.getSouthWest());
+                }
+            });
+            map.fitBounds(extent);
+
         }
 
         $scope.$watch('parkData', function(){
@@ -173,7 +191,7 @@
     //http://stamen-parks-api-staging.herokuapp.com/geo/park/Montara
     /* Services */
     angular.module('services', ['services.api']);
-    angular.module('services.api',[]).factory('api', ['$http', '$q', function($http, $q){
+    angular.module('services.api',[]).factory('api', ['$http', '$q', '$rootScope', function($http, $q, $rootScope){
         var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
 
 
