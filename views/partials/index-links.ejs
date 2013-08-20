@@ -38,7 +38,7 @@ $.getJSON('http://stamen-parks-api-staging.herokuapp.com/list/all', function(dat
 
   var body = $('#leftcolumn');
   for(var item in nested){
-
+    if (item !== 'park') continue;
     var wrapper = "<div id='cont-" + item + "'><h3>";
     wrapper += "<a id='show-" + item + "' class='list-toggle' data-target='list-" + item + "' href='#'>" + item + "<a/>";
     wrapper += "</h3></div>";
