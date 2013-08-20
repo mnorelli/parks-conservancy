@@ -1,4 +1,7 @@
-#sidebar-map{ position: relative; }
+#sidebar-map{
+    position: relative;
+    height: 400px !important;
+}
 
 body.map #leftcolumn{
     width: 100%;
@@ -15,6 +18,11 @@ body.map #ggnpc-map{
 }
 
 #ggnpc-link-big-map{
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    /* bg orange btn
     background: #f63;
     color: #fff;
     display: block;
@@ -29,6 +37,7 @@ body.map #ggnpc-map{
     position: absolute;
     bottom: 25px;
     right: 5px;
+    */
 }
 
 body.map #ggnpc-link-big-map{
