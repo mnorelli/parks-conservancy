@@ -12,7 +12,8 @@ Redesign of the interactive map used on
 * [`basemap`](https://github.com/stamen/parks-conservancy/tree/basemap) - Basemap.
 * [`data`](https://github.com/stamen/parks-conservancy/tree/data) - Data import scripts.
 * [`api`](https://github.com/stamen/parks-conservancy/tree/api) - Convio API
-  wrapper.
+* [`etc`](https://github.com/stamen/parks-conservancy/tree/etc) - Server
+  configuration.
 
 To clone a specific branch (to prevent having to switch branches when working
 on different components), use:
