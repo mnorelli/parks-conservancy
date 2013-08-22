@@ -57,10 +57,10 @@ sub vcl_recv {
         /* We only deal with GET and HEAD by default */
         return (pass);
     }
-    if (req.http.Authorization || req.http.Cookie) {
-        /* Not cacheable by default */
-        return (pass);
-    }
+    # if (req.http.Authorization || req.http.Cookie) {
+    #     /* Not cacheable by default */
+    #     return (pass);
+    # }
     return (lookup);
 }
 #
@@ -80,12 +80,7 @@ sub vcl_recv {
 
 sub vcl_hash {
     hash_data(req.url);
-
-    if (req.http.host) {
-        hash_data("parks-map");
-    } else {
-        hash_data(server.ip);
-    }
+    hash_data("parks-map");
 
     return (hash);
 }
@@ -112,20 +107,6 @@ sub vcl_fetch {
     unset beresp.http.x-amz-id-2;
     unset beresp.http.x-amz-request-id;
 
-    if (beresp.http.content-type ~ "text" ||
-        beresp.http.content-type ~ "json") {
-        set beresp.do_gzip = true;
-    }
-
-    if (beresp.ttl <= 0s ||
-        beresp.http.Set-Cookie ||
-        beresp.http.Vary == "*") {
-		/*
-		 * Mark as "Hit-For-Pass" for the next 2 minutes
-		 */
-		set beresp.ttl = 120 s;
-		return (hit_for_pass);
-    }
     return (deliver);
 }
 
