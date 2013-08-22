@@ -24,7 +24,7 @@
     text-name: "''";
     text-dx: 14;
     text-placement-type: simple;
-    text-placements: "E,W";
+    text-placements: "E";
   }
 
   shield-file: url("images/px.png");
@@ -104,7 +104,9 @@
 
       shield-min-distance: 0;
       shield-min-padding: 0;
-      shield-dy: -5.75;
+      shield-dy: 18;
+      shield-dx: 24;
+      shield-allow-overlap: true;
     }
   }
 
@@ -124,7 +126,9 @@
       shield-size: 16;
       shield-min-distance: 0;
       shield-min-padding: 0;
-      shield-dy: -5.75;
+      shield-dy: 18;
+      shield-dx: 24;
+      shield-allow-overlap: true;
     }
   }
 
@@ -152,13 +156,14 @@
     [zoom>=15] {
       ::label {
         text-name: [name];
-        text-placements: "W,E";
       }
 
       shield-size: 16;
       shield-min-distance: 0;
       shield-min-padding: 0;
-      shield-dy: -5.75;
+      shield-dy: 18;
+      shield-dx: 24;
+      shield-allow-overlap: true;
     }
   }
 
@@ -241,7 +246,9 @@
       shield-size: 16;
       shield-min-distance: 0;
       shield-min-padding: 0;
-      shield-dy: -5.75;
+      shield-dy: 18;
+      shield-dx: 24;
+      shield-allow-overlap: true;
     }
   }
 
@@ -270,12 +277,13 @@
       shield-size: 14;
       shield-min-distance: 0;
       shield-min-padding: 0;
-      shield-dy: -4.75;
+      shield-dy: 18;
+      shield-dx: 24;
+      shield-allow-overlap: true;
     }
 
     [zoom>=15] {
       shield-size: 16;
-      shield-dy: -5.75;
     }
   }
 }
