@@ -74,8 +74,59 @@
     angular.module('map', [])
     .controller('mapController', ['$scope','$rootScope', function($scope, $rootScope ){
 
+        // Normalizes the coords that tiles repeat across the x axis (horizontally)
+        // like the standard Google map tiles.
+        function getNormalizedCoord(coord, zoom) {
+            var y = coord.y;
+            var x = coord.x;
+
+            // tile range in one direction range is dependent on zoom level
+            // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
+            var tileRange = 1 << zoom;
+
+            // don't repeat across y-axis (vertically)
+            if (y < 0 || y >= tileRange) {
+                return null;
+            }
+
+            // repeat across x-axis
+            if (x < 0 || x >= tileRange) {
+                x = (x % tileRange + tileRange) % tileRange;
+            }
+
+            return {
+                x: x,
+                y: y
+            };
+        }
+
+        var ggnpcMapTemplate = {
+            getTileUrl: function(coord, zoom) {
+                var normalizedCoord = getNormalizedCoord(coord, zoom);
+                if (!normalizedCoord) {
+                    return null;
+                }
+                var subdomains = ['a','b','c','d'];
+                var x = normalizedCoord.x,
+                    y = normalizedCoord.y,
+                    index = (zoom + x + y) % subdomains.length;
+              return "http://{S}.map.parks.stamen.com/{Z}/{X}/{Y}.png"
+                  .replace("{S}", subdomains[index])
+                  .replace("{Z}", zoom)
+                  .replace("{X}", x)
+                  .replace("{Y}", y);
+            },
+            tileSize: new google.maps.Size(256, 256),
+            maxZoom:  18,
+            minZoom: 6,
+            name: 'parks'
+        };
+
+        var parkMapType = new google.maps.ImageMapType(ggnpcMapTemplate);
+
         var maps = {};
 
+        //http://stamen-parks-map.herokuapp.com/17/20942/50637.png
         maps.base = function(options){
             options = utils.extend({}, maps.base.defaults, options);
             var initialize = function(){
@@ -91,7 +142,9 @@
                 backgroundColor: '#fff',
                 center: new google.maps.LatLng(37.7706, -122.3782),
                 zoom: 12,
-                mapTypeId: google.maps.MapTypeId.TERRAIN
+                mapTypeControlOptions: {
+                      mapTypeIds: ['parks']
+                    }
             },
             root: 'ggnpc-map'
         };
@@ -186,6 +239,9 @@
 
 
         var map = maps.base();
+        map.mapTypes.set('parks', parkMapType);
+        map.setMapTypeId('parks');
+
     }]);
 
     //http://stamen-parks-api-staging.herokuapp.com/geo/park/Montara
