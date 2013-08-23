@@ -107,8 +107,10 @@ sub vcl_fetch {
     unset beresp.http.x-amz-id-2;
     unset beresp.http.x-amz-request-id;
 
-    # keep objects for 90d (we'll be invalidating them directly)
-    set beresp.ttl = 90d;
+    if (beresp.status == 200) {
+      # keep objects for 90d (we'll be invalidating them directly)
+      set beresp.ttl = 90d;
+    }
 
     return (deliver);
 }
