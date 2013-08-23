@@ -166,7 +166,7 @@ function getEventContext(req, res, next){
     var filename = db.normalizeFilename(req.params.file);
     var params = [filename];
     var where = "where kind='event' and attributes->'filename' = $1";
-    var response = [];
+    var response = {};
 
     db.baseQuery(['*'], where, params, '', '', function(err, data){
         if(err){
@@ -176,14 +176,17 @@ function getEventContext(req, res, next){
             if(data && data.results[0].attributes.relatedpark){
                 where = "WHERE kind='park' and attributes->'id' = $1";
                 params = [data.results[0].attributes.relatedpark];
-
-                db.baseQuery(['*'], where, params, '', '', function(err, out){
+                response.event = data.results[0];
+                db.baseQuery(['*'], where, params, '', '', function(err, data){
                     if(err){
                         return res.json(200, err);
                     }else{
+                        //response.event.
                         return res.json(200, out);
                     }
                 });
+            }else{
+
             }
         }
 

@@ -40,6 +40,16 @@ var XML_PATH = process.env.XML_PATH
 
 var defs = require("./lib/template_definitions.js")();
 
+var convio_types =[
+    {type: 'event', query: './Events/Event', def: defs.eventsDef},
+    {type: 'park', query: './Parks/Park', def: defs.parksDef},
+    {type: 'location', query: './ParkLocations/ParkLocation', def: defs.locationDef},
+    {type: 'program', query: './Programs/Program', def: defs.programDef},
+    {type: 'subprogram', query: './SubPrograms/SubProgram', def: defs.subprogramDef},
+    {type: 'project', query: './Projects/Project', def: defs.projectsDef},
+    {type: 'specie', query: './Species/Specie', def: defs.speciesDef}
+]
+
 // normalizes GGNPC dates to 'YYYY-MM-DD H:mm' format
 // found problems, like: '2013-07-12 9am'
 var normalizeDate = function(item){
@@ -166,29 +176,30 @@ var parseItem = function(item, mapper){
 }
 
 // find nodes by query
-var findNodes = function(kind, query, defs, xml, writer){
-    var items = xml.findall(query);
-
-    if(!items.length)return;
-
-    logger(1, "There are " + items.length + " " + kind + "s." );
+var findNodes = function(xml){
 
     var parsed = [];
-    items.forEach(function(item, idx){
-        var obj = {};
+    convio_types.forEach(function(item){
+        var kind = item.type,
+            query = item.query,
+            defs = item.def;
 
-        for(var def in defs){
-            var key = def,
-                value = parseItem(item, defs[def])
-            obj[key] = value || '';
+
+        var items = xml.findall(query);
+        if(items.length){
+            items.forEach(function(item, idx){
+                var obj = {};
+
+                for(var def in defs){
+                    var key = def,
+                        value = parseItem(item, defs[def])
+                    obj[key] = value || '';
+                }
+
+                parsed.push({kind:kind, attributes:obj});
+            });
+
         }
-
-        logger(2, "(" + idx + ") -- " + kind + " -- " + hstore.stringify(obj)  );
-        logger(2, '');
-
-        parsed.push(obj);
-
-        if(writer) writer(kind, obj);
     });
 
     return parsed;
@@ -211,71 +222,86 @@ var loadXmlFile = function(callback){
 }
 
 var run = function(){
+
+    var rollback = function(client, done) {
+        console.log("ROLLING BACK");
+
+        client.query('ROLLBACK', function(err) {
+        //if there was a problem rolling back the query
+        //something is seriously messed up.  Return the error
+        //to the done function to close & remove this client from
+        //the pool.  If you leave a client in the pool with an unaborted
+        //transaction __very bad things__ will happen.
+        return done(err);
+        });
+    };
+
     pg.connect(CONN, function(err, client, done) {
-
-        var handleError = function(err) {
-          if(!err) return false;
-
-          logger(1, "%ERROR: " + err );
-
-          done();
-          //next(err);
-          return true;
-        };
-
-        var setupTransaction = function(callback){
-            client.query('BEGIN',function(err, result) {
-                if(handleError(err)) return;
-                done();
-
-                client.query('TRUNCATE convio',function(err, result) {
-                    if(handleError(err)) return;
-                    done();
-                    callback();
-                });
-            });
-        }
-
-        var writeData = function(kind, attrs){
-            var attrsString = hstore.stringify(attrs);
-
-            logger(1, kind + ', ' + attrsString );
-
-            client.query('INSERT INTO convio (kind, attributes) VALUES ($1, $2)', [kind, attrsString], function(err, result) {
-                if(handleError(err)) return;
-                done();
-            });
-        }
-
-        // load xml file to parse
-        // begin parsing and writing inserts
+        if(err) throw err;
         loadXmlFile(function(xml){
             if(xml){
+                client.query('BEGIN', function(err) {
+                    if(err){
+                        logger(2, err);
+                        return rollback(client, done);
+                    }
 
-                setupTransaction( function(){
+                    process.nextTick(function() {
+                        client.query('TRUNCATE convio',function(err) {
+                            if(err){
+                                logger(2, err);
+                                return rollback(client, done);
+                            }
 
-                    // run through all the types
-                    findNodes('event', './Events/Event', defs.eventsDef, xml, writeData);
-                    findNodes('park', './Parks/Park', defs.parksDef, xml, writeData);
-                    findNodes('location', './ParkLocations/ParkLocation', defs.locationDef, xml, writeData);
-                    findNodes('program', './Programs/Program', defs.programDef, xml, writeData);
-                    findNodes('subprogram', './SubPrograms/SubProgram', defs.subprogramDef, xml, writeData);
-                    findNodes('project', './Projects/Project', defs.projectsDef, xml, writeData);
-                    findNodes('specie', './Species/Specie', defs.speciesDef, xml, writeData);
+                            var nodes = findNodes(xml);
+                            var len = nodes.length;
+                            for(var i = 0;i < len; i++){
+                                var node = nodes[i];
 
-                    // commit
-                    client.query('COMMIT',function(err, result) {
-                        if(handleError(err)) return;
-                        done();
+                                var attrsString = hstore.stringify(node.attributes),
+                                    kind = node.kind;
+
+
+                                len --;
+                                logger(2, '(' + len + ')  ' + kind + ', ' + attrsString );
+
+                                client.query('INSERT INTO convio (kind, attributes) VALUES ($1, $2)', [kind, attrsString], function(err, result) {
+
+
+                                    if(err){
+                                        console.log("PROBLEM WITH THE INSERT")
+                                        console.log("ABOUT TO COMMIT: " ,len)
+                                        logger(2, err);
+                                        return rollback(client, done);
+                                    }
+
+                                    // check to see if this is last insert
+                                    if(len === 0){
+
+                                        console.log("ABOUT TO COMMIT: " ,len)
+                                        client.query('COMMIT', function(err){
+                                            if(err){
+                                                console.log("COMMIT ERROR");
+                                            }
+
+                                            logger(2, '-----------------------------');
+                                            logger(2, 'COMMIT DONE!');
+                                            logger(2, '');
+
+                                            done();
+                                        });
+
+                                    }
+                                });
+
+                            }
+
+                        });
                     });
 
                 });
-
-            }else{
-                logger(1, "No XML file!");
             }
         });
-
     });
 }
 

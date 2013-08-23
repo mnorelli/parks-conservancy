@@ -39,7 +39,7 @@ CREATE TABLE convio (kind varchar, attributes hstore);
 ### Ingest CONVIO XML feed
 
 ```bash
-node ingest.js
+foreman start convio
 ```
 
 ### Starting API server
@@ -69,7 +69,7 @@ heroku config:set XML_PATH='http://www.parksconservancy.org/z-testing/stamens-sa
 git push api-staging api:master
 ```
 
-### Ingesting CONVIO XML feed
+### Ingesting CONVIO XML feed on Heroku
 
 ```bash
 heroku run node ingest.js
