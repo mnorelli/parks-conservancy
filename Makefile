@@ -120,7 +120,7 @@ data-ggnra-trails: data/ggnra_trails.zip
 			-lco GEOMETRY_NAME=geom \
 			-lco SRID=900913 \
 			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_trails.zip/GGNRA_Trails_20130309.shp | \
+			/vsizip/data/ggnra_trails.zip/trails_goga_20130816.shp | \
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	touch $@
 
@@ -224,7 +224,7 @@ data/ggnpc_locations.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/03_GGNPC_locations_20130417.zip -o $@
 
 data/ggnra_trails.zip: data/.placeholder
-	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/04_GGNRA_Trails_20130309.zip -o $@
+	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/trails_goga_20130816.zip -o $@
 
 data/ggnra_boundary.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/05_GGNRA_boundary_2012_v2.zip -o $@
