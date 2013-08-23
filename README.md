@@ -46,7 +46,7 @@ $ git push heroku basemap:master
 2. Purge S3 from stamen-parks-tp:
 
 ```bash
-$ foreman run bin/purge.js
+$ foreman run node bin/purge.js
 ```
 
 3. Purge Varnish's cache:
