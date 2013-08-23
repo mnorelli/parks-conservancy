@@ -162,6 +162,42 @@ function getParkBoundary(req, res, next){
     }
 }
 
+function getEventContext(req, res, next){
+    var filename = db.normalizeFilename(req.params.file);
+    var params = [filename];
+    var where = "where kind='event' and attributes->'filename' = $1";
+    var response = [];
+
+    db.baseQuery(['*'], where, params, '', '', function(err, data){
+        if(err){
+            return res.json(200, err);
+        }else{
+
+            if(data && data.results[0].attributes.relatedpark){
+                where = "WHERE kind='park' and attributes->'id' = $1";
+                params = [data.results[0].attributes.relatedpark];
+
+                db.baseQuery(['*'], where, params, '', '', function(err, out){
+                    if(err){
+                        return res.json(200, err);
+                    }else{
+                        return res.json(200, out);
+                    }
+                });
+            }
+        }
+
+        return res.json(200, {'error': 'problem with your request'});
+    });
+
+    //select attributes->'title' from convio where kind='event' and attributes->'eventtypes' = 'Volunteer';
+
+
+    // select attributes->'title', attributes->'startdate'  from convio where kind='event' and (CAST(attributes->'startdate' as timestamp), CAST(attributes->'startdate' as timestamp)) overlaps (now(), now() + interval '7 days') limit 10;
+}
+
+
+
 // Select ST_GeomFromText(ST_AsText(geom), 4326) as geom from park_units limit 1;
 
 // server setup
@@ -181,6 +217,8 @@ server.get('/list/:kind', listByKind); // return title,kind
 server.get('/stuff/park/:file/kind/:kind', getStuffForPark);
 
 server.get('/geo/park/:park', getParkBoundary);
+
+server.get('/context/event/:file', getEventContext);
 
 
 // start server

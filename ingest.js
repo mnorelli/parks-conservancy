@@ -5,6 +5,7 @@ var et = require('elementtree');
 var moment = require('moment');
 var pg = require('pg');
 var hstore = require('node-postgres-hstore');
+var url = require('url');
 
 var opts = require("optimist")
     .usage("--test will run the Convio feed inhaler in a with out saving to DB.  Optional can set a specific kind in environment variable.")
@@ -19,7 +20,22 @@ var logger = function(level, msg){
     if(DEBUG && level >= DEBUGLEVEL)console.log(msg);
 }
 
-var PG_CONNECTION_STRING = process.env.DATABASE_URL;
+var CONN;
+// check if running on Heroku
+if(process.env.DYNO && process.env.DYNO == '1'){
+    CONN = process.env.DATABASE_URL;
+}else{
+    var config = url.parse(process.env.DATABASE_URL);
+
+    CONN = {
+      user: config.auth.split(':')[0],
+      password: config.auth.split(':')[1],
+      database: config.path.slice(1),
+      host: config.hostname,
+      port: config.port,
+      ssl: true
+    };
+}
 var XML_PATH = process.env.XML_PATH
 
 var defs = require("./lib/template_definitions.js")();
@@ -167,7 +183,7 @@ var findNodes = function(kind, query, defs, xml, writer){
             obj[key] = value || '';
         }
 
-        logger(2, "(" + idx + ") -- " + hstore.stringify(obj)  );
+        logger(2, "(" + idx + ") -- " + kind + " -- " + hstore.stringify(obj)  );
         logger(2, '');
 
         parsed.push(obj);
@@ -195,15 +211,15 @@ var loadXmlFile = function(callback){
 }
 
 var run = function(){
-    pg.connect(PG_CONNECTION_STRING, function(err, client, done) {
+    pg.connect(CONN, function(err, client, done) {
 
         var handleError = function(err) {
           if(!err) return false;
 
           logger(1, "%ERROR: " + err );
 
-          done(client);
-          next(err);
+          done();
+          //next(err);
           return true;
         };
 
@@ -304,7 +320,7 @@ if(ARGV.test){
     console.log("TEST: ", testKind);
     //test();
 }else{
-    //run();
+    run();
 }
 
 

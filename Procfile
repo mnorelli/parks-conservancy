@@ -1,3 +1,3 @@
 web: node api.js
-convio: node index.js
-convio-test: node index.js --test $CONVIO_TEST
+convio: node ingest.js
+#convio-test: node ingest.js --test $CONVIO_TEST
