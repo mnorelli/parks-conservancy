@@ -14,15 +14,17 @@ var opts = require("optimist")
 var ARGV = opts.argv;
 var testKind = 'all';
 
+
 var DEBUG = true;
 var DEBUGLEVEL = 2;
 var logger = function(level, msg){
     if(DEBUG && level >= DEBUGLEVEL)console.log(msg);
 }
 
+
 var CONN;
 // check if running on Heroku
-if(process.env.DYNO && process.env.DYNO == '1'){
+if(process.env.DYNO){
     CONN = process.env.DATABASE_URL;
 }else{
     var config = url.parse(process.env.DATABASE_URL);
@@ -36,7 +38,9 @@ if(process.env.DYNO && process.env.DYNO == '1'){
       ssl: true
     };
 }
-var XML_PATH = process.env.XML_PATH
+
+
+var XML_PATH = process.env.XML_PATH;
 
 var defs = require("./lib/template_definitions.js")();
 
@@ -48,7 +52,11 @@ var convio_types =[
     {type: 'subprogram', query: './SubPrograms/SubProgram', def: defs.subprogramDef},
     {type: 'project', query: './Projects/Project', def: defs.projectsDef},
     {type: 'specie', query: './Species/Specie', def: defs.speciesDef}
-]
+];
+
+
+var summary = {};
+
 
 // normalizes GGNPC dates to 'YYYY-MM-DD H:mm' format
 // found problems, like: '2013-07-12 9am'
@@ -184,19 +192,34 @@ var findNodes = function(xml){
             query = item.query,
             defs = item.def;
 
+        summary[kind] = {valid:0, invalid:0};
 
         var items = xml.findall(query);
         if(items.length){
             items.forEach(function(item, idx){
                 var obj = {};
 
+                var valid = true;
                 for(var def in defs){
                     var key = def,
-                        value = parseItem(item, defs[def])
+                        required = defs[key].required || false,
+                        value = parseItem(item, defs[key]);
+
                     obj[key] = value || '';
+
+                    // pretty simple, empty = invalid
+                    if(required){
+                        if(obj[key].length < 1) valid = false;
+                    }
                 }
 
-                parsed.push({kind:kind, attributes:obj});
+                if(valid){
+                    summary[kind].valid++;
+                    parsed.push({kind:kind, attributes:obj});
+                }else{
+                    summary[kind].invalid++;
+                }
+
             });
 
         }
@@ -224,8 +247,6 @@ var loadXmlFile = function(callback){
 var run = function(){
 
     var rollback = function(client, done) {
-        console.log("ROLLING BACK");
-
         client.query('ROLLBACK', function(err) {
         //if there was a problem rolling back the query
         //something is seriously messed up.  Return the error
@@ -254,48 +275,49 @@ var run = function(){
                             }
 
                             var nodes = findNodes(xml);
-                            var len = nodes.length;
-                            for(var i = 0;i < len; i++){
-                                var node = nodes[i];
 
-                                var attrsString = hstore.stringify(node.attributes),
-                                    kind = node.kind;
+                            function insertNode(){
 
+                                if(nodes.length){
+                                    var node = nodes.pop();
 
-                                len --;
-                                logger(2, '(' + len + ')  ' + kind + ', ' + attrsString );
+                                    var attrsString = hstore.stringify(node.attributes),
+                                        kind = node.kind;
 
-                                client.query('INSERT INTO convio (kind, attributes) VALUES ($1, $2)', [kind, attrsString], function(err, result) {
+                                    logger(2, '(' + nodes.length + ') -- ' + kind + ' -- ' + attrsString);
 
+                                    client.query('INSERT INTO convio (kind, attributes) VALUES ($1, $2)', [kind, attrsString], function(err, result) {
 
-                                    if(err){
-                                        console.log("PROBLEM WITH THE INSERT")
-                                        console.log("ABOUT TO COMMIT: " ,len)
-                                        logger(2, err);
-                                        return rollback(client, done);
-                                    }
+                                        if(err){
+                                            console.log("PROBLEM WITH THE INSERT")
 
-                                    // check to see if this is last insert
-                                    if(len === 0){
+                                            logger(2, err);
+                                            return rollback(client, done);
+                                        }
 
-                                        console.log("ABOUT TO COMMIT: " ,len)
-                                        client.query('COMMIT', function(err){
-                                            if(err){
-                                                console.log("COMMIT ERROR");
-                                            }
+                                        insertNode();
+                                    });
+                                }else{
+                                    logger(2, "ABOUT TO COMMIT: ");
+                                    logger(2, '-----------------------------');
 
-                                            logger(2, '-----------------------------');
+                                    client.query('COMMIT', function(err){
+                                        if(err){
+                                            logger(2, "COMMIT ERROR");
+                                        }else{
                                             logger(2, 'COMMIT DONE!');
-                                            logger(2, '');
+                                        }
 
-                                            done();
-                                        });
+                                        logger(2, '');
 
-                                    }
-                                });
-
+                                        console.log(summary);
+                                        done();
+                                    });
+                                }
                             }
 
+                            // start the inserting
+                            insertNode();
                         });
                     });
 
@@ -325,29 +347,15 @@ var groupProperty = function(items, prop){
 
 }
 
-var test = function(){
+var dryrun = function(){
     loadXmlFile(function(xml){
-        if(xml){
-            if(testKind == 'all' || testKind == 'event')        findNodes('event', './Events/Event', defs.eventsDef, xml, null);
-            if(testKind == 'all' || testKind == 'park')         findNodes('park', './Parks/Park', defs.parksDef, xml, null);
-            if(testKind == 'all' || testKind == 'location')     findNodes('location', './ParkLocations/ParkLocation', defs.locationDef, xml, null);
-            if(testKind == 'all' || testKind == 'program')      findNodes('program', './Programs/Program', defs.programDef, xml, null);
-            if(testKind == 'all' || testKind == 'subprogram')   findNodes('subprogram', './SubPrograms/SubProgram', defs.subprogramDef, xml, null);
-            if(testKind == 'all' || testKind == 'project')      findNodes('project', './Projects/Project', defs.projectsDef, xml, null);
-            if(testKind == 'all' || testKind == 'specie')      findNodes('species', './Species/Specie', defs.speciesDef, xml, null);
+        if (xml){
+            var nodes = findNodes(xml);
+            console.log(summary);
         }
     });
 }
 
-if(ARGV.test){
-    testKind = ARGV.test || 'all';
-    if(testKind == true)testKind = 'all';
-
-    console.log("TEST: ", testKind);
-    //test();
-}else{
-    run();
-}
-
-
+run();
+//dryrun();
 
