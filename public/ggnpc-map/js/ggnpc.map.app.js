@@ -31,6 +31,10 @@
                 $scope.routeParams = path.split('/').pop();
                 $scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
                 return 'visit';
+            }else if(path.indexOf('/events/') === 0){
+                $scope.routeParams = path.split('/').pop();
+                $scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
+                return 'events';
             }else{
                 $scope.linkToBigMap = environmentBaseUrl + "/map";
                 $scope.ggnpcPageName = "Index"
@@ -41,6 +45,8 @@
 
         var pathname = window.location.pathname;
         if(pathname.indexOf('/map') == 0) pathname = window.location.hash.substring(1);
+
+
         $scope.parkContext = getParkContext( pathname );
         $scope.parkData = null;
 
@@ -49,20 +55,42 @@
         var callApi = function(){
             $rootScope.loadingData = true;
 
-            api.get($scope.routeParams, function(error, data){
-                if(error){
-                    console.log(error);
-                    return false;
-                }
-                if(!data || !data.length)return;
-                console.log(data)
-                if( data[0].data.key == 'stuff' && data[0].data.parent){
-                    $scope.ggnpcPageName = data[0].data.parent.attributes.title;
+            switch($scope.parkContext){
+                case 'events':
+                    api.getEventContext($scope.routeParams, function(error, data){
+                        if(error){
+                            console.log(error);
+                            return false;
+                        }
+                        if(!data || !data.length)return;
+                        console.log(data)
+                        if( data[0].data.key == 'stuff' && data[0].data.parent){
+                            $scope.ggnpcPageName = data[0].data.ttributes.title;
 
-                    console.log('$scope.ggnpcPageName: ',$scope.ggnpcPageName)
-                }
-                $scope.parkData = data;
-            });
+                            console.log('$scope.ggnpcPageName: ',$scope.ggnpcPageName)
+                        }
+                        $scope.parkData = data;
+                    });
+                break;
+                case 'park':
+                    api.getParkContext($scope.routeParams, function(error, data){
+                        if(error){
+                            console.log(error);
+                            return false;
+                        }
+                        if(!data || !data.length)return;
+                        console.log(data)
+                        if( data[0].data.key == 'stuff' && data[0].data.parent){
+                            $scope.ggnpcPageName = data[0].data.parent.attributes.title;
+
+                            console.log('$scope.ggnpcPageName: ',$scope.ggnpcPageName)
+                        }
+                        $scope.parkData = data;
+                    });
+                break;
+
+            }
+
         }
 
         $scope.$watch('parkContext', function(){
@@ -118,7 +146,7 @@
             },
             tileSize: new google.maps.Size(256, 256),
             maxZoom:  18,
-            minZoom: 6,
+            minZoom: 10,
             name: 'parks'
         };
 
@@ -183,11 +211,9 @@
                     fillColor: "#4afb05",
                     fillOpacity: 0.55,
                     zIndex: 1000
-                  };
-
+                };
 
                 var boundary = new GeoJSON(path, featureStyles, true);
-
 
 
                 if (boundary.type == 'Error'){
@@ -216,6 +242,13 @@
         }
 
         function handleContextChange(){
+            console.log("$scope.parkData: ", $scope.parkData);
+
+            $scope.parkData.forEach(function(item){
+                console.log(item);
+            });
+
+            return;
             var extent = new google.maps.LatLngBounds();
             $scope.parkData[1].data.results.forEach(function(result){
                 var p = result.geom;
@@ -249,7 +282,7 @@
     angular.module('services', ['services.api']);
     angular.module('services.api',[]).factory('api', ['$http', '$q', '$rootScope', function($http, $q, $rootScope){
         var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
-
+        var API_URL_BASE = 'http://0.0.0.0:5000/';
 
         var request = function(url, key){
             return $http({
@@ -270,6 +303,61 @@
         var api = {};
 
         api.currentData = null;
+
+        api.getEventContext = function(name, callback){
+            if(!name)return callback('error', null);
+            var requests = [];
+
+            name = name.replace('.html','');
+            var url = API_URL_BASE + 'event/file/' + name;
+            requests.push( request(url, 'stuff') );
+            //requests.push( request(outline, 'outline') );
+
+
+            $q.all(requests).then(function(results){
+
+                var rsp = [];
+                if(results){
+                    results.forEach(function(result){
+                        var key = result.data.key;
+                        rsp.push({'type': key, 'data': result.data});
+                    });
+                }
+                api.currentData = rsp;
+                callback(null, rsp);
+
+                $rootScope.loadingData = false;
+            });
+
+        }
+
+        api.getParkContext = function(name, callback){
+            var requests = [];
+
+            if(!name) name = 'all';
+
+            var place = name.replace('.html','');
+            var url = API_URL_BASE + '/stuff/park/' + place + '/kind/all?restrictEvents=true';
+            var outline = API_URL_BASE + 'geo/park/' + name;
+            requests.push( request(url, 'stuff') );
+            requests.push( request(outline, 'outline') );
+
+
+            $q.all(requests).then(function(results){
+
+                var rsp = [];
+                if(results){
+                    results.forEach(function(result){
+                        var key = result.data.key;
+                        rsp.push({'type': key, 'data': result.data});
+                    });
+                }
+                api.currentData = rsp;
+                callback(null, rsp);
+
+                $rootScope.loadingData = false;
+            });
+        }
 
         api.get = function(name, callback){
 
