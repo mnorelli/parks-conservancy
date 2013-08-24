@@ -136,7 +136,7 @@ var parseItem = function(item, mapper){
     // do various things to item to pull out it's content
     // for example, links to images are an attribute of an img tag
     // skipping for now
-    /*
+
     if(mapper.attr){
 
         if(mapper.child){
@@ -166,7 +166,8 @@ var parseItem = function(item, mapper){
         }
 
     }
-    */
+
+    /*
 
     // remove this if using the above code
     try{
@@ -174,6 +175,8 @@ var parseItem = function(item, mapper){
     }catch(e){
         logger(1, '[Error] - Could not find text.');
     }
+    */
+
 
     // apply any type and format mutations
     if(mapper.type && value){
@@ -185,8 +188,9 @@ var parseItem = function(item, mapper){
 
 // find nodes by query
 var findNodes = function(xml){
-
+    var startOfToday = moment().startOf('day');
     var parsed = [];
+
     convio_types.forEach(function(item){
         var kind = item.type,
             query = item.query,
@@ -195,6 +199,7 @@ var findNodes = function(xml){
         summary[kind] = {valid:0, invalid:0};
 
         var items = xml.findall(query);
+
         if(items.length){
             items.forEach(function(item, idx){
                 var obj = {};
@@ -203,13 +208,22 @@ var findNodes = function(xml){
                 for(var def in defs){
                     var key = def,
                         required = defs[key].required || false,
+                        removeOldDates = defs[key].removeOldDates || false,
                         value = parseItem(item, defs[key]);
 
                     obj[key] = value || '';
 
+                    // Validation methods...
+
                     // pretty simple, empty = invalid
                     if(required){
                         if(obj[key].length < 1) valid = false;
+                    }
+
+                    // remove events that are done
+                    if(valid && removeOldDates){
+                        var dt = moment(obj[key], defs[key].format);
+                        if( dt < startOfToday)valid = false;
                     }
                 }
 
