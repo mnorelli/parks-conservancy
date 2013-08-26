@@ -72,18 +72,18 @@
                         $scope.parkData = data;
                     });
                 break;
-                case 'park':
-                    api.getParkContext($scope.routeParams, function(error, data){
+                case 'visit':
+                    api.getVisitContext($scope.routeParams, function(error, data){
                         if(error){
                             console.log(error);
                             return false;
                         }
-                        if(!data || !data.length)return;
-                        console.log(data)
+                        if(!data || !data.length) return;
+                        console.log(data);
                         if( data[0].data.key == 'stuff' && data[0].data.parent){
                             $scope.ggnpcPageName = data[0].data.parent.attributes.title;
 
-                            console.log('$scope.ggnpcPageName: ',$scope.ggnpcPageName)
+                            console.log('$scope.ggnpcPageName: ',$scope.ggnpcPageName);
                         }
                         $scope.parkData = data;
                     });
@@ -197,9 +197,8 @@
         var selectedParkOutline = [];
         //obj.data.results[0].geom
         var showBoundary = function(path){
+            console.log('')
             if(!$scope.parkData)return;
-
-            path = JSON.parse(path);
 
             var bounds = null;
             if(path && path.coordinates){
@@ -241,17 +240,50 @@
             return bounds;
         }
 
-        function handleContextChange(){
-            console.log("$scope.parkData: ", $scope.parkData);
+        var markerPool = [];
 
-            $scope.parkData.forEach(function(item){
-                console.log(item);
+        var createMarker = function(latlng, data, zBase) {
+            var marker = new google.maps.Marker({
+                map: map,
+                position: latlng,
+                ggnpc_data: data,
+                vizible: true,
+                zIndex: zBase || 3000
             });
 
-            return;
+            markerPool.push(marker);
+
+            google.maps.event.addListener(marker, 'click', function() {
+                //markers.infowindow.setContent(markers.makeInfoContent(data));
+                //markers.infowindow.open(markers.map, this);
+            });
+
+            return marker;
+        }
+
+        function handleEventContext(){
+            console.log($scope.parkData[0].data.event.attributes);
+            var data = $scope.parkData[0].data.event.attributes;
+            if(data && data.relatedpark && data.relatedpark.geom){
+                var extent = new google.maps.LatLngBounds();
+                var bounds = showBoundary(data.relatedpark.geom);
+                if(bounds){
+                    extent.extend(bounds.getNorthEast());
+                    extent.extend(bounds.getSouthWest());
+                }
+
+                map.fitBounds(extent);
+            }
+            if( data && data.locationmap ){
+                var ll = data.locationmap.location.split(",").map(function(l){return +l;});
+                createMarker( new google.maps.LatLng(ll[0], ll[1]), data, 3000);
+            }
+        }
+
+        function handleVisitContext(){
             var extent = new google.maps.LatLngBounds();
             $scope.parkData[1].data.results.forEach(function(result){
-                var p = result.geom;
+                var p = JSON.parse(result.geom);
                 var bounds = showBoundary(p);
                 if(bounds){
                     extent.extend(bounds.getNorthEast());
@@ -259,6 +291,17 @@
                 }
             });
             map.fitBounds(extent);
+        }
+
+        function handleContextChange(){
+            switch($scope.parkContext){
+                case  'events':
+                    handleEventContext();
+                break;
+                case 'visit':
+                    handleVisitContext();
+                break;
+            }
 
         }
 
@@ -281,7 +324,7 @@
     /* Services */
     angular.module('services', ['services.api']);
     angular.module('services.api',[]).factory('api', ['$http', '$q', '$rootScope', function($http, $q, $rootScope){
-        var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
+        //var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
         var API_URL_BASE = 'http://0.0.0.0:5000/';
 
         var request = function(url, key){
@@ -309,7 +352,7 @@
             var requests = [];
 
             name = name.replace('.html','');
-            var url = API_URL_BASE + 'event/file/' + name;
+            var url = API_URL_BASE + 'context/event/' + name;
             requests.push( request(url, 'stuff') );
             //requests.push( request(outline, 'outline') );
 
@@ -331,7 +374,7 @@
 
         }
 
-        api.getParkContext = function(name, callback){
+        api.getVisitContext = function(name, callback){
             var requests = [];
 
             if(!name) name = 'all';
@@ -361,31 +404,7 @@
 
         api.get = function(name, callback){
 
-            var requests = [];
-
-            if(!name) name = 'all';
-
-            var place = name.replace('.html','');
-            var url = API_URL_BASE + '/stuff/park/' + place + '/kind/all?restrictEvents=true';
-            var outline = API_URL_BASE + 'geo/park/' + name;
-            requests.push( request(url, 'stuff') );
-            requests.push( request(outline, 'outline') );
-
-
-            $q.all(requests).then(function(results){
-
-                var rsp = [];
-                if(results){
-                    results.forEach(function(result){
-                        var key = result.data.key;
-                        rsp.push({'type': key, 'data': result.data});
-                    });
-                }
-                api.currentData = rsp;
-                callback(null, rsp);
-
-                $rootScope.loadingData = false;
-            });
+            callback('deprecated');
 
         }
 
