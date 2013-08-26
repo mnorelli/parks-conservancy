@@ -324,8 +324,8 @@
     /* Services */
     angular.module('services', ['services.api']);
     angular.module('services.api',[]).factory('api', ['$http', '$q', '$rootScope', function($http, $q, $rootScope){
-        //var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
-        var API_URL_BASE = 'http://0.0.0.0:5000/';
+        var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
+        //var API_URL_BASE = 'http://0.0.0.0:5000/';
 
         var request = function(url, key){
             return $http({
