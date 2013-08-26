@@ -1,6 +1,7 @@
 var restify = require('restify');
 var db = require("./lib/db.js")();
 var url = require('url');
+var async = require('async');
 
 
 // Handlers for API methods
@@ -163,45 +164,87 @@ function getParkBoundary(req, res, next){
 }
 
 function getEventContext(req, res, next){
-    var filename = db.normalizeFilename(req.params.file);
-    var params = [filename];
-    var where = "where kind='event' and attributes->'filename' = $1";
-    var response = {};
+    var response = {}, // our queries will be stuffed in here
+        filename,
+        params,
+        where;
 
-    db.baseQuery(['*'], where, params, '', '', function(err, data){
-        if(err){
-            return res.json(200, err);
-        }else{
+    async.waterfall([
 
-            if(data && data.results[0].attributes.relatedpark){
+        // get event
+        function(callback){
+            filename = db.normalizeFilename(req.params.file);
+            params = [filename];
+            where = "where kind='event' and attributes->'filename' = $1";
+
+            db.baseQuery(['*'], where, params, '', '', function(err, data){
+                if(err){
+                    callback('error')
+                }else{
+                    response['event'] = data.results[0];
+                    callback(null, data.results[0]);
+                }
+            });
+        },
+
+        // get event location from locationmap field
+        function(stuff, callback){
+            if(stuff && stuff.attributes.locationmap){
+                filename = stuff.attributes.locationmap.split("/").pop();
+                params = [filename];
+                where = "where kind='location' and attributes->'filename' = $1";
+
+                db.baseQuery(['*'], where, params, '', '', function(err, data){
+                if(err){
+                    callback('error');
+                }else{
+                    response['event'].attributes.locationmap= data.results[0].attributes;
+                    callback(null, stuff);
+                }
+            });
+            }
+        },
+
+        // get related park
+        function(stuff, callback){
+            if(stuff && stuff.attributes.relatedpark){
                 where = "WHERE kind='park' and attributes->'id' = $1";
-                params = [data.results[0].attributes.relatedpark];
-                response.event = data.results[0];
+                params = [stuff.attributes.relatedpark];
                 db.baseQuery(['*'], where, params, '', '', function(err, data){
                     if(err){
-                        return res.json(200, err);
+                        callback('error');
                     }else{
-                        //response.event.
-                        return res.json(200, out);
+                        response['event'].attributes.relatedpark = data.results[0].attributes;
+                        callback(null, data.results[0]);
                     }
                 });
             }else{
-
+                callback('no relatedpark')
             }
+        },
+
+        // get park outline
+        function(stuff, callback){
+            where = 'WHERE convio_filename = $1';
+            params = [stuff.attributes.filename];
+            db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, data){
+                if(err){
+                    callback('error');
+                }else{
+                    response['event'].attributes.relatedpark.geom = JSON.parse(data.results[0].geom);
+                    callback(null, 'done');
+                }
+            });
         }
 
-        return res.json(200, {'error': 'problem with your request'});
+    ], function(err, results){
+        return res.json(200, response);
     });
 
     //select attributes->'title' from convio where kind='event' and attributes->'eventtypes' = 'Volunteer';
-
-
     // select attributes->'title', attributes->'startdate'  from convio where kind='event' and (CAST(attributes->'startdate' as timestamp), CAST(attributes->'startdate' as timestamp)) overlaps (now(), now() + interval '7 days') limit 10;
 }
 
-
-
-// Select ST_GeomFromText(ST_AsText(geom), 4326) as geom from park_units limit 1;
 
 // server setup
 var server = restify.createServer();
