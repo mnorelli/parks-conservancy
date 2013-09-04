@@ -13,7 +13,8 @@
     "node-postgres-hstore": "",
     "restify": "",
     "optimist": "",
-    "async":""
+    "async":"",
+    "cheerio":""
   },
   "engines": {
     "node": "~0.10.13",

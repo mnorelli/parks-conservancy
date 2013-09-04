@@ -2,6 +2,7 @@ var restify = require('restify');
 var db = require("./lib/db.js")();
 var url = require('url');
 var async = require('async');
+var cheerio = require('cheerio');
 
 
 // Handlers for API methods
@@ -57,8 +58,95 @@ function getByFilename(req, res, next) {
     });
 }
 
+function parseQuery(req){
+    var url_parts = url.parse(req.url, true);
+    var query = url_parts.query;
+
+    return query;
+}
+
+// auto-expand?
+
+var fieldsToExpand = ['location'];
+
+// this is only being called from getById for now...
+function autoExpand(resultsObj, callback){
+    var item = resultsObj.results[0];
+    var tasks = [];
+
+    if(item && item.hasOwnProperty('attributes')){
+        fieldsToExpand.forEach(function(prop){
+            if(item.attributes.hasOwnProperty(prop)){
+                if(prop == 'location'){ // need to get by filename
+                    $ = cheerio.load(item.attributes.location);
+                    if($('a').attr('href')){
+                        var parts = url.parse($('a').attr('href'));
+                        var filename = parts.path.split('/').pop();
+
+                        var where = "WHERE kind = 'location' AND attributes->'filename' = $1";
+                        var params = [filename];
+
+                        var task = {
+                            'expandKind': prop,
+                            'prop': prop,
+                            'attrs': item.attributes,
+                            'query': function(attrs_, prop_, cb){
+                                db.baseQuery(['*'], where, params, '', '', function(err, data){
+                                    if(err){
+                                        cb();
+                                    }else{
+                                        attrs_[prop_] = data.results[0].attributes;
+                                        cb();
+                                    }
+                                });
+                            }
+                        }
+                        tasks.push(task);
+                    }
+                }
+            }
+        });
+        if(tasks.length){
+            var q = async.queue(function (task, qcallback) {
+                console.log('looking for ',task.expandKind);
+
+                task.query(task.attrs, task.prop, function(err){
+                    qcallback();
+                });
+
+            }, 2);
+
+            q.drain = function() {
+                console.log('all q items done');
+                callback(null, resultsObj);
+            }
+
+            console.log('adding to q')
+            q.push(tasks, function (err, data) {
+                console.log('finished processing all tasks');
+            });
+        }else{
+            callback(null, resultsObj);
+        }
+
+
+    }else{
+        callback(null, resultsObj);
+    }
+
+
+
+};
+
+
+
 function getById(req, res, next) {
     var kind = db.normalizeKind(req.params.kind);
+
+    var query = parseQuery(req);
+    var autoexpand = (query.autoexpand) ? true : false;
+
+
     var where;
     var params;
 
@@ -75,7 +163,20 @@ function getById(req, res, next) {
         if(err){
             res.json(200, err);
         }else{
-            res.json(200, out);
+            if(autoexpand){
+                async.nextTick(function(){
+                    autoExpand(out, function(err, data){
+                        if(err){
+                            res.json(200, {error: 'problem autoexpanding'});
+                        }else{
+                            res.json(200, data);
+                        }
+                    });
+                });
+            }else{
+                res.json(200, out);
+            }
+
         }
     });
 
@@ -132,7 +233,7 @@ function listByKind(req, res, next){
         params = [kind];
     }
 
-    db.baseQuery(["attributes->'filename' as filename", "attributes->'title' as title", 'kind'], where, params, '', '', function(err, out){
+    db.baseQuery(["attributes->'id' as id", "attributes->'filename' as filename", "attributes->'title' as title", 'kind'], where, params, '', '', function(err, out){
         if(err){
             res.json(200, err);
         }else{
