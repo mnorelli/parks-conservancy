@@ -46,21 +46,28 @@ body.map #ggnpc-link-big-map{
 
 .map-lists{
     float: left;
+    display: block;
     position: relative;
+    background: #fff;
     margin-right: 5px;
     margin-bottom: 10px;
     width: 200px;
     height: auto;
     overflow-x: hidden;
-    border: 1px solid #999;
+    border: 1px solid #ccc;
     padding: 5px;
 }
+.map-lists.no-location-found{
+    border-color: #ff0099;
+}
+
 .map-lists .map-lists-wrapper{
     position: relative;
     width: 100%;
     height: 200px;
 }
-.map-lists p{
+.map-lists a{
+    display: block;
     margin: 0;
     overflow: hidden;
     color: #333;
@@ -68,7 +75,7 @@ body.map #ggnpc-link-big-map{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.map-lists p:first-child{
+.map-lists a:first-child{
     font-weight: 600;
 }
 .map-lists .map-lists-wrapper > div{
@@ -78,3 +85,28 @@ body.map #ggnpc-link-big-map{
 }
 
 .hide { display: none; }
+
+.pagination{
+    clear: both;
+}
+.pagination ul{
+    list-style: none;
+}
+.pagination li{
+    float: left;
+    padding: 5px;
+    opacity: 1;
+    text-decoration: none;
+}
+.pagination li:hover{
+    text-decoration: underline;
+}
+.pagination li.disabled{
+    pointer-events:none;
+    opacity: .3;
+}
+.pagination li.active{
+    pointer-events:none;
+    opacity: 1;
+    text-decoration: underline;
+}

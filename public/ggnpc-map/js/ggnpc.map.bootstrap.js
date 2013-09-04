@@ -143,7 +143,8 @@
             });
         }
 
-        var writeDOM = function(){
+
+        var writeDOM = function(writeMapElements){
             console.log('writing dom');
 
             var rootElement = document.getElementById('main-map') || document.getElementById('sidebar-map');
@@ -158,23 +159,24 @@
             // TOOD: fragments
             rootElement.setAttribute('ng-app', 'app')
             rootElement.setAttribute('ng-controller', 'AppController');
+            if(writeMapElements){
+                var content = '';
+                //console.log(rootElement.firstChild)
+                // TODO: remove this when done testing
 
-            var content = '';
-            console.log(rootElement.firstChild)
-            // TODO: remove this when done testing
+                if(exports.GGNPC_MAP.mapSize == 'big'){
+                    content += '<h1 style="display:none;" ng-show="ggnpcPageName">{{ggnpcPageName}}</h1>';
+                }
 
-            if(exports.GGNPC_MAP.mapSize == 'big'){
-                content += '<h1 style="display:none;" ng-show="ggnpcPageName">{{ggnpcPageName}}</h1>';
+                content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
+                //content += '<div ggnpc-map></div>'
+
+                if(exports.GGNPC_MAP.mapSize == 'small'){
+                    content += '<a style="display:none;" ng-show="linkToBigMap" ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
+                }
+
+                rootElement.innerHTML = content;
             }
-
-            //content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
-            //content += '<div ggnpc-map></div>'
-
-            if(exports.GGNPC_MAP.mapSize == 'small'){
-                content += '<a style="display:none;" ng-show="linkToBigMap" ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
-            }
-
-            //rootElement.innerHTML = content;
         }
 
         writeDOM();

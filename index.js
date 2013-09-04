@@ -44,6 +44,50 @@ app.get("/about", function(req, res) {
   });
 });
 
+app.get("/visit", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/maps-list.html.ejs",
+    environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
+    title: 'Visit Context :: Golden Gate National Parks Conservancy'
+  });
+});
+
+app.get("/park-improvements", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/maps-list.html.ejs",
+    environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
+    title: 'Park Improvements :: Golden Gate National Parks Conservancy'
+  });
+});
+
+app.get("/conservation", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/maps-list.html.ejs",
+    environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
+    title: 'Conservation :: Golden Gate National Parks Conservancy'
+  });
+});
+
+app.get("/learn", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/maps-list.html.ejs",
+    environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
+    title: 'Learn :: Golden Gate National Parks Conservancy'
+  });
+});
+app.get("/get-involved", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/maps-list.html.ejs",
+    environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
+    title: 'Get Involved :: Golden Gate National Parks Conservancy'
+  });
+});
+
 app.get("/", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/index.html.ejs",

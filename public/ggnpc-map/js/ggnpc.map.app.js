@@ -6,10 +6,10 @@
     exports.GGNPC_MAP = exports.GGNPC_MAP || {};
     exports.GGNPC_MAP.API_URL_BASE = exports.GGNPC_MAP.API_URL_BASE || 'http://stamen-parks-api-staging.herokuapp.com/';
 
-    exports.GGNPC_MAP.API_URL_BASE = "http://0.0.0.0:5000/";
+    //exports.GGNPC_MAP.API_URL_BASE = "http://0.0.0.0:5000/";
 
     // Add modules to the main app module
-    angular.module("app", ['services', 'map', 'mapListings']);
+    angular.module("app", ['services', 'myFilters', 'map', 'mapListings']);
 
     //
     angular.module('app').config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
@@ -48,422 +48,281 @@
     // reacts to changes in $scope.parkData
     // TODO: this is more of a collection of code snippets for now, so want to wrap this into something more functional
     angular.module('map', [])
-    .controller('mapController', ['$scope','$rootScope', function($scope, $rootScope ){
+    .controller('mapController', ['$scope', '$rootScope', function($scope, $rootScope ){
+        $scope.mapData = null;
 
-        // Normalizes the coords that tiles repeat across the x axis (horizontally)
-        // like the standard Google map tiles.
-        function getNormalizedCoord(coord, zoom) {
-            var y = coord.y;
-            var x = coord.x;
-
-            // tile range in one direction range is dependent on zoom level
-            // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
-            var tileRange = 1 << zoom;
-
-            // don't repeat across y-axis (vertically)
-            if (y < 0 || y >= tileRange) {
-                return null;
-            }
-
-            // repeat across x-axis
-            if (x < 0 || x >= tileRange) {
-                x = (x % tileRange + tileRange) % tileRange;
-            }
-
-            return {
-                x: x,
-                y: y
-            };
-        }
-
-        var ggnpcMapTemplate = {
-            getTileUrl: function(coord, zoom) {
-                var normalizedCoord = getNormalizedCoord(coord, zoom);
-                if (!normalizedCoord) {
-                    return null;
-                }
-                var subdomains = ['a','b','c','d'];
-                var x = normalizedCoord.x,
-                    y = normalizedCoord.y,
-                    index = (zoom + x + y) % subdomains.length;
-              return "http://{S}.map.parks.stamen.com/{Z}/{X}/{Y}.png"
-                  .replace("{S}", subdomains[index])
-                  .replace("{Z}", zoom)
-                  .replace("{X}", x)
-                  .replace("{Y}", y);
-            },
-            tileSize: new google.maps.Size(256, 256),
-            maxZoom:  18,
-            minZoom: 10,
-            name: 'parks'
-        };
-
-        var parkMapType = new google.maps.ImageMapType(ggnpcMapTemplate);
-
-        var maps = {};
-
-        //http://stamen-parks-map.herokuapp.com/17/20942/50637.png
-        maps.base = function(options){
-            options = utils.extend({}, maps.base.defaults, options);
-            var initialize = function(){
-                return new google.maps.Map(document.getElementById(options.root), options.mapOptions);
-            }
-
-            return initialize();
-            //return base;
-        }
-
-        maps.base.defaults = {
-            mapOptions: {
-                backgroundColor: '#fff',
-                center: new google.maps.LatLng(37.7706, -122.3782),
-                zoom: 12,
-                mapTypeControlOptions: {
-                      mapTypeIds: ['parks']
-                    }
-            },
-            root: 'ggnpc-map'
-        };
-
-        if(exports.GGNPC_MAP.mapSize == 'small'){
-            var smallMapOptions = {
-                disableDefaultUI: true,
-                disableDoubleClickZoom: true,
-                draggable: false,
-                keyboardShortcuts: false,
-                panControl: false,
-                streetViewControl: false,
-                zoomControl: false
-            };
-
-            maps.base.defaults.mapOptions = utils.extend({}, maps.base.defaults.mapOptions, smallMapOptions);
-
-        }
-
-        var selectedParkOutline = [];
-        //obj.data.results[0].geom
-        var showBoundary = function(path){
-            console.log('')
-            if(!$scope.parkData)return;
-
-            var bounds = null;
-            if(path && path.coordinates){
-
-                var featureStyles = {
-                    strokeColor: '#333',
-                    strokeOpacity: .4,
-                    strokeWeight: 1,
-                    fillColor: "#4afb05",
-                    fillOpacity: 0.55,
-                    zIndex: 1000
-                };
-
-                var boundary = new GeoJSON(path, featureStyles, true);
-
-
-                if (boundary.type == 'Error'){
-                    console.log("Error: no boundary for this park")
-                }else{
-
-                    if(boundary instanceof Array){
-                        boundary.forEach(function(p){
-                            p.setMap(map);
-                        });
-                    }else{
-                        boundary.setMap(map);
-                    }
-
-                    selectedParkOutline.push(boundary);
-
-                    //if(boundary.geojsonBounds)map.fitBounds(boundary.geojsonBounds);
-                    if(boundary.geojsonBounds) bounds = boundary.geojsonBounds;
-                }
-
-            }else{
-                console.log("Geodata not ready!!!: ");
-            }
-
-            return bounds;
-        }
-
-        var markerPool = [];
-
-        var createMarker = function(latlng, data, zBase) {
-            var marker = new google.maps.Marker({
-                map: map,
-                position: latlng,
-                ggnpc_data: data,
-                vizible: true,
-                zIndex: zBase || 3000
-            });
-
-            markerPool.push(marker);
-
-            google.maps.event.addListener(marker, 'click', function() {
-                //markers.infowindow.setContent(markers.makeInfoContent(data));
-                //markers.infowindow.open(markers.map, this);
-            });
-
-            return marker;
-        }
-
-        function handleEventContext(){
-            console.log($scope.parkData[0].data.event.attributes);
-            var data = $scope.parkData[0].data.event.attributes;
-            if(data && data.relatedpark && data.relatedpark.geom){
-                var extent = new google.maps.LatLngBounds();
-                var bounds = showBoundary(data.relatedpark.geom);
-                if(bounds){
-                    extent.extend(bounds.getNorthEast());
-                    extent.extend(bounds.getSouthWest());
-                }
-
-                map.fitBounds(extent);
-            }
-            if( data && data.locationmap ){
-                var ll = data.locationmap.location.split(",").map(function(l){return +l;});
-                createMarker( new google.maps.LatLng(ll[0], ll[1]), data, 3000);
-            }
-        }
-
-        function handleVisitContext(){
-            var extent = new google.maps.LatLngBounds();
-            $scope.parkData[1].data.results.forEach(function(result){
-                var p = JSON.parse(result.geom);
-                var bounds = showBoundary(p);
-                if(bounds){
-                    extent.extend(bounds.getNorthEast());
-                    extent.extend(bounds.getSouthWest());
-                }
-            });
-            map.fitBounds(extent);
-        }
-
-        function handleContextChange(){
-            switch($scope.parkContext){
-                case 'events':
-                    handleEventContext();
-                break;
-                case 'visit':
-                    handleVisitContext();
-                break;
-            }
+        // if we need to process the data in anyway
+        function process(){
+            $scope.mapData = $scope.parkData;
         }
 
         $scope.$watch('parkData', function(){
             if(!$scope.parkData) return;
 
-            console.log('PARK DATA CHANGED: ', $scope.parkData);
-            handleContextChange();
+            process();
         });
-
-        var map = maps.base();
-        map.mapTypes.set('parks', parkMapType);
-        map.setMapTypeId('parks');
 
     }])
     .directive('ggnpcMap', [function () {
-      return {
-        template: '',
-        restrict: 'A',
-        link: function postLink(scope, element, attrs) {
-          element.text('this is the myDirective directive');
-        }
-      };
-    }]);
+        return {
+            template: '',
+            restrict: 'A',
+            scope: {
+                mapSize: '@',
+                mapData: '=',
+                parkContext: '='
+            },
+            link: function postLink(scope, element, attrs) {
+                var root = element[0] || null;
+                var map;
 
+                function handleEventContext(){
+                    console.log(scope.mapData[0].data.event.attributes);
+                    var data = scope.mapData[0].data.event.attributes;
+                    if(data && data.relatedpark && data.relatedpark.geom){
+                        var extent = new google.maps.LatLngBounds();
+                        var obj = map.parks.shapes.drawGeom(data.relatedpark.geom);
+                        var bounds = obj.bounds;
+
+                        if(bounds){
+                            extent.extend(bounds.getNorthEast());
+                            extent.extend(bounds.getSouthWest());
+                        }
+
+                        map.fitBounds(extent);
+                    }
+                    if( data && data.locationmap ){
+                        var ll = data.locationmap.location.split(",").map(function(l){return +l;});
+                        map.parks.markers.createMarker( new google.maps.LatLng(ll[0], ll[1]), data, 3000);
+                    }
+                }
+
+                function handleVisitContext(){
+                    var extent = new google.maps.LatLngBounds();
+                    scope.mapData[1].data.results.forEach(function(result){
+                        var p = JSON.parse(result.geom);
+                        var obj = map.parks.shapes.drawGeom(p);
+                        var bounds = obj.bounds;
+                        if(bounds){
+                            extent.extend(bounds.getNorthEast());
+                            extent.extend(bounds.getSouthWest());
+                        }
+                    });
+                    map.fitBounds(extent);
+                }
+
+
+                function handleContextChange(){
+                    switch(scope.parkContext){
+                        case 'events':
+                            handleEventContext();
+                        break;
+                        case 'visit':
+                            handleVisitContext();
+                        break;
+                    }
+                }
+
+
+
+                scope.$watch('mapData', function(newVal, oldVal){
+                    if(newVal){
+                        console.log("got some new shit")
+                        if(!map){
+                            map = new ggnpcMap.base({root:root}, scope.mapSize, ['markers','shapes']);
+                            handleContextChange();
+
+                        }
+                    }
+
+                })
+            }
+        };
+    }]);
 
 
     angular.module('mapListings', [])
     .controller('mapListCtrl', ['$scope','$rootScope', function($scope, $rootScope ){
         $scope.filteredResults = [];
+        $scope.itemsPerPage = 25;
+        $scope.currentPage = 0;
+        $scope.groupedItems = [];
+
+        $scope.range = function (start, end) {
+            var ret = [];
+            if (!end) {
+                end = start;
+                start = 0;
+            }
+            for (var i = start; i < end; i++) {
+                ret.push(i);
+            }
+            return ret;
+        };
+
+        $scope.groupToPages = function () {
+            $scope.pagedItems = [];
+
+            for (var i = 0; i < $scope.filteredResults.length; i++) {
+                if (i % $scope.itemsPerPage === 0) {
+                    $scope.pagedItems[Math.floor(i / $scope.itemsPerPage)] = [ $scope.filteredResults[i] ];
+                } else {
+                    $scope.pagedItems[Math.floor(i / $scope.itemsPerPage)].push($scope.filteredResults[i]);
+                }
+            }
+        };
+
+        $scope.prevPage = function () {
+            if ($scope.currentPage > 0) {
+                $scope.currentPage--;
+            }
+        };
+
+        $scope.nextPage = function () {
+            if ($scope.currentPage < $scope.pagedItems.length - 1) {
+                $scope.currentPage++;
+            }
+        };
+
+        $scope.setPage = function () {
+            $scope.currentPage = this.n;
+        };
 
         $scope.$watch('parkData', function(){
             if(!$scope.parkData) return;
 
+            /*
             $scope.filteredResults.length = 0;
             var temp = [];
             $scope.parkData[0].data.results.forEach(function(item){
-
-                if(item.kind == 'park' || item.kind == 'program' ){
-                    temp.push(item);
+                switch($scope.ggnpcPageName){
+                    case 'about':
+                        if(item.kind == 'park' || item.kind == 'program' ){
+                            temp.push(item);
+                        }
+                    break;
+                    case 'visit':
+                        if(item.kind == 'park' || item.kind == 'program' ){
+                            temp.push(item);
+                        }
+                    break;
                 }
 
+
             });
-            $scope.filteredResults = temp;
+            */
+            $scope.filteredResults = $scope.parkData[0].data.results.slice(0,-1);
+            $scope.groupToPages();
         });
 
     }])
     .directive('mapList', ['api', function (api) {
-
+        var handleNoLocation = function(elm){
+            $(elm.parentNode.parentNode).addClass('no-location-found');
+        }
         return {
             template: '<div></div>',
             restrict: 'A',
             scope: {
                 mapkind: '=',
                 mapid: '=',
-                maptitle: '='
+                maptitle: '=',
+                mapItem: '='
             },
             link: function postLink(scope, element, attrs) {
                 var root = angular.element(element.children()[0])[0] || null;
+                var map;
                 if(root){
-                    var map = new gMap({root:root}, 'small');
+                    map = new ggnpcMap.base({root:root}, 'small', ['markers']);
+                    var data = scope.mapItem || null;
 
+                    if (data && data.attributes){
+                        var latlng;
+
+                        if(data.attributes.location || data.attributes.locationmap){
+
+                            var loc = data.attributes.location || data.attributes.locationmap || null;
+
+                            if(typeof loc === 'string'){
+                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
+
+                            }else if(typeof loc === 'object' && loc.location){
+                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
+                            }
+                        }
+
+                        if(latlng){
+
+                            var marker = map.parks.markers.createMarker(latlng, {}, 3000);
+                            map.setCenter(latlng);
+                        }else{
+                            console.log("NO LOCATION: ", scope.mapItem);
+                            handleNoLocation(root);
+                        }
+                    }else{
+                        console.log("NO LOCATION: ", scope.mapItem);
+                        handleNoLocation(root);
+                    }
+
+
+                    /*
                     api.getById(scope.mapid, true, function(err, data){
                         var d = data[0].data;
                         if(d.attributes && d.attributes.location){
+
                             var loc = d.attributes.location;
+                            var latlng;
                             if(typeof loc === 'string'){
-                                var latlng = map.ggnpc.utils.makeLatLngFromLocation(loc);
-                                var marker = map.ggnpc.createMarker(latlng, {}, 3000);
-                                map.setCenter(latlng);
+                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
+
+                            }else if(typeof loc === 'object' && loc.location){
+                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
                             }
+
+                            if(latlng){
+                                var marker = map.parks.markers.createMarker(latlng, {}, 3000);
+                                map.setCenter(latlng);
+                            }else{
+                                console.log("NO LOCATION: ", d.attributes);
+                                handleNoLocation(root);
+                            }
+
+                        }else{
+                            console.log("NO LOCATION: ", d.attributes);
+                            handleNoLocation(root);
                         }
                     });
+                    */
+
                 }
             }
         };
     }]);
 
-
-
-    var gMap = function(options, size){
-
-        // Normalizes the coords that tiles repeat across the x axis (horizontally)
-        // like the standard Google map tiles.
-        function getNormalizedCoord(coord, zoom) {
-            var y = coord.y;
-            var x = coord.x;
-
-            // tile range in one direction range is dependent on zoom level
-            // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
-            var tileRange = 1 << zoom;
-
-            // don't repeat across y-axis (vertically)
-            if (y < 0 || y >= tileRange) {
-                return null;
-            }
-
-            // repeat across x-axis
-            if (x < 0 || x >= tileRange) {
-                x = (x % tileRange + tileRange) % tileRange;
-            }
-
-            return {
-                x: x,
-                y: y
-            };
-        }
-
-        var ggnpcMapTemplate = {
-            getTileUrl: function(coord, zoom) {
-                var normalizedCoord = getNormalizedCoord(coord, zoom);
-                if (!normalizedCoord) {
-                    return null;
-                }
-                var subdomains = ['a','b','c','d'];
-                var x = normalizedCoord.x,
-                    y = normalizedCoord.y,
-                    index = (zoom + x + y) % subdomains.length;
-              return "http://{S}.map.parks.stamen.com/{Z}/{X}/{Y}.png"
-                  .replace("{S}", subdomains[index])
-                  .replace("{Z}", zoom)
-                  .replace("{X}", x)
-                  .replace("{Y}", y);
-            },
-            tileSize: new google.maps.Size(256, 256),
-            maxZoom:  18,
-            minZoom: 10,
-            name: 'parks'
+    angular.module('myFilters', [])
+    .filter('makeUrlForKind', [function () {
+        var urlSchemas = {
+            'park': '/visit/park-sites/',
+            'event': '/events/',
+            'location': '/location/',
+            'program': '/learn/',
+            'subprogram': '/learn/community-programs/',
+            'specie': '/conservation/plants-animals/endangered-species/',
+            'project': '/park-improvements/current-projects/'
         };
 
-        var parkMapType = new google.maps.ImageMapType(ggnpcMapTemplate);
-        var maps = {};
 
-        //http://stamen-parks-map.herokuapp.com/17/20942/50637.png
+        return function(input, kind){
 
+            var link = "";
+            if(!angular.isDefined(kind)) kind = 'park';
+            if(angular.isDefined(urlSchemas[kind])){
+                link =  environmentBaseUrl + urlSchemas[kind] + input;
+            }
 
-        var mapDefaults = {
-            mapOptions: {
-                backgroundColor: '#fff',
-                center: new google.maps.LatLng(37.7706, -122.3782),
-                zoom: 12,
-                mapTypeControlOptions: {
-                      mapTypeIds: ['parks']
-                    },
-                scrollwheel: false
-            },
-            root: null
+            return link;
         };
-        var smallMapOptions = {
-                disableDefaultUI: true,
-                disableDoubleClickZoom: true,
-                draggable: false,
-                keyboardShortcuts: false,
-                panControl: false,
-                streetViewControl: false,
-                zoomControl: false
-            };
-
-        if(size == 'small'){
-            mapDefaults.mapOptions = utils.extend({}, mapDefaults.mapOptions, smallMapOptions);
-
-        }
-
-
-
-        var methods = {};
-        methods.map = null;
-        methods.markerPool = [];
-        methods.createMarker = function(latlng, data, zBase) {
-
-                var marker = new google.maps.Marker({
-                    map: methods.map,
-                    position: latlng,
-                    ggnpc_data: data,
-                    vizible: true,
-                    zIndex: zBase || 3000
-                });
-
-                methods.markerPool.push(marker);
-
-                google.maps.event.addListener(marker, 'click', function() {
-                    //markers.infowindow.setContent(markers.makeInfoContent(data));
-                    //markers.infowindow.open(markers.map, this);
-                });
-
-                return marker;
-            }
-
-        methods.utils = {};
-        methods.utils.makeLatLngFromLocation = function(str){
-            var ll = str.split(",").map(function(l){return +l;});
-            return new google.maps.LatLng(ll[0], ll[1]);
-        }
-
-
-
-        maps.init = function(options){
-            options = utils.extend({}, mapDefaults, options);
-            var initialize = function(){
-                return new google.maps.Map(options.root, options.mapOptions);
-            }
-
-            var m = initialize();
-            m.mapTypes.set('parks', parkMapType);
-            m.setMapTypeId('parks');
-            m.ggnpc = methods;
-            m.ggnpc.map = m;
-
-            return m;
-            //return base;
-        }
-
-        return maps.init(options);
-    }
-
-
-
+    }]);
     /* Services */
     angular.module('services', ['services.api','services.contextor']);
 
@@ -545,9 +404,11 @@
             });
         };
 
-        api.listKinds = function(callback){
+        api.listKinds = function(contextType, callback){
+
             var requests = [];
-            var url = API_URL_BASE + '/list/all';
+            var url = API_URL_BASE + '/list/context/' + contextType;
+            console.log(url)
             requests.push( request(url, 'list') );
             $q.all(requests).then(function(results){
 
@@ -568,6 +429,7 @@
         api.getById = function(id, autoexpand, callback){
             var requests = [];
             var url = API_URL_BASE + 'all/id/' + id + '?autoexpand=1';
+
             requests.push( request(url, 'item') );
 
             $q.all(requests).then(function(results){
@@ -609,7 +471,6 @@
 
                         if( data[0].data.key == 'stuff' && data[0].data.parent){
                             scope.ggnpcPageName = data[0].data.ttributes.title;
-                            console.log('scope.ggnpcPageName: ', scope.ggnpcPageName)
                         }
 
                         scope.parkData = data;
@@ -624,24 +485,21 @@
                             return false;
                         }
                         if(!data || !data.length) return;
-                        console.log(data);
+
                         if( data[0].data.key == 'stuff' && data[0].data.parent){
                             scope.ggnpcPageName = data[0].data.parent.attributes.title;
-
-                            console.log('$scope.ggnpcPageName: ', scope.ggnpcPageName);
                         }
                         scope.parkData = data;
                     });
 
                 break;
                 case 'list':
-                    api.listKinds( function(error, data){
+                    api.listKinds( scope.ggnpcPageName, function(error, data){
                         if(error){
                             console.log(error);
                             return false;
                         }
                         if(!data || !data.length) return;
-                        console.log(data)
                         scope.parkData = data;
                     });
                 break;
@@ -656,7 +514,7 @@
         delete $httpProvider.defaults.headers.common['X-Requested-With'];
     }]);
 
-
+    // this will need to be updated to the links used inside parks environment
     angular.module('services.contextor',[]).factory('contextor', [function () {
         var contextor = {};
 
@@ -664,10 +522,11 @@
         contextor.get = function(scope){
             var getParkContext = function(path){
                 console.log("PATH: ",path)
-                if(path == '/about'){
+                if(path == '/about' || path == '/visit' || path == '/park-improvements' || path == '/learn' || path == '/conservation' || path == 'get-involved'){
                     scope.linkToBigMap = environmentBaseUrl + "/map";
-                    scope.ggnpcPageName = "About";
-                    return 'list'
+                    var p = path.replace("/",'');
+                    scope.ggnpcPageName = p;
+                    return 'list';
                 }else if(path.indexOf('/visit/park-sites/') === 0){
                     scope.routeParams = path.split('/').pop();
                     scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
@@ -687,6 +546,7 @@
             var pathname = window.location.pathname;
             if(pathname.indexOf('/map') == 0) pathname = window.location.hash.substring(1);
             if(pathname.charAt(pathname.length-1) == "/")pathname = pathname.substring(0, pathname.length-1);
+
             scope.parkContext = getParkContext(pathname);
         }
         return contextor;
@@ -703,6 +563,217 @@
         });
       });
       return o;
+    };
+
+
+    /* GOOGLE MAP STUFF */
+    var ggnpcMap = {};
+    ggnpcMap.base = function(options, size, optionals){
+        size = size || 'big';
+        options = options || {};
+
+        var mapDefaults = {
+            mapOptions: {
+                backgroundColor: '#fff',
+                center: new google.maps.LatLng(37.7706, -122.3782),
+                zoom: 12,
+                mapTypeControlOptions: {
+                      mapTypeIds: ['parks']
+                    },
+                scrollwheel: false
+            },
+            root: null
+        };
+        var smallMapOptions = {
+                disableDefaultUI: true,
+                disableDoubleClickZoom: true,
+                draggable: false,
+                keyboardShortcuts: false,
+                panControl: false,
+                streetViewControl: false,
+                zoomControl: false
+            };
+
+        if(size == 'small'){
+            mapDefaults.mapOptions = utils.extend({}, mapDefaults.mapOptions, smallMapOptions);
+
+        }
+
+        var ggnpcMapTemplate = {
+            getTileUrl: function(coord, zoom) {
+                var normalizedCoord = ggnpcMap.utils.getNormalizedCoord(coord, zoom);
+                if (!normalizedCoord) {
+                    return null;
+                }
+                var subdomains = ['a','b','c','d'];
+                var x = normalizedCoord.x,
+                    y = normalizedCoord.y,
+                    index = (zoom + x + y) % subdomains.length;
+              return "http://{S}.map.parks.stamen.com/{Z}/{X}/{Y}.png"
+                  .replace("{S}", subdomains[index])
+                  .replace("{Z}", zoom)
+                  .replace("{X}", x)
+                  .replace("{Y}", y);
+            },
+            tileSize: new google.maps.Size(256, 256),
+            maxZoom:  18,
+            minZoom: 10,
+            name: 'parks'
+        };
+        var parkMapType = new google.maps.ImageMapType(ggnpcMapTemplate);
+
+
+        options = utils.extend({}, mapDefaults, options);
+
+
+        var map = new google.maps.Map(options.root, options.mapOptions);
+        map.mapTypes.set('parks', parkMapType);
+        map.setMapTypeId('parks');
+
+        // Add optional helper methods
+        // helpers will be in map.parks object
+        map.parks = {};
+        if(optionals && optionals.length){
+            optionals.forEach(function(opt){
+                if(ggnpcMap.hasOwnProperty(opt)){
+                    map.parks[opt] = ggnpcMap[opt].apply(null, [map]);
+                }
+            });
+        }
+
+        return map;
+    }
+
+    ggnpcMap.markers = function(map) {
+
+        return (function(map){
+
+            var markers = {};
+            markers.markerPool = [];
+
+            markers.checkMap =  function(){
+                return (map) ? true : false;
+            }
+
+            markers.clearAll = function(){
+                if(!this.markerPool)return;
+                this.markerPool.forEach(function(m){
+                    m.setMap(null);
+                });
+                this.markerPool.length = 0;
+            }
+
+            markers.clearOne = function(id){
+
+            }
+
+            markers.createMarker = function(latlng, data, zBase) {
+
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: latlng,
+                    ggnpc_data: data,
+                    vizible: true,
+                    zIndex: zBase || 3000
+                });
+
+                markers.markerPool.push(marker);
+
+                google.maps.event.addListener(marker, 'click', function() {
+                    //markers.infowindow.setContent(markers.makeInfoContent(data));
+                    //markers.infowindow.open(markers.map, this);
+                });
+
+                return marker;
+            }
+
+            return markers;
+
+        })(map);
+
+    }
+
+    ggnpcMap.shapes = function(map){
+
+        return (function(map){
+            var shapes = {};
+
+            shapes.drawGeom = function(path){
+                var bounds = null;
+                if(path && path.coordinates){
+
+                    var featureStyles = {
+                        strokeColor: '#333',
+                        strokeOpacity: .4,
+                        strokeWeight: 1,
+                        fillColor: "#4afb05",
+                        fillOpacity: 0.55,
+                        zIndex: 1000
+                    };
+
+                    var boundary = new GeoJSON(path, featureStyles, true);
+
+
+                    if (boundary.type == 'Error'){
+                        console.log("Error: no boundary for this park")
+                    }else{
+
+                        if(boundary instanceof Array){
+                            boundary.forEach(function(p){
+                                p.setMap(map);
+                            });
+                        }else{
+                            boundary.setMap(map);
+                        }
+
+                        //selectedParkOutline.push(boundary);
+
+                        //if(boundary.geojsonBounds)map.fitBounds(boundary.geojsonBounds);
+                        if(boundary.geojsonBounds) bounds = boundary.geojsonBounds;
+                    }
+
+                }else{
+                    console.log("Geodata not ready!!!: ");
+                }
+
+                return {geom:boundary, bounds:bounds};
+            }
+
+            return shapes;
+
+        })(map);
+
+    }
+
+    ggnpcMap.utils = {
+        getNormalizedCoord: function(coord, zoom){
+            var y = coord.y;
+            var x = coord.x;
+
+            // tile range in one direction range is dependent on zoom level
+            // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
+            var tileRange = 1 << zoom;
+
+            // don't repeat across y-axis (vertically)
+            if (y < 0 || y >= tileRange) {
+                return null;
+            }
+
+            // repeat across x-axis
+            if (x < 0 || x >= tileRange) {
+                x = (x % tileRange + tileRange) % tileRange;
+            }
+
+            return {
+                x: x,
+                y: y
+            };
+        },
+        makeLatLngFromLocation: function(str){
+            var ll = str.split(",").map(function(l){return +l;});
+            if(ll.length < 2) return null;
+            return new google.maps.LatLng(ll[0], ll[1]);
+        }
     };
 
 

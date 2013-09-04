@@ -110,7 +110,10 @@ $(document).ready(function() {
             <a name="main"></a>
             <div id="leftcolumn">
               <!-- ADD LINKS TO SPECIFIC TEST PAGES HERE -->
-              <div id="main-map"></div>
+              <h1><%= title %></h1>
+              <div id="main-map">
+                <div id="ggnpc-map" ng-controller="mapController" ggnpc-map map-size='big' map-data='mapData' park-context="parkContext"></div>
+              </div>
             </div>
           </div>
         </div> <!-- end inner_content -->
