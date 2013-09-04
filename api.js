@@ -67,20 +67,46 @@ function parseQuery(req){
 
 // auto-expand?
 
-var fieldsToExpand = ['location'];
+var fieldsToExpand = ['location','locationmap'];
 
 // this is only being called from getById for now...
 function autoExpand(resultsObj, callback){
-    var item = resultsObj.results[0];
+    //var item = resultsObj.results[0];
     var tasks = [];
+    resultsObj.results.forEach(function(item){
 
-    if(item && item.hasOwnProperty('attributes')){
-        fieldsToExpand.forEach(function(prop){
-            if(item.attributes.hasOwnProperty(prop)){
-                if(prop == 'location'){ // need to get by filename
-                    $ = cheerio.load(item.attributes.location);
-                    if($('a').attr('href')){
-                        var parts = url.parse($('a').attr('href'));
+        if(item && item.hasOwnProperty('attributes')){
+            fieldsToExpand.forEach(function(prop){
+                if(item.attributes.hasOwnProperty(prop)){
+
+                    if(prop == 'location'){ // need to get by filename
+                        $ = cheerio.load(item.attributes.location);
+                        if($('a').attr('href')){
+                            var parts = url.parse($('a').attr('href'));
+                            var filename = parts.path.split('/').pop();
+
+                            var where = "WHERE kind = 'location' AND attributes->'filename' = $1";
+                            var params = [filename];
+
+                            var task = {
+                                'expandKind': prop,
+                                'prop': prop,
+                                'attrs': item.attributes,
+                                'query': function(attrs_, prop_, cb){
+                                    db.baseQuery(['*'], where, params, '', '', function(err, data){
+                                        if(err){
+                                            cb();
+                                        }else{
+                                            attrs_[prop_] = data.results[0].attributes;
+                                            cb();
+                                        }
+                                    });
+                                }
+                            }
+                            tasks.push(task);
+                        }
+                    }else if(prop == 'locationmap'){
+                        var parts = url.parse(item.attributes.locationmap);
                         var filename = parts.path.split('/').pop();
 
                         var where = "WHERE kind = 'location' AND attributes->'filename' = $1";
@@ -103,38 +129,33 @@ function autoExpand(resultsObj, callback){
                         }
                         tasks.push(task);
                     }
+
                 }
-            }
-        });
-        if(tasks.length){
-            var q = async.queue(function (task, qcallback) {
-                console.log('looking for ',task.expandKind);
-
-                task.query(task.attrs, task.prop, function(err){
-                    qcallback();
-                });
-
-            }, 2);
-
-            q.drain = function() {
-                console.log('all q items done');
-                callback(null, resultsObj);
-            }
-
-            console.log('adding to q')
-            q.push(tasks, function (err, data) {
-                console.log('finished processing all tasks');
             });
-        }else{
+
+
+
+        }
+    });
+
+    if(tasks.length){
+        var q = async.queue(function (task, qcallback) {
+
+            task.query(task.attrs, task.prop, function(err){
+                qcallback();
+            });
+
+        }, 2);
+
+        q.drain = function() {
             callback(null, resultsObj);
         }
 
+        q.push(tasks, function (err, data) {});
 
     }else{
         callback(null, resultsObj);
     }
-
-
 
 };
 
@@ -346,6 +367,57 @@ function getEventContext(req, res, next){
     // select attributes->'title', attributes->'startdate'  from convio where kind='event' and (CAST(attributes->'startdate' as timestamp), CAST(attributes->'startdate' as timestamp)) overlaps (now(), now() + interval '7 days') limit 10;
 }
 
+var getInitialContextList = function(req, res, next){
+    var where, params;
+    switch(req.params.context){
+        case 'about':
+            where = "where kind = 'park' or kind = 'program'";
+            params = [];
+        break;
+        case 'visit':
+            where = "where attributes->'parklocationtype' = 'Site of Interest' or attributes->'parklocationtype' = 'Trailhead' or kind = 'park' or kind='program'";
+            params = [];
+        break;
+        case 'park-improvements':
+            where = "where (kind = 'event' and CAST(attributes->'enddate' as timestamp) >= now() and CAST(attributes->'enddate' as timestamp) < now() + interval '1 month') or attributes->'parklocationtype' = 'Meeting Place';";
+            params = [];
+        break;
+        case 'conservation':
+            where = "where attributes->'volunteertype' = 'Plant Nurseries' or attributes->'volunteertype' = 'Beaches' or attributes->'volunteertype' = 'Trails' or attributes->'volunteertype' = 'Habitats' or (kind = 'event' and attributes->'eventtypes' = 'Volunteer' and CAST(attributes->'enddate' as timestamp) >= now() and CAST(attributes->'enddate' as timestamp) < now() + interval '1 month');";
+            params = [];
+        break;
+        case 'learn':
+            where = "where (kind = 'event' and CAST(attributes->'enddate' as timestamp) >= now() and CAST(attributes->'enddate' as timestamp) < now() + interval '1 month') or kind = 'program' or kind = 'subprogram';";
+            params = [];
+        break;
+        case 'get-involved':
+            where = "where (attributes->'eventtypes' = 'Volunteer' and CAST(attributes->'enddate' as timestamp) >= now() and CAST(attributes->'enddate' as timestamp) < now() + interval '1 month');";
+            params = [];
+        break;
+    }
+
+    if(where){
+        db.baseQuery(['*'], where, params, '', '', function(err, out){
+            if(err){
+                res.json(200, {error: err});
+            }else{
+                async.nextTick(function(){
+                    autoExpand(out, function(err, data){
+                        if(err){
+                            res.json(200, {error: 'problem autoexpanding'});
+                        }else{
+                            res.json(200, data);
+                        }
+                    });
+                });
+            }
+
+        });
+    }else{
+        res.json(200, {error: 'sorry unsupported context type'});
+    }
+}
+
 
 // server setup
 var server = restify.createServer();
@@ -366,6 +438,8 @@ server.get('/stuff/park/:file/kind/:kind', getStuffForPark);
 server.get('/geo/park/:park', getParkBoundary);
 
 server.get('/context/event/:file', getEventContext);
+
+server.get('/list/context/:context', getInitialContextList);
 
 
 // start server
