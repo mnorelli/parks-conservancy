@@ -44,4 +44,37 @@ body.map #ggnpc-link-big-map{
     display: none;
 }
 
+.map-lists{
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+    overflow-x: hidden;
+    border: 1px solid #999;
+    padding: 5px;
+}
+.map-lists .map-lists-wrapper{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.map-lists p{
+    margin: 0;
+    overflow: hidden;
+    color: #333;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.map-lists p:first-child{
+    font-weight: 600;
+}
+.map-lists .map-lists-wrapper > div{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
 .hide { display: none; }

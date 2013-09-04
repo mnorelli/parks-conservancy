@@ -98,7 +98,6 @@ $(document).ready(function() {
       <!-- NAV -->
       <% include ./../partials/nav.ejs %>
 
-
       <!--main content-->
       <div id="main_content" class="clrfix">
         <div id="inner_content" class="clrfix">
@@ -126,14 +125,12 @@ $(document).ready(function() {
   <!-- could actually put it in #sidebar-map -->
   <% include ./../partials/little-map.ejs %>
 
-
-
   <script type="text/javascript" src="http://www.parksconservancy.org/assets/js/fancybox/onload.js"></script>
 
   <!--Highlight current menu link-->
   <script type="text/javascript">
   ;(function($){
-   $("a[href='"+location.href+"']").addClass("current");
+   $("a[href='" + location.href + "']").addClass("current");
   })(jQuery);
   </script>
 </body>

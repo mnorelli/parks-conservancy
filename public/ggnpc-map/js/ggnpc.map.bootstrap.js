@@ -160,19 +160,21 @@
             rootElement.setAttribute('ng-controller', 'AppController');
 
             var content = '';
-
+            console.log(rootElement.firstChild)
             // TODO: remove this when done testing
+
             if(exports.GGNPC_MAP.mapSize == 'big'){
                 content += '<h1 style="display:none;" ng-show="ggnpcPageName">{{ggnpcPageName}}</h1>';
             }
 
-            content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
+            //content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
+            //content += '<div ggnpc-map></div>'
 
             if(exports.GGNPC_MAP.mapSize == 'small'){
                 content += '<a style="display:none;" ng-show="linkToBigMap" ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
             }
 
-            rootElement.innerHTML = content;
+            //rootElement.innerHTML = content;
         }
 
         writeDOM();
