@@ -28,6 +28,7 @@
     // controller for app
     // handles setting the context
     angular.module('app').controller('AppController', ['$scope', '$rootScope', '$location', '$route', '$routeParams', 'api', 'contextor', function($scope, $rootScope, $location, $route, $routeParams, api, contextor) {
+        $(exports.GGNPC_MAP.root).addClass('forceShow')
         $rootScope.loadingData = false;
 
         // not using the $routeProvider for now
@@ -40,6 +41,8 @@
         $scope.$watch('parkContext', function(){
             api.handleContext($scope);
         });
+
+        $scope.queryString = $location.search();
 
     }]);
 
@@ -70,7 +73,9 @@
             scope: {
                 mapSize: '@',
                 mapData: '=',
-                parkContext: '='
+                parkContext: '=',
+                mapTraffic: '=',
+                mapWeather: '='
             },
             link: function postLink(scope, element, attrs) {
                 var root = element[0] || null;
@@ -127,9 +132,12 @@
 
                 scope.$watch('mapData', function(newVal, oldVal){
                     if(newVal){
-                        console.log("got some new shit")
                         if(!map){
                             map = new ggnpcMap.base({root:root}, scope.mapSize, ['markers','shapes']);
+
+                            if(scope.mapTraffic) map.parks.layers.setLayer('traffic');
+                            if(scope.mapWeather) map.parks.layers.setLayer('weather');
+
                             handleContextChange();
 
                         }
@@ -354,6 +362,7 @@
             var requests = [];
 
             name = name.replace('.html','');
+            name = name.split("?").shift();
             var url = API_URL_BASE + 'context/event/' + name;
             requests.push( request(url, 'stuff') );
             //requests.push( request(outline, 'outline') );
@@ -381,7 +390,10 @@
 
             if(!name) name = 'all';
 
+
+
             var place = name.replace('.html','');
+            place = place.split("?").shift();
             var url = API_URL_BASE + '/stuff/park/' + place + '/kind/all?restrictEvents=true';
             var outline = API_URL_BASE + 'geo/park/' + name;
             requests.push( request(url, 'stuff') );
@@ -626,13 +638,18 @@
         options = utils.extend({}, mapDefaults, options);
 
 
+
         var map = new google.maps.Map(options.root, options.mapOptions);
+
         map.mapTypes.set('parks', parkMapType);
         map.setMapTypeId('parks');
+
+
 
         // Add optional helper methods
         // helpers will be in map.parks object
         map.parks = {};
+        map.parks.layers = ggnpcMap.layers(map);
         if(optionals && optionals.length){
             optionals.forEach(function(opt){
                 if(ggnpcMap.hasOwnProperty(opt)){
@@ -642,6 +659,46 @@
         }
 
         return map;
+    }
+
+    ggnpcMap.layers = function(map){
+        return (function(map){
+            var layers = {};
+            var currentLayers = [];
+
+            var availableLayers = {};
+
+            availableLayers.weather = new google.maps.ImageMapType({
+               getTileUrl: function(coord, zoom) {
+                  var X = coord.x % (1 << zoom);
+                  return "https://mts0.googleapis.com/mapslt?hl=en-US&lyrs=weather_0cloud,weather_f_ms|invert:1&x="+coord.x+"&y="+coord.y+"&z="+zoom+"&w=256&h=256&source=apiv3";
+               },
+               tileSize: new google.maps.Size(256, 256),
+               isPng: true
+            });
+
+            availableLayers.traffic = new google.maps.ImageMapType({
+               getTileUrl: function(coord, zoom) {
+                  var X = coord.x % (1 << zoom);
+                  return "http://mt3.google.com/mapstt?zoom=" + zoom + "&x=" + X + "&y=" + coord.y + "&client=api";
+               },
+               tileSize: new google.maps.Size(256, 256),
+               isPng: true
+            });
+
+            layers.setLayer = function(lyrName){
+                if(availableLayers[lyrName]){
+                    currentLayers.push(lyrName);
+                    map.overlayMapTypes.setAt(currentLayers.length, availableLayers[lyrName]);
+                }
+            };
+
+
+            map.overlayMapTypes.push(null);
+
+            return layers;
+
+        })(map);
     }
 
     ggnpcMap.markers = function(map) {

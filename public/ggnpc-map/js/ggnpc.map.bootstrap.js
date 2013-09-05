@@ -16,7 +16,7 @@
         // TODO: concat & minify scripts where possible...
         var required = [
             {'name': 'google-maps',
-            'src': 'https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=gmaps_callback',
+            'src': 'https://maps.googleapis.com/maps/api/js?v=3&sensor=false&&libraries=weather&callback=gmaps_callback',
             'loaded': false,
             'version': '3',
             'exists': function(){
