@@ -73,6 +73,10 @@ var fieldsToExpand = ['location','locationmap'];
 function autoExpand(resultsObj, callback){
     //var item = resultsObj.results[0];
     var tasks = [];
+    var found = {};
+    var parkboundaries = [];
+    var trails = [];
+    var geojson = [];
     resultsObj.results.forEach(function(item){
 
         if(item && item.hasOwnProperty('attributes')){
@@ -129,14 +133,74 @@ function autoExpand(resultsObj, callback){
                         }
                         tasks.push(task);
                     }
-
                 }
             });
+            if(item.kind == 'park' && item.attributes.filename){
+                if(!found[item.attributes.filename]){
+                    found[item.attributes.filename] = 1;
+                    parkboundaries.push(item.attributes.filename);
+                }
+
+            }
+            if(item.kind == 'location' && item.attributes.parklocationtype && item.attributes.parklocationtype == 'Trailhead'){
+                if(!found[item.attributes.title]){
+                    trails.push(item.attributes.title);
+                }
+            }
+
+
+            /*
+            if(item.attributes && item.attributes.relatedpark){
+                var parkid = item.attributes.relatedpark;
+                if(!relatedparks[parkid]){
+                    relatedparks[parkid] = 1;
+                    var where = "where attributes->'id' = $1";
+                    var params = [parkid];
+
+                    var task = {
+
+                    }
+                    db.baseQuery(['*'], where, params, '', '', function(err, data){
+                        if(err){
+                            cb();
+                        }else{
+                            attrs_[prop_] = data.results[0].attributes;
+                            cb();
+                        }
+                    });
+
+                }
+            }*/
 
 
 
         }
     });
+
+    if(parkboundaries.length){
+        var arr = [];
+        for(var i = 1; i <= parkboundaries.length; i++) {
+            arr.push('$'+i);
+        }
+        var where = "WHERE convio_filename IN (" + arr.join(',') + ")";
+        var params = parkboundaries;
+
+        var task = {
+            prop: geojson,
+            attrs:'',
+            query: function(attrs_, prop_, cb){
+                db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
+                    if(err){
+                        cb();
+                    }else{
+                        prop_.push(out);
+                        cb();
+                    }
+                });
+            }
+        }
+        tasks.push(task);
+    }
 
     if(tasks.length){
         var q = async.queue(function (task, qcallback) {
@@ -148,12 +212,14 @@ function autoExpand(resultsObj, callback){
         }, 2);
 
         q.drain = function() {
+            resultsObj.geojson = geojson;
             callback(null, resultsObj);
         }
 
         q.push(tasks, function (err, data) {});
 
     }else{
+        resultsObj.geojson = geojson;
         callback(null, resultsObj);
     }
 
