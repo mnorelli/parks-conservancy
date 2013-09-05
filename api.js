@@ -391,7 +391,7 @@ var getInitialContextList = function(req, res, next){
             params = [];
         break;
         case 'get-involved':
-            where = "where (attributes->'eventtypes' = 'Volunteer' and CAST(attributes->'enddate' as timestamp) >= now() and CAST(attributes->'enddate' as timestamp) < now() + interval '1 month');";
+            where = "where (kind = 'event' and attributes->'eventtypes' = 'Volunteer' and CAST(attributes->'enddate' as timestamp) >= now() and CAST(attributes->'enddate' as timestamp) < now() + interval '1 month');";
             params = [];
         break;
     }
