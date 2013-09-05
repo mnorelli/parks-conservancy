@@ -116,8 +116,105 @@
                     map.fitBounds(extent);
                 }
 
+                function handleList(){
+                    var extent = new google.maps.LatLngBounds();
+
+                    var geojson;
+                    try{
+                        geojson = scope.mapData[0].data.geojson[0].results;
+                    }catch(e){}
+
+                    if(geojson)extent = drawShapes(geojson, extent);
+
+                    var items = scope.mapData[0].data.results;
+                    extent = drawMarkers(items, extent);
+
+                    map.fitBounds(extent);
+                }
+
+                var polygonStyles = {
+                    strokeColor: '#333',
+                    strokeOpacity: .4,
+                    strokeWeight: 2,
+                    fillColor: "#4afb05",
+                    fillOpacity: .2,
+                    zIndex: 1000
+                };
+                function drawShapes(features, extent){
+                    features.forEach(function(feature){
+                        var obj = map.parks.shapes.drawGeom(JSON.parse(feature.geom), polygonStyles);
+                        var bounds = obj.bounds;
+                        if(bounds){
+                            extent.extend(bounds.getNorthEast());
+                            extent.extend(bounds.getSouthWest());
+                        }
+                        var googleVector = obj.geom;
+
+                        if(googleVector instanceof Array){
+                            googleVector.forEach(function(p){
+                                google.maps.event.addListener(p, 'click', function(evt) {
+                                    map.parks.infoWindow.setContent(feature.unit_name);
+                                    map.parks.infoWindow.setPosition(evt.latLng);
+                                    map.parks.infoWindow.open(map);
+                                });
+                            })
+                        }
+
+                    });
+
+                   return extent;
+                }
+
+                function drawMarkers(items, extent){
+
+                    items.forEach(function(item){
+                        var data = item || null;
+
+                        if (data && data.attributes){
+                            var latlng;
+                            var loc;
+
+                            if(data.attributes.locationmap){
+                                loc = data.attributes.locationmap;
+                            }else if(data.attributes.location){
+                                loc = data.attributes.location;
+                            }
+
+                            if(typeof loc === 'string'){
+                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
+                            }else if(typeof loc === 'object' && loc.location){
+                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
+                            }
+
+                            if(latlng && (isNaN(latlng.lat()) || isNaN(latlng.lng()) )){
+                                latlng = null;
+                            }
+
+                            if(latlng){
+                                data.attributes.kind = data.kind;
+                                var marker = map.parks.markers.createMarker(latlng, data.attributes, 3000);
+                                extent.extend(latlng);
+
+                                google.maps.event.addListener(marker, 'click', function() {
+                                    map.parks.infoWindow.setContent(marker.data_.title + " : " + marker.data_.kind);
+                                    map.parks.infoWindow.open(map,marker);
+                                });
+
+                            }else{
+                                console.log("NO LOCATION: ", data);
+                                //handleNoLocation(root);
+                            }
+                        }else{
+                            console.log("NO LOCATION: ", data);
+                            //handleNoLocation(root);
+                        }
+                    });
+
+                    return extent;
+                }
 
                 function handleContextChange(){
+
                     switch(scope.parkContext){
                         case 'events':
                             handleEventContext();
@@ -125,25 +222,24 @@
                         case 'visit':
                             handleVisitContext();
                         break;
+                        case 'list':
+                            handleList();
+                        break;
                     }
                 }
-
-
 
                 scope.$watch('mapData', function(newVal, oldVal){
                     if(newVal){
                         if(!map){
-                            map = new ggnpcMap.base({root:root}, scope.mapSize, ['markers','shapes']);
+                            map = new ggnpcMap.base({root:root}, scope.mapSize, ['markers','shapes','infoWindow']);
 
                             if(scope.mapTraffic) map.parks.layers.setLayer('traffic');
                             if(scope.mapWeather) map.parks.layers.setLayer('weather');
 
                             handleContextChange();
-
                         }
                     }
-
-                })
+                });
             }
         };
     }]);
@@ -539,12 +635,18 @@
         // pass scope
         contextor.get = function(scope){
             var getParkContext = function(path){
-                console.log("PATH: ",path)
                 if(path == '/about' || path == '/visit' || path == '/park-improvements' || path == '/learn' || path == '/conservation' || path == '/get-involved'){
                     scope.linkToBigMap = environmentBaseUrl + "/map";
                     var p = path.replace("/",'');
                     scope.ggnpcPageName = p;
                     return 'list';
+                }else if(path == '/about/map' || path == '/visit/map' || path == '/park-improvements/map' || path == '/learn/map' || path == '/conservation/map' || path == '/get-involved/map'){
+                    scope.linkToBigMap = environmentBaseUrl + "/map";
+                    var p = path.replace("/map",'').replace('/','');
+
+                    scope.ggnpcPageName = p;
+                    return 'list';
+
                 }else if(path.indexOf('/visit/park-sites/') === 0){
                     scope.routeParams = path.split('/').pop();
                     scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
@@ -566,6 +668,8 @@
             if(pathname.charAt(pathname.length-1) == "/")pathname = pathname.substring(0, pathname.length-1);
 
             scope.parkContext = getParkContext(pathname);
+
+            console.log("parkContext: ",scope.parkContext, scope.ggnpcPageName)
         }
         return contextor;
     }]);
@@ -640,16 +744,14 @@
         };
         var parkMapType = new google.maps.ImageMapType(ggnpcMapTemplate);
 
-
         options = utils.extend({}, mapDefaults, options);
-
-
 
         var map = new google.maps.Map(options.root, options.mapOptions);
 
         map.mapTypes.set('parks', parkMapType);
         map.setMapTypeId('parks');
 
+        var infowindow = new google.maps.InfoWindow({});
 
 
         // Add optional helper methods
@@ -666,6 +768,8 @@
 
         return map;
     }
+
+
 
     ggnpcMap.layers = function(map){
         return (function(map){
@@ -707,6 +811,12 @@
         })(map);
     }
 
+    ggnpcMap.infoWindow = function(map){
+        return (function(map){
+            return new google.maps.InfoWindow({});
+        })(map);
+    }
+
     ggnpcMap.markers = function(map) {
 
         return (function(map){
@@ -735,7 +845,7 @@
                 var marker = new google.maps.Marker({
                     map: map,
                     position: latlng,
-                    ggnpc_data: data,
+                    data_: data,
                     vizible: true,
                     zIndex: zBase || 3000
                 });
@@ -761,7 +871,7 @@
         return (function(map){
             var shapes = {};
 
-            shapes.drawGeom = function(path){
+            shapes.drawGeom = function(path, styles){
                 var bounds = null;
                 if(path && path.coordinates){
 
@@ -774,8 +884,9 @@
                         zIndex: 1000
                     };
 
-                    var boundary = new GeoJSON(path, featureStyles, true);
+                    styles = styles || featureStyles;
 
+                    var boundary = new GeoJSON(path, styles, true);
 
                     if (boundary.type == 'Error'){
                         console.log("Error: no boundary for this park")

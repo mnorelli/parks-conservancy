@@ -111,7 +111,8 @@ $(document).ready(function() {
             <div id="leftcolumn">
               <!-- ADD LINKS TO SPECIFIC TEST PAGES HERE -->
               <h1><%= title %></h1>
-              <div id="main-map">
+              <div id="main-map" style="display:none;">
+                <div id="loading" ng-show="loadingData">loading....</div>
                 <div id="ggnpc-map" ng-controller="mapController" ggnpc-map map-size='big' map-data='mapData' park-context="parkContext" map-traffic="queryString.traffic" map-weather="queryString.weather"></div>
               </div>
             </div>
