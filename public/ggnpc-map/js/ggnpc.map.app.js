@@ -246,17 +246,23 @@
 
                     if (data && data.attributes){
                         var latlng;
+                        var loc;
 
-                        if(data.attributes.location || data.attributes.locationmap){
+                        if(data.attributes.locationmap){
+                            loc = data.attributes.locationmap;
+                        }else if(data.attributes.location){
+                            loc = data.attributes.location;
+                        }
 
-                            var loc = data.attributes.location || data.attributes.locationmap || null;
+                        if(typeof loc === 'string'){
+                            latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
+                            console.log(loc, latlng.lat(), latlng.lng())
+                        }else if(typeof loc === 'object' && loc.location){
+                            latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
+                        }
 
-                            if(typeof loc === 'string'){
-                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
-
-                            }else if(typeof loc === 'object' && loc.location){
-                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
-                            }
+                        if(latlng && (isNaN(latlng.lat()) || isNaN(latlng.lng()) )){
+                            latlng = null;
                         }
 
                         if(latlng){
@@ -534,7 +540,7 @@
         contextor.get = function(scope){
             var getParkContext = function(path){
                 console.log("PATH: ",path)
-                if(path == '/about' || path == '/visit' || path == '/park-improvements' || path == '/learn' || path == '/conservation' || path == 'get-involved'){
+                if(path == '/about' || path == '/visit' || path == '/park-improvements' || path == '/learn' || path == '/conservation' || path == '/get-involved'){
                     scope.linkToBigMap = environmentBaseUrl + "/map";
                     var p = path.replace("/",'');
                     scope.ggnpcPageName = p;
