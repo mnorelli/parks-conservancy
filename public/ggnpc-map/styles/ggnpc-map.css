@@ -2,13 +2,20 @@
     position: relative;
     height: 400px !important;
 }
+#content {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+    text-align: left;
+    overflow: hidden;
+}
 
 body.map #leftcolumn{
     width: 100%;
 }
 
 body.map #ggnpc-map{
-    height: 500px;
+    height: 100%;
 }
 
 #sidebar-map #ggnpc-map{

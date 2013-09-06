@@ -46,6 +46,28 @@
 
     }]);
 
+    'use strict';
+
+    angular.module('app')
+    .directive('resizer', ['$window', function ($window) {
+        return function (scope, element, attrs) {
+            var offsetX = +attrs.offsetx || 0;
+            var offsetY = +attrs.offsety || 0;
+
+            scope.winWidth = $window.innerWidth - offsetX;
+            scope.winHeight = $window.innerHeight - offsetY;
+
+            console.log(scope.winWidth)
+
+            angular.element($window).bind('resize', function () {
+                scope.$apply(function () {
+                    scope.winWidth = $window.innerWidth - offsetX;
+                    scope.winHeight = $window.innerHeight - offsetY;
+                });
+            });
+        };
+    }]);
+
 
     /* MAP */
     // reacts to changes in $scope.parkData
