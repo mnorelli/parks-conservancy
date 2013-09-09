@@ -1,0 +1,4901 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55458980938474, 
+          37.87936534275602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192523.9748, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539169.8957, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 186.39421, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55435376354713, 
+          37.87924824463061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192511.0818, 
+        "ET_ORDER": 0.0098, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539190.716, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 185.3907, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55414023831618, 
+          37.87911088894199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192495.9318, 
+        "ET_ORDER": 0.0194, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539209.5666, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 185.9504, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55385493038015, 
+          37.879123948604246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192497.5007, 
+        "ET_ORDER": 0.0294, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539234.6502, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 188.50735, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55361272564352, 
+          37.8789761327216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192481.2023, 
+        "ET_ORDER": 0.0401, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539256.0286, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 189.48786, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55355328145576, 
+          37.87886488225357
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192468.884, 
+        "ET_ORDER": 0.0454, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539261.3153, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 189.55095, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55358516779665, 
+          37.87875663604413
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192456.8606, 
+        "ET_ORDER": 0.0503, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539258.5686, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 189.56325, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55373537041996, 
+          37.87855654236036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192434.5969, 
+        "ET_ORDER": 0.0606, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539245.4656, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 189.91424, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55375052281825, 
+          37.878483715118946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192426.5103, 
+        "ET_ORDER": 0.0639, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539244.1717, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 190.26941, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55362881316074, 
+          37.87830466255118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192406.6955, 
+        "ET_ORDER": 0.0729, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539254.9702, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 191.44047, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55360071322669, 
+          37.87817482801732
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192392.3021, 
+        "ET_ORDER": 0.0787, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539257.5103, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 192.14248, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55366648092755, 
+          37.878045350282
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192377.9088, 
+        "ET_ORDER": 0.0849, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539251.7952, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 195.06893, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55370994087227, 
+          37.87790569246092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192362.3954, 
+        "ET_ORDER": 0.0912, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539248.0473, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 195.29538, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5537954635815, 
+          37.877758943074134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192346.0775, 
+        "ET_ORDER": 0.0983, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539240.604, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 196.15742, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55380594724741, 
+          37.87766814238175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192335.9987, 
+        "ET_ORDER": 0.1024, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539239.7302, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 196.61589, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55378988992956, 
+          37.87761864240462
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192330.5134, 
+        "ET_ORDER": 0.1046, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539241.1686, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 197.08407, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55369610937397, 
+          37.87752273629591
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192319.912, 
+        "ET_ORDER": 0.11, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539249.4669, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 198.69678, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55343219155864, 
+          37.87738437708221
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192304.672, 
+        "ET_ORDER": 0.1211, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539272.7503, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 200.85264, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55329839153111, 
+          37.87722170992268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192286.6803, 
+        "ET_ORDER": 0.1296, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539284.6036, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 202.55741, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55325807474348, 
+          37.87712235332831
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192275.6736, 
+        "ET_ORDER": 0.1343, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539288.202, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 203.47906, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55318168072549, 
+          37.87701904368861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192264.2435, 
+        "ET_ORDER": 0.1395, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539294.9753, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 204.26693, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55308820865326, 
+          37.876953825794274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192257.0469, 
+        "ET_ORDER": 0.1439, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539303.2303, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 204.9134, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55290323284373, 
+          37.8768958898863
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192250.6968, 
+        "ET_ORDER": 0.1509, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539319.5287, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 205.94298, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55284809562228, 
+          37.876859433717776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192246.6752, 
+        "ET_ORDER": 0.1534, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539324.3971, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 206.48727, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55280032982166, 
+          37.87679820349253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192239.9018, 
+        "ET_ORDER": 0.1566, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539328.6304, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 207.0028, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5527537222124, 
+          37.87669193327134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192228.1307, 
+        "ET_ORDER": 0.1615, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539332.7858, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 207.73899, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55270019182963, 
+          37.87664138677176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192222.5451, 
+        "ET_ORDER": 0.1645, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539337.5204, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 208.03091, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55264263736713, 
+          37.8766068284775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192218.7351, 
+        "ET_ORDER": 0.167, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539342.6004, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 208.34725, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55258736202687, 
+          37.876593263833996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192217.2534, 
+        "ET_ORDER": 0.169, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539347.4688, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 208.53401, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55252956530467, 
+          37.87659876744353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192217.8884, 
+        "ET_ORDER": 0.171, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539352.5488, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 208.65979, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55227262657422, 
+          37.876724921058596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192231.9936, 
+        "ET_ORDER": 0.1816, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539375.0781, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 209.21939, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55218019227155, 
+          37.87672118871267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192231.6185, 
+        "ET_ORDER": 0.1849, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539383.2092, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 209.66974, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55214494986106, 
+          37.876699939849374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192229.2758, 
+        "ET_ORDER": 0.1864, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539386.3199, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 209.93397, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55212338841756, 
+          37.87665565166202
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192224.3711, 
+        "ET_ORDER": 0.1885, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539388.2397, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 210.07952, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55210654279745, 
+          37.87650783531703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192207.9779, 
+        "ET_ORDER": 0.1951, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539389.7999, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 210.47821, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55204744337571, 
+          37.876447563013535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192201.3156, 
+        "ET_ORDER": 0.1984, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539395.0295, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 210.73594, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55176498549847, 
+          37.87638636118975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192194.6445, 
+        "ET_ORDER": 0.2087, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539419.9029, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 212.82949, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55172700428048, 
+          37.87636434197568
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192192.2175, 
+        "ET_ORDER": 0.2103, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539423.2549, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 213.17553, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.551679375232, 
+          37.87629313620215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192184.3373, 
+        "ET_ORDER": 0.2139, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539427.4816, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 213.30199, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55163366125988, 
+          37.876040502870666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192156.3268, 
+        "ET_ORDER": 0.2252, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539431.6366, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 215.7404, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55163340173706, 
+          37.87594881511401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192146.1541, 
+        "ET_ORDER": 0.2292, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539431.7083, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 216.33246, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55170612380242, 
+          37.875777342598376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192127.0984, 
+        "ET_ORDER": 0.2372, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539425.4041, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 218.01479, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5517064994451, 
+          37.87571535877017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192120.2211, 
+        "ET_ORDER": 0.24, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539425.4041, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 218.5916, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55168714604586, 
+          37.87568300133067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192116.6392, 
+        "ET_ORDER": 0.2415, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539427.1234, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 218.89336, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55151831765197, 
+          37.87558356929023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192105.6785, 
+        "ET_ORDER": 0.2489, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539442.0242, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 220.6248, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55149903483469, 
+          37.875539589795615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192100.8071, 
+        "ET_ORDER": 0.251, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539443.7435, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 220.91473, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55151083856374, 
+          37.87547377570363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192093.5, 
+        "ET_ORDER": 0.2539, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539442.7405, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 221.36916, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55156849807013, 
+          37.87536810493833
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192081.7514, 
+        "ET_ORDER": 0.259, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539437.7259, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 222.70428, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55171031473003, 
+          37.875220139242195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192065.2746, 
+        "ET_ORDER": 0.2672, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539425.3325, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 224.90182, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.551819867795, 
+          37.87515405104091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192057.8958, 
+        "ET_ORDER": 0.272, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539415.7329, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 226.33392, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55210073564653, 
+          37.87504535479908
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192045.7173, 
+        "ET_ORDER": 0.283, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539391.0894, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 229.35264, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55216706952015, 
+          37.874986850337564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192039.1982, 
+        "ET_ORDER": 0.2864, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539385.2867, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 229.86186, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55218537711335, 
+          37.87492299870948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192032.1061, 
+        "ET_ORDER": 0.2893, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539383.7106, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 230.30477, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55218387449902, 
+          37.874767384038336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4192014.8412, 
+        "ET_ORDER": 0.2962, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539383.9256, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 231.57297, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55229817138158, 
+          37.874590257647604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191995.1407, 
+        "ET_ORDER": 0.305, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539373.9678, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 233.50497, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55230100167907, 
+          37.87452634714042
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191988.0486, 
+        "ET_ORDER": 0.3078, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539373.7529, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 234.01349, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55222034140557, 
+          37.874394967579484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191973.506, 
+        "ET_ORDER": 0.3143, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539380.9167, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 233.68468, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55207927200638, 
+          37.874285311172116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191961.3991, 
+        "ET_ORDER": 0.3212, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539393.3818, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 233.57167, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55190963996777, 
+          37.87418458595337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191950.2952, 
+        "ET_ORDER": 0.3286, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539408.3542, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 234.77049, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55187159927031, 
+          37.8741444089143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191945.8536, 
+        "ET_ORDER": 0.3308, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539411.7212, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 235.18726, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5518305514185, 
+          37.874062897498995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191936.8272, 
+        "ET_ORDER": 0.3347, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539415.3747, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 235.8187, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55180369047906, 
+          37.87392526639806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191921.5683, 
+        "ET_ORDER": 0.3409, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539417.8104, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 237.0675, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55174824601713, 
+          37.87379979409332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191907.6705, 
+        "ET_ORDER": 0.3467, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539422.7535, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 238.08954, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55165509534474, 
+          37.87371356419649
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191898.1426, 
+        "ET_ORDER": 0.3517, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539430.9919, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 238.98293, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55141314440941, 
+          37.87358415287847
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191883.8866, 
+        "ET_ORDER": 0.362, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539452.3401, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 240.20814, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55128554981813, 
+          37.873402230840384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191863.7562, 
+        "ET_ORDER": 0.3712, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539463.6589, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 240.98633, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55109606265131, 
+          37.87321813669095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191843.411, 
+        "ET_ORDER": 0.3817, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539480.4223, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 242.47065, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55104137636506, 
+          37.87310235143008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191830.5877, 
+        "ET_ORDER": 0.3871, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539485.2937, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 243.65594, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5510726853359, 
+          37.873043713997575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191824.0686, 
+        "ET_ORDER": 0.3899, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539482.5714, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 243.78449, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55111683450869, 
+          37.87301676393859
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191821.0598, 
+        "ET_ORDER": 0.3919, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539478.7029, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 243.57795, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55130784288883, 
+          37.87295428187862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191814.0466, 
+        "ET_ORDER": 0.3991, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539461.9372, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 242.88216, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55149269084956, 
+          37.87285537152353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191802.9943, 
+        "ET_ORDER": 0.4069, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539445.7327, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 242.64482, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5517658305352, 
+          37.87253135149756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191766.9287, 
+        "ET_ORDER": 0.4241, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539421.8829, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 243.65308, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55195828517071, 
+          37.872268441270286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191737.6774, 
+        "ET_ORDER": 0.4376, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539405.0966, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 245.04315, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55220200136625, 
+          37.87212181890349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191721.3067, 
+        "ET_ORDER": 0.4483, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539383.7398, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 246.19899, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5523476254715, 
+          37.87194636086097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191701.7781, 
+        "ET_ORDER": 0.4576, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539371.0255, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 247.17697, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55243785201262, 
+          37.87186955776848
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191693.2187, 
+        "ET_ORDER": 0.4622, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539363.1309, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 247.72516, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55265017384497, 
+          37.87175801729777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191680.7537, 
+        "ET_ORDER": 0.4711, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539344.5164, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 248.98141, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55276212967975, 
+          37.87168129741492
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191672.1944, 
+        "ET_ORDER": 0.4763, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539334.7106, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 249.18551, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55282187650977, 
+          37.87156602599601
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191659.3798, 
+        "ET_ORDER": 0.4818, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539329.5171, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 249.36869, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55281350814175, 
+          37.871470854478595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191648.824, 
+        "ET_ORDER": 0.486, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539330.3037, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 249.84669, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5527552688214, 
+          37.871407107626545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191641.7758, 
+        "ET_ORDER": 0.4895, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539335.4598, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 250.31911, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55268448266088, 
+          37.87137273070315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191637.9915, 
+        "ET_ORDER": 0.4924, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539341.7038, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 250.48291, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55240172442409, 
+          37.87134906041595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191635.4845, 
+        "ET_ORDER": 0.5024, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539366.5853, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 250.58787, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55208147282269, 
+          37.8712996651346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191630.1392, 
+        "ET_ORDER": 0.5138, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539394.7781, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 250.86642, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55192750623046, 
+          37.871233673529815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191622.8824, 
+        "ET_ORDER": 0.5199, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539408.3548, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 251.14939, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55184713226689, 
+          37.87116421244979
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191615.2096, 
+        "ET_ORDER": 0.5241, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539415.4608, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 251.59171, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55181857604704, 
+          37.871102572699286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191608.3827, 
+        "ET_ORDER": 0.527, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539418.0052, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 251.81042, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55183455604491, 
+          37.871041638752466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191601.6153, 
+        "ET_ORDER": 0.5297, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539416.6322, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 251.90101, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55194848274036, 
+          37.87080089990686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191574.8571, 
+        "ET_ORDER": 0.5411, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539406.7404, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 252.60791, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55206818833052, 
+          37.87060442158209
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191553.0072, 
+        "ET_ORDER": 0.5507, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539396.3167, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.45086, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55206907219106, 
+          37.87052378626342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191544.0603, 
+        "ET_ORDER": 0.5543, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539396.2819, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.42014, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55201436409115, 
+          37.87048039938889
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191539.2696, 
+        "ET_ORDER": 0.557, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539401.1167, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.30287, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55192032842827, 
+          37.87046639852501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191537.7559, 
+        "ET_ORDER": 0.5603, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539409.3948, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.33007, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55173421573755, 
+          37.870470379557325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191538.2762, 
+        "ET_ORDER": 0.5669, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539425.7617, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.10628, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55119865689745, 
+          37.87055318524609
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191547.6899, 
+        "ET_ORDER": 0.586, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539472.8211, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 252.70209, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5507873265578, 
+          37.87052204122365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191544.4085, 
+        "ET_ORDER": 0.6004, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539509.0151, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 252.96201, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55071847448822, 
+          37.8705038551948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191542.4199, 
+        "ET_ORDER": 0.603, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539515.0805, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.18428, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55063630011065, 
+          37.87044528857532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191535.9567, 
+        "ET_ORDER": 0.6069, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539522.3392, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.57155, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55062091891574, 
+          37.87037174122676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191527.8031, 
+        "ET_ORDER": 0.6101, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539523.7313, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 253.87009, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55063373592839, 
+          37.87030905585016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191520.8427, 
+        "ET_ORDER": 0.613, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539522.6375, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 254.03756, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55069809520496, 
+          37.870136335107894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191501.652, 
+        "ET_ORDER": 0.6209, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539517.0692, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 254.10989, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55074834940723, 
+          37.87005228387869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191492.3052, 
+        "ET_ORDER": 0.625, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539512.6941, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 254.52265, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55113060476066, 
+          37.8696576209138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191448.3554, 
+        "ET_ORDER": 0.647, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539479.2843, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 255.76183, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5512851415668, 
+          37.869528260986556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191433.9375, 
+        "ET_ORDER": 0.6549, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539465.7613, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 257.05293, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55133377591986, 
+          37.86946047635161
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191426.3962, 
+        "ET_ORDER": 0.6583, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539461.5199, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 257.53646, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55131878391109, 
+          37.869386789960544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191418.227, 
+        "ET_ORDER": 0.6616, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539462.8778, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 257.95554, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55121654518257, 
+          37.86928154448997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191406.5932, 
+        "ET_ORDER": 0.6675, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539471.9262, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.21271, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55117093932846, 
+          37.869158591516424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191392.9708, 
+        "ET_ORDER": 0.6731, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539476.003, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.3308, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55114399236692, 
+          37.86912801752991
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191389.59, 
+        "ET_ORDER": 0.6748, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539478.3894, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.32621, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55109891874697, 
+          37.869103648398955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191386.9053, 
+        "ET_ORDER": 0.6767, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539482.3668, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.39648, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55100126808793, 
+          37.86911310836348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191387.9962, 
+        "ET_ORDER": 0.6801, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539490.9505, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.55512, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55074088715928, 
+          37.86923312768112
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191401.4226, 
+        "ET_ORDER": 0.6907, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539513.7879, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.38228, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55038452935908, 
+          37.86931634566465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191410.8066, 
+        "ET_ORDER": 0.7037, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539545.0864, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.16508, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55008206132094, 
+          37.86942132317453
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191422.5821, 
+        "ET_ORDER": 0.7153, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539571.6334, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 258.68701, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54994581868377, 
+          37.86944657613103
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191425.4417, 
+        "ET_ORDER": 0.7202, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539583.6029, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 259.06934, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5496775409446, 
+          37.869462165857655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191427.2852, 
+        "ET_ORDER": 0.7296, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539607.1905, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 259.62258, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54940047140448, 
+          37.86954078009671
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191436.1251, 
+        "ET_ORDER": 0.7399, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539631.5176, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 259.71145, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54923378935757, 
+          37.86954122452947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191436.2452, 
+        "ET_ORDER": 0.7457, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539646.1776, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 260.22325, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54910029820302, 
+          37.86945090663349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191426.2811, 
+        "ET_ORDER": 0.7519, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539657.967, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 260.68801, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54905672773802, 
+          37.869365600869216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191416.8349, 
+        "ET_ORDER": 0.7559, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539661.8449, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 261.10466, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.549059753777, 
+          37.869240144753434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191402.9142, 
+        "ET_ORDER": 0.7615, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539661.646, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 261.62487, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54912245478995, 
+          37.86915434918748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191393.3685, 
+        "ET_ORDER": 0.7659, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539656.1772, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 262.22462, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5491769163417, 
+          37.869114792238726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191388.9565, 
+        "ET_ORDER": 0.7684, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539651.4083, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 262.56061, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54932253773907, 
+          37.869074738817005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191384.4507, 
+        "ET_ORDER": 0.7738, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539638.6218, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 263.17874, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54962598468148, 
+          37.86905357287116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191381.9735, 
+        "ET_ORDER": 0.7845, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539611.9438, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 264.00964, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54971443430176, 
+          37.86902818708098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191379.1194, 
+        "ET_ORDER": 0.7878, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539604.1779, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 264.36565, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5499781982743, 
+          37.8688513954512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191359.3924, 
+        "ET_ORDER": 0.7999, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539581.0734, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 265.65329, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55021908479364, 
+          37.868607571528365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191332.2379, 
+        "ET_ORDER": 0.8136, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539560.0168, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 267.0844, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5503581342376, 
+          37.86836507611515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191305.274, 
+        "ET_ORDER": 0.8253, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539547.9164, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 267.88263, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55045705686875, 
+          37.868287582148845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191296.6341, 
+        "ET_ORDER": 0.8302, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539539.2571, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 268.13095, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55066664724623, 
+          37.868222842127395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191289.3624, 
+        "ET_ORDER": 0.8381, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539520.8572, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 268.85632, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55110163767196, 
+          37.868124027697995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191278.2148, 
+        "ET_ORDER": 0.8539, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539482.6504, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 271.70307, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.551332181806, 
+          37.867977201753774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191261.8269, 
+        "ET_ORDER": 0.8643, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539462.4512, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 272.71986, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55141829375124, 
+          37.86788907775198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191252.0131, 
+        "ET_ORDER": 0.8692, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539454.9242, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 273.30178, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55151140490074, 
+          37.8677185408242
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191233.0526, 
+        "ET_ORDER": 0.8774, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539446.8255, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 273.91468, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55163586713539, 
+          37.86755842871239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191215.2355, 
+        "ET_ORDER": 0.8857, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539435.9637, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 274.6772, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55164811496556, 
+          37.86750351566852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191209.1377, 
+        "ET_ORDER": 0.8882, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539434.9157, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 274.74031, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55163219521623, 
+          37.867449353401945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191203.1351, 
+        "ET_ORDER": 0.8907, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539436.3448, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 274.89029, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5515838271623, 
+          37.86739691793347
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191197.3378, 
+        "ET_ORDER": 0.8935, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539440.627, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 275.26158, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55142274029406, 
+          37.867334341508034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191190.463, 
+        "ET_ORDER": 0.8998, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539454.8289, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 275.6687, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55052907367352, 
+          37.86733093335182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191190.463, 
+        "ET_ORDER": 0.9311, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539533.434, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 278.59492, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5504248418023, 
+          37.86731635970225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191188.8902, 
+        "ET_ORDER": 0.9348, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539542.6096, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 278.87703, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55019286756617, 
+          37.86721801126122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191178.0767, 
+        "ET_ORDER": 0.944, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539563.0657, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 279.8318, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55008799066013, 
+          37.86721027123641
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191177.2624, 
+        "ET_ORDER": 0.9477, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539572.2944, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 279.95798, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54995332261335, 
+          37.86724199979455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191180.8398, 
+        "ET_ORDER": 0.9526, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539584.1223, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 279.70696, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54979679358459, 
+          37.86733071154071
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191190.7488, 
+        "ET_ORDER": 0.9594, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539597.8425, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 278.46451, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54967626282587, 
+          37.86737834145475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191196.0845, 
+        "ET_ORDER": 0.9641, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539608.4184, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 277.45378, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54944422757602, 
+          37.86741524631128
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191200.2776, 
+        "ET_ORDER": 0.9724, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539628.8075, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 275.16393, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54936845750048, 
+          37.867404643624454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191199.1334, 
+        "ET_ORDER": 0.9751, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539635.4776, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 274.29733, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54924420746205, 
+          37.86735783200304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191193.9924, 
+        "ET_ORDER": 0.9799, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539646.4312, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 272.98413, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54904347144291, 
+          37.86722821389806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191179.6965, 
+        "ET_ORDER": 0.9889, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539664.1566, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 270.62004, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54877203509265, 
+          37.86710063816585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2139.3, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 2515.6, 
+        "Len_Down": 376.3, 
+        "Max_S_Down": 7.9, 
+        "Min_Z": 185.4, 
+        "H_Down": 16.9, 
+        "ET_ID": 171, 
+        "trail_name": "Miwok Fire Road", 
+        "ET_Y": 4191165.6573, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 10.7, 
+        "ET_IDP": 171, 
+        "ET_IDR": "171_0", 
+        "H_Up": 97.3, 
+        "ET_X": 539688.0995, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 266.76898, 
+        "Length_2D": 2511.7, 
+        "Max_Z": 280.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,7461 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49797485195512, 
+          37.52685104018193
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153438.6505, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544358.2935, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 49.00837, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49765685241651, 
+          37.52688904018588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153443.0164, 
+        "ET_ORDER": 0.0037, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544386.3692, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 54.24288, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4976448520064, 
+          37.527258039319726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153483.9604, 
+        "ET_ORDER": 0.0091, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544387.2109, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 56.86059, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4976088519603, 
+          37.527525040135934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153513.5996, 
+        "ET_ORDER": 0.013, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544390.2336, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 59.86972, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49749585221383, 
+          37.52760903963695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153522.9722, 
+        "ET_ORDER": 0.0148, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544400.1683, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 62.46942, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49672885294706, 
+          37.52780804003042
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153545.4125, 
+        "ET_ORDER": 0.0242, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544467.821, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 78.24337, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49664389516136, 
+          37.52781547556709
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153546.2776, 
+        "ET_ORDER": 0.0252, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544475.3233, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 80.33858, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49654774246936, 
+          37.52798264893008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153564.87, 
+        "ET_ORDER": 0.0279, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544483.7199, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 83.5406, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49647954008717, 
+          37.52803101141594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153570.2678, 
+        "ET_ORDER": 0.0289, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544489.7174, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 85.05528, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49627591164175, 
+          37.528030143062765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153570.2678, 
+        "ET_ORDER": 0.0313, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544507.7101, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 87.87557, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49578669603535, 
+          37.52810373754523
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153578.6643, 
+        "ET_ORDER": 0.0371, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544550.8924, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 95.22518, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49504688385565, 
+          37.528095171252545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153578.0646, 
+        "ET_ORDER": 0.0457, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544616.2657, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 103.57058, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49488390877079, 
+          37.528105286044266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153579.2641, 
+        "ET_ORDER": 0.0476, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544630.6598, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 103.92078, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49470031518503, 
+          37.52815315390716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153584.6619, 
+        "ET_ORDER": 0.0498, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544646.8532, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 103.67973, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49427842540813, 
+          37.52830811951398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153602.0548, 
+        "ET_ORDER": 0.0552, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544684.038, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 104.74074, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49380263399465, 
+          37.52840338761021
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153612.8504, 
+        "ET_ORDER": 0.0609, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544726.0209, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 106.60917, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49345631886301, 
+          37.528423526181435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153615.2494, 
+        "ET_ORDER": 0.065, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544756.6084, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 109.49177, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49335099153515, 
+          37.528332591131985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153605.2108, 
+        "ET_ORDER": 0.0668, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544765.9692, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 108.98098, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49306385277423, 
+          37.528228039537396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153593.7481, 
+        "ET_ORDER": 0.0704, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544791.4026, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 111.24889, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49308385312287, 
+          37.527930039775725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153560.6772, 
+        "ET_ORDER": 0.0748, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544789.8136, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 114.22721, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49299385312358, 
+          37.527612039091146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153525.4397, 
+        "ET_ORDER": 0.0796, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544797.956, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 121.07549, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4925338534316, 
+          37.52786203939537
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153553.395, 
+        "ET_ORDER": 0.086, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544838.4512, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 127.98502, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49209585266995, 
+          37.52805503898878
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153575.0161, 
+        "ET_ORDER": 0.0918, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544877.0365, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 135.26895, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49179885316559, 
+          37.52814303944836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153584.921, 
+        "ET_ORDER": 0.0955, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544903.226, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 141.75777, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49145985300261, 
+          37.5280940392147
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153579.6466, 
+        "ET_ORDER": 0.0995, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544933.2087, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 144.48021, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49128310246086, 
+          37.52809853648042
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153580.23, 
+        "ET_ORDER": 0.1016, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544948.8233, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 145.55553, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49094885366003, 
+          37.52810703904219
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153581.3331, 
+        "ET_ORDER": 0.1055, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544978.3517, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 145.68492, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49081085323736, 
+          37.52846103913087
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153620.6734, 
+        "ET_ORDER": 0.1109, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 544990.3325, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 141.23197, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4905348527484, 
+          37.52855803951134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153631.5671, 
+        "ET_ORDER": 0.1144, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545014.6609, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 137.18341, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49015885330117, 
+          37.52884503912899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153663.5881, 
+        "ET_ORDER": 0.1204, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545047.7106, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 133.63854, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4898278528162, 
+          37.52957103934944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153744.2923, 
+        "ET_ORDER": 0.1317, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545076.5199, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 132.35881, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48982385275782, 
+          37.52992003939955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153783.0138, 
+        "ET_ORDER": 0.1368, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545076.6633, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 133.82086, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48912685375556, 
+          37.53046703896734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153844.0346, 
+        "ET_ORDER": 0.1482, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545137.9175, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 130.59813, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48856385293233, 
+          37.530550038655704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153853.5133, 
+        "ET_ORDER": 0.1548, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545187.6114, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 134.00601, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4881178534049, 
+          37.530726038752455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153873.2539, 
+        "ET_ORDER": 0.1606, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545226.9114, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 142.06897, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48680985383798, 
+          37.53089203906147
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153892.3005, 
+        "ET_ORDER": 0.176, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545342.3789, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 151.60812, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4864328540517, 
+          37.53146803823589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153956.3862, 
+        "ET_ORDER": 0.1855, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545375.3396, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 150.27661, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48629685330928, 
+          37.53158403846198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153969.3214, 
+        "ET_ORDER": 0.1878, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545387.2855, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 149.40789, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48601585358014, 
+          37.531676038176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153979.6639, 
+        "ET_ORDER": 0.1913, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545412.0571, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 149.45376, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48573185392421, 
+          37.53184203870252
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4153998.2179, 
+        "ET_ORDER": 0.1954, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545437.0488, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 149.07489, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48527285313257, 
+          37.53205103836506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154021.6271, 
+        "ET_ORDER": 0.2015, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545477.4762, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 153.95184, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48447685416556, 
+          37.53237803803078
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154058.2911, 
+        "ET_ORDER": 0.2119, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545547.6064, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 168.64677, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4840798541031, 
+          37.53267703867185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154091.6559, 
+        "ET_ORDER": 0.2183, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545582.5005, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 179.20183, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48359685422984, 
+          37.53375703859493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154211.7101, 
+        "ET_ORDER": 0.235, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545624.5168, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 184.63431, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4831828533117, 
+          37.53402303809238
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154241.4222, 
+        "ET_ORDER": 0.2412, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545660.9321, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 180.72105, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48293085427255, 
+          37.53443703816849
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154287.4756, 
+        "ET_ORDER": 0.2479, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545682.9439, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 175.85275, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48284385420239, 
+          37.53473303790843
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154320.3574, 
+        "ET_ORDER": 0.2524, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545690.4498, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 174.19642, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48271685385235, 
+          37.53495603764331
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154345.1597, 
+        "ET_ORDER": 0.2559, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545701.5342, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 176.54587, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48232185383502, 
+          37.53527003763122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154380.1883, 
+        "ET_ORDER": 0.2624, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545736.2406, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 178.95307, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48156785434546, 
+          37.535719038071576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154430.3694, 
+        "ET_ORDER": 0.2733, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545802.5814, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 192.43602, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48143385381363, 
+          37.53594803748546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154455.8409, 
+        "ET_ORDER": 0.277, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545814.2801, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 198.03932, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48093285380413, 
+          37.5361630377819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154479.9382, 
+        "ET_ORDER": 0.2836, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545858.4111, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 204.58576, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48039385351603, 
+          37.53604003769362
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154466.555, 
+        "ET_ORDER": 0.2902, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545906.1063, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 210.24558, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47997085372779, 
+          37.53607003757941
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154470.0899, 
+        "ET_ORDER": 0.2951, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545943.4593, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 212.63033, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47954485443172, 
+          37.53631203771711
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154497.1467, 
+        "ET_ORDER": 0.3012, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545980.9471, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 213.37599, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47950485354909, 
+          37.53675303777522
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154546.0928, 
+        "ET_ORDER": 0.3076, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 545984.2103, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 215.76282, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47913085402524, 
+          37.53708303734795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154582.8874, 
+        "ET_ORDER": 0.3141, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546017.0495, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 217.2343, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47875185368466, 
+          37.53745403773425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154624.2334, 
+        "ET_ORDER": 0.3211, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546050.305, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 223.72711, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47838785438965, 
+          37.53755103738846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154635.1733, 
+        "ET_ORDER": 0.3255, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546082.4035, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 224.58722, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47777085415122, 
+          37.537840037220946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154667.5388, 
+        "ET_ORDER": 0.3339, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546136.7354, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 232.20972, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4774458545061, 
+          37.537837037466545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154667.3655, 
+        "ET_ORDER": 0.3376, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546165.4498, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 236.5662, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47728085441649, 
+          37.53781103782844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154664.562, 
+        "ET_ORDER": 0.3396, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546180.043, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 239.20443, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47697585476449, 
+          37.53764903773645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154646.7388, 
+        "ET_ORDER": 0.3439, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546207.0886, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 244.51609, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47676785473402, 
+          37.53773003740321
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154655.8275, 
+        "ET_ORDER": 0.3465, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546225.4147, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 248.55873, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4767098541375, 
+          37.53784803766257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154668.9475, 
+        "ET_ORDER": 0.3484, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546230.466, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 250.88528, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47647685422032, 
+          37.53808603692471
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154695.4668, 
+        "ET_ORDER": 0.3528, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546250.9037, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 253.58205, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47576385408045, 
+          37.53859903695919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154752.7323, 
+        "ET_ORDER": 0.364, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546313.5772, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 251.44675, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47572585490597, 
+          37.5387960369743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154774.6071, 
+        "ET_ORDER": 0.3669, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546316.8124, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 252.8363, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47507385427365, 
+          37.53921403707735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154821.3033, 
+        "ET_ORDER": 0.3766, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546374.1547, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 258.11484, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47474485400087, 
+          37.53965303721712
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154870.1703, 
+        "ET_ORDER": 0.384, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546402.9481, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 264.46403, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47425485401055, 
+          37.53995803697312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154904.2503, 
+        "ET_ORDER": 0.3913, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546446.0476, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 269.48275, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47404685490264, 
+          37.540165037006915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154927.3186, 
+        "ET_ORDER": 0.3951, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546464.2946, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 274.36288, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47340085471872, 
+          37.54064003691601
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154980.3367, 
+        "ET_ORDER": 0.4054, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546521.0695, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 280.787, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47310985501639, 
+          37.541010036672986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155021.5302, 
+        "ET_ORDER": 0.4117, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546546.5473, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 282.53249, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47298785450204, 
+          37.541214036610675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155044.2233, 
+        "ET_ORDER": 0.415, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546557.1983, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 283.88192, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4727188546949, 
+          37.54151203632387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155077.418, 
+        "ET_ORDER": 0.4204, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546580.777, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 284.30095, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47256385409143, 
+          37.54180203680288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155109.6688, 
+        "ET_ORDER": 0.425, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546594.2896, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 281.23312, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47253185390285, 
+          37.5420010364048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155131.7626, 
+        "ET_ORDER": 0.4279, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546596.9927, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 282.76969, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47212285464143, 
+          37.54243903702152
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155180.5592, 
+        "ET_ORDER": 0.4359, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546632.8515, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 287.85408, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47187185439469, 
+          37.54275903692045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155216.186, 
+        "ET_ORDER": 0.4414, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546654.8257, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 290.9278, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47166885470193, 
+          37.542841036816206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155225.3842, 
+        "ET_ORDER": 0.444, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546672.7077, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 291.84466, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47131885460388, 
+          37.54308003615315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155252.0737, 
+        "ET_ORDER": 0.4494, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546703.4778, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 295.03309, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47120885459563, 
+          37.54317303614648
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155262.4462, 
+        "ET_ORDER": 0.4512, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546713.1372, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 296.76985, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47105085413948, 
+          37.54351603670145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155300.5788, 
+        "ET_ORDER": 0.4566, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546726.8809, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 306.97046, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47100985434228, 
+          37.54353303637246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155302.4852, 
+        "ET_ORDER": 0.4571, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546730.4922, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 307.90137, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47084985416092, 
+          37.54370403657768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155321.5363, 
+        "ET_ORDER": 0.4602, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546744.5198, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 314.33276, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47064885415782, 
+          37.54379103623373
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155331.2884, 
+        "ET_ORDER": 0.4629, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546762.2217, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 320.23094, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47025785481418, 
+          37.54408403681496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155363.9898, 
+        "ET_ORDER": 0.4691, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546796.5792, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 330.46008, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47003985407655, 
+          37.5446710361629
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155429.2228, 
+        "ET_ORDER": 0.478, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546815.4701, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 330.69034, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46972585488174, 
+          37.545086036555276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155475.4213, 
+        "ET_ORDER": 0.4851, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546842.9486, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 330.3606, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46974485424509, 
+          37.545243036047445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155492.8301, 
+        "ET_ORDER": 0.4874, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546841.172, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 335.59785, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46989185406458, 
+          37.545426036420544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155513.0598, 
+        "ET_ORDER": 0.4906, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546828.0719, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 340.01427, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46986185476516, 
+          37.54553403665963
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155525.0568, 
+        "ET_ORDER": 0.4922, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546830.6544, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 343.04937, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46954485405762, 
+          37.54556503635967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155528.654, 
+        "ET_ORDER": 0.4959, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546858.638, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 350.00014, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46946285468944, 
+          37.54568803658954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155542.3411, 
+        "ET_ORDER": 0.4979, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546865.8046, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 352.28663, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46944585501289, 
+          37.546110036089246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155589.1682, 
+        "ET_ORDER": 0.5041, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546867.0421, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 350.47266, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46926385469577, 
+          37.546479036492116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155630.1976, 
+        "ET_ORDER": 0.5099, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546882.8883, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 343.77173, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46894985479341, 
+          37.54719403618722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155709.6797, 
+        "ET_ORDER": 0.5209, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546910.1778, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 356.78733, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46900985397448, 
+          37.547519036053444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155745.7068, 
+        "ET_ORDER": 0.5257, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546904.6741, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 358.18803, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46896285379772, 
+          37.54788503570183
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155786.336, 
+        "ET_ORDER": 0.5311, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546908.5965, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 363.38024, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46923485418885, 
+          37.548297035983076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155831.9096, 
+        "ET_ORDER": 0.5379, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546884.3114, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 373.60195, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46953385384657, 
+          37.548852036084234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155893.3349, 
+        "ET_ORDER": 0.5467, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546857.5521, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 381.3517, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46954485450203, 
+          37.549374036050374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155951.2426, 
+        "ET_ORDER": 0.5543, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546856.2536, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 391.57654, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46942385368278, 
+          37.5496510357937
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155982.0346, 
+        "ET_ORDER": 0.5586, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546866.7685, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 401.87157, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46938585349612, 
+          37.54998503567063
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156019.1091, 
+        "ET_ORDER": 0.5635, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546869.916, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 406.40681, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46944785435433, 
+          37.55014703611381
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156037.0513, 
+        "ET_ORDER": 0.5659, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546864.3379, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 406.40752, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46943785396715, 
+          37.550390035413685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156064.0158, 
+        "ET_ORDER": 0.5695, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546865.0691, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 407.46705, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46922085448858, 
+          37.55063303545518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156091.0836, 
+        "ET_ORDER": 0.5738, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546884.0848, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 415.96589, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46876985356928, 
+          37.55086003544579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156116.4931, 
+        "ET_ORDER": 0.58, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546923.78, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 413.66069, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46866985386005, 
+          37.550948035752945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156126.3062, 
+        "ET_ORDER": 0.5818, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 546932.5579, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 416.83582, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46733185385946, 
+          37.55093203558225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156125.1999, 
+        "ET_ORDER": 0.5973, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547050.7548, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 431.12379, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46709585384609, 
+          37.551019035154226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156134.9702, 
+        "ET_ORDER": 0.6003, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547071.5462, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 438.80175, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46712885441353, 
+          37.55084003561835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156115.0946, 
+        "ET_ORDER": 0.603, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547068.7438, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 432.6707, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46695185383817, 
+          37.5508110352778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156111.9658, 
+        "ET_ORDER": 0.6051, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547084.3967, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 432.26872, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46679285396613, 
+          37.5508670356342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156118.2584, 
+        "ET_ORDER": 0.6071, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547098.4061, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 432.84111, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4664218545969, 
+          37.55089303557913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156121.3289, 
+        "ET_ORDER": 0.6114, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547131.1605, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 426.50866, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46592785482991, 
+          37.55087703585497
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156119.8016, 
+        "ET_ORDER": 0.6172, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547174.8061, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 428.94238, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4657878550362, 
+          37.55075003523728
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156105.7818, 
+        "ET_ORDER": 0.6196, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547187.2525, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 428.21933, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46561285455172, 
+          37.55062303558823
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156091.7797, 
+        "ET_ORDER": 0.6224, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547202.7906, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 425.39022, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4653468542342, 
+          37.55070603540789
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156101.1217, 
+        "ET_ORDER": 0.6257, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547226.2344, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 416.46733, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46520485513088, 
+          37.550846035181266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156116.7253, 
+        "ET_ORDER": 0.6283, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547238.689, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 409.28381, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46492185480047, 
+          37.55090103505739
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156122.9695, 
+        "ET_ORDER": 0.6317, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547263.652, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 402.42655, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4639518551418, 
+          37.550882035261914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156121.3497, 
+        "ET_ORDER": 0.643, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547349.3451, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 403.53826, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46347485537368, 
+          37.55089403524735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156122.9214, 
+        "ET_ORDER": 0.6485, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547391.4714, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 416.50291, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46211585553097, 
+          37.55088803513966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156122.9417, 
+        "ET_ORDER": 0.6643, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547511.5171, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 416.73151, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46193985488298, 
+          37.550803035566375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156113.6004, 
+        "ET_ORDER": 0.6667, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547527.1174, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 415.7789, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4617128550523, 
+          37.550507035491826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156080.8755, 
+        "ET_ORDER": 0.6718, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547547.3566, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 398.45871, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46152685564887, 
+          37.550465035424004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156076.3099, 
+        "ET_ORDER": 0.674, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547563.8129, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 392.66341, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46112985470455, 
+          37.55056003539929
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156087.0506, 
+        "ET_ORDER": 0.6788, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547598.8202, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 396.3743, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46082985553538, 
+          37.55055903542832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156087.0916, 
+        "ET_ORDER": 0.6823, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547625.3202, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 403.65309, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46054785535414, 
+          37.55051503517208
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156082.3529, 
+        "ET_ORDER": 0.6856, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547650.2577, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 408.235, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46028385510196, 
+          37.55041603511087
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156071.5032, 
+        "ET_ORDER": 0.689, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547673.6403, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 411.11806, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.460090854924, 
+          37.55027403491613
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156055.8469, 
+        "ET_ORDER": 0.6921, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547690.7788, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 414.62424, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46002085564874, 
+          37.550120034880756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156038.7969, 
+        "ET_ORDER": 0.6945, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547697.0601, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 417.0654, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46000485528351, 
+          37.54997903494948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156023.1618, 
+        "ET_ORDER": 0.6965, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547698.5633, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 417.36252, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4598998558317, 
+          37.54983803535555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156007.5719, 
+        "ET_ORDER": 0.6989, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547707.928, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 420.60899, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45947685536596, 
+          37.54973803477632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155996.6921, 
+        "ET_ORDER": 0.7041, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547745.3564, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 427.39381, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45908785575291, 
+          37.54983403528154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156007.5405, 
+        "ET_ORDER": 0.7088, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547779.6564, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 429.55925, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45837985620508, 
+          37.55012603458572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156040.2964, 
+        "ET_ORDER": 0.718, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547842.009, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 419.66742, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45823785598638, 
+          37.5502520352186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156054.3478, 
+        "ET_ORDER": 0.7205, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547854.4716, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 416.22675, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45804185563608, 
+          37.550476034814515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156079.2992, 
+        "ET_ORDER": 0.7245, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547871.6414, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 411.19553, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45802285612316, 
+          37.55064403467226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156097.9476, 
+        "ET_ORDER": 0.727, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547873.2122, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 413.23043, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45791685561873, 
+          37.550686034928916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156102.6613, 
+        "ET_ORDER": 0.7283, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547882.5485, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 410.30001, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45761885539785, 
+          37.550418034932164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156073.0799, 
+        "ET_ORDER": 0.7336, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547909.0428, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 410.71092, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45747785531297, 
+          37.5503750345949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156068.3811, 
+        "ET_ORDER": 0.7353, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547921.5251, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 412.9667, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45724785631602, 
+          37.55048603502616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156080.8133, 
+        "ET_ORDER": 0.7384, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547941.7702, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 417.74314, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4571058557755, 
+          37.550612035181466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156094.8648, 
+        "ET_ORDER": 0.7409, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547954.2326, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 423.28143, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45696385639543, 
+          37.55071003477921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156105.8098, 
+        "ET_ORDER": 0.7431, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547966.7128, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 429.22195, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45678685560561, 
+          37.55073703440844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156108.8956, 
+        "ET_ORDER": 0.7452, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 547982.3302, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 434.48891, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4565758562009, 
+          37.550680034776356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156102.6795, 
+        "ET_ORDER": 0.7478, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548001.0046, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 435.75817, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45609985572267, 
+          37.55063603493019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156098.0411, 
+        "ET_ORDER": 0.7533, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548043.0786, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 429.36853, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45572785611765, 
+          37.55085903500918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156122.972, 
+        "ET_ORDER": 0.7587, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548075.7946, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 421.70046, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45555085552381, 
+          37.55084403445814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156121.3983, 
+        "ET_ORDER": 0.7608, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548091.4389, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 422.51045, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45533985563, 
+          37.55077303467848
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156113.6292, 
+        "ET_ORDER": 0.7635, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548110.1224, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 426.10135, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45496985615854, 
+          37.55060203429406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156094.847, 
+        "ET_ORDER": 0.7684, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548142.9149, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 432.44704, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45477585661756, 
+          37.55060103497825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156094.8355, 
+        "ET_ORDER": 0.7707, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548160.0518, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 431.24026, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45458185581005, 
+          37.55068503428671
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156104.2542, 
+        "ET_ORDER": 0.7733, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548177.1341, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 429.42075, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45435185585728, 
+          37.55072603484786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156108.9209, 
+        "ET_ORDER": 0.776, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548197.4239, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 426.19708, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4541228566289, 
+          37.55064003510576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156099.4971, 
+        "ET_ORDER": 0.7789, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548217.7071, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 424.60107, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4540528564087, 
+          37.550514034665014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156085.5539, 
+        "ET_ORDER": 0.7809, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548223.9715, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 422.61082, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45392985605008, 
+          37.550485034646954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156082.3996, 
+        "ET_ORDER": 0.7824, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548234.855, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 419.90631, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45380585627028, 
+          37.550597035003605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156094.8891, 
+        "ET_ORDER": 0.7846, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548245.7359, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 415.38148, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4537698557846, 
+          37.55069503430661
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156105.7801, 
+        "ET_ORDER": 0.7861, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548248.8527, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 414.51191, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4536808561759, 
+          37.55072303484637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156108.9323, 
+        "ET_ORDER": 0.7872, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548256.6961, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 412.33282, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45319085626677, 
+          37.55017203481298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156048.0533, 
+        "ET_ORDER": 0.7971, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548300.334, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 407.85094, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45301335440546, 
+          37.550033675016095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156032.7942, 
+        "ET_ORDER": 0.8, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548316.1024, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 409.58387, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45287485695773, 
+          37.54993203455274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156021.5889, 
+        "ET_ORDER": 0.8021, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548328.4018, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 408.10252, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4526808569401, 
+          37.54993103450193
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156021.5777, 
+        "ET_ORDER": 0.8044, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548345.5389, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 406.74766, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45241785610222, 
+          37.54989103459404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156017.2752, 
+        "ET_ORDER": 0.8075, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548368.7962, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 412.46834, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45217085631141, 
+          37.54974603455912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156001.3153, 
+        "ET_ORDER": 0.8111, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548390.708, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 418.57067, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45178185651359, 
+          37.54974403439723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156001.2937, 
+        "ET_ORDER": 0.8156, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548425.0706, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 416.9653, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45148185717741, 
+          37.549771034504175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4156004.4438, 
+        "ET_ORDER": 0.8191, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548451.5528, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 417.54348, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.451217856531, 
+          37.549700034419224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155996.7028, 
+        "ET_ORDER": 0.8223, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548474.9186, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 420.63106, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45132585732695, 
+          37.54939103493645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155962.3652, 
+        "ET_ORDER": 0.827, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548465.5787, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 421.88037, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45132685654725, 
+          37.54923603469694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155945.1682, 
+        "ET_ORDER": 0.8293, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548465.5908, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 417.70909, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45120385732848, 
+          37.549152034272566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155935.9122, 
+        "ET_ORDER": 0.8312, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548476.5101, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 420.26144, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4510998573333, 
+          37.548996034900235
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155918.6585, 
+        "ET_ORDER": 0.8337, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548485.7978, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 417.80699, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4511188568451, 
+          37.5488140346119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155898.4567, 
+        "ET_ORDER": 0.8364, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548484.2374, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 417.60809, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4511718568126, 
+          37.54867403475576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155882.8971, 
+        "ET_ORDER": 0.8385, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548479.6464, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 418.79749, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45117385707093, 
+          37.54851903464603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155865.6996, 
+        "ET_ORDER": 0.8408, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548479.5701, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 421.31056, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45112285755445, 
+          37.54823803473177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155834.5504, 
+        "ET_ORDER": 0.8449, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548484.2571, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 418.83914, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45099985699795, 
+          37.54813903473931
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155823.6303, 
+        "ET_ORDER": 0.847, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548495.1864, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 415.57463, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4508418571459, 
+          37.548054034736765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155814.2815, 
+        "ET_ORDER": 0.8492, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548509.1983, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 415.86536, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45066585680107, 
+          37.5478840347305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155795.5117, 
+        "ET_ORDER": 0.8524, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548524.8554, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 420.96585, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4508438568287, 
+          37.54768903481332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155773.7856, 
+        "ET_ORDER": 0.8559, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548509.2582, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 420.68637, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45084485759514, 
+          37.54756203493938
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155759.6951, 
+        "ET_ORDER": 0.8578, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548509.2521, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 419.28396, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4508108572787, 
+          37.54742103477019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155744.0694, 
+        "ET_ORDER": 0.8599, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548512.3469, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 419.33575, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4508998571074, 
+          37.54728103478395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155728.4912, 
+        "ET_ORDER": 0.8621, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548504.5758, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 409.6817, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45100685762804, 
+          37.54715503434298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155714.4569, 
+        "ET_ORDER": 0.8644, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548495.2055, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 405.39748, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45104285770307, 
+          37.54705703492704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155703.5658, 
+        "ET_ORDER": 0.8659, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548492.0889, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 407.25803, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45106185707485, 
+          37.54693103448292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155689.5769, 
+        "ET_ORDER": 0.8677, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548490.4922, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 402.58517, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45095685734321, 
+          37.54674803489418
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155669.3282, 
+        "ET_ORDER": 0.8706, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548499.886, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 408.89948, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45094085720696, 
+          37.54653703496593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155645.9271, 
+        "ET_ORDER": 0.8737, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548501.4361, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 413.96468, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45090685779405, 
+          37.546424035206115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155633.4079, 
+        "ET_ORDER": 0.8754, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548504.5127, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 419.1513, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4510628570237, 
+          37.54620203453449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155608.6976, 
+        "ET_ORDER": 0.8791, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548490.8761, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 423.85756, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45106485682206, 
+          37.54595803517192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155581.6261, 
+        "ET_ORDER": 0.8827, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548490.8575, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 428.06676, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45086885787764, 
+          37.54578603519591
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155562.6447, 
+        "ET_ORDER": 0.8861, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548508.2829, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 430.37784, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45059985693058, 
+          37.545684034718356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155551.4671, 
+        "ET_ORDER": 0.8895, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548532.1118, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 428.00064, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45000585744872, 
+          37.54575303486141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155559.4291, 
+        "ET_ORDER": 0.8965, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548584.5393, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 435.04636, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44986285692336, 
+          37.54573803455098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155557.8388, 
+        "ET_ORDER": 0.8982, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548597.1813, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 438.57348, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44995385726995, 
+          37.54553803455057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155535.6028, 
+        "ET_ORDER": 0.9013, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548589.2724, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 444.32765, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44997285740284, 
+          37.545352035064646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155514.9573, 
+        "ET_ORDER": 0.904, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548587.7147, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 448.55484, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44993885751899, 
+          37.54516603475566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155494.3391, 
+        "ET_ORDER": 0.9068, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548590.8389, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 450.20875, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44972385814242, 
+          37.54503603465192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155480.0274, 
+        "ET_ORDER": 0.9099, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548609.9159, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 454.69128, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44952685760916, 
+          37.544950034492196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155470.588, 
+        "ET_ORDER": 0.9125, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548627.3744, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 453.56393, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44931285796957, 
+          37.54480603494233
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155454.7227, 
+        "ET_ORDER": 0.9158, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548646.3723, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 453.25571, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4493308572283, 
+          37.54467703488969
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155440.4015, 
+        "ET_ORDER": 0.9177, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548644.8661, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 458.39754, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44940385796103, 
+          37.54457703442885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155429.2692, 
+        "ET_ORDER": 0.9193, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548638.4823, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 455.68321, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44942285718162, 
+          37.544463034763396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155416.6117, 
+        "ET_ORDER": 0.921, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548636.878, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 458.67764, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44947785793659, 
+          37.54432003529002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155400.7182, 
+        "ET_ORDER": 0.9232, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548632.1122, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 462.16188, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44967685718134, 
+          37.54410603531149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155376.8731, 
+        "ET_ORDER": 0.9271, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548614.6718, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 461.39444, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44962385737833, 
+          37.54400603508284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155365.806, 
+        "ET_ORDER": 0.9287, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548619.4187, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 461.27117, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44951685735666, 
+          37.54389103522346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155353.1027, 
+        "ET_ORDER": 0.9308, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548628.9457, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 461.50668, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44931985819018, 
+          37.54373203535227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155335.5644, 
+        "ET_ORDER": 0.934, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548646.4518, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 462.25473, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44933985822496, 
+          37.54348903474884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155308.5944, 
+        "ET_ORDER": 0.9376, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548644.8429, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 466.7214, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44939485746363, 
+          37.5434040353011
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155299.1357, 
+        "ET_ORDER": 0.939, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548640.0395, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 465.95147, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44932485798644, 
+          37.54317403518177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155273.6546, 
+        "ET_ORDER": 0.9424, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548646.3727, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 466.25136, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44920085814722, 
+          37.542873035333244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155240.3244, 
+        "ET_ORDER": 0.947, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548657.5225, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 465.16601, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44900385773353, 
+          37.542744034521384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155226.1144, 
+        "ET_ORDER": 0.95, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548675.0095, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 467.12067, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44902385843976, 
+          37.542529035255036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155202.251, 
+        "ET_ORDER": 0.9531, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548673.3824, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 472.99184, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44907885791629, 
+          37.542401035267446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155188.0216, 
+        "ET_ORDER": 0.9551, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548668.6069, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 470.87196, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44898985773868, 
+          37.542257035047214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155172.0916, 
+        "ET_ORDER": 0.9575, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548676.5629, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 467.35293, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.448811858599, 
+          37.54205603535204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155149.8839, 
+        "ET_ORDER": 0.9611, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548692.4183, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 464.63866, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44872385792814, 
+          37.54176903509767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155118.0883, 
+        "ET_ORDER": 0.9654, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548700.3791, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 471.3861, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44872585761902, 
+          37.54154003497324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155092.6809, 
+        "ET_ORDER": 0.9687, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548700.3514, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 470.20447, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44865485829204, 
+          37.54132503539566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155068.8646, 
+        "ET_ORDER": 0.9719, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548706.7635, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 465.1756, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44854885837042, 
+          37.54108203504343
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155041.9599, 
+        "ET_ORDER": 0.9757, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548716.2859, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 463.41567, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44840685813172, 
+          37.540881035168105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4155019.7336, 
+        "ET_ORDER": 0.9791, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548728.9614, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 464.47459, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44828285774754, 
+          37.54058003516267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154986.4035, 
+        "ET_ORDER": 0.9837, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548740.1119, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 460.57105, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44823185867416, 
+          37.54026503477117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154951.4823, 
+        "ET_ORDER": 0.9883, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548744.8224, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 455.86822, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44823285783968, 
+          37.5400500350981
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154927.6287, 
+        "ET_ORDER": 0.9915, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548744.8741, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 450.67293, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44816285869938, 
+          37.53982103558317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154902.2587, 
+        "ET_ORDER": 0.9949, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548751.2072, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 446.71262, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44818933938335, 
+          37.53947174119067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5365.7, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 7687.7, 
+        "Len_Down": 2321.9, 
+        "Max_S_Down": 29.0, 
+        "Min_Z": 49.0, 
+        "H_Down": 259.9, 
+        "ET_ID": 244, 
+        "trail_name": "Spine Trail", 
+        "ET_Y": 4154863.4926, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 21.9, 
+        "ET_IDP": 244, 
+        "ET_IDR": "244_0", 
+        "H_Up": 648.4, 
+        "ET_X": 548749.0952, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 437.52719, 
+        "Length_2D": 7604.6, 
+        "Max_Z": 473.0
+      }
+    }
+  ]
+}

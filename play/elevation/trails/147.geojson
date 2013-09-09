@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42991614178851, 
+          37.80624897285103
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 48.6, 
+        "Len_Down": 48.6, 
+        "Max_S_Down": 22.8, 
+        "Min_Z": 6.5, 
+        "H_Down": 14.1, 
+        "ET_ID": 147, 
+        "trail_name": "Lower Fort Mason Trail", 
+        "ET_Y": 4184471.3375, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 147, 
+        "ET_IDR": "147_0", 
+        "H_Up": 0.0, 
+        "ET_X": 550183.4454, 
+        "Av_S_Down": 17.1, 
+        "ET_Z": 20.60941, 
+        "Length_2D": 46.0, 
+        "Max_Z": 20.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.43018525907573, 
+          37.8064296307863
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 48.6, 
+        "Len_Down": 48.6, 
+        "Max_S_Down": 22.8, 
+        "Min_Z": 6.5, 
+        "H_Down": 14.1, 
+        "ET_ID": 147, 
+        "trail_name": "Lower Fort Mason Trail", 
+        "ET_Y": 4184491.237, 
+        "ET_ORDER": 0.6751, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 147, 
+        "ET_IDR": "147_0", 
+        "H_Up": 0.0, 
+        "ET_X": 550159.6331, 
+        "Av_S_Down": 17.1, 
+        "ET_Z": 7.59478, 
+        "Length_2D": 46.0, 
+        "Max_Z": 20.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.43032361819942, 
+          37.806351740099146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 48.6, 
+        "Len_Down": 48.6, 
+        "Max_S_Down": 22.8, 
+        "Min_Z": 6.5, 
+        "H_Down": 14.1, 
+        "ET_ID": 147, 
+        "trail_name": "Lower Fort Mason Trail", 
+        "ET_Y": 4184482.5208, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 147, 
+        "ET_IDR": "147_0", 
+        "H_Up": 0.0, 
+        "ET_X": 550147.5062, 
+        "Av_S_Down": 17.1, 
+        "ET_Z": 6.49879, 
+        "Length_2D": 46.0, 
+        "Max_Z": 20.6
+      }
+    }
+  ]
+}

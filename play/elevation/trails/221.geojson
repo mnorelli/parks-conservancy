@@ -1,0 +1,2437 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57171023353989, 
+          37.90470014012497
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195327.8425, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537651.3932, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 286.76024, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57172175612598, 
+          37.90452219273764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195308.0944, 
+        "ET_ORDER": 0.0137, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537650.4709, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 283.32939, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5718279940637, 
+          37.90429397391102
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195282.7304, 
+        "ET_ORDER": 0.0324, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537641.2476, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 278.65632, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57187072963609, 
+          37.90416112204224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195267.9731, 
+        "ET_ORDER": 0.0429, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537637.5583, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 275.46496, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57194048859705, 
+          37.90389120521987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195237.9974, 
+        "ET_ORDER": 0.064, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537631.5631, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 272.64539, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57192513690757, 
+          37.903824646173575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195230.6188, 
+        "ET_ORDER": 0.0692, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537632.9466, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 271.81428, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57178911199502, 
+          37.90376180405812
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195223.7013, 
+        "ET_ORDER": 0.0788, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537644.9369, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 269.96465, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57172618849273, 
+          37.90375741833309
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195223.2401, 
+        "ET_ORDER": 0.0826, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537650.4709, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 269.23951, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57135664183278, 
+          37.90379897403316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195228.0, 
+        "ET_ORDER": 0.1053, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537682.9375, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 264.62383, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57109994300365, 
+          37.903685376607164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195215.5, 
+        "ET_ORDER": 0.1232, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537705.5625, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 266.54477, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57111645824452, 
+          37.90357660408376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195203.4249, 
+        "ET_ORDER": 0.1316, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537704.1661, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 259.39038, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57110180266311, 
+          37.90350489834612
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195195.475, 
+        "ET_ORDER": 0.1372, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537705.4911, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 258.8976, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57113637118904, 
+          37.903391574246484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195182.8876, 
+        "ET_ORDER": 0.1462, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537702.5099, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 258.13703, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57112648896744, 
+          37.90314672480572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195155.7253, 
+        "ET_ORDER": 0.165, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537703.5036, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 256.91559, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57104055710761, 
+          37.90302102029655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195141.813, 
+        "ET_ORDER": 0.1759, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537711.1223, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 253.01909, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57085759863786, 
+          37.902936415438425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195132.5, 
+        "ET_ORDER": 0.1888, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537727.25, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 257.69682, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57085982300003, 
+          37.90255337160642
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195090.0, 
+        "ET_ORDER": 0.2182, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537727.25, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 258.31873, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57086866790293, 
+          37.90249932593062
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195084.0, 
+        "ET_ORDER": 0.2224, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537726.5, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 261.40175, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57093491877443, 
+          37.902487800996944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195082.6945, 
+        "ET_ORDER": 0.2265, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537720.6815, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 261.90389, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5709708666942, 
+          37.90251654826606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195085.8695, 
+        "ET_ORDER": 0.2297, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537717.5065, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 259.10962, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57106140098928, 
+          37.90247395387388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195081.107, 
+        "ET_ORDER": 0.2361, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537709.569, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 259.80913, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57115168609381, 
+          37.9024742828561
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195081.107, 
+        "ET_ORDER": 0.2415, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537701.6315, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 256.94577, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57134174184071, 
+          37.90239628096144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195072.3758, 
+        "ET_ORDER": 0.2546, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537684.9627, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 251.7669, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57169443443836, 
+          37.90229740714663
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195061.2632, 
+        "ET_ORDER": 0.2773, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537654.0064, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 230.14215, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57227453623375, 
+          37.901906042880526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4195017.6069, 
+        "ET_ORDER": 0.3237, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537603.2063, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 215.56785, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57255702530237, 
+          37.90145636283999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194967.6006, 
+        "ET_ORDER": 0.3622, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537578.6, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 223.36018, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5724400707177, 
+          37.9013843965618
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194959.663, 
+        "ET_ORDER": 0.3712, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537588.9187, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 222.91953, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57203487022198, 
+          37.901196918424155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194939.0255, 
+        "ET_ORDER": 0.3998, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537624.6375, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 215.4894, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57195436028066, 
+          37.90106785258194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194924.738, 
+        "ET_ORDER": 0.4108, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537631.7813, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 213.86991, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57198227337433, 
+          37.900924871971064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194908.8629, 
+        "ET_ORDER": 0.4219, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537629.4001, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 209.0664, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57198301914364, 
+          37.90079610158728
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194894.5754, 
+        "ET_ORDER": 0.4318, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537629.4001, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 206.28704, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57195647343781, 
+          37.900703001812104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194884.2566, 
+        "ET_ORDER": 0.4391, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537631.7813, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 204.68072, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57199300092188, 
+          37.90063159402895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194876.3191, 
+        "ET_ORDER": 0.4451, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537628.6063, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 201.41586, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57199329093088, 
+          37.900581517105884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194870.7629, 
+        "ET_ORDER": 0.4489, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537628.6063, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 199.39647, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5719665784186, 
+          37.90051703296841
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194863.6191, 
+        "ET_ORDER": 0.4541, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537630.9876, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 196.03838, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57211140468632, 
+          37.90045317252935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194856.4753, 
+        "ET_ORDER": 0.4642, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537618.2875, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 191.59148, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57222024076029, 
+          37.90036771938377
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194846.9503, 
+        "ET_ORDER": 0.4735, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537608.7625, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 187.75397, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57218474891444, 
+          37.900260279016564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194835.044, 
+        "ET_ORDER": 0.482, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537611.9375, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 183.07031, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57189634133204, 
+          37.90017338168201
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194825.519, 
+        "ET_ORDER": 0.5008, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537637.3376, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 169.39151, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57142683075044, 
+          37.90017882763293
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194826.3128, 
+        "ET_ORDER": 0.5294, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537678.6127, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 179.14961, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57128188108355, 
+          37.9002641485167
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194835.8378, 
+        "ET_ORDER": 0.5404, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537691.3127, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 190.51156, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57138036251862, 
+          37.90040758839732
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194851.7128, 
+        "ET_ORDER": 0.5529, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537682.5814, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 191.95539, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5713801965615, 
+          37.90043620403806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194854.8878, 
+        "ET_ORDER": 0.5551, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537682.5814, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 193.22475, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57129881714279, 
+          37.90045737030713
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194857.2691, 
+        "ET_ORDER": 0.5603, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537689.7252, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 198.07896, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57089283545295, 
+          37.90040581209541
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194851.7128, 
+        "ET_ORDER": 0.5853, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537725.444, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 205.36626, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57059440360928, 
+          37.900490572497006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194861.2378, 
+        "ET_ORDER": 0.6046, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537751.6378, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 204.40675, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57036757349175, 
+          37.90068290487178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194882.6691, 
+        "ET_ORDER": 0.6248, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537771.4816, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 216.23432, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56986119699351, 
+          37.90081698309027
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194897.7504, 
+        "ET_ORDER": 0.6573, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537815.9317, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 231.56569, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56952685740524, 
+          37.90086583969687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194903.3067, 
+        "ET_ORDER": 0.678, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537845.3005, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 251.96725, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56937337553276, 
+          37.9008652782852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194903.3067, 
+        "ET_ORDER": 0.6873, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537858.7943, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 261.48586, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56926541104578, 
+          37.9008004962557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194896.1629, 
+        "ET_ORDER": 0.6955, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537868.3193, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 265.1016, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56922018669769, 
+          37.90081463887341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194897.7504, 
+        "ET_ORDER": 0.6985, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537872.288, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 267.4258, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56916609913594, 
+          37.90080013279138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194896.1629, 
+        "ET_ORDER": 0.702, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537877.0506, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 268.38649, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56914314504498, 
+          37.9008121000395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194897.5, 
+        "ET_ORDER": 0.7036, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537879.0625, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 269.399, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56909714590225, 
+          37.900654204338345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194880.0, 
+        "ET_ORDER": 0.7161, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537883.1875, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 262.38067, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56907963498846, 
+          37.90048739992376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194861.5, 
+        "ET_ORDER": 0.7289, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537884.8125, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 254.9027, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56910151186082, 
+          37.90027116825321
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194837.5, 
+        "ET_ORDER": 0.7456, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537883.0, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 247.11574, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56912528633227, 
+          37.900217177342846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194831.5, 
+        "ET_ORDER": 0.75, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537880.9375, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 243.24554, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56929837083659, 
+          37.900037550996444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194811.5, 
+        "ET_ORDER": 0.7673, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537865.8125, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 230.44376, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56930932294718, 
+          37.89998801962259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194806.0, 
+        "ET_ORDER": 0.7712, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537864.875, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 231.45539, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5692714868312, 
+          37.89989324477178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194795.5, 
+        "ET_ORDER": 0.7788, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537868.25, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 237.30978, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56908878737052, 
+          37.89964922531952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194768.5, 
+        "ET_ORDER": 0.8006, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537884.4375, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 255.78291, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56903994553412, 
+          37.899491319160184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194751.0, 
+        "ET_ORDER": 0.8131, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537888.8125, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 260.55198, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56901951128899, 
+          37.89921634810202
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194720.5, 
+        "ET_ORDER": 0.8342, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537890.75, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 254.57805, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56904249435608, 
+          37.899054198397735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194702.5, 
+        "ET_ORDER": 0.8467, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537888.8125, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 245.69226, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56907724684997, 
+          37.89894616972515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194690.5, 
+        "ET_ORDER": 0.8553, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537885.8125, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 235.32393, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56916836821073, 
+          37.89880229540355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194674.5, 
+        "ET_ORDER": 0.8677, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537877.875, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 227.7555, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56938217884534, 
+          37.89858676596868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194650.5, 
+        "ET_ORDER": 0.8887, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537859.1875, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 229.92516, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56971019660867, 
+          37.89816886132892
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194604.0, 
+        "ET_ORDER": 0.9265, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537830.5625, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 214.9965, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56986013385531, 
+          37.898056746914655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194591.5, 
+        "ET_ORDER": 0.939, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537817.4375, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 213.31812, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57015532249896, 
+          37.89790460434485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194574.5, 
+        "ET_ORDER": 0.9604, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537791.5625, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 206.32523, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5702432039945, 
+          37.89782831478325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194566.0, 
+        "ET_ORDER": 0.9684, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537783.875, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 207.08125, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57030351892429, 
+          37.8977248855434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194554.5, 
+        "ET_ORDER": 0.9771, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537778.625, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 210.35478, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57033260825477, 
+          37.89761232929922
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194542.0, 
+        "ET_ORDER": 0.9859, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537776.125, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 216.49113, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57031830893457, 
+          37.89750412116693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194530.0, 
+        "ET_ORDER": 0.9943, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537777.4375, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 220.38945, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57027960470936, 
+          37.89743638241584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 617.5, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 1521.9, 
+        "Len_Down": 904.4, 
+        "Max_S_Down": 40.0, 
+        "Min_Z": 169.4, 
+        "H_Down": 233.0, 
+        "ET_ID": 221, 
+        "trail_name": "Redwood Trail", 
+        "ET_Y": 4194522.5, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 35.6, 
+        "ET_IDP": 221, 
+        "ET_IDR": "221_0", 
+        "H_Up": 167.7, 
+        "ET_X": 537780.875, 
+        "Av_S_Down": 15.1, 
+        "ET_Z": 221.47382, 
+        "Length_2D": 1445.3, 
+        "Max_Z": 286.8
+      }
+    }
+  ]
+}

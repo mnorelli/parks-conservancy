@@ -1,0 +1,6181 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47310785320413, 
+          37.55345903585763
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156402.6823, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546538.9837, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 483.98428, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47321085315177, 
+          37.553506035682396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156407.8457, 
+        "ET_ORDER": 0.0025, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546529.8567, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 484.57032, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47329785298156, 
+          37.553570035586034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156414.9031, 
+        "ET_ORDER": 0.005, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546522.1324, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 484.45294, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47351085262879, 
+          37.55381303551034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156441.7573, 
+        "ET_ORDER": 0.0128, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546503.1676, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 483.44763, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47372085302483, 
+          37.55400103581019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156462.5111, 
+        "ET_ORDER": 0.0194, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546484.502, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 481.34533, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47385585311592, 
+          37.55408203595839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156471.4309, 
+        "ET_ORDER": 0.0229, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546472.5275, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 481.88901, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47400985307493, 
+          37.55414003615857
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156477.7896, 
+        "ET_ORDER": 0.0265, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546458.8891, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 482.51153, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4742308527797, 
+          37.554175035569415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156481.5634, 
+        "ET_ORDER": 0.0312, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546439.3471, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 480.66051, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47460585308059, 
+          37.554135035509766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156476.9404, 
+        "ET_ORDER": 0.0391, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546406.2492, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 481.15001, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47505785237912, 
+          37.55405703595571
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156468.0637, 
+        "ET_ORDER": 0.0488, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546366.3737, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 480.30389, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47514785292208, 
+          37.554062035645465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156468.574, 
+        "ET_ORDER": 0.0507, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546358.4211, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 480.85821, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47523685283106, 
+          37.554092036031726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156471.8585, 
+        "ET_ORDER": 0.0527, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546350.5414, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 481.13944, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47532985266204, 
+          37.554169036018635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156480.3554, 
+        "ET_ORDER": 0.0555, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546342.2793, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 480.72117, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47541385278672, 
+          37.554347036218395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156500.0622, 
+        "ET_ORDER": 0.0605, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546334.7496, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 480.11337, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47550985301531, 
+          37.554457036044916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156512.2188, 
+        "ET_ORDER": 0.0641, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546326.2021, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 479.81744, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47562785244521, 
+          37.55454103585172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156521.48, 
+        "ET_ORDER": 0.0674, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546315.7276, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 479.79172, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47582585289022, 
+          37.55463603565917
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156531.9222, 
+        "ET_ORDER": 0.0722, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546298.1801, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 478.47824, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4759508523224, 
+          37.55474003559529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156543.3989, 
+        "ET_ORDER": 0.076, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546287.075, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 476.6153, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4760638520596, 
+          37.5548940358347
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156560.4288, 
+        "ET_ORDER": 0.0807, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546276.9989, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 477.24744, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47610385287123, 
+          37.5550290361364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156575.3867, 
+        "ET_ORDER": 0.0843, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546273.3823, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 478.09539, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47609585194927, 
+          37.555132035580044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156586.8179, 
+        "ET_ORDER": 0.087, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546274.0253, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 478.918, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47601585226813, 
+          37.55535703570999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156611.8199, 
+        "ET_ORDER": 0.0932, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546280.9522, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 480.63395, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47591785280812, 
+          37.55557103604445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156635.6104, 
+        "ET_ORDER": 0.0992, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546289.4757, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 481.61588, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47580185267623, 
+          37.55575103592834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156655.6376, 
+        "ET_ORDER": 0.1045, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546299.6101, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 482.3165, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47561485187234, 
+          37.55594103540324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156676.8092, 
+        "ET_ORDER": 0.1109, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546316.0094, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 483.60378, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47522185232002, 
+          37.55619903533833
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156705.6267, 
+        "ET_ORDER": 0.1215, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546350.5613, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 487.96426, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47508595833708, 
+          37.55632218907081
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156719.357, 
+        "ET_ORDER": 0.1258, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546362.4878, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 489.11592, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47502985272439, 
+          37.55637303524869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156725.0258, 
+        "ET_ORDER": 0.1276, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546367.4118, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 489.53068, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47489085280066, 
+          37.55655003590387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156744.7317, 
+        "ET_ORDER": 0.1331, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546379.5792, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 489.15533, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47464285255256, 
+          37.55694103533068
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156788.2335, 
+        "ET_ORDER": 0.1446, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546401.2412, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 486.03725, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47378685282743, 
+          37.557974035855004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156903.2626, 
+        "ET_ORDER": 0.1772, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546476.2048, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 474.24578, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47362585295622, 
+          37.5581540357345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156923.3123, 
+        "ET_ORDER": 0.183, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546490.3129, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 471.20751, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47325585226268, 
+          37.55851103550262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156963.1027, 
+        "ET_ORDER": 0.1952, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546522.7703, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 462.33849, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47312485296176, 
+          37.55872203517269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156986.5769, 
+        "ET_ORDER": 0.2014, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546534.2092, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 458.36092, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47305885234506, 
+          37.55875803519403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156990.6036, 
+        "ET_ORDER": 0.203, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546540.0161, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 457.56663, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47298185193988, 
+          37.55877203555541
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156992.195, 
+        "ET_ORDER": 0.2047, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546546.8082, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 457.01569, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47291085304404, 
+          37.558765035117176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156991.4535, 
+        "ET_ORDER": 0.2062, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546553.0833, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 456.58018, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47284385204487, 
+          37.558740035445844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156988.7131, 
+        "ET_ORDER": 0.2077, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546559.0165, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 458.36486, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4726818526759, 
+          37.55859603557482
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156972.8173, 
+        "ET_ORDER": 0.2128, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546573.4142, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 451.38248, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47253285259598, 
+          37.558502035435495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156962.4623, 
+        "ET_ORDER": 0.2168, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546586.6327, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 449.11061, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47238885296979, 
+          37.558495035714984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156961.7571, 
+        "ET_ORDER": 0.2198, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546599.3554, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 447.35496, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47230885236598, 
+          37.55852203498936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156964.7922, 
+        "ET_ORDER": 0.2216, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546606.4044, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 446.46287, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47225685258267, 
+          37.558558034945314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156968.812, 
+        "ET_ORDER": 0.2231, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546610.9747, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 445.41817, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47210885283829, 
+          37.55872803539604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156987.7461, 
+        "ET_ORDER": 0.2285, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546623.9404, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 440.58571, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47207985287018, 
+          37.558807035047955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4156996.5251, 
+        "ET_ORDER": 0.2307, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546626.4525, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 438.82337, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47207485297595, 
+          37.558889035335575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157005.6251, 
+        "ET_ORDER": 0.2328, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546626.843, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 437.53646, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4721358528409, 
+          37.559166035347154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157036.3266, 
+        "ET_ORDER": 0.2402, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546621.2828, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 434.37195, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47219185273421, 
+          37.55924503555332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157045.0635, 
+        "ET_ORDER": 0.2426, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546616.2876, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 434.06442, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47230485260003, 
+          37.559342035340855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157055.7691, 
+        "ET_ORDER": 0.2461, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546606.2469, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 432.64452, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47233585300955, 
+          37.559395035230985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157061.6338, 
+        "ET_ORDER": 0.2476, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546603.4759, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 431.74732, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47235385215396, 
+          37.559500035244305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157073.2741, 
+        "ET_ORDER": 0.2504, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546601.8208, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 431.01252, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47233185307616, 
+          37.5595690351375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157080.9402, 
+        "ET_ORDER": 0.2523, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546603.7208, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 430.43506, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47212585260014, 
+          37.55980803498517
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157107.5582, 
+        "ET_ORDER": 0.2599, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546621.766, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 426.22588, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47193485230588, 
+          37.56008403516906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157138.2738, 
+        "ET_ORDER": 0.2682, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546638.4632, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 421.8858, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47180885270491, 
+          37.56021203524913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157152.5373, 
+        "ET_ORDER": 0.2725, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546649.5117, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 421.70528, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4716018525307, 
+          37.56036203512939
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157169.2818, 
+        "ET_ORDER": 0.2783, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546667.7004, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 419.2669, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47115685221344, 
+          37.5606200354513
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157198.1267, 
+        "ET_ORDER": 0.2899, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546706.8417, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 413.0055, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4707918530073, 
+          37.56090603522149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157230.0384, 
+        "ET_ORDER": 0.3006, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546738.8996, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 408.32273, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47068985237053, 
+          37.56095903507842
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157235.9692, 
+        "ET_ORDER": 0.3031, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546747.8751, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 407.08394, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47057685225622, 
+          37.56099003501035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157239.4647, 
+        "ET_ORDER": 0.3056, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546757.8358, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 405.23431, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47042985262992, 
+          37.56099703538745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157240.3145, 
+        "ET_ORDER": 0.3087, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546770.8143, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 403.82574, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47029785266828, 
+          37.5609740348337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157237.8284, 
+        "ET_ORDER": 0.3116, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546782.4868, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 405.1658, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47020885269737, 
+          37.56097403478978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157237.8727, 
+        "ET_ORDER": 0.3134, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546790.3472, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 407.2027, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46960985241658, 
+          37.56111903470687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157254.2581, 
+        "ET_ORDER": 0.3265, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546843.1596, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 407.99432, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46936085257501, 
+          37.56121403460232
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157264.922, 
+        "ET_ORDER": 0.3323, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546865.0915, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 406.45245, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4690838523384, 
+          37.5613690351298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157282.2567, 
+        "ET_ORDER": 0.3394, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546889.4587, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 402.20305, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46884085333852, 
+          37.561393034743354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157285.0406, 
+        "ET_ORDER": 0.3445, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546910.905, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 399.33723, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46864185273718, 
+          37.561432034710904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157289.4668, 
+        "ET_ORDER": 0.3488, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546928.456, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 397.76638, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46847585259225, 
+          37.56148303473093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157295.2079, 
+        "ET_ORDER": 0.3525, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546943.0849, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 396.8652, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46826085307805, 
+          37.56158203501244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157306.2989, 
+        "ET_ORDER": 0.3577, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546962.0112, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 394.88247, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46819185249977, 
+          37.56159003464297
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157307.2209, 
+        "ET_ORDER": 0.3592, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546968.1002, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 393.28228, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46813985252935, 
+          37.561574034936065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157305.4718, 
+        "ET_ORDER": 0.3604, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546972.7028, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 393.03753, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46810285274067, 
+          37.56154403455952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157302.1619, 
+        "ET_ORDER": 0.3615, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546975.9894, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 393.09159, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46808685324041, 
+          37.56146703429757
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157293.6271, 
+        "ET_ORDER": 0.3635, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546977.4508, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 394.07013, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46822885296294, 
+          37.56132603446741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157277.9129, 
+        "ET_ORDER": 0.3683, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546964.9981, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 393.89417, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46829985292956, 
+          37.56123103496769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157267.3377, 
+        "ET_ORDER": 0.3712, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546958.7871, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 394.39521, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46839685343951, 
+          37.561025034408416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157244.4345, 
+        "ET_ORDER": 0.377, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546950.3494, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 391.60378, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46835485336713, 
+          37.560960034812645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157237.2441, 
+        "ET_ORDER": 0.3789, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546954.0996, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 389.33437, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46826285248333, 
+          37.56094703497951
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157235.8478, 
+        "ET_ORDER": 0.3809, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546962.2332, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 387.19258, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46820185264647, 
+          37.56098503504106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157240.0942, 
+        "ET_ORDER": 0.3825, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546967.5968, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 386.25964, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46815685309548, 
+          37.56110803479129
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157253.7629, 
+        "ET_ORDER": 0.3858, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546971.4939, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 384.81006, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46808985341612, 
+          37.56119203506215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157263.1158, 
+        "ET_ORDER": 0.3885, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 546977.3585, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 383.95345, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46782185266474, 
+          37.56135603436009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157281.4447, 
+        "ET_ORDER": 0.3955, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547000.925, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 380.80819, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4677018527563, 
+          37.56146303492439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157293.3759, 
+        "ET_ORDER": 0.3993, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547011.456, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 378.76996, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46761685329122, 
+          37.56157303514515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157305.6224, 
+        "ET_ORDER": 0.4027, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547018.8939, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 376.31967, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46751585349126, 
+          37.561767034489336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157327.1962, 
+        "ET_ORDER": 0.4082, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547027.6921, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 374.02329, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46742385269974, 
+          37.561901034702416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157342.1089, 
+        "ET_ORDER": 0.4123, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547035.7332, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 372.23928, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46729585290495, 
+          37.56202903439012
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157356.3739, 
+        "ET_ORDER": 0.4166, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547046.9574, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 369.81977, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46721785304945, 
+          37.56213903434464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157368.6169, 
+        "ET_ORDER": 0.4199, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547053.777, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 368.15686, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4671658527411, 
+          37.56225803436347
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157381.8454, 
+        "ET_ORDER": 0.4232, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547058.2947, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 366.2043, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46713285327768, 
+          37.56245203467327
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157403.3853, 
+        "ET_ORDER": 0.4283, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547061.0871, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 362.94534, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4670838531817, 
+          37.56254003464276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157413.173, 
+        "ET_ORDER": 0.4309, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547065.3593, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 361.63226, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46702185257823, 
+          37.56260603441176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157420.5264, 
+        "ET_ORDER": 0.433, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547070.7935, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 361.02652, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46692185244079, 
+          37.5626720347325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157427.8989, 
+        "ET_ORDER": 0.4358, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547079.5837, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 360.58426, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.466827853034, 
+          37.562708034594664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157431.94, 
+        "ET_ORDER": 0.4379, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547087.8628, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 361.08814, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46670885285788, 
+          37.56273003440139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157434.4404, 
+        "ET_ORDER": 0.4405, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547098.3587, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 360.99162, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46654685279921, 
+          37.56272903482409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157434.4107, 
+        "ET_ORDER": 0.4439, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547112.6667, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 358.75657, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4664418528686, 
+          37.56275203411923
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157437.015, 
+        "ET_ORDER": 0.4462, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547121.9255, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 358.14003, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46636385321739, 
+          37.562792034888844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157441.492, 
+        "ET_ORDER": 0.4481, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547128.789, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 357.75671, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46630285305582, 
+          37.56284703425231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157447.6245, 
+        "ET_ORDER": 0.45, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547134.1417, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 357.19555, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46625085271141, 
+          37.562967034342655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157460.964, 
+        "ET_ORDER": 0.4534, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547138.6586, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 355.00793, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46628585352862, 
+          37.563158034750096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157482.137, 
+        "ET_ORDER": 0.4585, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547135.4471, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 351.82285, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46626685299627, 
+          37.56331303459318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157499.343, 
+        "ET_ORDER": 0.4626, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547137.0275, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 350.75719, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46617985332043, 
+          37.563462034078114
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157515.9174, 
+        "ET_ORDER": 0.4669, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547144.6171, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 350.23491, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46603285253205, 
+          37.56357903472712
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157528.9718, 
+        "ET_ORDER": 0.4712, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547157.5259, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 349.88767, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46563385298407, 
+          37.56376303396738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157549.5859, 
+        "ET_ORDER": 0.4809, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547192.6479, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 348.51188, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46525585360136, 
+          37.56400403439335
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157576.5136, 
+        "ET_ORDER": 0.491, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547225.8791, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 345.96779, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46508685309735, 
+          37.564089034637064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157586.0289, 
+        "ET_ORDER": 0.4952, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547240.7508, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 347.12575, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46484385356023, 
+          37.564162033998656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157594.25, 
+        "ET_ORDER": 0.5006, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547262.1653, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 348.4889, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46456685350614, 
+          37.56418903436779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157597.3849, 
+        "ET_ORDER": 0.5065, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547286.6116, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 351.73459, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46424385265831, 
+          37.564304033827355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157610.3061, 
+        "ET_ORDER": 0.5139, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547315.0648, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 355.63145, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46391785335878, 
+          37.564447034436995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157626.3355, 
+        "ET_ORDER": 0.5217, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547343.765, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 358.81459, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4634888535283, 
+          37.56468503402669
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157652.9566, 
+        "ET_ORDER": 0.5326, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547381.5014, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 359.61173, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46320785365882, 
+          37.564879034329365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157674.6217, 
+        "ET_ORDER": 0.5404, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547406.1949, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 355.68413, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.462846852989, 
+          37.56518103436035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157708.3093, 
+        "ET_ORDER": 0.5514, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547437.885, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 352.23155, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46264285316995, 
+          37.56528803412843
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157720.2834, 
+        "ET_ORDER": 0.5565, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547455.8332, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 352.19549, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46247585386932, 
+          37.56533103426022
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157725.1384, 
+        "ET_ORDER": 0.5602, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547470.5543, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 352.44503, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46228685309201, 
+          37.565343033991425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157726.5652, 
+        "ET_ORDER": 0.5641, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547487.2381, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 352.3697, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.462151852862, 
+          37.56532903404314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157725.0802, 
+        "ET_ORDER": 0.567, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547499.1694, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 352.22074, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46184085351067, 
+          37.56524703371821
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157716.1399, 
+        "ET_ORDER": 0.5739, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547526.6871, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 351.33595, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46162985403026, 
+          37.56521703393196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157712.9183, 
+        "ET_ORDER": 0.5783, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547545.3404, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 349.97257, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46018385411303, 
+          37.56522403414676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157714.4275, 
+        "ET_ORDER": 0.6086, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547673.0382, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 340.64805, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46005185374109, 
+          37.56520803371024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157712.7193, 
+        "ET_ORDER": 0.6114, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547684.7059, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 338.69524, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45994185325573, 
+          37.56522403421548
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157714.5503, 
+        "ET_ORDER": 0.6138, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547694.4103, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 336.40552, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45983585372863, 
+          37.56526803341734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157719.4856, 
+        "ET_ORDER": 0.6163, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547703.7435, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 333.87818, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45974885377863, 
+          37.565340034164024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157727.5179, 
+        "ET_ORDER": 0.6189, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547711.3809, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 332.36631, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45970185356808, 
+          37.5654160342125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157735.9736, 
+        "ET_ORDER": 0.6211, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547715.4832, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 331.00927, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45964085338612, 
+          37.56559703378615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157756.0856, 
+        "ET_ORDER": 0.626, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547720.7549, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 327.9178, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45961685422614, 
+          37.565796034023606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157778.1759, 
+        "ET_ORDER": 0.6313, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547722.7474, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 323.73408, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45964685383026, 
+          37.5660130334285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157802.2357, 
+        "ET_ORDER": 0.637, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547719.9596, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 319.89782, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45966985317823, 
+          37.566083033584164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157809.9902, 
+        "ET_ORDER": 0.6389, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547717.8838, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 317.84377, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.459774854101, 
+          37.56626403391615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157830.018, 
+        "ET_ORDER": 0.6442, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547708.4954, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 312.94386, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45980485375131, 
+          37.566387033681636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157843.649, 
+        "ET_ORDER": 0.6475, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547705.7676, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 307.84809, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45985385357346, 
+          37.56659103330889
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157866.2569, 
+        "ET_ORDER": 0.6529, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547701.3102, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 306.93108, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45993385393733, 
+          37.566731034041595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157881.7487, 
+        "ET_ORDER": 0.657, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547694.1559, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 304.77763, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46000185345613, 
+          37.56678703386086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157887.9271, 
+        "ET_ORDER": 0.659, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547688.115, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 304.47421, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46015185401677, 
+          37.56683803391593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157893.5092, 
+        "ET_ORDER": 0.6625, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547674.8356, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 303.8803, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46058885297313, 
+          37.56685003364797
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157894.6189, 
+        "ET_ORDER": 0.6716, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547636.2356, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 299.25942, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46066585397966, 
+          37.566841033981355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157893.5814, 
+        "ET_ORDER": 0.6732, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547629.4412, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 298.51565, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46074985393096, 
+          37.56685403384097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157894.9811, 
+        "ET_ORDER": 0.675, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547622.0147, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 297.65055, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46082585300657, 
+          37.56689103419813
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157899.0476, 
+        "ET_ORDER": 0.6769, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547615.2795, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 297.10719, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46087385300729, 
+          37.56693803417167
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157904.2377, 
+        "ET_ORDER": 0.6785, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547611.0106, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 296.46467, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46090385304385, 
+          37.56700203334098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157911.3229, 
+        "ET_ORDER": 0.6803, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547608.3205, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 295.65724, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46090385368392, 
+          37.56706903400293
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157918.7563, 
+        "ET_ORDER": 0.682, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547608.2778, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 295.34462, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46084385339039, 
+          37.56716603416873
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157929.5484, 
+        "ET_ORDER": 0.6849, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547613.5148, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 294.45534, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4604388538005, 
+          37.56739203332292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157954.8272, 
+        "ET_ORDER": 0.6952, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547649.1371, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 289.26776, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46011085322284, 
+          37.567634033295484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157981.8423, 
+        "ET_ORDER": 0.7046, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547677.9491, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 287.10905, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46000285344373, 
+          37.567674033212896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157986.3349, 
+        "ET_ORDER": 0.7071, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547687.4612, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 286.76456, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4598178540334, 
+          37.56769603328036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157988.8696, 
+        "ET_ORDER": 0.711, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547703.7847, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 286.07114, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45970385366648, 
+          37.5677280339629
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157992.4778, 
+        "ET_ORDER": 0.7135, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547713.8318, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 286.60095, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45960185354777, 
+          37.567782033633996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157998.5206, 
+        "ET_ORDER": 0.7161, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547722.8051, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 287.94341, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45951585337211, 
+          37.56786003359646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158007.218, 
+        "ET_ORDER": 0.7188, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547730.3501, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 289.27971, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4594418536757, 
+          37.567899034027874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158011.5825, 
+        "ET_ORDER": 0.7207, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547736.8602, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 289.34379, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45929685354493, 
+          37.567920033853724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158013.986, 
+        "ET_ORDER": 0.7238, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547749.6519, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 288.46845, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45906285361586, 
+          37.567875033892086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158009.1124, 
+        "ET_ORDER": 0.7288, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547770.3454, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 288.58983, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45882185413002, 
+          37.56788303386759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158010.1225, 
+        "ET_ORDER": 0.7339, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547791.6232, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 289.74436, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45868385308951, 
+          37.56791403390953
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158013.632, 
+        "ET_ORDER": 0.7369, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547803.7904, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 290.77499, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45788385414477, 
+          37.5681760337638
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158043.1069, 
+        "ET_ORDER": 0.755, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547874.2714, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 300.74993, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45771385378274, 
+          37.56820203377593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158046.0781, 
+        "ET_ORDER": 0.7586, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547889.2676, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 301.78207, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45756285398585, 
+          37.568177033470874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158043.3814, 
+        "ET_ORDER": 0.7618, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547902.6185, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 303.62855, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45724485346045, 
+          37.568053033043036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158029.7863, 
+        "ET_ORDER": 0.7693, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547930.7808, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 306.31255, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4569178540998, 
+          37.567953033761725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158018.8587, 
+        "ET_ORDER": 0.7766, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547959.7225, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 304.94675, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4566488536234, 
+          37.567890033074754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158012.0064, 
+        "ET_ORDER": 0.7825, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 547983.5186, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 308.03005, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45630585372302, 
+          37.56783203327759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158005.7468, 
+        "ET_ORDER": 0.7898, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548013.8465, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 311.75854, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45595685381242, 
+          37.567798032910375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158002.153, 
+        "ET_ORDER": 0.7972, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548044.6889, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 317.01104, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4556058536957, 
+          37.56778903373196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158001.3341, 
+        "ET_ORDER": 0.8045, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548075.6919, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 318.85712, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45532685393039, 
+          37.56779803299801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158002.4753, 
+        "ET_ORDER": 0.8104, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548100.3249, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 321.67552, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45489085467906, 
+          37.567839032840794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158007.2473, 
+        "ET_ORDER": 0.8195, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548138.8021, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 325.36548, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45465085408406, 
+          37.56783703298821
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158007.1484, 
+        "ET_ORDER": 0.8246, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548159.9981, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 326.2506, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45424785452626, 
+          37.56777903305978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158000.9202, 
+        "ET_ORDER": 0.8331, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548195.6248, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 327.92107, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45381085458541, 
+          37.56764903360001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157986.7216, 
+        "ET_ORDER": 0.8429, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548234.3006, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 330.91418, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45369685390212, 
+          37.56763903297333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157985.6706, 
+        "ET_ORDER": 0.8453, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548244.3746, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 332.08637, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45354585445119, 
+          37.567647033013856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157986.6357, 
+        "ET_ORDER": 0.8485, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548257.7044, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 333.63885, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45338785456403, 
+          37.56768403279303
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157990.8218, 
+        "ET_ORDER": 0.8519, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548271.6337, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 336.05206, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45323385398211, 
+          37.56775403292333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4157998.6671, 
+        "ET_ORDER": 0.8556, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548285.1885, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 339.39939, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45298985397932, 
+          37.56796203281864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158021.8691, 
+        "ET_ORDER": 0.8631, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548306.6021, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 341.14048, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45282885459865, 
+          37.56807303284248
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158034.2668, 
+        "ET_ORDER": 0.8676, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548320.7484, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 341.3525, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45216085508065, 
+          37.56842303337404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158073.4414, 
+        "ET_ORDER": 0.8843, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548379.5136, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 335.73212, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4514538545504, 
+          37.56874003268585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158108.9752, 
+        "ET_ORDER": 0.9013, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548441.7438, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 334.06429, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45079185497146, 
+          37.5689920328615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158137.2749, 
+        "ET_ORDER": 0.9167, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548500.0416, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 334.89436, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45063585478647, 
+          37.569075032991044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158146.5639, 
+        "ET_ORDER": 0.9206, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548513.7641, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 336.05443, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4505118543653, 
+          37.56917003274953
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158157.1677, 
+        "ET_ORDER": 0.9242, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548524.6529, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 335.37562, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45040285463965, 
+          37.56929303310051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158170.8703, 
+        "ET_ORDER": 0.9282, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548534.1988, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 333.57444, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45032385440157, 
+          37.5694290325265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158185.9996, 
+        "ET_ORDER": 0.9321, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548541.087, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 331.8612, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45027785513946, 
+          37.569577032853054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158202.4433, 
+        "ET_ORDER": 0.9361, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548545.0531, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 330.63885, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4501998547009, 
+          37.56970003313547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158216.1299, 
+        "ET_ORDER": 0.9397, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548551.8614, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 330.34563, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45006885469064, 
+          37.569817032297514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158229.1781, 
+        "ET_ORDER": 0.9439, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548563.3539, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 331.0036, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44990185418753, 
+          37.56990003247174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158238.4729, 
+        "ET_ORDER": 0.948, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548578.0476, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 333.20462, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44974885519126, 
+          37.569939032705825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158242.8789, 
+        "ET_ORDER": 0.9514, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548591.5334, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 336.44851, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4495768550139, 
+          37.56994903260096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158244.0773, 
+        "ET_ORDER": 0.955, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548606.716, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 339.53768, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4480428545964, 
+          37.56977203259345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158225.2346, 
+        "ET_ORDER": 0.9874, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548742.2968, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 347.9884, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44757485482695, 
+          37.56973203301075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158221.0397, 
+        "ET_ORDER": 0.9973, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548783.6514, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 348.83966, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44744585490201, 
+          37.569748032970224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1562.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 4241.2, 
+        "Len_Down": 2678.7, 
+        "Max_S_Down": 20.1, 
+        "Min_Z": 286.1, 
+        "H_Down": 251.1, 
+        "ET_ID": 279, 
+        "trail_name": "Whiting Ridge Road", 
+        "ET_Y": 4158222.8818, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.3, 
+        "ET_IDP": 279, 
+        "ET_IDR": "279_0", 
+        "H_Up": 115.9, 
+        "ET_X": 548795.0328, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 348.81662, 
+        "Length_2D": 4218.3, 
+        "Max_Z": 489.5
+      }
+    }
+  ]
+}

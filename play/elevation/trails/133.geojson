@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51032904915536, 
+          37.77520938023427
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 7.0, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 46.6, 
+        "Len_Down": 39.6, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 8.8, 
+        "H_Down": 0.6, 
+        "ET_ID": 133, 
+        "trail_name": "La Playa Trail", 
+        "ET_Y": 4180987.3911, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 133, 
+        "ET_IDR": "133_0", 
+        "H_Up": 0.2, 
+        "ET_X": 543122.8324, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 9.24569, 
+        "Length_2D": 46.6, 
+        "Max_Z": 9.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51038367830921, 
+          37.77525476407913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 7.0, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 46.6, 
+        "Len_Down": 39.6, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 8.8, 
+        "H_Down": 0.6, 
+        "ET_ID": 133, 
+        "trail_name": "La Playa Trail", 
+        "ET_Y": 4180992.4012, 
+        "ET_ORDER": 0.1495, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 133, 
+        "ET_IDR": "133_0", 
+        "H_Up": 0.2, 
+        "ET_X": 543117.9951, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 9.43187, 
+        "Length_2D": 46.6, 
+        "Max_Z": 9.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51071458092191, 
+          37.77535112465168
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 7.0, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 46.6, 
+        "Len_Down": 39.6, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 8.8, 
+        "H_Down": 0.6, 
+        "ET_ID": 133, 
+        "trail_name": "La Playa Trail", 
+        "ET_Y": 4181002.9398, 
+        "ET_ORDER": 0.8161, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 133, 
+        "ET_IDR": "133_0", 
+        "H_Up": 0.2, 
+        "ET_X": 543088.7981, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 8.99171, 
+        "Length_2D": 46.6, 
+        "Max_Z": 9.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51077893783545, 
+          37.77540900579636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 7.0, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 46.6, 
+        "Len_Down": 39.6, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 8.8, 
+        "H_Down": 0.6, 
+        "ET_ID": 133, 
+        "trail_name": "La Playa Trail", 
+        "ET_Y": 4181009.332, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 133, 
+        "ET_IDR": "133_0", 
+        "H_Up": 0.2, 
+        "ET_X": 543083.0969, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 8.8233, 
+        "Length_2D": 46.6, 
+        "Max_Z": 9.4
+      }
+    }
+  ]
+}

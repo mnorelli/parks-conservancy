@@ -1,0 +1,3301 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59985853149529, 
+          37.89774159223498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194544.7948, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535180.1494, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 376.21834, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60025217313482, 
+          37.89787402474524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194559.3399, 
+        "ET_ORDER": 0.0174, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535145.4776, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 394.4192, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60056527273844, 
+          37.89813026556078
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194587.6521, 
+        "ET_ORDER": 0.0357, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535117.8283, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 390.9245, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60101825164264, 
+          37.89836851481231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194613.9156, 
+        "ET_ORDER": 0.0578, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535077.8897, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 392.1626, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60112274082562, 
+          37.898499666524245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194628.4277, 
+        "ET_ORDER": 0.0657, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535068.6409, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 392.50116, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60128070153367, 
+          37.89850155454748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194628.5778, 
+        "ET_ORDER": 0.0721, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535054.7523, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 390.5619, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60146514935973, 
+          37.89836524825404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194613.3852, 
+        "ET_ORDER": 0.0824, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535038.6005, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 394.24824, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60158860789771, 
+          37.89837424296351
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194614.3368, 
+        "ET_ORDER": 0.0874, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535027.7419, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 392.43621, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60178856787097, 
+          37.898536893163524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194632.3079, 
+        "ET_ORDER": 0.099, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535010.0846, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 387.67337, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60183058022321, 
+          37.89868686111912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194648.9312, 
+        "ET_ORDER": 0.1069, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535006.3199, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 388.49379, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60171870433045, 
+          37.89882714403718
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194664.5377, 
+        "ET_ORDER": 0.1154, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535016.0894, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 387.29037, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60163021697261, 
+          37.8990496964622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194689.2633, 
+        "ET_ORDER": 0.1274, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535023.7636, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 383.19621, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6016738985155, 
+          37.89928164605683
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194714.9819, 
+        "ET_ORDER": 0.1394, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535019.8133, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 382.06257, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60192977714891, 
+          37.899413244351514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194729.4868, 
+        "ET_ORDER": 0.1518, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534997.2547, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 376.82091, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60219694308591, 
+          37.89951785385231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194740.9931, 
+        "ET_ORDER": 0.1639, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534973.7166, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 379.17465, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60232756012005, 
+          37.89963174274986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194753.5802, 
+        "ET_ORDER": 0.1718, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534962.1792, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 377.07169, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60211797054113, 
+          37.899830065851496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194775.6629, 
+        "ET_ORDER": 0.1851, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534980.5119, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 372.61113, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6018933984832, 
+          37.899960846753224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194790.2574, 
+        "ET_ORDER": 0.1964, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535000.1937, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 371.95688, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6016997399729, 
+          37.9001665721748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194813.1555, 
+        "ET_ORDER": 0.2096, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535017.1221, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 373.26289, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60179538754043, 
+          37.90044708740607
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194844.243, 
+        "ET_ORDER": 0.2245, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535008.5802, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 371.60917, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60206972538401, 
+          37.90048427176798
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194848.2657, 
+        "ET_ORDER": 0.2358, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534984.4438, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 377.20142, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60235226694174, 
+          37.90056433731241
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194857.0431, 
+        "ET_ORDER": 0.248, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534959.5659, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 373.06894, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60235762346788, 
+          37.90083572688932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194887.152, 
+        "ET_ORDER": 0.2619, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534958.9666, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 373.90632, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60214292617852, 
+          37.90105254272675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194911.2884, 
+        "ET_ORDER": 0.276, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534977.7393, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 378.80304, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60193400864691, 
+          37.90114636650955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194921.7766, 
+        "ET_ORDER": 0.2858, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 534996.062, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 375.00576, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60110651434614, 
+          37.90127626710052
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194936.5, 
+        "ET_ORDER": 0.32, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535068.75, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 353.60426, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6008604657084, 
+          37.90115826404067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194923.5, 
+        "ET_ORDER": 0.3317, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535090.4375, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.0172, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60070399065462, 
+          37.90104056436117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194910.5, 
+        "ET_ORDER": 0.3405, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535104.25, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 363.55177, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60043751808188, 
+          37.90075575066445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194879.0, 
+        "ET_ORDER": 0.3587, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535127.8125, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 360.51035, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60025547281039, 
+          37.90050276860444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194851.0, 
+        "ET_ORDER": 0.3736, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535143.9375, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 341.11491, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60006515629088, 
+          37.900464162971296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194846.7884, 
+        "ET_ORDER": 0.3816, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535160.6878, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 351.21952, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5998112631772, 
+          37.90037691856024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194837.2043, 
+        "ET_ORDER": 0.3928, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535183.0507, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.83251, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5996406725039, 
+          37.900244709011574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194822.5999, 
+        "ET_ORDER": 0.4025, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535198.1114, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 366.85284, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59940984811878, 
+          37.90004473730353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194800.5, 
+        "ET_ORDER": 0.4164, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535218.5, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.46222, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59927926508715, 
+          37.90000373432554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194796.0, 
+        "ET_ORDER": 0.4221, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535230.0, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 363.66019, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59913287164119, 
+          37.89999422285621
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194795.0, 
+        "ET_ORDER": 0.4281, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535242.875, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.57762, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59898935103415, 
+          37.900003645586246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194796.0997, 
+        "ET_ORDER": 0.4339, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535255.4884, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 365.77839, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59884167709839, 
+          37.900014838560075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194797.3974, 
+        "ET_ORDER": 0.44, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535268.4661, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 365.70784, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5986815391285, 
+          37.90001931923437
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194797.9551, 
+        "ET_ORDER": 0.4465, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535282.5428, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 365.597, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5984946180772, 
+          37.900026907949965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194798.8678, 
+        "ET_ORDER": 0.4541, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535298.9727, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.36233, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5983904851954, 
+          37.90008414035578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194805.2572, 
+        "ET_ORDER": 0.4592, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535308.1004, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 363.85153, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59831210569092, 
+          37.90017848144906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194815.7541, 
+        "ET_ORDER": 0.465, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535314.9462, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 363.81467, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59827008550731, 
+          37.90026883305441
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194825.7946, 
+        "ET_ORDER": 0.4699, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535318.5973, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 363.73395, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59828509897893, 
+          37.900371719900846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194837.2043, 
+        "ET_ORDER": 0.4753, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535317.2282, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.65299, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59830519305065, 
+          37.90049518994123
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194850.8958, 
+        "ET_ORDER": 0.4816, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535315.4026, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.86624, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59838733354974, 
+          37.900664120547624
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194869.6077, 
+        "ET_ORDER": 0.4909, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535308.1004, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 365.68168, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59848513635538, 
+          37.90081664949054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194886.4939, 
+        "ET_ORDER": 0.4997, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535299.4291, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 365.91853, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59859860262351, 
+          37.900952779440146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194901.5547, 
+        "ET_ORDER": 0.5081, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535289.3886, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.79291, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59878971238277, 
+          37.901130307474205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194921.1793, 
+        "ET_ORDER": 0.52, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535272.5023, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 363.91058, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59884596602447, 
+          37.90128375620856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194938.1833, 
+        "ET_ORDER": 0.5282, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535267.4835, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 361.60751, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59886149192653, 
+          37.90144770235801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194956.3674, 
+        "ET_ORDER": 0.5366, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535266.0403, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 356.07603, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59889711142775, 
+          37.901538875739526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194966.4697, 
+        "ET_ORDER": 0.5415, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535262.8653, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 358.51241, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59890948076271, 
+          37.901679398058576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194982.0561, 
+        "ET_ORDER": 0.5488, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535261.7108, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 367.65556, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59887278806278, 
+          37.90178593371961
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194993.8902, 
+        "ET_ORDER": 0.5544, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535264.8858, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 375.70224, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59881365095518, 
+          37.90179353652551
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194994.7561, 
+        "ET_ORDER": 0.5569, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535270.0812, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 376.56586, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59868249691802, 
+          37.901761872014504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194991.2925, 
+        "ET_ORDER": 0.5624, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535281.6267, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 373.24744, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59864328296597, 
+          37.90172791884201
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194987.5402, 
+        "ET_ORDER": 0.5648, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535285.0904, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 370.65288, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59862717936106, 
+          37.90167063140367
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194981.1902, 
+        "ET_ORDER": 0.5678, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535286.5335, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 365.79982, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59847986448132, 
+          37.901592084534975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194972.5311, 
+        "ET_ORDER": 0.575, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535299.5222, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 357.99995, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59834841404479, 
+          37.90161504911576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194975.1288, 
+        "ET_ORDER": 0.5805, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535311.0677, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 356.73982, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59828304686975, 
+          37.90162960735667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194976.7688, 
+        "ET_ORDER": 0.5832, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535316.8075, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 356.77321, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59801864618207, 
+          37.90160825600214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194974.5, 
+        "ET_ORDER": 0.594, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535340.0625, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 350.61299, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59772291160911, 
+          37.901607245655605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194974.5, 
+        "ET_ORDER": 0.6061, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535366.0625, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 347.80554, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59757921157612, 
+          37.90162478044337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194976.5, 
+        "ET_ORDER": 0.612, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535378.6875, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 351.02529, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59744247320187, 
+          37.901669377853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194981.5, 
+        "ET_ORDER": 0.618, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535390.6875, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 358.09259, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59732620347941, 
+          37.90174108411636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194989.5, 
+        "ET_ORDER": 0.624, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535400.875, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 364.7865, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59728825557104, 
+          37.90179052576655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4194995.0, 
+        "ET_ORDER": 0.6269, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535404.1875, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 367.50618, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59722650398182, 
+          37.901902976922756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195007.5, 
+        "ET_ORDER": 0.6332, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535409.5625, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 370.16395, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59719458562067, 
+          37.90202003663939
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195020.5, 
+        "ET_ORDER": 0.6393, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535412.3125, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 369.45848, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59721676965437, 
+          37.902123762001054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195032.0, 
+        "ET_ORDER": 0.6447, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535410.3125, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 369.92437, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5972620220113, 
+          37.90216898182076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195037.0, 
+        "ET_ORDER": 0.6477, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535406.3125, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 370.31156, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59732149254751, 
+          37.90221425026523
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195042.0, 
+        "ET_ORDER": 0.651, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535401.0625, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 370.56614, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59751010273317, 
+          37.90230502531639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195052.0, 
+        "ET_ORDER": 0.66, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535384.4375, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 370.16759, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59817353880821, 
+          37.90255300883212
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195079.2625, 
+        "ET_ORDER": 0.6898, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535325.9935, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 362.50913, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59825559008736, 
+          37.90281131382823
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195107.8906, 
+        "ET_ORDER": 0.7035, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535318.6566, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 346.72418, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59823248297543, 
+          37.903147807201776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195145.2336, 
+        "ET_ORDER": 0.7208, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535320.5272, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 337.53655, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59797671454537, 
+          37.903333317195354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195165.913, 
+        "ET_ORDER": 0.7348, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535342.9239, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 342.81712, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59765353082234, 
+          37.90344247065385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195178.1462, 
+        "ET_ORDER": 0.7491, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535371.2837, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 338.59281, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5971694839545, 
+          37.903632032901776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195199.362, 
+        "ET_ORDER": 0.771, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535413.7468, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 331.16365, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5969811281478, 
+          37.90389390324879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195228.4883, 
+        "ET_ORDER": 0.7865, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535430.1801, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 344.06761, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59699208987142, 
+          37.90428149584149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195271.4879, 
+        "ET_ORDER": 0.8064, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535429.0306, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 355.58621, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5971631836201, 
+          37.904562834422535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195302.6377, 
+        "ET_ORDER": 0.8224, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535413.8546, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 346.50177, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59732001294988, 
+          37.90461333818966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195308.1816, 
+        "ET_ORDER": 0.8293, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535400.0433, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 339.31058, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59734915199584, 
+          37.90463242644602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195310.2884, 
+        "ET_ORDER": 0.8308, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535397.4725, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 336.54368, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59749295275249, 
+          37.9046862382451
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195316.2043, 
+        "ET_ORDER": 0.8373, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535384.805, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 338.61139, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59769299357365, 
+          37.90483779061698
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195332.9433, 
+        "ET_ORDER": 0.8485, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535367.1466, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 344.21547, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59769665604047, 
+          37.90484056561707
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195333.2498, 
+        "ET_ORDER": 0.8487, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535366.8233, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 344.25615, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59782637420695, 
+          37.90493884133311
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195344.1044, 
+        "ET_ORDER": 0.856, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535355.3726, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 341.43182, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59803008728404, 
+          37.90521959878862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195375.1775, 
+        "ET_ORDER": 0.8726, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535337.3297, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 325.22789, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59808842425625, 
+          37.90548092326822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195404.1496, 
+        "ET_ORDER": 0.8862, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535332.0763, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 322.18894, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59808279076269, 
+          37.90549983491658
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195406.25, 
+        "ET_ORDER": 0.8872, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535332.5625, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 320.87944, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59808860638941, 
+          37.905481735960585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195404.2397, 
+        "ET_ORDER": 0.8882, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535332.0599, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 322.15727, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59810481695976, 
+          37.90555435489824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195412.2907, 
+        "ET_ORDER": 0.892, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535330.6001, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 319.82534, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59804307933652, 
+          37.90561285559694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195418.8048, 
+        "ET_ORDER": 0.8959, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535335.9995, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 314.63465, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59803188756528, 
+          37.905623460816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195419.9857, 
+        "ET_ORDER": 0.8966, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535336.9783, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 314.265, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59788238313821, 
+          37.90576512645353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195435.7603, 
+        "ET_ORDER": 0.906, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535350.0535, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 325.38378, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59756211222722, 
+          37.905977634284156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195459.4597, 
+        "ET_ORDER": 0.923, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535378.1068, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 337.88537, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59740563174144, 
+          37.90621308444525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195485.6425, 
+        "ET_ORDER": 0.9367, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535391.7502, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 336.12692, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59757673261379, 
+          37.90649442237094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195516.7923, 
+        "ET_ORDER": 0.9527, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535376.5741, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 329.91749, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59777898528962, 
+          37.90672350373905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195542.1324, 
+        "ET_ORDER": 0.967, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535358.6846, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 312.72216, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59798269963255, 
+          37.90700426120658
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195573.2055, 
+        "ET_ORDER": 0.9836, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535340.642, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 310.10487, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5979878173102, 
+          37.90718513780799
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195593.272, 
+        "ET_ORDER": 0.9929, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535340.1056, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 326.03202, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5978840790728, 
+          37.907297096078864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 874.0, 
+        "Av_S_Up": 13.8, 
+        "Length_3D": 2244.0, 
+        "Len_Down": 1369.9, 
+        "Max_S_Down": 39.8, 
+        "Min_Z": 310.1, 
+        "H_Down": 252.1, 
+        "ET_ID": 260, 
+        "trail_name": "TCC Trail", 
+        "ET_Y": 4195605.7332, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 38.4, 
+        "ET_IDP": 260, 
+        "ET_IDR": "260_0", 
+        "H_Up": 204.2, 
+        "ET_X": 535349.1715, 
+        "Av_S_Down": 10.7, 
+        "ET_Z": 328.27024, 
+        "Length_2D": 2164.0, 
+        "Max_Z": 394.4
+      }
+    }
+  ]
+}

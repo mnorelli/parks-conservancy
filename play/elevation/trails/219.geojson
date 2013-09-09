@@ -1,0 +1,1285 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30299560728255, 
+          37.451509720157944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4145189.7505, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561648.4872, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 239.8379, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30368187427511, 
+          37.451238264196824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4145159.1853, 
+        "ET_ORDER": 0.0482, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561588.0102, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 241.75081, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30426995913368, 
+          37.45094474873195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4145126.2373, 
+        "ET_ORDER": 0.0918, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561536.235, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 250.17809, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30487368792605, 
+          37.45075738767699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4145105.0566, 
+        "ET_ORDER": 0.1326, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561482.9888, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 249.47764, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30527469010511, 
+          37.45055292121839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4145082.1107, 
+        "ET_ORDER": 0.1625, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561447.6875, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 251.46566, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30595104608139, 
+          37.450063698887206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4145027.3936, 
+        "ET_ORDER": 0.22, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561388.2636, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 261.75009, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30621344009371, 
+          37.44974174526143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144991.5039, 
+        "ET_ORDER": 0.2503, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561365.3177, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 271.84989, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30652708421896, 
+          37.449632219828125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144979.1485, 
+        "ET_ORDER": 0.2718, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561337.665, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 271.18099, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30784627918787, 
+          37.44892513652006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144899.844, 
+        "ET_ORDER": 0.3718, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561221.557, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 289.02455, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30909811414882, 
+          37.44828760698563
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144828.3014, 
+        "ET_ORDER": 0.4653, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561111.3484, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 298.06078, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30981325087637, 
+          37.44788206359099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144782.8453, 
+        "ET_ORDER": 0.5205, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 561048.4222, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 313.48156, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3103777744835, 
+          37.44749781946656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144739.8502, 
+        "ET_ORDER": 0.5672, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560998.8003, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 319.94255, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31079100731117, 
+          37.44731539402625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144719.3438, 
+        "ET_ORDER": 0.5969, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560962.3964, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 325.1877, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31118393669192, 
+          37.44710626685705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144695.8883, 
+        "ET_ORDER": 0.6266, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560927.8099, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 318.24886, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31142810234047, 
+          37.44692106898064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144675.1839, 
+        "ET_ORDER": 0.6478, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560906.3626, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 319.93649, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31153728786123, 
+          37.44678557932852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144660.0816, 
+        "ET_ORDER": 0.6605, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560896.8145, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 321.89211, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31157186675779, 
+          37.44668175236013
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144648.5403, 
+        "ET_ORDER": 0.669, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560893.84, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 324.09341, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31162436054458, 
+          37.44636155514691
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144612.9825, 
+        "ET_ORDER": 0.6945, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560889.4562, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 340.18984, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31164196440888, 
+          37.44630942580054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144607.1877, 
+        "ET_ORDER": 0.6988, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560887.9413, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 340.78811, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31168357613467, 
+          37.44626776132871
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144602.5384, 
+        "ET_ORDER": 0.703, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560884.2943, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 339.62582, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31181753357872, 
+          37.44625811902259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144601.3821, 
+        "ET_ORDER": 0.7114, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560872.4529, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 327.27652, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31187113648487, 
+          37.44628940989893
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144604.819, 
+        "ET_ORDER": 0.7156, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560867.6861, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 325.36077, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31191196095594, 
+          37.44650168118545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144628.3428, 
+        "ET_ORDER": 0.7326, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560863.903, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 325.75406, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31194097369759, 
+          37.44651919041695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144630.2666, 
+        "ET_ORDER": 0.7348, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560861.3225, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 326.66489, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31202115087085, 
+          37.44631048808727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144607.0606, 
+        "ET_ORDER": 0.7521, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560854.3995, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 331.40306, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31207247419408, 
+          37.44628171534478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144603.8353, 
+        "ET_ORDER": 0.756, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560849.883, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 332.38801, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31216900952593, 
+          37.44635625344651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144612.0425, 
+        "ET_ORDER": 0.7645, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560841.2836, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 334.85233, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31218933304109, 
+          37.44640735702819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144617.699, 
+        "ET_ORDER": 0.7687, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560839.4445, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 334.98917, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31217327046754, 
+          37.44657024525389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144635.7808, 
+        "ET_ORDER": 0.7816, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560840.7334, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 333.85916, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31222079389661, 
+          37.44657756773869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144636.5625, 
+        "ET_ORDER": 0.7846, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560836.5238, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 335.67225, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31231839207958, 
+          37.44650307239813
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144628.2347, 
+        "ET_ORDER": 0.7931, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560827.9511, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 338.56011, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31239007361476, 
+          37.44641231712773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144618.1197, 
+        "ET_ORDER": 0.8016, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560821.684, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 340.97012, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3124815632742, 
+          37.44609802943767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144583.1924, 
+        "ET_ORDER": 0.8271, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560813.8457, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 345.55606, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31253422645838, 
+          37.44608328400638
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144581.5225, 
+        "ET_ORDER": 0.8306, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560809.1993, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 348.46049, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31257778262011, 
+          37.44612433912107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144586.0492, 
+        "ET_ORDER": 0.8348, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560805.3133, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 350.41797, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3126718258317, 
+          37.44626729610967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144601.8487, 
+        "ET_ORDER": 0.8475, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560796.879, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 349.86739, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31291096097256, 
+          37.44671266479629
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144651.1053, 
+        "ET_ORDER": 0.8858, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560775.366, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 355.97276, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31310328222418, 
+          37.44717191041552
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144701.9317, 
+        "ET_ORDER": 0.924, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560757.9829, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 371.59689, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31320908756618, 
+          37.44770317079543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144760.8035, 
+        "ET_ORDER": 0.9664, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560748.1944, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 378.03621, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31321910211794, 
+          37.448128554401585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1185.8, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1428.4, 
+        "Len_Down": 242.6, 
+        "Max_S_Down": 46.1, 
+        "Min_Z": 239.8, 
+        "H_Down": 26.0, 
+        "ET_ID": 219, 
+        "trail_name": "Redondo Trail", 
+        "ET_Y": 4144807.9907, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 30.5, 
+        "ET_IDP": 219, 
+        "ET_IDR": "219_0", 
+        "H_Up": 163.6, 
+        "ET_X": 560746.9646, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 377.40772, 
+        "Length_2D": 1406.0, 
+        "Max_Z": 378.0
+      }
+    }
+  ]
+}

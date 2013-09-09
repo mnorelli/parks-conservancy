@@ -1,0 +1,357 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42969390795673, 
+          37.806481032347754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184497.2038, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550202.8513, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 22.24592, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42968297262806, 
+          37.80653896689241
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184503.6375, 
+        "ET_ORDER": 0.0186, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550203.7747, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 22.47464, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42957547111608, 
+          37.80678973480407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184531.5179, 
+        "ET_ORDER": 0.1029, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550213.0681, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 23.80833, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42951149897243, 
+          37.80693895930014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184548.1087, 
+        "ET_ORDER": 0.153, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550218.5984, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 24.86175, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42936052518525, 
+          37.807241491308844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184581.7557, 
+        "ET_ORDER": 0.2565, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550231.6834, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 24.66273, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4292321691464, 
+          37.80736442082257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184595.4637, 
+        "ET_ORDER": 0.3073, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550242.899, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 24.10671, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42890484543213, 
+          37.8075874738095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184620.3874, 
+        "ET_ORDER": 0.4162, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550271.5613, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 21.42432, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4283214694833, 
+          37.80808910009618
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184676.3567, 
+        "ET_ORDER": 0.6333, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550322.5739, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 15.01492, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42820967531595, 
+          37.80811543452304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184679.3387, 
+        "ET_ORDER": 0.6628, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550332.3969, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 13.96117, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42723554894691, 
+          37.8080759207058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184675.4797, 
+        "ET_ORDER": 0.9089, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550418.1729, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 4.12276, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42687483464573, 
+          37.80808048987981
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 53.4, 
+        "Av_S_Up": 2.8, 
+        "Length_3D": 349.8, 
+        "Len_Down": 296.4, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 3.6, 
+        "H_Down": 21.3, 
+        "ET_ID": 155, 
+        "trail_name": "McDowell Road", 
+        "ET_Y": 4184676.1813, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.4, 
+        "ET_IDP": 155, 
+        "ET_IDR": "155_0", 
+        "H_Up": 2.6, 
+        "ET_X": 550449.9223, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 3.59454, 
+        "Length_2D": 348.8, 
+        "Max_Z": 24.9
+      }
+    }
+  ]
+}

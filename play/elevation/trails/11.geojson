@@ -1,0 +1,1541 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49582185023941, 
+          37.551177037417155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156138.5035, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544534.0608, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 177.99118, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49532384993387, 
+          37.55166303764336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156192.6587, 
+        "ET_ORDER": 0.0398, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544577.76, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 191.0456, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49482484988744, 
+          37.55198203748942
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156228.2868, 
+        "ET_ORDER": 0.0721, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544621.6465, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 205.13006, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49415284964299, 
+          37.55256603723505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156293.3977, 
+        "ET_ORDER": 0.1224, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544680.6554, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 222.6912, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49406184955716, 
+          37.552759037277845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156314.8533, 
+        "ET_ORDER": 0.1355, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544688.5781, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 227.42934, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49389284992691, 
+          37.552899037081595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156330.4659, 
+        "ET_ORDER": 0.1478, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544703.422, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 232.77894, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49373684946552, 
+          37.55310003711683
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156352.84, 
+        "ET_ORDER": 0.1628, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544717.0812, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 241.47174, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49355885041702, 
+          37.553556037067125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156403.5155, 
+        "ET_ORDER": 0.1931, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544732.531, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 260.52432, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49347685037266, 
+          37.55383903709257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156434.9519, 
+        "ET_ORDER": 0.2115, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544739.6047, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 272.87683, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4935478504153, 
+          37.55404003699136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156457.218, 
+        "ET_ORDER": 0.2248, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544733.2133, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 280.24209, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49345184997573, 
+          37.554062037218465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156459.7045, 
+        "ET_ORDER": 0.2298, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544741.6796, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 282.12957, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4933648497589, 
+          37.5542650371687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156482.2677, 
+        "ET_ORDER": 0.2435, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544749.2427, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 289.15898, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4933728503367, 
+          37.55468903731365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156529.3045, 
+        "ET_ORDER": 0.2704, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544748.2825, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 291.85831, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49333784939122, 
+          37.55483403678383
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156545.4081, 
+        "ET_ORDER": 0.2797, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544751.2873, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 292.04666, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49326084979808, 
+          37.55494503737638
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156557.7597, 
+        "ET_ORDER": 0.2878, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544758.022, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 291.40877, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49318584932408, 
+          37.555218036954116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156588.0833, 
+        "ET_ORDER": 0.3055, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544764.4832, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 290.65354, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49301084994582, 
+          37.555363037386606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156604.2537, 
+        "ET_ORDER": 0.3183, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544779.8534, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 296.25626, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49289884970156, 
+          37.555637037010854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156634.7059, 
+        "ET_ORDER": 0.3366, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544789.5819, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 305.59575, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49285284977822, 
+          37.55594903697331
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156669.3426, 
+        "ET_ORDER": 0.3565, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544793.4581, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 311.85333, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49254084983923, 
+          37.55634503714866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156713.4255, 
+        "ET_ORDER": 0.3862, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544820.7783, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 311.20977, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49241584956035, 
+          37.556583037297315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156739.89, 
+        "ET_ORDER": 0.4025, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544831.6763, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 313.23953, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49223484961311, 
+          37.5566100367941
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156742.9718, 
+        "ET_ORDER": 0.4118, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544847.6468, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 316.78427, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49218184990376, 
+          37.55684503655251
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156769.0691, 
+        "ET_ORDER": 0.427, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544852.1871, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 323.48387, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49205384931898, 
+          37.557256036375065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156814.7285, 
+        "ET_ORDER": 0.4539, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544863.2462, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 330.84641, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49162385012478, 
+          37.557390036937896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156829.8005, 
+        "ET_ORDER": 0.4772, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544901.1448, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 329.53256, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49141385016331, 
+          37.5576690364396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156860.8544, 
+        "ET_ORDER": 0.4978, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544919.5252, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 328.29728, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49138684967363, 
+          37.55785203631161
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156881.1702, 
+        "ET_ORDER": 0.5095, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544921.8001, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 328.39241, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49139984976311, 
+          37.55814203632263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156913.338, 
+        "ET_ORDER": 0.528, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544920.4778, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 333.59047, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49130784957316, 
+          37.55831503689979
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156932.5755, 
+        "ET_ORDER": 0.5399, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544928.4996, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 338.38564, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49095384994564, 
+          37.55834203702906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156935.7403, 
+        "ET_ORDER": 0.5578, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 544959.7494, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 346.40356, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49048085014338, 
+          37.55831803627433
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156933.3039, 
+        "ET_ORDER": 0.5818, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545001.5402, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 354.92757, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48987285019393, 
+          37.55840603694612
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156943.3584, 
+        "ET_ORDER": 0.613, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545055.1871, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 361.07238, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48938384970957, 
+          37.5585330367719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156957.6829, 
+        "ET_ORDER": 0.639, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545098.3001, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 372.94182, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48907985058368, 
+          37.55882303653444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4156990.0028, 
+        "ET_ORDER": 0.663, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545124.975, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 381.8863, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48874584979896, 
+          37.55919203675257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157031.1019, 
+        "ET_ORDER": 0.6918, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545154.2518, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 396.57516, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48822185015158, 
+          37.55954803624095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157070.8501, 
+        "ET_ORDER": 0.7266, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545200.317, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 419.93232, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48794185013202, 
+          37.55991103626208
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157111.2578, 
+        "ET_ORDER": 0.7537, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545224.8274, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 440.73317, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48745085035911, 
+          37.56002203663317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157123.8091, 
+        "ET_ORDER": 0.7795, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545268.1255, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 456.35217, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48715585050458, 
+          37.56032803597409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157157.9003, 
+        "ET_ORDER": 0.8039, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545293.9947, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 467.86871, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48695984993033, 
+          37.56062003601363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157190.3907, 
+        "ET_ORDER": 0.8249, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545311.1286, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 476.77006, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48681884969278, 
+          37.56092603656995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157224.4079, 
+        "ET_ORDER": 0.8456, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545323.3963, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 491.08962, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48649485006676, 
+          37.56105003595595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157238.3213, 
+        "ET_ORDER": 0.8638, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545351.9365, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 502.29496, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48560785051615, 
+          37.56121603641776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157257.1666, 
+        "ET_ORDER": 0.9098, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545430.1746, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 531.82777, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48550085015216, 
+          37.561358036319334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157272.9725, 
+        "ET_ORDER": 0.9203, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545439.5385, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 534.04978, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48511985048872, 
+          37.561623035517975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157302.5571, 
+        "ET_ORDER": 0.9459, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545473.0268, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 535.57833, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48462171247353, 
+          37.56173202527076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157314.8901, 
+        "ET_ORDER": 0.972, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545516.9552, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 532.20716, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48437485079229, 
+          37.56178603595957
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157321.0019, 
+        "ET_ORDER": 0.9849, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545538.7247, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 533.88448, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48413334264791, 
+          37.561925363156796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1580.4, 
+        "Av_S_Up": 13.5, 
+        "Length_3D": 1800.0, 
+        "Len_Down": 219.6, 
+        "Max_S_Down": 4.2, 
+        "Min_Z": 178.0, 
+        "H_Down": 8.0, 
+        "ET_ID": 11, 
+        "trail_name": "Alta Vista Trail", 
+        "ET_Y": 4157336.5766, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 23.8, 
+        "ET_IDP": 11, 
+        "ET_IDR": "11_0", 
+        "H_Up": 366.5, 
+        "ET_X": 545559.9694, 
+        "Av_S_Down": 2.1, 
+        "ET_Z": 536.53447, 
+        "Length_2D": 1748.2, 
+        "Max_Z": 536.5
+      }
+    }
+  ]
+}

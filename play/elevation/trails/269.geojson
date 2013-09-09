@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49166059540005, 
+          37.61943654379356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163713.5597, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 544860.644, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 14.23424, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49107190393738, 
+          37.61938836245628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163708.4957, 
+        "ET_ORDER": 0.0973, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 544912.625, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 18.92522, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49042873644838, 
+          37.61935725406937
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163705.3523, 
+        "ET_ORDER": 0.2031, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 544969.4033, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 22.18531, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49020406271983, 
+          37.61933149229358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163702.6018, 
+        "ET_ORDER": 0.2404, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 544989.2463, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 22.12616, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48971854202365, 
+          37.61936126776595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163706.1381, 
+        "ET_ORDER": 0.3205, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545032.0756, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 22.83916, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48936505462866, 
+          37.61929067710539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163698.476, 
+        "ET_ORDER": 0.3804, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545063.3135, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 23.84079, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48842339631379, 
+          37.61896076881212
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163662.3265, 
+        "ET_ORDER": 0.5495, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545146.6145, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 26.69477, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48800559642923, 
+          37.6188544789265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163650.7351, 
+        "ET_ORDER": 0.6216, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545183.5499, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.0352, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48720060783498, 
+          37.61872348448215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163636.5896, 
+        "ET_ORDER": 0.7566, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545254.6701, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.30291, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48704978986042, 
+          37.618641371344424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163627.5522, 
+        "ET_ORDER": 0.7866, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545268.0297, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.53975, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48665202918775, 
+          37.61853516377989
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163615.9608, 
+        "ET_ORDER": 0.8556, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545303.1969, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.65473, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48646290512391, 
+          37.618520174523084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163614.3891, 
+        "ET_ORDER": 0.8868, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545319.8964, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.42805, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48613396097002, 
+          37.61844259737745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163605.9411, 
+        "ET_ORDER": 0.9432, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545348.9732, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.11294, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48597596646047, 
+          37.61843305539128
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163604.9588, 
+        "ET_ORDER": 0.9692, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545362.9222, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.14024, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4857975596909, 
+          37.61847831940962
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 453.8, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 537.4, 
+        "Len_Down": 83.6, 
+        "Max_S_Down": 0.8, 
+        "Min_Z": 14.2, 
+        "H_Down": 0.6, 
+        "ET_ID": 269, 
+        "trail_name": "Upper Mori Trail", 
+        "ET_Y": 4163610.0669, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 269, 
+        "ET_IDR": "269_0", 
+        "H_Up": 13.5, 
+        "ET_X": 545378.6393, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 27.11237, 
+        "Length_2D": 537.0, 
+        "Max_Z": 27.7
+      }
+    }
+  ]
+}

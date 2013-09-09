@@ -1,0 +1,357 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47897685303515, 
+          37.64171044119368
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166190.9036, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545966.2633, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 184.58803, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47893773884871, 
+          37.641561140697206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166174.3584, 
+        "ET_ORDER": 0.1099, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545969.8061, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 185.68616, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47894129213529, 
+          37.64146103785229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166163.2506, 
+        "ET_ORDER": 0.182, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545969.5543, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 185.81111, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47896287808443, 
+          37.64127424578484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166142.5161, 
+        "ET_ORDER": 0.3172, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545967.765, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 186.83312, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47903356078103, 
+          37.64106401136417
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166119.1567, 
+        "ET_ORDER": 0.474, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545961.6586, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 188.72379, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47903446679487, 
+          37.640978744517874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166109.6962, 
+        "ET_ORDER": 0.5354, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545961.6312, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 189.15503, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47895962715242, 
+          37.640828942840095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166093.1129, 
+        "ET_ORDER": 0.6515, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545968.3262, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 189.92698, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47893162865834, 
+          37.64067162716278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166075.673, 
+        "ET_ORDER": 0.766, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545970.8933, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 188.60072, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47886506904331, 
+          37.64047450761912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166053.8359, 
+        "ET_ORDER": 0.913, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545976.887, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 187.51068, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4788274836641, 
+          37.640441369832324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166050.1778, 
+        "ET_ORDER": 0.9452, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545980.2234, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 187.6148, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47876341037912, 
+          37.640384878578615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.9, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 154.2, 
+        "Len_Down": 40.3, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 184.6, 
+        "H_Down": 2.4, 
+        "ET_ID": 166, 
+        "trail_name": "Milagra Trail", 
+        "ET_Y": 4166043.9417, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 166, 
+        "ET_IDR": "166_0", 
+        "H_Up": 5.5, 
+        "ET_X": 545985.9111, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 187.62208, 
+        "Length_2D": 154.0, 
+        "Max_Z": 189.9
+      }
+    }
+  ]
+}

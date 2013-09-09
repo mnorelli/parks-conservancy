@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47318752602585, 
+          37.80794872696055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 33.8, 
+        "Av_S_Up": 4.8, 
+        "Length_3D": 33.8, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 35.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 0, 
+        "trail_name": "Admin. Trail", 
+        "ET_Y": 4184637.573, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.8, 
+        "ET_IDP": 0, 
+        "ET_IDR": "0_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546373.2531, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 35.56126, 
+        "Length_2D": 33.7, 
+        "Max_Z": 38.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47332362076934, 
+          37.807665184019456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 33.8, 
+        "Av_S_Up": 4.8, 
+        "Length_3D": 33.8, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 35.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 0, 
+        "trail_name": "Admin. Trail", 
+        "ET_Y": 4184606.0465, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.8, 
+        "ET_IDP": 0, 
+        "ET_IDR": "0_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546361.4504, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 38.38606, 
+        "Length_2D": 33.7, 
+        "Max_Z": 38.4
+      }
+    }
+  ]
+}

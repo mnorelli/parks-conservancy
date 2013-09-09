@@ -1,0 +1,2373 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45378157965308, 
+          37.79078925228743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182743.543, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548092.6202, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 59.04164, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45379691349055, 
+          37.790849267822196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182750.1938, 
+        "ET_ORDER": 0.0039, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548091.2312, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 58.64179, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45394023252503, 
+          37.7914102001779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182812.3552, 
+        "ET_ORDER": 0.0407, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548078.2489, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 55.41751, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45399130768357, 
+          37.79150961633015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182823.3591, 
+        "ET_ORDER": 0.0476, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548073.6875, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 53.67551, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4540837590146, 
+          37.79160285371411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182833.6562, 
+        "ET_ORDER": 0.0552, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548065.4871, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 51.53069, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45417019678045, 
+          37.79173668167817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182848.4599, 
+        "ET_ORDER": 0.0649, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548057.7899, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 48.95741, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45420001202764, 
+          37.7918069094059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182856.2363, 
+        "ET_ORDER": 0.0696, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548055.1193, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 48.21694, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45431927136845, 
+          37.79208781121401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182887.3409, 
+        "ET_ORDER": 0.0887, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548044.4371, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 45.93237, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45423700306883, 
+          37.792164804152016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182895.9255, 
+        "ET_ORDER": 0.0951, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548051.6306, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 45.635, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45386913853997, 
+          37.792326095420336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182914.0098, 
+        "ET_ORDER": 0.1166, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548083.9149, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 44.75295, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45372620428162, 
+          37.79241910879126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182924.4031, 
+        "ET_ORDER": 0.126, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548096.4393, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 44.02659, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45362554630525, 
+          37.79254026591822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182937.8972, 
+        "ET_ORDER": 0.1353, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548105.2232, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 42.72518, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4534422528927, 
+          37.79280974882471
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182967.8905, 
+        "ET_ORDER": 0.155, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548121.1865, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 41.33466, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45341335232675, 
+          37.792895380848094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182977.4062, 
+        "ET_ORDER": 0.1607, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548123.6755, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 40.57197, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4534040583077, 
+          37.79300266409879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4182989.314, 
+        "ET_ORDER": 0.1676, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548124.4242, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 40.03731, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45342136889107, 
+          37.793200154150774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183011.2165, 
+        "ET_ORDER": 0.1803, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548122.772, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 38.48327, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45340010935159, 
+          37.79331312864554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183023.7619, 
+        "ET_ORDER": 0.1876, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548124.5705, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 38.8166, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45336165503814, 
+          37.793364582759196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183029.4905, 
+        "ET_ORDER": 0.1915, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548127.9228, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 39.76939, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45327656285014, 
+          37.79341955548095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183035.6335, 
+        "ET_ORDER": 0.1971, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548135.379, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 39.19575, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45311755331257, 
+          37.7935595320289
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183051.2457, 
+        "ET_ORDER": 0.2092, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548149.288, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 34.75894, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45309524643797, 
+          37.79363269428075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183059.3745, 
+        "ET_ORDER": 0.214, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548151.2045, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 34.53556, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45305014449274, 
+          37.794155351831456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183117.3863, 
+        "ET_ORDER": 0.2477, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548154.8362, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 28.0914, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45305100182385, 
+          37.79478025652529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183186.7187, 
+        "ET_ORDER": 0.2878, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548154.3551, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 25.43937, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45309081929848, 
+          37.79537292726598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183252.4547, 
+        "ET_ORDER": 0.3259, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548150.4648, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 24.149, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45319845348617, 
+          37.79558265722695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183275.6687, 
+        "ET_ORDER": 0.3405, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548140.8524, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 21.31924, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45320955863532, 
+          37.79567586828015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183286.0047, 
+        "ET_ORDER": 0.3465, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548139.8142, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 22.07443, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45319193929356, 
+          37.79579565005904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183299.3035, 
+        "ET_ORDER": 0.3542, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548141.2877, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 22.16883, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45297072319227, 
+          37.79650580525366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183378.2088, 
+        "ET_ORDER": 0.4012, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548160.3028, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 23.49162, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45414645435937, 
+          37.797530885427975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183491.3359, 
+        "ET_ORDER": 0.4902, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548056.1269, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 13.55157, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45404158399126, 
+          37.79769617397836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183509.7285, 
+        "ET_ORDER": 0.5021, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548065.2525, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 13.75407, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45383885830064, 
+          37.79808272225096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183552.7201, 
+        "ET_ORDER": 0.529, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548082.8497, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 15.08288, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45379572141933, 
+          37.798219407025684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183567.9074, 
+        "ET_ORDER": 0.5381, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548086.5588, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 15.31344, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45378314808264, 
+          37.798333611492694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183580.5848, 
+        "ET_ORDER": 0.5454, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548087.5917, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 14.96338, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45379674635231, 
+          37.79852154914181
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183601.4294, 
+        "ET_ORDER": 0.5575, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548086.2727, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 14.51138, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4539029462958, 
+          37.79874228933958
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183625.8658, 
+        "ET_ORDER": 0.5727, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548076.78, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 13.77631, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4539632591229, 
+          37.798929453849844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183646.6006, 
+        "ET_ORDER": 0.5851, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548071.3489, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 10.55509, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45395861421372, 
+          37.79901605818314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183656.2117, 
+        "ET_ORDER": 0.5907, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548071.7017, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 10.33507, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45386512228633, 
+          37.79914670962431
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183670.7555, 
+        "ET_ORDER": 0.6003, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548079.8478, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 10.1977, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4538400035925, 
+          37.79924464044388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183681.6338, 
+        "ET_ORDER": 0.6067, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548081.9957, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 10.00181, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45384999104553, 
+          37.7992952926276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183687.2485, 
+        "ET_ORDER": 0.61, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548081.0836, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 9.86082, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45399724563374, 
+          37.799497498306465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183709.6074, 
+        "ET_ORDER": 0.625, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548067.9887, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 9.04537, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45399761117469, 
+          37.79957715241515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183718.4448, 
+        "ET_ORDER": 0.6301, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548067.9049, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 8.92123, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4539084845316, 
+          37.79980799395051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183744.1024, 
+        "ET_ORDER": 0.6456, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548075.6017, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 9.66208, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45390027088119, 
+          37.79989053664446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183753.2647, 
+        "ET_ORDER": 0.651, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548076.2713, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 9.89724, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4539100054788, 
+          37.79993157877527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183757.8133, 
+        "ET_ORDER": 0.6536, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548075.3877, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 10.04462, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45406371587954, 
+          37.800181748670454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183785.4905, 
+        "ET_ORDER": 0.6715, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548061.6935, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 12.45755, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45408123861698, 
+          37.800255624660316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183793.678, 
+        "ET_ORDER": 0.6763, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548060.103, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 12.55184, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.454061026388, 
+          37.80040841216541
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183810.6401, 
+        "ET_ORDER": 0.6862, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548061.7834, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 12.76113, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45402217537023, 
+          37.80051069037733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183822.0078, 
+        "ET_ORDER": 0.6931, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548065.1374, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 13.31281, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45388572123177, 
+          37.80069971974172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183843.0507, 
+        "ET_ORDER": 0.7071, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548077.0277, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 12.71373, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45387025550741, 
+          37.80072969683236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183846.3846, 
+        "ET_ORDER": 0.7091, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548078.3698, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 12.70742, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45388397254584, 
+          37.80081534343971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183855.88, 
+        "ET_ORDER": 0.7147, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548077.1067, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 11.93514, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45381952066614, 
+          37.80086692496888
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183861.6361, 
+        "ET_ORDER": 0.7194, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548082.7473, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 11.59909, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45378912039762, 
+          37.800972112946454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183873.3223, 
+        "ET_ORDER": 0.7263, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548085.3554, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 10.88539, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45378091318358, 
+          37.80120953139111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183899.668, 
+        "ET_ORDER": 0.7415, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548085.924, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 9.53897, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45374351825589, 
+          37.801321281805976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183912.0859, 
+        "ET_ORDER": 0.749, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548089.1436, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 8.92621, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45370885360545, 
+          37.80137540067147
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183918.1082, 
+        "ET_ORDER": 0.7529, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548092.1602, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 8.77406, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4536024835149, 
+          37.8014666048675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183928.282, 
+        "ET_ORDER": 0.7608, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548101.4653, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 8.48743, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45333043055952, 
+          37.801606304965524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183943.9217, 
+        "ET_ORDER": 0.7774, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548125.3247, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 7.74706, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45330556963047, 
+          37.80164578054924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183948.3143, 
+        "ET_ORDER": 0.7802, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548127.4877, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 7.55541, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45335092987528, 
+          37.801723832689696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183956.9508, 
+        "ET_ORDER": 0.7857, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548123.4438, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 7.3357, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45337556281866, 
+          37.80173902771021
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183958.624, 
+        "ET_ORDER": 0.7873, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548121.2654, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 7.21276, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45362788456116, 
+          37.8017765958178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183962.6623, 
+        "ET_ORDER": 0.8004, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548099.0281, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 7.38145, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45382193952166, 
+          37.801866896609155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183972.5813, 
+        "ET_ORDER": 0.8119, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548081.8861, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 6.93087, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4538464920259, 
+          37.801892880742066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183975.4516, 
+        "ET_ORDER": 0.8139, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548079.7078, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 6.74327, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45385163087073, 
+          37.80195073983446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4183981.8684, 
+        "ET_ORDER": 0.8177, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548079.2179, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 6.15123, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45378756143762, 
+          37.80217683567073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184006.9866, 
+        "ET_ORDER": 0.8326, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548084.7116, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 5.50231, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45372482956235, 
+          37.802367020458675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184028.1198, 
+        "ET_ORDER": 0.8452, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548090.1108, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 5.0875, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45341327817243, 
+          37.8026046027888
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184054.6398, 
+        "ET_ORDER": 0.8672, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548117.3836, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 4.2594, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45259708993207, 
+          37.80377769488226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184185.2144, 
+        "ET_ORDER": 0.9533, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548188.473, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 3.41108, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4525456809948, 
+          37.80393068856948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184202.2155, 
+        "ET_ORDER": 0.9634, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548192.8992, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 3.30309, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45252917786699, 
+          37.80409302879795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184220.2356, 
+        "ET_ORDER": 0.9739, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548194.2465, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 3.27902, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45254457700325, 
+          37.804283682306014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184241.3806, 
+        "ET_ORDER": 0.9862, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548192.767, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 3.0391, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45255099029045, 
+          37.8044990178747
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 362.3, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 1730.5, 
+        "Len_Down": 1368.2, 
+        "Max_S_Down": 12.0, 
+        "Min_Z": 3.0, 
+        "H_Down": 65.8, 
+        "ET_ID": 262, 
+        "trail_name": "Tennessee Hollow Trail", 
+        "ET_Y": 4184265.2687, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 262, 
+        "ET_IDR": "262_0", 
+        "H_Up": 10.1, 
+        "ET_X": 548192.0625, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 3.34904, 
+        "Length_2D": 1727.5, 
+        "Max_Z": 59.0
+      }
+    }
+  ]
+}

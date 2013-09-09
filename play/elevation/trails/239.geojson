@@ -1,0 +1,1541 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49438005014623, 
+          37.83470531569126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187595.9071, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544491.6805, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 169.49598, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49414714170776, 
+          37.834896127111946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187617.1886, 
+        "ET_ORDER": 0.0359, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544512.0606, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 174.74624, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4939208440236, 
+          37.83512400926694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187642.58, 
+        "ET_ORDER": 0.0751, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544531.8366, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 181.92127, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49367119043563, 
+          37.835290470177405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187661.1679, 
+        "ET_ORDER": 0.11, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544553.7046, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 188.7205, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49347832522703, 
+          37.835329060395075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187665.5415, 
+        "ET_ORDER": 0.1313, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544570.6524, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 191.70029, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49323015194747, 
+          37.835278718355845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187660.0745, 
+        "ET_ORDER": 0.1588, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544592.5205, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 194.19749, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4930741919922, 
+          37.83528863751745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187661.2495, 
+        "ET_ORDER": 0.1756, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544606.2381, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 196.68329, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49286319521009, 
+          37.83533626810118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187666.6349, 
+        "ET_ORDER": 0.1991, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544624.7759, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 201.31117, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49270053757972, 
+          37.83539969192487
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187673.7495, 
+        "ET_ORDER": 0.2185, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544639.0506, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 204.91159, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49260216753851, 
+          37.83545109328118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187679.4995, 
+        "ET_ORDER": 0.2311, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544647.6756, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 207.14603, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49248362906435, 
+          37.8355434468301
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187689.8028, 
+        "ET_ORDER": 0.2489, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544658.0506, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 210.03251, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49241991489664, 
+          37.835626637730634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187699.0633, 
+        "ET_ORDER": 0.2621, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544663.6069, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 212.04815, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49230111588508, 
+          37.835850287775656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187723.9341, 
+        "ET_ORDER": 0.2948, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544673.9256, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 216.58469, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49226727237719, 
+          37.835962223828915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187736.3696, 
+        "ET_ORDER": 0.3104, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544676.8361, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 218.56997, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49222677849964, 
+          37.83616713429308
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187759.1238, 
+        "ET_ORDER": 0.3384, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544680.2757, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 222.62824, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49222759511416, 
+          37.83648668875023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187794.578, 
+        "ET_ORDER": 0.3816, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544680.0111, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 227.88029, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4922093004435, 
+          37.836531780637515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187799.5897, 
+        "ET_ORDER": 0.388, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544681.5937, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 228.30267, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49216669177684, 
+          37.83659850808974
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187807.0135, 
+        "ET_ORDER": 0.3981, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544685.3027, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 228.60604, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4920410520232, 
+          37.83669707479697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187818.0096, 
+        "ET_ORDER": 0.417, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544696.2986, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 228.42486, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49193440824486, 
+          37.836806857153356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187830.241, 
+        "ET_ORDER": 0.4358, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544705.6162, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 228.76839, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49187903758127, 
+          37.836905761953474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187841.241, 
+        "ET_ORDER": 0.4504, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544710.4287, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 229.30732, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49188147680448, 
+          37.83696435737977
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187847.741, 
+        "ET_ORDER": 0.4583, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544710.1787, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 229.50144, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49191841015106, 
+          37.83706816693186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187859.241, 
+        "ET_ORDER": 0.4729, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544706.8662, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 229.92427, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4920809254655, 
+          37.83745987707372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187902.6235, 
+        "ET_ORDER": 0.5286, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544692.3298, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 234.39642, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49210380373958, 
+          37.837688614565515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187927.991, 
+        "ET_ORDER": 0.5596, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544690.1787, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 237.9372, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49214885942087, 
+          37.83785104395683
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187945.991, 
+        "ET_ORDER": 0.5821, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544686.1162, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 239.91332, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49212106513806, 
+          37.838071744078846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187970.491, 
+        "ET_ORDER": 0.612, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544688.4287, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 242.45623, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49200891711799, 
+          37.83826729444763
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4187992.241, 
+        "ET_ORDER": 0.6411, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544698.1787, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 245.32591, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49181204462114, 
+          37.83838812139538
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188005.741, 
+        "ET_ORDER": 0.6677, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544715.4287, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 244.48415, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4914997819148, 
+          37.83845211821815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188012.991, 
+        "ET_ORDER": 0.7023, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544742.8662, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 239.36309, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49134342674543, 
+          37.83845254981495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188013.1138, 
+        "ET_ORDER": 0.719, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544756.6237, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 236.88658, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49119399875002, 
+          37.838406117986786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188008.0338, 
+        "ET_ORDER": 0.7362, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544769.8, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 234.857, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49108760434547, 
+          37.83839850371129
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188007.24, 
+        "ET_ORDER": 0.7477, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544779.1663, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 233.93058, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49085129325859, 
+          37.83844931641841
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188012.991, 
+        "ET_ORDER": 0.7739, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544799.9287, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 231.72507, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49061078580624, 
+          37.83847370674287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188015.8125, 
+        "ET_ORDER": 0.7999, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544821.0763, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 229.54895, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49034442777432, 
+          37.83863996111563
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188034.3863, 
+        "ET_ORDER": 0.8362, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544844.4126, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 224.37999, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49028292888858, 
+          37.838662588127924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188036.9263, 
+        "ET_ORDER": 0.8435, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544849.8102, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 223.09414, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49019189594455, 
+          37.83867432296659
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188038.272, 
+        "ET_ORDER": 0.8534, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544857.8131, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 221.11798, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49002174515215, 
+          37.83860136284168
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188030.2588, 
+        "ET_ORDER": 0.8741, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544872.8289, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 216.90914, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.489969415164, 
+          37.838602567498704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188030.4176, 
+        "ET_ORDER": 0.8797, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544877.4327, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 216.0576, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4899305928753, 
+          37.83863026683856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188033.5095, 
+        "ET_ORDER": 0.8853, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544880.8319, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 214.87414, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48991485794264, 
+          37.83866528742662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188037.4026, 
+        "ET_ORDER": 0.8903, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544882.1952, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 214.01931, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4899084114593, 
+          37.83879471586684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188051.7658, 
+        "ET_ORDER": 0.9078, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544882.684, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 211.13138, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48986833672583, 
+          37.83894979401607
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188068.991, 
+        "ET_ORDER": 0.9292, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544886.1162, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 208.25067, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48988259879054, 
+          37.83904976824564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188080.0763, 
+        "ET_ORDER": 0.9428, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544884.8007, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 207.15206, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4898744429098, 
+          37.83919767955905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188096.491, 
+        "ET_ORDER": 0.9628, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544885.4287, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 205.5693, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48978948819547, 
+          37.839348361372444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188113.25, 
+        "ET_ORDER": 0.9851, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544892.8125, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 204.38794, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48969355901522, 
+          37.83942811778522
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 529.8, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 831.3, 
+        "Len_Down": 301.5, 
+        "Max_S_Down": 14.4, 
+        "Min_Z": 169.5, 
+        "H_Down": 41.1, 
+        "ET_ID": 239, 
+        "trail_name": "Slacker Trail", 
+        "ET_Y": 4188122.1451, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 239, 
+        "ET_IDR": "239_0", 
+        "H_Up": 78.0, 
+        "ET_X": 544901.2049, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 206.37891, 
+        "Length_2D": 821.2, 
+        "Max_Z": 245.3
+      }
+    }
+  ]
+}

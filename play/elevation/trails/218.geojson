@@ -1,0 +1,2469 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31321910211794, 
+          37.448128554401585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144807.9907, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560746.9646, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 377.40772, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31312756479427, 
+          37.44820711745831
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144816.7658, 
+        "ET_ORDER": 0.0044, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560754.9978, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 374.77729, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31295084425402, 
+          37.448435955340294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144842.2679, 
+        "ET_ORDER": 0.0154, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560770.4441, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 368.81111, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31290305479337, 
+          37.44864707198031
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144865.7208, 
+        "ET_ORDER": 0.0242, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560774.5004, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 365.35865, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31284874343461, 
+          37.448745036623
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144876.6244, 
+        "ET_ORDER": 0.0286, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560779.2251, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 365.25443, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31235454093573, 
+          37.449256434316155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144933.6797, 
+        "ET_ORDER": 0.0551, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560822.5243, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 364.78493, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31221913089706, 
+          37.449376242558785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144947.0591, 
+        "ET_ORDER": 0.0617, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560834.4045, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 362.51476, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31195370969232, 
+          37.449542352764134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144965.6594, 
+        "ET_ORDER": 0.0728, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560857.7468, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 359.9609, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31156114583766, 
+          37.44975212175269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144989.1856, 
+        "ET_ORDER": 0.0882, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560892.2995, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 356.9691, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31132233968633, 
+          37.44985241882594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145000.4673, 
+        "ET_ORDER": 0.097, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560913.3408, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 353.6728, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3109473987038, 
+          37.44997449084677
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145014.2529, 
+        "ET_ORDER": 0.1103, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560946.4056, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 347.5772, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31077296585524, 
+          37.45005644001805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145023.4575, 
+        "ET_ORDER": 0.1169, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560961.7678, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 345.73263, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31033134839774, 
+          37.45030435716382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145051.2482, 
+        "ET_ORDER": 0.1346, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561000.6278, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 337.1777, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31012503963277, 
+          37.45044330864922
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145066.7976, 
+        "ET_ORDER": 0.1434, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561018.763, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 332.8608, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3100345829026, 
+          37.45052308247943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145075.7066, 
+        "ET_ORDER": 0.1478, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561026.6991, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 330.98816, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30996897475869, 
+          37.45061704266575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145086.1734, 
+        "ET_ORDER": 0.1522, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561032.4258, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 328.76221, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30990438910918, 
+          37.45076988362084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145103.172, 
+        "ET_ORDER": 0.1588, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561038.0142, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 326.14605, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30987424028054, 
+          37.45092943613849
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145120.8929, 
+        "ET_ORDER": 0.1655, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561040.5512, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 322.6578, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30986772660917, 
+          37.45109080138801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145138.7996, 
+        "ET_ORDER": 0.1721, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561040.9962, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 318.31675, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30988544548306, 
+          37.45135953265855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145168.6022, 
+        "ET_ORDER": 0.1831, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561039.2106, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 312.8644, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30991224886222, 
+          37.451464955942456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145180.2809, 
+        "ET_ORDER": 0.1875, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561036.7542, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 312.98441, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30997154998117, 
+          37.45156141929688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145190.9445, 
+        "ET_ORDER": 0.1919, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561031.4307, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 313.57087, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31005523959323, 
+          37.45164592158512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145200.2653, 
+        "ET_ORDER": 0.1964, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561023.9598, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 314.00136, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31011281223161, 
+          37.45167358592401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145203.2972, 
+        "ET_ORDER": 0.1986, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561018.8451, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 314.383, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31017945098593, 
+          37.451679974346796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145203.9628, 
+        "ET_ORDER": 0.2008, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561012.9458, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 315.14447, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31037839256913, 
+          37.45165137801181
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145200.6614, 
+        "ET_ORDER": 0.2074, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560995.3729, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 317.01617, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31152699881973, 
+          37.45133479876378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145164.7959, 
+        "ET_ORDER": 0.2471, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560894.0368, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 321.5789, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31191949262174, 
+          37.45125541627428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145155.7353, 
+        "ET_ORDER": 0.2604, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560859.3854, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 313.01986, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31215999693866, 
+          37.45115885502806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145144.8671, 
+        "ET_ORDER": 0.2692, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560838.1912, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 309.10061, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31237701585802, 
+          37.451030818260094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145130.5221, 
+        "ET_ORDER": 0.278, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560819.0997, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 314.11093, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31263033090538, 
+          37.450853060621846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145110.6375, 
+        "ET_ORDER": 0.289, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560796.838, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 317.74018, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31331258957218, 
+          37.450256530052776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145044.0161, 
+        "ET_ORDER": 0.3221, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560736.9748, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 334.63367, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31407354055493, 
+          37.4496452895606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144975.7125, 
+        "ET_ORDER": 0.3575, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560670.1621, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 323.69478, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31427960600901, 
+          37.44950631709281
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144960.1617, 
+        "ET_ORDER": 0.3663, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560652.0476, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 324.30209, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31451161684117, 
+          37.44939649412459
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144947.8282, 
+        "ET_ORDER": 0.3751, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560631.6146, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 326.99792, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31488593556703, 
+          37.4492736499993
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144933.9586, 
+        "ET_ORDER": 0.3884, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560598.6047, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 325.87115, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3151506254577, 
+          37.449234069609695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144929.3972, 
+        "ET_ORDER": 0.3972, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560575.2244, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 328.17966, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31541983490776, 
+          37.44924772734736
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144930.7394, 
+        "ET_ORDER": 0.406, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560551.4014, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 318.09584, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31575231193857, 
+          37.44929600958845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144935.8824, 
+        "ET_ORDER": 0.417, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560521.9544, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 310.38324, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31581630226596, 
+          37.44931396103708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144937.8329, 
+        "ET_ORDER": 0.4193, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560516.2799, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 307.9988, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31583558808015, 
+          37.449353736020846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144942.2333, 
+        "ET_ORDER": 0.421, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560514.542, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 304.88366, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3156403631822, 
+          37.4495068928576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144959.3505, 
+        "ET_ORDER": 0.43, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560531.6865, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 301.00531, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31538219846541, 
+          37.44968029701934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4144978.7545, 
+        "ET_ORDER": 0.441, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560554.3817, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 295.46111, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31467892335728, 
+          37.45009791736531
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145025.5391, 
+        "ET_ORDER": 0.4697, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560616.2501, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 290.87904, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31391356652047, 
+          37.450705716384284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145093.4633, 
+        "ET_ORDER": 0.505, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560683.4553, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 294.63724, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31337206553955, 
+          37.451079073814725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145135.2339, 
+        "ET_ORDER": 0.5284, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560731.0491, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 285.00884, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3119765717748, 
+          37.45217423403686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145257.6356, 
+        "ET_ORDER": 0.5925, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560853.5924, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 265.60461, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31151138680887, 
+          37.45256440830135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145301.2236, 
+        "ET_ORDER": 0.6146, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560894.4208, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 266.22505, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3112469693113, 
+          37.45280903530585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145328.5344, 
+        "ET_ORDER": 0.6278, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560917.6095, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 270.70285, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31066637055862, 
+          37.45353516043497
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145409.4691, 
+        "ET_ORDER": 0.6631, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560968.3725, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 256.74799, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31050074043566, 
+          37.453705129264144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145428.4333, 
+        "ET_ORDER": 0.672, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560982.8839, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 254.23655, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3103162997697, 
+          37.45386235736713
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145445.9962, 
+        "ET_ORDER": 0.6808, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 560999.0693, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 251.8703, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.31011526049231, 
+          37.45400605896746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145462.0692, 
+        "ET_ORDER": 0.6896, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561016.7337, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 245.64838, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30984236005935, 
+          37.45416433824088
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145479.8061, 
+        "ET_ORDER": 0.7007, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561040.742, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 242.73264, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30960975556104, 
+          37.45427366436777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145492.0859, 
+        "ET_ORDER": 0.7095, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561061.226, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 239.22803, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30936502519157, 
+          37.45436457025531
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145502.33, 
+        "ET_ORDER": 0.7183, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561082.7974, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 238.05868, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30898034265053, 
+          37.45446503288165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145513.7252, 
+        "ET_ORDER": 0.7316, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561116.7391, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 233.12114, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30864698111552, 
+          37.45450519630823
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145518.3974, 
+        "ET_ORDER": 0.7426, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561146.1907, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 230.91999, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30790871181564, 
+          37.45444728306755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145512.4517, 
+        "ET_ORDER": 0.7668, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561211.5344, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 232.82079, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30723600324681, 
+          37.45449117287574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145517.7583, 
+        "ET_ORDER": 0.7889, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561270.9966, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 224.22872, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30696616654909, 
+          37.45449069762458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145517.8811, 
+        "ET_ORDER": 0.7977, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561294.8628, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 220.84474, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30676847656179, 
+          37.45445636010667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145514.2002, 
+        "ET_ORDER": 0.8044, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561312.3756, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 222.93484, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30579597891375, 
+          37.454231133279585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145489.846, 
+        "ET_ORDER": 0.8375, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561398.5727, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 216.85405, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30506064820962, 
+          37.45414943633812
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145481.2617, 
+        "ET_ORDER": 0.8618, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561463.6764, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 213.563, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30487257861343, 
+          37.454091612406174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145474.9692, 
+        "ET_ORDER": 0.8683, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561480.3577, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 212.46093, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.304649945226, 
+          37.45397010409092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145461.6339, 
+        "ET_ORDER": 0.8772, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561500.1482, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 211.67935, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30440192949166, 
+          37.453787719783655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145441.5614, 
+        "ET_ORDER": 0.8882, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561522.2336, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 210.09525, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30352321483721, 
+          37.45297031509064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145351.4495, 
+        "ET_ORDER": 0.9324, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561600.623, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 205.89075, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30324892608807, 
+          37.45273821784561
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145325.8791, 
+        "ET_ORDER": 0.9454, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561625.0735, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 203.23258, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30322801448601, 
+          37.452596324716446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145310.1506, 
+        "ET_ORDER": 0.9513, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561627.0395, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 202.13407, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30325213143678, 
+          37.45239267292623
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145287.5409, 
+        "ET_ORDER": 0.9597, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561625.0735, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 202.04098, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30321380916355, 
+          37.45233042284537
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145280.6597, 
+        "ET_ORDER": 0.9625, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561628.5141, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 203.05021, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30298762467628, 
+          37.45215187605784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145260.999, 
+        "ET_ORDER": 0.973, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561648.6662, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 214.83758, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30294473280352, 
+          37.45198327132413
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145242.3214, 
+        "ET_ORDER": 0.98, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561652.5983, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 222.06254, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3029192509398, 
+          37.45173502355144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145214.7965, 
+        "ET_ORDER": 0.9902, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561655.0559, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 233.8436, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30292583533505, 
+          37.4516243046024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145202.5086, 
+        "ET_ORDER": 0.9948, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561654.5644, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 236.71317, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30299560728255, 
+          37.451509720157944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 781.7, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 2733.6, 
+        "Len_Down": 1951.9, 
+        "Max_S_Down": 33.4, 
+        "Min_Z": 202.0, 
+        "H_Down": 228.1, 
+        "ET_ID": 218, 
+        "trail_name": "Raymundo Trail", 
+        "ET_Y": 4145189.7505, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 23.1, 
+        "ET_IDP": 218, 
+        "ET_IDR": "218_0", 
+        "H_Up": 90.5, 
+        "ET_X": 561648.4872, 
+        "Av_S_Down": 6.7, 
+        "ET_Z": 239.8379, 
+        "Length_2D": 2704.6, 
+        "Max_Z": 377.4
+      }
+    }
+  ]
+}

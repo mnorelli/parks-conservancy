@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4851680658567, 
+          37.79029434890504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 58.3, 
+        "Av_S_Up": 9.7, 
+        "Length_3D": 58.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 7.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 21, 
+        "trail_name": "Baker Beach Trail", 
+        "ET_Y": 4182672.9534, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 15.4, 
+        "ET_IDP": 21, 
+        "ET_IDR": "21_0", 
+        "H_Up": 9.8, 
+        "ET_X": 545329.433, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 7.60359, 
+        "Length_2D": 57.2, 
+        "Max_Z": 17.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48517383731317, 
+          37.79006524051312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 58.3, 
+        "Av_S_Up": 9.7, 
+        "Length_3D": 58.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 7.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 21, 
+        "trail_name": "Baker Beach Trail", 
+        "ET_Y": 4182647.5312, 
+        "ET_ORDER": 0.4442, 
+        "Max_S_Up": 15.4, 
+        "ET_IDP": 21, 
+        "ET_IDR": "21_0", 
+        "H_Up": 9.8, 
+        "ET_X": 545329.0648, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 11.13471, 
+        "Length_2D": 57.2, 
+        "Max_Z": 17.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48538690237268, 
+          37.78996348833388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 58.3, 
+        "Av_S_Up": 9.7, 
+        "Length_3D": 58.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 7.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 21, 
+        "trail_name": "Baker Beach Trail", 
+        "ET_Y": 4182636.1386, 
+        "ET_ORDER": 0.8267, 
+        "Max_S_Up": 15.4, 
+        "ET_IDP": 21, 
+        "ET_IDR": "21_0", 
+        "H_Up": 9.8, 
+        "ET_X": 545310.367, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 17.17358, 
+        "Length_2D": 57.2, 
+        "Max_Z": 17.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48533837422974, 
+          37.789882774681
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 58.3, 
+        "Av_S_Up": 9.7, 
+        "Length_3D": 58.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 7.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 21, 
+        "trail_name": "Baker Beach Trail", 
+        "ET_Y": 4182627.207, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.4, 
+        "ET_IDP": 21, 
+        "ET_IDR": "21_0", 
+        "H_Up": 9.8, 
+        "ET_X": 545314.6891, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 17.37877, 
+        "Length_2D": 57.2, 
+        "Max_Z": 17.4
+      }
+    }
+  ]
+}

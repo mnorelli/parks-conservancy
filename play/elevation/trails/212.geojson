@@ -1,0 +1,453 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47689866932288, 
+          37.80585729047908
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184403.6941, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546047.872, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 62.48422, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47696278992379, 
+          37.805851515677105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184403.0218, 
+        "ET_ORDER": 0.0235, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546042.2311, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 61.82992, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47711874984856, 
+          37.805802490840364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184397.5057, 
+        "ET_ORDER": 0.0848, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546028.5325, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 60.52683, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47716435071253, 
+          37.80581745850228
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184399.1439, 
+        "ET_ORDER": 0.1028, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546024.509, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 59.75211, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47715751812176, 
+          37.805860426992886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184403.9146, 
+        "ET_ORDER": 0.1227, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546025.0838, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 59.34366, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47703889176286, 
+          37.80600247962833
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184419.7337, 
+        "ET_ORDER": 0.2011, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546035.4382, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 58.17559, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47702889296573, 
+          37.80607059323159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184427.2958, 
+        "ET_ORDER": 0.2326, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546036.2761, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 58.01068, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47708783582084, 
+          37.80620482745914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184442.16, 
+        "ET_ORDER": 0.298, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546031.0041, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 56.92063, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47709991595116, 
+          37.80647822416577
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184472.4873, 
+        "ET_ORDER": 0.4238, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546029.771, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 56.80377, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47722611864745, 
+          37.806997055713154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184529.9893, 
+        "ET_ORDER": 0.6669, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546018.3396, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 54.95725, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47723635688284, 
+          37.80713346487639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184545.1188, 
+        "ET_ORDER": 0.7297, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546017.3537, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 54.38893, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47722782479423, 
+          37.80722863511386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184555.6821, 
+        "ET_ORDER": 0.7736, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546018.0457, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 54.32168, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47718961769014, 
+          37.807345419564165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184568.6581, 
+        "ET_ORDER": 0.8291, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546021.3365, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 54.67, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47691402226123, 
+          37.80764586103318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.6, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 241.5, 
+        "Len_Down": 186.9, 
+        "Max_S_Down": 10.1, 
+        "Min_Z": 54.3, 
+        "H_Down": 8.2, 
+        "ET_ID": 212, 
+        "trail_name": "Presidio Bluffs Trail", 
+        "ET_Y": 4184602.1277, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.5, 
+        "ET_IDP": 212, 
+        "ET_IDR": "212_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546045.4099, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 55.18382, 
+        "Length_2D": 241.2, 
+        "Max_Z": 62.5
+      }
+    }
+  ]
+}

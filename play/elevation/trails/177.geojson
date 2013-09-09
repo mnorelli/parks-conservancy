@@ -1,0 +1,549 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49652817692511, 
+          37.619598065776266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163729.1646, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544430.9839, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 44.23474, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49654227350017, 
+          37.619525607757225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163721.119, 
+        "ET_ORDER": 0.0218, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544429.783, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 44.05176, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49650841259131, 
+          37.61930619714154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163696.7923, 
+        "ET_ORDER": 0.0875, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544432.9018, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 41.42549, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49632452631631, 
+          37.618799413915546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163640.6538, 
+        "ET_ORDER": 0.2442, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544449.4315, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 36.13369, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49620585274641, 
+          37.618579641145594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163616.3271, 
+        "ET_ORDER": 0.3153, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544460.0354, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 34.58182, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4961505050526, 
+          37.61840230602879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163596.6787, 
+        "ET_ORDER": 0.3695, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544465.0255, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 33.90912, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49609428710657, 
+          37.6178302876655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163533.2422, 
+        "ET_ORDER": 0.54, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544470.3275, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 34.49419, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4961731898605, 
+          37.61765914740815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163514.2175, 
+        "ET_ORDER": 0.5942, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544463.4661, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 34.65355, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49619526578438, 
+          37.61752993096173
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163499.871, 
+        "ET_ORDER": 0.6329, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544461.5948, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 35.02759, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49618221173655, 
+          37.617369642262204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163482.0938, 
+        "ET_ORDER": 0.6806, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544462.8423, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 34.98352, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49612357370789, 
+          37.617156310666445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163458.4533, 
+        "ET_ORDER": 0.7455, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544468.1443, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 35.02948, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49605015964137, 
+          37.617037930666434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163445.3543, 
+        "ET_ORDER": 0.7847, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544474.6938, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 35.29796, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49598763259945, 
+          37.61687743064138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163427.5771, 
+        "ET_ORDER": 0.8347, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544480.3076, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 35.16408, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49590160217545, 
+          37.61653410876317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163389.5277, 
+        "ET_ORDER": 0.9387, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544488.1046, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 38.95234, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4959020766169, 
+          37.61646383332118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163381.7307, 
+        "ET_ORDER": 0.9596, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544488.1046, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 40.08041, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49596260610377, 
+          37.61639662568978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163374.2456, 
+        "ET_ORDER": 0.9841, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544482.8027, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 39.60814, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4959629666328, 
+          37.61634321653247
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 190.1, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 374.1, 
+        "Len_Down": 184.1, 
+        "Max_S_Down": 6.1, 
+        "Min_Z": 33.9, 
+        "H_Down": 11.0, 
+        "ET_ID": 177, 
+        "trail_name": "Mori Bluff Trail", 
+        "ET_Y": 4163368.3199, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 177, 
+        "ET_IDR": "177_0", 
+        "H_Up": 6.6, 
+        "ET_X": 544482.8027, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 39.81434, 
+        "Length_2D": 373.4, 
+        "Max_Z": 44.2
+      }
+    }
+  ]
+}

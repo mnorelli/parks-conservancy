@@ -1,0 +1,3813 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65293667373952, 
+          37.90933755650031
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195812.6844, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530508.7544, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 8.03542, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65287750710958, 
+          37.90943049530369
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195823.0154, 
+        "ET_ORDER": 0.0039, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530513.9171, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 9.23053, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6528159028711, 
+          37.90965746548811
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195848.2181, 
+        "ET_ORDER": 0.0126, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530519.2387, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 12.77451, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65270797215564, 
+          37.90982634897439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195866.9912, 
+        "ET_ORDER": 0.0197, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530528.6566, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 15.06494, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65270934097605, 
+          37.90987347657011
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195872.2196, 
+        "ET_ORDER": 0.0214, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530528.5168, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 15.43343, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65271723996311, 
+          37.909917859147434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195877.1413, 
+        "ET_ORDER": 0.0231, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530527.8041, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 15.86322, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65290977566505, 
+          37.910058415166354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195892.6731, 
+        "ET_ORDER": 0.0309, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530510.8212, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 19.49421, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65299697757793, 
+          37.91010135604549
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195897.4089, 
+        "ET_ORDER": 0.0339, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530503.138, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 21.20664, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65329467482344, 
+          37.91010640817906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195897.8721, 
+        "ET_ORDER": 0.0427, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530476.9669, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 24.63113, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65359343117196, 
+          37.9101481050178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195902.4008, 
+        "ET_ORDER": 0.0517, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530450.6876, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 28.51625, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65370209440225, 
+          37.91013302607875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195900.6923, 
+        "ET_ORDER": 0.055, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530441.1418, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 29.57219, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65392531656958, 
+          37.910191820086105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195907.1427, 
+        "ET_ORDER": 0.0619, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530421.4953, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 33.30628, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65438703838575, 
+          37.9102085710165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195908.8507, 
+        "ET_ORDER": 0.0756, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530380.9009, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 38.70727, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65447373157674, 
+          37.91022307780811
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195910.432, 
+        "ET_ORDER": 0.0783, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530373.2742, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 39.61052, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65457303630106, 
+          37.91028719754218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195917.5138, 
+        "ET_ORDER": 0.0821, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530364.5185, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 41.74147, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65464744430598, 
+          37.910437829302225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195934.2023, 
+        "ET_ORDER": 0.0881, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530357.9158, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 45.26471, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65462810910296, 
+          37.91057568403964
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195949.5037, 
+        "ET_ORDER": 0.0933, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530359.5588, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 48.89296, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65460578049539, 
+          37.91061067276506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195953.393, 
+        "ET_ORDER": 0.0948, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530361.5072, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 50.22281, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6545777063527, 
+          37.910622436156956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195954.7073, 
+        "ET_ORDER": 0.0957, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530363.9702, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 50.91836, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65445764557896, 
+          37.91061256871514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195953.6516, 
+        "ET_ORDER": 0.0993, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530374.5281, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 52.56373, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65439156879819, 
+          37.91062722181378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195955.2989, 
+        "ET_ORDER": 0.1013, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530380.3305, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 54.12228, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65422005261482, 
+          37.91063035118305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195955.702, 
+        "ET_ORDER": 0.1064, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530395.4062, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 56.43258, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65399933207712, 
+          37.910611294380146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195953.6596, 
+        "ET_ORDER": 0.113, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530414.8163, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 59.9341, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65366720446431, 
+          37.910658392860405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195958.9936, 
+        "ET_ORDER": 0.123, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530443.9923, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 65.70306, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65357462440386, 
+          37.9107036874062
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195964.0493, 
+        "ET_ORDER": 0.1262, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530452.1118, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 67.40031, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6534648543112, 
+          37.91082625917076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195977.6846, 
+        "ET_ORDER": 0.1318, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530461.7105, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 70.57697, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65330670392794, 
+          37.910954839697915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4195992.0024, 
+        "ET_ORDER": 0.1385, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530475.5595, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 73.88378, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65322242083275, 
+          37.91117442287502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196016.3929, 
+        "ET_ORDER": 0.1471, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530482.8777, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 77.28555, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65322391045912, 
+          37.91122569768991
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196022.0814, 
+        "ET_ORDER": 0.149, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530482.7256, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 79.00277, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65330507648731, 
+          37.91134478486992
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196035.2677, 
+        "ET_ORDER": 0.1541, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530475.5417, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 83.01415, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65334692572904, 
+          37.91133633046902
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196034.316, 
+        "ET_ORDER": 0.1554, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530471.8665, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 83.94918, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65346126764815, 
+          37.91125985032709
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196025.7931, 
+        "ET_ORDER": 0.1598, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530461.847, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 85.68167, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6535413513798, 
+          37.91123017376415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196022.4743, 
+        "ET_ORDER": 0.1624, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530454.8196, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 86.66781, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65365130251728, 
+          37.91122560061166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196021.931, 
+        "ET_ORDER": 0.1657, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530445.1564, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 87.41836, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65371067092161, 
+          37.911263005283416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196026.0617, 
+        "ET_ORDER": 0.1679, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530439.9223, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 88.82274, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65377933730595, 
+          37.911397706426406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196040.9845, 
+        "ET_ORDER": 0.1734, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530433.8308, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 92.61602, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6537814984399, 
+          37.911472058279216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196049.2332, 
+        "ET_ORDER": 0.1761, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530433.6102, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 94.5246, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65384875860552, 
+          37.911558052619895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196058.7524, 
+        "ET_ORDER": 0.1799, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530427.6624, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 97.07407, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65385407991042, 
+          37.91162977746263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196066.7086, 
+        "ET_ORDER": 0.1826, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530427.1651, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 99.09405, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65392434922607, 
+          37.91170801771553
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196075.3665, 
+        "ET_ORDER": 0.1862, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530420.956, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 101.13962, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65420625463742, 
+          37.912272366668134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196137.8896, 
+        "ET_ORDER": 0.2089, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530395.9435, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 111.86267, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65428040033912, 
+          37.91248392748333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196161.3383, 
+        "ET_ORDER": 0.2171, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530389.3389, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 112.4243, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65427745573959, 
+          37.91260556000156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196174.8345, 
+        "ET_ORDER": 0.2217, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530389.5477, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 111.95818, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65470485863817, 
+          37.91290933402779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196208.3993, 
+        "ET_ORDER": 0.2387, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530351.8534, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 80.38306, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65581191834329, 
+          37.913696159145125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196295.3385, 
+        "ET_ORDER": 0.2827, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530254.219, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 130.81928, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65549592166286, 
+          37.91526900471655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196469.9498, 
+        "ET_ORDER": 0.3423, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530281.3505, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 165.65786, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65543026543321, 
+          37.91559579746968
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196506.2291, 
+        "ET_ORDER": 0.3547, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530286.9876, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 175.53065, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65478123159426, 
+          37.91646882144425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196603.303, 
+        "ET_ORDER": 0.3926, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530343.6779, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 199.48473, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65286614839334, 
+          37.91685054677888
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196646.2808, 
+        "ET_ORDER": 0.4511, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530511.8507, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 244.1434, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65212655846936, 
+          37.91747247895236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196715.5271, 
+        "ET_ORDER": 0.483, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530576.6008, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 279.11949, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6519128272705, 
+          37.91775450324133
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196746.8881, 
+        "ET_ORDER": 0.4953, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530595.2701, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 289.23681, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65163100860902, 
+          37.91796085356966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196769.8754, 
+        "ET_ORDER": 0.5067, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530619.9552, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 298.12642, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.65044880969947, 
+          37.91814789264633
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196791.0165, 
+        "ET_ORDER": 0.5424, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530723.7873, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 320.64004, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64995139623193, 
+          37.9184529304819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196825.0248, 
+        "ET_ORDER": 0.5611, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530767.3805, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 329.61261, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6497226148819, 
+          37.91893369541443
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196878.4417, 
+        "ET_ORDER": 0.5803, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530787.2888, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 338.31628, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64902196286545, 
+          37.91916620329031
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196904.4703, 
+        "ET_ORDER": 0.6028, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530848.775, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 358.71835, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64874000138084, 
+          37.91924258259574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196913.038, 
+        "ET_ORDER": 0.6116, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530873.5258, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 365.37211, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64820877185707, 
+          37.91955369765541
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196947.7326, 
+        "ET_ORDER": 0.6312, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530920.0874, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 381.95435, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64773195215432, 
+          37.91976642613175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196971.4933, 
+        "ET_ORDER": 0.6474, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530961.9076, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 395.50432, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64763154792524, 
+          37.9197937539467
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196974.5587, 
+        "ET_ORDER": 0.6505, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530970.721, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 397.86416, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6474910341375, 
+          37.91986554425342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4196982.5706, 
+        "ET_ORDER": 0.6555, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 530983.0411, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 402.14018, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6471940430567, 
+          37.92009321898856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197007.9301, 
+        "ET_ORDER": 0.6677, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531009.049, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 413.15599, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64703127865113, 
+          37.92019091564218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197018.8238, 
+        "ET_ORDER": 0.6738, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531023.3138, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 417.84486, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64686016707437, 
+          37.920317920666896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197032.9721, 
+        "ET_ORDER": 0.6807, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531038.2999, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 423.32011, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64670796761425, 
+          37.92046279907281
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197049.0972, 
+        "ET_ORDER": 0.6878, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531051.6162, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 427.9108, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6464915551764, 
+          37.9207728121989
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197083.5656, 
+        "ET_ORDER": 0.701, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531070.5068, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 433.85347, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64631714731773, 
+          37.921103930662206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197120.3617, 
+        "ET_ORDER": 0.7144, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531085.6965, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 439.61916, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64629669410166, 
+          37.92119175204473
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197130.1124, 
+        "ET_ORDER": 0.7178, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531087.4572, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 440.68045, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64621355638383, 
+          37.92133902297511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197146.48, 
+        "ET_ORDER": 0.7238, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531094.7023, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 443.04865, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64620124376636, 
+          37.9213902589922
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197152.1688, 
+        "ET_ORDER": 0.7258, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531095.7629, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 443.67194, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64610442352769, 
+          37.92154141565974
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197168.9721, 
+        "ET_ORDER": 0.7321, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531104.2089, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 445.35818, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64613912914835, 
+          37.9216548726389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197181.5487, 
+        "ET_ORDER": 0.7365, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531101.1108, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 445.36148, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64614819732748, 
+          37.92196804770559
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197216.2928, 
+        "ET_ORDER": 0.7482, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531100.1819, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 449.50632, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64609608287789, 
+          37.922226537309314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197244.9899, 
+        "ET_ORDER": 0.758, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531104.6534, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 453.88219, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64606408305076, 
+          37.92224428767058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197246.97, 
+        "ET_ORDER": 0.7591, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531107.4584, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 454.70896, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64596510685766, 
+          37.922194575411226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197241.4874, 
+        "ET_ORDER": 0.7626, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531116.1784, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 453.97278, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64587291140862, 
+          37.92219195825229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197241.2278, 
+        "ET_ORDER": 0.7653, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531124.2826, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 453.87795, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64578737374991, 
+          37.92223214476099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197245.7151, 
+        "ET_ORDER": 0.7683, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531131.7836, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 454.45656, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64570787646115, 
+          37.922293679503035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197252.569, 
+        "ET_ORDER": 0.7716, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531138.7447, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 455.7274, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64568721160576, 
+          37.922328398367156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197256.428, 
+        "ET_ORDER": 0.773, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531140.5463, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 456.49099, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64563354978733, 
+          37.92234654034913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197258.4588, 
+        "ET_ORDER": 0.7747, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531145.255, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 457.27192, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64560080859123, 
+          37.92233855449999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197257.5837, 
+        "ET_ORDER": 0.7758, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531148.136, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 456.74428, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64560453387539, 
+          37.922467254802605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197271.8619, 
+        "ET_ORDER": 0.7806, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531147.7543, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 460.58898, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64558903063516, 
+          37.922493288965555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197274.7556, 
+        "ET_ORDER": 0.7816, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531149.1059, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 460.69526, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64552416766527, 
+          37.92249876637839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197275.385, 
+        "ET_ORDER": 0.7836, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531154.8044, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 460.83671, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64552305024036, 
+          37.92246015502609
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197271.1014, 
+        "ET_ORDER": 0.785, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531154.9189, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 460.35482, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64550138607267, 
+          37.92246054853021
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197271.1523, 
+        "ET_ORDER": 0.7857, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531156.8228, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 460.27912, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64547112749185, 
+          37.922538354732865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197279.7951, 
+        "ET_ORDER": 0.7887, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531159.4494, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 461.57869, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64538546531845, 
+          37.92257425039398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197283.8064, 
+        "ET_ORDER": 0.7916, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531166.9631, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 462.0161, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64536492299342, 
+          37.92261325884408
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197288.1413, 
+        "ET_ORDER": 0.7932, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531168.7521, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 461.91979, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6452373029995, 
+          37.922697128403335
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197297.4894, 
+        "ET_ORDER": 0.7981, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531179.9332, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 460.94123, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64505656159628, 
+          37.92300517238827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197331.7277, 
+        "ET_ORDER": 0.8108, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531195.6884, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 459.09171, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64503159252716, 
+          37.92307859248551
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197339.8821, 
+        "ET_ORDER": 0.8136, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531197.8519, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 458.38764, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64496292868807, 
+          37.92313993766951
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197346.7114, 
+        "ET_ORDER": 0.8167, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531203.8608, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 457.13763, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64476614093742, 
+          37.92326798601896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197360.9844, 
+        "ET_ORDER": 0.8242, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531221.1022, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 454.08912, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64462177791762, 
+          37.92333499605987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197368.4676, 
+        "ET_ORDER": 0.8292, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531233.7618, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 452.48876, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64450055959048, 
+          37.92345308837684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197381.6107, 
+        "ET_ORDER": 0.8349, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531244.3656, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 452.03901, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64439216537427, 
+          37.92363962959722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197402.344, 
+        "ET_ORDER": 0.8426, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531253.8133, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 455.32012, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64434814285738, 
+          37.92380353990935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197420.5448, 
+        "ET_ORDER": 0.8488, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531257.613, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 458.31288, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6442343279054, 
+          37.92399017454755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197441.2903, 
+        "ET_ORDER": 0.8566, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531267.537, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 463.98752, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64413248245715, 
+          37.92411701173721
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197455.3972, 
+        "ET_ORDER": 0.8622, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531276.4343, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 467.88829, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64406782241038, 
+          37.92414947199709
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197459.0204, 
+        "ET_ORDER": 0.8645, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531282.1034, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 469.1616, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64399593872277, 
+          37.924155185099615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197459.6784, 
+        "ET_ORDER": 0.8666, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531288.4187, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 470.36246, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64378165841349, 
+          37.92410774763286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197454.4871, 
+        "ET_ORDER": 0.8732, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531307.2715, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 474.37851, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6437063749706, 
+          37.924065118196346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197449.7826, 
+        "ET_ORDER": 0.8759, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531313.9061, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 476.58352, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64362997134353, 
+          37.92405398385999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197448.5729, 
+        "ET_ORDER": 0.8782, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531320.6258, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 478.12377, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64336623770919, 
+          37.92396063880607
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197438.3048, 
+        "ET_ORDER": 0.8868, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531343.8445, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 484.52902, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64297827794645, 
+          37.92385552485775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197426.7728, 
+        "ET_ORDER": 0.8989, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531377.9863, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 495.64098, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64264872089886, 
+          37.92378089581657
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197418.6036, 
+        "ET_ORDER": 0.9091, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531406.9823, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 502.79625, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64225764186982, 
+          37.92372139549797
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197412.1338, 
+        "ET_ORDER": 0.9209, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531441.379, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 511.0601, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64194287091185, 
+          37.923699063946614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197409.7623, 
+        "ET_ORDER": 0.9303, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531469.0533, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 519.49707, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6414657971026, 
+          37.9237252380283
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197412.8275, 
+        "ET_ORDER": 0.9444, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531510.9715, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 528.44788, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64116590959645, 
+          37.92375871300988
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197416.643, 
+        "ET_ORDER": 0.9534, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531537.3139, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 528.77281, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64029117916371, 
+          37.92395680925814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197438.9183, 
+        "ET_ORDER": 0.9804, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531614.1079, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 529.16532, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6401993248516, 
+          37.92399352491322
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197443.0231, 
+        "ET_ORDER": 0.9834, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531622.1651, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 529.61875, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64016033661886, 
+          37.924022266146046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197446.2252, 
+        "ET_ORDER": 0.985, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531625.5794, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 529.37735, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64012799229896, 
+          37.92412799576683
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197457.967, 
+        "ET_ORDER": 0.989, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531628.3768, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 529.14976, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64013224070301, 
+          37.9242751203004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197474.2892, 
+        "ET_ORDER": 0.9946, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531627.9404, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 528.77158, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.64016734261139, 
+          37.9244181706738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2765.9, 
+        "Av_S_Up": 11.8, 
+        "Length_3D": 3044.9, 
+        "Len_Down": 279.0, 
+        "Max_S_Down": 32.0, 
+        "Min_Z": 8.0, 
+        "H_Down": 45.6, 
+        "ET_ID": 156, 
+        "trail_name": "McKenna Gulch Fire Road", 
+        "ET_Y": 4197490.1489, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 21.1, 
+        "ET_IDP": 156, 
+        "ET_IDR": "156_0", 
+        "H_Up": 565.5, 
+        "ET_X": 531624.7941, 
+        "Av_S_Down": 9.6, 
+        "ET_Z": 527.90353, 
+        "Length_2D": 2966.8, 
+        "Max_Z": 529.6
+      }
+    }
+  ]
+}

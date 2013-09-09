@@ -1,0 +1,837 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48332685568359, 
+          37.511980040195446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4151795.8084, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545661.6418, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 30.84285, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48381585576969, 
+          37.51217603988996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4151817.3162, 
+        "ET_ORDER": 0.0468, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545618.3062, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 29.3348, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48385485553884, 
+          37.5125980400586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4151864.1157, 
+        "ET_ORDER": 0.0923, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545614.6027, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 30.35107, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4836558555974, 
+          37.51316903957673
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4151927.5612, 
+        "ET_ORDER": 0.156, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545631.8419, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 29.91064, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48401485645803, 
+          37.513516040133474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4151965.8848, 
+        "ET_ORDER": 0.2043, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545599.9039, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 29.58411, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48432085597616, 
+          37.51359904016776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4151974.9449, 
+        "ET_ORDER": 0.232, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545572.8107, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 29.03584, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48479485532916, 
+          37.51405403956875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152025.1949, 
+        "ET_ORDER": 0.2955, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545530.6446, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 29.57064, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48518929168482, 
+          37.514282534922536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152050.3543, 
+        "ET_ORDER": 0.3372, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545495.6478, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 27.71549, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4851295212615, 
+          37.5143233193946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152054.908, 
+        "ET_ORDER": 0.344, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545500.9052, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 28.72938, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48474924151039, 
+          37.514331200145136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152055.9663, 
+        "ET_ORDER": 0.3765, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545534.5073, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 33.83151, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48466487290568, 
+          37.5144095320778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152064.6976, 
+        "ET_ORDER": 0.3876, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545541.9157, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 35.55353, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48401586580239, 
+          37.515181771002425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152150.6873, 
+        "ET_ORDER": 0.4874, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545598.8012, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 48.42314, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4836479545523, 
+          37.51556650727547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152193.5499, 
+        "ET_ORDER": 0.5394, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545631.0804, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 56.33223, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4834675339863, 
+          37.51568019044437
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152206.2499, 
+        "ET_ORDER": 0.5591, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545646.9554, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 59.88541, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48324830636129, 
+          37.51577701046708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152217.0979, 
+        "ET_ORDER": 0.5805, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545666.2701, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 65.0937, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48296683378084, 
+          37.51578293271729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152217.8916, 
+        "ET_ORDER": 0.6046, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545691.1409, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 70.94751, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48222644084021, 
+          37.515910855379055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152232.4437, 
+        "ET_ORDER": 0.6695, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545756.4931, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 87.41709, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48154860281927, 
+          37.51608436088707
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152252.023, 
+        "ET_ORDER": 0.7304, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545816.2891, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 102.82666, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48102353305602, 
+          37.516246608021696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152270.2792, 
+        "ET_ORDER": 0.7786, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545862.5913, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 115.27268, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48079475893003, 
+          37.51642446556775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152290.123, 
+        "ET_ORDER": 0.806, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545882.6996, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 117.56964, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4805070979518, 
+          37.51689062959422
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152341.9815, 
+        "ET_ORDER": 0.8618, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545907.8351, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 118.63401, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48031082064783, 
+          37.51699349850877
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152353.49, 
+        "ET_ORDER": 0.8819, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545925.1173, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 117.60757, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47972862988155, 
+          37.516894357111234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152342.7752, 
+        "ET_ORDER": 0.9328, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545976.6269, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 110.90962, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47947806896947, 
+          37.51675970216532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152327.9585, 
+        "ET_ORDER": 0.9587, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 545998.8519, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 107.00039, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47933522195692, 
+          37.516635061501844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152314.2002, 
+        "ET_ORDER": 0.9768, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 546011.552, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 104.09599, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47935065281784, 
+          37.51641966615454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 663.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 1043.1, 
+        "Len_Down": 379.8, 
+        "Max_S_Down": 9.2, 
+        "Min_Z": 27.7, 
+        "H_Down": 23.1, 
+        "ET_ID": 91, 
+        "trail_name": "Flat Top Trail", 
+        "ET_Y": 4152290.2958, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 91, 
+        "ET_IDR": "91_0", 
+        "H_Up": 92.5, 
+        "ET_X": 546010.3206, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 100.2138, 
+        "Length_2D": 1032.6, 
+        "Max_Z": 118.6
+      }
+    }
+  ]
+}

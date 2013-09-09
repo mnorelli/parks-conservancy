@@ -1,0 +1,773 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51423378618381, 
+          37.591390444160076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160591.4175, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 542884.6595, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 168.21504, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51414546781803, 
+          37.59142322758227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160595.095, 
+        "ET_ORDER": 0.0217, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 542892.4377, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 167.63242, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51405143296587, 
+          37.59142859374653
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160595.7333, 
+        "ET_ORDER": 0.0427, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 542900.7363, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 166.93596, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51400827427338, 
+          37.59139389366034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160591.9032, 
+        "ET_ORDER": 0.0564, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 542904.5664, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 165.85572, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51350951723752, 
+          37.59136882405094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160589.3498, 
+        "ET_ORDER": 0.1678, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 542948.6126, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 162.41286, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51313296782085, 
+          37.59145357783687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160598.9251, 
+        "ET_ORDER": 0.255, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 542981.8068, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 158.13987, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51297333260385, 
+          37.591539224762485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160608.5003, 
+        "ET_ORDER": 0.2979, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 542995.8506, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 155.83045, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51278342564434, 
+          37.59183188172565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160641.0562, 
+        "ET_ORDER": 0.3901, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543012.4477, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 153.73613, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51271741211782, 
+          37.59197545292657
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160657.015, 
+        "ET_ORDER": 0.433, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543018.1929, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 152.05776, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51265203730095, 
+          37.592021212855485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160662.1218, 
+        "ET_ORDER": 0.4524, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543023.938, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 150.7725, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5125438031209, 
+          37.59198624352284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160658.2917, 
+        "ET_ORDER": 0.4784, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543033.5133, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 150.09675, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51251521856459, 
+          37.59193434144194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160652.5465, 
+        "ET_ORDER": 0.4943, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543036.0667, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 149.91109, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51250877668532, 
+          37.59181348694389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160639.1412, 
+        "ET_ORDER": 0.5281, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543036.705, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 148.59455, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51243025337978, 
+          37.59165781141954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160621.9057, 
+        "ET_ORDER": 0.5751, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543043.7269, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 145.91407, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51241624272346, 
+          37.591588708772576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160614.2455, 
+        "ET_ORDER": 0.5947, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543045.0036, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 144.69286, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51241710607242, 
+          37.59145637607731
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160599.5634, 
+        "ET_ORDER": 0.6318, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543045.0036, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 141.41453, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51245374722791, 
+          37.59138172938287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160591.2649, 
+        "ET_ORDER": 0.6542, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543041.8118, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 139.86581, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5125118165961, 
+          37.59134744594592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160587.4347, 
+        "ET_ORDER": 0.6703, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543036.705, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 140.5944, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51223050167077, 
+          37.591242716571344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160575.9444, 
+        "ET_ORDER": 0.7396, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543061.6007, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 127.40147, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51207974971354, 
+          37.59107523482919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160557.4322, 
+        "ET_ORDER": 0.7973, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543075.0061, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 122.68016, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51200122805763, 
+          37.590919559912955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160540.1968, 
+        "ET_ORDER": 0.8442, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543082.028, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 125.20998, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51196639120555, 
+          37.59071803482224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160517.8545, 
+        "ET_ORDER": 0.9012, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543085.2197, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 121.50595, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51202517402173, 
+          37.59057443411845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160501.8957, 
+        "ET_ORDER": 0.9435, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543080.1129, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 120.89229, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51201202796494, 
+          37.590372998703145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 25.2, 
+        "Av_S_Up": 7.4, 
+        "Length_3D": 402.0, 
+        "Len_Down": 376.8, 
+        "Max_S_Down": 25.7, 
+        "Min_Z": 120.0, 
+        "H_Down": 51.4, 
+        "ET_ID": 188, 
+        "trail_name": "North Ridge Trail", 
+        "ET_Y": 4160479.5534, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 188, 
+        "ET_IDR": "188_0", 
+        "H_Up": 3.3, 
+        "ET_X": 543081.3896, 
+        "Av_S_Down": 7.9, 
+        "ET_Z": 120.04473, 
+        "Length_2D": 396.1, 
+        "Max_Z": 168.2
+      }
+    }
+  ]
+}

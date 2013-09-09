@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5151694799608, 
+          37.83222583443755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 122.6, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 4.1, 
+        "Min_Z": 17.3, 
+        "H_Down": 1.4, 
+        "ET_ID": 227, 
+        "trail_name": "Rodeo Valley Connector Trail", 
+        "ET_Y": 4187311.1099, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 227, 
+        "ET_IDR": "227_0", 
+        "H_Up": 3.6, 
+        "ET_X": 542663.7456, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 18.72744, 
+        "Length_2D": 122.4, 
+        "Max_Z": 20.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51509507434164, 
+          37.83239430159011
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 122.6, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 4.1, 
+        "Min_Z": 17.3, 
+        "H_Down": 1.4, 
+        "ET_ID": 227, 
+        "trail_name": "Rodeo Valley Connector Trail", 
+        "ET_Y": 4187329.8353, 
+        "ET_ORDER": 0.1618, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 227, 
+        "ET_IDR": "227_0", 
+        "H_Up": 3.6, 
+        "ET_X": 542670.1961, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 17.29628, 
+        "Length_2D": 122.4, 
+        "Max_Z": 20.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51483615179629, 
+          37.83265104982186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 122.6, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 4.1, 
+        "Min_Z": 17.3, 
+        "H_Down": 1.4, 
+        "ET_ID": 227, 
+        "trail_name": "Rodeo Valley Connector Trail", 
+        "ET_Y": 4187358.4398, 
+        "ET_ORDER": 0.4597, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 227, 
+        "ET_IDR": "227_0", 
+        "H_Up": 3.6, 
+        "ET_X": 542692.8327, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 18.42707, 
+        "Length_2D": 122.4, 
+        "Max_Z": 20.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51485368172132, 
+          37.83283103565068
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 122.6, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 4.1, 
+        "Min_Z": 17.3, 
+        "H_Down": 1.4, 
+        "ET_ID": 227, 
+        "trail_name": "Rodeo Valley Connector Trail", 
+        "ET_Y": 4187378.4012, 
+        "ET_ORDER": 0.6233, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 227, 
+        "ET_IDR": "227_0", 
+        "H_Up": 3.6, 
+        "ET_X": 542691.1864, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 18.77591, 
+        "Length_2D": 122.4, 
+        "Max_Z": 20.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51481288231241, 
+          37.83299037829358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 122.6, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 4.1, 
+        "Min_Z": 17.3, 
+        "H_Down": 1.4, 
+        "ET_ID": 227, 
+        "trail_name": "Rodeo Valley Connector Trail", 
+        "ET_Y": 4187396.0989, 
+        "ET_ORDER": 0.7706, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 227, 
+        "ET_IDR": "227_0", 
+        "H_Up": 3.6, 
+        "ET_X": 542694.6848, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 19.77705, 
+        "Length_2D": 122.4, 
+        "Max_Z": 20.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51470946461505, 
+          37.83322984512869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 2.0, 
+        "Length_3D": 122.6, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 4.1, 
+        "Min_Z": 17.3, 
+        "H_Down": 1.4, 
+        "ET_ID": 227, 
+        "trail_name": "Rodeo Valley Connector Trail", 
+        "ET_Y": 4187422.715, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 227, 
+        "ET_IDR": "227_0", 
+        "H_Up": 3.6, 
+        "ET_X": 542703.6472, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 20.88929, 
+        "Length_2D": 122.4, 
+        "Max_Z": 20.9
+      }
+    }
+  ]
+}

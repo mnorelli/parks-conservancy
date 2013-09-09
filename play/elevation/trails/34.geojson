@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53103616827852, 
+          37.82693108783478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 48.8, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 48.8, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 67.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 34, 
+        "trail_name": "Battery Smith-Guthrie Trail", 
+        "ET_Y": 4186716.5307, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.1, 
+        "ET_IDP": 34, 
+        "ET_IDR": "34_0", 
+        "H_Up": 0.9, 
+        "ET_X": 541270.462, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 67.65278, 
+        "Length_2D": 48.8, 
+        "Max_Z": 68.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53119454684581, 
+          37.826882687120666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 48.8, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 48.8, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 67.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 34, 
+        "trail_name": "Battery Smith-Guthrie Trail", 
+        "ET_Y": 4186711.0907, 
+        "ET_ORDER": 0.306, 
+        "Max_S_Up": 2.1, 
+        "ET_IDP": 34, 
+        "ET_IDR": "34_0", 
+        "H_Up": 0.9, 
+        "ET_X": 541256.551, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 67.69767, 
+        "Length_2D": 48.8, 
+        "Max_Z": 68.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53134737318898, 
+          37.82686213618165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 48.8, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 48.8, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 67.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 34, 
+        "trail_name": "Battery Smith-Guthrie Trail", 
+        "ET_Y": 4186708.7431, 
+        "ET_ORDER": 0.5854, 
+        "Max_S_Up": 2.1, 
+        "ET_IDP": 34, 
+        "ET_IDR": "34_0", 
+        "H_Up": 0.9, 
+        "ET_X": 541243.1131, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 67.94249, 
+        "Length_2D": 48.8, 
+        "Max_Z": 68.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53143561712965, 
+          37.82687197174456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 48.8, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 48.8, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 67.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 34, 
+        "trail_name": "Battery Smith-Guthrie Trail", 
+        "ET_Y": 4186709.7954, 
+        "ET_ORDER": 0.7461, 
+        "Max_S_Up": 2.1, 
+        "ET_IDP": 34, 
+        "ET_IDR": "34_0", 
+        "H_Up": 0.9, 
+        "ET_X": 541235.3418, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 68.22806, 
+        "Length_2D": 48.8, 
+        "Max_Z": 68.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53155111554013, 
+          37.82693590856091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 48.8, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 48.8, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 67.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 34, 
+        "trail_name": "Battery Smith-Guthrie Trail", 
+        "ET_Y": 4186716.8382, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.1, 
+        "ET_IDP": 34, 
+        "ET_IDR": "34_0", 
+        "H_Up": 0.9, 
+        "ET_X": 541225.1419, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 68.54435, 
+        "Length_2D": 48.8, 
+        "Max_Z": 68.5
+      }
+    }
+  ]
+}

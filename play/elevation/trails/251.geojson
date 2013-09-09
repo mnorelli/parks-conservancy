@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51309200177415, 
+          37.78044910073883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 55.3, 
+        "Len_Down": 55.3, 
+        "Max_S_Down": 1.2, 
+        "Min_Z": 17.9, 
+        "H_Down": 0.8, 
+        "ET_ID": 251, 
+        "trail_name": "Sutro Baths Trail", 
+        "ET_Y": 4181567.462, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 251, 
+        "ET_IDR": "251_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542876.4852, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 18.68892, 
+        "Length_2D": 55.3, 
+        "Max_Z": 18.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51307333910307, 
+          37.78014740468194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 55.3, 
+        "Len_Down": 55.3, 
+        "Max_S_Down": 1.2, 
+        "Min_Z": 17.9, 
+        "H_Down": 0.8, 
+        "ET_ID": 251, 
+        "trail_name": "Sutro Baths Trail", 
+        "ET_Y": 4181533.9977, 
+        "ET_ORDER": 0.6063, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 251, 
+        "ET_IDR": "251_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542878.3029, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 17.96683, 
+        "Length_2D": 55.3, 
+        "Max_Z": 18.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51310604322437, 
+          37.77995296742319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 55.3, 
+        "Len_Down": 55.3, 
+        "Max_S_Down": 1.2, 
+        "Min_Z": 17.9, 
+        "H_Down": 0.8, 
+        "ET_ID": 251, 
+        "trail_name": "Sutro Baths Trail", 
+        "ET_Y": 4181512.4101, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 251, 
+        "ET_IDR": "251_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542875.5353, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 17.86773, 
+        "Length_2D": 55.3, 
+        "Max_Z": 18.7
+      }
+    }
+  ]
+}

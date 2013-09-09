@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.43000685149711, 
+          37.80571206872626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.5, 
+        "Av_S_Up": 1.2, 
+        "Length_3D": 77.5, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 19.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 292, 
+        "trail_name": "Great Meadow Path #2", 
+        "ET_Y": 4184411.7194, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 292, 
+        "ET_IDR": "292_0", 
+        "H_Up": 1.7, 
+        "ET_X": 550175.8236, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 19.56498, 
+        "Length_2D": 77.5, 
+        "Max_Z": 21.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42979237769251, 
+          37.805798248625344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.5, 
+        "Av_S_Up": 1.2, 
+        "Length_3D": 77.5, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 19.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 292, 
+        "trail_name": "Great Meadow Path #2", 
+        "ET_Y": 4184421.3962, 
+        "ET_ORDER": 0.2731, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 292, 
+        "ET_IDR": "292_0", 
+        "H_Up": 1.7, 
+        "ET_X": 550194.6453, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 20.03486, 
+        "Length_2D": 77.5, 
+        "Max_Z": 21.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42971463590823, 
+          37.80580972090461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.5, 
+        "Av_S_Up": 1.2, 
+        "Length_3D": 77.5, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 19.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 292, 
+        "trail_name": "Great Meadow Path #2", 
+        "ET_Y": 4184422.7108, 
+        "ET_ORDER": 0.3629, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 292, 
+        "ET_IDR": "292_0", 
+        "H_Up": 1.7, 
+        "ET_X": 550201.4811, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 20.25622, 
+        "Length_2D": 77.5, 
+        "Max_Z": 21.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42950763485194, 
+          37.80578252930221
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.5, 
+        "Av_S_Up": 1.2, 
+        "Length_3D": 77.5, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 19.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 292, 
+        "trail_name": "Great Meadow Path #2", 
+        "ET_Y": 4184419.8051, 
+        "ET_ORDER": 0.6013, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 292, 
+        "ET_IDR": "292_0", 
+        "H_Up": 1.7, 
+        "ET_X": 550219.7217, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 20.70109, 
+        "Length_2D": 77.5, 
+        "Max_Z": 21.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42939772559129, 
+          37.80567601390739
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.5, 
+        "Av_S_Up": 1.2, 
+        "Length_3D": 77.5, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 19.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 292, 
+        "trail_name": "Great Meadow Path #2", 
+        "ET_Y": 4184408.0463, 
+        "ET_ORDER": 0.7983, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 292, 
+        "ET_IDR": "292_0", 
+        "H_Up": 1.7, 
+        "ET_X": 550229.4691, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 20.96901, 
+        "Length_2D": 77.5, 
+        "Max_Z": 21.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42933445419762, 
+          37.80554441649793
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.5, 
+        "Av_S_Up": 1.2, 
+        "Length_3D": 77.5, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 19.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 292, 
+        "trail_name": "Great Meadow Path #2", 
+        "ET_Y": 4184393.4796, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 292, 
+        "ET_IDR": "292_0", 
+        "H_Up": 1.7, 
+        "ET_X": 550235.128, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 21.24284, 
+        "Length_2D": 77.5, 
+        "Max_Z": 21.2
+      }
+    }
+  ]
+}

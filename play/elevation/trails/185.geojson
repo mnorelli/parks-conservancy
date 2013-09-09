@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56933731545101, 
+          37.89126331984857
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193837.9755, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537866.8832, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.50384, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5693544274325, 
+          37.89128340574088
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193840.1971, 
+        "ET_ORDER": 0.0078, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537865.3683, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.56185, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56954711260433, 
+          37.89140918755193
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193854.0745, 
+        "ET_ORDER": 0.0713, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537848.3616, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 40.93315, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56964399379932, 
+          37.89151254689183
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193865.503, 
+        "ET_ORDER": 0.1127, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537839.7902, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 40.51063, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56985036237538, 
+          37.891680071481396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193884.0063, 
+        "ET_ORDER": 0.1878, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537821.5591, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.10377, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57005293924966, 
+          37.89170165772787
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193886.3192, 
+        "ET_ORDER": 0.2399, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537803.7361, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.29991, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5704428699669, 
+          37.8917018555056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193886.1832, 
+        "ET_ORDER": 0.3391, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537769.4506, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 40.80984, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57064377219272, 
+          37.89174550656932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193890.945, 
+        "ET_ORDER": 0.3921, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537751.7636, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.50094, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5708603823187, 
+          37.89174874887325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193891.2171, 
+        "ET_ORDER": 0.4473, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537732.7161, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.34694, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57093453885108, 
+          37.89176863960004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193893.394, 
+        "ET_ORDER": 0.4672, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537726.1856, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.25253, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5710178165735, 
+          37.89181676701112
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193898.7001, 
+        "ET_ORDER": 0.4934, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537718.8387, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.59353, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57123204475019, 
+          37.89187895040265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193905.5128, 
+        "ET_ORDER": 0.5515, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537699.9706, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.68847, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57140936591168, 
+          37.89195612285512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193914.0035, 
+        "ET_ORDER": 0.603, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537684.34, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 41.73393, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5717287633824, 
+          37.89213294875597
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193933.4935, 
+        "ET_ORDER": 0.7021, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537656.1664, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 42.0157, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57197204550502, 
+          37.892189488909345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193939.6685, 
+        "ET_ORDER": 0.7666, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537634.7467, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 42.23778, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57202236084247, 
+          37.89221749949966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193942.756, 
+        "ET_ORDER": 0.7823, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537630.3084, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 42.28096, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57208791796425, 
+          37.89226643688722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193948.1592, 
+        "ET_ORDER": 0.8052, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537624.5193, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 42.24159, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57207435776203, 
+          37.89233421765226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193955.685, 
+        "ET_ORDER": 0.8272, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537625.6771, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 42.40754, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57239554991992, 
+          37.892580617831044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193982.8938, 
+        "ET_ORDER": 0.941, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537597.3106, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 42.545, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5724167117371, 
+          37.892716354812485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4193997.9454, 
+        "ET_ORDER": 0.9849, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537595.3809, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 43.01891, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57246463156773, 
+          37.89274391847918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.2, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 345.6, 
+        "Len_Down": 104.4, 
+        "Max_S_Down": 1.7, 
+        "Min_Z": 40.5, 
+        "H_Down": 1.8, 
+        "ET_ID": 185, 
+        "trail_name": "Muir Woods Annex Trail", 
+        "ET_Y": 4194000.9843, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 185, 
+        "ET_IDR": "185_0", 
+        "H_Up": 3.5, 
+        "ET_X": 537591.1535, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 43.21589, 
+        "Length_2D": 345.5, 
+        "Max_Z": 43.2
+      }
+    }
+  ]
+}

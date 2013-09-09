@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51076281785515, 
+          37.777634375590225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181256.2417, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543083.225, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 55.74435, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5107351799548, 
+          37.77760692032034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181253.2083, 
+        "ET_ORDER": 0.0164, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543085.6748, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 55.75693, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51068405708914, 
+          37.77760108562947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181252.5845, 
+        "ET_ORDER": 0.0356, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543090.1802, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 55.69617, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51051400353182, 
+          37.777666289864605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181259.8972, 
+        "ET_ORDER": 0.1056, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543105.1177, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 55.84962, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51040541555297, 
+          37.7776732349314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181260.7178, 
+        "ET_ORDER": 0.146, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543114.6762, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 56.00853, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51017194317339, 
+          37.77761243347804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181254.0796, 
+        "ET_ORDER": 0.2371, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543135.2717, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 54.70332, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51000616443498, 
+          37.77754500899745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181246.6754, 
+        "ET_ORDER": 0.3062, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543149.9098, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 53.99584, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5100291340618, 
+          37.777298695567104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181219.3366, 
+        "ET_ORDER": 0.4216, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543148.0302, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 52.23992, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51002467399078, 
+          37.77722982099329
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181211.6971, 
+        "ET_ORDER": 0.4538, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543148.463, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 51.69709, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50999700266668, 
+          37.77717601093341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181205.7397, 
+        "ET_ORDER": 0.481, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543150.9311, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 51.4635, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50988151786814, 
+          37.77710265924985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181197.6547, 
+        "ET_ORDER": 0.5358, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543161.1437, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 50.73561, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5097601298396, 
+          37.777074149498205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181194.5476, 
+        "ET_ORDER": 0.5827, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543171.8501, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 50.36505, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50979841234141, 
+          37.776991637363274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181185.3753, 
+        "ET_ORDER": 0.6238, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543168.5268, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 48.89173, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50983863067384, 
+          37.7769588561637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181181.7197, 
+        "ET_ORDER": 0.6452, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543165.0041, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 47.97991, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50995971913532, 
+          37.77690903843061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181176.1366, 
+        "ET_ORDER": 0.6958, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543154.3696, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 44.74319, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51011101702318, 
+          37.776741929034685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181157.5262, 
+        "ET_ORDER": 0.7919, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543141.1429, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 40.99208, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51012169803367, 
+          37.77663573983091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181145.7397, 
+        "ET_ORDER": 0.8417, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543140.264, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 39.45958, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51014355608118, 
+          37.77660149056086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181141.9297, 
+        "ET_ORDER": 0.8596, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543138.359, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 38.78201, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51009554570211, 
+          37.7765011322225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181130.8172, 
+        "ET_ORDER": 0.9098, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543142.6453, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 39.16016, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51014748444192, 
+          37.77639300816092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181118.797, 
+        "ET_ORDER": 0.9638, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543138.1342, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 39.23416, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51014699824202, 
+          37.77631559571025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 54.9, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 238.7, 
+        "Len_Down": 183.9, 
+        "Max_S_Down": 15.1, 
+        "Min_Z": 38.8, 
+        "H_Down": 17.4, 
+        "ET_ID": 23, 
+        "trail_name": "Balboa Trail", 
+        "ET_Y": 4181110.2084, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.8, 
+        "ET_IDP": 23, 
+        "ET_IDR": "23_0", 
+        "H_Up": 0.8, 
+        "ET_X": 543138.222, 
+        "Av_S_Down": 5.4, 
+        "ET_Z": 39.11317, 
+        "Length_2D": 237.5, 
+        "Max_Z": 56.0
+      }
+    }
+  ]
+}

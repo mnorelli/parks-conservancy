@@ -1,0 +1,1541 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52647077651594, 
+          37.82677027877405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186700.7156, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541672.3252, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 61.04491, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52653327880451, 
+          37.826516557408794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186672.5374, 
+        "ET_ORDER": 0.0244, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541666.9674, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 60.99032, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52661995483444, 
+          37.82636130292074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186655.2733, 
+        "ET_ORDER": 0.0404, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541659.4268, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 60.8843, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5267425597696, 
+          37.82622944380182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186640.5889, 
+        "ET_ORDER": 0.0558, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541648.7111, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 60.51259, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52691014523641, 
+          37.82611564990468
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186627.8888, 
+        "ET_ORDER": 0.0723, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541634.0267, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 59.95482, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52707286650005, 
+          37.826057282062656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186621.3404, 
+        "ET_ORDER": 0.0857, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541619.7392, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 59.51165, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5273279088262, 
+          37.82601895829619
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186616.9748, 
+        "ET_ORDER": 0.1051, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541597.3157, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 59.55078, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52845988046526, 
+          37.82601276365928
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186615.7841, 
+        "ET_ORDER": 0.1897, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541497.6999, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 60.11582, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52862475341018, 
+          37.82597049876163
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186611.0216, 
+        "ET_ORDER": 0.2026, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541483.2139, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 60.043, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52864995514473, 
+          37.82595159371294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186608.9129, 
+        "ET_ORDER": 0.2052, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541481.0066, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 60.01176, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52887850565463, 
+          37.82578014085861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186589.7888, 
+        "ET_ORDER": 0.2287, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541460.9889, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 59.681, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52937511958542, 
+          37.82533856853651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186540.5762, 
+        "ET_ORDER": 0.2845, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541417.531, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 58.75063, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52986634529631, 
+          37.825034689920344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186506.6433, 
+        "ET_ORDER": 0.3311, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541374.4699, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 56.26831, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53004801859178, 
+          37.824831521638785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186484.0214, 
+        "ET_ORDER": 0.3546, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541358.5949, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 55.73493, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53005507709427, 
+          37.82481450964762
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186482.1308, 
+        "ET_ORDER": 0.3563, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541357.9832, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 55.66928, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53012358151655, 
+          37.82464939178813
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186463.7807, 
+        "ET_ORDER": 0.3726, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541352.0465, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 55.42675, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53013082300136, 
+          37.82457430194966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186455.4463, 
+        "ET_ORDER": 0.3797, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541351.4511, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 55.38029, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53009453416217, 
+          37.824133580024814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186406.5644, 
+        "ET_ORDER": 0.4214, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541354.8907, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 53.6387, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53007075554272, 
+          37.82409056029567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186401.8019, 
+        "ET_ORDER": 0.4258, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541357.0074, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 53.42283, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5299720007775, 
+          37.82401862481412
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186393.8644, 
+        "ET_ORDER": 0.4358, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541365.7387, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 53.25407, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52954917188703, 
+          37.82385000611278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186375.3435, 
+        "ET_ORDER": 0.4712, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541403.045, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 53.75325, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52938447685777, 
+          37.823746805304744
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186363.9664, 
+        "ET_ORDER": 0.4869, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541417.5971, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 53.71026, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52921472369238, 
+          37.82349334657386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186335.9205, 
+        "ET_ORDER": 0.5139, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541432.6784, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 52.87012, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52907564119877, 
+          37.82314462192828
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186297.2913, 
+        "ET_ORDER": 0.5484, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541445.1138, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 52.3313, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52899220771431, 
+          37.82302743714259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186284.3267, 
+        "ET_ORDER": 0.5611, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541452.5222, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 52.56303, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52894176843259, 
+          37.822922307677715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186272.685, 
+        "ET_ORDER": 0.5717, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541457.0201, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 52.67173, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52892433720496, 
+          37.82282684966777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186262.1017, 
+        "ET_ORDER": 0.5808, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541458.6076, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 52.73043, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52894325378661, 
+          37.8226886112521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186246.7558, 
+        "ET_ORDER": 0.5939, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541457.0201, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 52.98517, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52911645864805, 
+          37.82239836827394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186214.4766, 
+        "ET_ORDER": 0.6242, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541441.9388, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 55.36889, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52953150735095, 
+          37.821896850836126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186158.6494, 
+        "ET_ORDER": 0.6807, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541405.6908, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 59.51198, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5295650652605, 
+          37.82187173377517
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186155.8478, 
+        "ET_ORDER": 0.6841, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541402.7514, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 59.8667, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52960823362712, 
+          37.8218394220741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186152.2437, 
+        "ET_ORDER": 0.6886, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541398.9702, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 60.33476, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52969263779461, 
+          37.821794988357844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186147.2764, 
+        "ET_ORDER": 0.6962, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541391.5666, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 61.05404, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5298427321063, 
+          37.8217748989019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186144.981, 
+        "ET_ORDER": 0.7075, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541378.368, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 61.96686, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53024642377112, 
+          37.82186443685171
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186154.7365, 
+        "ET_ORDER": 0.7389, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541342.7891, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 63.07702, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53071161577846, 
+          37.822024042933066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186172.239, 
+        "ET_ORDER": 0.7768, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541301.7586, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 64.22837, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53117341915063, 
+          37.82220432235446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186192.0369, 
+        "ET_ORDER": 0.8152, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541261.015, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 63.81385, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53146274910827, 
+          37.82233477821805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186206.3832, 
+        "ET_ORDER": 0.8401, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541235.4786, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 63.72586, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53164169535079, 
+          37.82239238417809
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186212.6956, 
+        "ET_ORDER": 0.8546, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541219.6976, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 63.91248, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53180126050349, 
+          37.822421465690816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186215.8518, 
+        "ET_ORDER": 0.8668, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541205.6382, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 64.20443, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53195772929118, 
+          37.822424674304614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186216.1388, 
+        "ET_ORDER": 0.8785, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541191.8657, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 64.50415, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5322685635068, 
+          37.82236144916695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186208.987, 
+        "ET_ORDER": 0.9025, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541164.5445, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 64.92286, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53260391361623, 
+          37.82231862339637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186204.0878, 
+        "ET_ORDER": 0.9279, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541135.0543, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 65.90336, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53273739836006, 
+          37.82234760014785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186207.244, 
+        "ET_ORDER": 0.9382, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541123.2903, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 66.45343, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.532854272253, 
+          37.82242564667402
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186215.8518, 
+        "ET_ORDER": 0.9497, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541112.961, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 67.10339, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53302003282786, 
+          37.82250647276907
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186224.7465, 
+        "ET_ORDER": 0.9642, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541098.3277, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 67.94518, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53321871985034, 
+          37.82253570746006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186227.9027, 
+        "ET_ORDER": 0.9793, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541080.8252, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 67.85513, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53347576365321, 
+          37.82261689553002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 579.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 1177.8, 
+        "Len_Down": 598.4, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 52.3, 
+        "H_Down": 11.0, 
+        "ET_ID": 157, 
+        "trail_name": "Mendell Trail", 
+        "ET_Y": 4186236.7975, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 5.1, 
+        "ET_IDP": 157, 
+        "ET_IDR": "157_0", 
+        "H_Up": 17.2, 
+        "ET_X": 541058.158, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 67.22491, 
+        "Length_2D": 1177.2, 
+        "Max_Z": 67.9
+      }
+    }
+  ]
+}

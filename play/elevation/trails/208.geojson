@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47297000713246, 
+          37.80788827295639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 69.6, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 69.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 35.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 208, 
+        "trail_name": "Pilots Row Trail", 
+        "ET_Y": 4184630.9736, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 208, 
+        "ET_IDR": "208_0", 
+        "H_Up": 3.1, 
+        "ET_X": 546392.4384, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 35.86996, 
+        "Length_2D": 69.5, 
+        "Max_Z": 38.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47277575012491, 
+          37.807676444907365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 69.6, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 69.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 35.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 208, 
+        "trail_name": "Pilots Row Trail", 
+        "ET_Y": 4184607.5678, 
+        "ET_ORDER": 0.4179, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 208, 
+        "ET_IDR": "208_0", 
+        "H_Up": 3.1, 
+        "ET_X": 546409.6708, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 38.06084, 
+        "Length_2D": 69.5, 
+        "Max_Z": 38.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47272359970073, 
+          37.807507492576946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 69.6, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 69.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 35.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 208, 
+        "trail_name": "Pilots Row Trail", 
+        "ET_Y": 4184588.8485, 
+        "ET_ORDER": 0.6954, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 208, 
+        "ET_IDR": "208_0", 
+        "H_Up": 3.1, 
+        "ET_X": 546414.3672, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 38.71505, 
+        "Length_2D": 69.5, 
+        "Max_Z": 38.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47270391260328, 
+          37.807317222638645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 69.6, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 69.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 35.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 208, 
+        "trail_name": "Pilots Row Trail", 
+        "ET_Y": 4184567.7479, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 208, 
+        "ET_IDR": "208_0", 
+        "H_Up": 3.1, 
+        "ET_X": 546416.2193, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 38.93053, 
+        "Length_2D": 69.5, 
+        "Max_Z": 38.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49652817692511, 
+          37.619598065776266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163729.1646, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544430.9839, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 44.23474, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49664376567041, 
+          37.619651544139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163735.0431, 
+        "ET_ORDER": 0.0618, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544420.7514, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 45.01809, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49712565362663, 
+          37.61987449450869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163759.5506, 
+        "ET_ORDER": 0.3195, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544378.0924, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 45.79162, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49734147633333, 
+          37.61997541767608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163770.6456, 
+        "ET_ORDER": 0.4353, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544358.9862, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 46.3718, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49753273489361, 
+          37.62004404451637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163778.1691, 
+        "ET_ORDER": 0.5323, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544342.067, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 46.07875, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49775369341518, 
+          37.620202677222586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163795.6644, 
+        "ET_ORDER": 0.6699, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544322.4734, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 43.56739, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49801652041518, 
+          37.620229412575604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163798.5065, 
+        "ET_ORDER": 0.7924, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544299.2633, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 38.69666, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49822088228638, 
+          37.620170509455185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163791.875, 
+        "ET_ORDER": 0.8928, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544281.2635, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 35.46021, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49839346848104, 
+          37.62004742984215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 83.1, 
+        "Av_S_Up": 1.5, 
+        "Length_3D": 191.9, 
+        "Len_Down": 108.8, 
+        "Max_S_Down": 11.8, 
+        "Min_Z": 33.5, 
+        "H_Down": 12.9, 
+        "ET_ID": 116, 
+        "trail_name": "Headlands Trail", 
+        "ET_Y": 4163778.1384, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 116, 
+        "ET_IDR": "116_0", 
+        "H_Up": 2.1, 
+        "ET_X": 544266.1059, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 33.46882, 
+        "Length_2D": 190.9, 
+        "Max_Z": 46.4
+      }
+    }
+  ]
+}

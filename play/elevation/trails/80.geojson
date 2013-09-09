@@ -1,0 +1,453 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45468760644493, 
+          37.80423091315544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184234.4231, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548004.1478, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.00551, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45468726585905, 
+          37.80425359574431
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184236.9399, 
+        "ET_ORDER": 0.0096, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548004.1631, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.04675, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45458873973932, 
+          37.80436553656751
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184249.4103, 
+        "ET_ORDER": 0.0677, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548012.764, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.20575, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45451519870537, 
+          37.80440290326076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184253.5939, 
+        "ET_ORDER": 0.0972, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548019.2137, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.2003, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45431090231556, 
+          37.804449091099514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184258.8234, 
+        "ET_ORDER": 0.1689, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548037.1682, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.23157, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45424528073558, 
+          37.804486494306936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184263.007, 
+        "ET_ORDER": 0.1962, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548042.9207, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.23307, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45404453246394, 
+          37.8047698849849
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184294.5523, 
+        "ET_ORDER": 0.3345, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548060.4091, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 1.22975, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45383511505436, 
+          37.804963365523804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184316.1266, 
+        "ET_ORDER": 0.443, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548078.7188, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 1.19256, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45351442867229, 
+          37.805158887478854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184337.9847, 
+        "ET_ORDER": 0.5795, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548106.8221, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.41881, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45316301804631, 
+          37.80528216116551
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184351.8428, 
+        "ET_ORDER": 0.7092, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548137.6768, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.70837, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45315645557736, 
+          37.805283076176515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184351.9477, 
+        "ET_ORDER": 0.7114, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548138.2539, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.72354, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45303647411491, 
+          37.805299809885476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184353.8661, 
+        "ET_ORDER": 0.7525, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548148.805, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.67725, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4526789506162, 
+          37.80547139367366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184373.0875, 
+        "ET_ORDER": 0.8936, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548180.1663, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.60962, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45246046328516, 
+          37.80565184532392
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 113.6, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 260.9, 
+        "Len_Down": 147.4, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 1.2, 
+        "H_Down": 2.4, 
+        "ET_ID": 80, 
+        "trail_name": "East Beach Lagoon Trail", 
+        "ET_Y": 4184393.2212, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 80, 
+        "ET_IDR": "80_0", 
+        "H_Up": 2.8, 
+        "ET_X": 548199.2824, 
+        "Av_S_Down": 0.9, 
+        "ET_Z": 3.34509, 
+        "Length_2D": 260.8, 
+        "Max_Z": 3.7
+      }
+    }
+  ]
+}

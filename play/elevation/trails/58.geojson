@@ -1,0 +1,613 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47884957728068, 
+          37.838341947739714
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188006.9031, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545856.0318, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 26.40973, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47881732036322, 
+          37.83833226647668
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188005.8448, 
+        "ET_ORDER": 0.0128, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545858.8761, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 26.58578, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47866294761562, 
+          37.83858376578016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188033.8245, 
+        "ET_ORDER": 0.1442, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545872.3037, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 30.27814, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47863833002101, 
+          37.83866354491251
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188042.6881, 
+        "ET_ORDER": 0.1828, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545874.4204, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 31.90347, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47864500004562, 
+          37.83872199976384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188049.1704, 
+        "ET_ORDER": 0.2104, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545873.7973, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 33.39754, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47887259826605, 
+          37.83895670028206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188075.0987, 
+        "ET_ORDER": 0.3494, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545853.6256, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 39.44392, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47907248173428, 
+          37.83909288676345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188090.1105, 
+        "ET_ORDER": 0.4476, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545835.9536, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 42.36733, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47920116196283, 
+          37.83922019384594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188104.1721, 
+        "ET_ORDER": 0.5242, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545824.5523, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 43.68293, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47926498507252, 
+          37.8393574898093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188119.3738, 
+        "ET_ORDER": 0.5929, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545818.8516, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 45.35891, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4792576391535, 
+          37.839480770322744
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188133.0554, 
+        "ET_ORDER": 0.6509, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545819.4217, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 47.62486, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47917499302665, 
+          37.839545051880755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188140.228, 
+        "ET_ORDER": 0.694, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545826.6539, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 50.13214, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47906646986729, 
+          37.8395962193918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188145.9583, 
+        "ET_ORDER": 0.741, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545836.1711, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 53.06379, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47886555499292, 
+          37.83951355596672
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188136.8854, 
+        "ET_ORDER": 0.8253, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545853.9006, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 55.76055, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47880264069741, 
+          37.83950657904788
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188136.1422, 
+        "ET_ORDER": 0.849, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545859.4407, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 56.1803, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47876235259089, 
+          37.83951807715198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188137.4377, 
+        "ET_ORDER": 0.865, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545862.9785, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 57.03932, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47873568080918, 
+          37.839531689586245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188138.9611, 
+        "ET_ORDER": 0.8768, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545865.3169, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 57.69739, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47866358394229, 
+          37.839631711870204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188150.094, 
+        "ET_ORDER": 0.9309, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545871.5987, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 61.12929, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47858059080014, 
+          37.839676254687724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188155.0768, 
+        "ET_ORDER": 0.9682, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545878.8736, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 63.11396, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47853717402477, 
+          37.8397345301263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 239.9, 
+        "Av_S_Up": 9.4, 
+        "Length_3D": 239.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 26.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 58, 
+        "trail_name": "Chapel Steps Trail", 
+        "ET_Y": 4188161.5638, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 17.4, 
+        "ET_IDP": 58, 
+        "ET_IDR": "58_0", 
+        "H_Up": 39.1, 
+        "ET_X": 545882.6577, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 65.46925, 
+        "Length_2D": 236.2, 
+        "Max_Z": 65.5
+      }
+    }
+  ]
+}

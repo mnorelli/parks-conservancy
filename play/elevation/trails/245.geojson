@@ -1,0 +1,901 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59681796563176, 
+          37.899285297046326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194717.2213, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535446.7345, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 273.2412, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59736434370775, 
+          37.89917701669798
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194705.0, 
+        "ET_ORDER": 0.0425, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535398.75, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 286.44333, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59782558052925, 
+          37.899070437512954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194693.0, 
+        "ET_ORDER": 0.0787, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535358.25, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 287.2934, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59856641020991, 
+          37.89892425187104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194676.5, 
+        "ET_ORDER": 0.1362, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535293.1875, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 314.56095, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5989689119928, 
+          37.898898584875575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194673.5, 
+        "ET_ORDER": 0.1667, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535257.8125, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 321.48546, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59916626626026, 
+          37.89894882859721
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194679.0, 
+        "ET_ORDER": 0.1823, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535240.4375, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 327.0919, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60089361603268, 
+          37.899495478128244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194739.0, 
+        "ET_ORDER": 0.3225, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535088.3125, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 346.46648, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60136944555798, 
+          37.900240190745414
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194821.4476, 
+        "ET_ORDER": 0.402, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535046.1256, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 360.15701, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60168680182903, 
+          37.900785116653566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194881.7884, 
+        "ET_ORDER": 0.4591, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535017.9665, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 346.31197, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60193400864691, 
+          37.90114636650955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194921.7766, 
+        "ET_ORDER": 0.4982, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534996.062, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 375.00576, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6028992481273, 
+          37.901703565708125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194983.2366, 
+        "ET_ORDER": 0.5882, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534910.9392, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 403.33168, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60296513606886, 
+          37.90181486325294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4194995.5605, 
+        "ET_ORDER": 0.5999, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534905.0941, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 399.20449, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60319903357562, 
+          37.90204271011443
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195020.7528, 
+        "ET_ORDER": 0.6278, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534884.4235, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 412.17672, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6030316375112, 
+          37.90234751862785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195054.6342, 
+        "ET_ORDER": 0.6595, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534898.9961, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 417.23371, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60289464407509, 
+          37.90244078808545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195065.0338, 
+        "ET_ORDER": 0.6731, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534910.9957, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 421.46506, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60264160151274, 
+          37.90249450600372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195071.0886, 
+        "ET_ORDER": 0.6928, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534933.2163, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 414.9696, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60234320319873, 
+          37.90241202438559
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195062.049, 
+        "ET_ORDER": 0.7167, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534959.4887, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 423.211, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60215086485181, 
+          37.902395432240645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195060.2802, 
+        "ET_ORDER": 0.7312, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534976.4058, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 425.6198, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60196450290952, 
+          37.9024688006799
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195068.4904, 
+        "ET_ORDER": 0.7469, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534992.7549, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 430.69526, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60185671993095, 
+          37.90260314979185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195083.437, 
+        "ET_ORDER": 0.7621, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 535002.1669, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 434.81389, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60197255658449, 
+          37.90295743142258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195122.7014, 
+        "ET_ORDER": 0.7969, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534991.8155, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 442.98397, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6025459448012, 
+          37.90345841582132
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195178.0711, 
+        "ET_ORDER": 0.8612, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534941.1701, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 460.19836, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60264396853923, 
+          37.903679174883926
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195202.5278, 
+        "ET_ORDER": 0.8835, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534932.4482, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 465.82427, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60278460547629, 
+          37.90388496558592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195225.3078, 
+        "ET_ORDER": 0.9058, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534919.9872, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 471.4607, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60318937303384, 
+          37.904097107842674
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195248.6937, 
+        "ET_ORDER": 0.9424, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534884.303, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 467.11368, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60334775781533, 
+          37.904139845039865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195253.3762, 
+        "ET_ORDER": 0.955, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534870.3589, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 465.80625, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60366044152755, 
+          37.904189569417696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195258.7763, 
+        "ET_ORDER": 0.979, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534842.8468, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 463.15311, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60393037928294, 
+          37.90413597108256
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 985.7, 
+        "Av_S_Up": 13.2, 
+        "Length_3D": 1203.0, 
+        "Len_Down": 217.3, 
+        "Max_S_Down": 16.8, 
+        "Min_Z": 273.2, 
+        "H_Down": 39.2, 
+        "ET_ID": 245, 
+        "trail_name": "Stapelveldt Trail", 
+        "ET_Y": 4195252.7287, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 32.2, 
+        "ET_IDP": 245, 
+        "ET_IDR": "245_0", 
+        "H_Up": 222.7, 
+        "ET_X": 534819.1413, 
+        "Av_S_Down": 10.4, 
+        "ET_Z": 456.6951, 
+        "Length_2D": 1166.1, 
+        "Max_Z": 471.5
+      }
+    }
+  ]
+}

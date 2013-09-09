@@ -1,0 +1,837 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42089214647233, 
+          37.82645245365718
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186717.7978, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550963.9262, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.11973, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42068129148085, 
+          37.82628905923174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186699.7842, 
+        "ET_ORDER": 0.0464, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550982.5949, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 2.36237, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42050034797393, 
+          37.826108099150204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186679.8054, 
+        "ET_ORDER": 0.0923, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550998.6434, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 2.19568, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42043856019363, 
+          37.825918869847406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186658.8441, 
+        "ET_ORDER": 0.1312, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 551004.2113, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 2.29466, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42042854975318, 
+          37.82577122194725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186642.468, 
+        "ET_ORDER": 0.1605, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 551005.1939, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.26545, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42044805724701, 
+          37.82565619151595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186629.6947, 
+        "ET_ORDER": 0.1836, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 551003.5563, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.37638, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42053517390127, 
+          37.8254617903965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186608.0783, 
+        "ET_ORDER": 0.2246, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550996.0233, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.24383, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42074167571683, 
+          37.825229601530005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186582.2042, 
+        "ET_ORDER": 0.281, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550978.0096, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 2.87233, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42115576701623, 
+          37.82510175020627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186567.7932, 
+        "ET_ORDER": 0.351, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550941.6548, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.00704, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42116672415548, 
+          37.82512837183252
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186570.7409, 
+        "ET_ORDER": 0.3566, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550940.6722, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.36537, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4209837515046, 
+          37.82520717581696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186579.584, 
+        "ET_ORDER": 0.3894, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550956.7208, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 8.06591, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42086753469931, 
+          37.8253158273217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186591.7023, 
+        "ET_ORDER": 0.4177, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550966.8739, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 12.86871, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4207583215454, 
+          37.825480599577105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186610.0434, 
+        "ET_ORDER": 0.4547, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550976.372, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 17.20586, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42071251011345, 
+          37.82562797292286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186626.4195, 
+        "ET_ORDER": 0.4849, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550980.3023, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.66782, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42074223581614, 
+          37.825634022668496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186627.0745, 
+        "ET_ORDER": 0.4897, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550977.6821, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.55748, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4209147601319, 
+          37.82546365727353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186608.0783, 
+        "ET_ORDER": 0.5331, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550962.6161, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.56924, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42106819120941, 
+          37.825355188649525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186595.96, 
+        "ET_ORDER": 0.5655, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550949.1878, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.65631, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42128828599257, 
+          37.82528837584081
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186588.4271, 
+        "ET_ORDER": 0.6026, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550929.864, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.66974, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4216793804691, 
+          37.825246017465716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186583.5143, 
+        "ET_ORDER": 0.6648, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550895.4743, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.68875, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42184266195167, 
+          37.825305858182695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186590.0647, 
+        "ET_ORDER": 0.6932, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550881.0634, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.86438, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42266865241301, 
+          37.8258087913378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186645.4157, 
+        "ET_ORDER": 0.8572, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550808.0262, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 19.99021, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42278371774925, 
+          37.82584773107465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186649.6735, 
+        "ET_ORDER": 0.877, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550797.8731, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 20.21626, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42277558554179, 
+          37.8259362498735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186659.4991, 
+        "ET_ORDER": 0.8946, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550798.5281, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 20.62797, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42294626589982, 
+          37.826002029772404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186666.7046, 
+        "ET_ORDER": 0.9245, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550783.4622, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 21.12683, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42305441783428, 
+          37.82597304004633
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186663.4294, 
+        "ET_ORDER": 0.9425, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550773.9641, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 21.45477, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42338845420107, 
+          37.82608980315793
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 451.9, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 560.6, 
+        "Len_Down": 108.7, 
+        "Max_S_Down": 2.3, 
+        "Min_Z": 2.2, 
+        "H_Down": 1.5, 
+        "ET_ID": 1, 
+        "trail_name": "Agave Trail", 
+        "ET_Y": 4186676.2028, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 23.6, 
+        "ET_IDP": 1, 
+        "ET_IDR": "1_0", 
+        "H_Up": 20.7, 
+        "ET_X": 550744.4871, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 22.29897, 
+        "Length_2D": 558.5, 
+        "Max_Z": 22.3
+      }
+    }
+  ]
+}

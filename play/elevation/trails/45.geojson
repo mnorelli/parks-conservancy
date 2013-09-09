@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47739467054772, 
+          37.80303754063514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184090.5999, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546005.9586, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 79.8928, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47740548247133, 
+          37.803134910338436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184101.3977, 
+        "ET_ORDER": 0.0466, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546004.9464, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 79.13862, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47728799968579, 
+          37.80358199988299
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184151.0599, 
+        "ET_ORDER": 0.2642, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546015.0113, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 77.3227, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4768749997372, 
+          37.804292000192504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184230.0375, 
+        "ET_ORDER": 0.6368, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546050.9276, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 72.75467, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47694860964997, 
+          37.804472460277324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184250.0232, 
+        "ET_ORDER": 0.7272, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546044.3356, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 70.2252, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47696850205196, 
+          37.80463974081045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184268.5731, 
+        "ET_ORDER": 0.8073, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546042.4806, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 68.30305, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47690465847913, 
+          37.80472862669723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184278.4664, 
+        "ET_ORDER": 0.856, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546048.0456, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 66.89907, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47687675813502, 
+          37.80481749370347
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184288.3399, 
+        "ET_ORDER": 0.8997, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546050.4465, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 65.74998, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47690663311351, 
+          37.80488995473107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184296.3647, 
+        "ET_ORDER": 0.936, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546047.7716, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 65.22119, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47673738497821, 
+          37.80489055505288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 14.9, 
+        "Av_S_Up": 3.2, 
+        "Length_3D": 233.5, 
+        "Len_Down": 218.5, 
+        "Max_S_Down": 7.1, 
+        "Min_Z": 65.2, 
+        "H_Down": 14.7, 
+        "ET_ID": 45, 
+        "trail_name": "Bowman Trail", 
+        "ET_Y": 4184296.5147, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 45, 
+        "ET_IDR": "45_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546062.6702, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 66.05106, 
+        "Length_2D": 232.8, 
+        "Max_Z": 79.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51108645090284, 
+          37.77518449608026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4180984.2813, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543056.1459, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 8.19368, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51091323575267, 
+          37.77527253438064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4180994.1288, 
+        "ET_ORDER": 0.1561, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543071.3491, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 8.5584, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51077893783545, 
+          37.77540900579636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4181009.332, 
+        "ET_ORDER": 0.3217, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543083.0969, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 8.8233, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51082332811572, 
+          37.77551974733202
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4181021.5982, 
+        "ET_ORDER": 0.4328, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543079.1234, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 9.05614, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51086034418888, 
+          37.775558828839294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4181025.9172, 
+        "ET_ORDER": 0.4795, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543075.8409, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 9.15319, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51104011414046, 
+          37.775667018133355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4181037.8379, 
+        "ET_ORDER": 0.6507, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543059.9467, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 9.02925, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51117779682743, 
+          37.77591050308894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4181064.7889, 
+        "ET_ORDER": 0.9059, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543047.6805, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 9.06171, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51120702735274, 
+          37.775940210046485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4181068.0714, 
+        "ET_ORDER": 0.9419, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543045.0891, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 9.12229, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51127749596317, 
+          37.7759638599451
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 96.2, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 116.1, 
+        "Len_Down": 19.9, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 8.2, 
+        "H_Down": 0.1, 
+        "ET_ID": 253, 
+        "trail_name": "Sutro Dunes Trail", 
+        "ET_Y": 4181070.6629, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.2, 
+        "ET_IDP": 253, 
+        "ET_IDR": "253_0", 
+        "H_Up": 1.1, 
+        "ET_X": 543038.8696, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 9.15224, 
+        "Length_2D": 116.0, 
+        "Max_Z": 9.2
+      }
+    }
+  ]
+}

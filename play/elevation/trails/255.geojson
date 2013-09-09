@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50936387605377, 
+          37.77739285674914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181230.0908, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543206.56, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 57.80399, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50950865250101, 
+          37.7774383495183
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181235.0713, 
+        "ET_ORDER": 0.0992, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543193.7841, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 57.54814, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50975691864575, 
+          37.77769693458892
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181263.6464, 
+        "ET_ORDER": 0.3601, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543171.7707, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 57.26918, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50991736356188, 
+          37.77778726851185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181273.5948, 
+        "ET_ORDER": 0.4854, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543157.589, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 56.77564, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5100975403844, 
+          37.77780137164787
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181275.0764, 
+        "ET_ORDER": 0.6008, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543141.714, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 56.44353, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51036209336955, 
+          37.777777670649996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181272.3248, 
+        "ET_ORDER": 0.7704, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543118.4306, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 55.88289, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51054498863624, 
+          37.777744089467774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181268.5147, 
+        "ET_ORDER": 0.89, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543102.3439, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 55.7354, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5106951877921, 
+          37.77767637369875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.2, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 138.3, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 1.6, 
+        "Min_Z": 55.7, 
+        "H_Down": 2.1, 
+        "ET_ID": 255, 
+        "trail_name": "Sutro Heights Trail", 
+        "ET_Y": 4181260.9325, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 255, 
+        "ET_IDR": "255_0", 
+        "H_Up": 0.0, 
+        "ET_X": 543089.1563, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 55.77853, 
+        "Length_2D": 138.2, 
+        "Max_Z": 57.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,4741 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57623851178624, 
+          37.90853261719622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195751.2414, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537251.3736, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 292.93761, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57644415155593, 
+          37.908880778015025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195789.7881, 
+        "ET_ORDER": 0.0191, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537233.121, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 290.0714, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57672856166832, 
+          37.90921023592402
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195826.2283, 
+        "ET_ORDER": 0.0389, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537207.9536, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 288.54638, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5774328382399, 
+          37.90975486659037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195886.3749, 
+        "ET_ORDER": 0.0776, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537145.7696, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 284.49827, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57747887611018, 
+          37.90986749761286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195898.8531, 
+        "ET_ORDER": 0.0835, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537141.666, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 283.54907, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57749412024572, 
+          37.91013039329944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195928.0156, 
+        "ET_ORDER": 0.0966, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537140.1938, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 281.06021, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57746254879443, 
+          37.910496552934106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195968.654, 
+        "ET_ORDER": 0.1148, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537142.785, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 278.12711, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57751299135393, 
+          37.91056950208695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195976.7277, 
+        "ET_ORDER": 0.1189, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537138.3142, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 277.66305, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57773755027844, 
+          37.91062358997329
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195982.6394, 
+        "ET_ORDER": 0.1282, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537118.5473, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 276.54291, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57814796273398, 
+          37.91064640714067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195985.0077, 
+        "ET_ORDER": 0.1444, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537082.4588, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 275.41935, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57851911185199, 
+          37.91092732929954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196016.0288, 
+        "ET_ORDER": 0.1646, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537049.6923, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 274.45964, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57861505755618, 
+          37.91096998787539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196020.7237, 
+        "ET_ORDER": 0.1689, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537041.2369, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 272.98342, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57872429987516, 
+          37.91098029862549
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196021.8243, 
+        "ET_ORDER": 0.1732, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537031.6289, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 272.14155, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57902394195376, 
+          37.910944724007294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196017.7583, 
+        "ET_ORDER": 0.1852, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 537005.307, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 269.82209, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57927534186221, 
+          37.91100894091296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196024.7835, 
+        "ET_ORDER": 0.1955, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536983.1758, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 268.97717, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57940010422276, 
+          37.91108867128375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196033.5802, 
+        "ET_ORDER": 0.2019, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536972.1688, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 267.91022, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57952064015777, 
+          37.911437517500154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196072.2373, 
+        "ET_ORDER": 0.2198, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536961.3987, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 265.54856, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57952449284387, 
+          37.9115523178228
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196084.973, 
+        "ET_ORDER": 0.2255, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536961.0026, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 264.90087, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57962952428173, 
+          37.9116712623115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196098.1284, 
+        "ET_ORDER": 0.2327, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536951.7105, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 264.14829, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57971271462416, 
+          37.91170467578896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196101.8027, 
+        "ET_ORDER": 0.2364, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536944.3811, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 263.57192, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57999088772348, 
+          37.91175095631097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196106.8274, 
+        "ET_ORDER": 0.2476, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536919.9057, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 261.98141, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58008106828358, 
+          37.911841332144704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196116.819, 
+        "ET_ORDER": 0.2533, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536911.9334, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 261.41321, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58021077592997, 
+          37.91189342478119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196122.5474, 
+        "ET_ORDER": 0.259, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536900.5057, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 260.06371, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58038414534906, 
+          37.91191872865896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196125.2863, 
+        "ET_ORDER": 0.266, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536885.2534, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 259.55706, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58060290486124, 
+          37.91189272273305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196122.3144, 
+        "ET_ORDER": 0.2747, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536866.0368, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 258.39338, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58071963955145, 
+          37.91191093927749
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196124.2894, 
+        "ET_ORDER": 0.2793, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536855.7664, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 257.83497, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58081600417123, 
+          37.91196622923563
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196130.3858, 
+        "ET_ORDER": 0.284, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536847.2681, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 257.21641, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58097073796473, 
+          37.91213585013862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196149.1443, 
+        "ET_ORDER": 0.2944, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536833.582, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 255.67572, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58117274762012, 
+          37.912215781518825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196157.933, 
+        "ET_ORDER": 0.3033, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536815.785, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 254.4869, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58147360381841, 
+          37.912265980586746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196163.3839, 
+        "ET_ORDER": 0.3154, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536789.314, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 252.71299, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58178059243703, 
+          37.912253848913224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196161.9168, 
+        "ET_ORDER": 0.3275, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536762.335, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 251.29005, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58195614770453, 
+          37.91230082633856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196167.0598, 
+        "ET_ORDER": 0.3348, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536746.8799, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 250.23153, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58213428105859, 
+          37.91240874307309
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196178.9631, 
+        "ET_ORDER": 0.3436, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536731.1679, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 249.0014, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58226337934732, 
+          37.912542473518315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196193.7498, 
+        "ET_ORDER": 0.352, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536719.7534, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 248.04872, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58246763700178, 
+          37.913004266063844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196244.9058, 
+        "ET_ORDER": 0.3763, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536701.5693, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 245.34267, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58255430487775, 
+          37.9130692154507
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196252.0779, 
+        "ET_ORDER": 0.381, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536693.9188, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 245.2738, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5827623958806, 
+          37.913164487725766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196262.5666, 
+        "ET_ORDER": 0.3904, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536675.58, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 243.58063, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58281564450836, 
+          37.91322849645629
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196269.6475, 
+        "ET_ORDER": 0.3942, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536670.8676, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 243.02144, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58283179174728, 
+          37.913232802407805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196270.1189, 
+        "ET_ORDER": 0.3949, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536669.4461, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 242.61502, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58292783022208, 
+          37.91331077873735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196278.7327, 
+        "ET_ORDER": 0.4003, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536660.9655, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 242.26788, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58300308928025, 
+          37.913393895372266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196287.925, 
+        "ET_ORDER": 0.4054, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536654.3089, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 241.55478, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.583110753059, 
+          37.913485698083846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196298.0683, 
+        "ET_ORDER": 0.4116, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536644.7996, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 241.09304, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58322224902618, 
+          37.9135375173925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196303.7739, 
+        "ET_ORDER": 0.4167, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536634.9733, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 242.02316, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58323403476808, 
+          37.913535950311946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196303.5954, 
+        "ET_ORDER": 0.4172, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536633.9381, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 241.7106, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58323430992753, 
+          37.913536380303874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196303.643, 
+        "ET_ORDER": 0.4172, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536633.9137, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 241.71172, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5833521459439, 
+          37.913523692651786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196302.189, 
+        "ET_ORDER": 0.4219, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536623.5621, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 239.7291, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58344253731397, 
+          37.91348115862518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196297.4343, 
+        "ET_ORDER": 0.426, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536615.6377, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 239.11129, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58354740078423, 
+          37.91343010620247
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196291.7288, 
+        "ET_ORDER": 0.4309, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536606.4454, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 238.72616, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58363062886055, 
+          37.91337897624573
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196286.0232, 
+        "ET_ORDER": 0.435, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536599.1549, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 238.44214, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58365265169085, 
+          37.91331048795239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196278.4157, 
+        "ET_ORDER": 0.4385, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536597.253, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 237.50867, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58364930306277, 
+          37.91326476590518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196273.3441, 
+        "ET_ORDER": 0.4408, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536597.57, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 237.21524, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58362485061491, 
+          37.91312469078023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196257.8122, 
+        "ET_ORDER": 0.4478, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536599.7888, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 236.56924, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58357166223826, 
+          37.91296451598745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196240.0615, 
+        "ET_ORDER": 0.456, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536604.5435, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 235.19288, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58352211253082, 
+          37.91279863981661
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196221.6768, 
+        "ET_ORDER": 0.4645, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536608.9812, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 234.14053, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5835229166614, 
+          37.912785353030245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196220.2023, 
+        "ET_ORDER": 0.4652, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536608.9171, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 234.1168, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58352608919775, 
+          37.91273294479281
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196214.3863, 
+        "ET_ORDER": 0.4678, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536608.6642, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 234.04945, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58351211642713, 
+          37.91265290158667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196205.5109, 
+        "ET_ORDER": 0.4718, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536609.9321, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 233.27127, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58345163679535, 
+          37.91250698559125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196189.3451, 
+        "ET_ORDER": 0.4794, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536615.3207, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 231.33454, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58345574123685, 
+          37.912418435915136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196179.5188, 
+        "ET_ORDER": 0.4838, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536615.0038, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 230.49001, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58347773171667, 
+          37.91235566175525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196172.5453, 
+        "ET_ORDER": 0.4871, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536613.1019, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 229.96891, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58356132902573, 
+          37.912238824040934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196159.5492, 
+        "ET_ORDER": 0.4937, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536605.8114, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 228.84594, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58370249182178, 
+          37.91214504589937
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196149.089, 
+        "ET_ORDER": 0.501, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536593.4493, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 227.842, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58377504462325, 
+          37.91206816584698
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196140.5306, 
+        "ET_ORDER": 0.5057, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536587.1098, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 226.98671, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58379413281337, 
+          37.91200637278688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196133.6671, 
+        "ET_ORDER": 0.5089, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536585.4625, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 226.92853, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58380199253695, 
+          37.911999525482635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196132.9043, 
+        "ET_ORDER": 0.5094, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536584.775, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 227.14445, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58383671817987, 
+          37.91192404202105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196124.5157, 
+        "ET_ORDER": 0.5133, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536581.7599, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 225.79422, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58383169347559, 
+          37.911745293320394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196104.6853, 
+        "ET_ORDER": 0.5222, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536582.2901, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 225.62576, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58379448951472, 
+          37.9117066051481
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196100.4074, 
+        "ET_ORDER": 0.5246, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536585.5796, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 225.4709, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58376089381929, 
+          37.91163566326727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196092.5495, 
+        "ET_ORDER": 0.5284, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536588.5679, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 224.35402, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58374053240647, 
+          37.911553757029196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196083.4699, 
+        "ET_ORDER": 0.5326, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536590.3983, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 222.73163, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58373025665486, 
+          37.91149838100618
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196077.3299, 
+        "ET_ORDER": 0.5353, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536591.329, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 222.3629, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58377742596421, 
+          37.911420766734444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196068.7, 
+        "ET_ORDER": 0.5396, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536587.2211, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 221.97579, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58385683896473, 
+          37.91135498332364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196061.3701, 
+        "ET_ORDER": 0.5441, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536580.273, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 221.30559, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5839511948045, 
+          37.91133901152782
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196059.561, 
+        "ET_ORDER": 0.5479, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536571.9867, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 220.44694, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58408044392473, 
+          37.91127950320454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196052.9078, 
+        "ET_ORDER": 0.5538, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536560.6547, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 219.03818, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58418241753515, 
+          37.911213321607434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196045.5249, 
+        "ET_ORDER": 0.559, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536551.7236, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 218.3398, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58426203088595, 
+          37.91115468862272
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196038.9883, 
+        "ET_ORDER": 0.5633, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536544.7543, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 217.55291, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5843102596558, 
+          37.91110376349867
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196033.3192, 
+        "ET_ORDER": 0.5664, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536540.54, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 216.40406, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58430855051635, 
+          37.9110429883592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196026.5768, 
+        "ET_ORDER": 0.5695, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536540.7203, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 219.25088, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58426181992328, 
+          37.91098658502219
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196020.3371, 
+        "ET_ORDER": 0.5728, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536544.856, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 222.12494, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58412262025291, 
+          37.9108829063606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4196008.8884, 
+        "ET_ORDER": 0.5803, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536557.1435, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 223.70754, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58376008634556, 
+          37.91073186694909
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195992.2726, 
+        "ET_ORDER": 0.5964, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536589.0865, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 225.37777, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58313367909022, 
+          37.91052590797242
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195969.6672, 
+        "ET_ORDER": 0.6231, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536644.2525, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 209.64014, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58281411212435, 
+          37.91044223211016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195960.5089, 
+        "ET_ORDER": 0.6364, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536672.3854, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 209.23853, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58269111478539, 
+          37.91043664965981
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195959.9379, 
+        "ET_ORDER": 0.6412, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536683.2002, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 208.19036, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58254160777958, 
+          37.91041782582489
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195957.9082, 
+        "ET_ORDER": 0.6472, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536696.3519, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 206.06936, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58238167126294, 
+          37.910349110404496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195950.3471, 
+        "ET_ORDER": 0.6543, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536710.4452, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 204.78598, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58224790347364, 
+          37.910247743501266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195939.153, 
+        "ET_ORDER": 0.6616, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536722.2544, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 203.49656, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58220408007872, 
+          37.91013405956467
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195926.5569, 
+        "ET_ORDER": 0.6675, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536726.1632, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 202.59522, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58223495684992, 
+          37.909947524791534
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195905.8485, 
+        "ET_ORDER": 0.6769, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536723.5417, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 202.38935, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58225229597194, 
+          37.909761227666486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195885.1718, 
+        "ET_ORDER": 0.6861, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536722.1101, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 200.55154, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58225830796145, 
+          37.909653818795576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195873.2523, 
+        "ET_ORDER": 0.6915, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536721.635, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 201.41624, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58220465773913, 
+          37.90951169466283
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195857.5046, 
+        "ET_ORDER": 0.6988, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536726.4218, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 200.49036, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58207750722237, 
+          37.909324369018584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195836.7707, 
+        "ET_ORDER": 0.7094, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536737.6922, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 197.25491, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58194524815612, 
+          37.9092766262363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195831.5257, 
+        "ET_ORDER": 0.7151, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536749.3423, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 195.82386, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58179574369395, 
+          37.90925780146513
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195829.496, 
+        "ET_ORDER": 0.7211, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536762.494, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 195.15648, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5816782252953, 
+          37.909252718720694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195828.9784, 
+        "ET_ORDER": 0.7257, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536772.8271, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 193.99687, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58159169177584, 
+          37.90922562996201
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195826.007, 
+        "ET_ORDER": 0.7294, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536780.4474, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 193.64276, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58155545747594, 
+          37.909189100423
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195821.9683, 
+        "ET_ORDER": 0.7317, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536783.6508, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 193.27416, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58154847198962, 
+          37.90913339700147
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195815.7907, 
+        "ET_ORDER": 0.7345, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536784.2926, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 192.50485, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58150363489048, 
+          37.90905116808918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195806.685, 
+        "ET_ORDER": 0.7389, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536788.275, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 191.99124, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58149357549827, 
+          37.90896538102291
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195797.1708, 
+        "ET_ORDER": 0.7432, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536789.202, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 192.32661, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58143811379932, 
+          37.908899587329145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195789.8928, 
+        "ET_ORDER": 0.7471, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536794.1102, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 190.61448, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58135646926235, 
+          37.90887745940316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195787.4699, 
+        "ET_ORDER": 0.7505, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536801.2983, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 190.27753, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58121807087302, 
+          37.9087815448208
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195776.8827, 
+        "ET_ORDER": 0.7578, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536813.5122, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 189.13605, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58114396964153, 
+          37.90871489242347
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195769.5168, 
+        "ET_ORDER": 0.7622, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536820.0594, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 187.64886, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58105202095969, 
+          37.90865570769904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195762.9865, 
+        "ET_ORDER": 0.7668, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536828.1718, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 187.73154, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58095926883756, 
+          37.90856792275501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195753.2833, 
+        "ET_ORDER": 0.7725, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536836.3691, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 186.87535, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58091305368156, 
+          37.90848334352823
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195743.9174, 
+        "ET_ORDER": 0.7771, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536840.4739, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 185.94085, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5808939746036, 
+          37.908419736779614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195736.8677, 
+        "ET_ORDER": 0.7803, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536842.1828, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 185.4611, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58096464891351, 
+          37.90826776907983
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195719.9788, 
+        "ET_ORDER": 0.7884, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536836.0458, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 184.04593, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58104779833273, 
+          37.90818365130069
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195710.613, 
+        "ET_ORDER": 0.7937, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536828.7783, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 183.20063, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58115939740402, 
+          37.90813876366339
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195705.5886, 
+        "ET_ORDER": 0.7986, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536818.9903, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 182.47566, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58131601619833, 
+          37.908089505248604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195700.0615, 
+        "ET_ORDER": 0.8052, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536805.2469, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 181.28764, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5813735699747, 
+          37.90804914704313
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195695.561, 
+        "ET_ORDER": 0.8083, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536800.2076, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 180.97887, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58147984680605, 
+          37.90793242292717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195682.5684, 
+        "ET_ORDER": 0.8154, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536790.9232, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 180.19279, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58148227024648, 
+          37.90777168320563
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195664.7332, 
+        "ET_ORDER": 0.8234, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536790.7902, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 177.00329, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58153639782047, 
+          37.90773867634109
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195661.0497, 
+        "ET_ORDER": 0.8261, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536786.0484, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 178.18406, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58155695110798, 
+          37.90766677894682
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195653.0645, 
+        "ET_ORDER": 0.8297, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536784.2774, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 177.51349, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58148144490681, 
+          37.90755007717071
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195640.1461, 
+        "ET_ORDER": 0.8363, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536790.9731, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 176.81023, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5814425375444, 
+          37.907450613945024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195629.1259, 
+        "ET_ORDER": 0.8414, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536794.4429, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 175.68224, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58147060983967, 
+          37.907324932187755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195615.1703, 
+        "ET_ORDER": 0.8478, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536792.0377, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 174.56753, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58149988487143, 
+          37.9072421510892
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195605.9741, 
+        "ET_ORDER": 0.852, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536789.5054, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 174.12119, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5814567678095, 
+          37.907153492080056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195596.1543, 
+        "ET_ORDER": 0.8568, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536793.3399, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 173.33782, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58139098960733, 
+          37.907061656500304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195585.991, 
+        "ET_ORDER": 0.862, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536799.1681, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 172.40387, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58139770487351, 
+          37.90697927287386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195576.8478, 
+        "ET_ORDER": 0.8661, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536798.6188, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 172.13748, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58147847363637, 
+          37.90681243054449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195558.3046, 
+        "ET_ORDER": 0.875, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536791.6016, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 170.43361, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58146483539271, 
+          37.90675544252357
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195551.9871, 
+        "ET_ORDER": 0.8779, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536792.8289, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 170.1945, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58142696378579, 
+          37.90662803820665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195537.8664, 
+        "ET_ORDER": 0.8844, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536796.2216, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 169.40709, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58140553789819, 
+          37.90657288095944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195531.7551, 
+        "ET_ORDER": 0.8872, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536798.1326, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 169.01658, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58140827608868, 
+          37.90645599229314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195518.7851, 
+        "ET_ORDER": 0.893, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536797.9501, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 167.94013, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58133982176952, 
+          37.90626882313082
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195498.0455, 
+        "ET_ORDER": 0.9027, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536804.0611, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 167.39889, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58127437851641, 
+          37.90618890293009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195489.2041, 
+        "ET_ORDER": 0.9074, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536809.854, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 166.42238, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58118801439315, 
+          37.906114121362236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195480.9411, 
+        "ET_ORDER": 0.9125, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536817.4835, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 165.08103, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58107156889062, 
+          37.90603986898356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195472.7487, 
+        "ET_ORDER": 0.9184, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536827.7572, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 164.31997, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58093426988272, 
+          37.90597313838742
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195465.3991, 
+        "ET_ORDER": 0.9247, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536839.8604, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 163.18522, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58084797246896, 
+          37.905900738938136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195457.4004, 
+        "ET_ORDER": 0.9296, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536847.4829, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 162.47879, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58081140570184, 
+          37.90577738949044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195443.7291, 
+        "ET_ORDER": 0.9359, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536850.759, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 161.11736, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58083292740886, 
+          37.90568639893494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195433.6251, 
+        "ET_ORDER": 0.9405, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536848.9124, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 161.03329, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58084482136263, 
+          37.90546681556708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195409.2574, 
+        "ET_ORDER": 0.9515, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536847.9763, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 159.48492, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5807350611432, 
+          37.905308987609814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195391.7896, 
+        "ET_ORDER": 0.9604, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536857.7041, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 157.45689, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58066353635458, 
+          37.90522679034771
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195382.698, 
+        "ET_ORDER": 0.9654, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536864.0329, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 156.62845, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58064929728853, 
+          37.90514835277707
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195374.0009, 
+        "ET_ORDER": 0.9693, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536865.3238, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 155.91579, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58068341224462, 
+          37.905025320875176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195360.3369, 
+        "ET_ORDER": 0.9756, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536862.3861, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 156.00928, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58067041591508, 
+          37.90493576029879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195350.4052, 
+        "ET_ORDER": 0.98, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536863.5733, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 154.56582, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58067750101507, 
+          37.904866484687695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195342.7162, 
+        "ET_ORDER": 0.9835, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536862.985, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 154.26223, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58069100187973, 
+          37.90481140305017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195336.5995, 
+        "ET_ORDER": 0.9863, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536861.8256, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 154.03628, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58067549187297, 
+          37.904535184473424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.8, 
+        "Av_S_Up": 5.5, 
+        "Length_3D": 2243.3, 
+        "Len_Down": 2110.5, 
+        "Max_S_Down": 16.6, 
+        "Min_Z": 153.5, 
+        "H_Down": 152.2, 
+        "ET_ID": 7, 
+        "trail_name": "Alice Eastwood Road", 
+        "ET_Y": 4195305.9589, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 22.9, 
+        "ET_IDP": 7, 
+        "ET_IDR": "7_0", 
+        "H_Up": 12.7, 
+        "ET_X": 536863.3269, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 153.4594, 
+        "Length_2D": 2234.0, 
+        "Max_Z": 292.9
+      }
+    }
+  ]
+}

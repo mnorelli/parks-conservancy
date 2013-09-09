@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47850017656847, 
+          37.79550300092072
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 90.7, 
+        "Len_Down": 84.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 67.1, 
+        "H_Down": 4.1, 
+        "ET_ID": 123, 
+        "trail_name": "Immigrant Point Connector", 
+        "ET_Y": 4183254.1034, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 123, 
+        "ET_IDR": "123_0", 
+        "H_Up": 0.4, 
+        "ET_X": 545913.3016, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 70.88847, 
+        "Length_2D": 90.6, 
+        "Max_Z": 70.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47837329773644, 
+          37.79506910912493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 90.7, 
+        "Len_Down": 84.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 67.1, 
+        "H_Down": 4.1, 
+        "ET_ID": 123, 
+        "trail_name": "Immigrant Point Connector", 
+        "ET_Y": 4183206.0257, 
+        "ET_ORDER": 0.5457, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 123, 
+        "ET_IDR": "123_0", 
+        "H_Up": 0.4, 
+        "ET_X": 545924.7408, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 68.15954, 
+        "Length_2D": 90.6, 
+        "Max_Z": 70.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47835855025988, 
+          37.794958937741704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 90.7, 
+        "Len_Down": 84.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 67.1, 
+        "H_Down": 4.1, 
+        "ET_ID": 123, 
+        "trail_name": "Immigrant Point Connector", 
+        "ET_Y": 4183193.8095, 
+        "ET_ORDER": 0.6814, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 123, 
+        "ET_IDR": "123_0", 
+        "H_Up": 0.4, 
+        "ET_X": 545926.1074, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 67.14161, 
+        "Length_2D": 90.6, 
+        "Max_Z": 70.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47837235624696, 
+          37.794907231106954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 90.7, 
+        "Len_Down": 84.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 67.1, 
+        "H_Down": 4.1, 
+        "ET_ID": 123, 
+        "trail_name": "Immigrant Point Connector", 
+        "ET_Y": 4183188.0659, 
+        "ET_ORDER": 0.7462, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 123, 
+        "ET_IDR": "123_0", 
+        "H_Up": 0.4, 
+        "ET_X": 545924.9239, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 67.52866, 
+        "Length_2D": 90.6, 
+        "Max_Z": 70.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47852847877662, 
+          37.794741165977065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 5.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 90.7, 
+        "Len_Down": 84.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 67.1, 
+        "H_Down": 4.1, 
+        "ET_ID": 123, 
+        "trail_name": "Immigrant Point Connector", 
+        "ET_Y": 4183169.5644, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 123, 
+        "ET_IDR": "123_0", 
+        "H_Up": 0.4, 
+        "ET_X": 545911.2813, 
+        "Av_S_Down": 2.8, 
+        "ET_Z": 67.17755, 
+        "Length_2D": 90.6, 
+        "Max_Z": 70.9
+      }
+    }
+  ]
+}

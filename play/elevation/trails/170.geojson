@@ -1,0 +1,1733 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54075678110043, 
+          37.83288385241359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187372.7388, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540411.7625, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 19.8412, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54080217468794, 
+          37.83283912532025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187367.7567, 
+        "ET_ORDER": 0.006, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540407.7924, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 19.99821, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54077547320617, 
+          37.83243605881262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187323.0481, 
+        "ET_ORDER": 0.0482, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540410.3619, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 23.68248, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54091173799625, 
+          37.8321216304856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187288.1034, 
+        "ET_ORDER": 0.083, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540398.5424, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 26.56979, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5409999934919, 
+          37.83201544430276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187276.2839, 
+        "ET_ORDER": 0.0963, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540390.834, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 27.41353, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54108741675755, 
+          37.83204357592473
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187279.3673, 
+        "ET_ORDER": 0.1041, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540383.1256, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 28.50905, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54101081221788, 
+          37.832154439403126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187291.7007, 
+        "ET_ORDER": 0.1173, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540389.8062, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 29.14132, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54101564772601, 
+          37.8323165694037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187309.6869, 
+        "ET_ORDER": 0.1343, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540389.2923, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 30.30071, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54107859327458, 
+          37.83252524318508
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187332.812, 
+        "ET_ORDER": 0.1567, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540383.6395, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 32.68232, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54122335295614, 
+          37.83272497290049
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187354.9094, 
+        "ET_ORDER": 0.1808, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540370.7922, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 34.92048, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54148464998217, 
+          37.832966841699815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187381.6318, 
+        "ET_ORDER": 0.2141, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540347.6671, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 35.77546, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54180765511056, 
+          37.8331843677125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187405.6268, 
+        "ET_ORDER": 0.2493, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540319.1253, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 41.6194, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54195191113843, 
+          37.83325103169582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187412.9609, 
+        "ET_ORDER": 0.2631, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540306.395, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 42.53326, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54209089602172, 
+          37.83328085836249
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187416.2102, 
+        "ET_ORDER": 0.275, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540294.1486, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 43.04031, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54253972990111, 
+          37.83328127133194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187416.0625, 
+        "ET_ORDER": 0.3123, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540254.6526, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.95644, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54258618544672, 
+          37.83331712284749
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187420.0202, 
+        "ET_ORDER": 0.3176, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540250.5452, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 45.6953, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54260582180973, 
+          37.833364743128186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187425.2952, 
+        "ET_ORDER": 0.3229, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540248.7914, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 46.64706, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54259253336264, 
+          37.83345554881568
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187435.3758, 
+        "ET_ORDER": 0.3324, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540249.9114, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 48.62367, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54275006433699, 
+          37.83341590808403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187430.9098, 
+        "ET_ORDER": 0.3461, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540236.0708, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.07588, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5428177963952, 
+          37.8334229650895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187431.6636, 
+        "ET_ORDER": 0.3518, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540230.1068, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 46.7215, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54299888239113, 
+          37.833484700892804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187438.4352, 
+        "ET_ORDER": 0.3682, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540214.1384, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 45.90751, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54328634832272, 
+          37.83367659323543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187459.6019, 
+        "ET_ORDER": 0.3993, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540188.7384, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.70067, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54357038858066, 
+          37.83403444843315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187499.1837, 
+        "ET_ORDER": 0.4435, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540163.55, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.05586, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54367575435776, 
+          37.83411116779842
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187507.6504, 
+        "ET_ORDER": 0.4554, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540154.2367, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.02234, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54375259773569, 
+          37.83413245066896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187509.9787, 
+        "ET_ORDER": 0.4622, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540147.4633, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.15938, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54422913749285, 
+          37.834176396786184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187514.6498, 
+        "ET_ORDER": 0.5019, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540105.5062, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.30486, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54436425746087, 
+          37.83417523415672
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187514.4628, 
+        "ET_ORDER": 0.5131, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540093.6169, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.41216, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54453435499379, 
+          37.834145488256745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187511.0895, 
+        "ET_ORDER": 0.5276, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540078.6652, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.47347, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54479945194967, 
+          37.83405207046132
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187500.6111, 
+        "ET_ORDER": 0.5517, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540055.3884, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 51.52533, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54502632711728, 
+          37.83405763392073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187501.1311, 
+        "ET_ORDER": 0.5705, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540035.4214, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 51.36022, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5450787797339, 
+          37.83408466488317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187504.1077, 
+        "ET_ORDER": 0.5757, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540030.7912, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 51.18873, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54513488177807, 
+          37.83412959457915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187509.0686, 
+        "ET_ORDER": 0.5823, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540025.8302, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.50988, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54518190064628, 
+          37.83420188894594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187517.0695, 
+        "ET_ORDER": 0.5908, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540021.6537, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 46.7844, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54519488159868, 
+          37.834291365989
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187526.9914, 
+        "ET_ORDER": 0.6002, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540020.4631, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.13821, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5451697572926, 
+          37.8345709016778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187558.0166, 
+        "ET_ORDER": 0.6295, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540022.5229, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 48.32296, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54520671936054, 
+          37.8346723947314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187569.2614, 
+        "ET_ORDER": 0.6406, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540019.2156, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.81445, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54526752149326, 
+          37.83471929204055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187574.4386, 
+        "ET_ORDER": 0.6476, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 540013.84, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.54321, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54582761999102, 
+          37.8349328317066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187597.891, 
+        "ET_ORDER": 0.6991, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539964.4391, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 45.05578, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54594821485294, 
+          37.83500611068736
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187605.9697, 
+        "ET_ORDER": 0.7117, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539953.7879, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.57162, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5460108767735, 
+          37.83509865342708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187616.2105, 
+        "ET_ORDER": 0.7227, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539948.2241, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.23216, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5460744378967, 
+          37.83536551351155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187645.7914, 
+        "ET_ORDER": 0.7511, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539942.4872, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 43.80348, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54613110747371, 
+          37.83542713443881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187652.604, 
+        "ET_ORDER": 0.7591, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539937.4674, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 43.86357, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54619418574902, 
+          37.83544030407203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187654.0382, 
+        "ET_ORDER": 0.7645, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539931.9098, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 43.80198, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5462677378861, 
+          37.83540665500932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187650.2734, 
+        "ET_ORDER": 0.7715, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539925.4558, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 43.59559, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54638394509936, 
+          37.835293956020266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187637.7198, 
+        "ET_ORDER": 0.7868, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539915.291, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 43.35416, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54671907516128, 
+          37.83506989042044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187612.7166, 
+        "ET_ORDER": 0.8231, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539885.9222, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 42.34688, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54697229981646, 
+          37.83496355227461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187600.8103, 
+        "ET_ORDER": 0.8469, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539863.6971, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 41.70532, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54729317521917, 
+          37.834857474541316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187588.9041, 
+        "ET_ORDER": 0.8757, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539835.5189, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 41.20631, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54754149355787, 
+          37.83481550397067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187584.1416, 
+        "ET_ORDER": 0.8968, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539813.6908, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 41.04351, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54775760900321, 
+          37.834877143505814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187590.8884, 
+        "ET_ORDER": 0.9158, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539794.6407, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 40.70469, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54800058855069, 
+          37.834971080482234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187601.2072, 
+        "ET_ORDER": 0.9382, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539773.2094, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 40.45664, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54813517172182, 
+          37.83508964036758
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187614.3041, 
+        "ET_ORDER": 0.9549, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539761.3032, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 40.14953, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54822007976985, 
+          37.83521874053121
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187628.5916, 
+        "ET_ORDER": 0.9701, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539753.7625, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 39.94311, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54835377074201, 
+          37.83548395762512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 586.9, 
+        "Av_S_Up": 3.6, 
+        "Length_3D": 1063.9, 
+        "Len_Down": 477.1, 
+        "Max_S_Down": 22.4, 
+        "Min_Z": 19.8, 
+        "H_Down": 16.7, 
+        "ET_ID": 170, 
+        "trail_name": "Mitchell Road", 
+        "ET_Y": 4187657.9605, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 13.3, 
+        "ET_IDP": 170, 
+        "ET_IDR": "170_0", 
+        "H_Up": 36.9, 
+        "ET_X": 539741.8562, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 39.96203, 
+        "Length_2D": 1061.0, 
+        "Max_Z": 51.5
+      }
+    }
+  ]
+}

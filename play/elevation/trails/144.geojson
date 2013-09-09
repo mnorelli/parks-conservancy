@@ -1,0 +1,517 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4717043956652, 
+          37.80860028992794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184710.6006, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546503.3996, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.75777, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47157990716028, 
+          37.8085348039197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184703.3969, 
+        "ET_ORDER": 0.0376, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546514.3989, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.64433, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47144817541958, 
+          37.808442564149345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184693.2285, 
+        "ET_ORDER": 0.0818, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546526.0526, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.92242, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47131138438112, 
+          37.80831093681933
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184678.6926, 
+        "ET_ORDER": 0.1359, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546538.1764, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 5.74881, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47123027430179, 
+          37.80819005412757
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184665.3211, 
+        "ET_ORDER": 0.1793, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546545.3921, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.81478, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47115291559756, 
+          37.808014858163226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184645.9217, 
+        "ET_ORDER": 0.2382, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546552.3117, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 8.09223, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47101409825407, 
+          37.80735036516609
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184572.2656, 
+        "ET_ORDER": 0.4517, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546564.9486, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 12.67181, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47091515772792, 
+          37.80714462676082
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184549.4883, 
+        "ET_ORDER": 0.5216, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546573.7873, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 14.24667, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47076115782555, 
+          37.806951480981816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184528.1356, 
+        "ET_ORDER": 0.594, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546587.4649, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 15.94027, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47050996920242, 
+          37.8067489707244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184505.7924, 
+        "ET_ORDER": 0.6841, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546609.7038, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 18.20488, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47024029531684, 
+          37.8065673692136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184485.7783, 
+        "ET_ORDER": 0.7731, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546633.5569, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 19.8622, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47008150726278, 
+          37.80638941061091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184466.1131, 
+        "ET_ORDER": 0.8423, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546647.6467, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 21.66811, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46998339038316, 
+          37.806214560298976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184446.7625, 
+        "ET_ORDER": 0.9029, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546656.3938, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 23.36117, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46996066002148, 
+          37.80607553369635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184431.3489, 
+        "ET_ORDER": 0.9474, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546658.4822, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 24.77106, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46997426583627, 
+          37.80600114038899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184423.0882, 
+        "ET_ORDER": 0.9712, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546657.3313, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 25.65406, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47003182889706, 
+          37.80592273932733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 337.5, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 350.7, 
+        "Len_Down": 13.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 4.6, 
+        "H_Down": 0.1, 
+        "ET_ID": 144, 
+        "trail_name": "Long Avenue Trail", 
+        "ET_Y": 4184414.3609, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 144, 
+        "ET_IDR": "144_0", 
+        "H_Up": 22.2, 
+        "ET_X": 546652.3134, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 26.85939, 
+        "Length_2D": 349.9, 
+        "Max_Z": 26.9
+      }
+    }
+  ]
+}

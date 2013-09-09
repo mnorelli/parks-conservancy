@@ -1,0 +1,389 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49775385183263, 
+          37.52890803994419
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153666.9671, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544376.6023, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 46.77563, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49788774653254, 
+          37.529039030597914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153681.4366, 
+        "ET_ORDER": 0.0419, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544364.6942, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 46.94537, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4978869702952, 
+          37.529154829552
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153694.2842, 
+        "ET_ORDER": 0.0706, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544364.6942, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 47.73892, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49795903746411, 
+          37.529249884380185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153704.796, 
+        "ET_ORDER": 0.0982, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544358.2703, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 49.5946, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49797771021456, 
+          37.52958009066196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153741.4217, 
+        "ET_ORDER": 0.1801, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544356.4249, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 50.67969, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49823885135788, 
+          37.53004503947521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153792.882, 
+        "ET_ORDER": 0.3065, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544333.0763, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 58.64877, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4987028516778, 
+          37.53052903916204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153846.3604, 
+        "ET_ORDER": 0.4575, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544291.7931, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 71.75513, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49899085175838, 
+          37.53093303991611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153891.0464, 
+        "ET_ORDER": 0.5727, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544266.1081, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 79.03794, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49902585176673, 
+          37.53112203986512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153911.9984, 
+        "ET_ORDER": 0.6201, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544262.904, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 82.22389, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4989518519914, 
+          37.53181603985622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4153989.0286, 
+        "ET_ORDER": 0.7928, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544269.032, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 91.4654, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4990668520477, 
+          37.53203103977261
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4154012.8275, 
+        "ET_ORDER": 0.8508, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544258.7443, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 92.72201, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49915238368577, 
+          37.53262868215181
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 450.7, 
+        "Av_S_Up": 5.9, 
+        "Length_3D": 450.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 46.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 86, 
+        "trail_name": "Ember Ridge Trail", 
+        "ET_Y": 4154079.0923, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 11.0, 
+        "ET_IDP": 86, 
+        "ET_IDR": "86_0", 
+        "H_Up": 46.6, 
+        "ET_X": 544250.8342, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 93.33213, 
+        "Length_2D": 447.3, 
+        "Max_Z": 93.3
+      }
+    }
+  ]
+}

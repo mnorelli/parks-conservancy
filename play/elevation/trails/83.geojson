@@ -1,0 +1,5413 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45770588590052, 
+          37.790102021695816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182665.2839, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_0", 
+        "H_Up": 36.3, 
+        "ET_X": 547747.5384, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 86.28311, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45771667609259, 
+          37.79021475970408
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182677.7866, 
+        "ET_ORDER": 0.0044, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_0", 
+        "H_Up": 36.3, 
+        "ET_X": 547746.5158, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 85.09871, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45796723412316, 
+          37.79084677160203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182747.78, 
+        "ET_ORDER": 0.0304, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_0", 
+        "H_Up": 36.3, 
+        "ET_X": 547724.0482, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 80.64621, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45850412607345, 
+          37.79032141583453
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182689.2182, 
+        "ET_ORDER": 0.0304, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_1", 
+        "H_Up": 36.3, 
+        "ET_X": 547677.114, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 89.55987, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45796723412316, 
+          37.79084677160203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182747.78, 
+        "ET_ORDER": 0.0304, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_1", 
+        "H_Up": 36.3, 
+        "ET_X": 547724.0482, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 80.64621, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45796723412316, 
+          37.79084677160203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182747.78, 
+        "ET_ORDER": 0.0304, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_2", 
+        "H_Up": 36.3, 
+        "ET_X": 547724.0482, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 80.64621, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45796723412316, 
+          37.79084677160203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182747.78, 
+        "ET_ORDER": 0.0304, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547724.0482, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 80.64621, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45837149717589, 
+          37.790479916619304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182706.8714, 
+        "ET_ORDER": 0.0378, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_1", 
+        "H_Up": 36.3, 
+        "ET_X": 547688.6898, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 86.82412, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45828005806551, 
+          37.79065039400113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182725.8324, 
+        "ET_ORDER": 0.0451, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_1", 
+        "H_Up": 36.3, 
+        "ET_X": 547696.6312, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 84.55458, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45802898158414, 
+          37.7907945515323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182741.9547, 
+        "ET_ORDER": 0.0547, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_1", 
+        "H_Up": 36.3, 
+        "ET_X": 547718.6451, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 81.56062, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45820491104176, 
+          37.79144628366128
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182814.1742, 
+        "ET_ORDER": 0.0821, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_2", 
+        "H_Up": 36.3, 
+        "ET_X": 547702.736, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 76.89484, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45820266199775, 
+          37.79162005075572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182833.4547, 
+        "ET_ORDER": 0.0889, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_2", 
+        "H_Up": 36.3, 
+        "ET_X": 547702.8223, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 76.22878, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4581584876269, 
+          37.79169390029084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182841.6708, 
+        "ET_ORDER": 0.0921, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_2", 
+        "H_Up": 36.3, 
+        "ET_X": 547706.6642, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 75.78819, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45806891296098, 
+          37.791767293126604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182849.8594, 
+        "ET_ORDER": 0.0961, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_2", 
+        "H_Up": 36.3, 
+        "ET_X": 547714.5037, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 75.19936, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45806891296098, 
+          37.791767293126604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182849.8594, 
+        "ET_ORDER": 0.0961, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547714.5037, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 75.19936, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45806891296098, 
+          37.791767293126604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182849.8594, 
+        "ET_ORDER": 0.0961, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_5", 
+        "H_Up": 36.3, 
+        "ET_X": 547714.5037, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 75.19936, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4578828016487, 
+          37.79091817443534
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182755.7452, 
+        "ET_ORDER": 0.0999, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547731.4363, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 78.56623, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4575490196844, 
+          37.79128139005751
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182796.2142, 
+        "ET_ORDER": 0.1175, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547760.591, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 69.2725, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45741201485335, 
+          37.79154030365881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182825.0105, 
+        "ET_ORDER": 0.1285, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547772.4871, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 64.93624, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45732959621985, 
+          37.7916551432655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182837.794, 
+        "ET_ORDER": 0.1337, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547779.6698, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 63.31232, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45719966332807, 
+          37.79172622965559
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182845.7474, 
+        "ET_ORDER": 0.1386, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547791.0641, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 61.39271, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45676425244656, 
+          37.791807991681125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182855.0415, 
+        "ET_ORDER": 0.1525, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547829.3476, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 55.78227, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45671586455352, 
+          37.79181707821288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182856.0744, 
+        "ET_ORDER": 0.154, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547833.6021, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 55.46282, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45662881273608, 
+          37.79185361522545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182860.1727, 
+        "ET_ORDER": 0.1571, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547841.2431, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 54.98006, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45653259460133, 
+          37.79194232738799
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182870.0645, 
+        "ET_ORDER": 0.1617, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547849.6575, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 54.13962, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45641476468226, 
+          37.7921074728426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182888.4476, 
+        "ET_ORDER": 0.1691, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547859.9254, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 53.11213, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4563577045289, 
+          37.792208840572606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182899.7235, 
+        "ET_ORDER": 0.1735, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547864.8839, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 52.62915, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45634069528471, 
+          37.792298101904215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182909.6357, 
+        "ET_ORDER": 0.177, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547866.3239, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 52.31854, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45636282409131, 
+          37.7923851562564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182919.283, 
+        "ET_ORDER": 0.1805, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547864.3194, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 51.812, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45643150731992, 
+          37.7925010654787
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182932.1079, 
+        "ET_ORDER": 0.1855, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547858.1974, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 50.9507, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45670570845687, 
+          37.79278091484959
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182963.0167, 
+        "ET_ORDER": 0.1994, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547833.8749, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 49.07708, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4568885668068, 
+          37.79310840948505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182999.2585, 
+        "ET_ORDER": 0.2134, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_3", 
+        "H_Up": 36.3, 
+        "ET_X": 547817.5641, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 47.39151, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4568885668068, 
+          37.79310840948505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182999.2585, 
+        "ET_ORDER": 0.2134, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547817.5641, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 47.39151, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4568885668068, 
+          37.79310840948505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182999.2585, 
+        "ET_ORDER": 0.2134, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547817.5641, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 47.39151, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4568885668068, 
+          37.79310840948505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182999.2585, 
+        "ET_ORDER": 0.2134, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547817.5641, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 47.39151, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45790312756216, 
+          37.79186591178591
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182860.8857, 
+        "ET_ORDER": 0.2198, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547729.037, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 73.52518, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45786974471531, 
+          37.79190962502755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182865.7527, 
+        "ET_ORDER": 0.2218, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547731.9481, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 73.05921, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45775497199027, 
+          37.79217282248318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182895.0129, 
+        "ET_ORDER": 0.2327, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547741.884, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 73.42495, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45774615830771, 
+          37.792361491362364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182915.9501, 
+        "ET_ORDER": 0.2401, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547742.5386, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 73.67388, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45775384289158, 
+          37.79240548460498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182920.8272, 
+        "ET_ORDER": 0.2418, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547741.8337, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 74.11244, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45778076698097, 
+          37.79243386644375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182923.9624, 
+        "ET_ORDER": 0.2432, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547739.4449, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 74.35396, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4579823236137, 
+          37.792564470102256
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182938.3499, 
+        "ET_ORDER": 0.2513, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547721.6148, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 73.7831, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45810909440486, 
+          37.7926272320353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182945.2486, 
+        "ET_ORDER": 0.256, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547710.4129, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 72.60125, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45827634607966, 
+          37.79266896850095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182949.7939, 
+        "ET_ORDER": 0.2614, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547695.6604, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 71.31118, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45838062155887, 
+          37.792716536044125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182955.0183, 
+        "ET_ORDER": 0.2651, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547686.4489, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 69.88107, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45844949932913, 
+          37.792785104493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182962.5908, 
+        "ET_ORDER": 0.2686, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547680.3405, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 68.51322, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45849606988001, 
+          37.7929181664829
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182977.3302, 
+        "ET_ORDER": 0.274, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547676.1547, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 66.53836, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45849752255836, 
+          37.79291847690167
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182977.3639, 
+        "ET_ORDER": 0.274, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_4", 
+        "H_Up": 36.3, 
+        "ET_X": 547676.0266, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 66.54178, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45828302340088, 
+          37.79205248573827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182881.3921, 
+        "ET_ORDER": 0.274, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_5", 
+        "H_Up": 36.3, 
+        "ET_X": 547695.4688, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 84.87116, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45849752255836, 
+          37.79291847690167
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182977.3639, 
+        "ET_ORDER": 0.274, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547676.0266, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 66.54178, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45849752255836, 
+          37.79291847690167
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182977.3639, 
+        "ET_ORDER": 0.274, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547676.0266, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 66.54178, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45821886177362, 
+          37.79201337121044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182877.0851, 
+        "ET_ORDER": 0.2765, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_5", 
+        "H_Up": 36.3, 
+        "ET_X": 547701.1431, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 83.43614, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45824371149895, 
+          37.79197648843152
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182872.9803, 
+        "ET_ORDER": 0.2782, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_5", 
+        "H_Up": 36.3, 
+        "ET_X": 547698.9789, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 82.53787, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45826727660788, 
+          37.791874588118404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182861.6625, 
+        "ET_ORDER": 0.2822, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_5", 
+        "H_Up": 36.3, 
+        "ET_X": 547696.9696, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 79.75702, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.458253903525, 
+          37.79183856969319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182857.6731, 
+        "ET_ORDER": 0.2837, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_5", 
+        "H_Up": 36.3, 
+        "ET_X": 547698.1702, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 78.30505, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45813423215532, 
+          37.7917809888564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182851.3456, 
+        "ET_ORDER": 0.2881, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_5", 
+        "H_Up": 36.3, 
+        "ET_X": 547708.7438, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 76.03327, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45515065455014, 
+          37.79263400064499
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182947.5134, 
+        "ET_ORDER": 0.2902, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 547970.8843, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 31.007, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45515065455014, 
+          37.79263400064499
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182947.5134, 
+        "ET_ORDER": 0.2902, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547970.8843, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 31.007, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45515065455014, 
+          37.79263400064499
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182947.5134, 
+        "ET_ORDER": 0.2902, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547970.8843, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 31.007, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45507347903362, 
+          37.792617170445894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182945.6857, 
+        "ET_ORDER": 0.2926, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 547977.6901, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 31.23129, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45498500508498, 
+          37.792653332821985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182949.7433, 
+        "ET_ORDER": 0.2957, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 547985.4564, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 31.34624, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45484070970706, 
+          37.792910513343195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182978.3514, 
+        "ET_ORDER": 0.3068, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 547997.9945, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.07974, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45479000717594, 
+          37.79296675219909
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182984.6171, 
+        "ET_ORDER": 0.3095, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548002.4222, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.6388, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45467308123864, 
+          37.79301959302975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182990.5398, 
+        "ET_ORDER": 0.3136, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548012.6827, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.83132, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45458458142762, 
+          37.79312592568689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183002.3828, 
+        "ET_ORDER": 0.3186, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548020.4058, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 34.21478, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45456604766812, 
+          37.79312993274129
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183002.8369, 
+        "ET_ORDER": 0.3192, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548022.035, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 34.33877, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45469507304767, 
+          37.79289587714779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182976.8023, 
+        "ET_ORDER": 0.3292, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548010.8265, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 37.06043, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45476012016105, 
+          37.792597822435866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182943.6999, 
+        "ET_ORDER": 0.3411, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548005.2923, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 39.00049, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45470828357165, 
+          37.79257426109465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182941.1124, 
+        "ET_ORDER": 0.3429, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548009.8715, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 39.73333, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45432945642484, 
+          37.792652024472126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182949.9348, 
+        "ET_ORDER": 0.3551, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548043.175, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 44.64173, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45429287971471, 
+          37.79264151611579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182948.7877, 
+        "ET_ORDER": 0.3563, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548046.4022, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 44.71132, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45419038521312, 
+          37.79256559524707
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182940.417, 
+        "ET_ORDER": 0.3606, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548055.4755, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 44.92279, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45413024318003, 
+          37.79247051485781
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182929.8988, 
+        "ET_ORDER": 0.3648, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548060.8323, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 45.42882, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45427116226354, 
+          37.792230948307875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182903.2466, 
+        "ET_ORDER": 0.3752, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548048.5802, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 45.37078, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45431927136845, 
+          37.79208781121401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182887.3409, 
+        "ET_ORDER": 0.381, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_6", 
+        "H_Up": 36.3, 
+        "ET_X": 548044.4371, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 45.93237, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4551367920046, 
+          37.792641002819096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182948.2974, 
+        "ET_ORDER": 0.3815, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547972.1003, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 30.97639, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45507259308823, 
+          37.79272526875886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182957.6796, 
+        "ET_ORDER": 0.3853, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547977.6982, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 30.44628, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45507069113607, 
+          37.79280468714308
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182966.492, 
+        "ET_ORDER": 0.3884, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547977.8143, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 29.90021, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45512785675426, 
+          37.7929993455085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182988.0599, 
+        "ET_ORDER": 0.3963, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547972.6553, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 28.43235, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45516273634158, 
+          37.79307751712895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182996.7151, 
+        "ET_ORDER": 0.3995, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547969.5338, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 27.81536, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45524266517923, 
+          37.79316446581368
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183006.321, 
+        "ET_ORDER": 0.4037, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547962.4403, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 27.14196, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45549218321807, 
+          37.793308927799245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183022.221, 
+        "ET_ORDER": 0.4133, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_7", 
+        "H_Up": 36.3, 
+        "ET_X": 547940.3783, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 25.70591, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45549218321807, 
+          37.793308927799245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183022.221, 
+        "ET_ORDER": 0.4133, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547940.3783, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 25.70591, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45549218321807, 
+          37.793308927799245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183022.221, 
+        "ET_ORDER": 0.4133, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547940.3783, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 25.70591, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45835142634525, 
+          37.7930138238656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182988.0171, 
+        "ET_ORDER": 0.4192, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547688.8283, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 63.13899, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45827884322566, 
+          37.79313647142048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183001.6618, 
+        "ET_ORDER": 0.4245, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547695.14, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 60.43112, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45803578274293, 
+          37.79315840552036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183004.2194, 
+        "ET_ORDER": 0.4321, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547716.526, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 57.44688, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4577948524237, 
+          37.793285304855374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183018.4218, 
+        "ET_ORDER": 0.4411, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547737.6569, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 54.65618, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45769703680224, 
+          37.79330223825138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183020.3505, 
+        "ET_ORDER": 0.4442, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547746.2581, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 53.8602, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45729009704293, 
+          37.793162767490536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183005.0842, 
+        "ET_ORDER": 0.4579, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547782.1766, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 50.09488, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45711225674945, 
+          37.79311780281077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183000.1863, 
+        "ET_ORDER": 0.4637, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547797.8634, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 48.00684, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45700536919594, 
+          37.79310189600253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182998.4761, 
+        "ET_ORDER": 0.4671, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_8", 
+        "H_Up": 36.3, 
+        "ET_X": 547807.2845, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 47.58358, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45862408126939, 
+          37.79294553815232
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182980.3018, 
+        "ET_ORDER": 0.4748, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547664.8664, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 66.92716, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45893441579786, 
+          37.79305786384777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182992.6061, 
+        "ET_ORDER": 0.4854, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547637.471, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 65.53254, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45907543334701, 
+          37.7930720184357
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182994.1047, 
+        "ET_ORDER": 0.4898, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547625.0461, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 67.45157, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45918017522246, 
+          37.79310202805853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182997.3809, 
+        "ET_ORDER": 0.4933, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547615.8049, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 67.60877, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45941391696857, 
+          37.79323740523866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183012.2819, 
+        "ET_ORDER": 0.5023, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547595.1384, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 67.80938, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45960639348826, 
+          37.79331545133192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183020.8431, 
+        "ET_ORDER": 0.509, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547578.1419, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 69.72982, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46002911296017, 
+          37.79328926946026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183017.7232, 
+        "ET_ORDER": 0.5222, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547540.9407, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 69.48704, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46012486920668, 
+          37.79332285853154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183021.4012, 
+        "ET_ORDER": 0.5254, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547532.4884, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 69.11266, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46024481256568, 
+          37.79333455191083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183022.6376, 
+        "ET_ORDER": 0.5292, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547521.9206, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 69.42938, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46042057159582, 
+          37.79353062346071
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183044.3023, 
+        "ET_ORDER": 0.5386, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547506.3205, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 68.23272, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46060198694535, 
+          37.79377633964921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183071.4722, 
+        "ET_ORDER": 0.5498, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547490.1907, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 67.55894, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46067651558327, 
+          37.794038875093065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183100.5625, 
+        "ET_ORDER": 0.5603, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547483.4609, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 64.59176, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46073615754014, 
+          37.794123139525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183109.8813, 
+        "ET_ORDER": 0.5641, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547478.1559, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 64.3119, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46068354947761, 
+          37.794387475118405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183139.2359, 
+        "ET_ORDER": 0.5745, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547482.6185, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 63.08348, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46058580386409, 
+          37.79453182513118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183155.3011, 
+        "ET_ORDER": 0.581, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547491.1319, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 61.75214, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46024164726084, 
+          37.79474535590997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183179.1671, 
+        "ET_ORDER": 0.5945, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547521.2956, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 56.09418, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45961358448729, 
+          37.795174616882555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183227.1128, 
+        "ET_ORDER": 0.6203, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547576.3165, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 48.35935, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45945056167147, 
+          37.79526323043866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183237.0274, 
+        "ET_ORDER": 0.6264, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547590.6125, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 46.70828, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45932519347147, 
+          37.795307097023326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183241.9582, 
+        "ET_ORDER": 0.6307, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547601.622, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 45.02356, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.459266118218, 
+          37.795407749334856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183253.1556, 
+        "ET_ORDER": 0.635, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547606.7585, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 43.87062, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45911730622588, 
+          37.795769261784436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183293.341, 
+        "ET_ORDER": 0.6499, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547619.6281, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 36.53438, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45911908345441, 
+          37.79579111953145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183295.7652, 
+        "ET_ORDER": 0.6508, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_9", 
+        "H_Up": 36.3, 
+        "ET_X": 547619.4576, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 36.65883, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45911908345441, 
+          37.79579111953145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183295.7652, 
+        "ET_ORDER": 0.6508, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547619.4576, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 36.65883, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45911908345441, 
+          37.79579111953145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183295.7652, 
+        "ET_ORDER": 0.6508, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547619.4576, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 36.65883, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45681520443662, 
+          37.79312492580197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183001.1285, 
+        "ET_ORDER": 0.6531, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547824.0126, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 47.20778, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45663737214068, 
+          37.7932200476959
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183011.7732, 
+        "ET_ORDER": 0.6598, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547839.6084, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 45.28583, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4565592833574, 
+          37.79329164013117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183019.7563, 
+        "ET_ORDER": 0.6635, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547846.4375, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 44.05458, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45644810657653, 
+          37.79344290181607
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183036.5956, 
+        "ET_ORDER": 0.6704, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547856.1284, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 41.73916, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45635481986227, 
+          37.793577190425985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183051.5426, 
+        "ET_ORDER": 0.6764, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547864.2551, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 39.32544, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45626973297024, 
+          37.79362814368645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183057.2394, 
+        "ET_ORDER": 0.6797, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547871.7136, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 38.6091, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45553870544937, 
+          37.793706358881316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183066.2919, 
+        "ET_ORDER": 0.7026, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_10", 
+        "H_Up": 36.3, 
+        "ET_X": 547936.0255, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 23.71172, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45707444135861, 
+          37.79345031076711
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183037.0972, 
+        "ET_ORDER": 0.7328, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547800.9786, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 45.23517, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4572656806266, 
+          37.793670052864016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183061.3797, 
+        "ET_ORDER": 0.7432, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547783.9996, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 43.76851, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45739447256128, 
+          37.79377453215784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183072.9058, 
+        "ET_ORDER": 0.749, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547772.593, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 43.17963, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4576430935768, 
+          37.79388532147637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183085.0708, 
+        "ET_ORDER": 0.7578, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547750.6322, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 42.19588, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4578394609828, 
+          37.79395002461327
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183092.1493, 
+        "ET_ORDER": 0.7644, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547733.3017, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 42.05217, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45800119159271, 
+          37.79403457990402
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183101.4481, 
+        "ET_ORDER": 0.7704, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547719.008, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 42.00191, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45810357591493, 
+          37.79405595498661
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183103.7674, 
+        "ET_ORDER": 0.7737, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547709.98, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 42.13489, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4582807812262, 
+          37.794054342684284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183103.4981, 
+        "ET_ORDER": 0.7792, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547694.3793, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 41.07712, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45838602605336, 
+          37.794082192176475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183106.5343, 
+        "ET_ORDER": 0.7827, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547685.0953, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 40.25514, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45854614573913, 
+          37.794100467682604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183108.4803, 
+        "ET_ORDER": 0.7877, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547670.9861, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 39.35365, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45865421887413, 
+          37.79410543752288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183108.9766, 
+        "ET_ORDER": 0.7911, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547661.4678, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 38.51087, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45874927139029, 
+          37.79414306775883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183113.1032, 
+        "ET_ORDER": 0.7944, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547653.0749, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 37.35775, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45889747762904, 
+          37.79429950056873
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183130.3838, 
+        "ET_ORDER": 0.802, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547639.9259, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 37.3199, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45901334324913, 
+          37.79436140746609
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183137.1933, 
+        "ET_ORDER": 0.8064, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547629.685, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 36.54911, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4590721417695, 
+          37.79439304128105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183140.6731, 
+        "ET_ORDER": 0.8086, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547624.4879, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 35.54221, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45912532353115, 
+          37.7944549297411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183147.5125, 
+        "ET_ORDER": 0.8115, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547619.7659, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 35.11073, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45914112150523, 
+          37.79452878091925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183155.6982, 
+        "ET_ORDER": 0.8144, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547618.3276, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 35.37162, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4591264252241, 
+          37.79458393229759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183161.8247, 
+        "ET_ORDER": 0.8166, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547619.5861, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 35.60697, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4584945452298, 
+          37.79524852379882
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183235.8828, 
+        "ET_ORDER": 0.8492, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547674.7914, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.61564, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.458456679741, 
+          37.79531426084687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183243.1956, 
+        "ET_ORDER": 0.8521, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547678.0829, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.48495, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45844049700419, 
+          37.795409572235826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183253.7786, 
+        "ET_ORDER": 0.8558, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547679.4464, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.41412, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45845508722168, 
+          37.79548091770332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183261.6869, 
+        "ET_ORDER": 0.8587, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547678.116, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.10933, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4584916922583, 
+          37.79554710430453
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183269.0116, 
+        "ET_ORDER": 0.8615, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547674.8507, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.12996, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45858404508097, 
+          37.79566012235716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183281.5038, 
+        "ET_ORDER": 0.8668, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547666.6472, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.07166, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4586656937601, 
+          37.79571964249403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183288.0659, 
+        "ET_ORDER": 0.8702, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547659.4205, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.2573, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45885712601621, 
+          37.79576675289689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183293.1952, 
+        "ET_ORDER": 0.8764, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_11", 
+        "H_Up": 36.3, 
+        "ET_X": 547642.5363, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 34.45799, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45567508300854, 
+          37.793082966025615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182997.0569, 
+        "ET_ORDER": 0.8951, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547924.421, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 28.02448, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45570031762279, 
+          37.79300823950077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182988.7531, 
+        "ET_ORDER": 0.8982, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547922.2475, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 28.64934, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4556966537771, 
+          37.79293018341341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182980.0947, 
+        "ET_ORDER": 0.9012, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547922.6205, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 29.18771, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45564868867892, 
+          37.79284143318276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182970.2725, 
+        "ET_ORDER": 0.905, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547926.9009, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 29.79447, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45543945639176, 
+          37.79261628033856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182945.3992, 
+        "ET_ORDER": 0.916, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547945.4682, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 31.03232, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45536333687969, 
+          37.792582616005255
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182941.7032, 
+        "ET_ORDER": 0.9187, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547952.1919, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 31.23579, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45524341039463, 
+          37.79258715126199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4182942.2679, 
+        "ET_ORDER": 0.9224, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_12", 
+        "H_Up": 36.3, 
+        "ET_X": 547962.7479, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 30.91735, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45913655170604, 
+          37.79600591459935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183319.5877, 
+        "ET_ORDER": 0.9342, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547617.7818, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 38.51925, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45909032177626, 
+          37.79608836341077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183328.7589, 
+        "ET_ORDER": 0.9378, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547621.799, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 38.49097, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45897298433157, 
+          37.79614052158983
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183334.6056, 
+        "ET_ORDER": 0.9419, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547632.096, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 38.44595, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45882675810037, 
+          37.796139392126406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183334.5548, 
+        "ET_ORDER": 0.9465, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547644.9706, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 38.59088, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45871724770208, 
+          37.79616691981927
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183337.6648, 
+        "ET_ORDER": 0.9501, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547654.5943, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 38.45189, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45851409695555, 
+          37.796282925101146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183350.6391, 
+        "ET_ORDER": 0.9578, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547672.4053, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 37.9059, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45836267907971, 
+          37.7962824985573
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183350.669, 
+        "ET_ORDER": 0.9625, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547685.7365, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 36.39276, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45826232580292, 
+          37.796311531653636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183353.9414, 
+        "ET_ORDER": 0.9659, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547694.553, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 35.1704, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45813273863477, 
+          37.796393064076526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183363.0535, 
+        "ET_ORDER": 0.971, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547705.9095, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 33.27166, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45771665132143, 
+          37.79677986433934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183406.1812, 
+        "ET_ORDER": 0.9909, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547742.2931, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 28.94646, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45761856164502, 
+          37.79690914751065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183420.5752, 
+        "ET_ORDER": 0.9968, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547750.8457, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 29.4663, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45760616097658, 
+          37.79695459220648
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183425.6236, 
+        "ET_ORDER": 0.9986, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547751.9082, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 29.79069, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45761789535625, 
+          37.7969884697286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 677.3, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 2847.0, 
+        "Len_Down": 2169.7, 
+        "Max_S_Down": 19.2, 
+        "Min_Z": 23.7, 
+        "H_Down": 181.0, 
+        "ET_ID": 83, 
+        "trail_name": "Ecology Trail", 
+        "ET_Y": 4183429.3763, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 83, 
+        "ET_IDR": "83_13", 
+        "H_Up": 36.3, 
+        "ET_X": 547750.8533, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 30.08831, 
+        "Length_2D": 2834.3, 
+        "Max_Z": 89.6
+      }
+    }
+  ]
+}

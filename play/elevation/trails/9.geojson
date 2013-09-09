@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60408678619483, 
+          37.90429850224693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195270.7033, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534805.3147, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 458.50594, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60387409760595, 
+          37.90438431769044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195280.304, 
+        "ET_ORDER": 0.0397, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534823.9721, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 461.54339, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60344220925717, 
+          37.90472165549678
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195317.8933, 
+        "ET_ORDER": 0.1406, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534861.781, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 466.75993, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60336858466319, 
+          37.90477916177869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195324.3012, 
+        "ET_ORDER": 0.1579, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534868.2263, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 465.26803, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60329048447512, 
+          37.904871935190506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195334.6237, 
+        "ET_ORDER": 0.1813, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534875.0484, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 460.97535, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60314763437873, 
+          37.90504162344129
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195353.5042, 
+        "ET_ORDER": 0.2241, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534887.5264, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 455.26124, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60283031600548, 
+          37.90535750310137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195388.6701, 
+        "ET_ORDER": 0.3089, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534915.2729, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 453.62549, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.6027057313864, 
+          37.90556654096201
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195411.9097, 
+        "ET_ORDER": 0.3575, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534926.1264, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 449.50852, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60264375131553, 
+          37.9056860314722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195425.1905, 
+        "ET_ORDER": 0.3846, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534931.5186, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 443.48012, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.602643417974, 
+          37.90568667477573
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195425.262, 
+        "ET_ORDER": 0.3847, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534931.5476, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 443.43644, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60248917268196, 
+          37.90598403870921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195458.3126, 
+        "ET_ORDER": 0.4523, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534944.9667, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 432.9144, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60246388559626, 
+          37.906243011891206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195487.0554, 
+        "ET_ORDER": 0.5068, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534947.0672, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 424.53523, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60244153216941, 
+          37.90660534511802
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195527.265, 
+        "ET_ORDER": 0.583, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534948.8609, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 422.25507, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.602449591215, 
+          37.906889578039745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195558.7979, 
+        "ET_ORDER": 0.6427, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534948.018, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 420.99255, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60229092743778, 
+          37.90704751921477
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195576.3811, 
+        "ET_ORDER": 0.6851, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534961.8912, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 418.48188, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60196773256453, 
+          37.90715668168735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195588.614, 
+        "ET_ORDER": 0.7436, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 534990.2511, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 410.09777, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60145325827509, 
+          37.90742436059701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195618.5064, 
+        "ET_ORDER": 0.846, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 535035.3508, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 413.19773, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60102802779005, 
+          37.90763694235703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195642.2524, 
+        "ET_ORDER": 0.9297, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 535072.6311, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 404.24367, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60102200866632, 
+          37.90763995121878
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195642.5885, 
+        "ET_ORDER": 0.9309, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 535073.1588, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 403.96395, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60080979115149, 
+          37.90774604096479
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195654.4391, 
+        "ET_ORDER": 0.9726, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 535091.764, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 395.06119, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60074318492747, 
+          37.90775783386277
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195655.7726, 
+        "ET_ORDER": 0.984, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 535097.6136, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 393.17167, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.60064699504812, 
+          37.90775832320602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 129.0, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 539.1, 
+        "Len_Down": 410.1, 
+        "Max_S_Down": 29.5, 
+        "Min_Z": 391.9, 
+        "H_Down": 77.9, 
+        "ET_ID": 9, 
+        "trail_name": "Alpine Trail", 
+        "ET_Y": 4195655.8631, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.2, 
+        "ET_IDP": 9, 
+        "ET_IDR": "9_0", 
+        "H_Up": 11.4, 
+        "ET_X": 535106.0692, 
+        "Av_S_Down": 11.0, 
+        "ET_Z": 391.9448, 
+        "Length_2D": 528.3, 
+        "Max_Z": 466.8
+      }
+    }
+  ]
+}

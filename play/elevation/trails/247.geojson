@@ -1,0 +1,2469 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57027960470936, 
+          37.89743638241584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194522.5, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537780.875, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.47382, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57018858537818, 
+          37.8973188811649
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194509.5, 
+        "ET_ORDER": 0.0134, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537788.9375, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.35329, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57005075472273, 
+          37.89718318287717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194494.5, 
+        "ET_ORDER": 0.0303, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537801.125, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.84107, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56989288954729, 
+          37.89706994371082
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194482.0, 
+        "ET_ORDER": 0.0466, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537815.0625, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 218.50775, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5697227567231, 
+          37.89698820497296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194473.0, 
+        "ET_ORDER": 0.0619, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537830.0625, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 216.02337, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5695914062829, 
+          37.89696068577576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194470.0, 
+        "ET_ORDER": 0.0724, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537841.625, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 213.78195, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56924116578115, 
+          37.89692335261506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194466.0, 
+        "ET_ORDER": 0.0995, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537872.4375, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 208.22472, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56901840099255, 
+          37.896993058478905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194473.8244, 
+        "ET_ORDER": 0.1179, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537891.9874, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.1175, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56891217611579, 
+          37.896920230256704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194465.7872, 
+        "ET_ORDER": 0.1287, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537901.3641, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.44875, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56876770608562, 
+          37.89687442700077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194460.764, 
+        "ET_ORDER": 0.1407, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537914.0895, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.37444, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56856959501127, 
+          37.896882756408914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194461.7687, 
+        "ET_ORDER": 0.1559, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537931.5033, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.19288, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56835589640357, 
+          37.896951392859116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194469.4709, 
+        "ET_ORDER": 0.1736, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537950.2566, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.78097, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56810842976716, 
+          37.89693237532606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194467.4616, 
+        "ET_ORDER": 0.1927, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537972.0238, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 226.18376, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56795979722023, 
+          37.896946921241664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194469.136, 
+        "ET_ORDER": 0.2042, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537985.0842, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 226.42027, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56783444234624, 
+          37.89688911409322
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194462.7733, 
+        "ET_ORDER": 0.2154, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537996.1352, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 226.56568, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56781608657813, 
+          37.8967713342811
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194449.713, 
+        "ET_ORDER": 0.2269, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537997.8096, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 226.05633, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56783943255637, 
+          37.89668690784384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194440.3363, 
+        "ET_ORDER": 0.2353, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537995.8004, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 227.50278, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56799410600414, 
+          37.8964305322322
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194411.8282, 
+        "ET_ORDER": 0.2628, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537982.3331, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 223.20551, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56800312406328, 
+          37.89636226394585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194404.2501, 
+        "ET_ORDER": 0.2695, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537981.5753, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.44809, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56796749239028, 
+          37.89619138016288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194385.3049, 
+        "ET_ORDER": 0.2863, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537984.7959, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.51579, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56792049673975, 
+          37.89612119921919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194377.5374, 
+        "ET_ORDER": 0.294, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 537988.9639, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.26336, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56777451426618, 
+          37.896028456717836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194367.307, 
+        "ET_ORDER": 0.3084, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538001.8466, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.19268, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5676948892736, 
+          37.896011089193145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194365.4125, 
+        "ET_ORDER": 0.3147, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538008.8563, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.22021, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5675999910098, 
+          37.896026107790576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194367.1175, 
+        "ET_ORDER": 0.3222, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538017.1922, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.67731, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56738397806556, 
+          37.89611752064491
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194377.3479, 
+        "ET_ORDER": 0.341, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538036.1374, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.70178, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56715680048983, 
+          37.89627548636776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194394.967, 
+        "ET_ORDER": 0.3642, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538056.0299, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.26298, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56685912590203, 
+          37.89632903177424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194401.0294, 
+        "ET_ORDER": 0.3877, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538082.1743, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.56226, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56680510725634, 
+          37.89635444611967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194403.8712, 
+        "ET_ORDER": 0.3925, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538086.9106, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.39221, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56666856855767, 
+          37.896488838352234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194418.8379, 
+        "ET_ORDER": 0.4092, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538098.846, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.27229, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56664894523452, 
+          37.89652803933577
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194423.1953, 
+        "ET_ORDER": 0.4133, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538100.5511, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.71075, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56662520265061, 
+          37.89653478197283
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194423.9531, 
+        "ET_ORDER": 0.4152, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538102.6351, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.36893, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56660370545696, 
+          37.89652616571572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194423.0059, 
+        "ET_ORDER": 0.4171, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538104.5296, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.69032, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56655921663308, 
+          37.89639622919471
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194408.6075, 
+        "ET_ORDER": 0.4302, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538108.5081, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.75239, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56647806716059, 
+          37.89627128062777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194394.7775, 
+        "ET_ORDER": 0.4438, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538115.7073, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.62725, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56642724533374, 
+          37.89611912352225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194377.9163, 
+        "ET_ORDER": 0.459, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538120.2541, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.10544, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56638662575298, 
+          37.89606433261191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194371.8538, 
+        "ET_ORDER": 0.4652, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538123.8537, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.93198, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56632872848057, 
+          37.89601630898351
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194366.5492, 
+        "ET_ORDER": 0.4717, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538128.9689, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.60532, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56607094290496, 
+          37.895882171224095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194351.7719, 
+        "ET_ORDER": 0.4954, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538151.7031, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.31662, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56590096011335, 
+          37.89584056418925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194347.2251, 
+        "ET_ORDER": 0.509, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538166.6698, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.05779, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56581042127327, 
+          37.895847060310956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194347.9829, 
+        "ET_ORDER": 0.516, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538174.6268, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.83758, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56559217444669, 
+          37.8955850025776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194318.9967, 
+        "ET_ORDER": 0.5465, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538193.9509, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.20679, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5654394101019, 
+          37.895546873443166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194314.8288, 
+        "ET_ORDER": 0.5588, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538207.402, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.84358, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56527331607445, 
+          37.89557699536817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194318.2389, 
+        "ET_ORDER": 0.5719, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538221.9898, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.46343, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56516749316938, 
+          37.89561758569242
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194322.7858, 
+        "ET_ORDER": 0.5809, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538231.273, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.8646, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56508967289645, 
+          37.89565998644748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194327.5221, 
+        "ET_ORDER": 0.5882, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538238.0932, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.55215, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56496389580548, 
+          37.89577787041703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194340.653, 
+        "ET_ORDER": 0.6031, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538249.0908, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.44475, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56479523574562, 
+          37.89603236611176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194368.9587, 
+        "ET_ORDER": 0.631, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538263.788, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.83111, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56473222743553, 
+          37.89621856604253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194389.6436, 
+        "ET_ORDER": 0.6497, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538269.2314, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.25, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56474111597724, 
+          37.89630414394909
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194399.1349, 
+        "ET_ORDER": 0.658, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538268.4056, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 221.01335, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56469987524461, 
+          37.8963552177036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194404.8185, 
+        "ET_ORDER": 0.6639, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538272.0051, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 218.41822, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56462611216769, 
+          37.89636535851513
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194405.9739, 
+        "ET_ORDER": 0.6697, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538278.4852, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.86771, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56448881110818, 
+          37.89633736187012
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194402.924, 
+        "ET_ORDER": 0.6805, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538290.5714, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.54345, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56428194580026, 
+          37.89633830338049
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194403.1134, 
+        "ET_ORDER": 0.6964, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538308.7588, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.28386, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56417400739011, 
+          37.89637205402294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194406.9024, 
+        "ET_ORDER": 0.7054, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538318.2314, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.46267, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56411871857541, 
+          37.89624720048662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194393.0725, 
+        "ET_ORDER": 0.7182, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538323.1572, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.99574, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56404533666074, 
+          37.89616205696446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194383.6559, 
+        "ET_ORDER": 0.7282, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538329.6532, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 222.22089, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5639216590103, 
+          37.896137068178184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194380.9342, 
+        "ET_ORDER": 0.738, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538340.5401, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 223.02713, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56356995604311, 
+          37.89593461269328
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194358.6162, 
+        "ET_ORDER": 0.7714, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538371.5675, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.83864, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56339450845705, 
+          37.89591667063572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194356.6977, 
+        "ET_ORDER": 0.785, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538387.0025, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.63812, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56335583470272, 
+          37.89589774410178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194354.6137, 
+        "ET_ORDER": 0.7885, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538390.4126, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.40315, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5632372737561, 
+          37.89590584225597
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194355.561, 
+        "ET_ORDER": 0.7976, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538400.8325, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 219.315, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56308011984983, 
+          37.895881352969575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194352.9086, 
+        "ET_ORDER": 0.8099, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538414.6625, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.26799, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56286678217862, 
+          37.89588397593422
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194353.2875, 
+        "ET_ORDER": 0.8263, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538433.4182, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 220.46565, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56242651031249, 
+          37.89600186774635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194366.5492, 
+        "ET_ORDER": 0.8621, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538472.0664, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.07234, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56229459620036, 
+          37.8960816308075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194375.4534, 
+        "ET_ORDER": 0.8748, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538483.623, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 216.36951, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56229226903282, 
+          37.8961106503053
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194378.6741, 
+        "ET_ORDER": 0.8776, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538483.8125, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 216.63948, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56220761783108, 
+          37.89621449507033
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194390.2307, 
+        "ET_ORDER": 0.8896, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538491.2011, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 216.10746, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56218337938759, 
+          37.89630490349331
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194400.2716, 
+        "ET_ORDER": 0.8986, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538493.2851, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 216.15423, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56217716784542, 
+          37.89646030226119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194417.5158, 
+        "ET_ORDER": 0.9137, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538493.7503, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.56996, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56222502874397, 
+          37.896549235726276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194427.3633, 
+        "ET_ORDER": 0.923, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538489.496, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 218.33873, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56222049681529, 
+          37.8965867841282
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194431.5312, 
+        "ET_ORDER": 0.9267, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538489.8749, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.78892, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56202333142188, 
+          37.896768756677915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194451.8026, 
+        "ET_ORDER": 0.9499, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538507.1151, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.97313, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56199072772726, 
+          37.89681644568595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194457.1072, 
+        "ET_ORDER": 0.9552, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538509.9568, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.3711, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56195092949847, 
+          37.89698705054475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194476.0524, 
+        "ET_ORDER": 0.972, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538513.367, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.07211, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56189650388225, 
+          37.897080762476484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194486.4723, 
+        "ET_ORDER": 0.982, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538518.1033, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.88469, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56188540689169, 
+          37.897135361541885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194492.5347, 
+        "ET_ORDER": 0.9874, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538519.0505, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.5701, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56193287596906, 
+          37.89725971381719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.7, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1150.9, 
+        "Len_Down": 620.2, 
+        "Max_S_Down": 21.1, 
+        "Min_Z": 208.2, 
+        "H_Down": 43.3, 
+        "ET_ID": 247, 
+        "trail_name": "Sun Trail", 
+        "ET_Y": 4194506.3121, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 27.4, 
+        "ET_IDP": 247, 
+        "ET_IDR": "247_0", 
+        "H_Up": 39.8, 
+        "ET_X": 538514.8122, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 217.989, 
+        "Length_2D": 1144.1, 
+        "Max_Z": 227.5
+      }
+    }
+  ]
+}

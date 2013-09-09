@@ -1,0 +1,517 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51160642887767, 
+          37.545126904569905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155459.9133, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543143.2869, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 19.72213, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51154221046012, 
+          37.545204814935374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155468.5865, 
+        "ET_ORDER": 0.0365, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543148.9149, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 20.3258, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51153341877894, 
+          37.545251373017884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155473.7559, 
+        "ET_ORDER": 0.055, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543149.6647, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 20.21187, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51155575309436, 
+          37.545334204041254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155482.9353, 
+        "ET_ORDER": 0.0882, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543147.644, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 19.43061, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51167991185847, 
+          37.54546649961738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155497.5558, 
+        "ET_ORDER": 0.1529, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543136.5999, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 18.14957, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51191462197448, 
+          37.545673713600465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155520.4374, 
+        "ET_ORDER": 0.2622, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543115.7469, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 16.82225, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51192362945788, 
+          37.545783977067856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155532.6664, 
+        "ET_ORDER": 0.3055, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543114.8877, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 17.0389, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5118862163386, 
+          37.54588703343431
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155544.1171, 
+        "ET_ORDER": 0.3476, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543118.1333, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 16.72629, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51173488103476, 
+          37.54593923143794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155549.9776, 
+        "ET_ORDER": 0.399, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543131.4717, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 17.76713, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51145240856889, 
+          37.545972871443325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155553.8394, 
+        "ET_ORDER": 0.4882, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543156.405, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 18.10069, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51115235069489, 
+          37.54609962595625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155568.0399, 
+        "ET_ORDER": 0.5941, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543182.838, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 19.8347, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5108615161051, 
+          37.54619581703967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155578.8454, 
+        "ET_ORDER": 0.6924, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543208.4738, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 22.30538, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5108242971472, 
+          37.54623165921239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155582.839, 
+        "ET_ORDER": 0.7106, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543211.7409, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 22.92066, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51074229530025, 
+          37.5464698989779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155609.3081, 
+        "ET_ORDER": 0.8074, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543218.8471, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 24.41444, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51062547524488, 
+          37.54660951907814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155624.8519, 
+        "ET_ORDER": 0.8732, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543229.0859, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 25.10231, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51035053261957, 
+          37.54684785830694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 207.7, 
+        "Av_S_Up": 3.0, 
+        "Length_3D": 283.6, 
+        "Len_Down": 75.9, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.7, 
+        "H_Down": 3.8, 
+        "ET_ID": 87, 
+        "trail_name": "Farallon Trail", 
+        "ET_Y": 4155651.4208, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 6.8, 
+        "ET_IDP": 87, 
+        "ET_IDR": "87_0", 
+        "H_Up": 10.8, 
+        "ET_X": 543253.2355, 
+        "Av_S_Down": 2.9, 
+        "ET_Z": 26.73851, 
+        "Length_2D": 283.1, 
+        "Max_Z": 26.7
+      }
+    }
+  ]
+}

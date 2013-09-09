@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5024222881343, 
+          37.720585756054945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174930.6637, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543851.3658, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 42.7536, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50265545331443, 
+          37.72050784970825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174921.911, 
+        "ET_ORDER": 0.1052, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543830.8628, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 44.35597, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50275552054555, 
+          37.72044290596975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174914.6588, 
+        "ET_ORDER": 0.159, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543822.0821, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 44.88395, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50283486330072, 
+          37.72036275503487
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174905.7291, 
+        "ET_ORDER": 0.2124, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543815.1368, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 45.56108, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50285541386934, 
+          37.720319915224614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174900.9665, 
+        "ET_ORDER": 0.2364, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543813.3509, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 45.88536, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50301294215588, 
+          37.71965880901913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174827.5445, 
+        "ET_ORDER": 0.5888, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543799.8571, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 50.45966, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50305787569195, 
+          37.71961336797918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174822.4819, 
+        "ET_ORDER": 0.619, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543795.9238, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 50.72019, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5031038113062, 
+          37.71936727559072
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174795.157, 
+        "ET_ORDER": 0.7493, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543792.0203, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 52.42569, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50311665683061, 
+          37.71921252184277
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174777.9814, 
+        "ET_ORDER": 0.8306, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543790.9793, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 53.61217, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50307155953625, 
+          37.718890987942466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 212.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 212.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 42.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 248, 
+        "trail_name": "Sunset Loop Trail", 
+        "ET_Y": 4174742.329, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.1, 
+        "ET_IDP": 248, 
+        "ET_IDR": "248_0", 
+        "H_Up": 12.9, 
+        "ET_X": 543795.1431, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 55.6597, 
+        "Length_2D": 211.8, 
+        "Max_Z": 55.7
+      }
+    }
+  ]
+}

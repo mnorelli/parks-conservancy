@@ -1,0 +1,453 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5051118847046, 
+          37.78594871698774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182181.3277, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543575.9792, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 59.33932, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50476444408545, 
+          37.785805586748246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182165.6095, 
+        "ET_ORDER": 0.0714, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543606.6564, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 62.55463, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5044107780845, 
+          37.785719227430754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182156.193, 
+        "ET_ORDER": 0.1389, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543637.8485, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 65.80347, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50412688372344, 
+          37.78569416257301
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182153.5446, 
+        "ET_ORDER": 0.191, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543662.861, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 68.96085, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50359162610383, 
+          37.7857767809587
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182162.9611, 
+        "ET_ORDER": 0.2904, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543709.9434, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 78.79423, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50299294420357, 
+          37.78584852001775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182171.2005, 
+        "ET_ORDER": 0.4008, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543762.6168, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 84.16709, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50276879307378, 
+          37.7858847057376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182175.3202, 
+        "ET_ORDER": 0.4425, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543782.3326, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 84.69239, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50260778156438, 
+          37.78597420264092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182185.3252, 
+        "ET_ORDER": 0.4784, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543796.4573, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 85.38567, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50230221723929, 
+          37.78619039764955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182209.455, 
+        "ET_ORDER": 0.553, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543823.2354, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 87.50296, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5017925768842, 
+          37.786438881252685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182237.263, 
+        "ET_ORDER": 0.6621, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543867.9636, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 91.15164, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50155151851044, 
+          37.78650416779379
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182244.6196, 
+        "ET_ORDER": 0.7086, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543889.1507, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 91.05335, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5011126587895, 
+          37.78616547485703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182207.248, 
+        "ET_ORDER": 0.8202, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543927.9937, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 98.87194, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50082306178668, 
+          37.78599450378738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182188.415, 
+        "ET_ORDER": 0.886, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 543953.5947, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 104.1194, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50029347124446, 
+          37.78573101208446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 463.6, 
+        "Av_S_Up": 6.2, 
+        "Length_3D": 486.1, 
+        "Len_Down": 22.4, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.1, 
+        "ET_ID": 105, 
+        "trail_name": "Golf Course Service Road", 
+        "ET_Y": 4182159.4299, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 11.6, 
+        "ET_IDP": 105, 
+        "ET_IDR": "105_0", 
+        "H_Up": 50.1, 
+        "ET_X": 544000.3828, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 109.29662, 
+        "Length_2D": 482.8, 
+        "Max_Z": 109.3
+      }
+    }
+  ]
+}

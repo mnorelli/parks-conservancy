@@ -1,0 +1,6597 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54588240984636, 
+          37.84901639708245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189160.4386, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539952.0199, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 37.89274, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54627823316882, 
+          37.848956609685196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189153.6359, 
+        "ET_ORDER": 0.0077, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539917.2285, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 42.39666, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54687077414543, 
+          37.84881555740815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189137.733, 
+        "ET_ORDER": 0.0196, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539865.174, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 48.51015, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54712665430208, 
+          37.848733207865834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189128.4871, 
+        "ET_ORDER": 0.0248, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539842.7065, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 51.22957, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54733742174207, 
+          37.848638184146324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189117.8543, 
+        "ET_ORDER": 0.0295, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539824.2147, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 54.22459, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54791242752219, 
+          37.84844205878971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189095.8491, 
+        "ET_ORDER": 0.0415, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539773.7321, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 63.42891, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54855837320636, 
+          37.84833120208103
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189083.2746, 
+        "ET_ORDER": 0.0541, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539716.9623, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 66.61937, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54898107114694, 
+          37.84823241263386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189072.1342, 
+        "ET_ORDER": 0.0626, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539679.8269, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 69.64251, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54955354547087, 
+          37.84815447767057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189063.2442, 
+        "ET_ORDER": 0.0737, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539629.5031, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 75.68754, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55008460562054, 
+          37.84806207346102
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189052.7667, 
+        "ET_ORDER": 0.0841, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539582.8305, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 85.12937, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55022540726794, 
+          37.84805259510571
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189051.6554, 
+        "ET_ORDER": 0.0868, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539570.448, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 87.43094, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55037150960679, 
+          37.84806173798279
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189052.6079, 
+        "ET_ORDER": 0.0896, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539557.5892, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 89.35446, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55086003431882, 
+          37.84813943635754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189061.0217, 
+        "ET_ORDER": 0.0991, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539514.5679, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 96.25282, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55103086023794, 
+          37.84823738379469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189071.8167, 
+        "ET_ORDER": 0.1032, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539499.4866, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 99.92693, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55109113847368, 
+          37.84835006779162
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189084.2935, 
+        "ET_ORDER": 0.1061, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539494.1233, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 102.56376, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55109222877651, 
+          37.848422767715995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189092.3591, 
+        "ET_ORDER": 0.1079, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539493.9886, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 103.29926, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55105498477093, 
+          37.84854981087865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189106.4703, 
+        "ET_ORDER": 0.111, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539497.1975, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 104.60017, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55105571502911, 
+          37.84863689517885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189116.132, 
+        "ET_ORDER": 0.1131, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539497.0868, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 105.69907, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55110465791655, 
+          37.848714130831496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189124.6806, 
+        "ET_ORDER": 0.1152, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539492.7397, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 106.93057, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55118566069959, 
+          37.848746632442904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189128.2524, 
+        "ET_ORDER": 0.117, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539485.5959, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 108.13447, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55127824225958, 
+          37.84875386763545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189129.016, 
+        "ET_ORDER": 0.1188, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539477.4469, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 109.50938, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55152701449705, 
+          37.84867995281081
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189120.71, 
+        "ET_ORDER": 0.1238, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539455.5998, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 114.04161, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55159918988623, 
+          37.848680227659514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189120.71, 
+        "ET_ORDER": 0.1252, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539449.2498, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 114.87327, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5517012502844, 
+          37.84871161757038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189124.1496, 
+        "ET_ORDER": 0.1273, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539440.254, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 115.88088, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55180939658072, 
+          37.84876231580787
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189129.7289, 
+        "ET_ORDER": 0.1297, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539430.7125, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 116.77862, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55212734850909, 
+          37.8489677534032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189152.388, 
+        "ET_ORDER": 0.1376, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539402.6304, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 118.61755, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55238091290734, 
+          37.849101573665955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189167.1284, 
+        "ET_ORDER": 0.1434, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539380.2512, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 120.78279, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55252261766952, 
+          37.84915114328353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189172.5684, 
+        "ET_ORDER": 0.1464, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539367.758, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 122.6935, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55295712518085, 
+          37.84935277092016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189194.7559, 
+        "ET_ORDER": 0.156, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539329.424, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 130.17231, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55312757720047, 
+          37.84949174585876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189210.1034, 
+        "ET_ORDER": 0.1607, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539314.3543, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 132.53384, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55329402109967, 
+          37.84968362103531
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189231.3219, 
+        "ET_ORDER": 0.1663, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539299.6092, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 136.10388, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55362967757688, 
+          37.84990984094938
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189256.2798, 
+        "ET_ORDER": 0.1748, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539269.9592, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 140.30872, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5537955021505, 
+          37.85012393927261
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189279.9643, 
+        "ET_ORDER": 0.1808, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539255.257, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 141.41774, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55387056203082, 
+          37.85018110509692
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189286.2753, 
+        "ET_ORDER": 0.1828, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539248.6232, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 142.31052, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55394920618139, 
+          37.850205025349915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189288.8962, 
+        "ET_ORDER": 0.1844, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539241.6917, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 143.1365, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55423596889847, 
+          37.85024482952806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189293.192, 
+        "ET_ORDER": 0.19, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539216.4423, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 146.37173, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55437001470239, 
+          37.850239646024065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189292.5606, 
+        "ET_ORDER": 0.1926, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539204.6522, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 148.60654, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55467368889389, 
+          37.85019502198486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189287.4821, 
+        "ET_ORDER": 0.1985, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539177.9597, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 154.07713, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55504564436491, 
+          37.85008028479819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189274.596, 
+        "ET_ORDER": 0.2061, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539145.2971, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 159.57184, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55521126093967, 
+          37.850014714933295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189267.2516, 
+        "ET_ORDER": 0.2097, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539130.7614, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 161.70611, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55540980683435, 
+          37.84996857694452
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189262.0494, 
+        "ET_ORDER": 0.2136, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539113.3184, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 163.77574, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5559858292363, 
+          37.84991007072966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189255.317, 
+        "ET_ORDER": 0.2247, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539062.6728, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 169.29693, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55628672715608, 
+          37.84990706789951
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189254.858, 
+        "ET_ORDER": 0.2305, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539036.2024, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 172.68534, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5563700743323, 
+          37.84992944680156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189257.3061, 
+        "ET_ORDER": 0.2322, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539028.858, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 173.49147, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55641638678443, 
+          37.85003718856735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189269.2407, 
+        "ET_ORDER": 0.2349, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539024.7268, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 174.11286, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5563822847146, 
+          37.8502135818407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189288.8258, 
+        "ET_ORDER": 0.2392, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539027.634, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 174.90023, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55620828439459, 
+          37.85050656548474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189321.4051, 
+        "ET_ORDER": 0.2471, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539042.7874, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 176.22518, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55579321014514, 
+          37.85101532813692
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189378.026, 
+        "ET_ORDER": 0.2617, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539079.0354, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 179.01666, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55558431021333, 
+          37.85124585654218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189403.6906, 
+        "ET_ORDER": 0.2686, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539097.2917, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 180.27848, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55540499791776, 
+          37.851395595947174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189420.3793, 
+        "ET_ORDER": 0.2735, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539112.9876, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 181.24494, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55525670391197, 
+          37.85148291330516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189430.1293, 
+        "ET_ORDER": 0.2771, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539125.9876, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 182.38315, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55490835430557, 
+          37.85162485793525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189446.0241, 
+        "ET_ORDER": 0.2846, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539156.5585, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 185.71548, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5548297460951, 
+          37.851693717097554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189453.697, 
+        "ET_ORDER": 0.2868, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539163.4376, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 186.55643, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55479633358776, 
+          37.85174843885423
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189459.7824, 
+        "ET_ORDER": 0.2883, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539166.3481, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 187.20092, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55473505267165, 
+          37.85193659902864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189480.6845, 
+        "ET_ORDER": 0.293, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539171.6397, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 188.87465, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55465354522563, 
+          37.85248715906185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189541.8034, 
+        "ET_ORDER": 0.3064, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539178.5189, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 193.78544, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55449598817984, 
+          37.85318051358144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189618.7973, 
+        "ET_ORDER": 0.3234, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539192.0127, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 200.73006, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55445171756946, 
+          37.85350104869067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189654.3793, 
+        "ET_ORDER": 0.3312, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539195.7376, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 205.78672, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55438835779093, 
+          37.85357358396725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189662.4537, 
+        "ET_ORDER": 0.3333, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539201.2731, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 207.47626, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55407455676976, 
+          37.85374170992826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189681.2391, 
+        "ET_ORDER": 0.3405, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539228.7898, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 212.45314, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55386316775018, 
+          37.8538839914992
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189697.1141, 
+        "ET_ORDER": 0.3458, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539247.3107, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 214.72602, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55359306260621, 
+          37.854151797559425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189726.9408, 
+        "ET_ORDER": 0.3541, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539270.9303, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 217.91634, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55346205904766, 
+          37.85434588821619
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189748.5303, 
+        "ET_ORDER": 0.3594, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539282.3519, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 217.84194, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55328684447365, 
+          37.854782104458195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189797.0023, 
+        "ET_ORDER": 0.3705, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539297.5342, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 214.64979, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55325541331601, 
+          37.855000653638044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189821.2636, 
+        "ET_ORDER": 0.3758, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539300.1832, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 214.47016, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55313688990985, 
+          37.85545085661588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189871.2636, 
+        "ET_ORDER": 0.3869, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539310.3707, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 215.56131, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55292584231125, 
+          37.85592774734194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189924.2636, 
+        "ET_ORDER": 0.3991, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539328.6832, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 221.78976, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5528248318958, 
+          37.856418575152304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189978.7636, 
+        "ET_ORDER": 0.4111, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539337.3082, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 231.70575, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55282080317363, 
+          37.85649742405865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189987.5136, 
+        "ET_ORDER": 0.413, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539337.6207, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 232.90183, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55285541439386, 
+          37.85664852411477
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190004.2636, 
+        "ET_ORDER": 0.4167, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539334.4957, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 235.01205, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55295023843584, 
+          37.85682914519175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190024.2636, 
+        "ET_ORDER": 0.4215, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539326.0582, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 236.96939, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5530800671999, 
+          37.857019440268466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190045.3222, 
+        "ET_ORDER": 0.4267, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539314.5363, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 237.851, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55375373969174, 
+          37.85756958225896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190106.0771, 
+        "ET_ORDER": 0.4452, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539254.9828, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 241.86035, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55379639915098, 
+          37.85761305523404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190110.8825, 
+        "ET_ORDER": 0.4465, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539251.2071, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 242.46289, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55389230656847, 
+          37.8577774687646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190129.0839, 
+        "ET_ORDER": 0.4509, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539242.6832, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 244.61696, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55396388875928, 
+          37.858235526272175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190179.8754, 
+        "ET_ORDER": 0.4621, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539236.1435, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 250.5577, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55399851350953, 
+          37.85865807922373
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190226.7432, 
+        "ET_ORDER": 0.4723, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539232.8737, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 257.1713, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55414766564019, 
+          37.85906128400644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190271.4162, 
+        "ET_ORDER": 0.4824, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539219.5397, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 263.82015, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5541749993316, 
+          37.859219199670136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190288.9255, 
+        "ET_ORDER": 0.4863, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539217.0516, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 265.43846, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55466854413562, 
+          37.85947342455263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190316.9246, 
+        "ET_ORDER": 0.4975, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539173.5021, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 270.12848, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55511673306992, 
+          37.85973583020059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190345.8506, 
+        "ET_ORDER": 0.5082, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539133.9383, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 274.47429, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55613274062438, 
+          37.85979127326623
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190351.5766, 
+        "ET_ORDER": 0.5277, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539044.536, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 271.22628, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55626275597061, 
+          37.859778408670614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190350.0949, 
+        "ET_ORDER": 0.5302, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539033.106, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 270.71641, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55650370871442, 
+          37.85972399076502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190343.9565, 
+        "ET_ORDER": 0.535, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 539011.9393, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 268.62527, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55692078269699, 
+          37.85959201728988
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190329.1398, 
+        "ET_ORDER": 0.5436, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538975.3209, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 262.18128, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.557104191012, 
+          37.85950304278708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190319.1915, 
+        "ET_ORDER": 0.5477, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538959.2342, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 260.34395, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55728791838973, 
+          37.85936065155826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190303.3165, 
+        "ET_ORDER": 0.5526, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538943.1475, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 258.66587, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55749872980266, 
+          37.85911534176675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190276.0114, 
+        "ET_ORDER": 0.5598, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538924.7324, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 254.98992, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55764361411224, 
+          37.859030036856204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190266.4864, 
+        "ET_ORDER": 0.5633, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538912.0324, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 252.99374, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55782919880104, 
+          37.85897922432985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190260.7714, 
+        "ET_ORDER": 0.567, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538895.734, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 251.20008, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55793511605573, 
+          37.85897199067268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190259.9247, 
+        "ET_ORDER": 0.5691, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538886.4207, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 250.54495, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5583536336676, 
+          37.85900026953771
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190262.888, 
+        "ET_ORDER": 0.5771, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538849.5906, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 248.57959, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55879874435591, 
+          37.85900766147761
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190263.523, 
+        "ET_ORDER": 0.5856, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538810.4322, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 246.53808, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55936176742527, 
+          37.858939152507624
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190255.688, 
+        "ET_ORDER": 0.5965, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538760.9413, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 239.26896, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55990649510281, 
+          37.858935230285404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190255.0268, 
+        "ET_ORDER": 0.6069, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538713.0259, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 230.59545, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55998483576555, 
+          37.8589069174417
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190251.853, 
+        "ET_ORDER": 0.6086, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538706.1494, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 229.07869, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56011110735037, 
+          37.858822378142435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190242.421, 
+        "ET_ORDER": 0.6118, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538695.086, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 225.41884, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56017588742911, 
+          37.85880354220605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190240.3043, 
+        "ET_ORDER": 0.6131, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538689.3974, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 223.75277, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56022700435574, 
+          37.858806117983036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190240.5689, 
+        "ET_ORDER": 0.6141, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538684.8995, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 222.67092, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5604341625116, 
+          37.858870086505455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190247.5804, 
+        "ET_ORDER": 0.6183, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538666.6432, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 218.98785, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56052703307778, 
+          37.858871907695885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190247.744, 
+        "ET_ORDER": 0.6201, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538658.4728, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 217.66859, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56062866549959, 
+          37.85883112887579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190243.1775, 
+        "ET_ORDER": 0.6223, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538649.5539, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 216.11835, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56079309046666, 
+          37.858707353181565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190229.3765, 
+        "ET_ORDER": 0.6266, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538635.1547, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 213.16976, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56105403420368, 
+          37.85845102523052
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190200.8289, 
+        "ET_ORDER": 0.6346, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538612.3342, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 207.32461, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56117846517323, 
+          37.858412576067884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190196.5115, 
+        "ET_ORDER": 0.6371, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538601.4085, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 205.71878, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56133358694748, 
+          37.85843459611257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190198.8905, 
+        "ET_ORDER": 0.6401, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538587.7515, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 203.55309, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56187665839064, 
+          37.858595188249495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190216.4839, 
+        "ET_ORDER": 0.6512, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538539.8958, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 193.18997, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5620463831147, 
+          37.85863158973786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190220.4526, 
+        "ET_ORDER": 0.6546, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538524.9468, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 191.40674, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56222978349096, 
+          37.85864419509406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190221.7755, 
+        "ET_ORDER": 0.6581, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538508.8072, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 190.54309, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56237122354813, 
+          37.85863160506334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190220.3203, 
+        "ET_ORDER": 0.6609, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538496.3718, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 190.01445, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56343685773665, 
+          37.858482940069045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190203.387, 
+        "ET_ORDER": 0.6816, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538402.7091, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 187.2163, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56375458652835, 
+          37.85841376805853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190195.5817, 
+        "ET_ORDER": 0.6879, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538374.7955, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 184.69446, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56401838671623, 
+          37.858308626323506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190183.8078, 
+        "ET_ORDER": 0.6935, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538351.6444, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 182.99028, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5642479416549, 
+          37.8581449310545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190165.5515, 
+        "ET_ORDER": 0.6994, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538331.536, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 182.42257, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56437465792045, 
+          37.85807862761673
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190158.1431, 
+        "ET_ORDER": 0.7023, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538320.4235, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 182.35211, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56460918097943, 
+          37.858092610813515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190159.5983, 
+        "ET_ORDER": 0.7068, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538299.786, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 181.4588, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56469645418036, 
+          37.85808458739374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190158.6723, 
+        "ET_ORDER": 0.7085, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538292.113, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 180.69111, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5651092099321, 
+          37.8579668770763
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190145.4431, 
+        "ET_ORDER": 0.7169, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538255.865, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 178.06245, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5662769225221, 
+          37.85784717883449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190131.6847, 
+        "ET_ORDER": 0.7395, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538153.2065, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 169.15604, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56665774160278, 
+          37.85778955984756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190125.1363, 
+        "ET_ORDER": 0.7469, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538119.7366, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 165.15831, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56713417363635, 
+          37.857654058739
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190109.908, 
+        "ET_ORDER": 0.7566, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538077.8959, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 161.73569, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5675739184432, 
+          37.8574781461353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190090.2112, 
+        "ET_ORDER": 0.766, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538039.3031, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 158.6021, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5676582443027, 
+          37.857459377848386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190088.0945, 
+        "ET_ORDER": 0.7677, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538031.8948, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 158.02796, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.567811650015, 
+          37.857457557050026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190087.83, 
+        "ET_ORDER": 0.7706, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538018.401, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 156.51366, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56792314283271, 
+          37.85742219520315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190083.8612, 
+        "ET_ORDER": 0.7729, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 538008.6114, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 155.1062, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5685133643941, 
+          37.856785257222164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190012.9527, 
+        "ET_ORDER": 0.792, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537957.0176, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 143.01092, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56884771066629, 
+          37.856549275395075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189986.6346, 
+        "ET_ORDER": 0.8006, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537927.7266, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 135.129, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56911997082241, 
+          37.85643215676044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189973.5297, 
+        "ET_ORDER": 0.8065, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537903.8362, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 129.59603, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56925162912557, 
+          37.85639693953686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189969.5689, 
+        "ET_ORDER": 0.8092, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537892.2724, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 127.54356, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56934572399179, 
+          37.8564019813131
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189970.0901, 
+        "ET_ORDER": 0.811, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537883.9924, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 126.56592, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56941338690186, 
+          37.85642185649189
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189972.2678, 
+        "ET_ORDER": 0.8124, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537878.03, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 125.91292, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56954084525817, 
+          37.856467082246446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189977.2339, 
+        "ET_ORDER": 0.815, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537866.7945, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 124.83368, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5697089403191, 
+          37.85652492953527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189983.5839, 
+        "ET_ORDER": 0.8185, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537851.9778, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 123.79389, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56993717489449, 
+          37.85658538110099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189990.1985, 
+        "ET_ORDER": 0.8231, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537831.8694, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 122.58335, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57026161313857, 
+          37.85665333792682
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4189997.6069, 
+        "ET_ORDER": 0.8296, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537803.2943, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 121.01734, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.570643676564, 
+          37.85674511189178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190007.6346, 
+        "ET_ORDER": 0.8372, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537769.6379, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 117.79021, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57086492225405, 
+          37.85682012921727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190015.8683, 
+        "ET_ORDER": 0.8418, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537750.137, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 114.81408, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5709384532061, 
+          37.85688289100432
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190022.802, 
+        "ET_ORDER": 0.8439, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537743.6366, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 113.34045, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57098201790512, 
+          37.857015848115836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190037.536, 
+        "ET_ORDER": 0.8472, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537739.7365, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 110.25973, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5711289662339, 
+          37.85716090057191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190053.5702, 
+        "ET_ORDER": 0.8517, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537726.7358, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 106.85123, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57130061309306, 
+          37.85729432398978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190068.3042, 
+        "ET_ORDER": 0.8563, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537711.5684, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 103.52069, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57144279418736, 
+          37.85741201668656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190081.3048, 
+        "ET_ORDER": 0.8602, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537699.0011, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 100.29975, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57161466823372, 
+          37.85750638239189
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190091.7053, 
+        "ET_ORDER": 0.8642, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537683.8337, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 96.22215, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5718307645445, 
+          37.85762043814656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190104.2726, 
+        "ET_ORDER": 0.8692, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537664.7662, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 91.98329, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57190956152743, 
+          37.85762463090306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190104.706, 
+        "ET_ORDER": 0.8707, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537657.8325, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 91.23789, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57212138893605, 
+          37.857625400825086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190104.706, 
+        "ET_ORDER": 0.8748, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537639.1982, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 88.6256, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57222454527808, 
+          37.857676551578855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190110.3396, 
+        "ET_ORDER": 0.8771, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537630.0978, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 86.51461, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57231771404179, 
+          37.857751100813545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190118.5733, 
+        "ET_ORDER": 0.8796, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537621.8641, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 84.2459, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57243533665519, 
+          37.85785650934386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190130.221, 
+        "ET_ORDER": 0.883, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537611.4636, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 80.53695, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57247407150675, 
+          37.857890374138925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190133.9627, 
+        "ET_ORDER": 0.8841, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537608.039, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 79.59058, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57256086547613, 
+          37.85796613842794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190142.3338, 
+        "ET_ORDER": 0.8866, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537600.3655, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 77.49959, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57261179872033, 
+          37.85800995460826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190147.1747, 
+        "ET_ORDER": 0.888, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537595.8628, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 76.28271, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57266078991833, 
+          37.85805700210918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190152.3749, 
+        "ET_ORDER": 0.8895, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537591.5293, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 75.10956, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57270975976085, 
+          37.858107956671574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190158.0086, 
+        "ET_ORDER": 0.8911, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537587.1957, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 73.98434, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57276853582951, 
+          37.85816675750741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190164.5089, 
+        "ET_ORDER": 0.8929, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537581.9955, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 72.64835, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57283223875295, 
+          37.858225576187046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190171.0092, 
+        "ET_ORDER": 0.8947, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537576.3619, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 71.08981, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57291056318172, 
+          37.85831178896953
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190180.543, 
+        "ET_ORDER": 0.8973, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537569.4282, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 68.97505, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57298407368373, 
+          37.85837845475365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190187.91, 
+        "ET_ORDER": 0.8995, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537562.9279, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 67.50918, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57311633953847, 
+          37.85850782733456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190202.2107, 
+        "ET_ORDER": 0.9035, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537551.2273, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 64.21224, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57318002050629, 
+          37.85857055200244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190209.1444, 
+        "ET_ORDER": 0.9054, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537545.5937, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 63.00179, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5732486047181, 
+          37.858637199762725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190216.5114, 
+        "ET_ORDER": 0.9075, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537539.5268, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 61.04996, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5733220269246, 
+          37.858719488242876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190225.6118, 
+        "ET_ORDER": 0.9099, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537533.0264, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 58.95404, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.573395358108, 
+          37.85881740047698
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190236.4457, 
+        "ET_ORDER": 0.9127, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537526.5261, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 56.73233, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57344421528074, 
+          37.85888788290693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190244.2461, 
+        "ET_ORDER": 0.9146, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537522.1926, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 55.40653, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57350771681052, 
+          37.8589818532022
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190254.6466, 
+        "ET_ORDER": 0.9172, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537516.559, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 53.13454, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57355657533972, 
+          37.85905233468769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190262.4469, 
+        "ET_ORDER": 0.9191, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537512.2254, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 51.42728, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57359069849278, 
+          37.85911495207863
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190269.3806, 
+        "ET_ORDER": 0.9208, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537509.192, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 50.41636, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57361987465441, 
+          37.85918145690214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190276.7476, 
+        "ET_ORDER": 0.9225, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537506.5918, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 49.05387, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57364403290292, 
+          37.859263567677814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190285.8481, 
+        "ET_ORDER": 0.9245, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537504.4251, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 47.45867, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57361182104712, 
+          37.859377294021115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190298.479, 
+        "ET_ORDER": 0.9273, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537507.201, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 46.01372, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5736019296911, 
+          37.859402545226345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190301.2846, 
+        "ET_ORDER": 0.928, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537508.0583, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 45.55801, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57355644864988, 
+          37.85947802257301
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190309.6771, 
+        "ET_ORDER": 0.93, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537512.0208, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 44.20522, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57350507882386, 
+          37.8595041771682
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190312.5996, 
+        "ET_ORDER": 0.9312, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537516.5263, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 43.48386, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57343627726877, 
+          37.85953325371616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190315.8533, 
+        "ET_ORDER": 0.9327, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537522.5637, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 42.41578, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57333373900015, 
+          37.85954881909143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190317.6215, 
+        "ET_ORDER": 0.9347, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537531.5756, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 41.11218, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57317686758213, 
+          37.85953208835079
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190315.8283, 
+        "ET_ORDER": 0.9377, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537545.3833, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 38.95302, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57303842679833, 
+          37.85950087806588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190312.4212, 
+        "ET_ORDER": 0.9404, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537557.5771, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 37.2565, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57287756296556, 
+          37.859469586282984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190309.0141, 
+        "ET_ORDER": 0.9436, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537571.7434, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 35.43687, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57276836275949, 
+          37.85944796077289
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190306.6587, 
+        "ET_ORDER": 0.9458, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537581.3602, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 34.09017, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57266374542746, 
+          37.85943002100802
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190304.7104, 
+        "ET_ORDER": 0.9478, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537590.572, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 32.53638, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57256601881954, 
+          37.85940865596723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190302.3793, 
+        "ET_ORDER": 0.9498, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537599.1794, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 31.46412, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57249273613947, 
+          37.85939061167674
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190300.4068, 
+        "ET_ORDER": 0.9512, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537605.6349, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 30.69106, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57241336559005, 
+          37.8593676962109
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190297.8963, 
+        "ET_ORDER": 0.9528, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537612.6284, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 29.72571, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57234417818722, 
+          37.859346433716986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190295.5651, 
+        "ET_ORDER": 0.9543, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537618.7253, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 29.00804, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5722749628034, 
+          37.85933002010363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190293.7719, 
+        "ET_ORDER": 0.9556, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537624.8222, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 28.59784, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57219759441632, 
+          37.859313576828605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190291.9787, 
+        "ET_ORDER": 0.9572, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537631.6363, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 28.16202, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5721263314965, 
+          37.85929877172936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190290.3648, 
+        "ET_ORDER": 0.9586, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537637.9125, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 27.66995, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57206725256773, 
+          37.85929209197148
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190289.6475, 
+        "ET_ORDER": 0.9597, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537643.1128, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 27.42871, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57203049395955, 
+          37.85930327246074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190290.9028, 
+        "ET_ORDER": 0.9605, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537646.3406, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 27.25705, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5719977756155, 
+          37.85932093178637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190292.8753, 
+        "ET_ORDER": 0.9612, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537649.2097, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 27.05825, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57198744299582, 
+          37.859345137539364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190295.5651, 
+        "ET_ORDER": 0.9619, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537650.1063, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 26.81443, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57198319710923, 
+          37.8593742144395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190298.7929, 
+        "ET_ORDER": 0.9626, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537650.465, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 26.29575, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57199276413282, 
+          37.8594033757985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190302.0245, 
+        "ET_ORDER": 0.9633, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537649.6086, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 25.88271, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57206048679492, 
+          37.85966066520884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190330.5435, 
+        "ET_ORDER": 0.9696, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537643.5205, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 22.46465, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57209471315086, 
+          37.85980534724566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190346.5822, 
+        "ET_ORDER": 0.9732, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537640.4362, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 20.32345, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57215017116881, 
+          37.85991674640697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190358.9196, 
+        "ET_ORDER": 0.9761, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537635.5012, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 18.54996, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5722266347902, 
+          37.86003378290799
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190371.874, 
+        "ET_ORDER": 0.9793, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537628.7156, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 17.0732, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57226128048066, 
+          37.86010618714022
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190379.8933, 
+        "ET_ORDER": 0.9811, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537625.6312, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 16.33074, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57230319504013, 
+          37.86013413925269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190382.9777, 
+        "ET_ORDER": 0.9822, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537621.93, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 15.72347, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5723868647858, 
+          37.860217841810986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190392.2308, 
+        "ET_ORDER": 0.9848, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537614.5275, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 14.6494, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5725472561273, 
+          37.860374101220216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190409.5032, 
+        "ET_ORDER": 0.9896, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537600.3394, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 11.78102, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57259054284027, 
+          37.860444225774664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190417.2661, 
+        "ET_ORDER": 0.9915, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537596.4961, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 11.96716, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57268488289274, 
+          37.860554622049285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190429.4766, 
+        "ET_ORDER": 0.9947, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537588.1415, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 11.40804, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57283421679044, 
+          37.8606304643409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190437.8312, 
+        "ET_ORDER": 0.9981, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537574.967, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 8.98277, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57291830049729, 
+          37.86061918487508
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190436.5459, 
+        "ET_ORDER": 0.9998, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537567.5764, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 6.93091, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57293087218471, 
+          37.86061829041181
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2259.5, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 4629.9, 
+        "Len_Down": 2370.4, 
+        "Max_S_Down": 15.3, 
+        "Min_Z": 6.8, 
+        "H_Down": 271.3, 
+        "ET_ID": 65, 
+        "trail_name": "Coastal Fire Road", 
+        "ET_Y": 4190436.4416, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 11.4, 
+        "ET_IDP": 65, 
+        "ET_IDR": "65_0", 
+        "H_Up": 240.2, 
+        "ET_X": 537566.471, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 6.79769, 
+        "Length_2D": 4595.1, 
+        "Max_Z": 274.5
+      }
+    }
+  ]
+}

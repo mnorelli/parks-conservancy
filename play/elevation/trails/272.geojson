@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5031142823485, 
+          37.78262941795874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181813.9874, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543753.8304, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 106.65627, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50303517510991, 
+          37.7825912922017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181809.7944, 
+        "ET_ORDER": 0.0283, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543760.8188, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 107.70163, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50294358903683, 
+          37.78252035906722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181801.9673, 
+        "ET_ORDER": 0.0675, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543768.9254, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 109.51612, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50274986467154, 
+          37.78253213936087
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181803.365, 
+        "ET_ORDER": 0.1269, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543785.9772, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 110.54137, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50277004375847, 
+          37.78283708524411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181837.189, 
+        "ET_ORDER": 0.2446, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543784.0204, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.57412, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50275721040984, 
+          37.78285718718986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181839.4253, 
+        "ET_ORDER": 0.2533, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543785.1386, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.1052, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50240678949915, 
+          37.78303963285855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181859.8316, 
+        "ET_ORDER": 0.3815, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543815.8877, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.66665, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50236749735649, 
+          37.78321835175712
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181879.6787, 
+        "ET_ORDER": 0.4515, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543819.2421, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 112.05144, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50232278385656, 
+          37.7832584751077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181884.1513, 
+        "ET_ORDER": 0.4721, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543823.1557, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 112.94879, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50219236126335, 
+          37.78329823635995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181888.6239, 
+        "ET_ORDER": 0.5148, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543834.6167, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 113.37947, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50214114745545, 
+          37.7833610074526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181895.6123, 
+        "ET_ORDER": 0.5437, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543839.0893, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 113.14322, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50185748806548, 
+          37.78352861578142
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181914.3413, 
+        "ET_ORDER": 0.6519, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543863.9681, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 114.55582, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50173920389037, 
+          37.78365157141815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181928.0386, 
+        "ET_ORDER": 0.7115, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543874.311, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 114.03923, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5016754781999, 
+          37.783686575770126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181931.9522, 
+        "ET_ORDER": 0.7352, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543879.9017, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 113.80607, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50160448960766, 
+          37.78385760190623
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181950.9607, 
+        "ET_ORDER": 0.8046, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543886.0515, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 113.35036, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50166083429482, 
+          37.7839762576416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181964.099, 
+        "ET_ORDER": 0.8535, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543881.0199, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 112.57916, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50172074340944, 
+          37.78403697930243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181970.8079, 
+        "ET_ORDER": 0.8832, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543875.7087, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 112.19968, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50174578411806, 
+          37.78408999416358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181976.6781, 
+        "ET_ORDER": 0.9051, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543873.4724, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.7534, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50174862103178, 
+          37.78414039685517
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181982.2689, 
+        "ET_ORDER": 0.9245, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543873.1928, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.90586, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5017102220779, 
+          37.78418558591634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181987.3006, 
+        "ET_ORDER": 0.9455, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543876.5473, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.88718, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50177627772095, 
+          37.784276567236326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4181997.3639, 
+        "ET_ORDER": 0.986, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543870.677, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.55031, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50175067876974, 
+          37.784306692684375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 182.8, 
+        "Av_S_Up": 2.7, 
+        "Length_3D": 288.3, 
+        "Len_Down": 105.5, 
+        "Max_S_Down": 10.6, 
+        "Min_Z": 106.7, 
+        "H_Down": 4.2, 
+        "ET_ID": 272, 
+        "trail_name": "Veteran's Trail", 
+        "ET_Y": 4182000.7183, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 272, 
+        "ET_IDR": "272_0", 
+        "H_Up": 8.8, 
+        "ET_X": 543872.9133, 
+        "Av_S_Down": 2.3, 
+        "ET_Z": 111.21988, 
+        "Length_2D": 287.8, 
+        "Max_Z": 114.6
+      }
+    }
+  ]
+}

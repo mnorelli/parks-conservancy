@@ -1,0 +1,389 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47821321078209, 
+          37.83332324202198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187450.3897, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 545915.1367, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.82159, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47825544845608, 
+          37.8333757319452
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187456.1927, 
+        "ET_ORDER": 0.0109, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 545911.3874, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 4.14698, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4782703301205, 
+          37.83351477478601
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187471.6122, 
+        "ET_ORDER": 0.0354, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 545909.9917, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.91709, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47829655196742, 
+          37.83357831315845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187478.6489, 
+        "ET_ORDER": 0.0471, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 545907.6449, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 4.01724, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47846451420143, 
+          37.83382698836929
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187506.1569, 
+        "ET_ORDER": 0.0965, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 545892.7108, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.8903, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47847732351505, 
+          37.833937296468875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187518.3893, 
+        "ET_ORDER": 0.1159, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 545891.5153, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.9141, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47745921196206, 
+          37.83560560585867
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187703.9891, 
+        "ET_ORDER": 0.4407, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 545980.0694, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 4.76699, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47718236773122, 
+          37.83587531425706
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187734.0496, 
+        "ET_ORDER": 0.5016, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 546004.2625, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 5.50551, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47712626743332, 
+          37.83588990880719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187735.6965, 
+        "ET_ORDER": 0.5098, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 546009.1899, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 5.84072, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47434755811572, 
+          37.83595713457742
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187744.5276, 
+        "ET_ORDER": 0.8962, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 546253.6564, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 21.02783, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47404553725642, 
+          37.83596443781214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187745.4875, 
+        "ET_ORDER": 0.9382, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 546280.2277, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 22.94701, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47360732829502, 
+          37.83602508740901
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 587.1, 
+        "Av_S_Up": 2.2, 
+        "Length_3D": 633.9, 
+        "Len_Down": 46.8, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 3.8, 
+        "H_Down": 0.4, 
+        "ET_ID": 93, 
+        "trail_name": "Fort Baker Trail", 
+        "ET_Y": 4187752.4338, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 93, 
+        "ET_IDR": "93_0", 
+        "H_Up": 22.4, 
+        "ET_X": 546318.7493, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 25.90244, 
+        "Length_2D": 633.2, 
+        "Max_Z": 25.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48403642651367, 
+          37.791138731917776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 62.5, 
+        "Len_Down": 62.5, 
+        "Max_S_Down": 6.0, 
+        "Min_Z": 6.3, 
+        "H_Down": 3.6, 
+        "ET_ID": 20, 
+        "trail_name": "Baker Beach Access Trail #6", 
+        "ET_Y": 4182767.1863, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 20, 
+        "ET_IDR": "20_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545428.5542, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 9.93633, 
+        "Length_2D": 62.3, 
+        "Max_Z": 9.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4842239669309, 
+          37.791335277661446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 62.5, 
+        "Len_Down": 62.5, 
+        "Max_S_Down": 6.0, 
+        "Min_Z": 6.3, 
+        "H_Down": 3.6, 
+        "ET_ID": 20, 
+        "trail_name": "Baker Beach Access Trail #6", 
+        "ET_Y": 4182788.9018, 
+        "ET_ORDER": 0.4387, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 20, 
+        "ET_IDR": "20_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545411.9216, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 9.36118, 
+        "Length_2D": 62.3, 
+        "Max_Z": 9.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48432184532697, 
+          37.79141381297545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 62.5, 
+        "Len_Down": 62.5, 
+        "Max_S_Down": 6.0, 
+        "Min_Z": 6.3, 
+        "H_Down": 3.6, 
+        "ET_ID": 20, 
+        "trail_name": "Baker Beach Access Trail #6", 
+        "ET_Y": 4182797.5677, 
+        "ET_ORDER": 0.6353, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 20, 
+        "ET_IDR": "20_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545403.2557, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 8.69013, 
+        "Length_2D": 62.3, 
+        "Max_Z": 9.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48453385542773, 
+          37.79153085235694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 62.5, 
+        "Len_Down": 62.5, 
+        "Max_S_Down": 6.0, 
+        "Min_Z": 6.3, 
+        "H_Down": 3.6, 
+        "ET_ID": 20, 
+        "trail_name": "Baker Beach Access Trail #6", 
+        "ET_Y": 4182810.4502, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 20, 
+        "ET_IDR": "20_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545384.5174, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 6.29238, 
+        "Length_2D": 62.3, 
+        "Max_Z": 9.9
+      }
+    }
+  ]
+}

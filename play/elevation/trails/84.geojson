@@ -1,0 +1,933 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50989503512454, 
+          37.78001113414105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181520.3406, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543158.2623, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 58.71435, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50988882791955, 
+          37.77996419034537
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181515.1351, 
+        "ET_ORDER": 0.0055, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543158.8362, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 58.54801, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50971228393902, 
+          37.7799712928251
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181516.0046, 
+        "ET_ORDER": 0.0218, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543174.3785, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 59.76432, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50970486225195, 
+          37.78004049559012
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181523.686, 
+        "ET_ORDER": 0.0299, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543174.9918, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 60.36293, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5100823012139, 
+          37.78073821811426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181600.9234, 
+        "ET_ORDER": 0.1183, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543141.3491, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 61.71087, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51046120117367, 
+          37.78129572601476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181662.6036, 
+        "ET_ORDER": 0.192, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543107.6598, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 63.77567, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51093415447181, 
+          37.78199160903231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181739.5932, 
+        "ET_ORDER": 0.284, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543065.6086, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 67.52103, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51147204764047, 
+          37.78276494618412
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181825.1466, 
+        "ET_ORDER": 0.3868, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543017.7949, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 69.3608, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51150100319894, 
+          37.78287705643775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181837.5718, 
+        "ET_ORDER": 0.4001, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543015.1802, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 68.80147, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51148080604484, 
+          37.782965718888455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181847.4181, 
+        "ET_ORDER": 0.4106, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543016.9073, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 69.0508, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5114053161503, 
+          37.78302757588911
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181854.3158, 
+        "ET_ORDER": 0.4207, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543023.5188, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 70.07438, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51132249689032, 
+          37.783070605517324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181859.128, 
+        "ET_ORDER": 0.4298, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543030.7866, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 70.18836, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51111668633939, 
+          37.78312832822425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181865.627, 
+        "ET_ORDER": 0.45, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543048.876, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 70.64482, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51018961343037, 
+          37.783236550226995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181878.0613, 
+        "ET_ORDER": 0.5365, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543130.4475, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 72.14436, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51000663069298, 
+          37.78328250638046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181883.2445, 
+        "ET_ORDER": 0.5542, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543146.5335, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 72.77746, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50983670809804, 
+          37.783404223431496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181896.8273, 
+        "ET_ORDER": 0.5754, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543161.4254, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 73.16781, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50928444584993, 
+          37.78373084517159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181933.3207, 
+        "ET_ORDER": 0.639, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543209.8651, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 74.71452, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50907753758267, 
+          37.783824381587
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181943.7941, 
+        "ET_ORDER": 0.661, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543228.03, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 74.99634, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50883923217683, 
+          37.78388828762753
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181950.9946, 
+        "ET_ORDER": 0.6842, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543248.9768, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 75.31419, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50860120843582, 
+          37.78390941975947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181953.4493, 
+        "ET_ORDER": 0.7064, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543269.9237, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 75.61466, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50836341905179, 
+          37.78389515324801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181951.9765, 
+        "ET_ORDER": 0.7284, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543290.8706, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 75.88956, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50819250410959, 
+          37.78386197912052
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181948.375, 
+        "ET_ORDER": 0.7446, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543305.9399, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 76.05827, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5080460173588, 
+          37.783875891381946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181949.9864, 
+        "ET_ORDER": 0.7583, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543318.8307, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 76.26626, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50746968875576, 
+          37.78386634615233
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181949.1945, 
+        "ET_ORDER": 0.8115, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543369.585, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 74.63476, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50683338072915, 
+          37.78394108318943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181957.7818, 
+        "ET_ORDER": 0.8709, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543425.5715, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 78.14335, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50620949009264, 
+          37.78407739617439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181973.1955, 
+        "ET_ORDER": 0.9307, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543480.4284, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 79.63353, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5060736685044, 
+          37.78408603652461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181974.2173, 
+        "ET_ORDER": 0.9433, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543492.3831, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 79.88564, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50568266616813, 
+          37.78403861542048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181969.1379, 
+        "ET_ORDER": 0.9798, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543526.8406, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 79.63386, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50546652146913, 
+          37.78406438734551
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 831.0, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 954.1, 
+        "Len_Down": 123.0, 
+        "Max_S_Down": 8.9, 
+        "Min_Z": 58.5, 
+        "H_Down": 5.6, 
+        "ET_ID": 84, 
+        "trail_name": "El Camino del Mar Trail", 
+        "ET_Y": 4181972.0979, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 6.1, 
+        "ET_IDP": 84, 
+        "ET_IDR": "84_0", 
+        "H_Up": 23.5, 
+        "ET_X": 543545.8581, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 76.61962, 
+        "Length_2D": 953.3, 
+        "Max_Z": 79.9
+      }
+    }
+  ]
+}

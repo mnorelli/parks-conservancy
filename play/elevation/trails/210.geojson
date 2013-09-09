@@ -1,0 +1,5221 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5563700743323, 
+          37.84992944680156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189257.3061, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 539028.858, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 173.49147, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55653941849874, 
+          37.84995217476429
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189259.757, 
+        "ET_ORDER": 0.0064, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 539013.9477, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 173.57577, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55660244399571, 
+          37.84997387489925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189262.1383, 
+        "ET_ORDER": 0.009, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 539008.3915, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 173.42239, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55666480347487, 
+          37.85003144808947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189268.5, 
+        "ET_ORDER": 0.0126, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 539002.875, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 173.41095, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55683732819959, 
+          37.85042546900398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189312.1446, 
+        "ET_ORDER": 0.0322, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538987.4894, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 172.71197, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55688206841148, 
+          37.850487640027424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189319.0238, 
+        "ET_ORDER": 0.0356, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538983.5206, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 172.22152, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55702296005751, 
+          37.85060737867825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189332.25, 
+        "ET_ORDER": 0.0433, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538971.0625, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 169.57317, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5571978106339, 
+          37.85071168651134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189343.75, 
+        "ET_ORDER": 0.0515, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538955.625, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 166.40044, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55731237126751, 
+          37.85079999459218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189353.5, 
+        "ET_ORDER": 0.0575, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538945.5, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 164.44501, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55767108849378, 
+          37.85128354138473
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189407.0, 
+        "ET_ORDER": 0.0839, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538913.6875, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 151.29996, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55775100179383, 
+          37.851344679699345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189413.75, 
+        "ET_ORDER": 0.0881, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538906.625, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 148.82738, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5580925484255, 
+          37.85152362558168
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189433.4618, 
+        "ET_ORDER": 0.1034, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538876.4835, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 140.16328, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55830298660972, 
+          37.85161005721521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189442.9638, 
+        "ET_ORDER": 0.1122, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538857.9249, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 136.47141, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55849468400406, 
+          37.85162454175046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189444.4911, 
+        "ET_ORDER": 0.1194, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538841.0528, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 132.67278, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5587466278639, 
+          37.85153861189946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189434.8524, 
+        "ET_ORDER": 0.1297, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538818.9332, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 127.61554, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55914922117722, 
+          37.85144198377414
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189423.9642, 
+        "ET_ORDER": 0.1454, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538783.5658, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 118.27879, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55944405531284, 
+          37.851455599118154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189425.3524, 
+        "ET_ORDER": 0.1564, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538757.6207, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 111.09691, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55961450749615, 
+          37.85152383465895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189432.8524, 
+        "ET_ORDER": 0.1636, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538742.5895, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.3079, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55971709614384, 
+          37.851535484601
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189434.1024, 
+        "ET_ORDER": 0.1674, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538733.5582, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 103.23954, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55986635045358, 
+          37.8515247762284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189432.8524, 
+        "ET_ORDER": 0.173, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538720.4332, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 100.03535, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55993690929392, 
+          37.851486734418565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189428.6024, 
+        "ET_ORDER": 0.1762, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538714.2457, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 98.22528, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55997474523478, 
+          37.85148748599147
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189428.6701, 
+        "ET_ORDER": 0.1776, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538710.9167, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 97.36167, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56000856751808, 
+          37.85150277504516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189430.3524, 
+        "ET_ORDER": 0.1791, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538707.9332, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 96.88381, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56003301697771, 
+          37.8515727176255
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189438.1024, 
+        "ET_ORDER": 0.1825, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538705.7457, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 94.91386, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5599920954183, 
+          37.851764092284704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189459.3524, 
+        "ET_ORDER": 0.1917, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538709.2457, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 91.17287, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56000353046153, 
+          37.85199171480938
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189484.6024, 
+        "ET_ORDER": 0.2024, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538708.1207, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 87.2921, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55987377903075, 
+          37.85218726399685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189506.3524, 
+        "ET_ORDER": 0.2128, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538719.4332, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 82.14811, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5598492094085, 
+          37.85225702338318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189514.1024, 
+        "ET_ORDER": 0.2162, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538721.5582, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 80.01738, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55987873908323, 
+          37.85230895885455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189519.8524, 
+        "ET_ORDER": 0.2189, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538718.9332, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 78.32411, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55993322738566, 
+          37.852345214737944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189523.8524, 
+        "ET_ORDER": 0.2216, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538714.1207, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 76.46044, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5601602149157, 
+          37.85240464768933
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189530.3524, 
+        "ET_ORDER": 0.2305, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538694.1207, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 71.02352, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56017601826645, 
+          37.85237541426987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189527.1024, 
+        "ET_ORDER": 0.232, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538692.7457, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 70.42702, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56029380028126, 
+          37.852281216995046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189516.6024, 
+        "ET_ORDER": 0.2382, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538682.4332, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 65.94277, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56048979536261, 
+          37.85221375857127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189509.0367, 
+        "ET_ORDER": 0.2462, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538665.226, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 59.2888, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56080018094686, 
+          37.8522049022256
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189507.9256, 
+        "ET_ORDER": 0.2578, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538637.9248, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 49.00989, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56082764488433, 
+          37.85220718401388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189508.1674, 
+        "ET_ORDER": 0.2589, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538635.5075, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 48.14001, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56083995224753, 
+          37.852228212319645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189510.4954, 
+        "ET_ORDER": 0.26, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538634.4138, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 47.38816, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56080547055124, 
+          37.852281457262755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189516.4172, 
+        "ET_ORDER": 0.2628, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538637.4195, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 47.02886, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56071690402018, 
+          37.85232424268231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189521.2009, 
+        "ET_ORDER": 0.2667, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538645.1887, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 48.79381, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56056566104512, 
+          37.852449125764416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189535.1193, 
+        "ET_ORDER": 0.2748, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538658.4289, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 50.44247, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56035410231216, 
+          37.85255054149384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189546.459, 
+        "ET_ORDER": 0.2841, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538676.9875, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 52.83876, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56005082849765, 
+          37.852654314530184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189558.0983, 
+        "ET_ORDER": 0.2964, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538703.6133, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 56.77458, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55987047644645, 
+          37.85267931337577
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189560.9467, 
+        "ET_ORDER": 0.3032, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538719.4664, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 60.74943, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55975782864465, 
+          37.85266574403192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189559.4879, 
+        "ET_ORDER": 0.3075, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538729.3835, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 61.75432, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55966435202356, 
+          37.85267596954577
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189560.6612, 
+        "ET_ORDER": 0.311, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538737.6016, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 63.03402, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55945946713861, 
+          37.852802437882126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189574.7779, 
+        "ET_ORDER": 0.3207, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538755.5598, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 66.97709, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5592766203264, 
+          37.852873307462595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189582.7168, 
+        "ET_ORDER": 0.3283, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538771.6083, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 69.63824, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5591997437, 
+          37.852927096265596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189588.7166, 
+        "ET_ORDER": 0.3322, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538778.3432, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 70.23794, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55910104331552, 
+          37.852947274726496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189590.9964, 
+        "ET_ORDER": 0.336, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538787.0156, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 72.10922, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55896983976345, 
+          37.85301190455785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189598.2216, 
+        "ET_ORDER": 0.3418, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538798.5241, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 73.24481, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55867944625406, 
+          37.85311710218389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189610.014, 
+        "ET_ORDER": 0.3537, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538824.0157, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 75.47706, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5585956366134, 
+          37.85328367114746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189628.5297, 
+        "ET_ORDER": 0.3621, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538831.3013, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 80.15851, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55849367816174, 
+          37.85337430548212
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189638.628, 
+        "ET_ORDER": 0.3679, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538840.2233, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 82.56274, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55845709399647, 
+          37.85353058903636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189655.9829, 
+        "ET_ORDER": 0.3754, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538843.3597, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 84.31368, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55834115045101, 
+          37.85358645880258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189662.2299, 
+        "ET_ORDER": 0.3804, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538853.5302, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 87.09185, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.558281869468, 
+          37.85366681949282
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189671.1706, 
+        "ET_ORDER": 0.3848, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538858.7031, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 90.19847, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55822858665593, 
+          37.853880364274524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189694.8856, 
+        "ET_ORDER": 0.3951, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538863.2784, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 90.71613, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55826066321457, 
+          37.85393458909341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189700.8885, 
+        "ET_ORDER": 0.3979, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538860.4281, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 89.18435, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55829964964468, 
+          37.85395648384721
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189703.3015, 
+        "ET_ORDER": 0.3997, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538856.9869, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 88.67512, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55843735789976, 
+          37.85393962854752
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189701.3741, 
+        "ET_ORDER": 0.4049, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538844.8813, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 90.07959, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55851110386358, 
+          37.853969616606214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189704.6706, 
+        "ET_ORDER": 0.408, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538838.378, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 91.19718, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55863566701768, 
+          37.85394703446469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189702.1133, 
+        "ET_ORDER": 0.4128, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538827.4318, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 92.72032, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55878001700769, 
+          37.853951743063625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189702.5757, 
+        "ET_ORDER": 0.4182, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538814.7306, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 93.69024, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55894134738126, 
+          37.85385896766441
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189692.2152, 
+        "ET_ORDER": 0.4256, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538800.5867, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 95.45713, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5589890735874, 
+          37.85379510864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189685.1102, 
+        "ET_ORDER": 0.4291, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538796.4216, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 96.4784, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55911122149752, 
+          37.853753888759556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189680.4861, 
+        "ET_ORDER": 0.4341, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538785.6976, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 98.81972, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55919484797715, 
+          37.853652149683946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189669.1634, 
+        "ET_ORDER": 0.4398, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538778.3941, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 100.47233, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55935684070504, 
+          37.85354032979204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189656.6897, 
+        "ET_ORDER": 0.4478, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538764.2018, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 101.31566, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5595109847924, 
+          37.853487582545775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189650.7734, 
+        "ET_ORDER": 0.4541, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538750.669, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 101.0135, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5596742256297, 
+          37.85345398040277
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189646.9775, 
+        "ET_ORDER": 0.4604, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538736.3259, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 99.62572, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55981516883551, 
+          37.85345204498562
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189646.7043, 
+        "ET_ORDER": 0.4657, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538723.9278, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 98.38786, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55993704270914, 
+          37.85350876812964
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189652.9472, 
+        "ET_ORDER": 0.4709, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538713.1766, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 97.02964, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56007214685978, 
+          37.85351445365768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189653.522, 
+        "ET_ORDER": 0.476, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538701.2882, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 95.9747, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56015120923827, 
+          37.8535383659234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189656.1423, 
+        "ET_ORDER": 0.4792, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538694.3204, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 95.94531, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56032551050278, 
+          37.853507008784945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189652.591, 
+        "ET_ORDER": 0.4858, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538679.0031, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 96.49825, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56048784883393, 
+          37.853540932487554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189656.2876, 
+        "ET_ORDER": 0.4921, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538664.7041, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 96.73397, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56057439954758, 
+          37.8535402334198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189656.1742, 
+        "ET_ORDER": 0.4954, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538657.0904, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 96.66212, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56072663330026, 
+          37.85365143580848
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189668.4491, 
+        "ET_ORDER": 0.5031, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538643.64, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 98.13815, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56081355645622, 
+          37.85366672982485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189670.11, 
+        "ET_ORDER": 0.5064, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538635.9852, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 99.04277, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56089251616717, 
+          37.85365723340652
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189669.0237, 
+        "ET_ORDER": 0.5094, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538629.0439, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 99.7391, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56095094555012, 
+          37.853675137600675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189670.986, 
+        "ET_ORDER": 0.5117, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538623.8944, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 100.18041, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56101611097218, 
+          37.85365991414337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189669.27, 
+        "ET_ORDER": 0.5143, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538618.1696, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 100.85008, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56115791181668, 
+          37.85374404781867
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189678.546, 
+        "ET_ORDER": 0.5209, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538605.6512, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 104.00484, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56123638186564, 
+          37.85376539203227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189680.8817, 
+        "ET_ORDER": 0.524, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538598.7369, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 104.63359, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56150781939603, 
+          37.853744838474285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189678.4891, 
+        "ET_ORDER": 0.5342, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538574.8687, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 104.8811, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5616282173915, 
+          37.853669667183574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189670.0991, 
+        "ET_ORDER": 0.5399, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538564.3162, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 105.09057, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56190983824119, 
+          37.853593621149265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189661.5455, 
+        "ET_ORDER": 0.551, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538539.581, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.82162, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56218387455871, 
+          37.85361863581211
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189664.2078, 
+        "ET_ORDER": 0.5613, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538515.4604, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 110.11193, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5621560552984, 
+          37.853646545865296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189667.3159, 
+        "ET_ORDER": 0.563, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538517.8932, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 110.93685, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56205319555481, 
+          37.85369457340197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189672.687, 
+        "ET_ORDER": 0.5675, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538526.917, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 112.90857, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56208620434052, 
+          37.85372579572228
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189676.1375, 
+        "ET_ORDER": 0.5694, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538523.9969, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 113.47589, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56215882824011, 
+          37.85375582689962
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189679.4395, 
+        "ET_ORDER": 0.5725, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538517.5924, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 114.64438, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56205381837476, 
+          37.85383755257733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189688.5503, 
+        "ET_ORDER": 0.578, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538526.7878, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 116.79516, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5621611071731, 
+          37.85388963152953
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189694.2842, 
+        "ET_ORDER": 0.5827, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538517.3223, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 118.15849, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56215747990531, 
+          37.853925375550716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189698.2515, 
+        "ET_ORDER": 0.5844, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538517.6228, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 118.86725, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56218208052674, 
+          37.853964659404646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189702.5999, 
+        "ET_ORDER": 0.5864, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538515.4382, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 119.89146, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56231149454366, 
+          37.853993917396735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189705.7927, 
+        "ET_ORDER": 0.5915, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538504.0382, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 119.12336, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56244894388445, 
+          37.853989571974516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189705.2539, 
+        "ET_ORDER": 0.5966, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538491.9488, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 117.46063, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5624995549791, 
+          37.85401852610249
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189708.4455, 
+        "ET_ORDER": 0.5989, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538487.4814, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 116.64581, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56253374573846, 
+          37.854066193408336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189713.7201, 
+        "ET_ORDER": 0.6015, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538484.4488, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 115.78552, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56254138627186, 
+          37.85417728340542
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189726.0424, 
+        "ET_ORDER": 0.6068, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538483.7189, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 114.66226, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56251948344374, 
+          37.854229075790826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189731.7978, 
+        "ET_ORDER": 0.6093, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538485.6188, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 114.54361, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5625169577713, 
+          37.85449661453472
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189761.4823, 
+        "ET_ORDER": 0.6219, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538485.7019, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 111.85985, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56253160454517, 
+          37.85454702490504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189767.0693, 
+        "ET_ORDER": 0.6244, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538484.3872, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 111.33886, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56262765294639, 
+          37.854677313037655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189781.4852, 
+        "ET_ORDER": 0.6315, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538475.87, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 110.32222, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56273278858522, 
+          37.85478896879249
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189793.8301, 
+        "ET_ORDER": 0.6381, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538466.5631, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 108.74392, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5627783226564, 
+          37.85488545410776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189804.5164, 
+        "ET_ORDER": 0.6429, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538462.5073, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 108.13068, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5627850011115, 
+          37.855045379556195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189822.2574, 
+        "ET_ORDER": 0.6505, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538461.8367, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 107.06555, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56274930252478, 
+          37.855090649377296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189827.2948, 
+        "ET_ORDER": 0.653, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538464.9536, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.65853, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5627428141101, 
+          37.855181656259504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189837.3947, 
+        "ET_ORDER": 0.6573, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538465.4771, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.65934, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56276186117414, 
+          37.85528947718106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189849.3496, 
+        "ET_ORDER": 0.6624, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538463.7455, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.07853, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56279915784444, 
+          37.85533644840923
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189854.5457, 
+        "ET_ORDER": 0.665, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538460.4401, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 105.77565, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56285377329866, 
+          37.85536449521284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189857.635, 
+        "ET_ORDER": 0.6674, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538455.621, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.13937, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56291691704621, 
+          37.85536629878408
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189857.8091, 
+        "ET_ORDER": 0.6698, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538450.0653, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 105.68882, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56296418327412, 
+          37.85538744850503
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189860.1362, 
+        "ET_ORDER": 0.6718, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538445.8963, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 105.3381, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56308513783114, 
+          37.855586241391045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189882.1425, 
+        "ET_ORDER": 0.6822, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538435.1527, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.58326, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56304134198228, 
+          37.85591500045538
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189918.6364, 
+        "ET_ORDER": 0.6978, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538438.8347, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 110.33309, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56307982115723, 
+          37.85611723848425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189941.0589, 
+        "ET_ORDER": 0.7075, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538435.3447, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 110.55958, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56314345068222, 
+          37.856175910711514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189947.5424, 
+        "ET_ORDER": 0.7111, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538429.7168, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 110.28994, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5633110869471, 
+          37.85616585024377
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189946.3572, 
+        "ET_ORDER": 0.7174, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538414.9752, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 111.98393, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56347982416476, 
+          37.856097854991745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189938.7437, 
+        "ET_ORDER": 0.7245, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538400.1668, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 113.91091, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56369529610095, 
+          37.85606853103822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189935.4016, 
+        "ET_ORDER": 0.7326, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538381.2271, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 115.77571, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56390900588997, 
+          37.855953918626355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189922.5975, 
+        "ET_ORDER": 0.7423, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538362.4866, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 115.96692, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56414868565868, 
+          37.85588327570758
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189914.6612, 
+        "ET_ORDER": 0.7518, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538341.4387, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 113.66318, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56425411960281, 
+          37.855825396505686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189908.1962, 
+        "ET_ORDER": 0.7566, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538332.1937, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 112.61646, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56437344081208, 
+          37.85579442118492
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189904.7105, 
+        "ET_ORDER": 0.7613, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538321.7131, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 111.91338, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56461432421588, 
+          37.85576114268977
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189900.9194, 
+        "ET_ORDER": 0.7705, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538300.5399, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 109.37231, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56487237652247, 
+          37.855696802356796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189893.675, 
+        "ET_ORDER": 0.7806, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538277.8724, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.50939, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56496075583001, 
+          37.85571265750474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189895.3979, 
+        "ET_ORDER": 0.7839, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538270.0895, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 105.65079, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56506900875894, 
+          37.85576745389982
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189901.4332, 
+        "ET_ORDER": 0.7887, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538260.5382, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 104.21903, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56527411306958, 
+          37.855965179032225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189923.2868, 
+        "ET_ORDER": 0.8008, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538242.3931, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 101.36194, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56540257824491, 
+          37.855982983543704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189925.2096, 
+        "ET_ORDER": 0.8057, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538231.0829, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 102.21565, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56550982873203, 
+          37.85598035184664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189924.8737, 
+        "ET_ORDER": 0.8097, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538221.6495, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 103.97673, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56560608081587, 
+          37.855934952182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189919.7972, 
+        "ET_ORDER": 0.8139, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538213.2057, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 103.5906, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56580362270635, 
+          37.855755396184314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189899.7946, 
+        "ET_ORDER": 0.8251, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538195.9207, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 103.03021, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56599821177782, 
+          37.85563667250938
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189886.5426, 
+        "ET_ORDER": 0.8343, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538178.864, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 104.31515, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56621832022198, 
+          37.85558042820116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189880.2123, 
+        "ET_ORDER": 0.8429, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538159.5301, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 105.97618, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56652400810403, 
+          37.855547778376014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189876.4649, 
+        "ET_ORDER": 0.8545, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538132.6556, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 108.94167, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56662869162454, 
+          37.855560985670195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189877.8875, 
+        "ET_ORDER": 0.8584, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538123.4398, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 109.43239, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56668226752838, 
+          37.855582025531824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189880.2, 
+        "ET_ORDER": 0.8607, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538118.7159, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 109.53136, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56697434129036, 
+          37.855780073132756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189902.0542, 
+        "ET_ORDER": 0.875, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538092.9203, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 107.5825, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56721417898386, 
+          37.856002448052
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189926.6289, 
+        "ET_ORDER": 0.8888, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538071.7075, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 107.0639, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56723475153453, 
+          37.85609159249499
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189936.5111, 
+        "ET_ORDER": 0.8931, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538069.8519, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 108.25009, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56726369317374, 
+          37.856130144954186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189940.7767, 
+        "ET_ORDER": 0.8952, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538067.2861, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 108.81669, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56730834172924, 
+          37.856153875468046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189943.3914, 
+        "ET_ORDER": 0.8972, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538063.3462, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 109.04313, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56737010116531, 
+          37.856151101044865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189943.0584, 
+        "ET_ORDER": 0.8995, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538057.9147, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 108.92492, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56750693588856, 
+          37.856011524575045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189927.5166, 
+        "ET_ORDER": 0.9078, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538045.9492, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 106.75734, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56762350910093, 
+          37.85597032677595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189922.8982, 
+        "ET_ORDER": 0.9126, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538035.7155, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 108.04493, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56772741106603, 
+          37.85590104092075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189915.1686, 
+        "ET_ORDER": 0.9177, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538026.6109, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 109.97893, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56786597825092, 
+          37.85584032111965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189908.3753, 
+        "ET_ORDER": 0.9236, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538014.4524, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 111.46583, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56803332613526, 
+          37.85580054853236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189903.8944, 
+        "ET_ORDER": 0.9301, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537999.7513, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 113.02582, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56816573865848, 
+          37.8557922176306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189902.9162, 
+        "ET_ORDER": 0.9351, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537988.1073, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 114.90182, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56815675534422, 
+          37.855833836729296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189907.5375, 
+        "ET_ORDER": 0.9371, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537988.8762, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 116.02282, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56798459822328, 
+          37.855966841841635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189922.3645, 
+        "ET_ORDER": 0.9461, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 538003.9525, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 120.27748, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5681862486162, 
+          37.85600881262599
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189926.9391, 
+        "ET_ORDER": 0.9539, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537986.1919, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 122.98837, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56832210169456, 
+          37.85605655989019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189932.1814, 
+        "ET_ORDER": 0.9594, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537974.2165, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 124.82979, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56841853463649, 
+          37.8561054270549
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189937.564, 
+        "ET_ORDER": 0.9637, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537965.7083, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 125.46641, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56849576324156, 
+          37.85616833641265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189944.5124, 
+        "ET_ORDER": 0.9678, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537958.8823, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 126.03087, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56872299800307, 
+          37.85626267576179
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189954.887, 
+        "ET_ORDER": 0.9774, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537938.8443, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 127.04428, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56901020422083, 
+          37.85631274664319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189960.3257, 
+        "ET_ORDER": 0.9884, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537913.5534, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 127.69955, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56920724449886, 
+          37.85632401385316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189961.4958, 
+        "ET_ORDER": 0.9958, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537896.2142, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 127.27165, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56924391896445, 
+          37.85634215250318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189963.4934, 
+        "ET_ORDER": 0.9974, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537892.9787, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 127.31511, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56925162912557, 
+          37.85639693953686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1190.5, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 2380.5, 
+        "Len_Down": 1190.0, 
+        "Max_S_Down": 20.6, 
+        "Min_Z": 47.0, 
+        "H_Down": 170.0, 
+        "ET_ID": 210, 
+        "trail_name": "Pirates Cove Trail", 
+        "ET_Y": 4189969.5689, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 16.7, 
+        "ET_IDP": 210, 
+        "ET_IDR": "210_0", 
+        "H_Up": 124.0, 
+        "ET_X": 537892.2724, 
+        "Av_S_Down": 8.2, 
+        "ET_Z": 127.54356, 
+        "Length_2D": 2354.0, 
+        "Max_Z": 173.6
+      }
+    }
+  ]
+}

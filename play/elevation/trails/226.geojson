@@ -1,0 +1,2277 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5046055976804, 
+          37.85468864485269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189808.2396, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543580.1232, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 227.24987, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50462827025096, 
+          37.85494051227117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189836.1738, 
+        "ET_ORDER": 0.0217, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543577.9804, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 228.68311, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50473575072152, 
+          37.855022163747954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189845.1829, 
+        "ET_ORDER": 0.0318, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543568.4772, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 228.55155, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50520232977435, 
+          37.855275241119465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189873.0443, 
+        "ET_ORDER": 0.0702, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543527.2831, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 227.25565, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5053016790257, 
+          37.855354007987565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189881.7372, 
+        "ET_ORDER": 0.0798, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543518.497, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 226.67981, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50537852310445, 
+          37.855440946998684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189891.3473, 
+        "ET_ORDER": 0.0889, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543511.6859, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 225.96381, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50545110575338, 
+          37.85557126493904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189905.7723, 
+        "ET_ORDER": 0.1011, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543505.2242, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 224.83274, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50548143448161, 
+          37.855728460725224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189923.1991, 
+        "ET_ORDER": 0.1147, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543502.4638, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 223.21662, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50546285064736, 
+          37.85590272907881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189942.5429, 
+        "ET_ORDER": 0.1297, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543503.9962, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 221.21459, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50542043829007, 
+          37.85602591149053
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189956.2298, 
+        "ET_ORDER": 0.1407, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543507.6548, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 219.94892, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50536840371983, 
+          37.856096947293615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189964.1355, 
+        "ET_ORDER": 0.1477, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543512.1905, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 219.10516, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50527392119601, 
+          37.85617548384526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189972.8932, 
+        "ET_ORDER": 0.157, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543520.4559, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 217.92472, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50514456481734, 
+          37.85625284537817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189981.5368, 
+        "ET_ORDER": 0.168, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543531.7898, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 216.78913, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5050442579574, 
+          37.85629214965312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189985.9444, 
+        "ET_ORDER": 0.1757, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543540.5906, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 215.99882, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50490296866238, 
+          37.85632547263223
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189989.7075, 
+        "ET_ORDER": 0.1857, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543553.0001, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 214.96661, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50455207509862, 
+          37.856356404918536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4189993.3032, 
+        "ET_ORDER": 0.2097, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543583.8497, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 212.9573, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50411564159106, 
+          37.856478707936596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190007.0766, 
+        "ET_ORDER": 0.2412, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543622.1703, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 209.42553, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50352724683994, 
+          37.85674139388469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190036.4968, 
+        "ET_ORDER": 0.2871, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543673.7758, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 204.64402, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50301171642684, 
+          37.8568931410415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190053.5745, 
+        "ET_ORDER": 0.3245, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543719.0367, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 201.54236, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50287425605244, 
+          37.85696826397151
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190061.9738, 
+        "ET_ORDER": 0.3358, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543731.0845, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 200.67757, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50270027968774, 
+          37.85710011378944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190076.6841, 
+        "ET_ORDER": 0.3522, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543746.311, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 199.27666, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50170160908753, 
+          37.857714618599374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190145.3321, 
+        "ET_ORDER": 0.4381, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543833.7984, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 191.13965, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50156270767968, 
+          37.85786522344431
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190162.107, 
+        "ET_ORDER": 0.4541, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543845.928, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 189.18306, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50152643768098, 
+          37.858044619443
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190182.0281, 
+        "ET_ORDER": 0.4697, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543849.0123, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 186.92077, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50155028457782, 
+          37.85812017389996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190190.3997, 
+        "ET_ORDER": 0.4764, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543846.8698, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 185.93109, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50159786976411, 
+          37.85818461842133
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190197.5275, 
+        "ET_ORDER": 0.4828, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543842.6457, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 184.99125, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50166802930536, 
+          37.85824080878952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190203.7289, 
+        "ET_ORDER": 0.4896, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543836.4407, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 183.82752, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50176664301273, 
+          37.858285154716434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190208.6028, 
+        "ET_ORDER": 0.4973, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543827.7397, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 182.53407, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50187631256946, 
+          37.85830899851826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190211.1968, 
+        "ET_ORDER": 0.505, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543818.0783, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 181.26158, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50197989197142, 
+          37.85830621088832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190210.8389, 
+        "ET_ORDER": 0.5121, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543808.9684, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 180.21555, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50209489199638, 
+          37.85826922463898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190206.6813, 
+        "ET_ORDER": 0.5205, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543798.8741, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 179.03942, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50218169513089, 
+          37.85820854638323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190199.9083, 
+        "ET_ORDER": 0.5284, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543791.2742, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 177.81876, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50240733413376, 
+          37.857932622438895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190169.1886, 
+        "ET_ORDER": 0.5566, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543771.5886, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 173.29149, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50259160596266, 
+          37.85778699237943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190152.9445, 
+        "ET_ORDER": 0.5743, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543755.4648, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 170.83357, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50268957238227, 
+          37.85773614094108
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190147.2566, 
+        "ET_ORDER": 0.5822, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543746.877, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 169.77318, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50300770386549, 
+          37.857631291654236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190135.4745, 
+        "ET_ORDER": 0.6057, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543718.9537, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 166.72543, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50314848642232, 
+          37.85763466900222
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190135.7833, 
+        "ET_ORDER": 0.6152, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543706.5674, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 165.32163, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5032655833627, 
+          37.85767237966137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190139.9125, 
+        "ET_ORDER": 0.6238, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543696.2444, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 163.54835, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50334733591903, 
+          37.857730875706224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190146.3644, 
+        "ET_ORDER": 0.6313, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543689.0183, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 161.97572, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50339642835024, 
+          37.85784738515073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190159.2682, 
+        "ET_ORDER": 0.6419, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543684.631, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 159.46162, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50339595431447, 
+          37.857981241126055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190174.1198, 
+        "ET_ORDER": 0.6533, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543684.5937, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 157.11613, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50336331945587, 
+          37.858176415924696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190195.7898, 
+        "ET_ORDER": 0.6702, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543687.3493, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 154.6533, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50339286875631, 
+          37.858343374504386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190214.3001, 
+        "ET_ORDER": 0.6847, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543684.6514, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 153.2146, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50338757070107, 
+          37.85841327076485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190222.0576, 
+        "ET_ORDER": 0.6907, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543685.0762, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 152.64176, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50335962609795, 
+          37.85848408006646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190229.927, 
+        "ET_ORDER": 0.697, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543687.4926, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 151.7585, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50321206533283, 
+          37.85871649226141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190255.7823, 
+        "ET_ORDER": 0.7194, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543700.3358, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 147.998, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50321930450889, 
+          37.85878237292103
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190263.0884, 
+        "ET_ORDER": 0.725, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543699.6601, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 147.29694, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50326726035122, 
+          37.85883099595106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190268.4607, 
+        "ET_ORDER": 0.7303, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543695.4129, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 146.49889, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50336042747963, 
+          37.85886207291538
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190271.8651, 
+        "ET_ORDER": 0.7372, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543687.199, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 145.4407, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50346462386818, 
+          37.85885570931127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190271.1103, 
+        "ET_ORDER": 0.7443, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543678.037, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 144.25491, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50388434219111, 
+          37.85871594321857
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190255.4069, 
+        "ET_ORDER": 0.7753, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543641.1984, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 138.53283, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50412261697568, 
+          37.858709568841185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190254.5883, 
+        "ET_ORDER": 0.7915, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543620.242, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 135.32887, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50438213765317, 
+          37.858745252597956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190258.4262, 
+        "ET_ORDER": 0.8094, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543597.3919, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 132.89716, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50451171689882, 
+          37.85872367725323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190255.9719, 
+        "ET_ORDER": 0.8184, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543586.006, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 131.62905, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5047198330696, 
+          37.858660118650235
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190248.8229, 
+        "ET_ORDER": 0.8335, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543567.7362, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 128.98369, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50482719682913, 
+          37.85866385364718
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190249.1872, 
+        "ET_ORDER": 0.8408, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543558.2896, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 127.85583, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50490660577589, 
+          37.85870121310181
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190253.2952, 
+        "ET_ORDER": 0.8471, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543551.2823, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 127.00895, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5049407506062, 
+          37.85874609105189
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190258.2585, 
+        "ET_ORDER": 0.8516, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543548.2523, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 126.35481, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50495052213616, 
+          37.858803599233866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190264.6345, 
+        "ET_ORDER": 0.8566, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543547.3589, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 125.66639, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5049313863587, 
+          37.85886869742973
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190271.8661, 
+        "ET_ORDER": 0.8623, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543549.0039, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 124.94012, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50489799904048, 
+          37.8589117853582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190276.6623, 
+        "ET_ORDER": 0.8667, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543551.9155, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 124.4472, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50478137812361, 
+          37.858973098207514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190283.5194, 
+        "ET_ORDER": 0.8762, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543562.1381, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 122.82882, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5043702653671, 
+          37.859005780219064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190287.3374, 
+        "ET_ORDER": 0.9043, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543598.2828, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 119.64144, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50418437497672, 
+          37.85907642770318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190295.2626, 
+        "ET_ORDER": 0.9183, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543614.5932, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 117.14509, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50408606068636, 
+          37.85914532119464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190302.9523, 
+        "ET_ORDER": 0.9272, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543623.2009, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 115.39805, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50400326132812, 
+          37.85923101175085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190312.4984, 
+        "ET_ORDER": 0.9365, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543630.4339, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 113.58757, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50389661486035, 
+          37.8593823536458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190329.3397, 
+        "ET_ORDER": 0.9513, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543639.7259, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 111.01571, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50385491831041, 
+          37.85947521948697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190339.6627, 
+        "ET_ORDER": 0.9598, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543643.339, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 109.89033, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50370193064563, 
+          37.85965480023554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190359.6588, 
+        "ET_ORDER": 0.9784, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543656.6907, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 106.9948, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50357562446189, 
+          37.85975556345259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190370.8976, 
+        "ET_ORDER": 0.9906, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543667.7418, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 104.60024, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50346345483999, 
+          37.859820482736524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 28.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 1300.7, 
+        "Len_Down": 1272.7, 
+        "Max_S_Down": 10.5, 
+        "Min_Z": 103.0, 
+        "H_Down": 125.7, 
+        "ET_ID": 226, 
+        "trail_name": "Rodeo Avenue Fire Road", 
+        "ET_Y": 4190378.1529, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 226, 
+        "ET_IDR": "226_0", 
+        "H_Up": 1.4, 
+        "ET_X": 543677.5705, 
+        "Av_S_Down": 5.7, 
+        "ET_Z": 103.00574, 
+        "Length_2D": 1293.8, 
+        "Max_Z": 228.7
+      }
+    }
+  ]
+}

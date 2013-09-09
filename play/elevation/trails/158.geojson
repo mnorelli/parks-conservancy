@@ -1,0 +1,5925 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56597584570294, 
+          37.8635293172989
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190762.2424, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538176.7603, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 23.90057, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56586585294308, 
+          37.863523906853544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190761.6871, 
+        "ET_ORDER": 0.0035, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538186.4381, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 24.79643, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56532020780793, 
+          37.86369108572801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190780.459, 
+        "ET_ORDER": 0.0219, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538234.3469, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 28.0068, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56519455165846, 
+          37.863754441340326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190787.5398, 
+        "ET_ORDER": 0.0266, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538245.3669, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 30.44988, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56494728200843, 
+          37.86359252614359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190769.6766, 
+        "ET_ORDER": 0.0367, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538267.2005, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 35.05703, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56474517635687, 
+          37.86343379225124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190752.1479, 
+        "ET_ORDER": 0.0457, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538285.0599, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 37.69353, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56470537794988, 
+          37.86342410662012
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190751.0896, 
+        "ET_ORDER": 0.047, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538288.5656, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 38.20235, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5647200303017, 
+          37.86361791781999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190772.587, 
+        "ET_ORDER": 0.0547, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538287.1765, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 41.92135, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56476153034747, 
+          37.86372180596765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190784.0964, 
+        "ET_ORDER": 0.0591, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538283.4724, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 43.52576, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56474183396121, 
+          37.86375736803332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190788.0501, 
+        "ET_ORDER": 0.0606, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538285.1865, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 44.34859, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56468402041946, 
+          37.86373105883534
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190785.1548, 
+        "ET_ORDER": 0.0627, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538290.2854, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 44.84847, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56440504968883, 
+          37.86347188269781
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190756.5136, 
+        "ET_ORDER": 0.0763, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538314.9579, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 46.27006, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56436005788741, 
+          37.86345025347864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190754.1323, 
+        "ET_ORDER": 0.0779, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538318.9266, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 46.67225, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56435519829552, 
+          37.863509257423054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190760.6808, 
+        "ET_ORDER": 0.0803, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538319.3235, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 48.11218, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56445652046504, 
+          37.86367201758604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190778.6975, 
+        "ET_ORDER": 0.0875, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538310.3269, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 50.21582, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56453945915588, 
+          37.86376280991166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190788.7369, 
+        "ET_ORDER": 0.092, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538302.9846, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 50.13685, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56456965242029, 
+          37.86384260229407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190797.5775, 
+        "ET_ORDER": 0.0953, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538300.2875, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 50.30539, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56454407662565, 
+          37.86384655907278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190798.027, 
+        "ET_ORDER": 0.0961, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538302.5351, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 50.65713, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56447288857309, 
+          37.86378552261913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190791.2842, 
+        "ET_ORDER": 0.0994, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538308.8284, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 52.73836, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56441333779539, 
+          37.86377314733851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190789.9356, 
+        "ET_ORDER": 0.1014, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538314.0729, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 54.13971, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56430850293522, 
+          37.86372175734796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190784.2769, 
+        "ET_ORDER": 0.1053, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538323.3208, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 55.86918, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56418418845591, 
+          37.86363319567021
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190774.502, 
+        "ET_ORDER": 0.1105, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538334.3014, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 58.55445, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56416035548581, 
+          37.863630406243644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190774.2023, 
+        "ET_ORDER": 0.1113, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538336.3992, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 59.10449, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56419045398762, 
+          37.86372640472843
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190784.841, 
+        "ET_ORDER": 0.1152, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538333.702, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 60.85641, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56418511205294, 
+          37.863765550239314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190789.1864, 
+        "ET_ORDER": 0.1168, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538334.1516, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 61.82464, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56415512694188, 
+          37.863939656888405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190808.5159, 
+        "ET_ORDER": 0.1238, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538336.6989, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 65.45646, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56406863305878, 
+          37.86416352353767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190833.3895, 
+        "ET_ORDER": 0.1331, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538344.1909, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 67.18545, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56392294558292, 
+          37.864314242758724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190850.1717, 
+        "ET_ORDER": 0.1406, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538356.9274, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 68.77226, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56383405425545, 
+          37.86436658392919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190856.0155, 
+        "ET_ORDER": 0.1441, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538364.7191, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 69.2855, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56380352464268, 
+          37.86436266282146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190855.593, 
+        "ET_ORDER": 0.1451, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538367.4065, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 69.77509, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5637967208554, 
+          37.86434213564598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190853.3183, 
+        "ET_ORDER": 0.146, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538368.0156, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 70.30538, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56394262350015, 
+          37.86415495330858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190832.4904, 
+        "ET_ORDER": 0.1547, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538355.2791, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 72.33492, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56395366349051, 
+          37.864015890480694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190817.0568, 
+        "ET_ORDER": 0.1603, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538354.3801, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 73.48673, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56390434798678, 
+          37.863907243063984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190805.0226, 
+        "ET_ORDER": 0.1648, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538358.7742, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 74.70208, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56378321265375, 
+          37.86374380425743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190786.9388, 
+        "ET_ORDER": 0.1724, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538369.514, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 76.72139, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56370750322274, 
+          37.86358281125015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190769.1077, 
+        "ET_ORDER": 0.1792, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538376.2569, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 78.79299, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56364328965462, 
+          37.86349478984555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190759.3681, 
+        "ET_ORDER": 0.1833, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538381.9508, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 80.03505, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56324191033528, 
+          37.863096247297484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190715.3148, 
+        "ET_ORDER": 0.2036, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538417.4632, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 84.80636, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56305699172992, 
+          37.86296726142634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190701.0799, 
+        "ET_ORDER": 0.2113, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538433.7958, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 87.08298, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56295285872534, 
+          37.86280007232263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190682.5731, 
+        "ET_ORDER": 0.2187, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538443.0423, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 89.05895, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56284608147946, 
+          37.8626750949185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190668.7508, 
+        "ET_ORDER": 0.2248, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538452.4995, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 90.16786, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56274690128309, 
+          37.862632440143564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190664.0591, 
+        "ET_ORDER": 0.2283, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538461.2457, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 91.24973, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56249745376671, 
+          37.8626121976863
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190661.916, 
+        "ET_ORDER": 0.2362, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538483.198, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 93.75394, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56246397656749, 
+          37.862594323900694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190659.9467, 
+        "ET_ORDER": 0.2375, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538486.152, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 94.16177, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56244518361767, 
+          37.862543092412984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190654.2703, 
+        "ET_ORDER": 0.2396, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538487.8317, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 94.60519, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56246699964849, 
+          37.86248968646274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190648.3359, 
+        "ET_ORDER": 0.2419, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538485.9405, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 94.9529, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56261103136141, 
+          37.86233085921478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190630.6546, 
+        "ET_ORDER": 0.2496, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538473.3538, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 96.31149, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56265029697602, 
+          37.86226549734696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190623.3865, 
+        "ET_ORDER": 0.2525, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538469.9339, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 96.9025, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56261639147439, 
+          37.86209716632898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190604.7241, 
+        "ET_ORDER": 0.2593, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538473.0038, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 98.01523, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56271697432916, 
+          37.86190229298926
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190583.0614, 
+        "ET_ORDER": 0.2677, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538464.2576, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 99.11919, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5627541634915, 
+          37.86162626592719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190552.4208, 
+        "ET_ORDER": 0.2787, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538461.1298, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 101.52859, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56275822423531, 
+          37.861384780006254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190525.6262, 
+        "ET_ORDER": 0.2883, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538460.8981, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 103.64124, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56281484690302, 
+          37.86127431543789
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190513.3468, 
+        "ET_ORDER": 0.2931, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538455.9748, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 104.96118, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5628584777533, 
+          37.86124524270597
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190510.1032, 
+        "ET_ORDER": 0.2949, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538452.152, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 105.58344, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56290856156632, 
+          37.86123864180912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190509.3502, 
+        "ET_ORDER": 0.2965, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538447.7499, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 105.99924, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56348830354337, 
+          37.861302394838695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190516.185, 
+        "ET_ORDER": 0.3149, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538396.7209, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 110.2359, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56370390380513, 
+          37.86136688371801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190523.2514, 
+        "ET_ORDER": 0.3222, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538377.7226, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 111.9681, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56385932528164, 
+          37.861368548286826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190523.3722, 
+        "ET_ORDER": 0.3271, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538364.0504, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 112.84303, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56395964392674, 
+          37.86132450082558
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190518.4439, 
+        "ET_ORDER": 0.3307, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538355.2489, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 113.38993, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56402540015952, 
+          37.86122816499858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190507.7284, 
+        "ET_ORDER": 0.3351, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538349.5147, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 114.30788, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.564121351919, 
+          37.86114802019358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190498.7969, 
+        "ET_ORDER": 0.3395, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538341.116, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 115.58045, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56422837253102, 
+          37.860977182815326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190479.7985, 
+        "ET_ORDER": 0.3471, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538331.7906, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 118.32029, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56427581552094, 
+          37.86084906214528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190465.564, 
+        "ET_ORDER": 0.3524, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538327.6837, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 120.37778, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56431057366622, 
+          37.860820574332514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190462.389, 
+        "ET_ORDER": 0.3539, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538324.641, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 120.27841, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56441610747238, 
+          37.860776847709964
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190457.4942, 
+        "ET_ORDER": 0.3577, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538315.3805, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 120.79259, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56463899399554, 
+          37.86072520796752
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190451.6733, 
+        "ET_ORDER": 0.365, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538295.8013, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 122.50168, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56485815017454, 
+          37.86079636762755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190459.4786, 
+        "ET_ORDER": 0.3725, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538276.4867, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 124.2984, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56498298101884, 
+          37.8607956364543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190459.3463, 
+        "ET_ORDER": 0.3764, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538265.5065, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 126.05197, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5650480208768, 
+          37.860732681731115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190452.3348, 
+        "ET_ORDER": 0.3797, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538259.8179, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 127.14256, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56505873690003, 
+          37.860700527604195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190448.7629, 
+        "ET_ORDER": 0.381, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538258.8919, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 127.77663, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56504547535319, 
+          37.860653976690415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190443.6035, 
+        "ET_ORDER": 0.3829, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538260.0825, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 128.67002, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5650159102458, 
+          37.86061772785015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190439.5938, 
+        "ET_ORDER": 0.3846, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538262.7019, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 129.36727, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56490890016684, 
+          37.86060577865577
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190438.3119, 
+        "ET_ORDER": 0.388, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538272.1211, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 130.7258, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56482485747337, 
+          37.86057565921971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190435.0046, 
+        "ET_ORDER": 0.3909, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538279.5294, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 131.84793, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56461650232644, 
+          37.86045803750735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190422.0399, 
+        "ET_ORDER": 0.399, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538297.918, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 134.63979, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56455363977261, 
+          37.8604065343176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190416.3514, 
+        "ET_ORDER": 0.4018, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538303.4743, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 135.25187, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56436755646361, 
+          37.860337882208455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190408.8108, 
+        "ET_ORDER": 0.4083, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538319.8785, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 137.14311, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56428790693693, 
+          37.86032804808982
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190407.7524, 
+        "ET_ORDER": 0.4109, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538326.8899, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 137.8344, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56415398274216, 
+          37.860340668232574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190409.2076, 
+        "ET_ORDER": 0.4151, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538338.6639, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 139.81954, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56399419683153, 
+          37.86040327166988
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190416.2191, 
+        "ET_ORDER": 0.4207, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538352.6869, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 141.75592, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56390084979496, 
+          37.86042081147524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190418.2035, 
+        "ET_ORDER": 0.4238, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538360.889, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 142.53623, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56367870876898, 
+          37.86034606259528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190410.0014, 
+        "ET_ORDER": 0.4314, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538380.4682, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 144.69309, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56324926274901, 
+          37.8602311962725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190397.4336, 
+        "ET_ORDER": 0.4457, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538418.3037, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 150.34335, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56308219191689, 
+          37.8601533472385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190388.865, 
+        "ET_ORDER": 0.4518, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538433.0404, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 152.66994, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56292408010762, 
+          37.8600332519084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190375.6055, 
+        "ET_ORDER": 0.4587, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538447.011, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 154.68084, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56288357346313, 
+          37.86001640847314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190373.7534, 
+        "ET_ORDER": 0.4601, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538450.5829, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 154.80267, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56267169369893, 
+          37.85998700528843
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190370.5784, 
+        "ET_ORDER": 0.4669, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538469.2361, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 156.78536, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5626372101051, 
+          37.85996899171205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190368.594, 
+        "ET_ORDER": 0.4682, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538472.2788, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 157.01366, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56255637434855, 
+          37.85990549643037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190361.5825, 
+        "ET_ORDER": 0.4718, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538479.4225, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 157.84143, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56233969884991, 
+          37.859669797664885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190335.521, 
+        "ET_ORDER": 0.4834, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538498.6049, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 160.69924, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56224061968119, 
+          37.85963962049449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190332.2137, 
+        "ET_ORDER": 0.4868, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538507.3361, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 161.38962, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56211269819285, 
+          37.859654645488526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190333.9335, 
+        "ET_ORDER": 0.4908, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538518.5809, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 162.19581, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5620356825877, 
+          37.859708015544115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190339.8867, 
+        "ET_ORDER": 0.4941, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538525.3278, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 162.64093, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56201277131797, 
+          37.85976754804339
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190346.5013, 
+        "ET_ORDER": 0.4965, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538527.3122, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 163.03638, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56202141283092, 
+          37.859952071906406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190366.9707, 
+        "ET_ORDER": 0.5039, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538526.456, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 163.76412, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56200036255333, 
+          37.86008208796136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190381.4047, 
+        "ET_ORDER": 0.5091, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538528.24, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 164.15783, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56196112760588, 
+          37.86016964618846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190391.1355, 
+        "ET_ORDER": 0.5128, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538531.6457, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 164.51039, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56189987086074, 
+          37.86023958127122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190398.9201, 
+        "ET_ORDER": 0.5162, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538536.9977, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 164.83347, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56183142243104, 
+          37.86027879381827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190403.299, 
+        "ET_ORDER": 0.5189, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538542.9983, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 165.28042, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5617476103235, 
+          37.86029793927317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190405.4578, 
+        "ET_ORDER": 0.5216, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538550.3608, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 165.96399, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56154331101507, 
+          37.860315475191825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190407.4878, 
+        "ET_ORDER": 0.5281, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538568.3227, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 168.3026, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5614859651152, 
+          37.86034864777477
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190411.192, 
+        "ET_ORDER": 0.5303, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538573.3498, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 168.62758, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56143582824178, 
+          37.86043431033434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190420.717, 
+        "ET_ORDER": 0.5341, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538577.7154, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 169.36353, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56147434086773, 
+          37.860625357350585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190441.8978, 
+        "ET_ORDER": 0.5418, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538574.2281, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 170.35725, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5616833632817, 
+          37.860791745881045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190460.2723, 
+        "ET_ORDER": 0.5511, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538555.755, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 170.51892, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56174900621312, 
+          37.86088141678207
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190470.1942, 
+        "ET_ORDER": 0.5552, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538549.9341, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 170.67813, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56176353677489, 
+          37.86092334818852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190474.8405, 
+        "ET_ORDER": 0.557, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538548.6341, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 170.71546, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56176773055061, 
+          37.8611883032385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190504.2356, 
+        "ET_ORDER": 0.5675, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538548.1272, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 171.16856, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56174426467035, 
+          37.86125901879673
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190512.0912, 
+        "ET_ORDER": 0.5704, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538550.1545, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 171.30043, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56171231897318, 
+          37.86130229500949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190516.9059, 
+        "ET_ORDER": 0.5724, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538552.942, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 171.30072, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56156468324784, 
+          37.86142279510539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190530.3364, 
+        "ET_ORDER": 0.5791, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538565.8657, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 172.95477, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5612960959747, 
+          37.86153599271112
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190543.0067, 
+        "ET_ORDER": 0.5887, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538589.4324, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 174.35278, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56113765246387, 
+          37.861560405363825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190545.7808, 
+        "ET_ORDER": 0.5938, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538603.3568, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 177.29689, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56101889172795, 
+          37.8616445897625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190555.1702, 
+        "ET_ORDER": 0.5988, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538613.7594, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 178.92793, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56099208479375, 
+          37.861792947313184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190571.6416, 
+        "ET_ORDER": 0.6048, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538616.04, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 179.73682, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56103108322698, 
+          37.861984235086425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190592.8489, 
+        "ET_ORDER": 0.6125, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538612.5098, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 180.85608, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5610233977317, 
+          37.862073423873284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190602.7476, 
+        "ET_ORDER": 0.616, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538613.1393, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 181.1572, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56096807278078, 
+          37.86215027553734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190611.2972, 
+        "ET_ORDER": 0.6196, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538617.9657, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 181.3796, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56080491134378, 
+          37.862240153527324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190621.3367, 
+        "ET_ORDER": 0.6258, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538632.2708, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 182.52742, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56070641744515, 
+          37.86236276099644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190634.9808, 
+        "ET_ORDER": 0.6316, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538640.8705, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 183.98746, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56065132894592, 
+          37.86239949902764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190639.0797, 
+        "ET_ORDER": 0.6339, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538645.697, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 184.53799, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56056516884074, 
+          37.862413083731454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190640.6226, 
+        "ET_ORDER": 0.6367, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538653.2687, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 185.12802, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56048521244226, 
+          37.862379592959286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190636.9399, 
+        "ET_ORDER": 0.6395, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538660.3193, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 185.84919, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56044534875842, 
+          37.86233591474734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190632.1103, 
+        "ET_ORDER": 0.6417, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538663.8486, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 186.54961, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56035752174431, 
+          37.862204873353555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190617.6076, 
+        "ET_ORDER": 0.6476, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538671.6425, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 189.76805, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.56029069070514, 
+          37.862021931164456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190597.3378, 
+        "ET_ORDER": 0.6551, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538677.6167, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 193.73129, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55995080020729, 
+          37.86151510340782
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190541.246, 
+        "ET_ORDER": 0.678, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538707.7793, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 206.90956, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55990926376053, 
+          37.86133876203292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190521.6981, 
+        "ET_ORDER": 0.6851, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538711.5252, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 211.01348, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55986079059028, 
+          37.86097105402604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190480.9209, 
+        "ET_ORDER": 0.6998, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538715.9814, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 218.2294, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55980090348177, 
+          37.860925520662065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190475.8938, 
+        "ET_ORDER": 0.7024, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538721.2731, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 219.32482, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55969855324561, 
+          37.86093944619275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190477.4813, 
+        "ET_ORDER": 0.7057, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538730.2689, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 219.84773, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55960803517796, 
+          37.86098680201877
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190482.773, 
+        "ET_ORDER": 0.7091, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538738.2064, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 220.8024, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55948160775559, 
+          37.86100302215792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190484.6251, 
+        "ET_ORDER": 0.7132, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538749.3189, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 221.62002, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55937962533721, 
+          37.8609549462326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190479.3334, 
+        "ET_ORDER": 0.7169, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538758.3148, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 222.7125, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55920302400361, 
+          37.86081001069002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190463.3261, 
+        "ET_ORDER": 0.7249, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538773.9252, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 225.29019, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55911383710477, 
+          37.86063368530776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190443.7998, 
+        "ET_ORDER": 0.7325, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538781.8628, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 227.27356, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55920582185203, 
+          37.86034023407525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190411.2031, 
+        "ET_ORDER": 0.7445, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538773.9252, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 229.92734, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55921532750152, 
+          37.86025918917951
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190402.2072, 
+        "ET_ORDER": 0.7478, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538773.1315, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 231.13442, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55917059483714, 
+          37.860194634301585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190395.0634, 
+        "ET_ORDER": 0.7507, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538777.1002, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 232.48989, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55907456999584, 
+          37.86015659661344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190390.883, 
+        "ET_ORDER": 0.7541, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538785.5669, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 233.61403, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55900269877039, 
+          37.86010338751627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190385.0093, 
+        "ET_ORDER": 0.7572, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538791.9169, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 234.4465, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55887942181778, 
+          37.85996661690817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190369.8858, 
+        "ET_ORDER": 0.7639, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538802.8326, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 236.09487, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55868620315141, 
+          37.859861783168746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190358.3348, 
+        "ET_ORDER": 0.7712, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538819.884, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 238.44318, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55859904760885, 
+          37.859797007776244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190351.1842, 
+        "ET_ORDER": 0.775, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538827.5846, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 238.9636, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55844908652966, 
+          37.85962723274256
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190332.41, 
+        "ET_ORDER": 0.7833, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538840.865, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 241.58185, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55836899262678, 
+          37.85957801224115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190326.9823, 
+        "ET_ORDER": 0.7865, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538847.9363, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 242.39435, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5582335643089, 
+          37.85945281770084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190313.1483, 
+        "ET_ORDER": 0.793, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538859.915, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 245.0126, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55815534823958, 
+          37.859454909078615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190313.4129, 
+        "ET_ORDER": 0.7955, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538866.7942, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 246.00435, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55806885654981, 
+          37.859576886159694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190326.9823, 
+        "ET_ORDER": 0.8011, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538874.3384, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 248.43285, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55804897240365, 
+          37.8597651995713
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190347.884, 
+        "ET_ORDER": 0.8086, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538875.9886, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 251.05535, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55799844688295, 
+          37.85984928823365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190357.2347, 
+        "ET_ORDER": 0.8123, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538880.3889, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 251.70061, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55789191076232, 
+          37.8598885492902
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190361.6351, 
+        "ET_ORDER": 0.816, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538889.7397, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 252.38862, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55746111514436, 
+          37.859861994597104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190358.8684, 
+        "ET_ORDER": 0.8296, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538927.6485, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 255.33912, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55735581505571, 
+          37.85986636759946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190359.3975, 
+        "ET_ORDER": 0.8329, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538936.9089, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 255.93933, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55727139718662, 
+          37.85989943635518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190363.1017, 
+        "ET_ORDER": 0.8359, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538944.3173, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 256.26878, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5572224381332, 
+          37.85995543960306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190369.3357, 
+        "ET_ORDER": 0.8386, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538948.5945, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 256.44909, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55712076074511, 
+          37.86022772444448
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190399.5882, 
+        "ET_ORDER": 0.8499, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538957.3952, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 257.89688, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5571076911872, 
+          37.86032186884362
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190410.039, 
+        "ET_ORDER": 0.8537, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538958.4953, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 258.29372, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55703843438909, 
+          37.86040092944972
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190418.8397, 
+        "ET_ORDER": 0.8575, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538964.5458, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 258.94834, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5568617074558, 
+          37.860505995634014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190430.5706, 
+        "ET_ORDER": 0.8645, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538980.0361, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 260.10543, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5567322008942, 
+          37.860534124594516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190433.7456, 
+        "ET_ORDER": 0.8687, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 538991.4132, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 260.80808, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55652473415248, 
+          37.860521420030544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190432.4227, 
+        "ET_ORDER": 0.8753, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539009.6695, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 261.87718, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5564109808233, 
+          37.860430372565936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190422.3685, 
+        "ET_ORDER": 0.8804, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539019.7237, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 262.46918, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55637533047035, 
+          37.860356312341125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190414.1664, 
+        "ET_ORDER": 0.8835, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539022.8987, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 263.08454, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55630752734041, 
+          37.86028415348017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190406.1887, 
+        "ET_ORDER": 0.8871, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539028.901, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 263.15281, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55624070993169, 
+          37.860234184812036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190400.6726, 
+        "ET_ORDER": 0.89, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539034.8049, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 263.16681, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55617161586206, 
+          37.860219616182455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190399.0851, 
+        "ET_ORDER": 0.8923, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539040.8904, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 263.05489, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5560953451018, 
+          37.86021394788017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190398.4881, 
+        "ET_ORDER": 0.8947, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539047.6025, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 263.56784, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55587607681547, 
+          37.860282526915114
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190406.1887, 
+        "ET_ORDER": 0.9021, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539066.8541, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 264.00025, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55575617029045, 
+          37.86028005205994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190405.9643, 
+        "ET_ORDER": 0.9059, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539077.4029, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 264.22457, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55553246551453, 
+          37.86023165500782
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190400.6883, 
+        "ET_ORDER": 0.9132, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539097.1065, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 265.03632, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55529323637052, 
+          37.86023418751032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190401.0695, 
+        "ET_ORDER": 0.9208, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539118.1488, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 265.27961, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55522982883603, 
+          37.86027448780174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190405.5674, 
+        "ET_ORDER": 0.9233, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539123.7051, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 265.51818, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55521133789895, 
+          37.860348343866704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190413.7695, 
+        "ET_ORDER": 0.9263, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539125.2926, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 265.73419, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55525808643469, 
+          37.860577452737246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190439.1696, 
+        "ET_ORDER": 0.9356, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539121.0593, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 266.07461, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55524556843065, 
+          37.86065848501875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190448.1654, 
+        "ET_ORDER": 0.9388, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539122.1176, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 266.2488, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55517000069953, 
+          37.860720202109285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190455.0446, 
+        "ET_ORDER": 0.9422, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539128.7322, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 266.53666, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55487430384922, 
+          37.86087409101102
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190472.2426, 
+        "ET_ORDER": 0.9534, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539154.6614, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 267.27642, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55483254825033, 
+          37.860939813110704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190479.552, 
+        "ET_ORDER": 0.9563, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539158.2996, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 267.37238, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55483108976907, 
+          37.86105754952034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190492.6155, 
+        "ET_ORDER": 0.961, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539158.3656, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 267.86201, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55487232464819, 
+          37.861203172361726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190508.7551, 
+        "ET_ORDER": 0.9669, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539154.6614, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 268.41444, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55485983365428, 
+          37.861279435892115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190517.2218, 
+        "ET_ORDER": 0.97, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539155.7198, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 268.91069, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55444238559697, 
+          37.861671333188845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190560.8781, 
+        "ET_ORDER": 0.9904, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539192.2323, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 271.58505, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55427436825839, 
+          37.86177185158347
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190572.1012, 
+        "ET_ORDER": 0.997, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539206.9583, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 272.66766, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55418802467568, 
+          37.861801482257135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2772.3, 
+        "Av_S_Up": 5.2, 
+        "Length_3D": 2803.7, 
+        "Len_Down": 31.4, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 23.9, 
+        "H_Down": 0.4, 
+        "ET_ID": 158, 
+        "trail_name": "Middle Green Gulch Trail", 
+        "ET_Y": 4190575.425, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 158, 
+        "ET_IDR": "158_0", 
+        "H_Up": 249.1, 
+        "ET_X": 539214.5376, 
+        "Av_S_Down": 0.7, 
+        "ET_Z": 272.57877, 
+        "Length_2D": 2788.8, 
+        "Max_Z": 272.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,2981 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5835229166614, 
+          37.912785353030245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196220.2023, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536608.9171, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 234.1168, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58379079189777, 
+          37.912865494948875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196228.989, 
+        "ET_ORDER": 0.0126, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536585.3307, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 246.6928, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58414883189147, 
+          37.91283332603231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196225.2794, 
+        "ET_ORDER": 0.0284, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536553.8743, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 261.86913, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5845633806791, 
+          37.91248992745124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196187.0165, 
+        "ET_ORDER": 0.0547, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536517.6045, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 280.29941, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58478369298936, 
+          37.9122016623599
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196154.9469, 
+        "ET_ORDER": 0.0733, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536498.381, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 282.93845, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58500836342724, 
+          37.91206843540599
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196140.0773, 
+        "ET_ORDER": 0.0856, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536478.6977, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 284.64473, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5853316044837, 
+          37.9119593198646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196127.8444, 
+        "ET_ORDER": 0.1011, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536450.3378, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 273.22077, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58588605154307, 
+          37.91194952810377
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196126.5414, 
+        "ET_ORDER": 0.1254, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536401.6052, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 280.42421, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58607592399048, 
+          37.91173935634624
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196103.1485, 
+        "ET_ORDER": 0.1397, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536385.0184, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 268.83941, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58654601674958, 
+          37.911150335955924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196037.6127, 
+        "ET_ORDER": 0.1783, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536343.9856, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 292.49225, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5865504839029, 
+          37.91114692221019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4196037.2322, 
+        "ET_ORDER": 0.1786, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536343.5946, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 292.70183, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58663607924147, 
+          37.910772922865696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195995.7032, 
+        "ET_ORDER": 0.1996, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536336.2544, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 295.69857, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58682449273496, 
+          37.9105110697058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195966.5769, 
+        "ET_ORDER": 0.2163, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536319.8208, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 297.5631, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58721222215976, 
+          37.910374957020316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195951.3241, 
+        "ET_ORDER": 0.2349, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536285.8045, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 286.67287, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58760358825704, 
+          37.9103680388376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195950.4043, 
+        "ET_ORDER": 0.2521, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536251.405, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 284.01171, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58779709016004, 
+          37.91028706089136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195941.3445, 
+        "ET_ORDER": 0.2617, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536234.435, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 293.9389, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58798549489293, 
+          37.91002520490693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195912.2181, 
+        "ET_ORDER": 0.2784, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536218.0017, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 301.41728, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58804635779096, 
+          37.90986901659598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195894.8652, 
+        "ET_ORDER": 0.2874, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536212.7281, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 299.08041, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58842898723198, 
+          37.909552020329265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195859.5456, 
+        "ET_ORDER": 0.3117, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536179.2482, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 287.07612, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58891018354431, 
+          37.90925913343802
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195826.8629, 
+        "ET_ORDER": 0.3383, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536137.0916, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 293.92501, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58922685368888, 
+          37.90891745190909
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195788.8303, 
+        "ET_ORDER": 0.3618, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536109.4214, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 304.37472, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58977836363647, 
+          37.90880428413314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195776.0608, 
+        "ET_ORDER": 0.3868, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 536060.9954, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 293.56084, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5907263334182, 
+          37.908865062837506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195782.4381, 
+        "ET_ORDER": 0.4285, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535977.6331, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 292.93313, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59088163796262, 
+          37.908880127200455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195784.0496, 
+        "ET_ORDER": 0.4354, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535963.9735, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 294.12964, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59107757118886, 
+          37.90891242564583
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195787.5576, 
+        "ET_ORDER": 0.4441, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535946.734, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 296.01612, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59123941406702, 
+          37.9089524809205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195791.9394, 
+        "ET_ORDER": 0.4516, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535932.4875, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 297.76145, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59140273912249, 
+          37.90898106398545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195795.0478, 
+        "ET_ORDER": 0.4589, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535918.1163, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 299.56655, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5915639364002, 
+          37.90899823891764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195796.8913, 
+        "ET_ORDER": 0.466, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535903.9377, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 300.62782, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59170094550896, 
+          37.90899008976364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195795.9344, 
+        "ET_ORDER": 0.4721, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535891.8977, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 301.67978, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59193409551487, 
+          37.90899740571309
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195796.6564, 
+        "ET_ORDER": 0.4823, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535871.3988, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.00564, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59199614713796, 
+          37.90902062917712
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195799.2092, 
+        "ET_ORDER": 0.4853, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535865.9328, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.14791, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59206241261843, 
+          37.90906523699693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195804.133, 
+        "ET_ORDER": 0.4891, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535860.086, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.09977, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59216522144219, 
+          37.90912493656851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195810.7172, 
+        "ET_ORDER": 0.4947, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535851.0195, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 306.08387, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59225772384659, 
+          37.909203416750685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195819.3891, 
+        "ET_ORDER": 0.5007, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535842.8499, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 305.6908, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5923869305386, 
+          37.909302707874936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195830.3559, 
+        "ET_ORDER": 0.5086, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535831.4437, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.05474, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59246692126894, 
+          37.90938570242542
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195839.5335, 
+        "ET_ORDER": 0.5143, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535824.3718, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 310.48495, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59265260467086, 
+          37.909502591063024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195852.4311, 
+        "ET_ORDER": 0.5247, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535807.9925, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 312.72267, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59283972940918, 
+          37.90960657870303
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195863.8968, 
+        "ET_ORDER": 0.5348, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535791.4928, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 308.99415, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59298638068508, 
+          37.90968409916698
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195872.4415, 
+        "ET_ORDER": 0.5425, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535778.5638, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.00378, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59304252123057, 
+          37.90972053089295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195876.4621, 
+        "ET_ORDER": 0.5457, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535773.6111, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 305.90796, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.593543213685, 
+          37.90991868548745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195898.2556, 
+        "ET_ORDER": 0.5702, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535729.5017, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 306.36689, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59368031726932, 
+          37.90994389411182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195901.0, 
+        "ET_ORDER": 0.5764, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535717.4374, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 312.42581, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59380846828505, 
+          37.90991279101288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195897.5, 
+        "ET_ORDER": 0.5823, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535706.1873, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 322.05707, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59383899491914, 
+          37.909791222899514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195884.0002, 
+        "ET_ORDER": 0.5892, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535703.5626, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 324.6548, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59382041445976, 
+          37.90967849559357
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195871.5001, 
+        "ET_ORDER": 0.5955, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535705.2504, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 322.95716, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59377696011182, 
+          37.909565682435144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195859.0, 
+        "ET_ORDER": 0.602, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535709.1248, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 321.98515, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59354752553108, 
+          37.90926746279525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195826.0001, 
+        "ET_ORDER": 0.6213, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535729.4376, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 311.18458, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59349154252891, 
+          37.90910503304641
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195807.9998, 
+        "ET_ORDER": 0.6306, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535734.4374, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 309.40929, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59350966620566, 
+          37.90904200655819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195801.0, 
+        "ET_ORDER": 0.6342, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535732.8747, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 310.0586, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59359973868656, 
+          37.908952188668074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195791.0001, 
+        "ET_ORDER": 0.6406, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535725.0002, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 308.48881, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5937428443067, 
+          37.90891663077542
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195787.0001, 
+        "ET_ORDER": 0.6472, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535712.4375, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 306.12918, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59385696375838, 
+          37.90898011010447
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195793.9995, 
+        "ET_ORDER": 0.6533, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535702.375, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 306.11275, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59394742201319, 
+          37.90907957044565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195805.0001, 
+        "ET_ORDER": 0.6601, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535694.3751, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.32606, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59398202956054, 
+          37.909250935622666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195824.0, 
+        "ET_ORDER": 0.6697, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535691.2501, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 310.23859, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59407371119775, 
+          37.90938062782717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195838.3544, 
+        "ET_ORDER": 0.6779, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535683.1281, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 306.80204, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59408174620881, 
+          37.909471267565955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195848.4079, 
+        "ET_ORDER": 0.6829, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535682.378, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 306.60687, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59413154075989, 
+          37.90955280579598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195857.4356, 
+        "ET_ORDER": 0.6879, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535677.9614, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.27046, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.594227993937, 
+          37.90960484855371
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195863.1729, 
+        "ET_ORDER": 0.6931, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535669.4575, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 308.48929, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.594363564754, 
+          37.909600652550225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195862.6555, 
+        "ET_ORDER": 0.699, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535657.5421, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 309.01431, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59447688619622, 
+          37.909609393579366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195863.582, 
+        "ET_ORDER": 0.704, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535647.5763, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 308.73661, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59471403855781, 
+          37.90967864962795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195871.1754, 
+        "ET_ORDER": 0.7151, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535626.6959, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 307.20606, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59486750759898, 
+          37.90974759825027
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195878.7667, 
+        "ET_ORDER": 0.7228, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535613.1719, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 305.70215, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59491959678212, 
+          37.90975025700949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195879.0418, 
+        "ET_ORDER": 0.7251, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535608.5917, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 304.83013, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59503200768377, 
+          37.90972676214081
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195876.3921, 
+        "ET_ORDER": 0.7302, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535598.7215, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 299.9872, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5951248348005, 
+          37.909730491111354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195876.7704, 
+        "ET_ORDER": 0.7343, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535590.5597, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 297.78149, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59523033020537, 
+          37.90978237217628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195882.4864, 
+        "ET_ORDER": 0.7398, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535581.2611, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 294.57563, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59531865413787, 
+          37.90986680938806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195891.8211, 
+        "ET_ORDER": 0.7458, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535573.4563, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 295.26185, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59541083977352, 
+          37.909927885537954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195898.5624, 
+        "ET_ORDER": 0.7511, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535565.3233, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 296.47587, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59553627385172, 
+          37.90996507881095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195902.6412, 
+        "ET_ORDER": 0.757, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535554.2791, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 300.10625, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59565455561228, 
+          37.90990922708646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195896.3993, 
+        "ET_ORDER": 0.763, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535543.9084, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 308.26534, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59572968594367, 
+          37.90984697382444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195889.4636, 
+        "ET_ORDER": 0.7678, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535537.334, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 313.09852, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59583298308593, 
+          37.90973476363807
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195876.9744, 
+        "ET_ORDER": 0.7755, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535528.3076, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 318.91452, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59576775597819, 
+          37.90944786637184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195845.1677, 
+        "ET_ORDER": 0.7916, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535534.1794, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 325.37064, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59552997060968, 
+          37.90911600256033
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195808.4377, 
+        "ET_ORDER": 0.8127, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535555.2418, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 323.10545, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59555235878949, 
+          37.90875367099731
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195768.2281, 
+        "ET_ORDER": 0.8328, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535553.4481, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 326.0891, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59559407329131, 
+          37.908326829575884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195720.8537, 
+        "ET_ORDER": 0.8565, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535549.9865, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 317.11395, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59563929111867, 
+          37.90824188702842
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195711.412, 
+        "ET_ORDER": 0.8616, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535546.0524, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 318.58719, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59565790398977, 
+          37.90813482623102
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195699.5264, 
+        "ET_ORDER": 0.8676, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535544.4677, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 320.54662, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59568531572658, 
+          37.90806707514787
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195691.9989, 
+        "ET_ORDER": 0.8716, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535542.0906, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 321.15964, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59582490889292, 
+          37.90808897935814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195694.376, 
+        "ET_ORDER": 0.8778, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535529.8088, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 321.57085, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59602281669665, 
+          37.90816107589835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195702.2998, 
+        "ET_ORDER": 0.8874, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535512.3766, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 321.86677, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59625272114435, 
+          37.90815115193826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195701.1112, 
+        "ET_ORDER": 0.8975, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535492.1711, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 320.22576, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59662690146939, 
+          37.90813101014003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195698.7341, 
+        "ET_ORDER": 0.9139, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535459.2876, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 318.00269, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59680721110203, 
+          37.90812448606166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195697.9417, 
+        "ET_ORDER": 0.9218, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535443.4402, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 319.09607, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59702819998209, 
+          37.90809667622029
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195694.7722, 
+        "ET_ORDER": 0.9316, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535424.027, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 316.69667, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59728965151265, 
+          37.908086859140134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195693.5837, 
+        "ET_ORDER": 0.9431, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535401.0482, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 316.17897, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59752876395834, 
+          37.908041255641045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195688.4332, 
+        "ET_ORDER": 0.9539, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535380.0503, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 317.11214, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59760120205736, 
+          37.90798079995577
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195681.6981, 
+        "ET_ORDER": 0.9585, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535373.7114, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 316.07243, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5976605298703, 
+          37.90784531136144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195666.643, 
+        "ET_ORDER": 0.9665, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535368.5609, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 312.01187, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59766916636326, 
+          37.907742918203866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195655.2791, 
+        "ET_ORDER": 0.9721, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535367.8507, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 309.41702, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59767704712989, 
+          37.90773355811659
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195654.2376, 
+        "ET_ORDER": 0.9728, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535367.1624, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 309.52733, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59767119837764, 
+          37.9075268432935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195631.3046, 
+        "ET_ORDER": 0.9842, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535367.7755, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 313.20968, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5978840790728, 
+          37.907297096078864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1183.9, 
+        "Av_S_Up": 11.2, 
+        "Length_3D": 2056.0, 
+        "Len_Down": 872.1, 
+        "Max_S_Down": 25.4, 
+        "Min_Z": 234.1, 
+        "H_Down": 133.6, 
+        "ET_ID": 266, 
+        "trail_name": "Troop 88 Trail", 
+        "ET_Y": 4195605.7332, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 266, 
+        "ET_IDR": "266_0", 
+        "H_Up": 227.7, 
+        "ET_X": 535349.1715, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 328.27024, 
+        "Length_2D": 2003.9, 
+        "Max_Z": 328.3
+      }
+    }
+  ]
+}

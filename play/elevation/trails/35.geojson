@@ -1,0 +1,1349 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48202072771143, 
+          37.82851409231349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186914.9497, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_0", 
+        "H_Up": 13.1, 
+        "ET_X": 545583.0469, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 136.66952, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48202072771143, 
+          37.82851409231349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186914.9497, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_1", 
+        "H_Up": 13.1, 
+        "ET_X": 545583.0469, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 136.66952, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48216813356521, 
+          37.82865937324502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186930.9967, 
+        "ET_ORDER": 0.033, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_0", 
+        "H_Up": 13.1, 
+        "ET_X": 545569.9855, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 134.5409, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48216813356521, 
+          37.82865937324502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186930.9967, 
+        "ET_ORDER": 0.033, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545569.9855, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 134.5409, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48216813356521, 
+          37.82865937324502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186930.9967, 
+        "ET_ORDER": 0.033, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_3", 
+        "H_Up": 13.1, 
+        "ET_X": 545569.9855, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 134.5409, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4820696904702, 
+          37.82891037892622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186958.8938, 
+        "ET_ORDER": 0.1036, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_1", 
+        "H_Up": 13.1, 
+        "ET_X": 545578.4943, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 135.34527, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48210750208412, 
+          37.82894242262351
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186962.4306, 
+        "ET_ORDER": 0.1113, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_1", 
+        "H_Up": 13.1, 
+        "ET_X": 545575.1471, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 135.68028, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4823090599799, 
+          37.82903943583159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186973.0959, 
+        "ET_ORDER": 0.1445, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_1", 
+        "H_Up": 13.1, 
+        "ET_X": 545557.35, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 135.2969, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4823090599799, 
+          37.82903943583159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186973.0959, 
+        "ET_ORDER": 0.1445, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_5", 
+        "H_Up": 13.1, 
+        "ET_X": 545557.35, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 135.2969, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4823090599799, 
+          37.82903943583159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186973.0959, 
+        "ET_ORDER": 0.1445, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_6", 
+        "H_Up": 13.1, 
+        "ET_X": 545557.35, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 135.2969, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48208317392273, 
+          37.82815673906384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186875.2709, 
+        "ET_ORDER": 0.2343, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545577.7713, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 138.95939, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48203167023951, 
+          37.82797103707379
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186854.6924, 
+        "ET_ORDER": 0.268, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545582.418, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 139.64218, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48178345796087, 
+          37.82785877349991
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186842.3579, 
+        "ET_ORDER": 0.3081, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545604.3305, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 139.41774, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48176170306756, 
+          37.827748935513455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186830.182, 
+        "ET_ORDER": 0.3278, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545606.3126, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 142.05505, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48170813223604, 
+          37.82768022206948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186822.5844, 
+        "ET_ORDER": 0.3421, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545611.0693, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 142.16505, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48163918341224, 
+          37.827692116032004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186823.9377, 
+        "ET_ORDER": 0.352, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545617.1297, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 143.89439, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48153762409908, 
+          37.82777811069076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186833.5284, 
+        "ET_ORDER": 0.3729, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545626.0143, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 143.76523, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4815467253823, 
+          37.827910730340214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186848.2381, 
+        "ET_ORDER": 0.3964, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545625.1317, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 143.67116, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48166343074908, 
+          37.82801530803084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186859.784, 
+        "ET_ORDER": 0.4211, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545614.7969, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 143.46076, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48192095109225, 
+          37.8281642932976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186876.1882, 
+        "ET_ORDER": 0.4659, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545592.0427, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 141.95473, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48217444627763, 
+          37.82869671962009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186935.1372, 
+        "ET_ORDER": 0.5361, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_3", 
+        "H_Up": 13.1, 
+        "ET_X": 545569.407, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 134.29404, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48217187753669, 
+          37.82889225410941
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186956.833, 
+        "ET_ORDER": 0.5707, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_3", 
+        "H_Up": 13.1, 
+        "ET_X": 545569.5128, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 134.25262, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48223287633715, 
+          37.82894021674674
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186962.1247, 
+        "ET_ORDER": 0.5828, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_3", 
+        "H_Up": 13.1, 
+        "ET_X": 545564.1153, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.96643, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4823441091262, 
+          37.82897716715817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186966.1701, 
+        "ET_ORDER": 0.5998, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_3", 
+        "H_Up": 13.1, 
+        "ET_X": 545554.3039, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.60858, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4823441091262, 
+          37.82897716715817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186966.1701, 
+        "ET_ORDER": 0.5998, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_4", 
+        "H_Up": 13.1, 
+        "ET_X": 545554.3039, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.60858, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4823441091262, 
+          37.82897716715817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186966.1701, 
+        "ET_ORDER": 0.5998, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_5", 
+        "H_Up": 13.1, 
+        "ET_X": 545554.3039, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.60858, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48293555736484, 
+          37.82923743714026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186994.7588, 
+        "ET_ORDER": 0.6948, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_4", 
+        "H_Up": 13.1, 
+        "ET_X": 545502.0956, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 131.18262, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.482317432075, 
+          37.82904324460031
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186973.5144, 
+        "ET_ORDER": 0.7457, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_6", 
+        "H_Up": 13.1, 
+        "ET_X": 545556.6109, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 135.30974, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48293147395565, 
+          37.82933895956322
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187006.0247, 
+        "ET_ORDER": 0.8466, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_6", 
+        "H_Up": 13.1, 
+        "ET_X": 545502.3926, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.18613, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48303716607342, 
+          37.82940371104764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187013.1574, 
+        "ET_ORDER": 0.8653, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_6", 
+        "H_Up": 13.1, 
+        "ET_X": 545493.0518, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.15531, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48303716607342, 
+          37.82940371104764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187013.1574, 
+        "ET_ORDER": 0.8653, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_7", 
+        "H_Up": 13.1, 
+        "ET_X": 545493.0518, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.15531, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48303716607342, 
+          37.82940371104764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187013.1574, 
+        "ET_ORDER": 0.8653, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_8", 
+        "H_Up": 13.1, 
+        "ET_X": 545493.0518, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.15531, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48306282548182, 
+          37.82942120537675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187015.0859, 
+        "ET_ORDER": 0.8846, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_8", 
+        "H_Up": 13.1, 
+        "ET_X": 545490.783, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 133.09811, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48312836712498, 
+          37.82954510097204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187028.8002, 
+        "ET_ORDER": 0.9084, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_8", 
+        "H_Up": 13.1, 
+        "ET_X": 545484.9392, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 132.63949, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48317448904612, 
+          37.82959303388393
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187034.0959, 
+        "ET_ORDER": 0.9191, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_8", 
+        "H_Up": 13.1, 
+        "ET_X": 545480.851, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 131.21637, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48319731267398, 
+          37.82972613630178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187048.8525, 
+        "ET_ORDER": 0.9429, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_8", 
+        "H_Up": 13.1, 
+        "ET_X": 545478.7608, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 130.0709, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48327084050777, 
+          37.82975055986164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187051.5265, 
+        "ET_ORDER": 0.9541, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_8", 
+        "H_Up": 13.1, 
+        "ET_X": 545472.2753, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 129.44126, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48333316557517, 
+          37.829583757104515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187032.9894, 
+        "ET_ORDER": 0.9541, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_9", 
+        "H_Up": 13.1, 
+        "ET_X": 545466.893, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 129.94528, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48202072771143, 
+          37.82851409231349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4186914.9497, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_2", 
+        "H_Up": 13.1, 
+        "ET_X": 545583.0469, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 136.66952, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48313515440368, 
+          37.82937749576388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187010.2011, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_4", 
+        "H_Up": 13.1, 
+        "ET_X": 545484.4448, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 130.64693, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48313515440368, 
+          37.82937749576388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187010.2011, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_7", 
+        "H_Up": 13.1, 
+        "ET_X": 545484.4448, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 130.64693, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48313515440368, 
+          37.82937749576388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 149.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 628.5, 
+        "Len_Down": 479.0, 
+        "Max_S_Down": 12.6, 
+        "Min_Z": 129.4, 
+        "H_Down": 22.7, 
+        "ET_ID": 35, 
+        "trail_name": "Battery Spencer Trail", 
+        "ET_Y": 4187010.2011, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.6, 
+        "ET_IDP": 35, 
+        "ET_IDR": "35_9", 
+        "H_Up": 13.1, 
+        "ET_X": 545484.4448, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 130.64693, 
+        "Length_2D": 626.4, 
+        "Max_Z": 143.9
+      }
+    }
+  ]
+}

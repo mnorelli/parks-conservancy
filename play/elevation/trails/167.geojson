@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50595046101071, 
+          37.78696196426229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 102.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 12.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 167, 
+        "trail_name": "Mile Rock Lookout Trail", 
+        "ET_Y": 4182293.3561, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 9.0, 
+        "ET_IDP": 167, 
+        "ET_IDR": "167_0", 
+        "H_Up": 11.6, 
+        "ET_X": 543501.5463, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 12.69258, 
+        "Length_2D": 101.9, 
+        "Max_Z": 24.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5058563710897, 
+          37.78703967217989
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 102.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 12.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 167, 
+        "trail_name": "Mile Rock Lookout Trail", 
+        "ET_Y": 4182302.0215, 
+        "ET_ORDER": 0.1174, 
+        "Max_S_Up": 9.0, 
+        "ET_IDP": 167, 
+        "ET_IDR": "167_0", 
+        "H_Up": 11.6, 
+        "ET_X": 543509.7855, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 14.34357, 
+        "Length_2D": 101.9, 
+        "Max_Z": 24.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50570379171887, 
+          37.78751918118857
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 102.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 12.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 167, 
+        "trail_name": "Mile Rock Lookout Trail", 
+        "ET_Y": 4182355.2936, 
+        "ET_ORDER": 0.656, 
+        "Max_S_Up": 9.0, 
+        "ET_IDP": 167, 
+        "ET_IDR": "167_0", 
+        "H_Up": 11.6, 
+        "ET_X": 543522.9391, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 22.99183, 
+        "Length_2D": 101.9, 
+        "Max_Z": 24.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50573559143271, 
+          37.78760427967761
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 102.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 12.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 167, 
+        "trail_name": "Mile Rock Lookout Trail", 
+        "ET_Y": 4182364.7204, 
+        "ET_ORDER": 0.7527, 
+        "Max_S_Up": 9.0, 
+        "ET_IDP": 167, 
+        "ET_IDR": "167_0", 
+        "H_Up": 11.6, 
+        "ET_X": 543520.0892, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 23.82776, 
+        "Length_2D": 101.9, 
+        "Max_Z": 24.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50588368447045, 
+          37.78779854097109
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 102.7, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 102.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 12.7, 
+        "H_Down": 0.0, 
+        "ET_ID": 167, 
+        "trail_name": "Mile Rock Lookout Trail", 
+        "ET_Y": 4182386.2046, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 9.0, 
+        "ET_IDP": 167, 
+        "ET_IDR": "167_0", 
+        "H_Up": 11.6, 
+        "ET_X": 543506.9356, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 24.32496, 
+        "Length_2D": 101.9, 
+        "Max_Z": 24.3
+      }
+    }
+  ]
+}

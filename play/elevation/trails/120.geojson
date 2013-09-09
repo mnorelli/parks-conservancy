@@ -1,0 +1,901 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54759761300873, 
+          37.88903785939598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193600.1059, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539779.5973, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 168.95029, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54772916146904, 
+          37.88904906330846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193601.2929, 
+        "ET_ORDER": 0.0163, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539768.0242, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 169.3032, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54838422268857, 
+          37.88899206897956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193594.6903, 
+        "ET_ORDER": 0.0975, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539710.4552, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 170.46541, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54850800430022, 
+          37.889008383240544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193596.4477, 
+        "ET_ORDER": 0.1129, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539699.5623, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 171.13918, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54878105412647, 
+          37.88908252020145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193604.5571, 
+        "ET_ORDER": 0.1485, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539675.5132, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 175.53913, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.548897489577, 
+          37.889081628917275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193604.4087, 
+        "ET_ORDER": 0.1628, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539665.2755, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 178.20579, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54896085538427, 
+          37.88906716160257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193602.7766, 
+        "ET_ORDER": 0.1709, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539659.7115, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 179.58506, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54932817187706, 
+          37.88885432485927
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193579.0061, 
+        "ET_ORDER": 0.227, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539627.5274, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 187.11361, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54951243147255, 
+          37.888823881199386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193575.5501, 
+        "ET_ORDER": 0.2501, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539611.3417, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 189.69922, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55040659629053, 
+          37.888904950234206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193584.1655, 
+        "ET_ORDER": 0.361, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539532.6741, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 201.36352, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55071445447592, 
+          37.88900365981389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193594.987, 
+        "ET_ORDER": 0.4019, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539505.5513, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 203.26698, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55142684587082, 
+          37.88909196315192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193604.4829, 
+        "ET_ORDER": 0.4907, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539442.8635, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 211.62622, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.551470534697, 
+          37.88912221862876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193607.8213, 
+        "ET_ORDER": 0.4979, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539439.0058, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 212.63242, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55174668362905, 
+          37.88949704417359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193649.2918, 
+        "ET_ORDER": 0.5653, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539414.5242, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 219.9789, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55187656820301, 
+          37.88964397201625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193665.5387, 
+        "ET_ORDER": 0.5932, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539403.0252, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 223.99457, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55192443913484, 
+          37.88968026032289
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193669.5447, 
+        "ET_ORDER": 0.6013, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539398.7966, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 224.62801, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55198927377236, 
+          37.88970190395407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193671.9187, 
+        "ET_ORDER": 0.61, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539393.0842, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 225.35937, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55205676149872, 
+          37.889703498309885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193672.0671, 
+        "ET_ORDER": 0.6183, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539387.1492, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 226.1649, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55210698456943, 
+          37.889686262772315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193670.1336, 
+        "ET_ORDER": 0.6251, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539382.7423, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 226.94904, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55235254126768, 
+          37.8894846386198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193647.6596, 
+        "ET_ORDER": 0.6686, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539361.258, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 228.30966, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55242950998515, 
+          37.889452836887735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193644.0987, 
+        "ET_ORDER": 0.6793, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539354.5071, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 228.24633, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55322489864375, 
+          37.88921113368366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193616.9463, 
+        "ET_ORDER": 0.7842, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539284.6973, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 229.71885, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55345691221335, 
+          37.88921201401649
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193616.9463, 
+        "ET_ORDER": 0.8128, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539264.2959, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 231.08262, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55397145465783, 
+          37.88930425607849
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193626.9642, 
+        "ET_ORDER": 0.8778, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539219.0033, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 233.30497, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55458823437826, 
+          37.88935349778682
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193632.1685, 
+        "ET_ORDER": 0.9541, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539164.7439, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 240.00552, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55458897585706, 
+          37.88935350149367
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193632.1686, 
+        "ET_ORDER": 0.9542, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539164.6787, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 240.00955, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55486649949292, 
+          37.88935504965679
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193632.2239, 
+        "ET_ORDER": 0.9884, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539140.2753, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 237.877, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55494587916189, 
+          37.88931474441388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 678.7, 
+        "Av_S_Up": 6.0, 
+        "Length_3D": 719.2, 
+        "Len_Down": 40.5, 
+        "Max_S_Down": 6.5, 
+        "Min_Z": 169.0, 
+        "H_Down": 3.1, 
+        "ET_ID": 120, 
+        "trail_name": "Homestead Fire Road", 
+        "ET_Y": 4193627.7187, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 120, 
+        "ET_IDR": "120_0", 
+        "H_Up": 71.1, 
+        "ET_X": 539133.3168, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 236.93754, 
+        "Length_2D": 713.9, 
+        "Max_Z": 240.0
+      }
+    }
+  ]
+}

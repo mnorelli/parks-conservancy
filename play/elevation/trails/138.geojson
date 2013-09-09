@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51060847215385, 
+          37.78038214441337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 62.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 62.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 53.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 138, 
+        "trail_name": "Lands End Staircase (South)", 
+        "ET_Y": 4181561.1748, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 13.2, 
+        "ET_IDP": 138, 
+        "ET_IDR": "138_0", 
+        "H_Up": 8.7, 
+        "ET_X": 543095.2218, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 53.03586, 
+        "Length_2D": 61.5, 
+        "Max_Z": 61.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51039732797689, 
+          37.78057034161058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 62.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 62.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 53.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 138, 
+        "trail_name": "Lands End Staircase (South)", 
+        "ET_Y": 4181582.1524, 
+        "ET_ORDER": 0.4546, 
+        "Max_S_Up": 13.2, 
+        "ET_IDP": 138, 
+        "ET_IDR": "138_0", 
+        "H_Up": 8.7, 
+        "ET_X": 543113.7057, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 59.5996, 
+        "Length_2D": 61.5, 
+        "Max_Z": 61.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51023134480224, 
+          37.780674858748036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 62.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 62.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 53.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 138, 
+        "trail_name": "Lands End Staircase (South)", 
+        "ET_Y": 4181593.825, 
+        "ET_ORDER": 0.7579, 
+        "Max_S_Up": 13.2, 
+        "ET_IDP": 138, 
+        "ET_IDR": "138_0", 
+        "H_Up": 8.7, 
+        "ET_X": 543128.2613, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 61.20275, 
+        "Length_2D": 61.5, 
+        "Max_Z": 61.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5100823012139, 
+          37.78073821811426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 62.3, 
+        "Av_S_Up": 8.0, 
+        "Length_3D": 62.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 53.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 138, 
+        "trail_name": "Lands End Staircase (South)", 
+        "ET_Y": 4181600.9234, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 13.2, 
+        "ET_IDP": 138, 
+        "ET_IDR": "138_0", 
+        "H_Up": 8.7, 
+        "ET_X": 543141.3491, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 61.71087, 
+        "Length_2D": 61.5, 
+        "Max_Z": 61.7
+      }
+    }
+  ]
+}

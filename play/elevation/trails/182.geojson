@@ -1,0 +1,741 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58575615676236, 
+          37.86295250626451
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190690.3397, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536437.1606, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 148.83237, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58577465405688, 
+          37.86286812985768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190680.9709, 
+        "ET_ORDER": 0.0438, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536435.5751, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 149.53969, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58577267246334, 
+          37.86278303156288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190671.53, 
+        "ET_ORDER": 0.0873, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536435.7913, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 148.67331, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58573201292236, 
+          37.86272832530067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190665.4762, 
+        "ET_ORDER": 0.1197, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536439.3947, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 149.23005, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58575935417787, 
+          37.86252770982922
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190643.2072, 
+        "ET_ORDER": 0.2229, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536437.0885, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 146.01625, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5857494243491, 
+          37.86248311436275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190638.2632, 
+        "ET_ORDER": 0.246, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536437.9839, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 144.73844, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58568856823533, 
+          37.862470931811906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190636.9353, 
+        "ET_ORDER": 0.2715, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536443.3429, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 146.02306, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58561381132844, 
+          37.862534356773494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190644.0015, 
+        "ET_ORDER": 0.3158, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536449.8874, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 148.44418, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58544893268045, 
+          37.862516251416466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190642.0571, 
+        "ET_ORDER": 0.3833, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536464.3993, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 148.20215, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58531976166616, 
+          37.86247604540273
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190637.6467, 
+        "ET_ORDER": 0.4395, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536475.7812, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 147.75693, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5852728199097, 
+          37.86238611727961
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190627.6875, 
+        "ET_ORDER": 0.4893, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536479.9546, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 147.37155, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58516567363702, 
+          37.86234508646404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190623.177, 
+        "ET_ORDER": 0.5375, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536489.3996, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 144.32558, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5851411175864, 
+          37.86231343533554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190619.6749, 
+        "ET_ORDER": 0.5565, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536491.5752, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 143.53313, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58508451375099, 
+          37.86229554056111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190617.7116, 
+        "ET_ORDER": 0.5812, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536496.563, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 140.40247, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58504145940871, 
+          37.862335561815954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190622.1688, 
+        "ET_ORDER": 0.6081, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536500.3304, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 139.97206, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58504665182664, 
+          37.86237766656405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190626.8383, 
+        "ET_ORDER": 0.6297, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536499.8529, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 140.75364, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58510750203259, 
+          37.862477056116525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190637.8418, 
+        "ET_ORDER": 0.6862, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536494.4514, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 142.87783, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58509530263494, 
+          37.86250682199802
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190641.1491, 
+        "ET_ORDER": 0.7022, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536495.5098, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 142.62219, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58512517501963, 
+          37.86254388978433
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190645.2501, 
+        "ET_ORDER": 0.7246, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536492.8639, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 143.49315, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58505689510233, 
+          37.86265096128557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190657.1564, 
+        "ET_ORDER": 0.786, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536498.8171, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 142.89222, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58507726468174, 
+          37.862743351957555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190667.3992, 
+        "ET_ORDER": 0.8339, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536496.9798, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 143.63562, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5850726025694, 
+          37.862838016738195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190677.9041, 
+        "ET_ORDER": 0.8823, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536497.3432, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 144.991, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58529876994223, 
+          37.862982370706064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 101.1, 
+        "Av_S_Up": 7.8, 
+        "Length_3D": 220.0, 
+        "Len_Down": 118.9, 
+        "Max_S_Down": 30.3, 
+        "Min_Z": 140.0, 
+        "H_Down": 14.7, 
+        "ET_ID": 182, 
+        "trail_name": "Muir Beach Overlook Loop Trail", 
+        "ET_Y": 4190693.8318, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 14.1, 
+        "ET_IDP": 182, 
+        "ET_IDR": "182_0", 
+        "H_Up": 13.8, 
+        "ET_X": 536477.3781, 
+        "Av_S_Down": 7.2, 
+        "ET_Z": 147.92221, 
+        "Length_2D": 217.1, 
+        "Max_Z": 149.5
+      }
+    }
+  ]
+}

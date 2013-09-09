@@ -1,0 +1,3429 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30299560728255, 
+          37.451509720157944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145189.7505, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561648.4872, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 239.8379, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.3026678781957, 
+          37.45168604448885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145209.5271, 
+        "ET_ORDER": 0.0193, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561677.3297, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 235.87159, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30256060547423, 
+          37.451766938259475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145218.572, 
+        "ET_ORDER": 0.0264, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561686.7514, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 234.50555, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30242397981858, 
+          37.451796704992525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145221.9639, 
+        "ET_ORDER": 0.0333, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561698.8113, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 233.15975, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30225371119991, 
+          37.45177871466909
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145220.0795, 
+        "ET_ORDER": 0.0417, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561713.8861, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 233.34467, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30193075258396, 
+          37.45168508991838
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145209.904, 
+        "ET_ORDER": 0.0584, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561742.5283, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 234.07888, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30152334103369, 
+          37.451509438385976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145190.6836, 
+        "ET_ORDER": 0.081, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561778.7078, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 234.93735, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30119626733742, 
+          37.45135038128018
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145173.2517, 
+        "ET_ORDER": 0.0996, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561807.768, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 235.98955, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30093892276454, 
+          37.451203265905384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145157.099, 
+        "ET_ORDER": 0.1151, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561830.651, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 237.29873, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30082132475907, 
+          37.45116617165312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145153.0608, 
+        "ET_ORDER": 0.1212, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561841.083, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 237.54648, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30042972653648, 
+          37.45113655574947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145150.0322, 
+        "ET_ORDER": 0.1404, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561875.744, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 235.19291, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.30024225615995, 
+          37.45115298536312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145151.9781, 
+        "ET_ORDER": 0.1495, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561892.3121, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 232.5522, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29995068462564, 
+          37.4511003535731
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145146.3305, 
+        "ET_ORDER": 0.1641, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561918.1448, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 230.68834, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29968436205088, 
+          37.45107934695651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145144.175, 
+        "ET_ORDER": 0.1771, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561941.7182, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 228.84254, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29919029864877, 
+          37.450909856541145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145125.696, 
+        "ET_ORDER": 0.2033, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 561985.5577, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 228.40052, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29889772123514, 
+          37.450768459624506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145110.2014, 
+        "ET_ORDER": 0.22, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562011.5528, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 229.00877, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29871680044066, 
+          37.45071918524452
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145104.8538, 
+        "ET_ORDER": 0.2293, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562027.5959, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 228.51064, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29864925792349, 
+          37.45071594876166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145104.5392, 
+        "ET_ORDER": 0.2326, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562033.5727, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 228.12434, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29857445446012, 
+          37.45074447080312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145107.7528, 
+        "ET_ORDER": 0.2366, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562040.1655, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 227.28588, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29841353623293, 
+          37.45082229506572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145116.4929, 
+        "ET_ORDER": 0.2458, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562054.3344, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 225.9894, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29824225249662, 
+          37.45088365647579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145123.4134, 
+        "ET_ORDER": 0.2549, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562069.4337, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 224.22405, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29817025142077, 
+          37.45097679691438
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145133.7942, 
+        "ET_ORDER": 0.2616, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562075.7252, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 221.84749, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29814807940932, 
+          37.45106598064372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145143.7032, 
+        "ET_ORDER": 0.2672, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562077.6126, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 219.10636, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29817565605022, 
+          37.45115971241379
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145154.084, 
+        "ET_ORDER": 0.273, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562075.096, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 213.48241, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29827355101641, 
+          37.4513403414629
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145174.0592, 
+        "ET_ORDER": 0.2851, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562066.288, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 206.21796, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29845641321695, 
+          37.451562588408365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145198.5957, 
+        "ET_ORDER": 0.3013, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562049.9304, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 198.64306, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29847329507257, 
+          37.45165909228317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145209.2911, 
+        "ET_ORDER": 0.3072, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562048.3575, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 194.19831, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29841567667516, 
+          37.45168569358287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145212.2803, 
+        "ET_ORDER": 0.3105, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562053.4318, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 192.76017, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29823835457337, 
+          37.4516226644057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145205.4044, 
+        "ET_ORDER": 0.3199, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562069.1678, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 192.93264, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2981015895033, 
+          37.45154257791928
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145196.6094, 
+        "ET_ORDER": 0.3282, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562081.3307, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 192.15761, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2979407919364, 
+          37.451533347443274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145195.6913, 
+        "ET_ORDER": 0.336, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562095.5607, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 189.96198, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29772867976016, 
+          37.451461749843254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145187.8878, 
+        "ET_ORDER": 0.3473, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562114.381, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 188.36319, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29751188186914, 
+          37.45133633557417
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145174.1168, 
+        "ET_ORDER": 0.3603, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562133.6603, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 188.23048, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29695303353853, 
+          37.45105423455794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145143.1881, 
+        "ET_ORDER": 0.3925, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562183.3235, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 187.69514, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29667813269609, 
+          37.45082365256815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145117.7879, 
+        "ET_ORDER": 0.4119, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562207.8293, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 184.98793, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29662010693625, 
+          37.45075720355831
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145110.4541, 
+        "ET_ORDER": 0.4169, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562213.0167, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 186.27479, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2965577052671, 
+          37.45072619774642
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145107.0554, 
+        "ET_ORDER": 0.4205, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562218.5618, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 185.23678, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29655586393197, 
+          37.45070684007393
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145104.909, 
+        "ET_ORDER": 0.4216, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562218.7407, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 185.41856, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29649773381703, 
+          37.4506516753638
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145098.8272, 
+        "ET_ORDER": 0.426, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562223.928, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 186.29784, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29637901225794, 
+          37.45058808906376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145091.8511, 
+        "ET_ORDER": 0.433, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562234.4816, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 186.73817, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29636322718264, 
+          37.45054607570253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145087.2004, 
+        "ET_ORDER": 0.4357, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562235.9126, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 187.18243, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29618267863557, 
+          37.45039021968532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145070.0284, 
+        "ET_ORDER": 0.4486, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562252.0113, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 186.79128, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29616144672174, 
+          37.450282069282935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145058.0438, 
+        "ET_ORDER": 0.4553, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562253.9789, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 188.83181, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29590576009801, 
+          37.4501596238772
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145044.6282, 
+        "ET_ORDER": 0.4698, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562276.696, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 185.07007, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29557460705401, 
+          37.44989000983531
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4145014.9351, 
+        "ET_ORDER": 0.4929, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562306.2103, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 183.62259, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29553409096617, 
+          37.44972748091051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144996.9303, 
+        "ET_ORDER": 0.503, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562309.9288, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 186.08963, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29523466434526, 
+          37.44956287376375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144978.8662, 
+        "ET_ORDER": 0.5207, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562336.55, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.83517, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29526460176945, 
+          37.449404279250324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144961.2513, 
+        "ET_ORDER": 0.5305, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562334.0336, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 184.24748, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29525059059124, 
+          37.449381513964944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144958.7349, 
+        "ET_ORDER": 0.5321, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562335.2918, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 184.75903, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29500347558601, 
+          37.4493392122578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144954.2053, 
+        "ET_ORDER": 0.5444, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562357.1846, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 183.2851, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29454147578791, 
+          37.44915500060137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144934.074, 
+        "ET_ORDER": 0.5695, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562398.2022, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.63949, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29451623440114, 
+          37.44911629079867
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144929.7961, 
+        "ET_ORDER": 0.5722, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562400.467, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.7841, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29445375551741, 
+          37.44910457695101
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144928.5379, 
+        "ET_ORDER": 0.5753, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562406.0031, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.77014, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29441155249015, 
+          37.44905442499705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144923.0018, 
+        "ET_ORDER": 0.579, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562409.7777, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.65052, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29427262555326, 
+          37.44900369548087
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144917.4657, 
+        "ET_ORDER": 0.5864, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562422.1082, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.5368, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2942276210006, 
+          37.448948990204634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144911.4263, 
+        "ET_ORDER": 0.5904, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562426.1344, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.62207, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29421119095926, 
+          37.44888084598012
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144903.877, 
+        "ET_ORDER": 0.5947, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562427.6443, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.94905, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29417465667669, 
+          37.44883299560748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144898.5925, 
+        "ET_ORDER": 0.5981, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562430.9156, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.37137, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29411226332677, 
+          37.448812209937635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144896.3278, 
+        "ET_ORDER": 0.6014, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562436.4517, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.4273, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29403044665762, 
+          37.44873913859781
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144888.2752, 
+        "ET_ORDER": 0.6074, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562443.7493, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 184.3136, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29390844059812, 
+          37.448704387125325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144884.5006, 
+        "ET_ORDER": 0.6137, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562454.5699, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 180.95381, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29389725295695, 
+          37.44868390636143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144882.2358, 
+        "ET_ORDER": 0.615, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562455.5765, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.17171, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29381233646814, 
+          37.44863803551401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144877.203, 
+        "ET_ORDER": 0.62, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562463.1257, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.90138, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29380715842609, 
+          37.44858356804801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144871.1636, 
+        "ET_ORDER": 0.6234, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562463.629, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.29286, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29368899929273, 
+          37.4484422340978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144855.5618, 
+        "ET_ORDER": 0.6337, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562474.198, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.12149, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29371203543857, 
+          37.44841288569258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144852.2905, 
+        "ET_ORDER": 0.6359, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562472.1848, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.00391, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29362408029448, 
+          37.44833781513188
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144844.0202, 
+        "ET_ORDER": 0.6421, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562480.0271, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.61647, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29360236811075, 
+          37.44827613892955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144837.192, 
+        "ET_ORDER": 0.646, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562481.9989, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 183.15598, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29345557156071, 
+          37.44815504749307
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144823.855, 
+        "ET_ORDER": 0.6563, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562495.0842, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.08409, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29337133749921, 
+          37.44803659776898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144810.7696, 
+        "ET_ORDER": 0.6646, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562502.6335, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 183.3131, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29322460580055, 
+          37.44790870209117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144796.6777, 
+        "ET_ORDER": 0.6752, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562515.7188, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 181.09511, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29307573350063, 
+          37.447705942971275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144774.2816, 
+        "ET_ORDER": 0.6896, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562529.0558, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.00195, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29300223952848, 
+          37.44765560333701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144768.7455, 
+        "ET_ORDER": 0.6943, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562535.5985, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.10151, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29295443399394, 
+          37.44759634428707
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144762.2028, 
+        "ET_ORDER": 0.6986, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562539.8764, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.95357, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29275923556747, 
+          37.44747949803107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144749.369, 
+        "ET_ORDER": 0.7105, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562557.2397, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.13777, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29269489520895, 
+          37.44736343558045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144736.5353, 
+        "ET_ORDER": 0.7182, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562563.0275, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.35627, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2926672809068, 
+          37.44727481117093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144726.7213, 
+        "ET_ORDER": 0.7238, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562565.5439, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.03086, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29266452840328, 
+          37.4471927649316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144717.6206, 
+        "ET_ORDER": 0.7288, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562565.8557, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.14334, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29268317696969, 
+          37.44707299880796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144704.3209, 
+        "ET_ORDER": 0.7362, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562564.3059, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.17821, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29256434480946, 
+          37.446876349737195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144682.5828, 
+        "ET_ORDER": 0.7495, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562574.9809, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 178.22023, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29258874372343, 
+          37.44684850505116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144679.4774, 
+        "ET_ORDER": 0.7516, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562572.8459, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.04064, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29271878915786, 
+          37.4467863028845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144672.4901, 
+        "ET_ORDER": 0.759, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562561.3946, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.83275, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29276354408127, 
+          37.44671968102935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144665.0691, 
+        "ET_ORDER": 0.7636, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562557.4913, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 178.45506, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29277492698559, 
+          37.44665018243182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144657.3511, 
+        "ET_ORDER": 0.7679, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562556.5423, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 176.92073, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29275569065084, 
+          37.446595834485905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144651.3343, 
+        "ET_ORDER": 0.7713, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562558.2891, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 179.20433, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29240910061527, 
+          37.446352336011806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144624.5498, 
+        "ET_ORDER": 0.7938, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562589.1495, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 180.1191, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29222266763949, 
+          37.44634422153438
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144623.7734, 
+        "ET_ORDER": 0.8029, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562605.6472, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 176.52705, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29205903285676, 
+          37.44624527299466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144612.9044, 
+        "ET_ORDER": 0.8129, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562620.204, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 178.41792, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29202945367038, 
+          37.446124383404566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144599.5121, 
+        "ET_ORDER": 0.8204, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562622.9212, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 178.39289, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29173154300999, 
+          37.445741582307186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144557.2407, 
+        "ET_ORDER": 0.8479, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562649.5922, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 176.30026, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29165862921985, 
+          37.445630003520165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144544.9102, 
+        "ET_ORDER": 0.8556, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562656.1349, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 177.19237, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29164804251648, 
+          37.445546017436214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144535.5995, 
+        "ET_ORDER": 0.8608, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562657.1414, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 177.47119, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29153812643135, 
+          37.44543648550845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144523.5207, 
+        "ET_ORDER": 0.8694, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562666.9555, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 177.56031, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.291505295209, 
+          37.44529792951639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144508.1706, 
+        "ET_ORDER": 0.878, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562669.9752, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 180.24902, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29151780775126, 
+          37.445177789653336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144494.8335, 
+        "ET_ORDER": 0.8853, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562668.9686, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 182.93598, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29150174566145, 
+          37.4450710889824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144483.0064, 
+        "ET_ORDER": 0.8919, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562670.4784, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 183.61687, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.291545163579, 
+          37.4449919622409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144474.1989, 
+        "ET_ORDER": 0.8972, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562666.7038, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 185.38932, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29154892736948, 
+          37.444894452572385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144463.3783, 
+        "ET_ORDER": 0.9031, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562666.4522, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 186.943, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29148700856287, 
+          37.444823768341685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144455.5775, 
+        "ET_ORDER": 0.9084, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562671.9883, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 186.29841, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29149070938517, 
+          37.44473306263891
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144445.5118, 
+        "ET_ORDER": 0.9139, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562671.7366, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 187.90134, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29160821594317, 
+          37.4446407713041
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144435.1945, 
+        "ET_ORDER": 0.922, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562661.4193, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 190.51148, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29171641776986, 
+          37.44463007892092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144433.9363, 
+        "ET_ORDER": 0.9273, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562651.857, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 191.22623, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29213281598896, 
+          37.444819698934616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144454.6967, 
+        "ET_ORDER": 0.9506, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562614.8656, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 197.18593, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29243359953453, 
+          37.44490088707454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144463.5042, 
+        "ET_ORDER": 0.9661, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562588.1916, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 200.37628, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29289328230375, 
+          37.44497518433806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144471.4418, 
+        "ET_ORDER": 0.9889, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562547.4677, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 205.3686, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2929555620804, 
+          37.44499661353933
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144473.7779, 
+        "ET_ORDER": 0.9922, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562541.9408, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 205.42996, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29306691174583, 
+          37.4450879047652
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 814.3, 
+        "Av_S_Up": 4.4, 
+        "Length_3D": 1829.8, 
+        "Len_Down": 1015.4, 
+        "Max_S_Down": 27.8, 
+        "Min_Z": 176.3, 
+        "H_Down": 96.3, 
+        "ET_ID": 169, 
+        "trail_name": "Miramontes Trail", 
+        "ET_Y": 4144483.8322, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 20.0, 
+        "ET_IDP": 169, 
+        "ET_IDR": "169_0", 
+        "H_Up": 62.9, 
+        "ET_X": 562532.0152, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 206.43231, 
+        "Length_2D": 1816.7, 
+        "Max_Z": 239.8
+      }
+    }
+  ]
+}

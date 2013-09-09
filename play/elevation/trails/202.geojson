@@ -1,0 +1,3397 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58575615676236, 
+          37.86295250626451
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190690.3397, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536437.1606, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.83237, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58580009033632, 
+          37.863007872973675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190696.4655, 
+        "ET_ORDER": 0.0041, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536433.2689, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.90497, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58583865637202, 
+          37.863143765021405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190711.5277, 
+        "ET_ORDER": 0.0129, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536429.8097, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.94001, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58581570674954, 
+          37.86329178315257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190727.9593, 
+        "ET_ORDER": 0.0222, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536431.7555, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.23709, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58584380468047, 
+          37.863395160740176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190739.4181, 
+        "ET_ORDER": 0.0289, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536429.2331, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 147.46849, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58628604624086, 
+          37.863722790516476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190775.5962, 
+        "ET_ORDER": 0.059, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536390.1722, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.20839, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58637406649346, 
+          37.86380624334795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190784.821, 
+        "ET_ORDER": 0.0658, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536382.3889, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.4752, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58644954704701, 
+          37.8639344703663
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190799.0184, 
+        "ET_ORDER": 0.0747, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536375.6866, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 147.672, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58656949246597, 
+          37.86402323029771
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190808.8196, 
+        "ET_ORDER": 0.0829, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536365.0926, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 147.32317, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58659286823854, 
+          37.864092164868815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190816.4588, 
+        "ET_ORDER": 0.0874, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536363.0026, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 147.02799, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58662137029069, 
+          37.86412344378306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190819.9181, 
+        "ET_ORDER": 0.0898, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536360.4802, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 146.85882, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58689866058734, 
+          37.86435306003236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190845.2861, 
+        "ET_ORDER": 0.1098, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536335.9771, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.26521, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58691654033227, 
+          37.86444289634509
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190855.2465, 
+        "ET_ORDER": 0.1155, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536334.3603, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 146.93074, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58690972845454, 
+          37.86471879705018
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190885.8604, 
+        "ET_ORDER": 0.1328, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536334.824, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 143.34993, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58687383071654, 
+          37.864838188643404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190899.1209, 
+        "ET_ORDER": 0.1405, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536337.9229, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 142.98846, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58695998268864, 
+          37.86496320535731
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190912.958, 
+        "ET_ORDER": 0.1495, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536330.2837, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 143.25982, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58702618198949, 
+          37.86528691498931
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190948.8479, 
+        "ET_ORDER": 0.1701, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536324.302, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 141.91413, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58717459320182, 
+          37.8654140976113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190962.9011, 
+        "ET_ORDER": 0.1809, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536311.1856, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 141.02772, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58738989692777, 
+          37.86574092817037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4190999.0793, 
+        "ET_ORDER": 0.2041, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536292.0876, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 140.51378, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58750072411904, 
+          37.86576722360032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191001.9537, 
+        "ET_ORDER": 0.2098, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536282.3266, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 139.57133, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58764261076371, 
+          37.865824306319524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191008.2319, 
+        "ET_ORDER": 0.2178, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536269.8186, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 140.16136, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58769257619912, 
+          37.865827079759626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191008.5202, 
+        "ET_ORDER": 0.2203, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536265.4224, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 139.70547, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58796899595913, 
+          37.8659360660722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191020.5049, 
+        "ET_ORDER": 0.2356, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536241.0558, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 139.02856, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5880267381558, 
+          37.865993942616704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191026.9039, 
+        "ET_ORDER": 0.2403, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536235.9486, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 138.47192, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58804936770284, 
+          37.86608801436339
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191037.3324, 
+        "ET_ORDER": 0.2463, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536233.9121, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 138.83366, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58810263264208, 
+          37.86616268634121
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191045.5966, 
+        "ET_ORDER": 0.2517, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536229.1905, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 135.82754, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58821006462101, 
+          37.86624600469267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191054.7991, 
+        "ET_ORDER": 0.2592, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536219.7003, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 134.39281, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58821165281692, 
+          37.866547975273505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191088.3022, 
+        "ET_ORDER": 0.2781, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536219.4128, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 133.9834, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58831221247881, 
+          37.866985073938324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191136.7594, 
+        "ET_ORDER": 0.306, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536210.354, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 131.77585, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58831742138665, 
+          37.86721914474012
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191162.7276, 
+        "ET_ORDER": 0.3207, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536209.7813, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 129.72658, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58844937322894, 
+          37.86741446088137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191184.3468, 
+        "ET_ORDER": 0.3346, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536198.0798, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 126.74977, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58855506011794, 
+          37.86751901024535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191195.9056, 
+        "ET_ORDER": 0.3431, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536188.7329, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 125.55857, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58864120724135, 
+          37.86763635286342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191208.8914, 
+        "ET_ORDER": 0.3516, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536181.0984, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 124.29367, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58881575364798, 
+          37.867757861749766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191222.3052, 
+        "ET_ORDER": 0.3631, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536165.6867, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 123.8624, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58897186382283, 
+          37.86798541569717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191247.4919, 
+        "ET_ORDER": 0.3794, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536151.8448, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 121.23177, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58910345451042, 
+          37.86810034428126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191260.1923, 
+        "ET_ORDER": 0.3892, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536140.2146, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 120.11022, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5892799131601, 
+          37.86816977005732
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191267.8268, 
+        "ET_ORDER": 0.399, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536124.6603, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 119.84712, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58937869023553, 
+          37.86825782323019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191277.5581, 
+        "ET_ORDER": 0.4064, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536115.9294, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 118.55022, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58949946843714, 
+          37.86831825143548
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191284.2159, 
+        "ET_ORDER": 0.4135, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536105.2769, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 117.47155, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58959921310736, 
+          37.86834980321584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191287.678, 
+        "ET_ORDER": 0.4188, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536096.4885, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 116.75082, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58991245497853, 
+          37.86837489729313
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191290.3411, 
+        "ET_ORDER": 0.4345, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536068.9252, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 114.64493, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59002587140904, 
+          37.868398095271196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191292.8711, 
+        "ET_ORDER": 0.4403, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536058.9384, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 114.4691, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59011643813749, 
+          37.868446416773445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191298.1974, 
+        "ET_ORDER": 0.4458, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536050.9491, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 113.42671, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59016313215511, 
+          37.86849824840005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191303.9301, 
+        "ET_ORDER": 0.4498, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536046.8169, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 113.66159, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59024881307198, 
+          37.868553852457985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191310.0663, 
+        "ET_ORDER": 0.4553, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536039.2538, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 112.99659, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59034735385727, 
+          37.8685756355838
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191312.4451, 
+        "ET_ORDER": 0.4604, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536030.5761, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 111.50227, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59052306794635, 
+          37.86868921090956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191324.9785, 
+        "ET_ORDER": 0.4717, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 536015.066, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 110.34741, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59069407558344, 
+          37.868843273330775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191342.0058, 
+        "ET_ORDER": 0.4845, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535999.9502, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 108.7956, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59088811568726, 
+          37.86898308299232
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191357.4429, 
+        "ET_ORDER": 0.4976, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535982.8156, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 107.04727, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59098131402567, 
+          37.86919111329504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191380.488, 
+        "ET_ORDER": 0.5115, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535974.5173, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 104.88521, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59115171850016, 
+          37.86928496221073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191390.8349, 
+        "ET_ORDER": 0.5218, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535959.484, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 103.52383, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59126047184762, 
+          37.86942319070445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191406.1295, 
+        "ET_ORDER": 0.532, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535949.8516, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 103.13767, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59130853890547, 
+          37.86943480412869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191407.3995, 
+        "ET_ORDER": 0.5345, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535945.6183, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 102.71244, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59151677737741, 
+          37.869550615230665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191420.1686, 
+        "ET_ORDER": 0.5472, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535927.2468, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 100.41083, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59160735053162, 
+          37.86962930775794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191428.8647, 
+        "ET_ORDER": 0.5539, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535919.2424, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 99.93402, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59177639702777, 
+          37.86986719210407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191455.193, 
+        "ET_ORDER": 0.571, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535904.2588, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 98.11321, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5922489264108, 
+          37.87023795958851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191496.1481, 
+        "ET_ORDER": 0.6041, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535862.5188, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 93.88666, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59229630697024, 
+          37.87032558352883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191505.8518, 
+        "ET_ORDER": 0.6101, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535858.3091, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 93.09924, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59229674553774, 
+          37.87039310895879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191513.3436, 
+        "ET_ORDER": 0.6144, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535858.2378, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 92.67835, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59231680693235, 
+          37.87043304942135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191517.7673, 
+        "ET_ORDER": 0.6171, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535856.454, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 92.34239, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5926016364896, 
+          37.87071249147488
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191548.6621, 
+        "ET_ORDER": 0.6396, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535831.2673, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 89.28051, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59261919307372, 
+          37.870765284827876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191554.5128, 
+        "ET_ORDER": 0.6431, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535829.6976, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 89.21708, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59272708302468, 
+          37.87091356751054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191570.9234, 
+        "ET_ORDER": 0.6538, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535820.1367, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 88.18992, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59290017711623, 
+          37.8710067697406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191581.1978, 
+        "ET_ORDER": 0.6642, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535804.8677, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 86.40201, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59317806484489, 
+          37.87120190723265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191602.7418, 
+        "ET_ORDER": 0.6827, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535780.3327, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 83.67032, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5932379502459, 
+          37.87124845108931
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191607.8829, 
+        "ET_ORDER": 0.6869, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535775.0432, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 83.65663, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59331689937027, 
+          37.87134904527807
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191619.0136, 
+        "ET_ORDER": 0.6943, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535768.0509, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 82.88306, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59345282341346, 
+          37.87141575244581
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191626.3627, 
+        "ET_ORDER": 0.7023, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535756.064, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 81.60807, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59368182412831, 
+          37.871577581676206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191644.23, 
+        "ET_ORDER": 0.7175, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535735.845, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 79.29719, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59384989404889, 
+          37.87164970259158
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191652.1675, 
+        "ET_ORDER": 0.7271, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535721.0283, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 78.26365, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59395888411734, 
+          37.87179793024333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191668.5717, 
+        "ET_ORDER": 0.7378, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535711.371, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 77.65839, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59395377589226, 
+          37.871938120387036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191684.1278, 
+        "ET_ORDER": 0.7466, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535711.7526, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 77.41573, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59411219463868, 
+          37.87209296988385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191701.2478, 
+        "ET_ORDER": 0.7592, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535697.7449, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 75.99488, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59413146725397, 
+          37.87214430790427
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191706.9364, 
+        "ET_ORDER": 0.7625, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535696.0251, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 75.34554, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59410071740767, 
+          37.872242438626586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191717.8358, 
+        "ET_ORDER": 0.7689, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535698.6822, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 74.94917, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59410426296976, 
+          37.87230910318219
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191725.2309, 
+        "ET_ORDER": 0.7731, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535698.3382, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 75.02706, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59413174828514, 
+          37.872367277964244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191731.6749, 
+        "ET_ORDER": 0.777, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535695.8928, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 74.52446, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59420628202733, 
+          37.87249034746119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191745.301, 
+        "ET_ORDER": 0.7855, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535689.2782, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 74.75009, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59434083625621, 
+          37.872658098569204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191763.8616, 
+        "ET_ORDER": 0.798, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535677.3633, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 72.91556, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59436292918592, 
+          37.872725780596234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191771.3625, 
+        "ET_ORDER": 0.8024, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535675.3876, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 72.65167, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5943255688348, 
+          37.87285396510403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191785.5989, 
+        "ET_ORDER": 0.8107, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535678.6116, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 72.09461, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59440239293464, 
+          37.87307416686796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191810.001, 
+        "ET_ORDER": 0.825, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535671.7488, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 75.23045, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59439440595293, 
+          37.873135649737236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191816.8256, 
+        "ET_ORDER": 0.8289, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535672.4216, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 76.09424, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5942939817836, 
+          37.87331581325768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191836.8532, 
+        "ET_ORDER": 0.8413, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535681.1669, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 76.93769, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59434433490522, 
+          37.87342967001635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191849.4664, 
+        "ET_ORDER": 0.8489, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535676.6835, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 74.73825, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5944233885811, 
+          37.873501518512164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191857.4078, 
+        "ET_ORDER": 0.8548, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535669.6962, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 72.94303, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59451380825158, 
+          37.873513815496985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191858.7376, 
+        "ET_ORDER": 0.8594, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535661.738, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 72.07402, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59459934344211, 
+          37.87347462483585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191854.3567, 
+        "ET_ORDER": 0.8643, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535654.2342, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 71.22501, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5947662241715, 
+          37.87332328187797
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191837.5014, 
+        "ET_ORDER": 0.877, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535639.6302, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 68.04066, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59484441035035, 
+          37.87329365200971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191834.1841, 
+        "ET_ORDER": 0.8813, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535632.7681, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 66.90686, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59493384005341, 
+          37.873281549673386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191832.8072, 
+        "ET_ORDER": 0.8858, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535624.9087, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 66.04307, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59498077237407, 
+          37.87329330821147
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191834.0939, 
+        "ET_ORDER": 0.8882, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535620.7754, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 65.78576, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59511730091114, 
+          37.87325672249773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191829.9826, 
+        "ET_ORDER": 0.8954, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535608.7855, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 64.33468, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59519402214391, 
+          37.873273891167905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191831.8582, 
+        "ET_ORDER": 0.8994, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535602.0297, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 63.81863, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5954708096744, 
+          37.873436047925814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191849.744, 
+        "ET_ORDER": 0.9165, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535577.6086, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 64.34668, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5956941169152, 
+          37.87348546376189
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191855.1416, 
+        "ET_ORDER": 0.9281, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535557.9453, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 62.71452, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59590886957206, 
+          37.87357773655508
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191865.2975, 
+        "ET_ORDER": 0.9402, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535539.0138, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 57.72591, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59597906670632, 
+          37.873568317291756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191864.2257, 
+        "ET_ORDER": 0.9438, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535532.8446, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 56.77819, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5960096137852, 
+          37.87354444292486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191861.5652, 
+        "ET_ORDER": 0.9459, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535530.1695, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 56.70923, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59610829793546, 
+          37.873617303117356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191869.6115, 
+        "ET_ORDER": 0.9526, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535521.4554, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 56.10794, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59617901699951, 
+          37.873619336590856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191869.8102, 
+        "ET_ORDER": 0.9561, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535515.2348, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 55.91229, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59619768798935, 
+          37.873726234878276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191881.6635, 
+        "ET_ORDER": 0.9629, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535513.5414, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 57.27743, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59641756248418, 
+          37.87400933843874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191912.9903, 
+        "ET_ORDER": 0.9838, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535494.068, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 62.85403, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5964720521156, 
+          37.874167868965664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191930.5586, 
+        "ET_ORDER": 0.9941, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535489.1997, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 65.013, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59652243651018, 
+          37.87419665804021
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191933.7336, 
+        "ET_ORDER": 0.9972, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535484.7547, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 64.33591, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59657774838487, 
+          37.874204478921804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 345.7, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 1772.8, 
+        "Len_Down": 1427.1, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 55.9, 
+        "H_Down": 103.5, 
+        "ET_ID": 202, 
+        "trail_name": "Owl Trail", 
+        "ET_Y": 4191934.5803, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.6, 
+        "ET_IDP": 202, 
+        "ET_IDR": "202_0", 
+        "H_Up": 18.8, 
+        "ET_X": 535479.8864, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 64.05005, 
+        "Length_2D": 1766.7, 
+        "Max_Z": 148.9
+      }
+    }
+  ]
+}

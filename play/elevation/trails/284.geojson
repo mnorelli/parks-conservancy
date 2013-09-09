@@ -1,0 +1,4325 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4724873522647, 
+          37.78615997284937
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182220.4709, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546448.5281, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.70977, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4724459179461, 
+          37.786424368726976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182249.826, 
+        "ET_ORDER": 0.0076, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546452.011, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.37493, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47227823308698, 
+          37.786431291580115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182250.6774, 
+        "ET_ORDER": 0.0114, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546466.7717, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.91506, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4722824978922, 
+          37.78659191477292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182268.4963, 
+        "ET_ORDER": 0.016, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546466.2956, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 45.52014, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47218357662888, 
+          37.78684216380891
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182296.3104, 
+        "ET_ORDER": 0.0235, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546474.8491, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.34131, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47206078052339, 
+          37.78704061997553
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182318.39, 
+        "ET_ORDER": 0.0299, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546485.5372, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 51.62147, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47196440288742, 
+          37.78712601111839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182327.912, 
+        "ET_ORDER": 0.0332, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546493.9699, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.87754, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47180818806903, 
+          37.78717394577323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182333.308, 
+        "ET_ORDER": 0.037, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546507.6948, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 46.00209, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47163486717554, 
+          37.78719076859886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182335.2607, 
+        "ET_ORDER": 0.0409, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546522.9454, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.75477, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47122901271393, 
+          37.787223672769365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182339.1134, 
+        "ET_ORDER": 0.0502, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546558.6608, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 43.4502, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47072898482595, 
+          37.78730380856468
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182348.2535, 
+        "ET_ORDER": 0.0618, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546602.6386, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 42.86547, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46997790990496, 
+          37.78747885076844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182368.0489, 
+        "ET_ORDER": 0.0796, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546668.6616, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 44.1452, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4687067109181, 
+          37.78772646285789
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182396.1565, 
+        "ET_ORDER": 0.1093, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546780.4359, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.42597, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46866352859382, 
+          37.7877647460752
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182400.4256, 
+        "ET_ORDER": 0.1108, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546784.214, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.34743, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4690042431523, 
+          37.788071451288005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182434.2839, 
+        "ET_ORDER": 0.1225, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546754.0206, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 46.81324, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4691201741226, 
+          37.78814517202215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182442.4052, 
+        "ET_ORDER": 0.1258, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546743.7664, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.06981, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46970450733744, 
+          37.788251671646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182453.9293, 
+        "ET_ORDER": 0.1395, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546692.2487, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.29265, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47008681133661, 
+          37.788370767877495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182466.9521, 
+        "ET_ORDER": 0.1488, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546658.5119, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.69839, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47020196080072, 
+          37.7884149768549
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182471.7996, 
+        "ET_ORDER": 0.1517, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546648.3452, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.79823, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47028722697678, 
+          37.78847260080662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182478.1504, 
+        "ET_ORDER": 0.1542, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546640.8013, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.88647, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47033548890926, 
+          37.78853822424389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182485.4072, 
+        "ET_ORDER": 0.1564, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546636.5106, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.95577, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47035866554893, 
+          37.788622719248714
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182494.7703, 
+        "ET_ORDER": 0.1589, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546634.4168, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 48.02041, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47035195872506, 
+          37.78872062934951
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182505.6367, 
+        "ET_ORDER": 0.1617, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546634.9458, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.92903, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47017879773256, 
+          37.789470848872774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182588.9594, 
+        "ET_ORDER": 0.1835, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546649.7209, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.14268, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46973345282773, 
+          37.79022007497833
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182672.3078, 
+        "ET_ORDER": 0.2072, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546688.4615, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.57111, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46972799498432, 
+          37.79027736848146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182678.6672, 
+        "ET_ORDER": 0.2089, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546688.906, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.29239, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46974821012665, 
+          37.79033792491227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182685.3758, 
+        "ET_ORDER": 0.2107, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546687.088, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.09851, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46987520560693, 
+          37.79047788977628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182700.8414, 
+        "ET_ORDER": 0.2156, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546675.8183, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 46.62974, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47014581945983, 
+          37.7905951582771
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182713.7172, 
+        "ET_ORDER": 0.2226, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546651.9177, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.57995, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47047377900647, 
+          37.79068194644643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182723.1827, 
+        "ET_ORDER": 0.2305, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546622.9872, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.00574, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47052948323525, 
+          37.79067732519662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182722.6422, 
+        "ET_ORDER": 0.2317, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546618.0855, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.2869, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47058474596409, 
+          37.79065610516875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182720.2603, 
+        "ET_ORDER": 0.2331, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546613.2331, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.64392, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47119266940182, 
+          37.79016065010095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182664.987, 
+        "ET_ORDER": 0.2529, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546560.018, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 53.17978, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47139699113832, 
+          37.79008366292521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182656.3436, 
+        "ET_ORDER": 0.2581, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546542.0762, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 53.13653, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47148211777497, 
+          37.789970411832826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182643.7361, 
+        "ET_ORDER": 0.2618, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546534.652, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 52.76077, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47159682846107, 
+          37.78982534993838
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182627.5845, 
+        "ET_ORDER": 0.2667, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546524.6429, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 52.2345, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47170451601363, 
+          37.78963264910148
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182606.1509, 
+        "ET_ORDER": 0.2728, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546515.282, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 51.56894, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47171603492436, 
+          37.789612034552526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182603.858, 
+        "ET_ORDER": 0.2734, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546514.2807, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 51.51216, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47182169368138, 
+          37.78930649186847
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182569.9057, 
+        "ET_ORDER": 0.2825, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546505.1691, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.57043, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47192253000102, 
+          37.788714860691066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182504.2145, 
+        "ET_ORDER": 0.2996, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546496.6613, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 48.87162, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47236559271764, 
+          37.78784455145036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182407.4341, 
+        "ET_ORDER": 0.3264, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546458.1947, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.12386, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47266653247006, 
+          37.787556359154635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182375.3099, 
+        "ET_ORDER": 0.3372, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546431.8771, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.25359, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4731945822489, 
+          37.78733882169101
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182350.9122, 
+        "ET_ORDER": 0.3507, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546385.5178, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.84729, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47338947739044, 
+          37.787319856842
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182348.7114, 
+        "ET_ORDER": 0.3551, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546368.3689, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.83912, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47343687029391, 
+          37.787320972673044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182348.8117, 
+        "ET_ORDER": 0.3562, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546364.1952, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.85869, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47348243504965, 
+          37.78734493130607
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182351.4473, 
+        "ET_ORDER": 0.3575, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546360.1682, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.85254, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47358714252289, 
+          37.787521972708895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182371.038, 
+        "ET_ORDER": 0.3631, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546350.838, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.70566, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47377995027378, 
+          37.787605557401115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182380.2161, 
+        "ET_ORDER": 0.368, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546333.8089, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 47.68505, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47395470939647, 
+          37.78763712844039
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182383.6323, 
+        "ET_ORDER": 0.3721, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546318.4015, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 48.53188, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47406006589122, 
+          37.78762041885393
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182381.7262, 
+        "ET_ORDER": 0.3746, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546309.1352, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 48.7048, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47413307834441, 
+          37.787586428153695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182377.9188, 
+        "ET_ORDER": 0.3765, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546302.7276, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 48.83823, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47430144704326, 
+          37.78745943369279
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182363.7455, 
+        "ET_ORDER": 0.3818, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546287.9818, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.04132, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47459730214976, 
+          37.787384921384934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182355.332, 
+        "ET_ORDER": 0.3888, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546261.9779, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 49.3955, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4747782372896, 
+          37.78729450978854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182345.2114, 
+        "ET_ORDER": 0.3937, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546246.1027, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.19619, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47492970123224, 
+          37.78729484958835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182345.1742, 
+        "ET_ORDER": 0.3971, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546232.7659, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 50.74311, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47502479753055, 
+          37.787328326297036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182348.8414, 
+        "ET_ORDER": 0.3995, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546224.3717, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 51.25037, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47522219230639, 
+          37.78747535808317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182365.0569, 
+        "ET_ORDER": 0.4056, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546206.8993, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 52.26034, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47547219616648, 
+          37.78772039099185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182392.1196, 
+        "ET_ORDER": 0.4146, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546184.7337, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 53.81416, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47595714176494, 
+          37.7884067473641
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182468.0309, 
+        "ET_ORDER": 0.4372, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546141.6071, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 57.02471, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47596781183128, 
+          37.78845370996616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182473.2361, 
+        "ET_ORDER": 0.4385, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546140.6384, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 57.34861, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47594967682546, 
+          37.78851109702268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182479.6121, 
+        "ET_ORDER": 0.4402, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546142.1995, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 57.50674, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47589053106061, 
+          37.78855527227262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182484.5425, 
+        "ET_ORDER": 0.4421, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546147.3798, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 57.66602, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47573059755706, 
+          37.788626811775764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182492.5587, 
+        "ET_ORDER": 0.4462, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546161.4174, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 58.31026, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47568781408567, 
+          37.788677716826086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182498.2277, 
+        "ET_ORDER": 0.448, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546165.1528, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 58.61087, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47568168698015, 
+          37.78875308348697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182506.5926, 
+        "ET_ORDER": 0.4502, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546165.6454, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 59.31889, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47568116329569, 
+          37.7887595291493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182507.308, 
+        "ET_ORDER": 0.4503, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546165.6875, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 59.45505, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47571739377274, 
+          37.7889201520168
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182525.1111, 
+        "ET_ORDER": 0.455, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546162.3975, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 61.61678, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47579555822642, 
+          37.78985592915611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182628.8963, 
+        "ET_ORDER": 0.4818, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546154.9331, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 69.26591, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47580881550738, 
+          37.79001463991743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182646.4986, 
+        "ET_ORDER": 0.4864, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546153.6671, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 69.58628, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47580700941438, 
+          37.79020695399516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182667.8366, 
+        "ET_ORDER": 0.4919, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546153.7065, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 70.07238, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47577553833035, 
+          37.79039015089291
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182688.1777, 
+        "ET_ORDER": 0.4972, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546156.3635, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 71.53748, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47569827309847, 
+          37.79060845021846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182712.436, 
+        "ET_ORDER": 0.5037, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546163.0307, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 73.00968, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47562117644091, 
+          37.79072456661805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182725.3571, 
+        "ET_ORDER": 0.5074, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546169.7466, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 73.80382, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47517908995701, 
+          37.79139039690057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182799.4489, 
+        "ET_ORDER": 0.529, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546208.2564, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 80.48008, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47512392220955, 
+          37.79152866575179
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182814.817, 
+        "ET_ORDER": 0.5331, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546213.0276, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 82.14219, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47511551431826, 
+          37.79160297305596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182823.0655, 
+        "ET_ORDER": 0.5353, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546213.7216, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 83.12374, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47511916571689, 
+          37.7917402574113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182838.2953, 
+        "ET_ORDER": 0.5392, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546213.3146, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 84.82443, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4753492921137, 
+          37.79258382834696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182931.7752, 
+        "ET_ORDER": 0.5639, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546192.5277, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 95.29725, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47540130571119, 
+          37.79291258739903
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4182968.2251, 
+        "ET_ORDER": 0.5734, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546187.7435, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 97.4869, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47536749150841, 
+          37.79372349166298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183058.2111, 
+        "ET_ORDER": 0.5966, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546190.2158, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 103.45849, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47539865427034, 
+          37.79378889624328
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183065.4523, 
+        "ET_ORDER": 0.5986, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546187.4314, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 103.85117, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47551668278747, 
+          37.79386658126447
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183074.0131, 
+        "ET_ORDER": 0.6021, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546176.9914, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 104.5981, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47560894422251, 
+          37.793951564774495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183083.3964, 
+        "ET_ORDER": 0.6053, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546168.8155, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 104.77404, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47567010321912, 
+          37.79403844135424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183093.0051, 
+        "ET_ORDER": 0.6082, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546163.3768, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 104.07187, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47585416904928, 
+          37.79439799342185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183132.8063, 
+        "ET_ORDER": 0.6193, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546146.9474, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 104.18475, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47614890260569, 
+          37.79499047126139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183198.3959, 
+        "ET_ORDER": 0.6375, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546120.6299, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 111.68809, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47629963556747, 
+          37.7949961878302
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183198.9558, 
+        "ET_ORDER": 0.6409, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546107.3555, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 105.57946, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47635219433157, 
+          37.79502002951424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183201.5751, 
+        "ET_ORDER": 0.6423, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546102.7133, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 105.4928, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47674887050863, 
+          37.79529219816531
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183231.5765, 
+        "ET_ORDER": 0.6542, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546067.6201, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 104.75617, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47696028958039, 
+          37.79536694359178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183239.7653, 
+        "ET_ORDER": 0.6595, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546048.96, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 103.48839, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4770673203478, 
+          37.79542146227728
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183245.7614, 
+        "ET_ORDER": 0.6624, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546039.503, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 102.91445, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4770992283685, 
+          37.79544977080132
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183248.8865, 
+        "ET_ORDER": 0.6634, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546036.6762, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 102.83832, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47726076917964, 
+          37.79573136982174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183280.0502, 
+        "ET_ORDER": 0.6723, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546022.2792, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 102.70905, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4774513804719, 
+          37.79586964204474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183295.2976, 
+        "ET_ORDER": 0.6782, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546005.4118, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 101.33738, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47754809400521, 
+          37.795991632707775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183308.7848, 
+        "ET_ORDER": 0.6823, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 545996.8214, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 100.8256, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47754637753962, 
+          37.79612213956594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183323.2653, 
+        "ET_ORDER": 0.686, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 545996.8916, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 100.23513, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47747347143624, 
+          37.79624422520424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183336.8465, 
+        "ET_ORDER": 0.6899, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546003.2346, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 99.36661, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47694644612368, 
+          37.79673239036308
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183391.2676, 
+        "ET_ORDER": 0.7083, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546049.3312, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 98.77429, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47672509263988, 
+          37.796999800926095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183421.0457, 
+        "ET_ORDER": 0.7175, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546068.6531, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 97.68363, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47665747010753, 
+          37.7971283917359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183435.3461, 
+        "ET_ORDER": 0.7214, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546074.5267, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 97.76853, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47640328517392, 
+          37.79712763727506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183435.3877, 
+        "ET_ORDER": 0.7272, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546096.9055, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 97.83681, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47628893387642, 
+          37.79712512538918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183435.1654, 
+        "ET_ORDER": 0.7298, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546106.9745, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 98.55076, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47619473618137, 
+          37.79710425314861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183432.8961, 
+        "ET_ORDER": 0.732, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546115.2806, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 98.85976, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47617545820992, 
+          37.79740653767179
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183466.4439, 
+        "ET_ORDER": 0.7407, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546116.7899, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 97.72468, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47619360387357, 
+          37.79749399600802
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183476.1384, 
+        "ET_ORDER": 0.7432, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546115.138, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 97.48853, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47637362038235, 
+          37.79789757077268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183520.826, 
+        "ET_ORDER": 0.7555, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546099.0387, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 95.17131, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47607864222256, 
+          37.79852795613901
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183590.9124, 
+        "ET_ORDER": 0.7747, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546124.6162, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 92.57076, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4760210913765, 
+          37.798530458201526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183591.2184, 
+        "ET_ORDER": 0.776, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546129.6813, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 92.16968, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47569431325768, 
+          37.798477041953156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183585.4532, 
+        "ET_ORDER": 0.7836, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546158.4834, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 90.48526, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4751392594638, 
+          37.79846742393708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183584.6603, 
+        "ET_ORDER": 0.7962, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546207.3552, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 87.52308, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47485345528389, 
+          37.79842398064331
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183579.9816, 
+        "ET_ORDER": 0.8028, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546232.5439, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 86.20816, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47476969681446, 
+          37.798767967704634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183618.1882, 
+        "ET_ORDER": 0.8129, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546239.7034, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 84.62605, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47477422005635, 
+          37.79887975498811
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183630.5887, 
+        "ET_ORDER": 0.8161, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546239.2355, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 84.46067, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4749159465344, 
+          37.79919739868432
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183665.761, 
+        "ET_ORDER": 0.8257, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546226.5603, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 84.1525, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47507852372536, 
+          37.79945288784051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183694.027, 
+        "ET_ORDER": 0.8339, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546212.0883, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 83.46377, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47515092927158, 
+          37.79963709235608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183714.4286, 
+        "ET_ORDER": 0.8394, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546205.5992, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 82.94903, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47516033354749, 
+          37.79973032983699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183724.7686, 
+        "ET_ORDER": 0.8421, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546204.7132, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 82.57652, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47515509241762, 
+          37.799793596563866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183731.7906, 
+        "ET_ORDER": 0.8439, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546205.1352, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 82.25235, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47512346095198, 
+          37.79984082315164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183737.046, 
+        "ET_ORDER": 0.8454, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546207.8905, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 81.93741, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47491517982014, 
+          37.80001461689679
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183756.4313, 
+        "ET_ORDER": 0.8523, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546226.1185, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 80.59283, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47484525132849, 
+          37.80011879600912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183768.0245, 
+        "ET_ORDER": 0.8557, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546232.2098, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 79.92555, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4749165872488, 
+          37.80015645440062
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183772.1674, 
+        "ET_ORDER": 0.8576, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546225.9062, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 80.29046, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47536956415429, 
+          37.800503719722364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183810.4724, 
+        "ET_ORDER": 0.8719, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546185.8117, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 81.12926, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47538727073753, 
+          37.80053887670105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183814.3643, 
+        "ET_ORDER": 0.873, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546184.231, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 81.21667, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47537564596237, 
+          37.801132587954704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183880.242, 
+        "ET_ORDER": 0.89, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546184.8847, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 80.93587, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47526492820303, 
+          37.80159053318051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4183931.1055, 
+        "ET_ORDER": 0.9034, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546194.3465, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 79.18081, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4752734854514, 
+          37.80384631700236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184181.3794, 
+        "ET_ORDER": 0.9679, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546192.1882, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 72.53354, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47529143865016, 
+          37.804138294521785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184213.7653, 
+        "ET_ORDER": 0.9763, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546190.4259, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 70.76076, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47532351921409, 
+          37.8042380196068
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184224.8139, 
+        "ET_ORDER": 0.9793, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546187.5397, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 70.50496, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47537872693619, 
+          37.80429615395078
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184231.2366, 
+        "ET_ORDER": 0.9813, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546182.6435, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 69.6908, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47558880133634, 
+          37.80432350850457
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184234.1678, 
+        "ET_ORDER": 0.9862, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546164.1334, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 68.04403, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47578644461333, 
+          37.80433597810518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184235.4537, 
+        "ET_ORDER": 0.9907, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546146.7269, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 68.41602, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47588743850852, 
+          37.804237452750655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184224.4725, 
+        "ET_ORDER": 0.9943, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546137.8976, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 72.09032, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47593361908093, 
+          37.80413356042836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184212.9229, 
+        "ET_ORDER": 0.9975, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546133.8969, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 73.48723, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47601563815734, 
+          37.80407320036704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1930.7, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 3883.6, 
+        "Len_Down": 1952.9, 
+        "Max_S_Down": 24.7, 
+        "Min_Z": 42.9, 
+        "H_Down": 67.1, 
+        "ET_ID": 284, 
+        "trail_name": "Anza Trail", 
+        "ET_Y": 4184206.1855, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 14.6, 
+        "ET_IDP": 284, 
+        "ET_IDR": "284_0", 
+        "H_Up": 97.0, 
+        "ET_X": 546126.7142, 
+        "Av_S_Down": 2.0, 
+        "ET_Z": 74.59632, 
+        "Length_2D": 3876.3, 
+        "Max_Z": 111.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51142478363818, 
+          37.78330009350727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 34.9, 
+        "Av_S_Up": 18.8, 
+        "Length_3D": 34.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 270, 
+        "trail_name": "USS San Francisco Memorial Trail", 
+        "ET_Y": 4181884.5424, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 25.3, 
+        "ET_IDP": 270, 
+        "ET_IDR": "270_0", 
+        "H_Up": 11.2, 
+        "ET_X": 543021.6466, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 58.96905, 
+        "Length_2D": 32.9, 
+        "Max_Z": 70.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51138748761491, 
+          37.7832618555881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 34.9, 
+        "Av_S_Up": 18.8, 
+        "Length_3D": 34.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 270, 
+        "trail_name": "USS San Francisco Memorial Trail", 
+        "ET_Y": 4181880.3171, 
+        "ET_ORDER": 0.1629, 
+        "Max_S_Up": 25.3, 
+        "ET_IDP": 270, 
+        "ET_IDR": "270_0", 
+        "H_Up": 11.2, 
+        "ET_X": 543024.9529, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 60.36476, 
+        "Length_2D": 32.9, 
+        "Max_Z": 70.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51142282597131, 
+          37.783193624761765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 34.9, 
+        "Av_S_Up": 18.8, 
+        "Length_3D": 34.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 270, 
+        "trail_name": "USS San Francisco Memorial Trail", 
+        "ET_Y": 4181872.7307, 
+        "ET_ORDER": 0.4115, 
+        "Max_S_Up": 25.3, 
+        "ET_IDP": 270, 
+        "ET_IDR": "270_0", 
+        "H_Up": 11.2, 
+        "ET_X": 543021.8807, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 63.07609, 
+        "Length_2D": 32.9, 
+        "Max_Z": 70.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51142813519091, 
+          37.783113044875726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 34.9, 
+        "Av_S_Up": 18.8, 
+        "Length_3D": 34.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 270, 
+        "trail_name": "USS San Francisco Memorial Trail", 
+        "ET_Y": 4181863.788, 
+        "ET_ORDER": 0.6834, 
+        "Max_S_Up": 25.3, 
+        "ET_IDP": 270, 
+        "ET_IDR": "270_0", 
+        "H_Up": 11.2, 
+        "ET_X": 543021.4599, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 67.30018, 
+        "Length_2D": 32.9, 
+        "Max_Z": 70.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51132249689032, 
+          37.783070605517324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 34.9, 
+        "Av_S_Up": 18.8, 
+        "Length_3D": 34.9, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.0, 
+        "H_Down": 0.0, 
+        "ET_ID": 270, 
+        "trail_name": "USS San Francisco Memorial Trail", 
+        "ET_Y": 4181859.128, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 25.3, 
+        "ET_IDP": 270, 
+        "ET_IDR": "270_0", 
+        "H_Up": 11.2, 
+        "ET_X": 543030.7866, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 70.18836, 
+        "Length_2D": 32.9, 
+        "Max_Z": 70.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,1573 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28328511454026, 
+          37.43623700552827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143508.4159, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563404.7472, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 144.88015, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28358871448626, 
+          37.435864209311994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143466.8523, 
+        "ET_ORDER": 0.0288, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563378.203, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 164.91569, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28368942087432, 
+          37.43579371785082
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143458.964, 
+        "ET_ORDER": 0.0357, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563369.3532, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 168.18923, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2837534745504, 
+          37.43577655477708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143457.0168, 
+        "ET_ORDER": 0.0392, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563363.701, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 168.42358, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28421796917029, 
+          37.435708074784685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143449.1072, 
+        "ET_ORDER": 0.0636, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563322.666, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 163.15939, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28441854339276, 
+          37.43571730593626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143449.9966, 
+        "ET_ORDER": 0.0739, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563304.9139, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 160.49707, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28453837821581, 
+          37.43576646403978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143455.3699, 
+        "ET_ORDER": 0.0809, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563294.271, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 158.47806, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28469737036569, 
+          37.43586641076033
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143466.3516, 
+        "ET_ORDER": 0.0913, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563280.1212, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 161.30029, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28475394403353, 
+          37.435964487361794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143477.1946, 
+        "ET_ORDER": 0.0983, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563275.0337, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 164.53339, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2848207140858, 
+          37.43596880238154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143477.6285, 
+        "ET_ORDER": 0.1018, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563269.1231, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 165.9166, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28499818298631, 
+          37.436196695583746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143502.7927, 
+        "ET_ORDER": 0.1191, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563253.2311, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 167.087, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28505147625106, 
+          37.436462389442944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143532.234, 
+        "ET_ORDER": 0.1365, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563248.2928, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 167.47436, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2853092867756, 
+          37.43690094132936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143580.7156, 
+        "ET_ORDER": 0.1679, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563225.1162, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 161.31176, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28539133816955, 
+          37.43727199014239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143621.8261, 
+        "ET_ORDER": 0.1923, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563217.5453, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 159.96413, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28543736712602, 
+          37.437592876874156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143657.3956, 
+        "ET_ORDER": 0.2132, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563213.2034, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 158.15715, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28547980690954, 
+          37.43823803684419
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143728.9436, 
+        "ET_ORDER": 0.255, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563208.9063, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 152.67167, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28561484081432, 
+          37.438712109101196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143781.4484, 
+        "ET_ORDER": 0.2865, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563196.5619, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 166.80664, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28564074679257, 
+          37.43887080365915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143799.0372, 
+        "ET_ORDER": 0.2968, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563194.1367, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 171.71697, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28563340674565, 
+          37.4390310152594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143816.8166, 
+        "ET_ORDER": 0.3072, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563194.6513, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 179.78306, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28558182825189, 
+          37.439353394901126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143852.6172, 
+        "ET_ORDER": 0.3282, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563198.943, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 183.10435, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28557790773394, 
+          37.43967648081153
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143888.4642, 
+        "ET_ORDER": 0.3491, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563199.0181, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 183.96449, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28552242483259, 
+          37.43983315918772
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143905.8839, 
+        "ET_ORDER": 0.3597, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563203.7945, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 183.62211, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28552089121413, 
+          37.43988543405449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143911.6845, 
+        "ET_ORDER": 0.3631, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563203.8862, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 183.66379, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28562312917538, 
+          37.44025387886298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143952.4926, 
+        "ET_ORDER": 0.3875, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563194.5321, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 180.4567, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28564436928265, 
+          37.4404723817859
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143976.7199, 
+        "ET_ORDER": 0.4017, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563192.4694, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 168.65562, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28567742597777, 
+          37.440574101450984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4143987.9829, 
+        "ET_ORDER": 0.4085, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563189.4596, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 174.26751, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28585386720863, 
+          37.44080066474891
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144013.0004, 
+        "ET_ORDER": 0.4257, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563173.6608, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 189.25325, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2861517706565, 
+          37.44109741282485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144045.7231, 
+        "ET_ORDER": 0.4503, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563147.0584, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 198.02779, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28664076196382, 
+          37.44147715597428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144087.5257, 
+        "ET_ORDER": 0.4856, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563103.4827, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 183.20984, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28675908297974, 
+          37.44151589291319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144091.7441, 
+        "ET_ORDER": 0.4922, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563092.9834, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 178.30106, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28710241818183, 
+          37.441500764626326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144089.8359, 
+        "ET_ORDER": 0.5099, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563062.6244, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 171.74003, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28723357636798, 
+          37.44151571328549
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144091.4066, 
+        "ET_ORDER": 0.5167, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563051.0095, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 167.41457, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28741700864812, 
+          37.44157726978292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144098.1132, 
+        "ET_ORDER": 0.527, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 563034.7313, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 164.63081, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28789300351427, 
+          37.44179229470401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144121.6506, 
+        "ET_ORDER": 0.5552, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562992.4442, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 162.93018, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2880960682557, 
+          37.44197724075375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144142.0335, 
+        "ET_ORDER": 0.5712, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562974.326, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 169.65643, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2882879216877, 
+          37.44226654567931
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144174.0019, 
+        "ET_ORDER": 0.5923, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562957.1122, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 169.31425, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28861855345285, 
+          37.44257885004402
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144208.4293, 
+        "ET_ORDER": 0.6188, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562927.603, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 169.987, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28889443161995, 
+          37.4428021629652
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144233.0203, 
+        "ET_ORDER": 0.6391, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562903.012, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 169.37112, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.2892248585806, 
+          37.44313663056814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144269.9069, 
+        "ET_ORDER": 0.6666, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562873.5028, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 173.01559, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.28952937677204, 
+          37.44327145314861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144284.6615, 
+        "ET_ORDER": 0.6846, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562846.4527, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 171.18223, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29011187722072, 
+          37.44340794494382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144299.4161, 
+        "ET_ORDER": 0.7159, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562794.8114, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 181.52122, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29038692557171, 
+          37.443719911386744
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144333.8436, 
+        "ET_ORDER": 0.7406, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562770.2204, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 180.00538, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29191059661524, 
+          37.44428318253044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144395.3212, 
+        "ET_ORDER": 0.8273, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562634.9697, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 183.41848, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29307603801142, 
+          37.444511812829745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144419.9123, 
+        "ET_ORDER": 0.8892, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562531.6874, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 180.17716, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29374215709302, 
+          37.44462662162321
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144432.2078, 
+        "ET_ORDER": 0.9244, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562472.6689, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 184.83751, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29406014507252, 
+          37.44477595278718
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144448.5644, 
+        "ET_ORDER": 0.9434, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562444.4165, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 191.7343, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29389770231613, 
+          37.44490560345839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144463.056, 
+        "ET_ORDER": 0.9553, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562458.6779, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 196.13515, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29378079238211, 
+          37.44495800747905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144468.9474, 
+        "ET_ORDER": 0.9622, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562468.9758, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 196.78403, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.29306691174583, 
+          37.4450879047652
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 944.7, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1742.5, 
+        "Len_Down": 797.8, 
+        "Max_S_Down": 25.9, 
+        "Min_Z": 144.9, 
+        "H_Down": 82.7, 
+        "ET_ID": 223, 
+        "trail_name": "Richards Road", 
+        "ET_Y": 4144483.8322, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 26.9, 
+        "ET_IDP": 223, 
+        "ET_IDR": "223_0", 
+        "H_Up": 144.3, 
+        "ET_X": 562532.0152, 
+        "Av_S_Down": 6.0, 
+        "ET_Z": 206.43231, 
+        "Length_2D": 1714.2, 
+        "Max_Z": 206.4
+      }
+    }
+  ]
+}

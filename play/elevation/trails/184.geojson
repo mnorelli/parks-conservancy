@@ -1,0 +1,869 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57495448989305, 
+          37.85973956825708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190338.1348, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537388.9097, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.67237, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57483532854144, 
+          37.85981757144649
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190346.837, 
+        "ET_ORDER": 0.0196, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537399.3523, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 6.12533, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57476401139829, 
+          37.859833001133495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190348.5775, 
+        "ET_ORDER": 0.029, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537405.6179, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 7.51835, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57464540861912, 
+          37.859813748088904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190346.4889, 
+        "ET_ORDER": 0.0444, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537416.0605, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 6.24406, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57459935252527, 
+          37.85985333648305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190350.8997, 
+        "ET_ORDER": 0.0531, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537420.0918, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 5.74514, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5745191091752, 
+          37.85998659656914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190365.7171, 
+        "ET_ORDER": 0.0767, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537427.083, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.61779, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57446110623275, 
+          37.86004434359808
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190372.1474, 
+        "ET_ORDER": 0.0886, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537432.156, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.38983, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57428103170729, 
+          37.860140735315944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190382.9143, 
+        "ET_ORDER": 0.1162, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537447.9474, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.1578, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57427329819693, 
+          37.8601636095225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190385.4553, 
+        "ET_ORDER": 0.12, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537448.6161, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.08337, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57429601445689, 
+          37.86021554825203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190391.2088, 
+        "ET_ORDER": 0.1288, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537446.5916, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.91173, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57481858904677, 
+          37.86064394396242
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190438.5299, 
+        "ET_ORDER": 0.2244, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537400.4072, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.53034, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57472617103124, 
+          37.86073226529405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190448.3662, 
+        "ET_ORDER": 0.2428, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537408.492, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.68278, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57466248141472, 
+          37.8608321134721
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190459.4699, 
+        "ET_ORDER": 0.2607, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537414.0439, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.55562, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57467562921344, 
+          37.86091000128642
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190468.1063, 
+        "ET_ORDER": 0.2733, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537412.848, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.73575, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57496289586628, 
+          37.86103218122145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190481.5471, 
+        "ET_ORDER": 0.3147, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537387.5173, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.19455, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57514454425254, 
+          37.86109872129216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190488.857, 
+        "ET_ORDER": 0.3402, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537371.5053, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.08018, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5754882739358, 
+          37.86119408073038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190499.2996, 
+        "ET_ORDER": 0.3865, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537341.2216, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 3.96689, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57559860597271, 
+          37.86127604927819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190508.3499, 
+        "ET_ORDER": 0.4057, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537331.4751, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.09286, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57562590990831, 
+          37.86134516873511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190516.0078, 
+        "ET_ORDER": 0.4173, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537329.0385, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.16922, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57566145631601, 
+          37.861615884865486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190546.0296, 
+        "ET_ORDER": 0.4609, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537325.7752, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.16036, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57562492233494, 
+          37.86163972791334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190548.6896, 
+        "ET_ORDER": 0.4669, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537328.9768, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.12037, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57502399689605, 
+          37.86245952640424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190639.8869, 
+        "ET_ORDER": 0.619, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537381.4217, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.78057, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57505184361221, 
+          37.862861559333204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190684.4814, 
+        "ET_ORDER": 0.6835, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537378.7692, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 5.19492, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57517558478618, 
+          37.86347209640739
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190752.1711, 
+        "ET_ORDER": 0.7827, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537367.5765, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.91082, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5751674297822, 
+          37.86347272583758
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190752.2442, 
+        "ET_ORDER": 0.7837, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537368.2935, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 5.0833, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57472170959998, 
+          37.86428650105197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190842.7113, 
+        "ET_ORDER": 0.9259, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537407.0879, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 4.02346, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5744896139533, 
+          37.864710242794715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 265.1, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 692.5, 
+        "Len_Down": 427.4, 
+        "Max_S_Down": 6.8, 
+        "Min_Z": 3.5, 
+        "H_Down": 6.3, 
+        "ET_ID": 184, 
+        "trail_name": "Muir Beach Trail", 
+        "ET_Y": 4190889.8186, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 13.5, 
+        "ET_IDP": 184, 
+        "ET_IDR": "184_0", 
+        "H_Up": 7.5, 
+        "ET_X": 537427.2886, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 5.94338, 
+        "Length_2D": 692.0, 
+        "Max_Z": 7.5
+      }
+    }
+  ]
+}

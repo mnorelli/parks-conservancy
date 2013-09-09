@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51195974867974, 
+          37.780659021522695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 90.8, 
+        "Len_Down": 90.8, 
+        "Max_S_Down": 21.0, 
+        "Min_Z": 22.1, 
+        "H_Down": 24.4, 
+        "ET_ID": 250, 
+        "trail_name": "Sutro Baths Staircase", 
+        "ET_Y": 4181591.2722, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 250, 
+        "ET_IDR": "250_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542976.069, 
+        "Av_S_Down": 15.6, 
+        "ET_Z": 46.45298, 
+        "Length_2D": 87.1, 
+        "Max_Z": 46.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51206886951911, 
+          37.78064386986672
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 90.8, 
+        "Len_Down": 90.8, 
+        "Max_S_Down": 21.0, 
+        "Min_Z": 22.1, 
+        "H_Down": 24.4, 
+        "ET_ID": 250, 
+        "trail_name": "Sutro Baths Staircase", 
+        "ET_Y": 4181589.541, 
+        "ET_ORDER": 0.112, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 250, 
+        "ET_IDR": "250_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542966.4687, 
+        "Av_S_Down": 15.6, 
+        "ET_Z": 46.00975, 
+        "Length_2D": 87.1, 
+        "Max_Z": 46.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51232449574009, 
+          37.78056299494966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 90.8, 
+        "Len_Down": 90.8, 
+        "Max_S_Down": 21.0, 
+        "Min_Z": 22.1, 
+        "H_Down": 24.4, 
+        "ET_ID": 250, 
+        "trail_name": "Sutro Baths Staircase", 
+        "ET_Y": 4181580.4506, 
+        "ET_ORDER": 0.3903, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 250, 
+        "ET_IDR": "250_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542944.0053, 
+        "Av_S_Down": 15.6, 
+        "ET_Z": 37.63528, 
+        "Length_2D": 87.1, 
+        "Max_Z": 46.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51266248735108, 
+          37.78033236949784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 90.8, 
+        "Len_Down": 90.8, 
+        "Max_S_Down": 21.0, 
+        "Min_Z": 22.1, 
+        "H_Down": 24.4, 
+        "ET_ID": 250, 
+        "trail_name": "Sutro Baths Staircase", 
+        "ET_Y": 4181554.7078, 
+        "ET_ORDER": 0.841, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 250, 
+        "ET_IDR": "250_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542914.3754, 
+        "Av_S_Down": 15.6, 
+        "ET_Z": 27.39113, 
+        "Length_2D": 87.1, 
+        "Max_Z": 46.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5128148392574, 
+          37.78030137595868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 90.8, 
+        "Len_Down": 90.8, 
+        "Max_S_Down": 21.0, 
+        "Min_Z": 22.1, 
+        "H_Down": 24.4, 
+        "ET_ID": 250, 
+        "trail_name": "Sutro Baths Staircase", 
+        "ET_Y": 4181551.1992, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 250, 
+        "ET_IDR": "250_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542900.9773, 
+        "Av_S_Down": 15.6, 
+        "ET_Z": 22.0817, 
+        "Length_2D": 87.1, 
+        "Max_Z": 46.5
+      }
+    }
+  ]
+}

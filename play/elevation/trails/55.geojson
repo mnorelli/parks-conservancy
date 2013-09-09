@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46195272553645, 
+          37.798961231635715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 21.4, 
+        "Len_Down": 21.4, 
+        "Max_S_Down": 16.4, 
+        "Min_Z": 44.2, 
+        "H_Down": 6.0, 
+        "ET_ID": 55, 
+        "trail_name": "Cemetery Link East connector", 
+        "ET_Y": 4183646.0479, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 55, 
+        "ET_IDR": "55_0", 
+        "H_Up": 0.0, 
+        "ET_X": 547367.956, 
+        "Av_S_Down": 16.4, 
+        "ET_Z": 50.22446, 
+        "Length_2D": 20.6, 
+        "Max_Z": 50.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46178644376234, 
+          37.79909135685853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 21.4, 
+        "Len_Down": 21.4, 
+        "Max_S_Down": 16.4, 
+        "Min_Z": 44.2, 
+        "H_Down": 6.0, 
+        "ET_ID": 55, 
+        "trail_name": "Cemetery Link East connector", 
+        "ET_Y": 4183660.5695, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 55, 
+        "ET_IDR": "55_0", 
+        "H_Up": 0.0, 
+        "ET_X": 547382.5119, 
+        "Av_S_Down": 16.4, 
+        "ET_Z": 44.1756, 
+        "Length_2D": 20.6, 
+        "Max_Z": 50.2
+      }
+    }
+  ]
+}

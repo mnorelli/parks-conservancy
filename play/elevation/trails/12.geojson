@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47073712094688, 
+          37.80808013927519
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 111.7, 
+        "Len_Down": 111.7, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.1, 
+        "H_Down": 0.5, 
+        "ET_ID": 12, 
+        "trail_name": "Amphitheater Trail", 
+        "ET_Y": 4184653.3718, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 12, 
+        "ET_IDR": "12_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546588.8717, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.67288, 
+        "Length_2D": 111.6, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47045402569293, 
+          37.808018431500564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 111.7, 
+        "Len_Down": 111.7, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.1, 
+        "H_Down": 0.5, 
+        "ET_ID": 12, 
+        "trail_name": "Amphitheater Trail", 
+        "ET_Y": 4184646.6665, 
+        "ET_ORDER": 0.2315, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 12, 
+        "ET_IDR": "12_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546613.8304, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.49459, 
+        "Length_2D": 111.6, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46995930215925, 
+          37.80787501546652
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 111.7, 
+        "Len_Down": 111.7, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.1, 
+        "H_Down": 0.5, 
+        "ET_ID": 12, 
+        "trail_name": "Amphitheater Trail", 
+        "ET_Y": 4184631.0014, 
+        "ET_ORDER": 0.6467, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 12, 
+        "ET_IDR": "12_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546657.4695, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.17757, 
+        "Length_2D": 111.6, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46958185240953, 
+          37.80768349258204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 111.7, 
+        "Len_Down": 111.7, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.1, 
+        "H_Down": 0.5, 
+        "ET_ID": 12, 
+        "trail_name": "Amphitheater Trail", 
+        "ET_Y": 4184609.9405, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 12, 
+        "ET_IDR": "12_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546690.8158, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.13165, 
+        "Length_2D": 111.6, 
+        "Max_Z": 3.7
+      }
+    }
+  ]
+}

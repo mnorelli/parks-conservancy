@@ -1,0 +1,5733 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51896569490745, 
+          37.835414686390074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187663.1857, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542327.8652, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 11.02041, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51847172729519, 
+          37.83526951764738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187647.3032, 
+        "ET_ORDER": 0.0093, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542371.4144, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 11.19873, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51811712459639, 
+          37.83527765539059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187648.367, 
+        "ET_ORDER": 0.0155, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542402.6127, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 11.78696, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51793218921443, 
+          37.835359957635674
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187657.5824, 
+        "ET_ORDER": 0.0192, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542418.8388, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 12.52534, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51776042799577, 
+          37.83552364209452
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187675.8212, 
+        "ET_ORDER": 0.024, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542433.859, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 13.00952, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51744597593084, 
+          37.83588013973112
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187715.5175, 
+        "ET_ORDER": 0.0336, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542461.3245, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 14.67564, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5171948829587, 
+          37.83624269887032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187755.8576, 
+        "ET_ORDER": 0.0428, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542483.2111, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 15.13246, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51666423738436, 
+          37.83721717953949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187864.2177, 
+        "ET_ORDER": 0.0663, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542529.3447, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 19.9456, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5163609796655, 
+          37.837724570921374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187920.6509, 
+        "ET_ORDER": 0.0788, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542555.7374, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 23.17347, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51620867710876, 
+          37.83804976690804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4187956.8008, 
+        "ET_ORDER": 0.0865, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542568.9518, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 24.33123, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5160142490285, 
+          37.83854250382961
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188011.5586, 
+        "ET_ORDER": 0.0979, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542585.7764, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 25.90959, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51592389987374, 
+          37.83885612342988
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188046.3959, 
+        "ET_ORDER": 0.105, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542593.5459, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 27.46448, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51576803935244, 
+          37.83916947269569
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188081.2331, 
+        "ET_ORDER": 0.1125, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542607.0798, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 29.41721, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51562711291963, 
+          37.839376714646676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188104.2909, 
+        "ET_ORDER": 0.1177, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542619.3606, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 30.4251, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51556678219664, 
+          37.839455529113124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188113.0629, 
+        "ET_ORDER": 0.1198, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542624.6237, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 31.02547, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51546940683396, 
+          37.8395364498164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188122.0855, 
+        "ET_ORDER": 0.1223, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542633.1451, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 31.69805, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51522926130933, 
+          37.83967099643024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188137.1231, 
+        "ET_ORDER": 0.1274, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542654.1978, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 33.20765, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51509224632423, 
+          37.83971561124881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188142.1357, 
+        "ET_ORDER": 0.13, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542666.2279, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 33.86709, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51463112978368, 
+          37.83976316820848
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188147.6229, 
+        "ET_ORDER": 0.1382, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542706.7736, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 36.29364, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51448330869482, 
+          37.839823507038744
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188154.3851, 
+        "ET_ORDER": 0.1411, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542719.7454, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 36.8968, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51433457719503, 
+          37.840035132532115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188177.933, 
+        "ET_ORDER": 0.1465, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542732.71, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 37.6404, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51426728212326, 
+          37.84020893873331
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188197.2476, 
+        "ET_ORDER": 0.1505, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542738.5309, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 38.50033, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51417305703467, 
+          37.84055824974815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188236.0468, 
+        "ET_ORDER": 0.1585, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542746.62, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 40.12, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5141094773247, 
+          37.84093963030478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188278.3901, 
+        "ET_ORDER": 0.167, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542751.9941, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 43.5547, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51400872870175, 
+          37.841170531248935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188304.0547, 
+        "ET_ORDER": 0.1724, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542760.7254, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 45.6131, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51374483449653, 
+          37.84151761023773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188342.684, 
+        "ET_ORDER": 0.1814, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542783.7442, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 47.89436, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51359352875349, 
+          37.84166245262276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188358.8236, 
+        "ET_ORDER": 0.1856, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542796.9734, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 49.60449, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51330635896298, 
+          37.84189019795763
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188384.2236, 
+        "ET_ORDER": 0.1927, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542822.1088, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 52.28254, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51321262452207, 
+          37.84193022060511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188388.7071, 
+        "ET_ORDER": 0.1946, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542830.333, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 53.03194, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51287283091186, 
+          37.842010851560254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188397.809, 
+        "ET_ORDER": 0.2008, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542860.1835, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 54.98419, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51203440002614, 
+          37.842049150626586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188402.4434, 
+        "ET_ORDER": 0.2156, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542933.9316, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 59.81143, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51109781914204, 
+          37.84231791124637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188432.6934, 
+        "ET_ORDER": 0.2331, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543016.1816, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 66.09977, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51102304188117, 
+          37.84234689323234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188435.9434, 
+        "ET_ORDER": 0.2346, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543022.7441, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 66.52631, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51088039696745, 
+          37.84243417820411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188445.6934, 
+        "ET_ORDER": 0.2377, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543035.2441, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 67.6645, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51054353086818, 
+          37.842673877955036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188472.4434, 
+        "ET_ORDER": 0.2457, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543064.7441, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 70.54455, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5100881570302, 
+          37.842895057667356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188497.1934, 
+        "ET_ORDER": 0.2551, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543104.6816, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 74.0041, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5095575601073, 
+          37.843104656030825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188520.6934, 
+        "ET_ORDER": 0.2655, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543151.2441, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 78.03169, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50941023822116, 
+          37.843146854431936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188525.4434, 
+        "ET_ORDER": 0.2682, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543164.1816, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 78.83602, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50918621538614, 
+          37.84318647973864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188529.9434, 
+        "ET_ORDER": 0.2723, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543183.8691, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 80.02606, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50830677297914, 
+          37.84351178777488
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188566.4434, 
+        "ET_ORDER": 0.2894, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543261.0566, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 85.61739, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50788502769352, 
+          37.843694793813086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188586.9434, 
+        "ET_ORDER": 0.2978, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543298.0566, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 88.72774, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50778511648963, 
+          37.84376422745264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188594.6934, 
+        "ET_ORDER": 0.3001, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543306.8066, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 89.71947, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50767544013401, 
+          37.84380658101184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188599.4434, 
+        "ET_ORDER": 0.3023, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543316.4316, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 90.3266, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50716641425788, 
+          37.84413491829958
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188636.1087, 
+        "ET_ORDER": 0.3138, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543361.0255, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 94.98953, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50718613076334, 
+          37.844214628457095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188644.9434, 
+        "ET_ORDER": 0.3156, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543359.2441, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 95.22839, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50726770344579, 
+          37.844278424409765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188651.9837, 
+        "ET_ORDER": 0.3176, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543352.0297, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 95.79045, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50770644184688, 
+          37.84432556884054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188657.0108, 
+        "ET_ORDER": 0.3254, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543313.4004, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 99.62709, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5078682712531, 
+          37.844409710638494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188666.2713, 
+        "ET_ORDER": 0.3288, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543299.1129, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 101.06215, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5087119771543, 
+          37.845061874228044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188738.2381, 
+        "ET_ORDER": 0.3495, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543224.5002, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 111.5982, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50881549897018, 
+          37.845208365322456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188754.4434, 
+        "ET_ORDER": 0.3533, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543215.3066, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 113.50985, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50887248084572, 
+          37.84534632426133
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188769.7236, 
+        "ET_ORDER": 0.3565, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543210.2127, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 114.9854, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50888397137956, 
+          37.845427451820754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188778.7194, 
+        "ET_ORDER": 0.3583, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543209.1544, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 115.92449, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50884342304768, 
+          37.84564667578296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188803.0611, 
+        "ET_ORDER": 0.3632, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543212.594, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 118.68526, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50874239950684, 
+          37.84591572669122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188832.9591, 
+        "ET_ORDER": 0.3694, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543221.3252, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 122.23477, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50865751742188, 
+          37.84601791498116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188844.3362, 
+        "ET_ORDER": 0.3721, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543228.7336, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 124.9245, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50857000867309, 
+          37.84606285935536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188849.3633, 
+        "ET_ORDER": 0.374, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543236.4065, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 125.558, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50847062861143, 
+          37.84608390647592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188851.7445, 
+        "ET_ORDER": 0.3758, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543245.1378, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 126.16068, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50821508114714, 
+          37.84607330104823
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188850.6862, 
+        "ET_ORDER": 0.3803, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543267.6274, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 128.20111, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50804640918925, 
+          37.846113136350795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188855.1841, 
+        "ET_ORDER": 0.3834, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543282.4441, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 130.41519, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50770058828799, 
+          37.84633704633785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188880.1873, 
+        "ET_ORDER": 0.3912, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543312.7389, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 133.79535, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50721361625843, 
+          37.84653174827448
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188902.0155, 
+        "ET_ORDER": 0.4008, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543355.4692, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 139.76197, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50701442541741, 
+          37.84663822667474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188913.9218, 
+        "ET_ORDER": 0.405, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543372.9318, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 142.21423, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50689046322303, 
+          37.84673786520779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188925.0343, 
+        "ET_ORDER": 0.4082, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543383.7797, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 143.39163, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50678080593113, 
+          37.846947260474714
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188948.3177, 
+        "ET_ORDER": 0.4132, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543393.3047, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 145.62439, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5067527555633, 
+          37.8470949948897
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188964.7219, 
+        "ET_ORDER": 0.4165, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543395.686, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 145.8312, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50676976645153, 
+          37.84725007169653
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4188981.9198, 
+        "ET_ORDER": 0.4199, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543394.0985, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 147.13108, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50687895380948, 
+          37.84756292582529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189016.5803, 
+        "ET_ORDER": 0.4271, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543384.3089, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 151.00387, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50687849326978, 
+          37.847632080134375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189024.2532, 
+        "ET_ORDER": 0.4287, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543384.3089, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 152.07308, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50684175515336, 
+          37.84772969986141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189035.1012, 
+        "ET_ORDER": 0.4309, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543387.4839, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 153.67267, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50677830167565, 
+          37.84777474361913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189040.1283, 
+        "ET_ORDER": 0.4324, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543393.0401, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 154.87711, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50669696233386, 
+          37.84779586478854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189042.5095, 
+        "ET_ORDER": 0.4339, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543400.1839, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 155.38728, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50663984023551, 
+          37.8477932406342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189042.2449, 
+        "ET_ORDER": 0.4349, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543405.211, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 155.88195, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50656206445629, 
+          37.84773091308882
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189035.3658, 
+        "ET_ORDER": 0.4369, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543412.0902, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 156.94176, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50645779635124, 
+          37.84758262425483
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189018.9616, 
+        "ET_ORDER": 0.4407, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543421.3506, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 158.99116, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50638271045351, 
+          37.847568000421155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189017.374, 
+        "ET_ORDER": 0.442, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543427.9652, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 159.90993, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50625319209749, 
+          37.84759845873547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189020.8136, 
+        "ET_ORDER": 0.4444, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543439.3423, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 162.92054, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50613512967065, 
+          37.84771481425701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189033.7782, 
+        "ET_ORDER": 0.4477, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543449.6611, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 163.58567, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50608316358156, 
+          37.84784098631317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189047.8012, 
+        "ET_ORDER": 0.4506, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543454.159, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 165.05069, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50601703574665, 
+          37.84828664940522
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189097.2784, 
+        "ET_ORDER": 0.4606, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543459.7153, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 169.54631, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50592918857721, 
+          37.84838166867287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189107.8617, 
+        "ET_ORDER": 0.4632, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543467.3882, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 170.8682, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50580264424613, 
+          37.848416908666344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189111.8305, 
+        "ET_ORDER": 0.4656, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543478.5007, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 172.57546, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5053963096771, 
+          37.848467665870054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189117.6513, 
+        "ET_ORDER": 0.4728, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543514.2196, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 175.95094, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50526974901727, 
+          37.84850529007337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189121.8847, 
+        "ET_ORDER": 0.4752, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543525.3321, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 177.00873, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50524201022807, 
+          37.84854886428829
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189126.7322, 
+        "ET_ORDER": 0.4763, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543527.7469, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 177.28002, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50495494865507, 
+          37.84863185957145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189136.0744, 
+        "ET_ORDER": 0.4816, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543552.9533, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 180.47813, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50483864089422, 
+          37.84864725787146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189137.8371, 
+        "ET_ORDER": 0.4837, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543563.1768, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 181.86292, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5044460955498, 
+          37.84862495321758
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189135.5456, 
+        "ET_ORDER": 0.4906, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543597.7254, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 185.56851, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50438169671673, 
+          37.848667577096904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189140.3048, 
+        "ET_ORDER": 0.4921, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543603.366, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 186.16984, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50436929307205, 
+          37.84872471899302
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189146.6505, 
+        "ET_ORDER": 0.4934, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543604.4236, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 186.89771, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50438882836761, 
+          37.84879947071165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189154.9351, 
+        "ET_ORDER": 0.4951, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543602.6609, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 187.72531, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50451521537232, 
+          37.848907517415476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189166.8639, 
+        "ET_ORDER": 0.4983, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543591.478, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 188.49138, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5046415608402, 
+          37.84905631720521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189183.3143, 
+        "ET_ORDER": 0.5023, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543580.2748, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 188.77551, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50470896751132, 
+          37.849163043928456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189195.1242, 
+        "ET_ORDER": 0.505, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543574.2817, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 188.86983, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50485910891034, 
+          37.84948141769633
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189230.3778, 
+        "ET_ORDER": 0.5125, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543560.8853, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 190.20513, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5049279522055, 
+          37.84969859170097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189254.4412, 
+        "ET_ORDER": 0.5175, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543554.7009, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 192.10355, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.505022808016, 
+          37.84986975253716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189273.3873, 
+        "ET_ORDER": 0.5216, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543546.2551, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 193.978, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50507934926681, 
+          37.85010353084067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189299.2987, 
+        "ET_ORDER": 0.5269, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543541.1433, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 195.62995, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50508397828847, 
+          37.85020242070994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189310.2684, 
+        "ET_ORDER": 0.5291, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543540.6779, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 196.27774, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50516356646848, 
+          37.850443610809585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189336.9914, 
+        "ET_ORDER": 0.5346, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543533.5342, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 197.60998, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50520008516145, 
+          37.850625135584366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189357.1146, 
+        "ET_ORDER": 0.5387, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543530.2147, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 197.87424, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50518489221324, 
+          37.85079983019029
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189376.5041, 
+        "ET_ORDER": 0.5426, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543531.4486, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 198.45815, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50513996477547, 
+          37.85092673795287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189390.6055, 
+        "ET_ORDER": 0.5455, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543535.3265, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 199.31409, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5050832496084, 
+          37.851018645367624
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189400.8291, 
+        "ET_ORDER": 0.5478, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543540.262, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 200.14699, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50496399651723, 
+          37.851137215437404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189414.0401, 
+        "ET_ORDER": 0.5511, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543550.6836, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 201.35853, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50484308226439, 
+          37.85122911420684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189424.2927, 
+        "ET_ORDER": 0.5541, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543561.267, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 202.25809, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50436424219141, 
+          37.85143874315329
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189447.7746, 
+        "ET_ORDER": 0.5637, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543603.2696, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 205.64874, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50424348638667, 
+          37.85150679435281
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189455.3813, 
+        "ET_ORDER": 0.5663, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543613.853, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 206.41295, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50409167834782, 
+          37.851720779145374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189479.1939, 
+        "ET_ORDER": 0.5717, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543627.0822, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 208.20198, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5040685434366, 
+          37.85180712761757
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189488.7851, 
+        "ET_ORDER": 0.5737, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543629.0666, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 208.83053, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50412063403772, 
+          37.85188783076032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189497.7148, 
+        "ET_ORDER": 0.5757, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543624.4364, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 208.92398, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50478648587749, 
+          37.85238414742076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189552.4704, 
+        "ET_ORDER": 0.5918, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543565.5664, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 212.7101, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50510704571953, 
+          37.85251562359036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189566.9082, 
+        "ET_ORDER": 0.5981, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543537.2882, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 214.33174, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5051588052883, 
+          37.85256599598899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189572.4729, 
+        "ET_ORDER": 0.5996, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543532.7051, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 214.74452, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50517805138863, 
+          37.85265621900805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189582.4742, 
+        "ET_ORDER": 0.6016, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543530.9589, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 215.14418, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50517182567644, 
+          37.85277781303872
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189595.968, 
+        "ET_ORDER": 0.6043, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543531.4351, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 215.83465, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50509134806424, 
+          37.85293915799072
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189613.9068, 
+        "ET_ORDER": 0.6081, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543538.4201, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 216.70548, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50502955469265, 
+          37.853004716003916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189621.2093, 
+        "ET_ORDER": 0.61, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543543.8177, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 217.16343, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50494441949368, 
+          37.853053006009254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189626.6068, 
+        "ET_ORDER": 0.6118, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543551.2789, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 217.60548, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50467148307443, 
+          37.85312053761142
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189634.2268, 
+        "ET_ORDER": 0.6168, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543575.2502, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 219.11694, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5041780664434, 
+          37.85318575782177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189641.6934, 
+        "ET_ORDER": 0.6256, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543618.6191, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 221.14386, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50397215995525, 
+          37.85326496881129
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189650.5781, 
+        "ET_ORDER": 0.6296, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543636.6866, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 222.22792, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50386334435518, 
+          37.85334606759337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189659.6269, 
+        "ET_ORDER": 0.6323, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543646.2116, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 222.80916, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50372867102978, 
+          37.853515767252226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189678.5181, 
+        "ET_ORDER": 0.6367, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543657.9591, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 223.25201, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50356980889879, 
+          37.85379410891146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189709.4745, 
+        "ET_ORDER": 0.6435, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543671.7704, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 223.9094, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5035480500035, 
+          37.853944252839746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189726.1432, 
+        "ET_ORDER": 0.6468, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543673.596, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 224.29881, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50360130236925, 
+          37.854076113690226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189740.7483, 
+        "ET_ORDER": 0.6499, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543668.8335, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 224.93235, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50368456939142, 
+          37.854172329172684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189751.3845, 
+        "ET_ORDER": 0.6525, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543661.4516, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 225.65611, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50375759042856, 
+          37.8542294992902
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189757.6934, 
+        "ET_ORDER": 0.6543, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543654.9941, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 226.09178, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50427152773196, 
+          37.854443191056646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189781.1624, 
+        "ET_ORDER": 0.6645, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543609.6563, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 227.25258, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50453800425414, 
+          37.854639846878264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189802.857, 
+        "ET_ORDER": 0.6709, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543586.0982, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 227.43997, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5046055976804, 
+          37.85468864485269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189808.2396, 
+        "ET_ORDER": 0.6725, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543580.1232, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 227.24987, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50471244330646, 
+          37.85471527178189
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189811.144, 
+        "ET_ORDER": 0.6745, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543570.7082, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 226.26154, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.505091397488, 
+          37.85493137003855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189834.9434, 
+        "ET_ORDER": 0.6827, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543537.2441, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 225.19102, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50523167364047, 
+          37.85499054428213
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189841.4434, 
+        "ET_ORDER": 0.6855, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543524.8691, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 225.40172, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50599454712655, 
+          37.85522808623707
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189867.4434, 
+        "ET_ORDER": 0.6999, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543457.6191, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 229.37601, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5064706216301, 
+          37.85542230182268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189888.7702, 
+        "ET_ORDER": 0.7093, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543415.6247, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 224.19551, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50690960588378, 
+          37.85557444954351
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189905.447, 
+        "ET_ORDER": 0.7177, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543376.918, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 217.2117, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50758961666894, 
+          37.85575853293405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189925.5554, 
+        "ET_ORDER": 0.7304, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543316.9897, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 214.05732, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50797426984059, 
+          37.85580783513051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189930.8471, 
+        "ET_ORDER": 0.7372, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543283.123, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 214.55807, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50830345857602, 
+          37.85583067203222
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189933.2283, 
+        "ET_ORDER": 0.743, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543254.151, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 216.0854, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5087089826208, 
+          37.85583008348112
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189932.9752, 
+        "ET_ORDER": 0.7501, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543218.4775, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 218.96412, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50939831664492, 
+          37.85576073425684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189924.962, 
+        "ET_ORDER": 0.7624, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543157.8774, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 227.81119, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50967307903079, 
+          37.855707710339836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189918.952, 
+        "ET_ORDER": 0.7673, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543133.7375, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 229.92586, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51006319813627, 
+          37.85560099924137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189906.9322, 
+        "ET_ORDER": 0.7746, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543099.4809, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 230.17044, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51086294412232, 
+          37.85536418062536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189880.2882, 
+        "ET_ORDER": 0.7896, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543029.2649, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 233.32955, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51096147146542, 
+          37.85527250452878
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189870.0713, 
+        "ET_ORDER": 0.7923, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543020.6507, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 234.09898, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51105617234968, 
+          37.85507067129852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189847.6342, 
+        "ET_ORDER": 0.797, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543012.4371, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 235.6475, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51110673456013, 
+          37.8550004632496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189839.8213, 
+        "ET_ORDER": 0.7988, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 543008.0299, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 236.7784, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5112348298095, 
+          37.85491432651231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189830.2054, 
+        "ET_ORDER": 0.8018, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542996.8113, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 238.5101, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51132949332384, 
+          37.85489034453239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189827.501, 
+        "ET_ORDER": 0.8035, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542988.4976, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 239.1299, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51142171908093, 
+          37.85489072723018
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189827.501, 
+        "ET_ORDER": 0.8052, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542980.3842, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 239.36121, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51158662412202, 
+          37.854920299935976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189830.7062, 
+        "ET_ORDER": 0.8081, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542965.8602, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 239.39311, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51203189899029, 
+          37.855052068087325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189845.1211, 
+        "ET_ORDER": 0.8165, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542926.6126, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 238.9649, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51241504952151, 
+          37.85527987626643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189870.2204, 
+        "ET_ORDER": 0.8249, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542892.7746, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 241.15507, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51300554858854, 
+          37.85568139932533
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189914.4984, 
+        "ET_ORDER": 0.8386, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542840.5958, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 247.12173, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51318441006923, 
+          37.8557764234338
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189924.9593, 
+        "ET_ORDER": 0.8424, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542824.8064, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 248.89687, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51338149687993, 
+          37.855856341024015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189933.7358, 
+        "ET_ORDER": 0.8463, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542807.4225, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 250.55865, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51355477380528, 
+          37.85586617096299
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189934.747, 
+        "ET_ORDER": 0.8493, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542792.1737, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 251.23705, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51375560805249, 
+          37.85590420178357
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189938.8745, 
+        "ET_ORDER": 0.8529, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542774.4844, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 251.99833, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51455203588472, 
+          37.856088180395545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189958.9224, 
+        "ET_ORDER": 0.8675, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542704.3168, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 256.09778, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51505696784959, 
+          37.856289520364236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189981.0303, 
+        "ET_ORDER": 0.8775, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542659.7822, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 258.32076, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51540142857925, 
+          37.85637334740614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189990.1736, 
+        "ET_ORDER": 0.8838, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542629.432, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 259.87365, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51566210253162, 
+          37.85648602387689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190002.5561, 
+        "ET_ORDER": 0.889, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542606.4359, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 260.92501, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51586719897959, 
+          37.856613745676285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190016.6333, 
+        "ET_ORDER": 0.8936, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542588.3203, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 262.3409, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51625290927385, 
+          37.85675992258519
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190032.6758, 
+        "ET_ORDER": 0.9011, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542554.3058, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 265.28503, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51664437973677, 
+          37.85683423837602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190040.7428, 
+        "ET_ORDER": 0.9082, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542519.826, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 270.02256, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5168970886245, 
+          37.85686693825919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190044.2558, 
+        "ET_ORDER": 0.9127, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542497.5768, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 273.22448, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51766107176051, 
+          37.85664357881819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190019.1265, 
+        "ET_ORDER": 0.927, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542430.4984, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 278.8726, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51820843448905, 
+          37.85659850122044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190013.8765, 
+        "ET_ORDER": 0.9367, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542382.3734, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 282.57727, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51846466849653, 
+          37.856593090605514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190013.1599, 
+        "ET_ORDER": 0.9412, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542359.8359, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 284.4975, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51859699767736, 
+          37.85660910346844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190014.8765, 
+        "ET_ORDER": 0.9436, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542348.1859, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 285.44886, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51910302120035, 
+          37.8565841320376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4190011.8765, 
+        "ET_ORDER": 0.9525, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542303.6859, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 288.20468, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51992331274548, 
+          37.85630356844578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189980.3765, 
+        "ET_ORDER": 0.9682, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542231.6859, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 292.59312, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52025055197664, 
+          37.85623875363792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189973.0373, 
+        "ET_ORDER": 0.9741, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542202.9359, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 295.51553, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52059887059876, 
+          37.8562327590331
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189972.2148, 
+        "ET_ORDER": 0.9802, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542172.298, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 299.43405, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52077287143189, 
+          37.856252921063316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189974.3732, 
+        "ET_ORDER": 0.9833, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542156.9798, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 301.69737, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52134034018782, 
+          37.85638974524089
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189989.2978, 
+        "ET_ORDER": 0.9937, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542106.9822, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 308.96683, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52145392962314, 
+          37.85640231324567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189990.641, 
+        "ET_ORDER": 0.9958, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542096.9827, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 310.12938, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52169084121928, 
+          37.856367867186634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 4763.9, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 5018.2, 
+        "Len_Down": 254.2, 
+        "Max_S_Down": 9.4, 
+        "Min_Z": 11.0, 
+        "H_Down": 18.0, 
+        "ET_ID": 40, 
+        "trail_name": "Bobcat Trail", 
+        "ET_Y": 4189986.7124, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 14.2, 
+        "ET_IDP": 40, 
+        "ET_IDR": "40_0", 
+        "H_Up": 319.0, 
+        "ET_X": 542076.1614, 
+        "Av_S_Down": 4.1, 
+        "ET_Z": 312.0204, 
+        "Length_2D": 5003.6, 
+        "Max_Z": 312.0
+      }
+    }
+  ]
+}

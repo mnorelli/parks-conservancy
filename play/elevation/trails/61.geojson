@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50116171527834, 
+          37.715568005121625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174374.5462, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543965.4257, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 56.055, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50131573410525, 
+          37.71576718793477
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174396.5728, 
+        "ET_ORDER": 0.0982, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543951.7334, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 56.31409, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50130585268278, 
+          37.71589771206983
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174411.0588, 
+        "ET_ORDER": 0.1532, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543952.5272, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 56.07363, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50148178690827, 
+          37.71618641591149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174443.0073, 
+        "ET_ORDER": 0.2879, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543936.8506, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 56.58143, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5015965141102, 
+          37.71653746046269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174481.9011, 
+        "ET_ORDER": 0.4403, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543926.5318, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 58.11645, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5016920446542, 
+          37.71672924167505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174503.134, 
+        "ET_ORDER": 0.527, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543917.999, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 58.21623, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50203139440909, 
+          37.71715993233286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174550.7591, 
+        "ET_ORDER": 0.7404, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543887.8364, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 57.69091, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5025236426068, 
+          37.71763817490759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 124.7, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 264.1, 
+        "Len_Down": 139.4, 
+        "Max_S_Down": 0.9, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.9, 
+        "ET_ID": 61, 
+        "trail_name": "Chip Trail", 
+        "ET_Y": 4174603.5885, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 61, 
+        "ET_IDR": "61_0", 
+        "H_Up": 2.4, 
+        "ET_X": 543844.1706, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 56.59055, 
+        "Length_2D": 264.1, 
+        "Max_Z": 58.2
+      }
+    }
+  ]
+}

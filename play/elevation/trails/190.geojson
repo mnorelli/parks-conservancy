@@ -1,0 +1,421 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53349910288016, 
+          37.83302923727876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187392.0339, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541050.3352, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 18.63567, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53366284752587, 
+          37.83319136682098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187409.9502, 
+        "ET_ORDER": 0.1295, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541035.8364, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 20.34042, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53368293077834, 
+          37.83331728427957
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187423.9119, 
+        "ET_ORDER": 0.2085, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541033.9994, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 22.18736, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53380507872536, 
+          37.83348003305243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187441.9152, 
+        "ET_ORDER": 0.3266, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541023.1607, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 24.42942, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53379110343391, 
+          37.83366147234297
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187462.052, 
+        "ET_ORDER": 0.4398, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541024.29, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 26.37365, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53377015569457, 
+          37.83372163555651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187468.7363, 
+        "ET_ORDER": 0.4787, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541026.1, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 27.27682, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53373054693539, 
+          37.83376841797599
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187473.9442, 
+        "ET_ORDER": 0.5139, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541029.5595, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 27.56756, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53346030603775, 
+          37.8338674578745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187485.0514, 
+        "ET_ORDER": 0.661, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541053.2847, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 28.86807, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53333012952496, 
+          37.83397819148862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187497.3945, 
+        "ET_ORDER": 0.7553, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541064.6783, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 31.47245, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53328451927523, 
+          37.83395618828407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187494.9733, 
+        "ET_ORDER": 0.7817, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541068.704, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 31.26078, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53323182982288, 
+          37.83402570646682
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187502.7095, 
+        "ET_ORDER": 0.8323, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541073.3019, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 31.29579, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53328660853771, 
+          37.834131984073565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187514.4769, 
+        "ET_ORDER": 0.9038, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541068.4227, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 32.55048, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53324000179663, 
+          37.834281836508474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 174.2, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 178.9, 
+        "Len_Down": 4.7, 
+        "Max_S_Down": 2.6, 
+        "Min_Z": 18.6, 
+        "H_Down": 0.2, 
+        "ET_ID": 190, 
+        "trail_name": "Nursery Trail", 
+        "ET_Y": 4187531.1235, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.8, 
+        "ET_IDP": 190, 
+        "ET_IDR": "190_0", 
+        "H_Up": 16.3, 
+        "ET_X": 541072.4408, 
+        "Av_S_Down": 2.6, 
+        "ET_Z": 34.76072, 
+        "Length_2D": 178.0, 
+        "Max_Z": 34.8
+      }
+    }
+  ]
+}
