@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>API</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body, html{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', helvetica, 'Source Sans', arial, sans-serif;
+        }
+        #content, #map{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+
+        }
+        #parks{
+            position: absolute;
+            top: 20px;
+            left: 120px;
+            background: #fff;
+            padding: 20px;
+            z-index: 10;
+        }
+        #parks-search{
+            margin-left: 10px;
+            outline: 0;
+        }
+        #parks-search:focus{
+            outline: 0;
+        }
+
+        .panel{
+            position: absolute;
+            z-index: 10;
+            background: #fff;
+
+        }
+        .listwrapper{
+            min-width: 300px;
+        }
+        .list-inner{
+            height: 300px;
+            overflow: scroll;
+            margin-bottom: 20px;
+        }
+        .list{
+            margin: 20px;
+        }
+        .hide{
+            display: none;
+        }
+
+        #kinds{
+            top: 100px;
+            left: 120px;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        .list ul li{
+            padding: 5px;
+            background: #eee;
+            margin-bottom: 1px;
+            cursor: pointer;
+        }
+        .list ul li:hover{
+            background: #ccc;
+        }
+        #kinds h3{
+            margin-left: 20px;
+        }
+        #kinds h5 {
+            font-size: 0.83em;
+            margin: 0;
+        }
+
+        ul.infolist{
+
+        }
+        ul.infolist li {
+            border-top: 1px dashed #fff;
+            border-bottom: 1px dashed #ccc;
+            margin: 5px 0;
+            padding: 5px 0;
+            color: #666;
+            font-size: 13px;
+        }
+        ul.infolist li strong{
+            color: #333;
+            font-size: 14px;
+        }
+        ul.infolist li img{
+            vertical-align: top;
+            height: 50px;
+            width: auto;
+        }
+
+
+
+
+    </style>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="parks">
+            <label>Show me stuff for <select id="parks-search"></select></label>
+        </div>
+
+        <div id="kinds" class='panel hide'>
+            <div class='listwrapper'>
+                <h3>Geospatial anchors</h3>
+                <div id="locationsList" class="list-inner"></div>
+            </div>
+
+            <div class='listwrapper'>
+                <h3>No geospatial anchors</h3>
+                <div id="noLocationsList" class="list-inner"></div>
+            </div>
+        </div>
+
+
+
+        <div id="map"></div>
+    </div>
+
+    <script>
+        var API_URL_BASE = "http://stamen-parks-api-staging.herokuapp.com/";
+        var currentPlace = '';
+        var searching = false;
+        var map, infowindow, markers = [];
+
+        var availableParks;
+
+        var makeInfoContent = function(place){
+            var text = "<ul class='infolist'>";
+            for(var key in place){
+                var value = place[key];
+                if(key == 'kind'){
+                    text += '<li><strong>' + key + '</strong>: ' + value + '</li>';
+                }else if(key == 'attributes'){
+                    for(var val in value){
+                        var attrValue = value[val];
+                        text += '<li><strong>' + val + '</strong>: ' + attrValue + '</li>';
+                    };
+                }
+
+            }
+            text += "</ul>";
+            return text;
+        }
+
+        var createMarker = function(latlng, data) {
+            var marker = new google.maps.Marker({
+                map: map,
+                position: latlng,
+                ggnpc: data
+            });
+
+
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.setContent(makeInfoContent(data));
+                infowindow.open(map, this);
+            });
+
+            markers.push(marker);
+
+            return marker;
+        }
+
+        var clearMarkers = function(){
+            if(infowindow)infowindow.close();
+
+            d3.select('#kinds').classed('hide', true);
+            d3.select('#noLocationsList').html('')
+            d3.select('#locationsList').html('')
+
+            if(!markers)return;
+
+            markers.forEach(function(marker){
+                marker.setMap(null);
+            });
+        }
+
+        var loadStuff = function(){
+            if(searching) return;
+            if(!currentPlace) return;
+            var url = API_URL_BASE + '/stuff/park/' + currentPlace + '/kind/all?restrictEvents=true';
+            searching = true;
+            clearMarkers();
+
+            d3.json(url, function(data){
+                searching = false;
+
+                var bounds = new google.maps.LatLngBounds();
+                var now = +new Date();
+
+                var withLocations = [];
+                var noLocations = [];
+
+                var parentLocation = null,
+                    loc;
+                if(data && data.parent){
+                    loc = data.parent.attributes.location.split(',');
+                    if(loc.length == 2 && !isNaN(loc[0]) && !isNaN(loc[1])){
+
+                        parentLocation = new google.maps.LatLng(loc[0], loc[1]);
+                    }
+                }
+                if(data && data.children && data.children.results.length){
+                    data.children.results.forEach(function(d){
+
+                        if(d.attributes.location){
+                            var skip = (d.kind == 'event' && (+new Date(d.attributes.enddate) < now)) ? true : false;
+                            if(d.kind != 'event')skip = false;
+                            if(!skip){
+                                //console.log(d.kind)
+                                loc = d.attributes.location.split(',');
+                                if(loc.length == 2 && !isNaN(loc[0]) && !isNaN(loc[1])){
+
+                                    var latlng = new google.maps.LatLng(loc[0], loc[1]);
+
+                                    var marker = createMarker(latlng, d);
+                                    bounds.extend(latlng);
+
+                                    d.marker = marker;
+                                    withLocations.push(d);
+                                }
+
+                            }
+                        }else{
+                            d.marker = null;
+                            d.parentLocation = parentLocation;
+                            noLocations.push(d);
+                        }
+
+                    });
+
+
+                    map.setCenter(bounds.getCenter());
+
+                    createLists(withLocations, noLocations);
+                }else{
+                    var place = currentPlace;
+
+                    try{
+                        place = data.parent.attributes.title;
+                    }catch(e){}
+
+                    alert("No stuff for " + place);
+                }
+
+
+
+            })
+        }
+
+        function setKeyNavigation(){
+
+          d3.select(window).on('keyup.parks', function(){
+
+            var code = d3.event.keyCode || null;
+            switch(code){
+              case 38: // up
+              case 40: //dwn
+                  d3.event.preventDefault && d3.event.preventDefault();
+                  d3.event.returnValue = false;
+                  if(searching) return;
+
+                  if(code == 38){
+                    prevPark()
+                  }else if(code == 40){
+                    nextPark()
+                  }
+
+                break;
+
+              default:
+                break;
+            }
+          });
+        }
+
+        function nextPark(){
+            var select = document.getElementById("parks-search");
+            var idx = select.selectedIndex;
+            var len = availableParks.length - 1;
+            idx += 1;
+            if(idx > len){
+                idx = 0;
+            }
+
+
+            select.selectedIndex = idx;
+            changePlace(availableParks[idx].attributes.filename);
+        }
+        function prevPark(){
+            var select = document.getElementById("parks-search");
+            var idx = select.selectedIndex;
+            var len = availableParks.length - 1;
+            idx -= 1;
+            if(idx < 0){
+                idx = len;
+            }
+
+
+            select.selectedIndex = idx;
+            changePlace(availableParks[idx].attributes.filename);
+        }
+
+
+        var writeList = function(root, data){
+            root = d3.select(root);
+            if(!data.length){
+                d3.select(root.node().parentNode).classed('hide', true);
+                return;
+            }else{
+                d3.select(root.node().parentNode).classed('hide', false);
+            }
+
+            var lists = root.selectAll('.list')
+                .data(data)
+                .enter()
+                .append('div')
+                .attr('class', 'list');
+
+            lists.call(function(){
+                this.append('h5');
+                this.append('ul');
+            });
+
+            lists.call(function(){
+                this.select('h5')
+                    .text(function(d){
+                        return d.key;
+                    });
+
+                var children = null;
+                try{
+                    children = this.datum().values;
+                }catch(e){}
+
+                if(children){
+                    this.select('ul')
+                        .selectAll('li')
+                        .data(children)
+                        .enter()
+                        .append('li')
+                        .text(function(s){
+                            return s.attributes.title;
+                        });
+                }
+
+
+            })
+
+            root.selectAll('li').on('click', function(d){
+                if(d){
+                    if(d.marker){
+                        infowindow.setContent(makeInfoContent(d));
+                        infowindow.open(map, d.marker);
+                    }else if(d.parentLocation){
+                        infowindow.setContent(makeInfoContent(d));
+                        infowindow.setPosition(d.parentLocation);
+                        infowindow.open(map);
+                    }
+                }
+            })
+
+            //infowindow.setContent(makeInfoContent(data));
+            //infowindow.open(map, this);
+        }
+
+        var createLists = function(locs, nolocs){
+
+            var locationsByType = d3.nest()
+                .key(function(d){
+                    return d.kind;
+                })
+                .entries(locs);
+
+            var noLocationsByType = d3.nest()
+                .key(function(d){
+                    return d.kind;
+                })
+                .entries(nolocs);
+
+
+            writeList('#noLocationsList', noLocationsByType);
+            writeList('#locationsList', locationsByType);
+
+            d3.select('#kinds').classed('hide', false);
+
+        }
+
+        var changePlace = function(filename){
+            var place = filename.replace('.html','');
+            if(currentPlace != place && !searching){
+                currentPlace = place;
+                loadStuff();
+            }
+        }
+        var setupParksDropdown = function(){
+            var parks = availableParks;
+
+            if(!availableParks) return;
+
+            /*
+            parks.unshift({
+                attributes: {
+                    filename: '',
+                    title: ''
+                }
+            });
+            */
+
+            var select = d3.select("#parks-search");
+            select .selectAll('option')
+                .data(parks)
+                .enter()
+                .append('option')
+                .property('value', function(d){
+                    return d.attributes.filename;
+                })
+                .text(function(d){
+                    return d.attributes.title;
+                });
+
+            select.on('change', function(){
+                if(!this.value.length)return;
+
+                changePlace(this.value);
+            });
+
+            if(!currentPlace){
+                var len = availableParks.length;
+                var randomPlace;
+                var rdm;
+                while(!randomPlace){
+                    rdm = Math.round(Math.random() * (len - 2)) + 1;
+                    if(availableParks[rdm] && availableParks[rdm].attributes && availableParks[rdm].attributes.filename ){
+                        randomPlace = availableParks[rdm].attributes.filename;
+                    }
+                }
+
+                select.node().selectedIndex = rdm;
+                changePlace(randomPlace);
+
+            }
+            setKeyNavigation();
+        };
+
+        var getParks = function(callback){
+            var url = API_URL_BASE + "kind/park";
+            d3.json(url, function(data){
+                if(data){
+                    callback(data.results);
+
+                    var mapOptions = {
+                        center: new google.maps.LatLng(37.7706, -122.3782),
+                        zoom: 12,
+                        mapTypeId: google.maps.MapTypeId.TERRAIN
+                    };
+
+                    map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+                    //info-window
+                    infowindow = new google.maps.InfoWindow();
+                }
+
+            });
+        }
+        window.onload = function(){
+            getParks(function(data){
+                data = data.sort(function(a,b){
+                    return a.attributes.filename < b.attributes.filename ? -1 : a.attributes.filename > b.attributes.filename ? 1 : 0;
+                });
+                availableParks = data;
+                setupParksDropdown();
+            });
+        }
+    </script>
+</body>
+</html>
