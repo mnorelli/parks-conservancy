@@ -55,6 +55,18 @@
         padding: 20px;
       }
 
+      .axis path,
+      .axis line {
+          fill: none;
+          stroke: black;
+          shape-rendering: crispEdges;
+      }
+
+      .axis text {
+          font-family: sans-serif;
+          font-size: 11px;
+      }
+
     </style>
   </head>
   <body>
@@ -126,8 +138,20 @@
           .y(function(d) { return heightScale(d.height); })
           .interpolate("linear");
 
-        var transform = "translate(20, 0)";
+        var transform = "translate(50, 0)";
 
+        var xAxis = d3.svg.axis().scale(lengthScale),
+            yAxis = d3.svg.axis().scale(heightScale).orient("left");
+
+        svg.append("g")
+          .attr("class", "axis")
+          .attr("transform", "translate(50, 500)")
+          .call(xAxis);
+
+        svg.append("g")
+          .attr("class", "axis")
+          .attr("transform", transform)
+          .call(yAxis);
 
         var line = lineFunction(points);
         var backgroundLine = line.substr(0, line.length-1) + "L500,500L0,500Z"; // get rid of the Z at the end
@@ -152,49 +176,48 @@
           .attr("cy", function(d) { return heightScale(d.height); })
           .attr("transform", transform);
 
-        var text = svg.selectAll("text")
-          .data(points)
-        .enter().append("text")
-          .attr("class", "trail-text")
-          // .attr("x", function(d) { return orderScale(d.order); })
-          .attr("x", function(d) { return lengthScale(d.order * d.len); })
-          .attr("y", function(d) { return heightScale(d.height); })
-          .attr("transform", transform)
-          .text(function(d, i) { return i; });
+        // var text = svg.selectAll("text")
+        //   .data(points)
+        // .enter().append("text")
+        //   .attr("class", "trail-text")
+        //   .attr("x", function(d) { return lengthScale(d.order * d.len); })
+        //   .attr("y", function(d) { return heightScale(d.height); })
+        //   .attr("transform", transform)
+        //   .text(function(d, i) { return i; });
 
-        var infobox = d3.select("div#infobox");
+        // var infobox = d3.select("div#infobox");
 
-        text.on("mouseover", function(e) {
-          var t = d3.select(this);
-          infobox
-            .style("display", "inline")
-            .style("top", t.attr("y") - 50 + "px")
-            .style("left", t.attr("x") + 200 + "px")
-            .html(function() { 
-              return [
-                "<b>", e.name, "</b><br>",
-                "length: ", (e.order * e.len).toFixed(2), "m<br>",
-                "height: ", (e.height).toFixed(2) + "m"
-              ].join(""); 
-            });
-        });
+        // text.on("mouseover", function(e) {
+        //   var t = d3.select(this);
+        //   infobox
+        //     .style("display", "inline")
+        //     .style("top", t.attr("y") - 50 + "px")
+        //     .style("left", t.attr("x") + 200 + "px")
+        //     .html(function() { 
+        //       return [
+        //         "<b>", e.name, "</b><br>",
+        //         "length: ", (e.order * e.len).toFixed(2), "m<br>",
+        //         "height: ", (e.height).toFixed(2) + "m"
+        //       ].join(""); 
+        //     });
+        // });
 
-        text.on("mouseout", function() {
-          infobox.style("display", "none");
-        });
+        // text.on("mouseout", function() {
+        //   infobox.style("display", "none");
+        // });
 
-        var displaying = true;
-        svg.on("click", function(e) {
-          if (displaying) {
-            text.style("display", "none");
-            nodes.style("display", "none");
-            displaying = false;
-          } else {
-            text.style("display", "inline");
-            nodes.style("display", "inline");
-            displaying = true;
-          }
-        });
+        // var displaying = true;
+        // svg.on("click", function(e) {
+        //   if (displaying) {
+        //     text.style("display", "none");
+        //     nodes.style("display", "none");
+        //     displaying = false;
+        //   } else {
+        //     text.style("display", "inline");
+        //     nodes.style("display", "inline");
+        //     displaying = true;
+        //   }
+        // });
 
 
       });
