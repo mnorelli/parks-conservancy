@@ -15,6 +15,19 @@
         font-size: 10px;
       }
 
+      path.bg {
+        stroke: none;
+        stroke-width: 0;
+        fill: #000;
+        opacity: 0.5;
+      }
+
+      path.trail-path {
+        stroke: blue;
+        stroke-width: 3;
+        fill: none;
+      }
+
       body,
       svg {
         margin: 0;
@@ -103,11 +116,19 @@
 
         var transform = "translate(20, 0)";
 
+
+        var line = lineFunction(points);
+        var backgroundLine = line.substr(0, line.length-1) + "L500,500L0,500Z"; // get rid of the Z at the end
+        // console.log(line);
+
+        var graphbg = svg.append("path")
+          .attr("class", "bg")
+          .attr("d", backgroundLine)
+          .attr("transform", transform);
+
         var graph = svg.append("path")
-          .attr("d", lineFunction(points))
-          .attr("stroke", "blue")
-          .attr("stroke-width", 1)
-          .attr("fill", "none")
+          .attr("class", "trail-path")
+          .attr("d", line)
           .attr("transform", transform);
 
         var nodes = svg.selectAll("circle")
@@ -140,8 +161,8 @@
             .html(function() { 
               return [
                 "<b>", e.name, "</b><br>",
-                "length: ", (e.order * e.len).toFixed(2), "<br>",
-                "height: ", (e.height).toFixed(2)
+                "length: ", (e.order * e.len).toFixed(2), "m<br>",
+                "height: ", (e.height).toFixed(2) + "m"
               ].join(""); 
             });
         });
