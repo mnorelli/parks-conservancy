@@ -110,7 +110,7 @@
           .attr("fill", "none")
           .attr("transform", transform);
 
-        svg.selectAll("circle")
+        var nodes = svg.selectAll("circle")
           .data(points)
         .enter().append("circle")
           .attr("class", "trail-point")
@@ -154,9 +154,11 @@
         svg.on("click", function(e) {
           if (displaying) {
             text.style("display", "none");
+            nodes.style("display", "none");
             displaying = false;
           } else {
             text.style("display", "inline");
+            nodes.style("display", "inline");
             displaying = true;
           }
         });
