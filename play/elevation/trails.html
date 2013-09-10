@@ -79,7 +79,12 @@
     
     <script>
       
-      //
+      // d3.select("select")
+      //   .data(d3.range(297))
+      // .enter().append("option")
+      //   .attr("value", String)
+      //   .text(String);
+
 
       var trail = (function() {
         var qs = window.location.search || "?0";
@@ -102,7 +107,8 @@
             order: pt.properties.ET_ORDER,
             height: pt.properties.ET_Z,
             len: pt.properties.Length_2D,
-            name: pt.properties.trail_name
+            name: pt.properties.trail_name,
+            id: pt.properties.ET_ID
           }; 
         });
 
@@ -185,39 +191,40 @@
         //   .attr("transform", transform)
         //   .text(function(d, i) { return i; });
 
-        // var infobox = d3.select("div#infobox");
+        var infobox = d3.select("div#infobox");
 
-        // text.on("mouseover", function(e) {
-        //   var t = d3.select(this);
-        //   infobox
-        //     .style("display", "inline")
-        //     .style("top", t.attr("y") - 50 + "px")
-        //     .style("left", t.attr("x") + 200 + "px")
-        //     .html(function() { 
-        //       return [
-        //         "<b>", e.name, "</b><br>",
-        //         "length: ", (e.order * e.len).toFixed(2), "m<br>",
-        //         "height: ", (e.height).toFixed(2) + "m"
-        //       ].join(""); 
-        //     });
-        // });
+        nodes.on("mouseover", function(e) {
+          var t = d3.select(this);
+          infobox
+            .style("display", "inline")
+            .style("top", t.attr("cy") - 70 + "px")
+            .style("left", t.attr("cx") + 200 + "px")
+            .html(function() { 
+              return [
+                "<b>", e.name, "</b><br>",
+                "order: ", e.order, "<br>",
+                "length: ", (e.order * e.len).toFixed(2), "m<br>",
+                "height: ", (e.height).toFixed(2) + "m"
+              ].join(""); 
+            });
+        });
 
-        // text.on("mouseout", function() {
-        //   infobox.style("display", "none");
-        // });
+        nodes.on("mouseout", function() {
+          infobox.style("display", "none");
+        });
 
-        // var displaying = true;
-        // svg.on("click", function(e) {
-        //   if (displaying) {
-        //     text.style("display", "none");
-        //     nodes.style("display", "none");
-        //     displaying = false;
-        //   } else {
-        //     text.style("display", "inline");
-        //     nodes.style("display", "inline");
-        //     displaying = true;
-        //   }
-        // });
+        var displaying = true;
+        svg.on("click", function(e) {
+          if (displaying) {
+            // text.style("display", "none");
+            nodes.style("display", "none");
+            displaying = false;
+          } else {
+            // text.style("display", "inline");
+            nodes.style("display", "inline");
+            displaying = true;
+          }
+        });
 
 
       });
