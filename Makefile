@@ -18,7 +18,7 @@ data: data-cpad data-osm data-osm-coastline \
       data-ggnra-legislative data-restoration-areas \
       data-pt-parking-areas data-ggnra-parking-areas \
       data-ggnra-park-units data-ggnra-restrooms \
-      data-offshore-boundaries
+      data-offshore-boundaries data-ggnra-buildings
 
 data-nhd: data/nhdh1805.7z tmp/.placeholder
 	7z -otmp/ -y x data/nhdh1805.7z > /dev/null
@@ -221,6 +221,18 @@ data-offshore-boundaries: data/ggnra_offshore_boundaries.zip
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	touch $@
 
+data-ggnra-buildings: data/ggnra_buildings.zip
+	ogr2ogr --config PG_USE_COPY YES \
+		    -t_srs EPSG:900913 \
+			-nln ggnra_buildings \
+			-nlt PROMOTE_TO_MULTI \
+			-lco GEOMETRY_NAME=geom \
+			-lco SRID=900913 \
+			-f PGDump /vsistdout/ \
+			/vsizip/data/ggnra_buildings.zip/ggnra_buildings_2013.shp | \
+			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+	touch $@
+
 data/cpad.zip: data/.placeholder
 	curl -sL http://maps.gis.ca.gov/Downloads/Data/Government/CPAD19_ALL.zip -o $@
 
@@ -262,6 +274,9 @@ data/ggnra_restrooms.zip: data/.placeholder
 
 data/ggnra_offshore_boundaries.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/GGNRA_boundary_2013_offshoreline.zip -o $@
+
+data/ggnra_buildings.zip: data/.placeholder
+	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/ggnra_buildings_2013.zip -o $@
 
 %/.placeholder:
 	mkdir -p ${@D}
