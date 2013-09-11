@@ -18,7 +18,8 @@ data: data-cpad data-osm data-osm-coastline \
       data-ggnra-legislative data-restoration-areas \
       data-pt-parking-areas data-ggnra-parking-areas \
       data-ggnra-park-units data-ggnra-restrooms \
-      data-offshore-boundaries data-ggnra-buildings
+      data-offshore-boundaries data-ggnra-buildings \
+      data-trailheads
 
 data-nhd: data/nhdh1805.7z tmp/.placeholder
 	7z -otmp/ -y x data/nhdh1805.7z > /dev/null
@@ -231,6 +232,10 @@ data-ggnra-buildings: data/ggnra_buildings.zip
 			-f PGDump /vsistdout/ \
 			/vsizip/data/ggnra_buildings.zip/ggnra_buildings_2013.shp | \
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+	touch $@
+
+data-trailheads:
+	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q -f trailheads.sql
 	touch $@
 
 data/cpad.zip: data/.placeholder
