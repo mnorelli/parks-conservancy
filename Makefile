@@ -146,7 +146,7 @@ data-park-units: data/park_units.zip
 			-lco GEOMETRY_NAME=geom \
 			-lco SRID=900913 \
 			-f PGDump /vsistdout/ \
-			/vsizip/data/park_units.zip/GGNRA_web_boundaries_20130813.shp | \
+			/vsizip/data/park_units.zip/GGNRA_web_boundaries_20130916.shp | \
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	touch $@
 
@@ -263,7 +263,7 @@ data/ggnra_legislative.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/06_GGNRA_legislative_2013.zip -o $@
 
 data/park_units.zip: data/.placeholder
-	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/park_units.zip -o $@
+	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/GGNRA_web_boundaries_20130916.zip -o $@
 
 data/restoration_areas.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/07_RestorationAreas_20120216.zip -o $@
