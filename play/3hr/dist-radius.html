@@ -43,6 +43,16 @@
         background: #00ccff;
       }
 
+      #info {
+        position: fixed;
+        opacity: 0.8;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        font-family: Helvetica, Arial, 'Sans Serif';
+        font-size: 11px;
+      }
+
     </style>
   </head>
 
@@ -53,6 +63,7 @@
       <input type="text" id="origin">
       <div id="go">GO</div>
     </div>
+    <div id="info"></div>
 
 
     <script src="js/d3.v3.js"></script>
@@ -164,6 +175,11 @@
           });
           radials[i] = {points: in_circle, ring: radial};
           if (in_circle.length > max_points_in_radial) max_points_in_radial = in_circle.length;
+          
+        });
+
+        //d3.select("#info").html(function() {
+        //  return radials.map(function(radial) { return radial.ring; }).join("<br>");
         });
 
         var radial_hue = d3.scale.linear().domain([0, max_points_in_radial]).range([200, 360]);
