@@ -4,13 +4,6 @@
 
   mtc.baseUrl = "http://maps.onebayarea.org/data/";
 
-  mtc.mode = {
-    da: "Drive alone",
-    daToll: "Drive alone (toll)",
-    s3: "Drive (carpool)",
-    bike: "Bicycle",
-  };
-
   mtc.blk2url = function(fips) {
     var n = 0,
         bits = [2, 3, 6, 4],
