@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/travel-time.js"></script>
+  </head>
+  <body>
+    <form>
+      <p>
+        <label>longitude, latitude: <input id="location" value="37.7631,-122.4191" type="text"></label>
+        <input type="submit">
+      </p>
+      <p>taz: <input id="taz" disabled></p>
+      <p id="took"></p>
+    </form>
+    <script>
+      var form = d3.select("form")
+            .on("submit", submit),
+          input = form.select("#location"),
+          output = form.select("#taz"),
+          req;
+
+      function submit() {
+        d3.event.preventDefault();
+        var loc = input.property("value");
+
+        if (req) req.abort();
+
+        var then = Date.now();
+        req = mtc.location2taz(loc, function(error, taz) {
+          if (error) {
+            output.classed("error", true).attr("value", error);
+          } else {
+            output.classed("error", false).attr("value", taz);
+          }
+          var time = ((Date.now() - then) / 1000).toFixed(1);
+          d3.select("#took").text("took " + time + " seconds");
+        });
+      }
+    </script>
+  </body>
+</html>
