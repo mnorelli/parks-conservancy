@@ -12,11 +12,16 @@
         display: inline-block;
         margin: 10px;
         width: 235px;
+        float: left;
       }
 
-      .map div {
+      .map .map-container {
         width: 235px;
         height: 320px;
+      }
+
+      .nearby {
+        width: 235px;
       }
 
       .count {
@@ -34,13 +39,17 @@
         border: 2px solid black;
       }
 
+      li {
+        font-size: 11px;
+      }
+
     </style>
   </head>
 
   <body>
 
     <div id="content"></div>
-    <div id="info"></div>
+    <!-- <div id="info"></div> -->
 
     <script src="js/d3.v3.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
@@ -106,35 +115,36 @@
         var name_header = div.append("h5");
           
         name_header
-          .text(function(d) { return d.name; })
-          .on("mouseover", function(d) { 
-            // var nearby = locations.filter(function(loc) {
-            //   var ids = d.nearby.map(function(n) { 
-            //     return n.id; 
-            //   });
-            //   return ids.indexOf(loc.cms_link) > -1;
-            // });
-            var nearbyStr = d.nearby.map(function(near) { 
-              return near.name 
-                   + " (" 
-                   + near.dist.toFixed(2) 
-                   + "mi)"; 
-            }).join("<br>");
+          .text(function(d) { return d.name; });
+          // .on("mouseover", function(d) { 
+          //   // var nearby = locations.filter(function(loc) {
+          //   //   var ids = d.nearby.map(function(n) { 
+          //   //     return n.id; 
+          //   //   });
+          //   //   return ids.indexOf(loc.cms_link) > -1;
+          //   // });
+          //   var nearbyStr = d.nearby.map(function(near) { 
+          //     return near.name 
+          //          + " (" 
+          //          + near.dist.toFixed(2) 
+          //          + "mi)"; 
+          //   }).join("<br>");
             
-            var t = d3.select(this);
-            test = t;
-            d3.select("#info")
-              .style("display", "inline")
-              .style("top", t.property("offsetTop") + 10 + "px")
-              .style("left", t.property("offsetLeft") + 20 + "px")
-              .html("<h2>Nearby:</h2>" + nearbyStr);
-          })
-          .on("mouseout", function() {
-            d3.select("#info").style("display", "none");
-          });
+          //   var t = d3.select(this);
+          //   test = t;
+          //   d3.select("#info")
+          //     .style("display", "inline")
+          //     .style("top", t.property("offsetTop") + 10 + "px")
+          //     .style("left", t.property("offsetLeft") + 20 + "px")
+          //     .html("<h2>Nearby:</h2>" + nearbyStr);
+          // })
+          // .on("mouseout", function() {
+          //   d3.select("#info").style("display", "none");
+          // });
 
         div.append("div")
-          .attr("id", function(d, i) { return "map" + i; });
+          .attr("id", function(d, i) { return "map" + i; })
+          .attr("class", "map-container");
 
         filtered.forEach(function(point, i) {
           var glocation = new google.maps.LatLng(+point.Y, +point.X);
@@ -159,6 +169,19 @@
 
         });
 
+        div.append("div")
+          .attr("class", "nearby")
+          .html(function(d) {
+            var nearbyStr = d.nearby.map(function(near) { 
+              return "<li>"
+                   + near.name 
+                   + " (" 
+                   + near.dist.toFixed(2)
+                   + "mi)</li>"; 
+            }).join("");
+            
+            return "Nearby:<ul>" + nearbyStr + "</ul>";
+          });
 
 
       });
