@@ -4,6 +4,13 @@
 
   mtc.baseUrl = "http://maps.onebayarea.org/data/";
 
+  mtc.mode = {
+    da: "Drive alone",
+    daToll: "Drive alone (toll)",
+    s3: "Drive (carpool)",
+    bike: "Bicycle",
+  };
+
   mtc.blk2url = function(fips) {
     var n = 0,
         bits = [2, 3, 6, 4],
@@ -50,11 +57,65 @@
   mtc.location2taz = function(loc, callback) {
     return mtc.location2fips(loc, function(error, fips) {
       if (fips) {
-        console.log("loc -> fips:", loc, "->", fips);
         return mtc.blk2taz(fips, callback);
       } else {
-        console.warn("error:", error);
         return callback(error);
+      }
+    });
+  };
+
+  mtc.tazTravelTimes = function(data, callback) {
+    var taz,
+        dir = "from",
+        time = "MD",
+        mode = "s3",
+        scenario = 2005; // XXX
+    if (typeof data === "object") {
+      taz = data.taz;
+      if (data.dir) direction = data.dir;
+      if (data.time) time = data.time;
+      if (data.mode) mode = data.mode;
+      if (data.scenario) scenario = data.scenario;
+    } else {
+      taz = String(data);
+    }
+
+    var url = [
+      mtc.baseUrl,
+      "scenarios/", scenario, "/time/",
+      [time, dir, taz].join("/"),
+      ".csv"
+    ].join("");
+    return d3.csv(url, callback);
+  };
+
+  mtc.travelTimeBetweenTazs = function(data, callback) {
+    var origin = data.from || data.origin,
+        dest = data.to || data.dest,
+        time = data.time || "MD",
+        mode = data.mode || "s3";
+    return mtc.tazTravelTimes({
+      taz: origin,
+      dir: "from",
+      time: time,
+      mode: mode
+    }, function(error, data) {
+      if (error) return callback(error);
+      var found = false;
+      data.forEach(function(row) {
+        if (row.dest == dest) {
+          found = true;
+          callback(null, +row[mode], {
+            origin: origin,
+            dest: dest,
+            time: time,
+            mode: mode,
+            data: row
+          });
+        }
+      });
+      if (!found) {
+        callback("Destination TAZ not found: " + dest);
       }
     });
   };
