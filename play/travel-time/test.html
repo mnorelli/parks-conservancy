@@ -14,6 +14,20 @@
       <p id="took"></p>
     </form>
     <script>
+
+      d3.csv('taz.csv', function(d){
+        return {
+            id: +d.id,
+            taz: +d.taz,
+            title: d.title,
+            type: d.type
+        }
+      },
+      function(err, rows){
+        console.log('TAZ ROWS: ', rows);
+      });
+
+
       var form = d3.select("form")
             .on("submit", submit),
           input = form.select("#location"),
