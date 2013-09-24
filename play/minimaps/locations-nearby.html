@@ -25,7 +25,7 @@
       }
 
       .count {
-        font-size: 10px;
+        /*font-size: 10px;*/
       }
 
       #info {
@@ -33,7 +33,7 @@
         top: 0;
         left: 0;
         background: #fff;
-        font-size: 12px;
+        /*font-size: 12px;*/
         display: none;
         padding: 10px;
         border: 2px solid black;
@@ -41,6 +41,12 @@
 
       li {
         font-size: 11px;
+      }
+
+      h5,
+      h6 {
+        margin-top: 0;
+        margin-bottom: 0;
       }
 
     </style>
@@ -106,13 +112,13 @@
 
         var filtered = entries_by_type[loctype];
 
-        content.html(["<h3>type=", loctype, " (", filtered.length, " points)</h3>"].join(""));
+        content.html(["<h1>type=", loctype, " (", filtered.length, " points)</h1>"].join(""));
         var div = content.selectAll("div")
           .data(filtered)
         .enter().append("div")
           .attr("class", "map");
 
-        var name_header = div.append("h5");
+        var name_header = div.append("h4");
           
         name_header
           .text(function(d) { return d.name; });
@@ -172,15 +178,51 @@
         div.append("div")
           .attr("class", "nearby")
           .html(function(d) {
-            var nearbyStr = d.nearby.map(function(near) { 
-              return "<li>"
-                   + near.name 
-                   + " (" 
-                   + near.dist.toFixed(2)
-                   + "mi)</li>"; 
-            }).join("");
+            var nearbyIds = d.nearby.map(function(near) { return near.id; });
+            var nearby = locations.filter(function(loc) {
+              return nearbyIds.indexOf(loc.cms_link) > -1;
+            });
+            // record distance info
+            nearby.forEach(function(near) {
+              for (var i = 0; i < d.nearby.length; i++) {
+                if (d.nearby[i].id === near.cms_link) {
+                  near.distance = d.nearby[i].dist;
+                  break;
+                }
+              }
+            });
+            // console.log(nearby);
+
+            var nearbyByType = d3.nest()
+              .key(function(d) { return d.type; })
+              .map(nearby);
+
+            // console.log("nearbyByType:", nearbyByType);
+
+            var nearbyStr = [];
+            for (var type in nearbyByType) {
+              var str = nearbyByType[type].sort(function(a,b) {
+                return d3.ascending(a.distance, b.distance);
+              }).map(function(near) {
+                // console.log(near);
+                return "<li>"
+                     + near.name 
+                     + " (" 
+                     + near.distance.toFixed(2)
+                     + "mi)</li>"; 
+              }).join("");
+              str = "<h6>" + type + "</h6><ul>" + str + "</ul>";
+              nearbyStr.push(str);
+            }
+            // var nearbyStr = d.nearby.map(function(near) { 
+            //   return "<li>"
+            //        + near.name 
+            //        + " (" 
+            //        + near.dist.toFixed(2)
+            //        + "mi)</li>"; 
+            // }).join("");
             
-            return "Nearby:<ul>" + nearbyStr + "</ul>";
+            return "<h5>Nearby:</h5><br>" + nearbyStr.join("");
           });
 
 
