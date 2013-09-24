@@ -8,7 +8,7 @@ var hstore = require('node-postgres-hstore');
 var url = require('url');
 
 var opts = require("optimist")
-    .usage("--test will run the Convio feed inhaler in a with out saving to DB.  Optional can set a specific kind in environment variable.")
+    .usage("--test will run the Convio feed inhaler with out saving to DB.  Optional can set a specific kind in environment variable.")
     .demand([]);
 
 var ARGV = opts.argv;
