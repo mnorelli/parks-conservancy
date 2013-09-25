@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body,
+      svg {
+        margin: 0;
+        padding: 0;
+      }
+
+      path.elevation {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="chart"></div>
+
+    <script src="js/d3.v3.js"></script>
+
+    <script>
+
+      var width = window.innerWidth,
+          height = window.innerHeight,
+          padding = 20;
+
+      var svg = d3.select("#chart")
+          .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+
+      d3.json("elevation-profile.json", function(err, elevation) {
+
+        // distance is in miles, height is in feet. need to convert.
+        function milesToFeet(mi) {
+          return 5280 * mi;
+        }
+        
+        var maxDist = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
+            maxHeight = d3.max(elevation, function(d) { return d.height; });
+        var maxScale = Math.max(maxDist, maxHeight);  // so everything is in proportion
+
+        var clamp = d3.scale.linear().domain([0, maxScale]).range([padding, 1000]);
+        // var y = d3.scale.linear().domain([0, maxDist]).range([0, height])
+
+        var line = d3.svg.line()
+              .x(function(d) { return clamp(milesToFeet(d.distance)); })
+              .y(function(d) { return clamp(d.height); });
+
+        svg.append("path")
+          .attr("class", "elevation")
+          .attr("d", line(elevation));
+
+      });
+
+    </script>
+
+  </body>
+</html>
