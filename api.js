@@ -297,11 +297,11 @@ function getStuffForPark(req, res, next){
 
     var restrictDate = (query && query.restrictEvents) ? true : false;
 
-    db.findStuffForPark(db.normalizeFilename(req.params.file), db.normalizeKind(req.params.kind), restrictDate, function(err, out){
+    db.findStuffForPark(db.normalizeFilename(req.params.file), db.normalizeKind(req.params.kind), restrictDate, function(err, data){
         if(err){
             res.json(200, err);
         }else{
-            res.json(200, out);
+            res.json(200, data);
         }
 
     });
