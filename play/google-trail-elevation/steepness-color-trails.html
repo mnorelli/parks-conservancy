@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        font-family: Helvetica, Arial, 'Sans Serif';
+      }
+
+      body,
+      svg,
+      #map {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        height: 400px;
+      }
+
+      path.elevation {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1;
+      }
+
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+
+      .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+      }
+
+      img {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+      }
+
+      #map-legend {
+        position: fixed;
+        top: 350px;
+        right: 0;
+        padding: 5px;
+        width: 100px;
+        font-size: 11px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div id="map"></div>
+    <div id="map-legend"></div>
+    <div id="chart"></div>
+    <!-- <div id=""></div> -->
+
+    <script src="js/d3.v3.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+    <script>
+
+      var width = window.innerWidth,
+          height = 200,
+          padding = 20;
+
+      var svg = d3.select("#chart")
+          .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+      // distance is in miles, height is in feet. need to convert.
+      function milesToFeet(mi) {
+        return 5280 * mi;
+      }
+
+      var debug = {};
+      d3.json("elevation-profile.json", function(err, elevation) {
+
+        debug.elevation = elevation;
+
+        // create the map
+        d3.select("#map").style("width", width + "px");
+        var mid = elevation[~~(elevation.length/2)].coordinates;  // take a point from the middle of the route as a center
+        var center = new google.maps.LatLng(mid[0], mid[1]);
+        var mapOptions = {
+          zoom: 14,
+          center: center
+          // mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+        var route = elevation.map(function(d) { 
+          var c = d.coordinates;
+          return new google.maps.LatLng(c[0], c[1]); 
+        });
+
+        var maxDist = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
+            maxHeight = d3.max(elevation, function(d) { return d.height; });
+        var maxScale = Math.max(maxDist, maxHeight);  // so everything is in proportion
+
+        var heightDeltas = route.map(function(point, i) {
+          if (i === 0) return 0;
+          return elevation[i].height - elevation[i-1].height;
+        }).sort(d3.ascending);
+
+        var heightColorScale = d3.scale.linear().domain([0, maxHeight]).range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
+        var steepnessColorScale = d3.scale.linear().domain(d3.extent(heightDeltas)).range(["hsl(150, 100%, 70%)", "hsl(0, 100%, 70%)"]);
+
+
+        var minHeight = heightDeltas[0];
+
+        // fill the map legend
+        var mapLegend = d3.select("#map-legend");
+        var gradient = "linear-gradient(to right, " + steepnessColorScale(minHeight) + ", " + steepnessColorScale(maxHeight) +")";
+        mapLegend.style("background-image", gradient);
+        mapLegend
+          .append("div")
+            .style("float", "left")
+            .text(~~heightDeltas[0] + "ft");
+        mapLegend
+          .append("div")
+            .style("float", "right")
+            .style("text-align", "right")
+            .text(~~heightDeltas[heightDeltas.length-1] + "ft");
+
+
+        route.forEach(function(point, i) {
+          if (i === 0) return;
+          var segment = [route[i-1], route[i]],
+              maxSegmentHeight = d3.max([elevation[i-1].height, elevation[i].height]),
+              strokeWeight = (maxSegmentHeight / maxHeight) * 20,
+              heightDelta = elevation[i].height - elevation[i-1].height;  // you're going "forwards" on a trail
+
+          var routePath = new google.maps.Polyline({
+            path: segment,
+            strokeColor: steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
+            strokeOpacity: 1,
+            strokeWeight: strokeWeight
+          });
+          routePath.setMap(map);
+        });
+
+        // var clamp = d3.scale.linear().domain([0, maxScale]).range([padding, 500]); // proportional scale
+        var x = d3.scale.linear().domain([0, maxDist]).range([padding, 800]);
+        var y = d3.scale.linear().domain([0, maxHeight]).range([100, padding]);
+
+        var line = d3.svg.line()
+              .x(function(d) { return x(milesToFeet(d.distance)); })
+              .y(function(d) { return y(d.height); });
+
+        var g = svg.append("g")
+          .attr("transform", "translate(" + width/4 + "," + padding + ")");
+
+        g.append("path")
+          .attr("class", "elevation")
+          .attr("d", line(elevation));
+
+        var r = d3.scale.linear().domain([0, maxHeight]).range([1, 20]);
+        
+        g.append("g").selectAll("circle")
+          .data(elevation)
+        .enter().append("circle")
+          .attr("cx", function(d) { return x(milesToFeet(d.distance)); })
+          .attr("cy", function(d) { return y(d.height); })
+          .attr("r", function(d) { return r(d.height); })
+          .attr("fill", function(d) { return heightColorScale(d.height); })
+          .attr("stroke", "none")
+          .attr("stroke-width", "0");
+
+        // the legend
+        g.append("g").selectAll("circle")
+          .data(elevation)
+        .enter().append("circle")
+          .attr("cx", 21)
+          .attr("cy", function(d) { return y(d.height); })
+          .attr("r", function(d) { return r(d.height); })
+          .attr("fill", function(d) { return heightColorScale(d.height); })
+          .attr("stroke", "none")
+          .attr("stroke-width", "0");
+
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom")
+            .ticks(5);  //Set rough # of ticks
+
+        g.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(0, 100)")
+            .call(xAxis);
+
+        // Define Y axis
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left")
+            .ticks(5);
+
+        //Create Y axis
+        g.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(" + padding + ",0)")
+            .call(yAxis);
+      });
+
+    </script>
+
+  </body>
+</html>
