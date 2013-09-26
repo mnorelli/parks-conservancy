@@ -94,17 +94,25 @@
             maxHeight = d3.max(elevation, function(d) { return d.height; });
         var maxScale = Math.max(maxDist, maxHeight);  // so everything is in proportion
 
-        var colorScale = d3.scale.linear().domain([0, maxHeight]).range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
+        var heightDeltas = route.map(function(point, i) {
+          if (i === 0) return 0;
+          return elevation[i].height - elevation[i-1].height;
+        }).sort(d3.ascending);
+
+        var heightColorScale = d3.scale.linear().domain([0, maxHeight]).range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
+        var steepnessColorScale = d3.scale.linear().domain(d3.extent(heightDeltas)).range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
+
 
         route.forEach(function(point, i) {
           if (i === 0) return;
           var segment = [route[i-1], route[i]],
               maxSegmentHeight = d3.max([elevation[i-1].height, elevation[i].height]),
-              strokeWeight = (maxSegmentHeight / maxHeight) * 20;
+              strokeWeight = (maxSegmentHeight / maxHeight) * 20,
+              heightDelta = elevation[i].height - elevation[i-1].height;  // you're going "forwards" on a trail
 
           var routePath = new google.maps.Polyline({
             path: segment,
-            strokeColor: colorScale(maxSegmentHeight),
+            strokeColor: heightColorScale(maxSegmentHeight),
             strokeOpacity: 1.0,
             strokeWeight: strokeWeight
           });
@@ -134,7 +142,7 @@
           .attr("cx", function(d) { return x(milesToFeet(d.distance)); })
           .attr("cy", function(d) { return y(d.height); })
           .attr("r", function(d) { return r(d.height); })
-          .attr("fill", function(d) { return colorScale(d.height); })
+          .attr("fill", function(d) { return heightColorScale(d.height); })
           .attr("stroke", "none")
           .attr("stroke-width", "0");
 
@@ -145,7 +153,7 @@
           .attr("cx", 21)
           .attr("cy", function(d) { return y(d.height); })
           .attr("r", function(d) { return r(d.height); })
-          .attr("fill", function(d) { return colorScale(d.height); })
+          .attr("fill", function(d) { return heightColorScale(d.height); })
           .attr("stroke", "none")
           .attr("stroke-width", "0");
 
