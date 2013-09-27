@@ -35,6 +35,15 @@ app.configure("production", function() {
 
 app.use(express.static(__dirname + "/public"));
 
+app.get("/directions", function(req, res) {
+  return res.render("index.html.ejs", {
+    layout: "layouts/directions.ejs",
+    environment: process.env.PARKS_ENV,
+    environmentBaseUrl: getEnvironmentUrl(),
+    title: 'Directions Demo :: Golden Gate National Parks Conservancy'
+  });
+});
+
 app.get("/about", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/maps-list.html.ejs",

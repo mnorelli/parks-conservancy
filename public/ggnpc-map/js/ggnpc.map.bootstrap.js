@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Creates a google map for GGNPC
  *
@@ -51,87 +52,98 @@
                 return (exports.GeoJSON);
             }}
         ];
-        exports.gmaps_callback = function(){}
+
+        exports.gmaps_callback = function(){};
 
         var validVersion = function(expected, actual){
             expected = expected || null;
-            if(!expected || expected.length < 1)return true;
+            if(!expected || expected.length < 1){
+                return true;
+            }
 
-            expected = expected.split('.').map(function(x){return +x;})
-            actual = actual.split('.').map(function(x){return +x;})
+            expected = expected.split('.').map(function(x){return +x;});
+            actual = actual.split('.').map(function(x){return +x;});
 
             var valid = true;
             expected.forEach(function(a,i){
                 if(actual[i]){
-                    if(actual[i] < expected[i]) valid = false;
+                    if(actual[i] < expected[i]){
+                        valid = false;
+                    }
                 }
             });
 
             return valid;
 
-        }
+        };
 
         var scriptsComplete = function(name){
             name = name || null;
 
             var done = true;
             required.forEach(function(r){
-                if(name && r.name == name) r.loaded = true;
+                if(name && r.name === name){
+                    r.loaded = true;
+                }
 
-                if(!r.loaded) done = false;
+                if(!r.loaded){
+                    done = false;
+                }
             });
 
             return done;
-        }
+        };
 
         var finished = function(){
 
             var link = document.createElement('link');
-            link.rel = "stylesheet";
-            link.type = "text/css";
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
             link.href = exports.environmentBaseUrl + '/ggnpc-map/styles/ggnpc-map.css';
 
             // Try to find the head, otherwise default to the documentElement
-            (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(link);
+            (document.getElementsByTagName('head')[0] || document.documentElement).appendChild(link);
 
             // load app
             loadScripts({
                 'name': 'app',
                 'src': APP_SRC,
             });
-        }
+        };
 
         var bootstrap = {};
         var complete = false;
         var loadScripts = function(s){
 
-            var script_tag = document.createElement('script');
-                script_tag.setAttribute("type","text/javascript");
-                script_tag.setAttribute("src", s.src);
-                script_tag.setAttribute("data-target", s.name)
-                if (script_tag.readyState) {
-                  script_tag.onreadystatechange = function () { // For old versions of IE
-                      if (this.readyState == 'complete' || this.readyState == 'loaded') {
-                          bootstrap.loadHandler();
-                      }
-                  };
-                } else { // Other browsers
-                  script_tag.onload = bootstrap.loadHandler;
-                }
-                // Try to find the head, otherwise default to the documentElement
-                (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
-        }
+            var scriptTag = document.createElement('script');
+            scriptTag.setAttribute('type', 'text/javascript');
+            scriptTag.setAttribute('src', s.src);
+            scriptTag.setAttribute('data-target', s.name);
+
+            if (scriptTag.readyState) {
+                scriptTag.onreadystatechange = function () { // For old versions of IE
+                    if (this.readyState === 'complete' || this.readyState == 'loaded') {
+                        bootstrap.loadHandler();
+                    }
+                };
+            } else { // Other browsers
+                scriptTag.onload = bootstrap.loadHandler;
+            }
+
+            // Try to find the head, otherwise default to the documentElement
+            (document.getElementsByTagName('head')[0] || document.documentElement).appendChild(scriptTag);
+        };
 
         // attach loadHandler to bootstrap object for scope reasons
         bootstrap.loadHandler = function(){
             var target = this.getAttribute('data-target');
 
             if(scriptsComplete(target)){
-                if(complete)return;
+                if(complete) return;
                 complete = true;
                 finished();
             }
-        }
+        };
 
         var checkRequirements = function(){
             required.forEach(function(s){
@@ -141,20 +153,18 @@
                     s.loaded = true;
                 }
             });
-        }
+        };
 
 
         var writeDOM = function(writeMapElements){
-            console.log('writing dom');
-
             var rootElement = document.getElementById('main-map') || document.getElementById('sidebar-map');
 
             exports.GGNPC_MAP.root = rootElement;
-            exports.GGNPC_MAP.mapSize = (rootElement.id == 'main-map') ? 'big' : 'small';
+            exports.GGNPC_MAP.mapSize = (rootElement.id === 'main-map') ? 'big' : 'small';
 
             if(!rootElement){
-                alert("No element named sidebar-map or main-map");
-                return
+                console.error('No element named sidebar-map or main-map');
+                return;
             }
             // TOOD: fragments
             rootElement.setAttribute('ng-app', 'app')
@@ -164,26 +174,25 @@
                 //console.log(rootElement.firstChild)
                 // TODO: remove this when done testing
 
-                if(exports.GGNPC_MAP.mapSize == 'big'){
+                if(exports.GGNPC_MAP.mapSize === 'big'){
                     content += '<h1 style="display:none;" ng-show="ggnpcPageName">{{ggnpcPageName}}</h1>';
                 }
 
                 content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
                 //content += '<div ggnpc-map></div>'
 
-                if(exports.GGNPC_MAP.mapSize == 'small'){
+                if(exports.GGNPC_MAP.mapSize === 'small'){
                     content += '<a style="display:none;" ng-show="linkToBigMap" ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
                 }
 
                 rootElement.innerHTML = content;
             }
-        }
+        };
 
         writeDOM();
         checkRequirements();
-    }
+    };
+
     bootstrap();
-
-
 
 })(window);

@@ -1,0 +1,175 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+
+
+<base href="http://www.parksconservancy.org/">
+<meta name="generator" content="Convio CMS" />
+<script language="JavaScript" type="text/javascript" src="/components/cookie/cookie.js"></script>
+<script language="JavaScript" type="text/javascript" src="/components/print/printer-friendly.js"></script>
+
+<!-- Convio's CRM JS library -->
+<script type="text/javascript" src="http://ggnpc.convio.net/js/utils.js"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="verify-v1" content="FEY8PAOJzrQZiwVJD3l6uM8yvyc5NzTMufwfk6+JSYc=" />
+
+<meta name="description" content="Established in 1981, the Golden Gate National Parks Conservancy is the nonprofit partner that supports and assists the Golden Gate National Parks in research, interpretation, and conservation programs." />
+<meta name="robots" content="index, follow" />
+<title><%= title %></title>
+<link rel="shortcut icon" href="http://www.parksconservancy.org/assets/images/wrapper/favicon.ico" />
+<link href="/calendar/rss.html" rel="alternate" type="application/rss+xml" title="Calendar RSS Feed" />
+<link rel='stylesheet' type='text/css' href="http://ggnpc.convio.net/site/PageServer?pagename=copy_of_styles_12&pgwrap=n" />
+<link rel='stylesheet' type='text/css' media='print' href='http://www.parksconservancy.org/assets/css/print.css' />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+<script type="text/javascript" src="https://secure3.convio.net/ggnpc/site/SPageServer?pagename=dropdown_js&pgwrap=n"></script>
+
+<script type="text/javascript" src="http://www.parksconservancy.org/assets/js/tabshow.js "></script>
+<link type="text/css" href="http://www.parksconservancy.org/assets/css/tabshow.css" rel="stylesheet" />
+
+<!-- INTEGRATION ALERT -->
+<link type="text/css" href="<%= environmentBaseUrl %>/ggnpc-map/styles/ggnpc-planner.css" rel="stylesheet" />
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&&libraries=weather"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+
+<script type="text/javascript" src="<%= environmentBaseUrl %>/ggnpc-map/js/ggnpc.planner.app.js"></script>
+<script type="text/javascript" src="<%= environmentBaseUrl %>/ggnpc-map/js/planner/directives/map.js"></script>
+
+
+<script type="text/javascript">
+    var ts = new Tabshow();
+    ts.name = "ts";  // name of the javascript variable used to refer to this instance
+    ts.iid = "ts0_";  // id prefix used to create this instance of the slideshow (to support many instances in a page)
+    ts.tabDividerImg = "http://www.parksconservancy.org/assets/images/tabs/tab_divider.png";
+    ts.imagesToPreload = ["http://www.parksconservancy.org/assets/images/tabs/tab_hover.png"];
+    ts.tabsSelector = "#page_content div.tab";
+</script>
+
+
+</head>
+<body class="home map">
+  <% include ./../partials/context.ejs %>
+
+  <div id="content">
+      <!--start header-->
+      <div id="header" class="clrfix">
+          <div id="convio-content-415207591" style="display: inline;">
+
+
+  <!-- Standard dependencies for embedded COM content -->
+  <link rel="stylesheet" type="text/css" href="http://ggnpc.convio.net/css/FunctionalStyles.css" />
+  <script type="text/javascript" src="http://ggnpc.convio.net/yui3/yui/yui-min.js"></script>
+  <script type="text/javascript" src="http://ggnpc.convio.net/js/utils.js"></script>
+  <script type="text/javascript" src="http://ggnpc.convio.net/js/convio/modules.js"></script>
+  <script type="text/javascript">
+  var Y;
+  if (!Y) {
+    Y = YUI({
+      base: 'http://ggnpc.convio.net/yui3/',
+      debug: false,
+      modules: getModules('http://ggnpc.convio.net/','convio',false)
+    });
+  }
+  </script>
+
+  <div id="skip"><a href="#main">Skip to Main Content</a></div>
+
+  <div id="logo"><a href="http://www.parksconservancy.org/"><img src="http://www.parksconservancy.org/assets/images/ggnpc-logo-2012.gif" alt="Golden Gate National Parks Conservancy" width="437" height="70" /></a></div>
+
+
+
+  </div>
+      </div>
+
+      <!-- NAV -->
+      <% include ./../partials/nav.ejs %>
+
+      <!--main content-->
+      <div id="main_content" class="clrfix">
+        <div id="inner_content" class="clrfix">
+          <div id="contentDiv">
+            <script type="text/javascript" src="/components/form/form.js"></script>
+
+            <a name="main"></a>
+            <div id="leftcolumn" class="full-width">
+              <!-- ADD LINKS TO SPECIFIC TEST PAGES HERE -->
+
+              <div id="trip-planner" ng-app="plannerApp" ng-controller="plannerCtrl">
+                <!-- header bar -->
+                <div class='trip-planner-row'>
+                  <h3 class='trip-planner-header'>Plan Your Trip</h3>
+                </div>
+
+                <!-- split map view -->
+                <div class='trip-planner-row' ng-controller="toFromCtrl">
+                  <form>
+                    <div class='trip-planner-from'>
+                      <p class='label-small'>Where are you coming from?</p>
+                      <div><span class='from-icon'></span><input id="from-text" type='text' ng-model="fromText"></input></div>
+                    </div>
+                    <div class='trip-planner-to'>
+                      <p class='label-small'>Going too...</p>
+                      <div>
+                        <span class='from-icon'></span><input type='text'></input>
+                        <input type='submit' value='GO' ng-click="updateDirections($event);"></input>
+                      </div>
+                    </div>
+                  </form>
+                  <div class='trip-planner-maps'>
+                    <div class='trip-planner-from ggnpc-map-container'>
+                      <div class='ggnpc-map' ggnpc-map map-height='400'></div>
+                    </div>
+                    <div class='trip-planner-to ggnpc-map-container'>
+                      <div class='ggnpc-map' ggnpc-map map-height='400'></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- menu-ish thing -->
+                <div class='trip-planner-row'>
+                  <div>That's <span class='trip-planner-distance'></span>, and should take <span class='trip-planner-time'></span> to get there
+                    <select class='trip-planner-mode' ng-model='travelMode'>
+                      <option>By transit</option>
+                      <option>By car</option>
+                      <option>By bike</option>
+                      <option>By foot</option>
+                    </select>
+                </div>
+
+                <!-- Destination Details -->
+
+                <!-- end column -->
+              </div>
+            </div>
+          </div>
+        </div> <!-- end inner_content -->
+      </div> <!-- end main_content -->
+
+  </div> <!-- end content -->
+
+  <!-- link wormhole in progress -->
+  <% include ./../partials/link-shifter.ejs %>
+
+
+
+  <!--Highlight current menu link-->
+  <script type="text/javascript">
+  ;(function($){
+   $("a[href='"+location.href+"']").addClass("current");
+  })(jQuery);
+  </script>
+</body>
+</html><!-- Powered by Convio -->
+<!-- 10.12.0.43:8900 -->
+
+
