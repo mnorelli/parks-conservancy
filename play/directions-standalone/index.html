@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Parks Conservancy - Directions Prototype</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
+    <script src="js/maps.js?foo"></script>
+    <style>
+      @import url(style.css);
+    </style>
+  </head>
+  <body>
+    <div id="trip-planner" class="container">
+      <h2>Plan Your Trip</h2>
+      <form id="directions" target="#">
+        <div class="to-from row">
+          <p class="span one-third">
+            <label for="from">Where are you coming from?</label>
+            <input id="from" name="from" type="text" value="2017 Mission St, SF">
+          </p>
+          <p class="span two-thirds">
+            <label for="to">Going to...</label>
+            <input id="to" name="to" type="text" value="Muir Woods">
+            <select id="mode" name="mode">
+            </select>
+            <input type="submit" value="GO">
+          </p>
+        </div>
+        <div class="maps row">
+          <div id="map-from" class="map span one-third"></div>
+          <div id="map-to" class="map span two-thirds"></div>
+        </div>
+      </form>
+    </div>
+    <script>
+
+      var form = d3.select("#directions")
+            .on("submit", getDirections),
+          mapFrom = new ggnpc.Map("map-from"),
+          mapTo = new ggnpc.Map("map-to"),
+          modeSelect = d3.select("#mode"),
+          directionsService = new google.maps.DirectionsService();
+
+      mapFrom.directionsDisplay = new google.maps.DirectionsRenderer({
+        map: mapFrom,
+        preserveViewport: true
+      });
+
+      mapTo.directionsDisplay = new google.maps.DirectionsRenderer({
+        map: mapTo,
+        preserveViewport: true
+      });
+
+      modeSelect.selectAll("option")
+        .data([
+          {value: "TRANSIT", label: "Transit"},
+          {value: "DRIVING", label: "Driving"},
+          {value: "BICYCLING", label: "Bike"},
+          {value: "WALKING", label: "Walking"}
+        ])
+        .enter()
+        .append("option")
+          .attr("value", function(d) {
+            return google.maps.DirectionsTravelMode[d.value];
+          })
+          .text(function(d) { return d.label; });
+
+      function getDirections() {
+        if (d3.event) d3.event.preventDefault();
+        var origin = form.select("input[name=from]").property("value"),
+            dest = form.select("input[name=to]").property("value"),
+            mode = getSelectValue(modeSelect.node()),
+            request = {
+              origin: origin,
+              destination: dest,
+              travelMode: mode
+            };
+        form.classed("routing", true);
+        directionsService.route(request, function(response, status) {
+          form.classed("routing", false);
+          if (status === google.maps.DirectionsStatus.OK) {
+            console.log("directions:", response);
+
+            var route = response.routes[0],
+                firstLeg = route.legs[0],
+                lastLeg = route.legs[route.legs.length - 1],
+                originLocation = firstLeg.start_location,
+                destLocation = lastLeg.end_location;
+            mapFrom.setCenter(originLocation);
+            mapTo.setCenter(destLocation);
+
+            [mapFrom, mapTo].forEach(function(map) {
+              map.directionsDisplay.setDirections(response);
+            });
+          }
+        });
+      }
+
+      function makeMap(selection, options) {
+        selection.datum(function() {
+          var opt = (typeof options === "function")
+            ? options.apply(this, arguments)
+            : options;
+          return new ggnpc.Map(this, opt);
+        });
+      }
+
+      function getSelectValue(node) {
+        return node.options[node.selectedIndex].value;
+      }
+
+    </script>
+  </body>
+</html>
