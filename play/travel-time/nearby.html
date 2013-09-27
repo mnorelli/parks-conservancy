@@ -173,14 +173,18 @@
       });
 
       var overlays = [];
+      var youAreHere;
 
-      function clearOverlays() {
+      function clearOverlays(clearYouAreHere) {
+        if (clearYouAreHere) youAreHere.setMap(null);
         while (overlays[0]) {
           overlays.pop().setMap(null);
         }
       }
 
       function go(travelTimes) {
+
+        clearOverlays();
 
         // sorted by time, then type of destination
         var tazBins = {
@@ -194,6 +198,7 @@
               time = o.travelTime,
               binnedTime = (Math.round(time / 30) * 30);
 
+          if (binnedTime === 0) binnedTime = 30;
           if (binnedTime > 90 || binnedTime < 0) return;
           // console.log(binnedTime);
 
@@ -277,8 +282,6 @@
           output = form.select("#taz"),
           req;
 
-      var youAreHere;
-
       function submit() {
         d3.event.preventDefault();
         d3.selectAll('.second-step').classed('second-step', true);
@@ -304,7 +307,7 @@
           radius: 500
         };
         youAreHere = new google.maps.Circle(marker);
-        overlays.push(youAreHere);
+        // overlays.push(youAreHere);
 
         req = mtc.location2taz(loc, function(error, taz) {
           if (error) {
