@@ -39,6 +39,14 @@
       form {
         padding: 10px;
       }
+
+      span.show-more,
+      span.show-less {
+        padding-left: 20px;
+        font-weight: bold;
+        color: steelblue;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -78,8 +86,6 @@
 
     </div>
     <div id="results"></div>
-
-
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
@@ -126,7 +132,8 @@
             req;
 
         function clearOverlays(clearYouAreHere) {
-          if (clearYouAreHere && youAreHere) youAreHere.setMap(null);
+          if (clearYouAreHere && youAreHere) 
+            youAreHere.setMap(null);
           if (overlays.length) {
             while (overlays[0]) {
               overlays.pop().setMap(null);
@@ -158,13 +165,9 @@
           });
         }
 
-        function geocode() {
-
+        function geocodeTextInput() {
           var textloc = input.property("value");
           codeAddress(textloc, calculateTazDistances);
-
-          // calculateTazDistances(loc);
-
         }
 
         function calculateTazDistances(gloc) {
@@ -232,7 +235,7 @@
             res.html("");
             clearOverlays(true);
 
-            geocode();
+            geocodeTextInput();
 
           });
 
@@ -296,27 +299,91 @@
         // END DISPLAY MARKERS ON MAP
 
         // DISPLAY RAW NEARBY DATA
+        // XXX FIX: this seriously needs to be cleaned up. there are way too many nests happening here
         res.append("h1").text("Nearby:");
         var resContainer = res.append("div").classed("results-container", true);
         // res = res.select(".results-container");
 
         d3.keys(tazBins).forEach(function(time) {
-          resContainer.append("h2")
-            .text(time + " mins away:");
+          var timeContainer = resContainer.append("div")
+            .classed("time" + time, true);
+          
+          timeContainer
+            .append("h2")
+              .text(time + " mins away:");
 
           d3.keys(tazBins[time]).forEach(function(type) {
 
-            resContainer.append("h3")
+            var typeContainer = timeContainer.append("div")
+              .classed(type, true);
+
+            typeContainer.append("h3")
               .classed("location-type", true)
               .text(type);
             
-            resContainer.append("ul")
-              .selectAll("li")
-                .data(tazBins[time][type])
-              .enter().append("li")
-                .text(function(d) {
-                  return d.title;
+            var fullList = tazBins[time][type],
+                stubList = fullList.slice(0, 4);
+
+            var nearbyContainer,
+                showLink,
+                typeClassName = type.toLowerCase().replace(/\s/g, "-");
+
+            function showList(list) {
+              console.log("list to show:", list);
+
+              nearbyContainer = typeContainer.append("div")
+                .attr("class", typeClassName);
+
+              nearbyContainer.append("ul")
+                .selectAll("li")
+                  .data(list)
+                .enter().append("li")
+                  .text(function(d) {
+                    return d.title;
+                  });
+
+              if (list == stubList) {
+                moreOrLess = "show-more";
+                moreOrLessText = "Show More";
+              } else {
+                moreOrLess = "show-less";
+                moreOrLessText = "Show Less";
+              }
+
+              nearbyContainer.append("br");
+              // if (showLink) showLink.remove();
+              showLink = nearbyContainer.append("span")
+                .attr("class", moreOrLess)
+                .text(moreOrLessText)
+                .on("click", function() {
+                  console.log("click registered");
+                  nearbyContainer.remove();
+                  if (showLink.classed("show-more")) {
+                    console.log("showing full list");
+                    showList(fullList);
+                  } else {
+                    console.log("showing stub list");
+                    showList(stubList);
+                  }
                 });
+
+              // console.log("nearbyContainer:", nearbyContainer);
+            }
+
+            showList(stubList);
+
+            // showLink
+            //   .on("click", function() {
+            //     console.log("click registered");
+            //     nearbyContainer.remove();
+            //     if (showLink.classed("show-more")) {
+            //       console.log("showing full list");
+            //       showList(fullList);
+            //     } else {
+            //       console.log("showing stub list");
+            //       showList(stubList);
+            //     }
+            //   });
           });
         });
         // END DISPLAY DATA
