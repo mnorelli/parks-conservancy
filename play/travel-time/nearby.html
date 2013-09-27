@@ -15,7 +15,7 @@
       }
 
       .second-step{
-        display: none;
+        /*display: none;*/
       }
 
       .location-type {
@@ -46,14 +46,8 @@
       <form>
         <p>
           <label>longitude, latitude: <input id="location" value="37.7631,-122.4191" type="text"></label>
-          <input type="submit">
-        </p>
-        <p>taz: <input id="taz" disabled></p>
-        <p id="took"></p>
-      </form>
-      <div class='second-step'>
-        <p><label>Select a destination <!--<select id="destination"></select>--></label> |
-        <label>Mode:
+          <!-- <input type="submit"> -->
+          <label>Mode:
           <select id="mode">
             <option value="s3" selected>Carpool</option>
             <option value="wTrnW">Transit</option>
@@ -69,6 +63,11 @@
             <option value="PM">Evening</option>
           </select>
         </label>
+        </p>
+        <p>taz: <input id="taz" disabled></p>
+        <p id="took"></p>
+      </form>
+      <div class='second-step'>
         <button id="submitDest">GO</button>
         </p>
 
@@ -115,17 +114,43 @@
 
         locations = rows;
 
-        // var select = d3.select("#destination").selectAll('option')
-        //   .data(rows)
-        //   .enter()
-        //   .append('option')
-        //   .attr('value', function(d){ return d.taz; })
-        //   .text(function(d){ return d.title; });
+            var form = d3.select("form"),
+            //     .on("submit", submit),
+              input = form.select("#location"),
+              output = form.select("#taz"),
+              req;
 
         d3.select('#submitDest')
           .on('click', function(){
 
             d3.event.preventDefault();
+            var loc = input.property("value");
+            
+            if (req) req.abort();
+            // var then = Date.now();
+            clearOverlays();
+
+            var lnglat = loc.split(",").map(Number),
+                center = new google.maps.LatLng(lnglat[0], lnglat[1]);
+
+            map.setCenter(center);
+
+            var marker = {
+              strokeWeight: 0,
+              fillColor: "#FF0000",
+              fillOpacity: 1,
+              map: map,
+              center: center,
+              radius: 500
+            };
+            youAreHere = new google.maps.Circle(marker);
+            // overlays.push(youAreHere);
+            req = mtc.location2taz(loc, function(error, taz) {
+              if (error) {
+                output.classed("error", true).attr("value", error);
+              } else {
+                output.classed("error", false).attr("value", taz);
+            
 
             // var toTaz = document.getElementById('destination');
             // var toTazValue = toTaz.options[toTaz.selectedIndex].value;
@@ -166,7 +191,8 @@
                 }
               });
             });
-
+            }
+          });
             //conceptName = box.options[box.selectedIndex].text;
           });
 
@@ -276,50 +302,7 @@
         // END DISPLAY DATA
       }
 
-      var form = d3.select("form")
-            .on("submit", submit),
-          input = form.select("#location"),
-          output = form.select("#taz"),
-          req;
 
-      function submit() {
-        d3.event.preventDefault();
-        d3.selectAll('.second-step').classed('second-step', true);
-        var loc = input.property("value");
-
-        if (req) req.abort();
-
-        var then = Date.now();
-
-        clearOverlays();
-
-        // recenter map on your location
-        var lnglat = loc.split(",").map(Number),
-            center = new google.maps.LatLng(lnglat[0], lnglat[1]);
-        map.setCenter(center);
-        // add a marker to the map to signify yr loc
-        var marker = {
-          strokeWeight: 0,
-          fillColor: "#FF0000",
-          fillOpacity: 1,
-          map: map,
-          center: center,
-          radius: 500
-        };
-        youAreHere = new google.maps.Circle(marker);
-        // overlays.push(youAreHere);
-
-        req = mtc.location2taz(loc, function(error, taz) {
-          if (error) {
-            output.classed("error", true).attr("value", error);
-          } else {
-            output.classed("error", false).attr("value", taz);
-          }
-          var time = ((Date.now() - then) / 1000).toFixed(1);
-          d3.select("#took").text("took " + time + " seconds");
-          d3.selectAll('.second-step').classed('second-step', false);
-        });
-      }
     </script>
   </body>
 </html>
