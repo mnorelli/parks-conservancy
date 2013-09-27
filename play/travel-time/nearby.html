@@ -98,6 +98,8 @@
           youAreHere,
           overlays = [];
 
+      var res = d3.select("#results");
+
       d3.csv('taz-locs-new.csv', function(d) {
         return {
             id: +d.id,
@@ -227,6 +229,7 @@
             d3.event.preventDefault();            
             if (req) req.abort();
 
+            res.html("");
             clearOverlays(true);
 
             geocode();
@@ -293,22 +296,21 @@
         // END DISPLAY MARKERS ON MAP
 
         // DISPLAY RAW NEARBY DATA
-        var res = d3.select("#results");
-        res.html();
         res.append("h1").text("Nearby:");
-        res = res.append("div");
+        var resContainer = res.append("div").classed("results-container", true);
+        // res = res.select(".results-container");
 
         d3.keys(tazBins).forEach(function(time) {
-          res.append("h2")
+          resContainer.append("h2")
             .text(time + " mins away:");
 
           d3.keys(tazBins[time]).forEach(function(type) {
 
-            res.append("h3")
+            resContainer.append("h3")
               .classed("location-type", true)
               .text(type);
             
-            res.append("ul")
+            resContainer.append("ul")
               .selectAll("li")
                 .data(tazBins[time][type])
               .enter().append("li")
