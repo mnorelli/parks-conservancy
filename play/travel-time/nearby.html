@@ -14,26 +14,18 @@
         padding: 0;
       }
 
-      .second-step{
-        /*display: none;*/
-      }
-
       .location-type {
         padding-left: 10px;
-        /*border-bottom: 1px dotted #aaa;*/
       }
 
       #map {
         width: 100%;
         height: 500px;
-        /*height: 100%;*/
       }
 
       #container {
-        /*padding: 20px;*/
         font-size: 11.5px;
         position: fixed;
-        /*bottom: 0;*/
         left: 0;
         width: 50%;
       }
@@ -57,7 +49,6 @@
       <form>
         <p>
           <label>longitude, latitude: <input id="location" value="37.7631,-122.4191" type="text"></label>
-          <!-- <input type="submit"> -->
           <label>Mode:
           <select id="mode">
             <option value="s3" selected>Carpool</option>
@@ -81,8 +72,6 @@
       <div class='second-step'>
         <button id="submitDest">GO</button>
         </p>
-
-
         <h3 id='travel-time'></h3>
       </div>
 
@@ -104,115 +93,109 @@
       };
       var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
+      var locations,
+          youAreHere;
 
-
-      var locations;
-
-
-      d3.csv('taz-locs-heroku.csv', function(d){
+      d3.csv('taz-locs-new.csv', function(d) {
         return {
             id: +d.id,
             taz: +d.taz,
             title: d.title,
             type: d.type,
             lat: +d.lat || null,
-            lng: +d.lng || null
+            lng: +d.long || null
         };
       },
       function(err, rows){
 
-        rows = rows.filter(function(d) { return d.lat !== null && d.lng !== null; });
-
+        // this is already happening when i grab the data from heroku, but
+        // i'm keeping it in case something changes with the heroku data
+        rows = rows.filter(function(d) { 
+          return d.lat !== null && d.lng !== null; 
+        });
 
         locations = rows;
 
-            var form = d3.select("form"),
-            //     .on("submit", submit),
-              input = form.select("#location"),
-              output = form.select("#taz"),
-              req;
+        var form = d3.select("form"),
+            input = form.select("#location"),
+            output = form.select("#taz"),
+            req;
+
+        function addYouAreHere(center) {
+          var marker = {
+            strokeWeight: 0,
+            fillColor: "#FF0000",
+            fillOpacity: 1,
+            map: map,
+            center: center,
+            radius: 500
+          };
+          youAreHere = new google.maps.Circle(marker);
+        }
 
         d3.select('#submitDest')
-          .on('click', function(){
+          .on('click', function() {
 
-            d3.event.preventDefault();
-            var loc = input.property("value");
-            
+            d3.event.preventDefault();            
             if (req) req.abort();
-            // var then = Date.now();
+
             clearOverlays();
 
-            var lnglat = loc.split(",").map(Number),
+            var loc = input.property("value"),
+                lnglat = loc.split(",").map(Number),
                 center = new google.maps.LatLng(lnglat[0], lnglat[1]);
-
             map.setCenter(center);
+            addYouAreHere(center);
 
-            var marker = {
-              strokeWeight: 0,
-              fillColor: "#FF0000",
-              fillOpacity: 1,
-              map: map,
-              center: center,
-              radius: 500
-            };
-            youAreHere = new google.maps.Circle(marker);
-            // overlays.push(youAreHere);
+
             req = mtc.location2taz(loc, function(error, taz) {
               if (error) {
                 output.classed("error", true).attr("value", error);
               } else {
                 output.classed("error", false).attr("value", taz);
-            
 
-            // var toTaz = document.getElementById('destination');
-            // var toTazValue = toTaz.options[toTaz.selectedIndex].value;
+                var fromTazValue = d3.select('#taz').attr('value');
 
-            var fromTazValue = d3.select('#taz').attr('value');
+                var mode = document.getElementById('mode');
+                var modeValue = mode.options[mode.selectedIndex].value;
 
-            var mode = document.getElementById('mode');
-            var modeValue = mode.options[mode.selectedIndex].value;
+                var time = document.getElementById('time');
+                var timeValue = time.options[time.selectedIndex].value;
 
-            var time = document.getElementById('time');
-            var timeValue = time.options[time.selectedIndex].value;
+                var uniqTazs = d3.set(rows.map(function(d) { return d.taz; })).values();
+                var travelTimes = [],
+                    pending = uniqTazs.length;
 
-            var uniqTazs = d3.set(rows.map(function(d) { return d.taz; })).values();
-            var travelTimes = [],
-                pending = uniqTazs.length;
+                uniqTazs.forEach(function(toTazValue) {
+                  
+                  var o = {
+                    from: fromTazValue,
+                    to: toTazValue,
+                    time: timeValue,
+                    mode: modeValue
+                  };
 
-            uniqTazs.forEach(function(toTazValue) {
-              
-              var o = {
-                from: fromTazValue,
-                to: toTazValue,
-                time: timeValue,
-                mode: modeValue
-              };
-
-              mtc.travelTimeBetweenTazs(o, function(err, travelTime, extras) {
-                if (err) {
-                  console.log(err);
-                } else {
-                  // console.log(extras);
-                  // d3.select('#travel-time').html('Will take<b> ' + travelTime + '</b> minutes')
-                  o.travelTime = travelTime;
-                  travelTimes.push(o);
-                  if (--pending === 0) {
-                    // async!
-                    go(travelTimes);
-                  }
-                }
-              });
-            });
-            }
+                  mtc.travelTimeBetweenTazs(o, function(err, travelTime, extras) {
+                    if (err) {
+                      console.log(err);
+                    } else {
+                      // d3.select('#travel-time').html('Will take<b> ' + travelTime + '</b> minutes')
+                      o.travelTime = travelTime;
+                      travelTimes.push(o);
+                      if (--pending === 0) {
+                        // async!
+                        go(travelTimes);
+                      }
+                    }
+                  });
+                });
+              }
           });
-            //conceptName = box.options[box.selectedIndex].text;
           });
 
       });
 
       var overlays = [];
-      var youAreHere;
-
       function clearOverlays(clearYouAreHere) {
         if (clearYouAreHere) youAreHere.setMap(null);
         while (overlays[0]) {
@@ -226,7 +209,6 @@
 
         // sorted by time, then type of destination
         var tazBins = {
-          0: {},
           30: {},
           60: {},
           90: {}
@@ -238,7 +220,6 @@
 
           if (binnedTime === 0) binnedTime = 30;
           if (binnedTime > 90 || binnedTime < 0) return;
-          // console.log(binnedTime);
 
           locations.forEach(function(loc) {
             if (+loc.taz === +destTaz) {
@@ -253,7 +234,6 @@
         });
 
         // DISPLAY MARKERS ON MAP
-
         var colors = {
           0: "#000",
           30: "#ffcc00",
@@ -263,7 +243,6 @@
 
         d3.keys(tazBins).forEach(function(time) {
           d3.keys(tazBins[time]).forEach(function(type) {
-
             tazBins[time][type].forEach(function(l) {
 
               var marker = {
@@ -280,9 +259,7 @@
             });
           });
         });
-
-        console.log(tazBins);
-
+        // console.log(tazBins);
         // END DISPLAY MARKERS ON MAP
 
         // DISPLAY RAW NEARBY DATA
@@ -305,11 +282,8 @@
                 .data(tazBins[time][type])
               .enter().append("li")
                 .text(function(d) {
-                  // console.log(d);
-                  // return JSON.stringify(d);
                   return d.title;
                 });
-          
           });
         });
         // END DISPLAY DATA
