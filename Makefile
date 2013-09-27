@@ -2,6 +2,7 @@ PGDATABASE?=ggnpc
 PGHOST?=localhost
 PGPORT?=5432
 PGUSER?=ggnpc
+PGPASSWORD?=
 
 clean:
 	rm -rf tmp/
@@ -9,10 +10,8 @@ clean:
 distclean:
 	rm -rf data/
 
-psql:
-	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql
-
-data: data-cpad data-osm data-osm-coastline \
+data: postgis hstore \
+      data-cpad data-osm data-osm-coastline \
       data-nhd \
       data-ggnpc-locations data-ggnra-trails data-ggnra-boundary \
       data-ggnra-legislative data-restoration-areas \
@@ -20,6 +19,16 @@ data: data-cpad data-osm data-osm-coastline \
       data-ggnra-park-units data-ggnra-restrooms \
       data-offshore-boundaries data-ggnra-buildings \
       data-trailheads
+
+postgis:
+	echo "create extension postgis;" | \
+	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+	touch $@
+
+hstore:
+	echo "create extension hstore;" | \
+	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+	touch $@
 
 data-nhd: data/nhdh1805.7z tmp/.placeholder
 	7z -otmp/ -y x data/nhdh1805.7z > /dev/null
@@ -31,7 +40,7 @@ data-nhd: data/nhdh1805.7z tmp/.placeholder
 			-lco SRID=900913 \
 			-f PGDump /vsistdout/ \
 			tmp/NHDH1805.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
 		    -s_srs EPSG:4326 \
 			-t_srs EPSG:900913 \
@@ -41,16 +50,15 @@ data-nhd: data/nhdh1805.7z tmp/.placeholder
 			-f PGDump /vsistdout/ \
 			-sql "SELECT * FROM nhdflowline WHERE fcode IN (56600, 56700)" \
 			tmp/NHDH1805.gdb | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	rm -rf tmp/NHDH1805_101v210.gdb
 	touch $@
 
 data-osm: data/sf-bay-area.osm.pbf
-	osm2pgsql -d ${PGDATABASE} \
+	PGPASSWORD=${PGPASSWORD} osm2pgsql -d ${PGDATABASE} \
 		      -U ${PGUSER} \
 			  -H ${PGHOST} \
 			  -P ${PGPORT} \
-			  -W \
 			  -c \
 			  -C2000 \
 			  --number-processes=4 \
@@ -138,7 +146,7 @@ data-ggnra-boundary: data/ggnra_boundary.zip
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	touch $@
 
-data-park-units: data/park_units.zip
+data-ggnra-park-units: data/park_units.zip
 	ogr2ogr --config PG_USE_COPY YES \
 		    -t_srs EPSG:900913 \
 			-nln park_units \
