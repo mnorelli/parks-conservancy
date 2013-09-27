@@ -48,8 +48,8 @@
 
       <form>
         <p>
-          <label>longitude, latitude: <input id="location" value="37.7631,-122.4191" type="text"></label>
-          <!-- <label>address: <input id="location" value="16th and mission san francisco, ca" type="text"></label> -->
+          <!-- <label>longitude, latitude: <input id="location" value="37.7631,-122.4191" type="text"></label> -->
+          <label>address: <input id="location" value="2017 Mission Street, 94110" type="text"></label>
           <label>Mode:
           <select id="mode">
             <option value="s3" selected>Carpool</option>
@@ -144,6 +144,83 @@
           youAreHere = new google.maps.Circle(marker);
         }
 
+        var geocoder = new google.maps.Geocoder();
+        function codeAddress(address, callback) {
+          geocoder.geocode({address: address}, function(results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+              callback(results[0].geometry.location)
+            } else {
+              console.warn("THERE WAS A GEOCODING ERROR");
+              callback(null);
+            }
+          });
+        }
+
+        function geocode() {
+
+          var textloc = input.property("value");
+          codeAddress(textloc, calculateTazDistances);
+
+          // calculateTazDistances(loc);
+
+        }
+
+        function calculateTazDistances(gloc) {
+
+          var loc = [gloc.nb, gloc.ob].join(",");
+          var lnglat = loc.split(",").map(Number),
+              center = new google.maps.LatLng(lnglat[0], lnglat[1]);
+          map.setCenter(center);
+          addYouAreHere(center);
+
+          console.log(loc, lnglat, center);
+
+
+          req = mtc.location2taz(loc, function(error, taz) {
+            if (error) {
+              output.classed("error", true).attr("value", "error");
+            } else {
+              output.classed("error", false).attr("value", taz);
+
+              var fromTazValue = d3.select('#taz').attr('value');
+
+              var mode = document.getElementById('mode');
+              var modeValue = mode.options[mode.selectedIndex].value;
+
+              var time = document.getElementById('time');
+              var timeValue = time.options[time.selectedIndex].value;
+
+              var uniqTazs = d3.set(rows.map(function(d) { return d.taz; })).values();
+              var travelTimes = [],
+                  pending = uniqTazs.length;
+
+              uniqTazs.forEach(function(toTazValue) {
+                
+                var o = {
+                  from: fromTazValue,
+                  to: toTazValue,
+                  time: timeValue,
+                  mode: modeValue
+                };
+
+                mtc.travelTimeBetweenTazs(o, function(err, travelTime, extras) {
+                  if (err) {
+                    console.log(err);
+                  } else {
+                    // d3.select('#travel-time').html('Will take<b> ' + travelTime + '</b> minutes')
+                    o.travelTime = travelTime;
+                    travelTimes.push(o);
+                    if (--pending === 0) {
+                      // async!
+                      go(travelTimes);
+                    }
+                  }
+                });
+              });
+            }
+          });
+        }
+
         d3.select('#submitDest')
           .on('click', function() {
 
@@ -152,58 +229,8 @@
 
             clearOverlays(true);
 
-            var loc = input.property("value"),
-                lnglat = loc.split(",").map(Number),
-                center = new google.maps.LatLng(lnglat[0], lnglat[1]);
-            map.setCenter(center);
-            addYouAreHere(center);
+            geocode();
 
-            console.log(loc, lnglat, center);
-
-
-            req = mtc.location2taz(loc, function(error, taz) {
-              if (error) {
-                output.classed("error", true).attr("value", error);
-              } else {
-                output.classed("error", false).attr("value", taz);
-
-                var fromTazValue = d3.select('#taz').attr('value');
-
-                var mode = document.getElementById('mode');
-                var modeValue = mode.options[mode.selectedIndex].value;
-
-                var time = document.getElementById('time');
-                var timeValue = time.options[time.selectedIndex].value;
-
-                var uniqTazs = d3.set(rows.map(function(d) { return d.taz; })).values();
-                var travelTimes = [],
-                    pending = uniqTazs.length;
-
-                uniqTazs.forEach(function(toTazValue) {
-                  
-                  var o = {
-                    from: fromTazValue,
-                    to: toTazValue,
-                    time: timeValue,
-                    mode: modeValue
-                  };
-
-                  mtc.travelTimeBetweenTazs(o, function(err, travelTime, extras) {
-                    if (err) {
-                      console.log(err);
-                    } else {
-                      // d3.select('#travel-time').html('Will take<b> ' + travelTime + '</b> minutes')
-                      o.travelTime = travelTime;
-                      travelTimes.push(o);
-                      if (--pending === 0) {
-                        // async!
-                        go(travelTimes);
-                      }
-                    }
-                  });
-                });
-              }
-            });
           });
 
       });
