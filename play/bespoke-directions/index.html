@@ -3,8 +3,9 @@
   <head>
     <title>Parks Conservancy - Directions Prototype</title>
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
-    <script src="js/maps.js?foo"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+    <script src="js/tabletop.js"></script>
+    <script src="js/maps.js"></script>
     <style>
       @import url(style.css);
     </style>
@@ -21,6 +22,8 @@
           <p class="span two-thirds">
             <label for="to">Going to...</label>
             <input id="to" name="to" type="text" value="Muir Woods">
+            <select id="to-location">
+            </select>
             <select id="mode" name="mode">
             </select>
             <input type="submit" value="GO">
@@ -30,6 +33,10 @@
           <div id="map-from" class="map span one-third"></div>
           <div id="map-to" class="map span two-thirds"></div>
         </div>
+        <div id="steps">
+          <h3>Bespoke Directions</h3>
+          <div id="bespoke-directions"></div>
+        </div>
       </form>
     </div>
     <script>
@@ -38,7 +45,10 @@
             .on("submit", getDirections),
           mapFrom = new ggnpc.Map("map-from"),
           mapTo = new ggnpc.Map("map-to"),
+          maps = [mapFrom, mapTo],
           modeSelect = d3.select("#mode"),
+          toSelect = d3.select("#to-location"),
+          hasLocations = false,
           directionsService = new google.maps.DirectionsService();
 
       mapFrom.directionsDisplay = new google.maps.DirectionsRenderer({
@@ -51,10 +61,18 @@
         preserveViewport: true
       });
 
+      var bounds = new google.maps.LatLngBounds(
+        new google.maps.LatLng(37.558072, -122.681354),
+        new google.maps.LatLng(37.99226, -122.276233)
+      );
+      maps.forEach(function(map) {
+        map.fitBounds(bounds);
+      });
+
       modeSelect.selectAll("option")
         .data([
-          {value: "TRANSIT", label: "Transit"},
           {value: "DRIVING", label: "Driving"},
+          {value: "TRANSIT", label: "Transit"},
           {value: "BICYCLING", label: "Bike"},
           {value: "WALKING", label: "Walking"}
         ])
@@ -65,19 +83,91 @@
           })
           .text(function(d) { return d.label; });
 
+      d3.json("http://stamen-parks-api-staging.herokuapp.com/kind/park", function(error, data) {
+        var locations = data.results.map(function(d) {
+          return d.attributes;
+        }).sort(function(a, b) {
+          return d3.ascending(a.title, b.title);
+        });
+
+        var option = toSelect.selectAll("option")
+          .data(locations)
+          .enter()
+          .append("option")
+            .attr("value", function(d) { return d.location; })
+            .text(function(d) { return d.title; });
+
+        hasLocations = true;
+        d3.select("input[name=to]")
+          .style("display", "none");
+
+        var locationsByFilename = d3.nest()
+          .key(function(d) { return d.filename; })
+          .rollup(function(d) { return d[0]; })
+          .map(locations);
+
+        loadBespokeDirections(function(rows) {
+          rows.forEach(function(row) {
+            if (row.filename in locationsByFilename) {
+              console.log("boespoke:", row);
+              locationsByFilename[row.filename].bespoke_directions = parseBespokeDirections(row.directions);
+            }
+          });
+
+          option.filter(function(d) {
+            return d.bespoke_directions;
+          })
+          .text(function(d) {
+            return "* " + d.title;
+          });
+        });
+      });
+
+      function loadBespokeDirections(callback) {
+        Tabletop.init({
+          key: "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
+          simpleSheet: true,
+          callback: callback,
+          error: function(error) {
+            console.warn("ARGH:", error);
+          }
+        });
+      }
+
+      function parseBespokeDirections(text) {
+        return text.split(/[\r\n]+/g)
+          .filter(function(line) {
+            return line.charAt(0) === "*";
+          })
+          .map(function(line) {
+            return line.replace(/^\*\s*/, "");
+          });
+      }
+
+      function formatBespokeDirections(directions) {
+        return "<ul>" + directions.map(function(d) {
+          return "<li>" + d.replace(/[<>&]/g, escape) + "</li>";
+        }).join("\n") + "</ul>";
+      }
+
       function getDirections() {
         if (d3.event) d3.event.preventDefault();
         var origin = form.select("input[name=from]").property("value"),
-            dest = form.select("input[name=to]").property("value"),
+            dest = hasLocations
+              ? toSelect.select("option").data()[toSelect.property("selectedIndex")]
+              : form.select("input[name=to]").property("value"),
             mode = getSelectValue(modeSelect.node()),
             request = {
               origin: origin,
-              destination: dest,
+              destination: (typeof dest === "object") ? dest.location : dest,
               travelMode: mode
             };
+
         form.classed("routing", true);
+
         directionsService.route(request, function(response, status) {
           form.classed("routing", false);
+
           if (status === google.maps.DirectionsStatus.OK) {
             console.log("directions:", response);
 
@@ -86,12 +176,23 @@
                 lastLeg = route.legs[route.legs.length - 1],
                 originLocation = firstLeg.start_location,
                 destLocation = lastLeg.end_location;
+
+            mapFrom.setZoom(16);
             mapFrom.setCenter(originLocation);
+            mapFrom.setZoom(14);
             mapTo.setCenter(destLocation);
+
+            d3.select("#bespoke-directions")
+              .html(dest.bespoke_directions
+                ? formatBespokeDirections(dest.bespoke_directions)
+                : "(no bespoke directions)");
 
             [mapFrom, mapTo].forEach(function(map) {
               map.directionsDisplay.setDirections(response);
             });
+
+          } else {
+            alert("Whoops, something went wrong: " + status);
           }
         });
       }

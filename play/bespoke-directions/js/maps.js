@@ -70,7 +70,6 @@
 
   function merge(o) {
     var others = [].slice.call(arguments, 1);
-    console.log("merge:", others);
     others.forEach(function(d) {
       if (!d) return;
       for (var k in d) {

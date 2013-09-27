@@ -49,3 +49,7 @@ h2 {
   display: block;
   margin: 0 0 4px 0;
 }
+
+#directions input[type=text] {
+  width: 16em;
+}
