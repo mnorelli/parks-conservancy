@@ -85,6 +85,11 @@
 
       var test = null;
       d3.json("data/nearby.json", function(err, locations) {
+
+        var valid = ["Visitor Center", "Site of Interest", "Cafe", "Restroom", "Parking Lot", "Trailhead", "Overlook"];
+        locations = locations.filter(function(d) { return valid.indexOf(d.type) > -1; });
+
+
         var nest = d3.nest()
           .key(function(d) { return d.type; });
 
@@ -199,12 +204,15 @@
 
             // console.log("nearbyByType:", nearbyByType);
 
-            var stubTypes = ["Visitor Center", "Cafe", "Restroom", "Parking Lot", "Trailhead", "Overlook"];
             var nearbyStr = [];
             for (var type in nearbyByType) {
 
-              if (stubTypes.indexOf(type) > -1)
+              // XXX FIX: get rid of these rows when you first pull in the data
+              // if (valid.indexOf(type) > -1) {
                 nearbyByType[type] = nearbyByType[type].slice(0, 2);
+              // } else {
+                // continue;
+              // }
 
               var str = nearbyByType[type].sort(function(a,b) {
                 return d3.ascending(a.distance, b.distance);
