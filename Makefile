@@ -12,7 +12,7 @@ distclean:
 
 data: postgis hstore \
       data-cpad data-osm data-osm-coastline \
-      data-nhd \
+      data-nhd data-water-fill \
       data-ggnpc-locations data-ggnra-trails data-ggnra-boundary \
       data-ggnra-legislative data-restoration-areas \
       data-pt-parking-areas data-ggnra-parking-areas \
@@ -52,6 +52,18 @@ data-nhd: data/nhdh1805.7z tmp/.placeholder
 			tmp/NHDH1805.gdb | \
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	rm -rf tmp/NHDH1805_101v210.gdb
+	touch $@
+
+data-water-fill:
+	ogr2ogr --config PG_USE_COPY YES \
+		-nln water_fill \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		water-fill.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -c "UPDATE water_fill SET geom=ST_Multi(ST_Buffer(geom, 20));"
 	touch $@
 
 data-osm: data/sf-bay-area.osm.pbf
