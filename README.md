@@ -71,6 +71,10 @@ short order after deploying them.  If you're not seeing them (or are seeing a
 mixture of new and old), try emptying your browser cache (I was briefly caching
 for a month while debugging Varnish).
 
+## Seeding
+
+`node ../bin/seed.js -b="-123.640 36.791 -121.025 38.719" -z 10 -Z 14`
+
 ## Data Dependencies
 
 * `sql/zoom.sql`
