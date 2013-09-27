@@ -48,7 +48,7 @@ data-nhd: data/nhdh1805.7z tmp/.placeholder
 			-lco GEOMETRY_NAME=geom \
 			-lco SRID=900913 \
 			-f PGDump /vsistdout/ \
-			-sql "SELECT * FROM nhdflowline WHERE fcode IN (56600, 56700)" \
+			-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
 			tmp/NHDH1805.gdb | \
 			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	rm -rf tmp/NHDH1805_101v210.gdb
