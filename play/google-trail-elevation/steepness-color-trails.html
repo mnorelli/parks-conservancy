@@ -54,6 +54,11 @@
         font-size: 11px;
       }
 
+      #metadata {
+        font-size: 11.5px;
+        padding: 20px;
+        margin-left: 25%;
+      }
 
     </style>
   </head>
@@ -62,7 +67,7 @@
     <div id="map"></div>
     <div id="map-legend"></div>
     <div id="chart"></div>
-    <!-- <div id=""></div> -->
+    <div id="metadata"></div>
 
     <script src="js/d3.v3.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
@@ -84,9 +89,18 @@
       }
 
       var debug = {};
-      d3.json("elevation-profile.json", function(err, elevation) {
+      d3.json("elevation-profile-metadata.json", function(err, profile) {
 
+        var elevation = profile.elevation;
         debug.elevation = elevation;
+
+        var metadata = [
+          "<h3>" + profile.metadata.name + "</h3>",
+          "Duration: " + profile.metadata.duration,
+          "Intensity: " + profile.metadata.intensity,
+          "Description: " + profile.metadata.description.replace(/[\n\r\t]/g, "").replace(/\<p\>/g, "")
+        ].join("<br>");
+        d3.select("#metadata").html(metadata);
 
         // create the map
         d3.select("#map").style("width", width + "px");

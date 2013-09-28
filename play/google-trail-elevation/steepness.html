@@ -70,9 +70,10 @@
       }
 
       var debug = {};
-      d3.json("elevation-profile.json", function(err, elevation) {
+      d3.json("elevation-profile-metadata.json", function(err, profile) {
 
-        debug.elevation = elevation;
+        // debug.elevation = elevation;
+        var elevation = profile.elevation;
 
         // create the map
         d3.select("#map").style("width", width + "px");
