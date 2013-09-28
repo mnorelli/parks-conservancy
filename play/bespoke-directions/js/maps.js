@@ -68,6 +68,39 @@
     }
   });
 
+  ggnpc.BespokeDirections = {
+    parse: function(text) {
+      if (!text) return null;
+      return text.split(/[\r\n]+/g)
+        .filter(function(line) {
+          return line.charAt(0) === "*";
+        })
+        .map(function(line) {
+          return line.replace(/^\*\s*/, "");
+        });
+    },
+
+    augmentGoogleDisplay: function(selection, directions) {
+      var steps = selection.selectAll("tr").data().length + 1,
+          rows = selection.selectAll("tr.bespoke")
+            .data(directions)
+            .enter()
+            .append("tr")
+              .attr("class", "bespoke"),
+          first = rows.append("td")
+            .attr("class", "adp-substep"),
+          second = rows.append("td")
+            .attr("class", "adp-substep")
+            .text(function(d, i) { return (steps + i) + "."; }),
+          third = rows.append("td")
+            .attr("class", "adp-substep")
+            .text(String),
+          fourth = rows.append("td")
+            .attr("class", "adp-substep")
+            .text(function(d) { /* distance goes here */ });
+    }
+  };
+
   function merge(o) {
     var others = [].slice.call(arguments, 1);
     others.forEach(function(d) {
