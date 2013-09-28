@@ -53,3 +53,7 @@ h2 {
 #directions input[type=text] {
   width: 16em;
 }
+
+.adp-directions tr.bespoke {
+  color: #666;
+}
