@@ -170,7 +170,6 @@ data-water-fill:
 		-f PGDump /vsistdout/ \
 		water-fill.shp | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
-	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -c "UPDATE water_fill SET geom=ST_Multi(ST_Buffer(geom, 20));"
 	touch $@
 
 data-osm: data/sf-bay-area.osm.pbf
