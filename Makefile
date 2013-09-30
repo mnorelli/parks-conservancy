@@ -169,7 +169,7 @@ data-water-fill:
 		-lco SRID=900913 \
 		-f PGDump /vsistdout/ \
 		water-fill.shp | \
-		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-osm: data/sf-bay-area.osm.pbf
@@ -189,168 +189,168 @@ data-osm: data/sf-bay-area.osm.pbf
 
 data-cpad: data/cpad.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln cpad_units \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/cpad.zip/CPAD19_Units.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln cpad_units \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/cpad.zip/CPAD19_Units.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln cpad_superunits \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/cpad.zip/CPAD19_SuperUnits.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln cpad_superunits \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/cpad.zip/CPAD19_SuperUnits.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln cpad_holdings \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/cpad.zip/CPAD19_Holdings.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln cpad_holdings \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=v
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ s
+		/vsizip/data/cpad.zip/CPAD19_Holdings.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnpc-locations: data/ggnpc_locations.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln locations \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnpc_locations.zip/GGNPC_locations_20130417.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln locations \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnpc_locations.zip/GGNPC_locations_20130417.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnra-trails: data/ggnra_trails.zip
 	ogr2ogr --config PG_USE_COPY YES \
-			-t_srs EPSG:900913 \
-			-nln trails \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_trails.zip/trails_goga_20130816.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln trails \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnra_trails.zip/trails_goga_20130816.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnra-boundary: data/ggnra_boundary.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln ggnra_boundary \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_boundary.zip/GGNRA_boundary_2012_v2/GGNRA_boundary_2012_v2.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln ggnra_boundary \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnra_boundary.zip/GGNRA_boundary_2012_v2/GGNRA_boundary_2012_v2.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnra-park-units: data/park_units.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln park_units \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/park_units.zip/GGNRA_web_boundaries_20130916.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln park_units \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/park_units.zip/GGNRA_web_boundaries_20130916.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnra-legislative: data/ggnra_legislative.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln ggnra_legislative \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_legislative.zip/GOGA_legislative_2013.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln ggnra_legislative \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnra_legislative.zip/GOGA_legislative_2013.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-restoration-areas: data/restoration_areas.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln restoration_areas \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/restoration_areas.zip/RestorationAreas_20120216.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln restoration_areas \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/restoration_areas.zip/RestorationAreas_20120216.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-pt-parking-areas: data/pt_parking_areas.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln pt_parking_areas \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/pt_parking_areas.zip/Parking_2010.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln pt_parking_areas \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/pt_parking_areas.zip/Parking_2010.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnra-parking-areas: data/ggnra_parking_areas.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln ggnra_parking_areas \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_parking_areas.zip/ggnra_parkingareas.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln ggnra_parking_areas \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnra_parking_areas.zip/ggnra_parkingareas.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnra-restrooms: data/ggnra_restrooms.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln ggnra_restrooms \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_restrooms.zip/GGNPC_locations_20130816_restrooms3.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln ggnra_restrooms \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnra_restrooms.zip/GGNPC_locations_20130816_restrooms3.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-offshore-boundaries: data/ggnra_offshore_boundaries.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln ggnra_offshore_boundaries \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_offshore_boundaries.zip/GGNRA_boundary_2013_offshoreline.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln ggnra_offshore_boundaries \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnra_offshore_boundaries.zip/GGNRA_boundary_2013_offshoreline.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-ggnra-buildings: data/ggnra_buildings.zip
 	ogr2ogr --config PG_USE_COPY YES \
-		    -t_srs EPSG:900913 \
-			-nln ggnra_buildings \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			/vsizip/data/ggnra_buildings.zip/ggnra_buildings_2013.shp | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
+		-t_srs EPSG:900913 \
+		-nln ggnra_buildings \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/ggnra_buildings.zip/ggnra_buildings_2013.shp | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-trailheads:
-	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q -f trailheads.sql
+	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q -f trailheads.sql
 	touch $@
 
 data/cpad.zip: data/.placeholder
