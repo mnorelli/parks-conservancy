@@ -11,7 +11,7 @@ distclean:
 	rm -rf data/
 
 data: postgis hstore \
-      data-cpad data-osm data-osm-coastline \
+      data-cpad data-osm \
       data-nhd data-water-fill \
       data-ggnpc-locations data-ggnra-trails data-ggnra-boundary \
       data-ggnra-legislative data-restoration-areas \
@@ -79,17 +79,6 @@ data-osm: data/sf-bay-area.osm.pbf
 			  -j \
 			  -G \
 			  data/sf-bay-area.osm.pbf
-	touch $@
-
-data-osm-coastline: data/sf-bay-area.coastline.zip
-	ogr2ogr --config PG_USE_COPY YES \
-		-nln coastline \
-		-nlt PROMOTE_TO_MULTI \
-		-lco GEOMETRY_NAME=geom \
-		-lco SRID=900913 \
-		-f PGDump /vsistdout/ \
-		/vsizip/data/sf-bay-area.coastline.zip/sf-bay-area.shp | \
-		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	touch $@
 
 data-cpad: data/cpad.zip
@@ -266,9 +255,6 @@ data/sf-bay-area.osm.pbf: data/.placeholder
 
 data/nhdh1805.7z: data/.placeholder
 	curl -sL http://nhd.stamen.com.s3.amazonaws.com/SubRegions/FileGDB/HighResolution/NHDH1805_101v210.7z -o $@
-
-data/sf-bay-area.coastline.zip: data/.placeholder
-	curl -sL http://osm-extracted-metros.s3.amazonaws.com/sf-bay-area.coastline.zip -o $@
 
 data/ggnpc_locations.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/03_GGNPC_locations_20130417.zip -o $@
