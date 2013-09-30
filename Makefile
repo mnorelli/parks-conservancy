@@ -38,6 +38,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-f PGDump /vsistdout/ \
 		tmp/NHDH1801.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
@@ -47,6 +48,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-f PGDump /vsistdout/ \
 		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
 		tmp/NHDH1801.gdb | \
@@ -60,6 +62,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		tmp/NHDH1802.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
@@ -70,6 +73,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
@@ -84,6 +88,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		tmp/NHDH1804.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
@@ -94,6 +99,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
@@ -108,6 +114,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		tmp/NHDH1805.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
@@ -118,6 +125,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
@@ -132,6 +140,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		tmp/NHDH1806.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
@@ -142,6 +151,7 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
+		-lco DIM=2 \
 		-lco CREATE_TABLE=OFF \
 		-f PGDump /vsistdout/ \
 		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
