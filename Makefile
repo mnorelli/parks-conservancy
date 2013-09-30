@@ -30,28 +30,125 @@ hstore:
 	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} psql -q
 	touch $@
 
-data-nhd: data/nhdh1805.7z tmp/.placeholder
+data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z data/nhdh1806.7z tmp/.placeholder
+	7z -otmp/ -y x data/nhdh1801.7z > /dev/null
+	ogr2ogr --config PG_USE_COPY YES \
+		-s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		tmp/NHDH1801.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	ogr2ogr --config PG_USE_COPY YES \
+		-s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
+		tmp/NHDH1801.gdb | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	rm -rf tmp/NHDH1801_101v210.gdb
+	
+	7z -otmp/ -y x data/nhdh1802.7z > /dev/null
+	ogr2ogr --config PG_USE_COPY YES \
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		tmp/NHDH1802.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	ogr2ogr --config PG_USE_COPY YES \
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
+		tmp/NHDH1802.gdb | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	rm -rf tmp/NHDH1802_101v210.gdb
+	
+	7z -otmp/ -y x data/nhdh1804.7z > /dev/null
+	ogr2ogr --config PG_USE_COPY YES \
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		tmp/NHDH1804.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	ogr2ogr --config PG_USE_COPY YES \
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
+		tmp/NHDH1804.gdb | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	rm -rf tmp/NHDH1804_101v210.gdb
+	
 	7z -otmp/ -y x data/nhdh1805.7z > /dev/null
 	ogr2ogr --config PG_USE_COPY YES \
-		    -s_srs EPSG:4326 \
-			-t_srs EPSG:900913 \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			tmp/NHDH1805.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		tmp/NHDH1805.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-		    -s_srs EPSG:4326 \
-			-t_srs EPSG:900913 \
-			-nlt PROMOTE_TO_MULTI \
-			-lco GEOMETRY_NAME=geom \
-			-lco SRID=900913 \
-			-f PGDump /vsistdout/ \
-			-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
-			tmp/NHDH1805.gdb | \
-			PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
+		tmp/NHDH1805.gdb | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	rm -rf tmp/NHDH1805_101v210.gdb
+	
+	7z -otmp/ -y x data/nhdh1806.7z > /dev/null
+	ogr2ogr --config PG_USE_COPY YES \
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		tmp/NHDH1806.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	ogr2ogr --config PG_USE_COPY YES \
+	        -s_srs EPSG:4326 \
+		-t_srs EPSG:900913 \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-lco CREATE_TABLE=OFF \
+		-f PGDump /vsistdout/ \
+		-sql "SELECT * FROM nhdflowline WHERE fcode IN (33600, 46000, 46006)" \
+		tmp/NHDH1806.gdb | \
+		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	rm -rf tmp/NHDH1806_101v210.gdb
+	
 	touch $@
 
 data-water-fill:
@@ -253,8 +350,20 @@ data/cpad.zip: data/.placeholder
 data/sf-bay-area.osm.pbf: data/.placeholder
 	curl -sL http://osm-extracted-metros.s3.amazonaws.com/sf-bay-area.osm.pbf -o $@
 
+data/nhdh1801.7z: data/.placeholder
+	curl -sL http://nhd.stamen.com.s3.amazonaws.com/SubRegions/FileGDB/HighResolution/NHDH1801_101v210.7z -o $@
+
+data/nhdh1802.7z: data/.placeholder
+	curl -sL http://nhd.stamen.com.s3.amazonaws.com/SubRegions/FileGDB/HighResolution/NHDH1802_101v210.7z -o $@
+
+data/nhdh1804.7z: data/.placeholder
+	curl -sL http://nhd.stamen.com.s3.amazonaws.com/SubRegions/FileGDB/HighResolution/NHDH1804_101v210.7z -o $@
+
 data/nhdh1805.7z: data/.placeholder
 	curl -sL http://nhd.stamen.com.s3.amazonaws.com/SubRegions/FileGDB/HighResolution/NHDH1805_101v210.7z -o $@
+
+data/nhdh1806.7z: data/.placeholder
+	curl -sL http://nhd.stamen.com.s3.amazonaws.com/SubRegions/FileGDB/HighResolution/NHDH1806_101v210.7z -o $@
 
 data/ggnpc_locations.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/03_GGNPC_locations_20130417.zip -o $@
