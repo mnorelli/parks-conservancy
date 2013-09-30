@@ -88,7 +88,18 @@
         return 5280 * mi;
       }
 
-      var debug = {};
+      function clearOverlay(overlay) {
+        if (overlay) 
+          overlay.setMap(null);
+        // if (overlays.length) {
+        //   while (overlays[0]) {
+        //     overlays.pop().setMap(null);
+        //   }
+        // }
+      }
+
+      var debug = {},
+          overlays = {};
       d3.json("elevation-profile-metadata.json", function(err, profile) {
 
         var elevation = profile.elevation;
@@ -181,7 +192,7 @@
 
         var r = d3.scale.linear().domain([0, maxHeight]).range([1, 20]);
         
-        g.append("g").selectAll("circle")
+        var elevationPoints = g.append("g").selectAll("circle")
           .data(elevation)
         .enter().append("circle")
           .attr("cx", function(d) { return x(milesToFeet(d.distance)); })
@@ -190,6 +201,26 @@
           .attr("fill", function(d) { return heightColorScale(d.height); })
           .attr("stroke", "none")
           .attr("stroke-width", "0");
+
+        // XXX FIX: these should be line segments
+        elevationPoints.on("mouseover", function(e) {
+          var markerStyle = {
+            strokeColor: '#FF0000',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35,
+            map: map,
+            center: new google.maps.LatLng(e.coordinates[0], e.coordinates[1]),
+            radius: 50
+          };
+          var marker = new google.maps.Circle(markerStyle);
+          overlays.matchMarker = marker;
+        });
+
+        elevationPoints.on("mouseout", function(e) {
+          clearOverlay(overlays.matchMarker);
+        });
 
         // the legend
         g.append("g").selectAll("circle")
