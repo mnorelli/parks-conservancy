@@ -134,13 +134,18 @@
         var maxScale = Math.max(maxDist, maxHeight);  // so everything is in proportion
 
         var heightDeltas = route.map(function(point, i) {
-          if (i === 0) return 0;
-          return elevation[i].height - elevation[i-1].height;
+          // if (i === 0) return 0;
+          if (i === route.length-1) return 0;
+          return elevation[i].height - elevation[i+1].height;
         }).sort(d3.ascending);
 
-        var heightColorScale = d3.scale.linear().domain([0, maxHeight]).range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
-        var steepnessColorScale = d3.scale.linear().domain(d3.extent(heightDeltas)).range(["hsl(150, 100%, 70%)", "hsl(0, 100%, 70%)"]);
+        var heightColorScale = d3.scale.linear()
+              .domain([0, maxHeight])
+              .range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
 
+        var steepnessColorScale = d3.scale.linear()
+              .domain(d3.extent(heightDeltas))
+              .range(["hsl(150, 100%, 70%)", "hsl(0, 100%, 70%)"]);
 
         var minHeight = heightDeltas[0];
 
@@ -158,13 +163,14 @@
             .style("text-align", "right")
             .text(~~heightDeltas[heightDeltas.length-1] + "ft");
 
-
         route.forEach(function(point, i) {
-          if (i === 0) return;
-          var segment = [route[i-1], route[i]],
-              maxSegmentHeight = d3.max([elevation[i-1].height, elevation[i].height]),
+          if (i === route.length-1) return;
+          var primary = i,
+              secondary = i+1;
+          var segment = [route[primary], route[secondary]],
+              maxSegmentHeight = d3.max([elevation[primary].height, elevation[secondary].height]),
               strokeWeight = (maxSegmentHeight / maxHeight) * 20,
-              heightDelta = elevation[i].height - elevation[i-1].height;  // you're going "forwards" on a trail
+              heightDelta = elevation[primary].height - elevation[secondary].height;  // you're going "forwards" on a trail
 
           var routePath = new google.maps.Polyline({
             path: segment,
@@ -173,6 +179,33 @@
             strokeWeight: strokeWeight
           });
           routePath.setMap(map);
+          google.maps.event.addListener(routePath, "mouseover", function() {
+            var sister = svg.select(".route-segment" + i),
+                locStr = sister.attr("d").substr(1).split(/[ML]/g),
+                first = locStr[0].split(",").map(Number),
+                next = locStr[1].split(",").map(Number),
+                midx = (first[0] + next[0]) / 2,
+                midy = (first[1] + next[1]) / 2;
+
+            // console.log(sister, locStr, midx, midy);
+            var overlay = svg.append("circle")
+                  .datum(elevation[i])
+                    .attr("cx", midx)
+                    .attr("cy", midy)
+                    .attr("r", 10)
+                    .attr("transform", "translate(" + width/4 + "," + padding + ")")
+                    .style("fill", "red")
+                    .style("opacity", 0.8);
+            console.log("overlay:", overlay);
+            overlays.map2graph = overlay;
+          });
+          google.maps.event.addListener(routePath, "mouseout", function() {
+            // svg.select(".route-segment" + i).style("stroke-width", 2).style("stroke", "#000");
+            // console.log("overlays:", overlays);
+
+            overlays.map2graph.remove();
+            overlays.map2graph = null;
+          });
         });
 
         // var clamp = d3.scale.linear().domain([0, maxScale]).range([padding, 500]); // proportional scale
@@ -191,7 +224,8 @@
         var elevationPoints = g.selectAll("path")
             .data(elevationData)
           .enter().append("path")
-          .attr("class", "elevation")
+          // .attr("class", "elevation")
+          .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
           .attr("d", function(d, i) {
             if (i === elevationData.length-1) return "M0,0";
             return line([d, elevationData[i+1]]); 
@@ -225,11 +259,11 @@
             zIndex: 99999999999
           };
           var marker = new google.maps.Circle(markerStyle);
-          overlays.matchMarker = marker;
+          overlays.graph2map = marker;
         });
 
         elevationPoints.on("mouseout", function(e) {
-          clearOverlay(overlays.matchMarker);
+          clearOverlay(overlays.graph2map);
         });
 
         // the legend
