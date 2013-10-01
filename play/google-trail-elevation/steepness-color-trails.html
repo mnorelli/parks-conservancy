@@ -157,9 +157,9 @@
 
         var metadata = [
           "<h3>" + profile.metadata.name + "</h3>",
-          "Duration: " + profile.metadata.duration,
-          "Intensity: " + profile.metadata.intensity,
-          "Description: " + profile.metadata.description.replace(/[\n\r\t]/g, "").replace(/\<p\>/g, "")
+          "<b>Duration: </b>" + profile.metadata.duration,
+          "<b>Intensity: </b>" + profile.metadata.intensity,
+          "<b>Description: </b>" + profile.metadata.description.replace(/[\n\r\t]/g, "").replace(/\<p\>/g, "")
         ].join("<br>");
         d3.select("#metadata").html(metadata);
 
