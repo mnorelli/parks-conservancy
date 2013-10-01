@@ -9,9 +9,9 @@
     //exports.GGNPC_MAP.API_URL_BASE = "http://0.0.0.0:5000/";
 
     // Add modules to the main app module
-    angular.module("app", ['services', 'myFilters', 'map', 'mapListings']);
+    angular.module("app", ['services', 'filters', 'map']);
 
-    //
+    // app config
     angular.module('app').config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
         //$locationProvider.html5Mode(true);
 
@@ -28,26 +28,57 @@
     // controller for app
     // handles setting the context
     angular.module('app').controller('AppController', ['$scope', '$rootScope', '$location', '$route', '$routeParams', 'api', 'contextor', function($scope, $rootScope, $location, $route, $routeParams, api, contextor) {
-        $(exports.GGNPC_MAP.root).addClass('forceShow')
-        $rootScope.loadingData = false;
+        $(exports.GGNPC_MAP.root).addClass('forceShow');
 
-        // not using the $routeProvider for now
-        $scope.routeParams = '';
 
-        $scope.parkData = null;
+        //when you add it to the $rootScope variable, then it's accessible to all other $scope variables.
+        $rootScope.$safeApply = function($scope, fn) {
+            fn = fn || function() {};
+            if($scope.$$phase) {
+                //don't worry, the value gets set and AngularJS picks up on it...
+                fn();
+            }else {
+                //this will fire to tell angularjs to notice that a change has happened
+                //if it is outside of it's own behaviour...
+                $scope.$apply(fn);
+            }
+        };
 
-        contextor.get($scope);
+        // This pretty much starts the whole thing.
+        // checks to see what page we are on
+        // The map reacts to this change
+        // then loads and renders the data
+        function checkContext(){
+            contextor.set();
 
-        $scope.$watch('parkContext', function(){
-            api.handleContext($scope);
-        });
+            if(GGNPC_MAP.mapSize == 'small' && contextor.context.linkToBigMap){
+                $rootScope.linkToBigMap = contextor.context.linkToBigMap;
+            }
 
-        $scope.queryString = $location.search();
+            $rootScope.contextChange = +new Date();
+
+        }
+
+        // Since we're not really changing "routes" probably won't need this
+        // but it's here for not just in case
+        var lastRoute = $route.current;
+        $scope.$on(
+            '$routeChangeSuccess',
+            function($currentRoute, $previousRoute){
+                $route.current = lastRoute;
+                console.log("ROUte CHange")
+
+                $scope.$safeApply($scope, function() {
+                     console.log("..............Safe applying");
+                });
+            }
+        );
+
+        checkContext();
 
     }]);
 
-    'use strict';
-
+    // resize a DOM element on window resize
     angular.module('app')
     .directive('resizer', ['$window', function ($window) {
         return function (scope, element, attrs) {
@@ -56,8 +87,6 @@
 
             scope.winWidth = $window.innerWidth - offsetX;
             scope.winHeight = $window.innerHeight - offsetY;
-
-            console.log(scope.winWidth)
 
             angular.element($window).bind('resize', function () {
                 scope.$apply(function () {
@@ -69,369 +98,7 @@
     }]);
 
 
-    /* MAP */
-    // reacts to changes in $scope.parkData
-    // TODO: this is more of a collection of code snippets for now, so want to wrap this into something more functional
-    angular.module('map', [])
-    .controller('mapController', ['$scope', '$rootScope', function($scope, $rootScope ){
-        $scope.mapData = null;
-
-        // if we need to process the data in anyway
-        function process(){
-            $scope.mapData = $scope.parkData;
-        }
-
-        $scope.$watch('parkData', function(){
-            if(!$scope.parkData) return;
-
-            process();
-        });
-
-    }])
-    .directive('ggnpcMap', [function () {
-        return {
-            template: '',
-            restrict: 'A',
-            scope: {
-                mapSize: '@',
-                mapData: '=',
-                parkContext: '=',
-                mapTraffic: '=',
-                mapWeather: '='
-            },
-            link: function postLink(scope, element, attrs) {
-                var root = element[0] || null;
-                var map;
-
-                function handleEventContext(){
-                    console.log(scope.mapData[0].data.event.attributes);
-                    var data = scope.mapData[0].data.event.attributes;
-                    if(data && data.relatedpark && data.relatedpark.geom){
-                        var extent = new google.maps.LatLngBounds();
-                        var obj = map.parks.shapes.drawGeom(data.relatedpark.geom);
-                        var bounds = obj.bounds;
-
-                        if(bounds){
-                            extent.extend(bounds.getNorthEast());
-                            extent.extend(bounds.getSouthWest());
-                        }
-
-                        map.fitBounds(extent);
-                    }
-                    if( data && data.locationmap ){
-                        var ll = data.locationmap.location.split(",").map(function(l){return +l;});
-                        map.parks.markers.createMarker( new google.maps.LatLng(ll[0], ll[1]), data, 3000);
-                    }
-                }
-
-                function handleVisitContext(){
-                    var extent = new google.maps.LatLngBounds();
-                    scope.mapData[1].data.results.forEach(function(result){
-                        var p = JSON.parse(result.geom);
-                        var obj = map.parks.shapes.drawGeom(p);
-                        var bounds = obj.bounds;
-                        if(bounds){
-                            extent.extend(bounds.getNorthEast());
-                            extent.extend(bounds.getSouthWest());
-                        }
-                    });
-                    map.fitBounds(extent);
-                }
-
-                function handleList(){
-                    var extent = new google.maps.LatLngBounds();
-
-                    var geojson;
-                    try{
-                        geojson = scope.mapData[0].data.geojson[0].results;
-                    }catch(e){}
-
-                    if(geojson)extent = drawShapes(geojson, extent);
-
-                    var items = scope.mapData[0].data.results;
-                    extent = drawMarkers(items, extent);
-
-                    map.fitBounds(extent);
-                }
-
-                var polygonStyles = {
-                    strokeColor: '#333',
-                    strokeOpacity: .4,
-                    strokeWeight: 2,
-                    fillColor: "#4afb05",
-                    fillOpacity: .2,
-                    zIndex: 1000
-                };
-                function drawShapes(features, extent){
-                    features.forEach(function(feature){
-                        var obj = map.parks.shapes.drawGeom(JSON.parse(feature.geom), polygonStyles);
-                        var bounds = obj.bounds;
-                        if(bounds){
-                            extent.extend(bounds.getNorthEast());
-                            extent.extend(bounds.getSouthWest());
-                        }
-                        var googleVector = obj.geom;
-
-                        if(googleVector instanceof Array){
-                            googleVector.forEach(function(p){
-                                google.maps.event.addListener(p, 'click', function(evt) {
-                                    map.parks.infoWindow.setContent(feature.unit_name);
-                                    map.parks.infoWindow.setPosition(evt.latLng);
-                                    map.parks.infoWindow.open(map);
-                                });
-                            })
-                        }
-
-                    });
-
-                   return extent;
-                }
-
-                function drawMarkers(items, extent){
-
-                    items.forEach(function(item){
-                        var data = item || null;
-
-                        if (data && data.attributes){
-                            var latlng;
-                            var loc;
-
-                            if(data.attributes.locationmap){
-                                loc = data.attributes.locationmap;
-                            }else if(data.attributes.location){
-                                loc = data.attributes.location;
-                            }
-
-                            if(typeof loc === 'string'){
-                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
-                            }else if(typeof loc === 'object' && loc.location){
-                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
-                            }
-
-                            if(latlng && (isNaN(latlng.lat()) || isNaN(latlng.lng()) )){
-                                latlng = null;
-                            }
-
-                            if(latlng){
-                                data.attributes.kind = data.kind;
-                                var marker = map.parks.markers.createMarker(latlng, data.attributes, 3000);
-                                extent.extend(latlng);
-
-                                google.maps.event.addListener(marker, 'click', function() {
-                                    map.parks.infoWindow.setContent(marker.data_.title + " : " + marker.data_.kind);
-                                    map.parks.infoWindow.open(map,marker);
-                                });
-
-                            }else{
-                                console.log("NO LOCATION: ", data);
-                                //handleNoLocation(root);
-                            }
-                        }else{
-                            console.log("NO LOCATION: ", data);
-                            //handleNoLocation(root);
-                        }
-                    });
-
-                    return extent;
-                }
-
-                function handleContextChange(){
-
-                    switch(scope.parkContext){
-                        case 'events':
-                            handleEventContext();
-                        break;
-                        case 'visit':
-                            handleVisitContext();
-                        break;
-                        case 'list':
-                            handleList();
-                        break;
-                    }
-                }
-
-                scope.$watch('mapData', function(newVal, oldVal){
-                    if(newVal){
-                        if(!map){
-                            map = new ggnpcMap.base({root:root}, scope.mapSize, ['markers','shapes','infoWindow']);
-
-                            if(scope.mapTraffic) map.parks.layers.setLayer('traffic');
-                            if(scope.mapWeather) map.parks.layers.setLayer('weather');
-
-                            handleContextChange();
-                        }
-                    }
-                });
-            }
-        };
-    }]);
-
-
-    angular.module('mapListings', [])
-    .controller('mapListCtrl', ['$scope','$rootScope', function($scope, $rootScope ){
-        $scope.filteredResults = [];
-        $scope.itemsPerPage = 25;
-        $scope.currentPage = 0;
-        $scope.groupedItems = [];
-
-        $scope.range = function (start, end) {
-            var ret = [];
-            if (!end) {
-                end = start;
-                start = 0;
-            }
-            for (var i = start; i < end; i++) {
-                ret.push(i);
-            }
-            return ret;
-        };
-
-        $scope.groupToPages = function () {
-            $scope.pagedItems = [];
-
-            for (var i = 0; i < $scope.filteredResults.length; i++) {
-                if (i % $scope.itemsPerPage === 0) {
-                    $scope.pagedItems[Math.floor(i / $scope.itemsPerPage)] = [ $scope.filteredResults[i] ];
-                } else {
-                    $scope.pagedItems[Math.floor(i / $scope.itemsPerPage)].push($scope.filteredResults[i]);
-                }
-            }
-        };
-
-        $scope.prevPage = function () {
-            if ($scope.currentPage > 0) {
-                $scope.currentPage--;
-            }
-        };
-
-        $scope.nextPage = function () {
-            if ($scope.currentPage < $scope.pagedItems.length - 1) {
-                $scope.currentPage++;
-            }
-        };
-
-        $scope.setPage = function () {
-            $scope.currentPage = this.n;
-        };
-
-        $scope.$watch('parkData', function(){
-            if(!$scope.parkData) return;
-
-            /*
-            $scope.filteredResults.length = 0;
-            var temp = [];
-            $scope.parkData[0].data.results.forEach(function(item){
-                switch($scope.ggnpcPageName){
-                    case 'about':
-                        if(item.kind == 'park' || item.kind == 'program' ){
-                            temp.push(item);
-                        }
-                    break;
-                    case 'visit':
-                        if(item.kind == 'park' || item.kind == 'program' ){
-                            temp.push(item);
-                        }
-                    break;
-                }
-
-
-            });
-            */
-            $scope.filteredResults = $scope.parkData[0].data.results.slice(0,-1);
-            $scope.groupToPages();
-        });
-
-    }])
-    .directive('mapList', ['api', function (api) {
-        var handleNoLocation = function(elm){
-            $(elm.parentNode.parentNode).addClass('no-location-found');
-        }
-        return {
-            template: '<div></div>',
-            restrict: 'A',
-            scope: {
-                mapkind: '=',
-                mapid: '=',
-                maptitle: '=',
-                mapItem: '='
-            },
-            link: function postLink(scope, element, attrs) {
-                var root = angular.element(element.children()[0])[0] || null;
-                var map;
-                if(root){
-                    map = new ggnpcMap.base({root:root}, 'small', ['markers']);
-                    var data = scope.mapItem || null;
-
-                    if (data && data.attributes){
-                        var latlng;
-                        var loc;
-
-                        if(data.attributes.locationmap){
-                            loc = data.attributes.locationmap;
-                        }else if(data.attributes.location){
-                            loc = data.attributes.location;
-                        }
-
-                        if(typeof loc === 'string'){
-                            latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
-                            console.log(loc, latlng.lat(), latlng.lng())
-                        }else if(typeof loc === 'object' && loc.location){
-                            latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
-                        }
-
-                        if(latlng && (isNaN(latlng.lat()) || isNaN(latlng.lng()) )){
-                            latlng = null;
-                        }
-
-                        if(latlng){
-
-                            var marker = map.parks.markers.createMarker(latlng, {}, 3000);
-                            map.setCenter(latlng);
-                        }else{
-                            console.log("NO LOCATION: ", scope.mapItem);
-                            handleNoLocation(root);
-                        }
-                    }else{
-                        console.log("NO LOCATION: ", scope.mapItem);
-                        handleNoLocation(root);
-                    }
-
-
-                    /*
-                    api.getById(scope.mapid, true, function(err, data){
-                        var d = data[0].data;
-                        if(d.attributes && d.attributes.location){
-
-                            var loc = d.attributes.location;
-                            var latlng;
-                            if(typeof loc === 'string'){
-                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc);
-
-                            }else if(typeof loc === 'object' && loc.location){
-                                latlng = ggnpcMap.utils.makeLatLngFromLocation(loc.location);
-                            }
-
-                            if(latlng){
-                                var marker = map.parks.markers.createMarker(latlng, {}, 3000);
-                                map.setCenter(latlng);
-                            }else{
-                                console.log("NO LOCATION: ", d.attributes);
-                                handleNoLocation(root);
-                            }
-
-                        }else{
-                            console.log("NO LOCATION: ", d.attributes);
-                            handleNoLocation(root);
-                        }
-                    });
-                    */
-
-                }
-            }
-        };
-    }]);
-
-    angular.module('myFilters', [])
+    angular.module('filters', [])
     .filter('makeUrlForKind', [function () {
         var urlSchemas = {
             'park': '/visit/park-sites/',
@@ -591,52 +258,53 @@
 
         };
 
-        api.handleContext = function(scope){
-            $rootScope.loadingData = true;
-            console.log(scope.parkContext)
-            switch(scope.parkContext){
+        api.handleContext = function(context, callback){
+            //$rootScope.loadingData = true;
+
+            switch(context.section){
                 case 'events':
 
-                    api.getEventContext(scope.routeParams, function(error, data){
-                        if(error){
-                            console.log(error);
-                            return false;
-                        }
-                        if(!data || !data.length)return;
-                        console.log(data);
+                    api.getEventContext(context.fileName, function(error, data){
+                        if(error)return callback(error, null);
+
+                        if(!data || !data.length)return callback(null, []);
 
                         if( data[0].data.key == 'stuff' && data[0].data.parent){
-                            scope.ggnpcPageName = data[0].data.ttributes.title;
+                            context.ggnpcPageName = data[0].data.ttributes.title;
                         }
 
-                        scope.parkData = data;
+                        return callback(null, data[0].data);
                     });
 
                 break;
                 case 'visit':
 
-                    api.getVisitContext(scope.routeParams, function(error, data){
-                        if(error){
-                            console.log(error);
-                            return false;
-                        }
-                        if(!data || !data.length) return;
+                    api.getVisitContext(context.fileName, function(error, data){
+                        if(error) return callback(error, null);
+
+                        if(!data || !data.length) return callback(null, []);
 
                         if( data[0].data.key == 'stuff' && data[0].data.parent){
-                            scope.ggnpcPageName = data[0].data.parent.attributes.title;
+                            context.ggnpcPageName = data[0].data.parent.attributes.title;
                         }
-                        scope.parkData = data;
+
+                        var r = {
+                            children: data[0].data.children.results || [],
+                            parent: data[0].data.parent || {},
+                            geom: data[1].data.results || []
+                        };
+
+                        return callback(null, r);
                     });
 
                 break;
                 case 'list':
-                    api.listKinds( scope.ggnpcPageName, function(error, data){
-                        if(error){
-                            console.log(error);
-                            return false;
-                        }
-                        if(!data || !data.length) return;
-                        scope.parkData = data;
+                    api.listKinds(context.fileName, function(error, data){
+                        if(error) return callback(error, null);
+
+                        if(!data || !data.length) return callback(null, []);
+
+                        return callback(null, data[0].data);
                     });
                 break;
             }
@@ -654,98 +322,105 @@
     angular.module('services.contextor',[]).factory('contextor', [function () {
         var contextor = {};
 
-        // pass scope
-        contextor.get = function(scope){
+        // stores our context params
+        contextor.context = {};
+
+        // set our context params
+        contextor.set = function(){
+            var o = {};
             var getParkContext = function(path){
                 if(path == '/about' || path == '/visit' || path == '/park-improvements' || path == '/learn' || path == '/conservation' || path == '/get-involved'){
-                    scope.linkToBigMap = environmentBaseUrl + "/map";
-                    var p = path.replace("/",'');
-                    scope.ggnpcPageName = p;
-                    return 'list';
-                }else if(path == '/about/map' || path == '/visit/map' || path == '/park-improvements/map' || path == '/learn/map' || path == '/conservation/map' || path == '/get-involved/map'){
-                    scope.linkToBigMap = environmentBaseUrl + "/map";
-                    var p = path.replace("/map",'').replace('/','');
+                    o.fileName = '';
+                    o.linkToBigMap = environmentBaseUrl + "/map";
+                    o.ggnpcPageName = path.replace("/",'');
+                    o.section = 'list';
 
-                    scope.ggnpcPageName = p;
-                    return 'list';
+                }else if(path == '/about/map' || path == '/visit/map' || path == '/park-improvements/map' || path == '/learn/map' || path == '/conservation/map' || path == '/get-involved/map'){
+                    o.linkToBigMap = environmentBaseUrl + "/map";
+                    o.ggnpcPageName = path.replace("/map",'').replace('/','');
+                    o.section = 'list';
 
                 }else if(path.indexOf('/visit/park-sites/') === 0){
-                    scope.routeParams = path.split('/').pop();
-                    scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
-                    return 'visit';
+                    o.fileName = path.split('/').pop();
+                    o.linkToBigMap = environmentBaseUrl + "/map/#" + path;
+                    o.section = 'visit';
+
                 }else if(path.indexOf('/events/') === 0){
-                    scope.routeParams = path.split('/').pop();
-                    scope.linkToBigMap = environmentBaseUrl + "/map/#" + path;
-                    return 'events';
+                    o.fileName = path.split('/').pop();
+                    o.linkToBigMap = environmentBaseUrl + "/map/#" + path;
+                    o.section =  'events';
+
                 }else{
-                    scope.linkToBigMap = environmentBaseUrl + "/map";
-                    scope.ggnpcPageName = "Index"
+                    o.fileName = '';
+                    o.linkToBigMap = environmentBaseUrl + "/map";
+                    o.ggnpcPageName = "Index"
+                    o.section = '';
                 }
 
-                return '';
+                return o;
             };
 
             var pathname = window.location.pathname;
             if(pathname.indexOf('/map') == 0) pathname = window.location.hash.substring(1);
             if(pathname.charAt(pathname.length-1) == "/")pathname = pathname.substring(0, pathname.length-1);
 
-            scope.parkContext = getParkContext(pathname);
-
-            console.log("parkContext: ",scope.parkContext, scope.ggnpcPageName)
+            contextor.context = getParkContext(pathname);
         }
+
         return contextor;
     }]);
 
+    angular.module('services.utilites', []).factory('utils', [function(){
+        var utils = {}
 
-    /* misc utilities */
-    var utils = {};
-    utils.extend = function(o) {
-      Array.prototype.slice.call(arguments, 1).forEach(function(other) {
-        if (!other) return;
-        d3.keys(other).forEach(function(k) {
-          o[k] = other[k];
-        });
-      });
-      return o;
-    };
-
-
-    /* GOOGLE MAP STUFF */
-    var ggnpcMap = {};
-    ggnpcMap.base = function(options, size, optionals){
-        size = size || 'big';
-        options = options || {};
-
-        var mapDefaults = {
-            mapOptions: {
-                backgroundColor: '#fff',
-                center: new google.maps.LatLng(37.7706, -122.3782),
-                zoom: 12,
-                mapTypeControlOptions: {
-                      mapTypeIds: ['parks']
-                    },
-                scrollwheel: false
-            },
-            root: null
+        utils.extend = function(o) {
+          Array.prototype.slice.call(arguments, 1).forEach(function(other) {
+            if (!other) return;
+            d3.keys(other).forEach(function(k) {
+              o[k] = other[k];
+            });
+          });
+          return o;
         };
-        var smallMapOptions = {
-                disableDefaultUI: true,
-                disableDoubleClickZoom: true,
-                draggable: false,
-                keyboardShortcuts: false,
-                panControl: false,
-                streetViewControl: false,
-                zoomControl: false
-            };
 
-        if(size == 'small'){
-            mapDefaults.mapOptions = utils.extend({}, mapDefaults.mapOptions, smallMapOptions);
+        return utils;
+    }]);
 
-        }
+    var floatEqual = function (f1, f2) {
+        return (Math.abs(f1 - f2) < 0.000001);
+    }
 
+    /* MAP */
+    angular.module('map', [])
+    .controller('mapController', ['$scope', '$rootScope', 'contextor', 'api', function($scope, $rootScope, contextor, api ){
         var ggnpcMapTemplate = {
+
+            getNormalizedCoord: function(coord, zoom){
+                var y = coord.y;
+                var x = coord.x;
+
+                // tile range in one direction range is dependent on zoom level
+                // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
+                var tileRange = 1 << zoom;
+
+                // don't repeat across y-axis (vertically)
+                if (y < 0 || y >= tileRange) {
+                    return null;
+                }
+
+                // repeat across x-axis
+                if (x < 0 || x >= tileRange) {
+                    x = (x % tileRange + tileRange) % tileRange;
+                }
+
+                return {
+                    x: x,
+                    y: y
+                };
+            },
+
             getTileUrl: function(coord, zoom) {
-                var normalizedCoord = ggnpcMap.utils.getNormalizedCoord(coord, zoom);
+                var normalizedCoord = this.getNormalizedCoord(coord, zoom);
                 if (!normalizedCoord) {
                     return null;
                 }
@@ -764,216 +439,534 @@
             minZoom: 10,
             name: 'parks'
         };
-        var parkMapType = new google.maps.ImageMapType(ggnpcMapTemplate);
 
-        options = utils.extend({}, mapDefaults, options);
+        $scope.markers = [];
+        $scope.geometries = [];
 
-        var map = new google.maps.Map(options.root, options.mapOptions);
+        $scope.mapOptions = {
+            options: {
+                backgroundColor: '#fff',
+                center: new google.maps.LatLng(37.7706, -122.3782),
+                zoom: 12,
+                mapTypeControlOptions: {
+                    mapTypeIds: ['parks']
+                },
+                mapTypeControl: false,
+                scrollwheel: false,
+                streetViewControl: false
 
-        map.mapTypes.set('parks', parkMapType);
-        map.setMapTypeId('parks');
-
-        var infowindow = new google.maps.InfoWindow({});
-
-
-        // Add optional helper methods
-        // helpers will be in map.parks object
-        map.parks = {};
-        map.parks.layers = ggnpcMap.layers(map);
-        if(optionals && optionals.length){
-            optionals.forEach(function(opt){
-                if(ggnpcMap.hasOwnProperty(opt)){
-                    map.parks[opt] = ggnpcMap[opt].apply(null, [map]);
-                }
-            });
+            },
+            tileTemplate: {
+                name: 'parks',
+                template: ggnpcMapTemplate,
+            }
         }
 
-        return map;
-    }
-
-
-
-    ggnpcMap.layers = function(map){
-        return (function(map){
-            var layers = {};
-            var currentLayers = [];
-
-            var availableLayers = {};
-
-            availableLayers.weather = new google.maps.ImageMapType({
-               getTileUrl: function(coord, zoom) {
-                  var X = coord.x % (1 << zoom);
-                  return "https://mts0.googleapis.com/mapslt?hl=en-US&lyrs=weather_0cloud,weather_f_ms|invert:1&x="+coord.x+"&y="+coord.y+"&z="+zoom+"&w=256&h=256&source=apiv3";
-               },
-               tileSize: new google.maps.Size(256, 256),
-               isPng: true
-            });
-
-            availableLayers.traffic = new google.maps.ImageMapType({
-               getTileUrl: function(coord, zoom) {
-                  var X = coord.x % (1 << zoom);
-                  return "http://mt3.google.com/mapstt?zoom=" + zoom + "&x=" + X + "&y=" + coord.y + "&client=api";
-               },
-               tileSize: new google.maps.Size(256, 256),
-               isPng: true
-            });
-
-            layers.setLayer = function(lyrName){
-                if(availableLayers[lyrName]){
-                    currentLayers.push(lyrName);
-                    map.overlayMapTypes.setAt(currentLayers.length, availableLayers[lyrName]);
-                }
-            };
-
-
-            map.overlayMapTypes.push(null);
-
-            return layers;
-
-        })(map);
-    }
-
-    ggnpcMap.infoWindow = function(map){
-        return (function(map){
-            return new google.maps.InfoWindow({});
-        })(map);
-    }
-
-    ggnpcMap.markers = function(map) {
-
-        return (function(map){
-
-            var markers = {};
-            markers.markerPool = [];
-
-            markers.checkMap =  function(){
-                return (map) ? true : false;
+        var smallMapOptions = smallMapOptions = {
+            options:{
+                disableDefaultUI: true,
+                disableDoubleClickZoom: true,
+                draggable: false,
+                keyboardShortcuts: false,
+                panControl: false,
+                streetViewControl: false,
+                scaleControl: false,
+                zoomControl: false
             }
+        };
 
-            markers.clearAll = function(){
-                if(!this.markerPool)return;
-                this.markerPool.forEach(function(m){
-                    m.setMap(null);
-                });
-                this.markerPool.length = 0;
-            }
+        if(GGNPC_MAP.mapSize == 'small') $scope.mapOptions = angular.extend($scope.mapOptions,smallMapOptions);
 
-            markers.clearOne = function(id){
-
-            }
-
-            markers.createMarker = function(latlng, data, zBase) {
-
-                var marker = new google.maps.Marker({
-                    map: map,
-                    position: latlng,
-                    data_: data,
-                    vizible: true,
-                    zIndex: zBase || 3000
-                });
-
-                markers.markerPool.push(marker);
-
-                google.maps.event.addListener(marker, 'click', function() {
-                    //markers.infowindow.setContent(markers.makeInfoContent(data));
-                    //markers.infowindow.open(markers.map, this);
-                });
-
-                return marker;
-            }
-
-            return markers;
-
-        })(map);
-
-    }
-
-    ggnpcMap.shapes = function(map){
-
-        return (function(map){
-            var shapes = {};
-
-            shapes.drawGeom = function(path, styles){
-                var bounds = null;
-                if(path && path.coordinates){
-
-                    var featureStyles = {
-                        strokeColor: '#333',
-                        strokeOpacity: .4,
-                        strokeWeight: 1,
-                        fillColor: "#4afb05",
-                        fillOpacity: 0.55,
-                        zIndex: 1000
-                    };
-
-                    styles = styles || featureStyles;
-
-                    var boundary = new GeoJSON(path, styles, true);
-
-                    if (boundary.type == 'Error'){
-                        console.log("Error: no boundary for this park")
-                    }else{
-
-                        if(boundary instanceof Array){
-                            boundary.forEach(function(p){
-                                p.setMap(map);
-                            });
-                        }else{
-                            boundary.setMap(map);
-                        }
-
-                        //selectedParkOutline.push(boundary);
-
-                        //if(boundary.geojsonBounds)map.fitBounds(boundary.geojsonBounds);
-                        if(boundary.geojsonBounds) bounds = boundary.geojsonBounds;
-                    }
-
-                }else{
-                    console.log("Geodata not ready!!!: ");
-                }
-
-                return {geom:boundary, bounds:bounds};
-            }
-
-            return shapes;
-
-        })(map);
-
-    }
-
-    ggnpcMap.utils = {
-        getNormalizedCoord: function(coord, zoom){
-            var y = coord.y;
-            var x = coord.x;
-
-            // tile range in one direction range is dependent on zoom level
-            // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
-            var tileRange = 1 << zoom;
-
-            // don't repeat across y-axis (vertically)
-            if (y < 0 || y >= tileRange) {
-                return null;
-            }
-
-            // repeat across x-axis
-            if (x < 0 || x >= tileRange) {
-                x = (x % tileRange + tileRange) % tileRange;
-            }
-
-            return {
-                x: x,
-                y: y
-            };
-        },
-        makeLatLngFromLocation: function(str){
+        var makeLatLngFromLocation = function(str){
             var ll = str.split(",").map(function(l){return +l;});
             if(ll.length < 2) return null;
-            return new google.maps.LatLng(ll[0], ll[1]);
+            return {latitude: ll[0], longitude: ll[1]};
+        }
+
+        var collectMarkers = function(data){
+            var arr = [];
+            // check parent
+            if(data && data.hasOwnProperty('parent')){
+                var m = makeLatLngFromLocation(data.parent.attributes.location || '');
+                if(m)arr.push(m);
+            }
+            $scope.markers = arr;
+        };
+        var collectGeometries = function(data){
+            if(data.geom){
+                var arr = [];
+                data.geom.forEach(function(g){
+                    if(g.geom) arr.push(JSON.parse(g.geom))
+                });
+                $scope.geometries = arr;
+            }
+        }
+
+        // watch for a change in the contextChange flag
+        // contextChange <timestamp>
+        $scope.$watch('contextChange', function(newVal, oldVal){
+            if(angular.isDefined(newVal)){
+
+                console.log("contextChange", contextor.context);
+
+                api.handleContext(contextor.context, function(err, data){
+
+                    if(err) console.log("ERROR: ", err);
+                    console.log("DATA: ", data);
+
+                    collectMarkers(data);
+                    collectGeometries(data)
+                });
+            }
+        });
+
+    }]).directive('ggnpcMap', ["$timeout", "$filter", function ($timeout, $filter) {
+        return {
+            template: '',
+            restrict: 'A',
+            scope: {
+                mapSize: '@',
+                refresh: "&refresh", // optional
+               // markers: '='
+            },
+            link: function postLink(scope, element, attrs) {
+                var root = element[0] || null;
+                var center = new google.maps.LatLng(37.7706, -122.3782);
+                var zoom = 12;
+
+                // Parse options
+                var opts = (angular.isDefined(scope.mapOptions)) ? scope.mapOptions :
+                    { options: {} };
+
+                if (attrs.options) {
+                    opts.options = angular.fromJson(attrs.options);
+                }
+
+                var _m = new MapModel(angular.extend(opts, {
+                    container: element[0],
+                    center: center,
+                    draggable: true,
+                    zoom: zoom
+                }));
+
+                _m.on('bounds_changed', function(){
+                    //console.log(_m.bounds);
+                });
+
+                // Put the map into the scope
+                scope.map = _m;
+
+                // Check if we need to refresh the map
+                if (angular.isUndefined(scope.refresh())) {
+                  // No refresh property given; draw the map immediately
+                  _m.draw();
+                }
+                else {
+                  scope.$watch("refresh()", function (newValue, oldValue) {
+                    if (newValue && !oldValue) {
+                      _m.draw();
+                    }
+                  });
+                }
+
+                // Geometries
+                scope.$watch("geometries", function (newValue, oldValue) {
+                    $timeout(function () {
+                        angular.forEach(newValue, function (v, i) {
+                            _m.addGeometries(v);
+                        });
+
+                        // TODO: write a clear orphan routine,
+                        // based on markers method below
+
+                        _m.fitGeometries();
+                    });
+                });
+
+                // Markers
+                scope.$watch("markers", function (newValue, oldValue) {
+
+                  $timeout(function () {
+
+                    angular.forEach(newValue, function (v, i) {
+                      if (!_m.hasMarker(v.latitude, v.longitude)) {
+
+                        _m.addMarker(v.latitude, v.longitude, v.icon, v.infoWindow);
+                      }
+                    });
+
+                    // Clear orphaned markers
+                    var orphaned = [];
+
+                    angular.forEach(_m.getMarkerInstances(), function (v, i) {
+                      // Check our scope if a marker with equal latitude and longitude.
+                      // If not found, then that marker has been removed form the scope.
+
+                      var pos = v.getPosition(),
+                        lat = pos.lat(),
+                        lng = pos.lng(),
+                        found = false;
+
+                      // Test against each marker in the scope
+                      for (var si = 0; si < scope.markers.length; si++) {
+
+                        var sm = scope.markers[si];
+
+                        if (floatEqual(sm.latitude, lat) && floatEqual(sm.longitude, lng)) {
+                          // Map marker is present in scope too, don't remove
+                          found = true;
+                        }
+                      }
+
+                      // Marker in map has not been found in scope. Remove.
+                      if (!found) {
+                        orphaned.push(v);
+                      }
+                    });
+
+                    orphaned.length && _m.removeMarkers(orphaned);
+
+                    // Fit map when there are more than one marker.
+                    // This will change the map center coordinates
+                    if (attrs.fit == "true" && newValue && newValue.length > 1) {
+                      _m.fit();
+                    }
+                  });
+
+                }, true);
+            } // end "link"
+        }
+    }]);
+
+
+var MapModel = (function () {
+
+var _defaults = {
+    zoom: 8,
+    draggable: false,
+    container: null
+};
+
+/**
+ *
+ */
+function PrivateMapModel(opts) {
+
+    var _instance = null,
+        _markers = [],  // caches the instances of google.maps.Marker
+        _geometries = [],
+        _handlers = [], // event handlers
+        _windows = [],  // InfoWindow objects
+        o = angular.extend({}, _defaults, opts),
+        that = this,
+        currentInfoWindow = null;
+
+    this.center = opts.center;
+    this.bounds = null;
+    this.zoom = o.zoom;
+    this.draggable = o.draggable;
+    this.dragging = false;
+    this.selector = o.container;
+    this.markers = [];
+    this.options = o.options;
+    this.tileTemplate = o.tileTemplate;
+
+    this.draw = function () {
+
+        if (that.center == null) {
+            // TODO log error
+            return;
+        }
+
+        if (_instance == null) {
+
+        // Create a new map instance
+
+        _instance = new google.maps.Map(that.selector, angular.extend(that.options, {
+            center: that.center,
+            zoom: that.zoom,
+            draggable: that.draggable,
+            mapTypeId : google.maps.MapTypeId.ROADMAP
+        }));
+
+        google.maps.event.addListener(_instance, "dragstart",
+
+            function () {
+                that.dragging = true;
+            }
+        );
+
+        google.maps.event.addListener(_instance, "idle",
+
+            function () {
+                that.dragging = false;
+            }
+        );
+
+        google.maps.event.addListener(_instance, "drag",
+
+            function () {
+                that.dragging = true;
+            }
+        );
+
+        google.maps.event.addListener(_instance, "zoom_changed",
+
+            function () {
+                that.zoom = _instance.getZoom();
+                that.center = _instance.getCenter();
+            }
+        );
+
+        google.maps.event.addListener(_instance, "center_changed",
+
+            function () {
+                that.center = _instance.getCenter();
+            }
+        );
+
+        google.maps.event.addListener(_instance, "bounds_changed",
+
+            function () {
+                that.bounds = _instance.getBounds();
+            }
+        );
+
+
+        if(angular.isDefined(that.tileTemplate)){
+            _instance.mapTypes.set(that.tileTemplate.name,  new google.maps.ImageMapType(that.tileTemplate.template));
+            _instance.setMapTypeId(that.tileTemplate.name);
+        }
+
+        // Attach additional event listeners if needed
+        if (_handlers.length) {
+
+            angular.forEach(_handlers, function (h, i) {
+
+                google.maps.event.addListener(_instance,
+                    h.on, h.handler);
+                });
+            }
+        }
+        else {
+
+            // Refresh the existing instance
+            google.maps.event.trigger(_instance, "resize");
+
+            var instanceCenter = _instance.getCenter();
+
+            if (!floatEqual(instanceCenter.lat(), that.center.lat())
+                || !floatEqual(instanceCenter.lng(), that.center.lng())) {
+
+                _instance.setCenter(that.center);
+            }
+
+            if (_instance.getZoom() != that.zoom) {
+                _instance.setZoom(that.zoom);
+            }
         }
     };
 
+    this.fit = function () {
+        if (_instance && _markers.length) {
+
+            var bounds = new google.maps.LatLngBounds();
+
+            angular.forEach(_markers, function (m, i) {
+                bounds.extend(m.getPosition());
+            });
+
+            _instance.fitBounds(bounds);
+        }
+    };
+
+    this.on = function(event, handler) {
+        _handlers.push({
+          "on": event,
+          "handler": handler
+      });
+    };
+
+    this.clearGeometries = function(){
+        _geometries.forEach(function(boundary){
+            if(boundary instanceof Array){
+                boundary.forEach(function(p){
+                    p.setMap(null);
+                });
+            }else{
+                boundary.setMap(null);
+            }
+        });
+    }
+
+    this.fitGeometries = function(){
+        if (_instance && _geometries.length) {
+            var bds = new google.maps.LatLngBounds();
+            _geometries.forEach(function(boundary){
+                if(boundary.geojsonBounds) bds.union( boundary.geojsonBounds );
+            });
+            _instance.fitBounds(bds);
+        }
+    }
+    this.addGeometries = function(path, styles){
+        var bounds = null;
+        if(path && path.coordinates){
+
+            var featureStyles = {
+                strokeColor: '#333',
+                strokeOpacity: .4,
+                strokeWeight: 1,
+                fillColor: "#4afb05",
+                fillOpacity: 0.55,
+                zIndex: 1000
+            };
+
+            styles = styles || featureStyles;
+
+            var boundary = new GeoJSON(path, styles, true);
 
 
+            if (boundary.type == 'Error'){
+                console.log("Error: no boundary for this park")
+            }else{
+                _geometries.push(boundary);
+                if(boundary instanceof Array){
+                    boundary.forEach(function(p){
+                        p.setMap(_instance);
+                    });
+                }else{
+                    boundary.setMap(_instance);
+                }
+
+                //selectedParkOutline.push(boundary);
+
+                //if(boundary.geojsonBounds)map.fitBounds(boundary.geojsonBounds);
+                if(boundary.geojsonBounds) bounds = boundary.geojsonBounds;
+            }
+
+        }else{
+            console.log("Geodata not ready!!!: ");
+        }
+
+        return {geom:boundary, bounds:bounds};
+    }
+
+    this.addMarker = function (lat, lng, icon, infoWindowContent, label, url, thumbnail) {
+
+        if (that.findMarker(lat, lng) != null) {
+            return;
+        }
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(lat, lng),
+            map: _instance,
+            icon: icon
+        });
+
+        if (label) {}
+
+        if (url) {}
+
+        if (infoWindowContent != null) {
+            var infoWindow = new google.maps.InfoWindow({
+                content: infoWindowContent
+            });
+
+            google.maps.event.addListener(marker, 'click', function() {
+                if (currentInfoWindow != null) {
+                    currentInfoWindow.close();
+                }
+                infoWindow.open(_instance, marker);
+                currentInfoWindow = infoWindow;
+            });
+        }
+
+        // Cache marker
+        _markers.unshift(marker);
+
+        // Cache instance of our marker for scope purposes
+        that.markers.unshift({
+          "lat": lat,
+          "lng": lng,
+          "draggable": false,
+          "icon": icon,
+          "infoWindowContent": infoWindowContent,
+          "label": label,
+          "url": url,
+          "thumbnail": thumbnail
+    });
+
+        // Return marker instance
+        return marker;
+    };
+
+    this.findMarker = function (lat, lng) {
+        for (var i = 0; i < _markers.length; i++) {
+            var pos = _markers[i].getPosition();
+
+            if (floatEqual(pos.lat(), lat) && floatEqual(pos.lng(), lng)) {
+                return _markers[i];
+            }
+        }
+
+        return null;
+    };
+
+    this.findMarkerIndex = function (lat, lng) {
+        for (var i = 0; i < _markers.length; i++) {
+            var pos = _markers[i].getPosition();
+
+            if (floatEqual(pos.lat(), lat) && floatEqual(pos.lng(), lng)) {
+                return i;
+            }
+        }
+
+        return -1;
+    };
+
+    this.addInfoWindow = function (lat, lng, html) {
+        var win = new google.maps.InfoWindow({
+            content: html,
+            position: new google.maps.LatLng(lat, lng)
+        });
+
+        _windows.push(win);
+
+        return win;
+    };
+
+    this.hasMarker = function (lat, lng) {
+        return that.findMarker(lat, lng) !== null;
+    };
+
+    this.getMarkerInstances = function () {
+        return _markers;
+    };
+
+    this.removeMarkers = function (markerInstances) {
+
+        var s = this;
+
+        angular.forEach(markerInstances, function (v, i) {
+            var pos = v.getPosition(),
+                lat = pos.lat(),
+                lng = pos.lng(),
+                index = s.findMarkerIndex(lat, lng);
+
+            // Remove from local arrays
+            _markers.splice(index, 1);
+            s.markers.splice(index, 1);
+
+            // Remove from map
+            v.setMap(null);
+        });
+    };
+
+}
+
+// Done
+return PrivateMapModel;
+}()); // end Map
 
 
 })(window);
