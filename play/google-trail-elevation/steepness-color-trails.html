@@ -60,6 +60,12 @@
         margin-left: 25%;
       }
 
+      path.elevation-mouseover {
+        stroke-width: 40;
+        stroke: #000;
+        opacity: 0;
+      }
+
     </style>
   </head>
   <body>
@@ -174,7 +180,7 @@
 
           var routePath = new google.maps.Polyline({
             path: segment,
-            strokeColor: steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
+            strokeColor: "black", //steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
             strokeOpacity: 1,
             strokeWeight: strokeWeight
           });
@@ -225,7 +231,17 @@
             .data(elevationData)
           .enter().append("path")
           // .attr("class", "elevation")
-          .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
+          .attr("class", function(d, i) { return "elevation-mouseover route-segment" + (i+1); })
+          .attr("d", function(d, i) {
+            if (i === elevationData.length-1) return "M0,0";
+            return line([d, elevationData[i+1]]); 
+          });
+
+        g.selectAll("path.elevation")
+            .data(elevationData)
+          .enter().append("path")
+          // .attr("class", "elevation")
+          .attr("class", function(d, i) { return "elevation"; }) // route-segment" + (i+1); })
           .attr("d", function(d, i) {
             if (i === elevationData.length-1) return "M0,0";
             return line([d, elevationData[i+1]]); 
