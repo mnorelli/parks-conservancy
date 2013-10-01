@@ -22,7 +22,7 @@
       path.elevation {
         fill: none;
         stroke: #000;
-        stroke-width: 1;
+        stroke-width: 2;
       }
 
       .axis path,
@@ -186,21 +186,30 @@
         var g = svg.append("g")
           .attr("transform", "translate(" + width/4 + "," + padding + ")");
 
-        g.append("path")
+
+        var elevationData = elevation.slice(1);
+        var elevationPoints = g.selectAll("path")
+            .data(elevationData)
+          .enter().append("path")
           .attr("class", "elevation")
-          .attr("d", line(elevation));
+          .attr("d", function(d, i) {
+            if (i === elevationData.length-1) return "M0,0";
+            return line([d, elevationData[i+1]]); 
+          });
 
         var r = d3.scale.linear().domain([0, maxHeight]).range([1, 20]);
         
-        var elevationPoints = g.append("g").selectAll("circle")
-          .data(elevation)
-        .enter().append("circle")
-          .attr("cx", function(d) { return x(milesToFeet(d.distance)); })
-          .attr("cy", function(d) { return y(d.height); })
-          .attr("r", function(d) { return r(d.height); })
-          .attr("fill", function(d) { return heightColorScale(d.height); })
-          .attr("stroke", "none")
-          .attr("stroke-width", "0");
+        console.log(elevation);
+
+        // var elevationPoints = g.append("g").selectAll("circle")
+        //   .data(elevation)
+        // .enter().append("circle")
+        //   .attr("cx", function(d) { return x(milesToFeet(d.distance)); })
+        //   .attr("cy", function(d) { return y(d.height); })
+        //   .attr("r", function(d) { return r(d.height); })
+        //   .attr("fill", function(d) { return heightColorScale(d.height); })
+        //   .attr("stroke", "none")
+        //   .attr("stroke-width", "0");
 
         // XXX FIX: these should be line segments
         elevationPoints.on("mouseover", function(e) {
@@ -212,7 +221,8 @@
             fillOpacity: 0.35,
             map: map,
             center: new google.maps.LatLng(e.coordinates[0], e.coordinates[1]),
-            radius: 50
+            radius: 50,
+            zIndex: 99999999999
           };
           var marker = new google.maps.Circle(markerStyle);
           overlays.matchMarker = marker;
@@ -223,15 +233,15 @@
         });
 
         // the legend
-        g.append("g").selectAll("circle")
-          .data(elevation)
-        .enter().append("circle")
-          .attr("cx", 21)
-          .attr("cy", function(d) { return y(d.height); })
-          .attr("r", function(d) { return r(d.height); })
-          .attr("fill", function(d) { return heightColorScale(d.height); })
-          .attr("stroke", "none")
-          .attr("stroke-width", "0");
+        // g.append("g").selectAll("circle")
+        //   .data(elevation)
+        // .enter().append("circle")
+        //   .attr("cx", 21)
+        //   .attr("cy", function(d) { return y(d.height); })
+        //   .attr("r", function(d) { return r(d.height); })
+        //   .attr("fill", function(d) { return heightColorScale(d.height); })
+        //   .attr("stroke", "none")
+        //   .attr("stroke-width", "0");
 
         var xAxis = d3.svg.axis()
             .scale(x)
