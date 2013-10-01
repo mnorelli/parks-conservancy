@@ -66,6 +66,12 @@
         opacity: 0;
       }
 
+      #trips {
+        position: fixed;
+        top: 20px;
+        left: 100px;
+      }
+
     </style>
   </head>
   <body>
@@ -74,11 +80,49 @@
     <div id="map-legend"></div>
     <div id="chart"></div>
     <div id="metadata"></div>
+    <div id="trips">
+      <select></select>
+    </div>
 
     <script src="js/d3.v3.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
     <script>
+
+      // default file to load:
+      var elevationProfileFile = "elevation-profile-metadata.json";
+      var trips = [
+        "Select a trip ID",
+        1287, 1424, 1431, 89, 45, 1297, 216, 
+        1338, 1446, 1295, 140, 1333, 63, 1448, 
+        1449, 263, 1433
+      ];
+
+      var qs = window.location.search.substr(1);
+      if (qs) {
+        var terms = qs.split("&").map(function(t) { return t.split("="); }),
+            args = {};
+        terms.forEach(function(t) { args[t[0]] = t[1]; });
+        // console.log(args.id, trips.indexOf(""+args.id), trips.indexOf(""+args.id) > -1);
+        if (args.id && trips.indexOf(+args.id) > -1) {
+          var elevationProfileFile = "trips-elevation/" + args.id + ".json";
+          // console.log("elevationProfileFile:", elevationProfileFile);
+        }
+      }
+
+      var tripsDropdown = d3.select("#trips select");
+      tripsDropdown.selectAll("option")
+          .data(trips)
+        .enter().append("option")
+          .attr("value", String)
+          .text(String);
+
+      tripsDropdown.on("change", function(e) {
+        var selected = tripsDropdown.node().selectedOptions[0].value;
+        if (selected !== "Select a trip ID")
+          window.location.search = "?id=" + selected;
+      });
+
 
       var width = window.innerWidth,
           height = 200,
@@ -106,7 +150,7 @@
 
       var debug = {},
           overlays = {};
-      d3.json("elevation-profile-metadata.json", function(err, profile) {
+      d3.json(elevationProfileFile, function(err, profile) {
 
         var elevation = profile.elevation;
         debug.elevation = elevation;
@@ -202,7 +246,7 @@
                     .attr("transform", "translate(" + width/4 + "," + padding + ")")
                     .style("fill", "red")
                     .style("opacity", 0.8);
-            console.log("overlay:", overlay);
+            // console.log("overlay:", overlay);
             overlays.map2graph = overlay;
           });
           google.maps.event.addListener(routePath, "mouseout", function() {
