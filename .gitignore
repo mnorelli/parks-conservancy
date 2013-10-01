@@ -8,3 +8,7 @@ tmp/
 data-*
 SeanNotes.txt
 .*.sw?
+node_modules/
+npm-debug.log
+SeanNotes.txt
+data/

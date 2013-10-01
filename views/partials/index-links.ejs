@@ -1,0 +1,74 @@
+<style>
+  .hidden {display: none;}
+  .active {display: block;}
+</style>
+<script>
+
+
+var environmentBaseUrl = 'http://0.0.0.0:8080/';
+<% if (environment && environment == 'staging') { %>
+    environmentBaseUrl = 'http://staging.parks.stamen.com';
+<% }else if(environment && environment == 'development'){ %>
+    environmentBaseUrl = 'http://dev.parks.stamen.com';
+<% } else { %>
+    environmentBaseUrl = 'http://0.0.0.0:8080';
+<% } %>
+
+
+var urlSchemas = {
+  'park': '/visit/park-sites/',
+  'event': '/events/',
+  'location': '/location/',
+  'program': '/learn/',
+  'subprogram': '/learn/community-programs/',
+  'specie': '/conservation/plants-animals/endangered-species/',
+  'project': '/park-improvements/current-projects/'
+}
+
+$.getJSON('http://stamen-parks-api-staging.herokuapp.com/list/all', function(data) {
+  var items = [];
+
+
+  var nested = {};
+  data.results.forEach(function(item){
+    var kind = item.kind;
+    if(!nested[kind])nested[kind] = [];
+    nested[kind].push(item);
+  });
+
+  var body = $('#leftcolumn');
+  for(var item in nested){
+    if (item !== 'park' && item !== 'event') continue;
+    var wrapper = "<div id='cont-" + item + "'><h3>";
+    wrapper += "<a id='show-" + item + "' class='list-toggle' data-target='list-" + item + "' href='#'>" + item + "<a/>";
+    wrapper += "</h3></div>";
+
+    var parent = body.append(wrapper);
+
+    var items = [];
+
+    nested[item].forEach(function(obj){
+      var link = environmentBaseUrl + urlSchemas[item] + obj.filename;
+      var elm = "<li><a href='" + link + "'>" + obj.title + "</a></li>";
+      items.push(elm);
+    });
+
+    $('<ul/>', {
+      'id': 'list-' + item,
+      'class': 'list hidden',
+      html: items.join('')
+    }).appendTo(parent);
+  }
+
+  $('.list-toggle').on('click', function(e){
+    e.preventDefault && e.preventDefault();
+    e.returnValue = false;
+    var target = $(this).data("target");
+    var list = $("#" + target);
+    list.toggleClass("active");
+  });
+
+  $("#list-park" ).toggleClass("active");
+
+});
+</script>

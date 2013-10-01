@@ -1,0 +1,90 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.full-width{
+    width: 100% !important;
+}
+#trip-planner{
+
+}
+#trip-planner *{
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+#trip-planner form{
+    overflow: hidden;
+}
+#trip-planner input[type='text']{
+    border: 1px solid #ccc;
+    line-height: 1.5;
+    font-size: 1.8em;
+    font-weight: 100;
+    color: #999;
+}
+#trip-planner input[type='submit']{
+    border: 0;
+    line-height: 1.5;
+    font-size: 1.8em;
+    font-weight: 100;
+    color: #fff;
+    background: #333;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+#trip-planner input[type='text']:focus{
+    outline: 1px solid #000;
+    outline-offset: 0;
+}
+.trip-planner-row{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.trip-planner-header{
+    margin: 0;
+    background: #F47B13;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.7em;
+    line-height: 2em;
+    padding-left: 10px;
+}
+
+.trip-planner-from, .trip-planner-to{
+    float: left;
+}
+
+.trip-planner-from{
+    width: 40%;
+}
+
+.trip-planner-to{
+    width:60%;
+}
+
+.trip-planner-distance{
+
+}
+
+.trip-planner-time{
+
+}
+
+.trip-planner-mode{
+
+}
+
+.trip-planner-maps{
+    margin-top: 20px;
+}
+.ggnpc-map-container{
+    height: 400px;
+}
+.ggnpc-map{
+    height: 100%;
+}
+
+.label-small{
+    font-size: 12px;
+}
