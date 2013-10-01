@@ -33,7 +33,6 @@ hstore:
 data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z data/nhdh1806.7z tmp/.placeholder
 	7z -otmp/ -y x data/nhdh1801.7z > /dev/null
 	ogr2ogr --config PG_USE_COPY YES \
-		-s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -43,7 +42,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		tmp/NHDH1801.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-		-s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -57,7 +55,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 	
 	7z -otmp/ -y x data/nhdh1802.7z > /dev/null
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -68,7 +65,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		tmp/NHDH1802.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -83,7 +79,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 	
 	7z -otmp/ -y x data/nhdh1804.7z > /dev/null
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -94,7 +89,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		tmp/NHDH1804.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -109,7 +103,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 	
 	7z -otmp/ -y x data/nhdh1805.7z > /dev/null
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -120,7 +113,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		tmp/NHDH1805.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -135,7 +127,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 	
 	7z -otmp/ -y x data/nhdh1806.7z > /dev/null
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
@@ -146,7 +137,6 @@ data-nhd: data/nhdh1801.7z data/nhdh1802.7z data/nhdh1804.7z data/nhdh1805.7z da
 		tmp/NHDH1806.gdb nhdarea nhdfcode nhdline nhdpoint nhdwaterbody | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	ogr2ogr --config PG_USE_COPY YES \
-	        -s_srs EPSG:4326 \
 		-t_srs EPSG:900913 \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
