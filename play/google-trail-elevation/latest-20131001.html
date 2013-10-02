@@ -91,8 +91,10 @@
 
     <script>
 
-      // default file to load:
+      // default sample trail profile
       var elevationProfileFile = "elevation-profile-metadata.json";
+      
+      // available trips
       var trips = [
         "Select a trip ID",
         1287, 1424, 1431, 89, 45, 1297, 216, 
@@ -100,18 +102,21 @@
         1449, 263, 1433
       ];
 
+      // check querystring for a trip id to load, otherwise use the default sample
       var qs = window.location.search.substr(1);
       if (qs) {
+        
         var terms = qs.split("&").map(function(t) { return t.split("="); }),
             args = {};
-        terms.forEach(function(t) { args[t[0]] = t[1]; });
-        // console.log(args.id, trips.indexOf(""+args.id), trips.indexOf(""+args.id) > -1);
+        
+        terms.forEach(function(t) { args[t[0]] = t[1]; });  // array to object
+
         if (args.id && trips.indexOf(+args.id) > -1) {
           var elevationProfileFile = "trips-elevation/" + args.id + ".json";
-          // console.log("elevationProfileFile:", elevationProfileFile);
         }
       }
 
+      // for selecting a TnT trip from a dropdown menu
       var tripsDropdown = d3.select("#trips select");
       tripsDropdown.selectAll("option")
           .data(trips)
@@ -126,6 +131,7 @@
       });
 
 
+      // create our graph/elevation profile svg container
       var width = window.innerWidth,
           height = 200,
           padding = 20;
@@ -140,6 +146,8 @@
         return 5280 * mi;
       }
 
+      // clear an overlay from the map. should probably have a resetMap() function too
+      // to clear everything
       function clearOverlay(overlay) {
         if (overlay) 
           overlay.setMap(null);
@@ -147,12 +155,13 @@
 
       var debug = {},
           overlays = {};
+
       d3.json(elevationProfileFile, function(err, profile) {
 
         var elevation = profile.elevation;
         debug.elevation = elevation;
 
-        // create the map
+        // create the map (uses a custom tileset with code from js/customTiles.js)
         d3.select("#map").style("width", width + "px");
         var mid = elevation[~~(elevation.length/2)].coordinates;  // take a point from the middle of the route as a center
         var center = new google.maps.LatLng(mid[0], mid[1]);
@@ -167,6 +176,7 @@
         map.mapTypes.set('ggnra', mapType);
         map.setMapTypeId('ggnra');
 
+        // a "route" is two contiguous lat/lng pairs
         var route = elevation.map(function(d) { 
           var c = d.coordinates;
           return new google.maps.LatLng(c[0], c[1]); 
@@ -176,14 +186,16 @@
             maxHeight = d3.max(elevation, function(d) { return d.height; });
         var maxScale = Math.max(maxDist, maxHeight);  // so everything is in proportion
 
+        // calculate the change in steepness for every segment
         var heightDeltas = route.map(function(point, i) {
-          // if (i === 0) return 0;
           if (i === route.length-1) return 0;
           return elevation[i].height - elevation[i+1].height;
         }).sort(d3.ascending);
 
+        // overall elevation change (for the metadata)
         var elevationChange = d3.sum(heightDeltas.map(function(d) { return Math.abs(d); }));
 
+        // display some metadata (from TnT, mostly)
         var metadata = [
           "<h3>" + profile.metadata.name + "</h3>",
           "<b>Duration: </b>" + profile.metadata.duration,
@@ -194,14 +206,17 @@
         ].join("<br>");
         d3.select("#metadata").html(metadata);
 
+        // stroke color of segment polyline as a function of segment elevation
         var heightColorScale = d3.scale.linear()
               .domain([0, maxHeight])
               .range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
 
+        // stroke color of segment polyline as a function of segment steepness
         var steepnessColorScale = d3.scale.linear()
               .domain(d3.extent(heightDeltas))
               .range(["hsl(150, 100%, 70%)", "hsl(0, 100%, 70%)"]);
 
+        // stroke weight of segment polyline as a function of segment steepness
         var steepnessStrokeWeight = d3.scale.linear()
               .domain(d3.extent(heightDeltas))
               .range([20, 2]);
@@ -242,6 +257,8 @@
 
           routePath.setMap(map);
           
+          // when you mouseover the "route"/segment on the map, the same segment is highlighted on the
+          // elevation profile
           google.maps.event.addListener(routePath, "mouseover", function() {
             var sister = svg.select(".route-segment" + i),
                 locStr = sister.attr("d").substr(1).split(/[ML]/g),
@@ -259,16 +276,18 @@
                     .attr("transform", "translate(" + width/4 + "," + padding + ")")
                     .style("fill", "red")
                     .style("opacity", 0.8);
-            // console.log("overlay:", overlay);
+
             overlays.map2graph = overlay;
           });
+
           google.maps.event.addListener(routePath, "mouseout", function() {
-            // svg.select(".route-segment" + i).style("stroke-width", 2).style("stroke", "#000");
-            // console.log("overlays:", overlays);
             overlays.map2graph.remove();
             overlays.map2graph = null;
           });
         });
+
+
+        // create the elevation profile graph (below the map)
 
         // var clamp = d3.scale.linear().domain([0, maxScale]).range([padding, 500]); // proportional scale
         var x = d3.scale.linear().domain([0, maxDist]).range([padding, 800]);
@@ -278,21 +297,22 @@
               .x(function(d) { return x(milesToFeet(d.distance)); })
               .y(function(d) { return y(d.height); });
 
+        // move the container over so it's "centered"
         var g = svg.append("g")
           .attr("transform", "translate(" + width/4 + "," + padding + ")");
 
-
+        // the invisible profile with a huge width (since it's hard to mouseover a tiny line)
         var elevationData = elevation.slice(1);
         var elevationPoints = g.selectAll("path")
             .data(elevationData)
           .enter().append("path")
-          // .attr("class", "elevation")
           .attr("class", function(d, i) { return "elevation-mouseover route-segment" + (i+1); })
           .attr("d", function(d, i) {
             if (i === elevationData.length-1) return "M0,0";
             return line([d, elevationData[i+1]]); 
           });
 
+        // the visible elevation profile
         g.selectAll("path.elevation")
             .data(elevationData)
           .enter().append("path")
@@ -305,8 +325,7 @@
 
         var r = d3.scale.linear().domain([0, maxHeight]).range([1, 20]);
         
-        console.log(elevation);
-
+        // console.log(elevation);
         // var elevationPoints = g.append("g").selectAll("circle")
         //   .data(elevation)
         // .enter().append("circle")
@@ -317,7 +336,8 @@
         //   .attr("stroke", "none")
         //   .attr("stroke-width", "0");
 
-        // XXX FIX: these should be line segments
+        // when you mouseover the elevation profile segments, it highlights the same 
+        // segment on the map
         elevationPoints.on("mouseover", function(e) {
           var markerStyle = {
             strokeColor: '#FF0000',
@@ -338,7 +358,7 @@
           clearOverlay(overlays.graph2map);
         });
 
-        // the legend
+        // the legend for the circle-based elevation profile graph
         // g.append("g").selectAll("circle")
         //   .data(elevation)
         // .enter().append("circle")
@@ -349,6 +369,7 @@
         //   .attr("stroke", "none")
         //   .attr("stroke-width", "0");
 
+        // axes for the elevation profile
         var xAxis = d3.svg.axis()
             .scale(x)
             .orient("bottom")
