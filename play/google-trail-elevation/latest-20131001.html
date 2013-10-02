@@ -58,6 +58,7 @@
         font-size: 11.5px;
         padding: 20px;
         margin-left: 25%;
+        width: 50%;
       }
 
       path.elevation-mouseover {
@@ -151,14 +152,6 @@
         var elevation = profile.elevation;
         debug.elevation = elevation;
 
-        var metadata = [
-          "<h3>" + profile.metadata.name + "</h3>",
-          "<b>Duration: </b>" + profile.metadata.duration,
-          "<b>Intensity: </b>" + profile.metadata.intensity,
-          "<b>Description: </b>" + profile.metadata.description.replace(/[\n\r\t]/g, "").replace(/\<p\>/g, "")
-        ].join("<br>");
-        d3.select("#metadata").html(metadata);
-
         // create the map
         d3.select("#map").style("width", width + "px");
         var mid = elevation[~~(elevation.length/2)].coordinates;  // take a point from the middle of the route as a center
@@ -173,7 +166,6 @@
         var map = new google.maps.Map(document.getElementById('map'), mapOptions);
         map.mapTypes.set('ggnra', mapType);
         map.setMapTypeId('ggnra');
-
 
         var route = elevation.map(function(d) { 
           var c = d.coordinates;
@@ -190,6 +182,18 @@
           return elevation[i].height - elevation[i+1].height;
         }).sort(d3.ascending);
 
+        var elevationChange = d3.sum(heightDeltas.map(function(d) { return Math.abs(d); }));
+
+        var metadata = [
+          "<h3>" + profile.metadata.name + "</h3>",
+          "<b>Duration: </b>" + profile.metadata.duration,
+          "<b>Elevation Change: </b>" + elevationChange.toFixed(2) + "ft",
+          "<b>Length: </b>" + profile.metadata.length_miles.toFixed(2) + " miles",
+          "<b>Intensity: </b>" + profile.metadata.intensity,
+          "<b>Description: </b>" + profile.metadata.description.replace(/[\n\r\t]/g, "").replace(/\<p\>/g, "")
+        ].join("<br>");
+        d3.select("#metadata").html(metadata);
+
         var heightColorScale = d3.scale.linear()
               .domain([0, maxHeight])
               .range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
@@ -197,6 +201,10 @@
         var steepnessColorScale = d3.scale.linear()
               .domain(d3.extent(heightDeltas))
               .range(["hsl(150, 100%, 70%)", "hsl(0, 100%, 70%)"]);
+
+        var steepnessStrokeWeight = d3.scale.linear()
+              .domain(d3.extent(heightDeltas))
+              .range([20, 2]);
 
         var minHeight = heightDeltas[0];
 
@@ -218,10 +226,12 @@
           if (i === route.length-1) return;
           var primary = i,
               secondary = i+1;
+
           var segment = [route[primary], route[secondary]],
               maxSegmentHeight = d3.max([elevation[primary].height, elevation[secondary].height]),
-              strokeWeight = (maxSegmentHeight / maxHeight) * 20,
-              heightDelta = elevation[primary].height - elevation[secondary].height;  // you're going "forwards" on a trail
+              // strokeWeight = (maxSegmentHeight / maxHeight) * 20,
+              heightDelta = elevation[primary].height - elevation[secondary].height,  // you're going "forwards" on a trail
+              strokeWeight = steepnessStrokeWeight(heightDelta);
 
           var routePath = new google.maps.Polyline({
             path: segment,
@@ -229,7 +239,9 @@
             strokeOpacity: 1,
             strokeWeight: strokeWeight
           });
+
           routePath.setMap(map);
+          
           google.maps.event.addListener(routePath, "mouseover", function() {
             var sister = svg.select(".route-segment" + i),
                 locStr = sister.attr("d").substr(1).split(/[ML]/g),
