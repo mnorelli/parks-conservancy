@@ -3,15 +3,19 @@
  * Creates a google map for GGNPC
  *
  */
-//<img src="http://placehold.it/220x300">
-//#sidebar-map
 
+// NOTE: exports.environmentBaseUrl is set by the Node server
+// Might be better to this via Javascript to get the base URI for the site.
+// OR might not be even worth bothering with since once it's production mode
+// it won't change
 (function(exports){
 
     var bootstrap = function(){
 
+        // global
         exports.GGNPC_MAP = exports.GGNPC_MAP || {};
 
+        // determine the url for the main application file
         var APP_SRC = (exports.GGNPC_MAP.config && exports.GGNPC_MAP.config.GGNPC_MAP_APP_SRC)  ? exports.GGNPC_MAP.config.GGNPC_MAP_APP_SRC : exports.environmentBaseUrl + '/ggnpc-map/js/ggnpc.map.app.js';
 
         // TODO: concat & minify scripts where possible...
@@ -55,6 +59,9 @@
 
         exports.gmaps_callback = function(){};
 
+        var bootstrap = {};
+        var complete = false;
+
         var validVersion = function(expected, actual){
             expected = expected || null;
             if(!expected || expected.length < 1){
@@ -94,15 +101,11 @@
             return done;
         };
 
+        // Load the app last
+        // TODO: include this as part of the requirements
+        // will then eliminate this altogther
         var finished = function(){
-
-            var link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = exports.environmentBaseUrl + '/ggnpc-map/styles/ggnpc-map.css';
-
-            // Try to find the head, otherwise default to the documentElement
-            (document.getElementsByTagName('head')[0] || document.documentElement).appendChild(link);
+            loadCSS();
 
             // load app
             loadScripts({
@@ -111,10 +114,19 @@
             });
         };
 
-        var bootstrap = {};
-        var complete = false;
-        var loadScripts = function(s){
+        // TODO: Put this CSS requirement into the requirements array
+        var loadCSS = function(params){
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = exports.environmentBaseUrl + '/ggnpc-map/styles/ggnpc-map.css';
 
+             // Try to find the head, otherwise default to the documentElement
+            (document.getElementsByTagName('head')[0] || document.documentElement).appendChild(link);
+        }
+
+        var loadScripts = function(s){
+            // create the script element
             var scriptTag = document.createElement('script');
             scriptTag.setAttribute('type', 'text/javascript');
             scriptTag.setAttribute('src', s.src);
@@ -145,6 +157,8 @@
             }
         };
 
+        // checks by calling each requirements exists method
+        // then loads script if needed
         var checkRequirements = function(){
             required.forEach(function(s){
                 if(!s.exists()){
@@ -155,24 +169,28 @@
             });
         };
 
-
         var writeDOM = function(writeMapElements){
+            // check if we are a big map or small map
+            // biased towards #main-map, which is "big map"
             var rootElement = document.getElementById('main-map') || document.getElementById('sidebar-map');
 
-            exports.GGNPC_MAP.root = rootElement;
+            exports.GGNPC_MAP.root = rootElement; // store root element
             exports.GGNPC_MAP.mapSize = (rootElement.id === 'main-map') ? 'big' : 'small';
 
+            // uh-oh
             if(!rootElement){
                 console.error('No element named sidebar-map or main-map');
                 return;
             }
-            // TOOD: fragments
+
+            // set up the angularjs bits on the root element
             rootElement.setAttribute('ng-app', 'app')
             rootElement.setAttribute('ng-controller', 'AppController');
+
+            // write DOM if needed
+            // if we can add these bits to the template in Convio all the better
             if(writeMapElements){
                 var content = '';
-                //console.log(rootElement.firstChild)
-                // TODO: remove this when done testing
 
                 if(exports.GGNPC_MAP.mapSize === 'big'){
                     content += '<h1 style="display:none;" ng-show="ggnpcPageName">{{ggnpcPageName}}</h1>';
@@ -189,10 +207,16 @@
             }
         };
 
+        // these are our two main bootstrapping functions
+        // write necessary DOM elements
         writeDOM();
+
+        // load required files (scripts & css)
         checkRequirements();
+
     };
 
+    // kick things off
     bootstrap();
 
 })(window);

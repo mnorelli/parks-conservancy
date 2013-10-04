@@ -97,7 +97,7 @@
               <!-- ADD LINKS TO SPECIFIC TEST PAGES HERE -->
               <div id="main-map" style="display:none;">
                 <div id="loading" ng-show="loadingData">loading....</div>
-                <div ng-controller="mapListCtrl" ng-show="parkData">
+                <div ng-controller="mapListCtrl">
 
                   <div ng-repeat="item in pagedItems[currentPage]" class='map-lists'>
                     <a ng-href="{{item.attributes.filename | makeUrlForKind:item.kind}}">{{item.attributes.title}}</a>
