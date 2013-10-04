@@ -25,7 +25,7 @@
 
       path.elevation {
         fill: none;
-        stroke: #000;
+        /*stroke: #000;*/
         stroke-width: 2;
       }
 
@@ -167,6 +167,11 @@
           overlay.setMap(null);
       }
 
+      // function check_is_in_or_out(map, marker) {
+      //   // from http://stackoverflow.com/questions/3648545/how-can-i-check-the-marker-is-or-isnt-in-the-bounds-using-google-maps-v3
+      //   return map.getBounds().contains(marker.getCenter());
+      // }
+
       var debug = {},
           overlays = {};
 
@@ -197,12 +202,22 @@
 
         var svg = visuals.append("svg")
               .attr("width", width)
-              .attr("height", height);
+              .attr("height", height)
+              .classed("trip" + tripId, true);
+
+        // var profileBackground = svg.append("rect")
+        //   .attr("x", padding)
+        //   .attr("y", 0)
+        //   .attr("width", width - padding * 3) // padding at the beginning, padding * 2 at the end
+        //   .attr("height", 80) // eyeballed
+        //   .attr("transform", "translate(" + padding + "," + padding + ")")
+        //   .style("fill", "#1a1a1a");
+
 
         d3.json(elevationProfileFile, function(err, profile) {
 
           var elevation = profile.elevation;
-          debug.elevation = elevation;
+          // debug.elevation = elevation;
 
           h3.text(profile.metadata.name);
 
@@ -221,7 +236,19 @@
             map.mapTypes.set('ggnra', mapType);
             map.setMapTypeId('ggnra');
 
-            var bounds = new google.maps.LatLngBounds();
+            google.maps.event.addListener(map, 'bounds_changed', function() {
+              var bounds = map.getBounds();
+
+              visibleElevationPoints
+                .style("opacity", function(d) {
+                  // var lat = d.coordinates[0],
+                  //     lng = d.coordinates[1],
+                  //     gloc = new google.maps.LatLng(lat, lng);
+                  return bounds.contains(d.googleLoc) ? 1 : 0.2;
+                });
+            });
+
+            var tripBounds = new google.maps.LatLngBounds();
           }
 
           var route = [];
@@ -229,11 +256,13 @@
             var c = d.coordinates,
                 coordinate = new google.maps.LatLng(c[0], c[1]);
             route.push(coordinate);
-            if (args.maps) bounds.extend(coordinate)
+            d.googleLoc = coordinate; 
+            if (args.maps) tripBounds.extend(coordinate);
           });
 
           // route.forEach(function(r) { bounds.extend(r); });
-          if (args.maps) map.fitBounds(bounds);
+          if (args.maps)
+            map.fitBounds(tripBounds);
 
           var maxDistInFeet = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
               maxDist = d3.max(elevation, function(d) { return d.distance; }),
@@ -265,6 +294,11 @@
           var heightColorScale = d3.scale.linear()
                 .domain([0, maxHeight])
                 .range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
+
+          // stroke weight of segment polyline as a function of segment elevation
+          var heightStrokeWeight = d3.scale.linear()
+                .domain([0, maxHeight])
+                .range([2, 20]);
 
           // stroke color of segment polyline as a function of segment steepness
           var steepnessColorScale = d3.scale.linear()
@@ -323,7 +357,8 @@
                   maxSegmentHeight = d3.max([elevation[primary].height, elevation[secondary].height]),
                   // strokeWeight = (maxSegmentHeight / maxHeight) * 20,
                   heightDelta = elevation[primary].height - elevation[secondary].height,  // you're going "forwards" on a trail
-                  strokeWeight = steepnessStrokeWeight(heightDelta);
+                  // strokeWeight = steepnessStrokeWeight(heightDelta),
+                  strokeWeight = heightStrokeWeight(Math.round(maxSegmentHeight / 100) * 100);
 
               var routePath = new google.maps.Polyline({
                 path: segment,
@@ -339,13 +374,10 @@
               google.maps.event.addListener(routePath, "mouseover", function() {
                 // XXX FIX: y(sister.datum.height) ???
                 var sister = svg.select(".route-segment" + i),
-                    locStr = sister.attr("d").substr(1).split(/[ML]/g),
-                    first = locStr[0].split(",").map(Number),
-                    next = locStr[1].split(",").map(Number),
-                    midx = (first[0] + next[0]) / 2,
-                    midy = (first[1] + next[1]) / 2;
+                    data = sister.datum(),
+                    midx = x(data.distance),
+                    midy = y(data.height);
 
-                // console.log(sister, locStr, midx, midy);
                 var overlay = svg.append("circle")
                       .datum(elevation[i])
                         .attr("cx", midx)
@@ -396,14 +428,13 @@
                 fillColor: '#FF0000',
                 fillOpacity: 0.35,
                 map: map,
-                center: new google.maps.LatLng(e.coordinates[0], e.coordinates[1]),
+                center: e.googleLoc, //new google.maps.LatLng(e.coordinates[0], e.coordinates[1]),
                 radius: 50,
                 zIndex: 99999999999
               };
               var marker = new google.maps.Circle(markerStyle);
               overlays.graph2map = marker;
 
-              // var rsm = svg.select(".route-segment" + i).;
               var overlay = svg.append("circle")
                     .datum(e)
                       .attr("cx", function(d) { return x(d.distance); })
@@ -421,14 +452,22 @@
               overlays.map2graph.remove();
               overlays.map2graph = null;
             });
+
+            elevationPoints.on("click", function(e) {
+              map.setCenter(e.googleLoc);
+            });
           }
 
           // the visible elevation profile
-          g.selectAll("path.elevation")
+          var visibleElevationPoints = g.selectAll("path.elevation")
               .data(elevationData)
             .enter().append("path")
             // .attr("class", "elevation")
             // .attr("class", function(d, i) { return "elevation"; }) // route-segment" + (i+1); })
+            .style("stroke", function(d) { 
+              var roundedHeight = Math.round(d.height / 100) * 100;
+              return heightColorScale(roundedHeight); 
+            })
             .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
             .attr("d", function(d, i) {
               if (i === elevationData.length-1) return "M0,0";
