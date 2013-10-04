@@ -5,6 +5,9 @@
   mtc.baseUrl = "http://maps.onebayarea.org/data/";
 
   mtc.blk2url = function(fips) {
+    if (fips.length === 12) {
+      fips += "000";
+    }
     var n = 0,
         bits = [2, 3, 6, 4],
         url = [];
