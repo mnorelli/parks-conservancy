@@ -234,9 +234,10 @@
           // route.forEach(function(r) { bounds.extend(r); });
           if (args.maps) map.fitBounds(bounds);
 
-          var maxDist = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
+          var maxDistInFeet = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
+              maxDist = d3.max(elevation, function(d) { return d.distance; }),
               maxHeight = d3.max(elevation, function(d) { return d.height; });
-          var maxScale = Math.max(maxDist, maxHeight);  // so everything is in proportion
+          var maxScale = Math.max(maxDistInFeet, maxHeight);  // so everything is in proportion
 
           // calculate the change in steepness for every segment
           var heightDeltas = route.map(function(point, i) {
@@ -245,7 +246,7 @@
           }).sort(d3.ascending);
 
           // overall elevation change (for the metadata)
-          var elevationChange = d3.sum(heightDeltas.map(function(d) { return Math.abs(d); }));
+          var elevationChange = d3.sum(heightDeltas.map(Math.abs));
 
           // display some metadata (from TnT, mostly)
           var metadata = [
@@ -294,7 +295,8 @@
           var y = d3.scale.linear().domain([0, maxHeight]).range([100, padding]);
 
           var line = d3.svg.line()
-                .x(function(d) { return x(milesToFeet(d.distance)); })
+                // .x(function(d) { return x(milesToFeet(d.distance)); })
+                .x(function(d) { return x(d.distance) })
                 .y(function(d) { return y(d.height); });
 
           // move the container over so it's "centered"
