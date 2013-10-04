@@ -353,57 +353,43 @@ function getParkBoundary(req, res, next){
 
 function getEventContext(req, res, next){
     var response = {}, // our queries will be stuffed in here
-        filename,
+        filename = db.normalizeFilename(req.params.file),
         params,
         where;
-
+        //select attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where attributes->'redwood-creek-nursery.html' = $1 and kind = 'event'
     async.waterfall([
-
-        // get event
+        // get parent
         function(callback){
-            filename = db.normalizeFilename(req.params.file);
+            var query = "select attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where attributes->'filename' = $1 and kind = 'event'"
+
             params = [filename];
-            where = "where kind='event' and attributes->'filename' = $1";
 
-            db.baseQuery(['*'], where, params, '', '', function(err, data){
-                if(err){
-                    callback('error')
-                }else{
-                    response['event'] = data.results[0];
-                    callback(null, data.results[0]);
-                }
-            });
-        },
-
-        // get event location from locationmap field
-        function(stuff, callback){
-            if(stuff && stuff.attributes.locationmap){
-                filename = stuff.attributes.locationmap.split("/").pop();
-                params = [filename];
-                where = "where kind='location' and attributes->'filename' = $1";
-
-                db.baseQuery(['*'], where, params, '', '', function(err, data){
+            db.runQuery(query, params, function(err, data){
                 if(err){
                     callback('error');
                 }else{
-                    response['event'].attributes.locationmap= data.results[0].attributes;
-                    callback(null, stuff);
+                    var processed = db.processResult('', data);
+                    response['parent'] = processed;
+                    callback(null, processed);
                 }
             });
-            }
+
         },
 
         // get related park
         function(stuff, callback){
-            if(stuff && stuff.attributes.relatedpark){
+            if(stuff && stuff.results){
                 where = "WHERE kind='park' and attributes->'id' = $1";
-                params = [stuff.attributes.relatedpark];
+                var f = stuff.results[0].attributes.relatedpark;
+
+                params = [f];
                 db.baseQuery(['*'], where, params, '', '', function(err, data){
                     if(err){
                         callback('error');
                     }else{
-                        response['event'].attributes.relatedpark = data.results[0].attributes;
-                        callback(null, data.results[0]);
+                        response['parent'].results[0].attributes.relatedpark = data.results[0].attributes;
+
+                        callback(null, data.results[0].attributes.filename);
                     }
                 });
             }else{
@@ -411,15 +397,33 @@ function getEventContext(req, res, next){
             }
         },
 
-        // get park outline
-        function(stuff, callback){
-            where = 'WHERE convio_filename = $1';
-            params = [stuff.attributes.filename];
-            db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, data){
+        // get children
+        function(relatedpark, callback){
+            params = [relatedpark];
+            var query = "WITH geometry as (select ST_Transform(geom, 4326) as geom from park_units where convio_filename =$1)";
+                query += " select g.attributes as attributes, ST_X(g.geom) as longitude, ST_Y(g.geom) as latitude from (select * from convio where geom is not null and st_contains((select geom from geometry), geom)) as g";
+
+            db.runQuery(query, params, function(err, data){
                 if(err){
                     callback('error');
                 }else{
-                    response['event'].attributes.relatedpark.geom = JSON.parse(data.results[0].geom);
+                    response['children'] = db.processResult('', data);
+                    callback(null, relatedpark);
+                }
+            });
+        },
+
+        // get outlines
+        function(relatedpark, callback){
+            params = [relatedpark]
+            var query = "WITH geometry as (select geom from park_units where convio_filename = $1)";
+                query += " select ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom from park_units where st_contains((select geom from geometry), geom);";
+
+            db.runQuery(query, params, function(err, data){
+                if(err){
+                    callback('error');
+                }else{
+                    response['outlines'] = db.processResult('', data);
                     callback(null, 'done');
                 }
             });
@@ -432,6 +436,77 @@ function getEventContext(req, res, next){
     //select attributes->'title' from convio where kind='event' and attributes->'eventtypes' = 'Volunteer';
     // select attributes->'title', attributes->'startdate'  from convio where kind='event' and (CAST(attributes->'startdate' as timestamp), CAST(attributes->'startdate' as timestamp)) overlaps (now(), now() + interval '7 days') limit 10;
 }
+
+// so far this is only working for park types
+var getContextByFilename = function(req, res, next){
+    var response = {}, // our queries will be stuffed in here
+        filename = db.normalizeFilename(req.params.file),
+        params,
+        where;
+    async.waterfall([
+
+        // get parent
+        function(callback){
+            var query = "select attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where attributes->'filename' = $1 and kind = 'park'"
+
+            params = [filename];
+
+            db.runQuery(query, params, function(err, data){
+                if(err){
+                    callback('error');
+                }else{
+                    var processed = db.processResult('', data);
+                    response['parent'] = processed;
+                    callback(null, processed);
+                }
+            });
+
+        },
+
+        // get children
+        function(stuff, callback){
+            //lib.runQuery
+            var query = "WITH geometry as (select ST_Transform(geom, 4326) as geom from park_units where convio_filename =$1)";
+                query += " select g.attributes as attributes, ST_X(g.geom) as longitude, ST_Y(g.geom) as latitude from (select * from convio where st_contains((select geom from geometry), geom)) as g";
+                query += " where attributes->'parklocationtype' = 'Site of Interest' or attributes->'parklocationtype' = 'Parking Lot' or g.kind = 'subprogram' or g.attributes->'parklocationtype' = 'Trailhead' or g.kind = 'park' or g.kind='program'";
+
+            db.runQuery(query, params, function(err, data){
+                if(err){
+                    callback('error');
+                }else{
+                    response['children'] = db.processResult('', data);
+                    callback(null, []);
+                }
+            });
+        },
+
+        // get outlines
+        function(stuff, callback){
+            var query = "WITH geometry as (select geom from park_units where convio_filename = $1)";
+                query += " select ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom from park_units where st_contains((select geom from geometry), geom);";
+
+            db.runQuery(query, params, function(err, data){
+                if(err){
+                    callback('error');
+                }else{
+                    response['outlines'] = db.processResult('', data);
+                    callback(null, 'done');
+                }
+            });
+        }
+        // get trails?
+
+
+
+        ],
+        function(err, results){
+            return res.json(200, response);
+        }
+    );
+
+    //from park_units where convio_filename ='alcatraz.html'
+
+};
 
 var getInitialContextList = function(req, res, next){
     var where, params;
@@ -484,6 +559,24 @@ var getInitialContextList = function(req, res, next){
     }
 }
 
+// bbox ex: 37.673652,-122.604621,37.867421,-122.151779
+var getItemsFromBBox = function(req, res, next){
+    var bbox = req.params.bbox.split(',');
+    if(bbox.length < 4)return  res.json(200, {error: 'not valid bbox!'});
+    /// ST_MakeEnvelope(left, bottom, right, top, srid)
+    var params = [bbox[1],bbox[0],bbox[3],bbox[2]];
+
+    var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom && ST_MakeEnvelope($1, $2, $3, $4, 4326)";
+
+    db.runQuery(query, params, function(err, data){
+        if(err){
+            return res.json(200, {error: 'query error'});
+        }
+
+        res.json(200, db.processResult('', data));
+    });
+};
+
 
 // server setup
 var server = restify.createServer();
@@ -505,7 +598,13 @@ server.get('/geo/park/:park', getParkBoundary);
 
 server.get('/context/event/:file', getEventContext);
 
+server.get('/context/:file', getContextByFilename);
+
 server.get('/list/context/:context', getInitialContextList);
+
+
+server.get('/bbox/:bbox', getItemsFromBBox);
+
 
 
 // start server
