@@ -6,7 +6,7 @@
     exports.GGNPC_MAP = exports.GGNPC_MAP || {};
     exports.GGNPC_MAP.API_URL_BASE = exports.GGNPC_MAP.API_URL_BASE || 'http://stamen-parks-api-staging.herokuapp.com/';
 
-    exports.GGNPC_MAP.API_URL_BASE = "http://0.0.0.0:5000/";
+    //exports.GGNPC_MAP.API_URL_BASE = "http://0.0.0.0:5000/";
 
     // Add modules to the main app module
     angular.module("app", ['services', 'filters', 'map']);
