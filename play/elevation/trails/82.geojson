@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45041911012912, 
+          37.80619351823438
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 181.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 202.5, 
+        "Len_Down": 21.4, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.4, 
+        "ET_ID": 82, 
+        "trail_name": "East Crissy Trail", 
+        "ET_Y": 4184454.3743, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 82, 
+        "ET_IDR": "82_0", 
+        "H_Up": 0.1, 
+        "ET_X": 548378.6284, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 3.62638, 
+        "Length_2D": 202.5, 
+        "Max_Z": 3.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45038330283005, 
+          37.80602871350237
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 181.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 202.5, 
+        "Len_Down": 21.4, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.4, 
+        "ET_ID": 82, 
+        "trail_name": "East Crissy Trail", 
+        "ET_Y": 4184436.1078, 
+        "ET_ORDER": 0.0917, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 82, 
+        "ET_IDR": "82_0", 
+        "H_Up": 0.1, 
+        "ET_X": 548381.888, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 3.27455, 
+        "Length_2D": 202.5, 
+        "Max_Z": 3.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4503599060746, 
+          37.80601046729225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 181.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 202.5, 
+        "Len_Down": 21.4, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.4, 
+        "ET_ID": 82, 
+        "trail_name": "East Crissy Trail", 
+        "ET_Y": 4184434.0955, 
+        "ET_ORDER": 0.1059, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 82, 
+        "ET_IDR": "82_0", 
+        "H_Up": 0.1, 
+        "ET_X": 548383.9595, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 3.229, 
+        "Length_2D": 202.5, 
+        "Max_Z": 3.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44868619062139, 
+          37.805062773424225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 181.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 202.5, 
+        "Len_Down": 21.4, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.4, 
+        "ET_ID": 82, 
+        "trail_name": "East Crissy Trail", 
+        "ET_Y": 4184329.8169, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 82, 
+        "ET_IDR": "82_0", 
+        "H_Up": 0.1, 
+        "ET_X": 548531.9154, 
+        "Av_S_Down": 1.1, 
+        "ET_Z": 3.34785, 
+        "Length_2D": 202.5, 
+        "Max_Z": 3.6
+      }
+    }
+  ]
+}

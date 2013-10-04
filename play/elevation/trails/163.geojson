@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47667451878598, 
+          37.636787779279494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165645.8823, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546172.4302, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 192.07345, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47643483932113, 
+          37.63706528282132
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165676.7883, 
+        "ET_ORDER": 0.2659, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546193.4052, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 189.72471, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4764180277126, 
+          37.63711014342151
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165681.7737, 
+        "ET_ORDER": 0.3028, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546194.8607, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 189.72815, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47642052037516, 
+          37.6372664497527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165699.1141, 
+        "ET_ORDER": 0.4263, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546194.544, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 189.93242, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47634304177961, 
+          37.63743368407937
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165717.7063, 
+        "ET_ORDER": 0.567, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546201.2763, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 190.51621, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47641433619262, 
+          37.63749583755227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165724.5669, 
+        "ET_ORDER": 0.6335, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546194.9476, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 190.0439, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47648332168191, 
+          37.6376375038045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165740.2503, 
+        "ET_ORDER": 0.7535, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546188.7734, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 189.59011, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47658421689091, 
+          37.63788819476551
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165768.0139, 
+        "ET_ORDER": 0.9613, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546179.7164, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 188.71902, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47658157863532, 
+          37.63793709765915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 42.3, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 140.6, 
+        "Len_Down": 98.3, 
+        "Max_S_Down": 3.6, 
+        "Min_Z": 188.5, 
+        "H_Down": 4.3, 
+        "ET_ID": 163, 
+        "trail_name": "Milagra Ridge Spur Trail (South)", 
+        "ET_Y": 4165773.4408, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.7, 
+        "ET_IDP": 163, 
+        "ET_IDR": "163_0", 
+        "H_Up": 0.8, 
+        "ET_X": 546179.9189, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 188.52609, 
+        "Length_2D": 140.5, 
+        "Max_Z": 192.1
+      }
+    }
+  ]
+}

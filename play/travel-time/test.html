@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/travel-time.js"></script>
+    <style type="text/css">
+      .second-step{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <p>
+        <label>longitude, latitude: <input id="location" value="37.7631,-122.4191" type="text"></label>
+        <input type="submit">
+      </p>
+      <p>taz: <input id="taz" disabled></p>
+      <p id="took"></p>
+    </form>
+    <div class='second-step'>
+      <p><label>Select a destination <select id="destination"></select></label> |
+      <label>Mode:
+        <select id="mode">
+          <option value="s3" selected>Carpool</option>
+          <option value="wTrnW">Transit</option>
+          <option value="da">Car</option>
+          <option value="bike">Bike</option>
+          <option value="walk">Walk</option>
+        </select>
+      </label> |
+      <label>TOD:
+        <select id="time">
+          <option value="AM">Morning</option>
+          <option value="MD" selected>Midday</option>
+          <option value="PM">Evening</option>
+        </select>
+      </label>
+      <button id="submitDest">GO</button>
+      </p>
+
+
+      <h3 id='travel-time'></h3>
+    </div>
+    <script>
+
+
+
+      d3.csv('taz.csv', function(d){
+        return {
+            id: +d.id,
+            taz: +d.taz,
+            title: d.title,
+            type: d.type
+        }
+      },
+      function(err, rows){
+        var select = d3.select("#destination").selectAll('option')
+          .data(rows)
+          .enter()
+          .append('option')
+          .attr('value', function(d){ return d.taz; })
+          .text(function(d){ return d.title; });
+
+        d3.select('#submitDest')
+          .on('click', function(){
+            d3.event.preventDefault();
+
+            var toTaz = document.getElementById('destination');
+            var toTazValue = toTaz.options[toTaz.selectedIndex].value;
+
+            var fromTazValue = d3.select('#taz').attr('value');
+
+            var mode = document.getElementById('mode');
+            var modeValue = mode.options[mode.selectedIndex].value;
+
+            var time = document.getElementById('time');
+            var timeValue = time.options[time.selectedIndex].value;
+
+            var o = {
+              from: fromTazValue,
+              to: toTazValue,
+              time: timeValue,
+              mode: modeValue
+            }
+            mtc.travelTimeBetweenTazs(o, function(err, travelTime, extras ){
+              if(err){
+                console.log(err);
+              }else{
+                console.log(extras);
+                d3.select('#travel-time').html('Will take<b> ' + travelTime + '</b> minutes')
+              }
+            });
+
+            //conceptName = box.options[box.selectedIndex].text;
+          });
+
+      });
+
+
+      var form = d3.select("form")
+            .on("submit", submit),
+          input = form.select("#location"),
+          output = form.select("#taz"),
+          req;
+
+      function submit() {
+        d3.event.preventDefault();
+        d3.selectAll('.second-step').classed('second-step', true);
+        var loc = input.property("value");
+
+        if (req) req.abort();
+
+        var then = Date.now();
+        req = mtc.location2taz(loc, function(error, taz) {
+          if (error) {
+            output.classed("error", true).attr("value", error);
+          } else {
+            output.classed("error", false).attr("value", taz);
+          }
+          var time = ((Date.now() - then) / 1000).toFixed(1);
+          d3.select("#took").text("took " + time + " seconds");
+          d3.selectAll('.second-step').classed('second-step', false);
+        });
+      }
+    </script>
+  </body>
+</html>

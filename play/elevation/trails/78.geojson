@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45244308423936, 
+          37.80574072469621
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 76.6, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 85.3, 
+        "Len_Down": 8.6, 
+        "Max_S_Down": 0.1, 
+        "Min_Z": 3.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 78, 
+        "trail_name": "East Beach Berm Trail", 
+        "ET_Y": 4184403.0913, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 78, 
+        "ET_IDR": "78_0", 
+        "H_Up": 0.3, 
+        "ET_X": 548200.7545, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.30294, 
+        "Length_2D": 85.3, 
+        "Max_Z": 3.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4533023657517, 
+          37.805631379491594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 76.6, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 85.3, 
+        "Len_Down": 8.6, 
+        "Max_S_Down": 0.1, 
+        "Min_Z": 3.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 78, 
+        "trail_name": "East Beach Berm Trail", 
+        "ET_Y": 4184390.5167, 
+        "ET_ORDER": 0.8986, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 78, 
+        "ET_IDR": "78_0", 
+        "H_Up": 0.3, 
+        "ET_X": 548125.1834, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.62253, 
+        "Length_2D": 85.3, 
+        "Max_Z": 3.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4533972395098, 
+          37.80565142322341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 76.6, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 85.3, 
+        "Len_Down": 8.6, 
+        "Max_S_Down": 0.1, 
+        "Min_Z": 3.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 78, 
+        "trail_name": "East Beach Berm Trail", 
+        "ET_Y": 4184392.6917, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.2, 
+        "ET_IDP": 78, 
+        "ET_IDR": "78_0", 
+        "H_Up": 0.3, 
+        "ET_X": 548116.8187, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.60551, 
+        "Length_2D": 85.3, 
+        "Max_Z": 3.6
+      }
+    }
+  ]
+}

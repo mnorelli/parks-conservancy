@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47003182889706, 
+          37.80592273932733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184414.3609, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546652.3134, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 26.85939, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47015664607451, 
+          37.80615829035707
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184440.4329, 
+        "ET_ORDER": 0.0816, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546641.1777, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 26.20356, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47030813913895, 
+          37.806348242243594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184461.4324, 
+        "ET_ORDER": 0.1535, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546627.7225, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.79929, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47057405953333, 
+          37.806598995071006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184489.1207, 
+        "ET_ORDER": 0.2582, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546604.1563, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.59122, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47084773941322, 
+          37.80678209646898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184509.2993, 
+        "ET_ORDER": 0.3489, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546579.9497, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.63214, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47100564024346, 
+          37.806912178772365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184523.6532, 
+        "ET_ORDER": 0.4066, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546565.9683, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.72602, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47121745415538, 
+          37.80731690760196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184568.4522, 
+        "ET_ORDER": 0.5466, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546547.0687, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.29026, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47129782791654, 
+          37.80744485148013
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184582.6075, 
+        "ET_ORDER": 0.5923, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546539.9133, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.3929, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47137237136667, 
+          37.80752299700147
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184591.2406, 
+        "ET_ORDER": 0.6236, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546533.3024, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.52869, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47169406130068, 
+          37.80775997674727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184617.3733, 
+        "ET_ORDER": 0.7349, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546504.8363, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.68782, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47200124129752, 
+          37.807925388761845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184635.5729, 
+        "ET_ORDER": 0.829, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546477.6925, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.00072, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47236118917417, 
+          37.80800130823426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184643.8172, 
+        "ET_ORDER": 0.9234, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546445.9599, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.4549, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47239725878626, 
+          37.808023201269926
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184646.2283, 
+        "ET_ORDER": 0.9349, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546442.7711, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 25.71359, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4724757596208, 
+          37.808159628992044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184661.3259, 
+        "ET_ORDER": 0.9828, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546435.7755, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 26.8068, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47248556926066, 
+          37.80821279251893
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 176.4, 
+        "Av_S_Up": 0.9, 
+        "Length_3D": 347.4, 
+        "Len_Down": 171.0, 
+        "Max_S_Down": 1.3, 
+        "Min_Z": 25.0, 
+        "H_Down": 2.4, 
+        "ET_ID": 13, 
+        "trail_name": "Andrews Road", 
+        "ET_Y": 4184667.2195, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.0, 
+        "ET_IDP": 13, 
+        "ET_IDR": "13_0", 
+        "H_Up": 2.8, 
+        "ET_X": 546434.8787, 
+        "Av_S_Down": 0.8, 
+        "ET_Z": 27.22178, 
+        "Length_2D": 347.3, 
+        "Max_Z": 27.2
+      }
+    }
+  ]
+}

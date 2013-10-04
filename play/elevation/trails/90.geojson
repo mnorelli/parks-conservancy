@@ -1,0 +1,1797 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58082058571992, 
+          37.904302709264535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195280.1082, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536850.6874, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 152.54165, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58067549187297, 
+          37.904535184473424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195305.9589, 
+        "ET_ORDER": 0.0202, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536863.3269, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 153.4594, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58054413807469, 
+          37.90459354510845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195312.486, 
+        "ET_ORDER": 0.0294, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536874.8453, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 148.96158, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58043642535361, 
+          37.904597733491826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195312.9933, 
+        "ET_ORDER": 0.0361, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536884.3124, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 144.48615, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58043500201802, 
+          37.90459778880519
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195313.0, 
+        "ET_ORDER": 0.0362, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536884.4375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 144.42809, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58024948364644, 
+          37.904966659800806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195354.0, 
+        "ET_ORDER": 0.067, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536900.5625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 141.46624, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5801590554106, 
+          37.90524123335127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195384.5, 
+        "ET_ORDER": 0.0891, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536908.375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 126.50342, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58018474549834, 
+          37.90534948081273
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195396.5, 
+        "ET_ORDER": 0.0976, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536906.0625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 128.61772, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58029188613132, 
+          37.905512096649254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195414.5, 
+        "ET_ORDER": 0.1119, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536896.5625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 142.909, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58037238983802, 
+          37.90573320182528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195439.0, 
+        "ET_ORDER": 0.1298, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536889.375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 146.33733, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58054697266395, 
+          37.90641430445294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195514.5, 
+        "ET_ORDER": 0.1838, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536873.6875, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 130.9437, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58061934552458, 
+          37.906815640125984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195559.0, 
+        "ET_ORDER": 0.2153, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536867.125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 133.71941, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58060095265631, 
+          37.90704991215381
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195585.0, 
+        "ET_ORDER": 0.2336, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536868.625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 135.49256, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58053210755058, 
+          37.907279497882755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195610.5, 
+        "ET_ORDER": 0.2519, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536874.5625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 135.97764, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58043558591959, 
+          37.90749997192359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195635.0, 
+        "ET_ORDER": 0.27, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536882.9375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 125.63645, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5803554470135, 
+          37.90758981604715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195645.0, 
+        "ET_ORDER": 0.2786, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536889.9375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 118.00334, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58026721162092, 
+          37.907603020893426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195646.5, 
+        "ET_ORDER": 0.2841, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536897.6875, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 115.60361, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58020761929001, 
+          37.907580275908096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195644.0, 
+        "ET_ORDER": 0.2882, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536902.9375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 112.78592, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5801865466471, 
+          37.907535135836426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195639.0, 
+        "ET_ORDER": 0.2919, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536904.8125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 111.30529, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58013452812973, 
+          37.906304678081014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195502.5, 
+        "ET_ORDER": 0.3876, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536910.0, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 118.70146, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58008360238414, 
+          37.9061332497058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195483.5, 
+        "ET_ORDER": 0.4013, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536914.5625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 121.80159, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58001881041058, 
+          37.90602486271929
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195471.5, 
+        "ET_ORDER": 0.4106, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536920.3125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 123.78223, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57997496259384, 
+          37.90598414782276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195467.0, 
+        "ET_ORDER": 0.4148, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536924.1875, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 123.20047, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57989394095047, 
+          37.905979352170654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195466.5, 
+        "ET_ORDER": 0.4198, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536931.3125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 118.53338, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57983691193454, 
+          37.90600618755868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195469.5, 
+        "ET_ORDER": 0.4239, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536936.3125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 114.46138, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57979643293012, 
+          37.90612321184873
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195482.5, 
+        "ET_ORDER": 0.4333, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536939.8125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 108.9484, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57973938361802, 
+          37.90652859244173
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195527.5, 
+        "ET_ORDER": 0.465, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536944.625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 89.64159, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5796772937646, 
+          37.90669511092257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195546.0, 
+        "ET_ORDER": 0.4785, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536950.0, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 86.00503, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5795765373144, 
+          37.90678488089815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195556.0, 
+        "ET_ORDER": 0.4878, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536958.8125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 81.83365, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57951023958006, 
+          37.90681618950597
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195559.5, 
+        "ET_ORDER": 0.4926, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536964.625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 84.96358, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57937157889585, 
+          37.906820200543486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195560.0, 
+        "ET_ORDER": 0.5011, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536976.8125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 94.94436, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57929705755166, 
+          37.906797401743034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195557.5, 
+        "ET_ORDER": 0.5061, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536983.375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 100.33582, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57918942965249, 
+          37.90672040663603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195549.0, 
+        "ET_ORDER": 0.515, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 536992.875, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 104.61966, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57910894631813, 
+          37.90662097604272
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195538.0, 
+        "ET_ORDER": 0.5242, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537000.0, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 103.14041, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57895974059295, 
+          37.90635455938216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195508.5, 
+        "ET_ORDER": 0.5468, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537013.25, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 96.01255, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57872850945108, 
+          37.905485438209325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195412.1619, 
+        "ET_ORDER": 0.6159, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537034.013, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 75.6213, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5786683302303, 
+          37.90521788053927
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195382.5, 
+        "ET_ORDER": 0.637, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537039.4375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 71.85075, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57848138127243, 
+          37.90483866578349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195340.5, 
+        "ET_ORDER": 0.6686, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537056.0625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 73.50107, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57843470020703, 
+          37.90467175835773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195322.0, 
+        "ET_ORDER": 0.6819, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537060.25, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 77.91844, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57839862406396, 
+          37.90426604475231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195277.0, 
+        "ET_ORDER": 0.7135, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537063.625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 82.78871, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57840307075566, 
+          37.90386047626321
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195232.0, 
+        "ET_ORDER": 0.7451, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537063.4375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 93.94602, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57833193937499, 
+          37.90299497461181
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195136.0, 
+        "ET_ORDER": 0.8125, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537070.125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 73.79423, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57823398980398, 
+          37.902593545665034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195091.5, 
+        "ET_ORDER": 0.8442, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537078.9375, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 73.67925, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57816311412326, 
+          37.902431057869435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195073.5, 
+        "ET_ORDER": 0.8576, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537085.25, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 77.34064, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57807772372453, 
+          37.902303592048405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195059.3915, 
+        "ET_ORDER": 0.8688, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537092.821, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 81.00817, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57795372491925, 
+          37.902123865613994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195039.5, 
+        "ET_ORDER": 0.8847, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537103.8125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 86.48931, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57790600120178, 
+          37.9020155386055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195027.5, 
+        "ET_ORDER": 0.8937, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537108.0625, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 87.5419, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57785115273406, 
+          37.901785510654754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4195002.0, 
+        "ET_ORDER": 0.9119, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537113.0, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 77.8925, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57784999821803, 
+          37.90161425969481
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194983.0, 
+        "ET_ORDER": 0.9252, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537113.1875, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 73.2704, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57793584022006, 
+          37.90127207388103
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194945.0, 
+        "ET_ORDER": 0.9523, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537105.8125, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 69.69915, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5780939543727, 
+          37.90103460672942
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194918.5899, 
+        "ET_ORDER": 0.9732, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537092.031, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 57.3089, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57808439976716, 
+          37.900973640151626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194911.8294, 
+        "ET_ORDER": 0.9779, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537092.9016, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 57.02529, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57810739002906, 
+          37.90087658774297
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194901.0522, 
+        "ET_ORDER": 0.9856, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537090.9291, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 56.88238, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57813510908777, 
+          37.90084162114659
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194897.1616, 
+        "ET_ORDER": 0.9888, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537088.5097, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 56.72475, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57826469675784, 
+          37.90077478641398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194889.6947, 
+        "ET_ORDER": 0.9983, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537077.1504, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 56.71026, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57826897446068, 
+          37.900753699622406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 633.2, 
+        "Av_S_Up": 8.9, 
+        "Length_3D": 1474.6, 
+        "Len_Down": 841.5, 
+        "Max_S_Down": 34.9, 
+        "Min_Z": 56.6, 
+        "H_Down": 193.0, 
+        "ET_ID": 90, 
+        "trail_name": "Fern Creek Trail", 
+        "ET_Y": 4194887.3534, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 39.3, 
+        "ET_IDP": 90, 
+        "ET_IDR": "90_0", 
+        "H_Up": 97.0, 
+        "ET_X": 537076.7849, 
+        "Av_S_Down": 13.4, 
+        "ET_Z": 56.59718, 
+        "Length_2D": 1427.5, 
+        "Max_Z": 153.5
+      }
+    }
+  ]
+}

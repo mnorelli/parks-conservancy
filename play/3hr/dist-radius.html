@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #content {
+
+      }
+
+      div#controls {
+        position: fixed;
+        top: 0;
+        left: 20%;
+        padding: 10px;
+        background: #fff;
+        width: 500px;
+        opacity: 0.8;
+      }
+
+      input#origin {
+        width: 300px;
+        float: left;
+      }
+
+      #go {
+        padding: 2px;
+        max-width: 50px;
+        margin-left: 3px;
+        /*font-weight: bold;*/
+        background: #ccc;
+        cursor: pointer;
+        float: left;
+      }
+
+      #go:hover {
+        background: #00ccff;
+      }
+
+      #info {
+        position: fixed;
+        opacity: 0.8;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        font-family: Helvetica, Arial, 'Sans Serif';
+        font-size: 11px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="content"></div>
+    <div id="controls">
+      <input type="text" id="origin">
+      <div id="go">GO</div>
+    </div>
+    <div id="info"></div>
+
+
+    <script src="js/d3.v3.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry&key=AIzaSyAbYZns2R_4Jg8zUsyLYNOuxqgYf1Ymacs"></script>
+
+    <script>
+
+      var content = d3.select("#content"),
+          origin_input = d3.select("#origin"),
+          go_button = d3.select("#go");
+
+      var margin = 50;
+      content.style("width", window.innerWidth + "px")
+             .style("height", window.innerHeight + "px");
+
+      google.maps.visualRefresh = true;
+      var center = new google.maps.LatLng(37.7750, -122.4183);
+      // var center = new google.maps.LatLng(0,0);
+      var opts = {
+        zoom: 12,
+        center: center
+        // mapTypeId: google.maps.MapTypeId.TERRAIN
+      };
+      var map = new google.maps.Map(document.getElementById("content"), opts);
+
+      var markers = [];
+
+      var locations,
+          valid = ["Meeting Place", "Park", "Trailhead", "Beach", "Site of Interest", "Overlook"];
+
+      d3.csv("data/locations.csv", function(err, locs) {
+
+        locations = locs.filter(function(loc) {
+          var t = loc.type;
+          return valid.indexOf(t) > -1;
+        });
+        drawmap();
+      });
+
+      go_button.on("click", function() {
+        console.log("clicked go");
+        codeAddress(origin_input.property("value"), getGeocodeResults);
+      });
+
+      function addMarker(style) {
+        var circle = new google.maps.Circle(style);
+        markers.push(circle);
+      }
+
+      function clearAllMarkers() {
+        markers.forEach(function(marker) {
+          marker.setMap(null);
+        });
+        markers = [];
+      }
+
+      var geocoder = new google.maps.Geocoder();
+      function codeAddress(address, callback) {
+        // XXX from SC
+        geocoder.geocode({address: address}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            callback(results[0].geometry.location)
+          } else {
+            callback(null);
+          }
+        });
+      }
+
+      function getGeocodeResults(result) {
+        clearAllMarkers();
+        center = result;
+        drawmap();
+      }
+
+
+      function drawmap() {
+
+        // create the origin marker (where you are)
+        var centerStyle = {
+          strokeWeight: 0,
+          fillColor: '#ff0000',
+          fillOpacity: 0.7,
+          map: map,
+          center: center,
+          radius: 300
+        };
+        addMarker(centerStyle);
+
+        var origin = center;
+        var distances = [];
+        locations.forEach(function(location, i) {
+          var coords = [location.Y, location.X].map(Number);
+          var destination = new google.maps.LatLng(coords[0], coords[1]);
+          var distance = distHaversine(origin, destination);
+          distances.push([distance, i]);
+        });
+        distances.sort(function(a,b) { return d3.ascending(a[0], b[0]); });
+
+        // var extent = d3.extent(distances.map(function(d) { return d[0]; }));
+        // var hue = d3.scale.linear().domain(extent).range([80, 0]);
+
+        var radials = d3.range(2, 100, 2).reverse(),
+            max_points_in_radial = 0;
+
+        radials.forEach(function(radial, i) {
+          var in_circle = distances.filter(function(point) {
+            return point[0] < radial * 1000 
+                && point[0] > (radial - 2) * 1000;
+          });
+          radials[i] = {points: in_circle, ring: radial};
+          if (in_circle.length > max_points_in_radial) max_points_in_radial = in_circle.length;
+          
+        });
+
+        //d3.select("#info").html(function() {
+        //  return radials.map(function(radial) { return radial.ring; }).join("<br>");
+        });
+
+        var radial_hue = d3.scale.linear().domain([0, max_points_in_radial]).range([200, 360]);
+
+        radials.forEach(function(radial, i) {
+          var in_circle = radial.points;
+          var style = {
+            strokeWeight: 2,
+            strokeColor: "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)",
+            strokeOpacity: in_circle.length > 0 ? 1 : 0,
+            fillOpacity: 0,
+            map: map,
+            center: origin,
+            radius: radial.ring * 1000 // meters -> km
+          };
+          addMarker(style);
+
+          // var delaunay = d3.geom.delaunay()
+          //       .x(function(d) { return +d[1].X; })
+          //       .y(function(d) { return +d[1].Y; });
+
+          // if (in_circle.length) {
+          //   var for_delaunay = in_circle.map(function(pt) {
+          //       var data = locations[pt[1]];
+          //       return [+data.X, +data.Y, pt]; 
+          //   });
+          //   for_delaunay = for_delaunay.concat([[center.lng(), center.lat()]]);
+          //   var connections = d3.geom.delaunay(for_delaunay);
+          //   connections.forEach(function(conn) {
+          //     var polygon_points = conn.map(function(pt) { return new google.maps.LatLng(pt[1], pt[0]); });
+          //     var polygon = new google.maps.Polygon({
+          //       paths: polygon_points,
+          //       strokeColor: style.strokeColor,
+          //       strokeOpacity: 0.7,
+          //       strokeWeight: 1, //2,
+          //       fillOpacity: 0
+          //     });
+
+          //     polygon.setMap(map);
+          //   });
+          // }
+
+          in_circle.forEach(function(point) {
+            var distance = point[0],
+                data = locations[point[1]],
+                location = new google.maps.LatLng(+data.Y, +data.X);
+
+            var color = "hsl(" + radial_hue(in_circle.length) + ", 100%, 70%)";
+
+            var style = {
+              strokeColor: "#ffffff",
+              strokeWeight: 0.5,
+              fillColor: color,
+              fillOpacity: 0.7,
+              map: map,
+              center: location,
+              radius: 200
+            };
+            addMarker(style);
+
+            // var line = new google.maps.Polyline({
+            //   path: [location, center], // XXX these variables could be named better
+            //   strokeColor: color,
+            //   strokeOpacity: 0.5,
+            //   strokeWeight: 1,
+            //   geodesic: true,
+            //   map: map
+            // });
+
+          });
+        });
+      }
+
+      function deg2rad(degrees) {
+        return degrees * (Math.PI / 180);
+      }
+
+      rad = function(x) {return x*Math.PI/180;}
+
+      distHaversine = function(p1, p2) {
+        var R = 6371; // earth's mean radius in km
+        var dLat  = rad(p2.lat() - p1.lat());
+        var dLong = rad(p2.lng() - p1.lng());
+
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(rad(p1.lat())) * Math.cos(rad(p2.lat())) * Math.sin(dLong/2) * Math.sin(dLong/2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        var d = R * c;
+
+        return d * 1000; // km -> meters
+      }
+
+    </script>
+
+  </body>
+</html>

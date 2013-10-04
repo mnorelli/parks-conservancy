@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46813071601967, 
+          37.80461561953885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 103.4, 
+        "Len_Down": 103.4, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.3, 
+        "ET_ID": 2, 
+        "trail_name": "Airstrip Cut-off Trail #1", 
+        "ET_Y": 4184270.2871, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 2, 
+        "ET_IDR": "2_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546820.492, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 3.3157, 
+        "Length_2D": 103.4, 
+        "Max_Z": 3.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46741868523428, 
+          37.80535665955409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 103.4, 
+        "Len_Down": 103.4, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.3, 
+        "ET_ID": 2, 
+        "trail_name": "Airstrip Cut-off Trail #1", 
+        "ET_Y": 4184352.8621, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 2, 
+        "ET_IDR": "2_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546882.7041, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 2.97337, 
+        "Length_2D": 103.4, 
+        "Max_Z": 3.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51301197638712, 
+          37.77916593562563
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181425.1329, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542884.2735, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 33.69485, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51301152551208, 
+          37.77916784725546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181425.3452, 
+        "ET_ORDER": 0.0008, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542884.3121, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 33.70482, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5129911987394, 
+          37.779254028170634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181434.9162, 
+        "ET_ORDER": 0.0355, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542886.0523, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 33.17642, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51278920850667, 
+          37.77938290870257
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181449.308, 
+        "ET_ORDER": 0.117, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542903.7652, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 29.6488, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51270726605955, 
+          37.779417493135355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181453.1827, 
+        "ET_ORDER": 0.1462, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542910.9611, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 28.94096, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51253048273847, 
+          37.77953649809172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181466.4673, 
+        "ET_ORDER": 0.2191, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542926.4599, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 27.3477, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5124609151256, 
+          37.77960106804029
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181473.6632, 
+        "ET_ORDER": 0.2528, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542932.5487, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 27.13756, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51239697726562, 
+          37.77976544138773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181491.9296, 
+        "ET_ORDER": 0.321, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542938.084, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 27.06813, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51244588689475, 
+          37.77997518342269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181515.1778, 
+        "ET_ORDER": 0.4055, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542933.6557, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 26.59886, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51248310852216, 
+          37.78005017276043
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181523.4807, 
+        "ET_ORDER": 0.4375, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542930.3346, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 25.95779, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51260803588673, 
+          37.78017042664036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181536.7654, 
+        "ET_ORDER": 0.4992, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542919.264, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 24.38058, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5128148392574, 
+          37.78030137595868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181551.1992, 
+        "ET_ORDER": 0.5825, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542900.9773, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 22.0817, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51309200177415, 
+          37.78044910073883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181567.462, 
+        "ET_ORDER": 0.6875, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542876.4852, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 18.68892, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51329674426589, 
+          37.78058736298065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181582.7082, 
+        "ET_ORDER": 0.772, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542858.3759, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 13.39478, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51337829412557, 
+          37.78061264460611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181585.4758, 
+        "ET_ORDER": 0.7996, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542851.1801, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 11.10471, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51355426131663, 
+          37.78061835997578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181586.0293, 
+        "ET_ORDER": 0.855, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542835.6813, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 8.68185, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51367352589607, 
+          37.78064379799259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181588.797, 
+        "ET_ORDER": 0.8938, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542825.1643, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 6.90506, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5139808071807, 
+          37.78075482444813
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 282.0, 
+        "Len_Down": 281.8, 
+        "Max_S_Down": 16.5, 
+        "Min_Z": 6.7, 
+        "H_Down": 27.0, 
+        "ET_ID": 256, 
+        "trail_name": "Sutro Ruins Trail", 
+        "ET_Y": 4181600.9746, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.6, 
+        "ET_IDP": 256, 
+        "ET_IDR": "256_0", 
+        "H_Up": 0.0, 
+        "ET_X": 542798.0414, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 6.66612, 
+        "Length_2D": 280.0, 
+        "Max_Z": 33.7
+      }
+    }
+  ]
+}

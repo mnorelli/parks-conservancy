@@ -1,0 +1,1573 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48518929168482, 
+          37.514282534922536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152050.3543, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545495.6478, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 27.71549, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48524885610591, 
+          37.51431703970463
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152054.1536, 
+        "ET_ORDER": 0.0025, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545490.3629, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 27.63002, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4854028556903, 
+          37.514658039850104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152091.9111, 
+        "ET_ORDER": 0.0179, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545476.5464, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 28.66176, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4855948557933, 
+          37.514785039751935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152105.9082, 
+        "ET_ORDER": 0.0264, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545459.5016, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 28.66929, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48595933312448, 
+          37.51491608906337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152120.2713, 
+        "ET_ORDER": 0.04, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545427.212, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 29.03466, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48621785527035, 
+          37.51500904032822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152130.4589, 
+        "ET_ORDER": 0.0496, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545404.3092, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 28.86699, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48656472187562, 
+          37.5152804954402
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152160.4079, 
+        "ET_ORDER": 0.0661, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545373.4911, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 29.33644, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48636072196881, 
+          37.51550549612113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152185.4688, 
+        "ET_ORDER": 0.0779, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545391.3829, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 31.16549, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48632209663008, 
+          37.515589073923636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152194.7599, 
+        "ET_ORDER": 0.0817, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545394.7457, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 31.75366, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48626585543471, 
+          37.51571003990565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152208.2075, 
+        "ET_ORDER": 0.0872, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545399.6426, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 33.41041, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48624285562629, 
+          37.51589003956761
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152228.1885, 
+        "ET_ORDER": 0.0949, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545401.5661, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 36.09422, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4861748552271, 
+          37.51611803980098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152253.5166, 
+        "ET_ORDER": 0.1049, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545407.4373, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 39.94312, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48609485569753, 
+          37.51668604005717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152316.5715, 
+        "ET_ORDER": 0.1292, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545414.1628, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 46.76184, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48612885569551, 
+          37.51735004016476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152390.222, 
+        "ET_ORDER": 0.1575, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545410.7558, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 53.40466, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48609385471494, 
+          37.517641039816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152422.5236, 
+        "ET_ORDER": 0.17, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545413.6725, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 56.0183, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48612785552795, 
+          37.51794803946643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152456.567, 
+        "ET_ORDER": 0.1831, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545410.4818, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 59.34729, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4861328545964, 
+          37.518437039686624
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152510.8163, 
+        "ET_ORDER": 0.204, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545409.7437, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 63.93458, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48607985482165, 
+          37.519154039266816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152590.3888, 
+        "ET_ORDER": 0.2345, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545413.9927, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 77.06704, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48612385438747, 
+          37.519391039913145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152616.6614, 
+        "ET_ORDER": 0.2448, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545409.9609, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 83.69428, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48607685534229, 
+          37.51980503922685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152662.6149, 
+        "ET_ORDER": 0.2625, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545413.8632, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 94.87113, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48615685457456, 
+          37.52054803910943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152745.0078, 
+        "ET_ORDER": 0.2942, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545406.3436, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 112.76034, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48611785471107, 
+          37.52115803923523
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152812.7026, 
+        "ET_ORDER": 0.3202, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545409.4202, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 123.19242, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48583485532062, 
+          37.521524038991224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152853.4448, 
+        "ET_ORDER": 0.3385, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545434.2058, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 125.69363, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48553585530254, 
+          37.52195703898194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152901.6281, 
+        "ET_ORDER": 0.3596, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545460.3644, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 127.31172, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48489385435026, 
+          37.522501038858934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4152962.2922, 
+        "ET_ORDER": 0.3914, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545516.7644, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 133.84716, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48374385501978, 
+          37.52324303878852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153045.1699, 
+        "ET_ORDER": 0.4416, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545617.9317, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 152.5439, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48330385536379, 
+          37.52341903913326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153064.9096, 
+        "ET_ORDER": 0.4583, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545656.7044, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 155.88301, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48302485445247, 
+          37.523385038672494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153061.2729, 
+        "ET_ORDER": 0.4679, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545681.3786, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 160.32236, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48287685489848, 
+          37.523279038740036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153049.5847, 
+        "ET_ORDER": 0.4746, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545694.521, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 161.9038, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4822218549833, 
+          37.52329103861398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153051.2344, 
+        "ET_ORDER": 0.4969, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545752.3918, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 165.32597, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48171385502917, 
+          37.523245038880525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153046.3782, 
+        "ET_ORDER": 0.5142, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545797.3086, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 168.37225, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48126385528658, 
+          37.523279038975254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153050.3695, 
+        "ET_ORDER": 0.5295, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545837.0514, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 174.16452, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4807108553932, 
+          37.523403038943904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153064.3962, 
+        "ET_ORDER": 0.549, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545885.8405, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 178.10769, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47977785525329, 
+          37.52367503914496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153095.0286, 
+        "ET_ORDER": 0.5827, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 545968.1167, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 188.99064, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47913385540541, 
+          37.52400503893762
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153131.9551, 
+        "ET_ORDER": 0.6087, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546024.8198, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 199.22535, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47860885524359, 
+          37.52436903865343
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153172.5958, 
+        "ET_ORDER": 0.6323, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546070.9864, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 206.53392, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4780898558689, 
+          37.524650038877056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153204.0255, 
+        "ET_ORDER": 0.6536, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546116.6734, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 209.35223, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47743185582094, 
+          37.52482603884113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153223.8745, 
+        "ET_ORDER": 0.6772, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546174.7071, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 213.04427, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47647585584413, 
+          37.52485703884824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153227.7835, 
+        "ET_ORDER": 0.7096, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546259.1618, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 227.35874, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47572085631812, 
+          37.52485503809849
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153227.9331, 
+        "ET_ORDER": 0.7352, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546325.8761, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 243.93548, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47482085591602, 
+          37.52475703819129
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153217.5042, 
+        "ET_ORDER": 0.7661, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546405.4624, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 255.28588, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47450985618975, 
+          37.52510103796401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153255.8225, 
+        "ET_ORDER": 0.7841, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546432.7297, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 255.23528, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47427785584938, 
+          37.5254190384254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153291.2174, 
+        "ET_ORDER": 0.7998, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546453.0324, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 250.01041, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47404085588829, 
+          37.525614038263896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153312.9686, 
+        "ET_ORDER": 0.8113, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546473.853, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 244.76356, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47310885581415, 
+          37.525978037915806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153353.8132, 
+        "ET_ORDER": 0.8466, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546555.9791, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 241.76903, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.472126856366, 
+          37.52601703759567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153358.6265, 
+        "ET_ORDER": 0.8799, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546642.7247, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 250.60164, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47105585631036, 
+          37.52591103823476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153347.3981, 
+        "ET_ORDER": 0.9165, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546737.4248, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 255.86466, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47033785686189, 
+          37.52574503782954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153329.3383, 
+        "ET_ORDER": 0.9419, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546800.9713, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 262.23571, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46863935644197, 
+          37.525569038193986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2382.3, 
+        "Av_S_Up": 6.4, 
+        "Length_3D": 2624.3, 
+        "Len_Down": 242.1, 
+        "Max_S_Down": 9.9, 
+        "Min_Z": 27.6, 
+        "H_Down": 13.8, 
+        "ET_ID": 51, 
+        "trail_name": "Cabrillo Trail", 
+        "ET_Y": 4153310.6586, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 14.0, 
+        "ET_IDP": 51, 
+        "ET_IDR": "51_0", 
+        "H_Up": 266.5, 
+        "ET_X": 546951.1623, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 280.49167, 
+        "Length_2D": 2604.7, 
+        "Max_Z": 280.5
+      }
+    }
+  ]
+}

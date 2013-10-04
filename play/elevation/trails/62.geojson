@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50299078914361, 
+          37.78156709946808
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 150.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 176.0, 
+        "Len_Down": 25.9, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 100.1, 
+        "H_Down": 5.7, 
+        "ET_ID": 62, 
+        "trail_name": "Clement Trail", 
+        "ET_Y": 4181696.182, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 62, 
+        "ET_IDR": "62_0", 
+        "H_Up": 2.6, 
+        "ET_X": 543765.3312, 
+        "Av_S_Down": 12.8, 
+        "ET_Z": 103.29763, 
+        "Length_2D": 175.4, 
+        "Max_Z": 105.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50262130467752, 
+          37.78153819088043
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 150.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 176.0, 
+        "Len_Down": 25.9, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 100.1, 
+        "H_Down": 5.7, 
+        "ET_ID": 62, 
+        "trail_name": "Clement Trail", 
+        "ET_Y": 4181693.1476, 
+        "ET_ORDER": 0.1864, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 62, 
+        "ET_IDR": "62_0", 
+        "H_Up": 2.6, 
+        "ET_X": 543797.8843, 
+        "Av_S_Down": 12.8, 
+        "ET_Z": 103.95866, 
+        "Length_2D": 175.4, 
+        "Max_Z": 105.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50251714763485, 
+          37.78154540603583
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 150.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 176.0, 
+        "Len_Down": 25.9, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 100.1, 
+        "H_Down": 5.7, 
+        "ET_ID": 62, 
+        "trail_name": "Clement Trail", 
+        "ET_Y": 4181693.9969, 
+        "ET_ORDER": 0.2389, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 62, 
+        "ET_IDR": "62_0", 
+        "H_Up": 2.6, 
+        "ET_X": 543807.0519, 
+        "Av_S_Down": 12.8, 
+        "ET_Z": 104.10981, 
+        "Length_2D": 175.4, 
+        "Max_Z": 105.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50139876201199, 
+          37.78150308857837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 150.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 176.0, 
+        "Len_Down": 25.9, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 100.1, 
+        "H_Down": 5.7, 
+        "ET_ID": 62, 
+        "trail_name": "Clement Trail", 
+        "ET_Y": 4181689.8263, 
+        "ET_ORDER": 0.8012, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 62, 
+        "ET_IDR": "62_0", 
+        "H_Up": 2.6, 
+        "ET_X": 543905.5597, 
+        "Av_S_Down": 12.8, 
+        "ET_Z": 105.33725, 
+        "Length_2D": 175.4, 
+        "Max_Z": 105.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50129638502179, 
+          37.78153303053411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 150.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 176.0, 
+        "Len_Down": 25.9, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 100.1, 
+        "H_Down": 5.7, 
+        "ET_ID": 62, 
+        "trail_name": "Clement Trail", 
+        "ET_Y": 4181693.1964, 
+        "ET_ORDER": 0.856, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 62, 
+        "ET_IDR": "62_0", 
+        "H_Up": 2.6, 
+        "ET_X": 543914.5571, 
+        "Av_S_Down": 12.8, 
+        "ET_Z": 105.87429, 
+        "Length_2D": 175.4, 
+        "Max_Z": 105.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50109777419321, 
+          37.781368759726185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 150.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 176.0, 
+        "Len_Down": 25.9, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 100.1, 
+        "H_Down": 5.7, 
+        "ET_ID": 62, 
+        "trail_name": "Clement Trail", 
+        "ET_Y": 4181675.064, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.2, 
+        "ET_IDP": 62, 
+        "ET_IDR": "62_0", 
+        "H_Up": 2.6, 
+        "ET_X": 543932.1436, 
+        "Av_S_Down": 12.8, 
+        "ET_Z": 100.13858, 
+        "Length_2D": 175.4, 
+        "Max_Z": 105.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48351824117643, 
+          37.83211371509899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187313.5982, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545449.0542, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 103.05129, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48349801416647, 
+          37.83210513518627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187312.6561, 
+        "ET_ORDER": 0.0069, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545450.8394, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 102.93646, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4834831804594, 
+          37.8320569466677
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187307.3168, 
+        "ET_ORDER": 0.0259, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545452.1743, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 102.06821, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48355635044275, 
+          37.831807979635656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187279.6583, 
+        "ET_ORDER": 0.1234, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545445.8882, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 100.40454, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48349452564389, 
+          37.83111272352091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187202.5497, 
+        "ET_ORDER": 0.3895, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545451.7552, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 94.58378, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48346603252203, 
+          37.83110126733353
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187201.2925, 
+        "ET_ORDER": 0.3991, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545454.2696, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 93.8782, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48339828375894, 
+          37.83125583091525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187218.4743, 
+        "ET_ORDER": 0.4616, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545460.1366, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 92.45419, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48331643410962, 
+          37.8313838927608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187232.7226, 
+        "ET_ORDER": 0.5164, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545467.2607, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 90.44411, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48322903142174, 
+          37.831625243360776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187259.543, 
+        "ET_ORDER": 0.6122, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545474.8039, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 88.02858, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48319532783037, 
+          37.83167797513738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187265.41, 
+        "ET_ORDER": 0.6348, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545477.7374, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 87.12308, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48307082847079, 
+          37.831775632438266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187276.3057, 
+        "ET_ORDER": 0.6878, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545488.6332, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 84.85029, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48296574644125, 
+          37.831820496088106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187281.3345, 
+        "ET_ORDER": 0.7239, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545497.8527, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 82.50548, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48290344380234, 
+          37.83187687960244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187287.6206, 
+        "ET_ORDER": 0.7525, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545503.3006, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 80.72775, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48285042870161, 
+          37.831967296644045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187297.6782, 
+        "ET_ORDER": 0.7906, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545507.9103, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 79.04968, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48269243522353, 
+          37.832087469816095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187311.0884, 
+        "ET_ORDER": 0.8568, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545521.7396, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 76.46921, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48237221430216, 
+          37.832252254796025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187329.5274, 
+        "ET_ORDER": 0.9724, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545549.8171, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 72.59666, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48228151258687, 
+          37.83225966234126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 292.7, 
+        "Len_Down": 292.7, 
+        "Max_S_Down": 14.1, 
+        "Min_Z": 71.6, 
+        "H_Down": 31.5, 
+        "ET_ID": 66, 
+        "trail_name": "Conzelman Coastal TrailTrail", 
+        "ET_Y": 4187330.3935, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 66, 
+        "ET_IDR": "66_0", 
+        "H_Up": 0.0, 
+        "ET_X": 545557.7941, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 71.5835, 
+        "Length_2D": 290.7, 
+        "Max_Z": 103.1
+      }
+    }
+  ]
+}

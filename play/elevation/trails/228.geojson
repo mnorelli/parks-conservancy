@@ -1,0 +1,4517 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49531563403109, 
+          37.85043034351042
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189340.1565, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544399.9255, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 271.83911, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49536028808626, 
+          37.850252577760166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189320.4121, 
+        "ET_ORDER": 0.0056, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544396.1036, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 271.80882, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49541751667446, 
+          37.85020359916214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189314.9507, 
+        "ET_ORDER": 0.0076, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544391.0982, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 271.22577, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49561299134292, 
+          37.84995720521519
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189287.5203, 
+        "ET_ORDER": 0.0165, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544374.0487, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 267.59593, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49572353419062, 
+          37.84966314049283
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189254.8412, 
+        "ET_ORDER": 0.0259, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544364.4997, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 263.40009, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49583615108104, 
+          37.84958750754315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189246.3962, 
+        "ET_ORDER": 0.0295, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544354.6373, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 261.33067, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49622495705508, 
+          37.84946278159639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189232.3732, 
+        "ET_ORDER": 0.0397, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544320.5059, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 257.62656, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49636687052325, 
+          37.84938646409118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189223.8384, 
+        "ET_ORDER": 0.0439, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544308.0664, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 256.19724, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49639223713326, 
+          37.84935439600829
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189220.2684, 
+        "ET_ORDER": 0.045, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544305.8539, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 255.82779, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49645057103332, 
+          37.84917979239832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189200.8684, 
+        "ET_ORDER": 0.0506, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544300.8263, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 253.83372, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49652439280057, 
+          37.84904812462038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189186.2248, 
+        "ET_ORDER": 0.055, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544294.4104, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 252.19052, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49651378144411, 
+          37.849003768417596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189181.3085, 
+        "ET_ORDER": 0.0564, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544295.3705, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 251.3958, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49643241491155, 
+          37.84887784624864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189167.376, 
+        "ET_ORDER": 0.0607, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544302.6043, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 248.90761, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49643112989801, 
+          37.84884751726392
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189164.0116, 
+        "ET_ORDER": 0.0616, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544302.7355, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 248.40837, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49644004220181, 
+          37.848791214828275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189157.7606, 
+        "ET_ORDER": 0.0634, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544301.9851, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 247.57697, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49654397558055, 
+          37.848625108053234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189139.2817, 
+        "ET_ORDER": 0.0691, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544292.9406, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 244.54653, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49656353709669, 
+          37.848542875535834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189130.1487, 
+        "ET_ORDER": 0.0716, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544291.2688, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 243.06278, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49650040776943, 
+          37.84831691625679
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189105.1084, 
+        "ET_ORDER": 0.0787, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544296.958, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 239.34141, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49649796785562, 
+          37.848233440509844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189095.8479, 
+        "ET_ORDER": 0.0813, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544297.2226, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 238.32455, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49653176215543, 
+          37.848128657816396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189084.2062, 
+        "ET_ORDER": 0.0846, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544294.3121, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 237.02286, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4966318928205, 
+          37.84799792711575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189069.6541, 
+        "ET_ORDER": 0.0893, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544285.5809, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 235.22957, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49670718856116, 
+          37.847934632157695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189062.5958, 
+        "ET_ORDER": 0.0919, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544278.9943, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 234.48471, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49680536601944, 
+          37.84788333395208
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189056.8577, 
+        "ET_ORDER": 0.0948, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544270.3874, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 233.63655, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49690660759832, 
+          37.84784409559302
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189052.4562, 
+        "ET_ORDER": 0.0975, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544261.5037, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 232.61901, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49713245962599, 
+          37.84779975077076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189047.4291, 
+        "ET_ORDER": 0.1032, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544241.6599, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 230.08358, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49721404337323, 
+          37.84774286627743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189041.0791, 
+        "ET_ORDER": 0.1058, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544234.5162, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 229.08247, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49727986546489, 
+          37.84761581906956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189026.952, 
+        "ET_ORDER": 0.11, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544228.8011, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 227.24393, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49737240132102, 
+          37.84754555538229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189019.1124, 
+        "ET_ORDER": 0.1132, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544220.7018, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 226.096, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49754649132944, 
+          37.84750104469785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189014.0915, 
+        "ET_ORDER": 0.1176, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544205.412, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 224.8185, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.497684695548, 
+          37.847520712217474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189016.2082, 
+        "ET_ORDER": 0.121, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544193.2411, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 224.08423, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49776923860755, 
+          37.847470993613975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4189010.6519, 
+        "ET_ORDER": 0.1236, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544185.8327, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 223.17887, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4978699681354, 
+          37.84731636268894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188993.4479, 
+        "ET_ORDER": 0.1289, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544177.0628, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 220.38666, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49791107064189, 
+          37.84713751356643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188973.5851, 
+        "ET_ORDER": 0.1345, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544173.5533, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 217.74168, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4979615279855, 
+          37.847044231828335
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188963.2116, 
+        "ET_ORDER": 0.1376, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544169.1697, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 216.04664, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49802019201043, 
+          37.84695792870253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188953.6085, 
+        "ET_ORDER": 0.1406, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544164.0599, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 214.61384, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49806766584884, 
+          37.84692378323216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188949.7976, 
+        "ET_ORDER": 0.1421, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544159.9035, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 214.07731, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49816696795885, 
+          37.84691466793598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188948.7393, 
+        "ET_ORDER": 0.1446, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544151.1723, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 213.31424, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49833816964382, 
+          37.84694639866298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188952.1789, 
+        "ET_ORDER": 0.1488, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544136.091, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 212.08418, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49849148968694, 
+          37.84695420626526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188952.9727, 
+        "ET_ORDER": 0.1526, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544122.5972, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 210.97352, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49862133293665, 
+          37.84687606352222
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188944.2414, 
+        "ET_ORDER": 0.1565, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544111.2201, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 209.37418, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4987423001334, 
+          37.846776420980106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188933.1289, 
+        "ET_ORDER": 0.1608, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544100.6367, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 207.61216, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49879705935102, 
+          37.84668365019957
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188922.8101, 
+        "ET_ORDER": 0.1639, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544095.8742, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 206.39739, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4988575588732, 
+          37.84651891659248
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188904.5043, 
+        "ET_ORDER": 0.1692, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544090.6495, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 204.29212, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49885756089893, 
+          37.846314224830515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188881.7937, 
+        "ET_ORDER": 0.1754, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544090.7712, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 202.04152, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49881250006489, 
+          37.845760379399906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188820.3657, 
+        "ET_ORDER": 0.1925, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544095.0655, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 193.60655, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49873543709485, 
+          37.84522765677229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188761.2964, 
+        "ET_ORDER": 0.2089, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544102.1629, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 185.02409, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4987452383007, 
+          37.84482813006945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188716.9642, 
+        "ET_ORDER": 0.2211, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544101.5385, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 180.78172, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49867894909487, 
+          37.84438860308507
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188668.2299, 
+        "ET_ORDER": 0.2347, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544107.6326, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 175.12076, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4987424022935, 
+          37.84360387678579
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188581.1344, 
+        "ET_ORDER": 0.2588, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544102.5171, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 163.35123, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49873162499574, 
+          37.84342795557945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188561.621, 
+        "ET_ORDER": 0.2642, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544103.5701, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 160.9711, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49862082442026, 
+          37.84313002515989
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188528.6179, 
+        "ET_ORDER": 0.2737, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544113.4963, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 157.8945, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4986111828558, 
+          37.84303133262009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188517.6725, 
+        "ET_ORDER": 0.2768, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544114.4034, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 156.58582, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49862295486952, 
+          37.84294594708947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188508.1934, 
+        "ET_ORDER": 0.2794, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544113.4185, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 155.35057, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49867075922964, 
+          37.84285298084981
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188497.8562, 
+        "ET_ORDER": 0.2825, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544109.2678, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 153.9317, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49886407263728, 
+          37.84257329210688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188466.7334, 
+        "ET_ORDER": 0.2922, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544092.4256, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 149.10834, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4989952658125, 
+          37.84241502764651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188449.112, 
+        "ET_ORDER": 0.298, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544080.9767, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 146.29899, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49911140149038, 
+          37.84230448531469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188436.7925, 
+        "ET_ORDER": 0.3024, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544070.8242, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 143.95248, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49923349085641, 
+          37.8422506368726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188430.7604, 
+        "ET_ORDER": 0.3058, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544060.1141, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 141.89704, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49938621885256, 
+          37.84221799918724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188427.0672, 
+        "ET_ORDER": 0.3097, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544046.6956, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 139.90337, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49969985022518, 
+          37.842184935465525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188423.2509, 
+        "ET_ORDER": 0.3174, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 544019.1201, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 137.40363, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50008851397914, 
+          37.842162774374735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188420.609, 
+        "ET_ORDER": 0.3268, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543984.9363, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 132.82145, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50058978620055, 
+          37.842253047082195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188430.3888, 
+        "ET_ORDER": 0.3393, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543940.7778, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 126.93236, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50065669212142, 
+          37.84228191029341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188433.5597, 
+        "ET_ORDER": 0.3412, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543934.8739, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 126.03962, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50070906459571, 
+          37.84234034678072
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188440.0186, 
+        "ET_ORDER": 0.3434, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543930.2312, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 125.12406, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50075300921382, 
+          37.842470840252034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188454.4762, 
+        "ET_ORDER": 0.3475, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543926.2873, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 123.51561, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50077842715594, 
+          37.842646001388566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188473.8984, 
+        "ET_ORDER": 0.3529, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543923.947, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 122.22983, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50085619961101, 
+          37.84286178094626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188497.8026, 
+        "ET_ORDER": 0.3598, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543916.9762, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 119.29972, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50089412253897, 
+          37.84291059505259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188503.2007, 
+        "ET_ORDER": 0.3616, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543913.6106, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 118.63006, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5009864911559, 
+          37.84294000672559
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188506.4205, 
+        "ET_ORDER": 0.364, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543905.4661, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 117.87045, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50131771712297, 
+          37.842913434160025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188503.3166, 
+        "ET_ORDER": 0.3721, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543876.3389, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 115.09897, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50168256513281, 
+          37.84283219994949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188494.1323, 
+        "ET_ORDER": 0.3813, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543844.2858, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 111.95328, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50199295074664, 
+          37.84274339407342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188484.1336, 
+        "ET_ORDER": 0.3893, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543817.029, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 107.97904, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5021857711672, 
+          37.84272874381255
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188482.4177, 
+        "ET_ORDER": 0.394, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543800.0723, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 105.91424, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5025337883404, 
+          37.8427336429934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188482.7981, 
+        "ET_ORDER": 0.4025, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543769.449, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 103.34955, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50264022646935, 
+          37.842714192634894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188480.5902, 
+        "ET_ORDER": 0.4051, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543760.0955, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 102.73505, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50269982576903, 
+          37.84268784769678
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188477.6393, 
+        "ET_ORDER": 0.4068, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543754.8672, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 102.28363, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50281095702819, 
+          37.842572851558074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188464.8284, 
+        "ET_ORDER": 0.4112, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543745.1572, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 100.67039, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5029079791817, 
+          37.842325722920634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188437.364, 
+        "ET_ORDER": 0.4192, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543736.7666, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 97.83913, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50334876694717, 
+          37.841789875344894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188377.7053, 
+        "ET_ORDER": 0.4388, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543698.2997, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 92.95649, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5034447992297, 
+          37.84160673116246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188357.3405, 
+        "ET_ORDER": 0.4448, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543689.9582, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 90.9341, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50344928245602, 
+          37.84145524144699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188340.5306, 
+        "ET_ORDER": 0.4495, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543689.6531, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 89.17042, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50341992662841, 
+          37.84133256079399
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188326.9329, 
+        "ET_ORDER": 0.4533, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543692.3084, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 87.48473, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50339426570515, 
+          37.84132396228659
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188325.9909, 
+        "ET_ORDER": 0.454, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543694.5713, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 87.36672, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50330775533536, 
+          37.841177855383265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188309.8208, 
+        "ET_ORDER": 0.4589, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543702.2693, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 84.8417, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5030610145645, 
+          37.840936681333154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188283.178, 
+        "ET_ORDER": 0.4685, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543724.1217, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 80.33479, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50299204666464, 
+          37.84079697087501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188267.7094, 
+        "ET_ORDER": 0.4731, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543730.2725, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 78.23056, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50301948116906, 
+          37.84042875172615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188226.8426, 
+        "ET_ORDER": 0.4844, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543728.076, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 74.3065, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50299071373595, 
+          37.84026952997674
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188209.1904, 
+        "ET_ORDER": 0.4893, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543730.7012, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 73.00924, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50286529104105, 
+          37.839886891878436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188166.7954, 
+        "ET_ORDER": 0.5014, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543741.9629, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 71.51271, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50282803045116, 
+          37.839719289030256
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188148.2173, 
+        "ET_ORDER": 0.5066, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543745.3404, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 71.02884, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50281185066315, 
+          37.83955800769767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188130.3307, 
+        "ET_ORDER": 0.5116, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543746.8593, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 70.43018, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50282722343829, 
+          37.8394318059101
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188116.3214, 
+        "ET_ORDER": 0.5155, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543745.5812, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 69.85831, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50296338314477, 
+          37.83901773201137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4188070.3161, 
+        "ET_ORDER": 0.5286, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543733.8451, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 67.10157, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50352654556717, 
+          37.83810091648688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187968.3318, 
+        "ET_ORDER": 0.5598, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543684.8333, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 59.15803, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50384862169292, 
+          37.8376804019858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187921.5251, 
+        "ET_ORDER": 0.5749, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543656.7414, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 55.2719, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50388697909364, 
+          37.837639137725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187916.9289, 
+        "ET_ORDER": 0.5765, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543653.3906, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 54.81971, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50485300961371, 
+          37.83660382543443
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187801.6099, 
+        "ET_ORDER": 0.6159, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543568.9972, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 49.49188, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50513508966293, 
+          37.83626809087464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187764.2286, 
+        "ET_ORDER": 0.6283, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543544.3736, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 48.21019, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50534229012072, 
+          37.836061501236856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187741.2109, 
+        "ET_ORDER": 0.6364, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543526.2628, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 47.68684, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50558584815391, 
+          37.835875971474806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187720.5129, 
+        "ET_ORDER": 0.6446, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543504.9403, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 47.31413, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50584999207139, 
+          37.83573058796166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187704.2596, 
+        "ET_ORDER": 0.6524, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543481.7827, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 46.86485, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50604030129982, 
+          37.835655769364664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187695.8699, 
+        "ET_ORDER": 0.6576, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543465.0806, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 46.55013, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50618868844137, 
+          37.83561803111122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187691.6138, 
+        "ET_ORDER": 0.6614, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543452.0456, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 46.28582, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50688653268732, 
+          37.835522699974796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187680.7124, 
+        "ET_ORDER": 0.6786, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543390.6955, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 43.70805, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5077189704445, 
+          37.83528102243796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187653.5119, 
+        "ET_ORDER": 0.7001, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543317.5874, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 40.68746, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50785944356022, 
+          37.83519717868498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187644.1443, 
+        "ET_ORDER": 0.7044, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543305.2756, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 39.77, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50839233407633, 
+          37.834660988674464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187584.4071, 
+        "ET_ORDER": 0.7253, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543258.6974, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 37.27045, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50860444879496, 
+          37.834487930624626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187565.1081, 
+        "ET_ORDER": 0.7327, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543240.1334, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 36.3628, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50877076650826, 
+          37.83440644956833
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187555.9908, 
+        "ET_ORDER": 0.7375, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543225.5458, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 35.79675, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50894062117604, 
+          37.834345083073615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187549.1036, 
+        "ET_ORDER": 0.742, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543210.6352, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 35.36722, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50962844488936, 
+          37.834158413055306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187528.0746, 
+        "ET_ORDER": 0.7597, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543150.2187, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 33.46085, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50975049417443, 
+          37.83410022172727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187521.5619, 
+        "ET_ORDER": 0.7631, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543139.5128, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 33.11931, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5098890513443, 
+          37.83399867668991
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187510.2315, 
+        "ET_ORDER": 0.7677, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543127.3795, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 32.6458, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51008139003476, 
+          37.83389011862326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187498.0982, 
+        "ET_ORDER": 0.7735, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543110.5177, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 32.3056, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51026178543479, 
+          37.833805303286205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187488.6047, 
+        "ET_ORDER": 0.7786, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543094.693, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 32.10322, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51050227492527, 
+          37.833716573410236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187478.6492, 
+        "ET_ORDER": 0.785, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543073.5825, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 31.51856, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51070753153763, 
+          37.833647468650504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187470.8874, 
+        "ET_ORDER": 0.7904, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543055.5609, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 30.8, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51094210331244, 
+          37.83359135142789
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187464.5531, 
+        "ET_ORDER": 0.7964, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543034.9521, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 30.08992, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51123545140618, 
+          37.83353949750304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187458.6648, 
+        "ET_ORDER": 0.8037, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 543009.1687, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 29.1753, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5116768172213, 
+          37.833488257556866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187452.7766, 
+        "ET_ORDER": 0.8145, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542970.3599, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 28.25578, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51208202424976, 
+          37.8333854033106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187441.1786, 
+        "ET_ORDER": 0.8249, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542934.7628, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 27.38172, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51269412612459, 
+          37.83332742735472
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187434.465, 
+        "ET_ORDER": 0.8399, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542880.9336, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 26.50413, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51291137297852, 
+          37.83328948058328
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187430.1551, 
+        "ET_ORDER": 0.8453, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542861.8386, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 25.9606, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51311154193417, 
+          37.833274664267655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187428.4194, 
+        "ET_ORDER": 0.8501, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542844.233, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 25.45175, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51386846727016, 
+          37.83324193879069
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187424.4416, 
+        "ET_ORDER": 0.8686, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542777.6451, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 22.80709, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51413274890854, 
+          37.83324475535194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187424.6331, 
+        "ET_ORDER": 0.875, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542754.3876, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 22.09432, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5143286138898, 
+          37.83323098545777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187423.0157, 
+        "ET_ORDER": 0.8798, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542737.1601, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 21.59454, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51470946461505, 
+          37.83322984512869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187422.715, 
+        "ET_ORDER": 0.889, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542703.6472, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 20.88929, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51498863516792, 
+          37.83327575675008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187427.6813, 
+        "ET_ORDER": 0.896, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542679.0547, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 20.55181, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51541611162554, 
+          37.833402519612775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187441.5504, 
+        "ET_ORDER": 0.9071, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542641.3653, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 19.49048, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51595129923068, 
+          37.833509378446195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187453.1622, 
+        "ET_ORDER": 0.9205, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542594.2093, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 17.96541, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51632274573089, 
+          37.833626187125944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187465.9528, 
+        "ET_ORDER": 0.9302, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542561.4563, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 16.89616, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51695822771224, 
+          37.8339466539207
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187501.2192, 
+        "ET_ORDER": 0.9485, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542505.3525, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 13.46954, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51756355241376, 
+          37.83434492260106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187545.1318, 
+        "ET_ORDER": 0.9676, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542451.8583, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 15.82523, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51766188548491, 
+          37.83442147412309
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187553.5805, 
+        "ET_ORDER": 0.971, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542443.1616, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 16.72752, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51777880005478, 
+          37.83455727608373
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187568.5946, 
+        "ET_ORDER": 0.976, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542432.7959, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 17.27484, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51785293656688, 
+          37.8347394985982
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187588.7785, 
+        "ET_ORDER": 0.9819, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542426.1679, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 17.58284, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51791870104361, 
+          37.834980442119125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187615.4813, 
+        "ET_ORDER": 0.9894, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542420.243, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 17.38243, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51799724539445, 
+          37.835161096273374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187635.4892, 
+        "ET_ORDER": 0.9953, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542413.2281, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 13.81859, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51803244424602, 
+          37.83522241205345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187642.2762, 
+        "ET_ORDER": 0.9973, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542410.0957, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 12.71652, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51811712459639, 
+          37.83527765539059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 120.9, 
+        "Av_S_Up": 1.9, 
+        "Length_3D": 3634.0, 
+        "Len_Down": 3513.1, 
+        "Max_S_Down": 9.5, 
+        "Min_Z": 11.8, 
+        "H_Down": 264.2, 
+        "ET_ID": 228, 
+        "trail_name": "Rodeo Valley Fire Road", 
+        "ET_Y": 4187648.367, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.3, 
+        "ET_IDP": 228, 
+        "ET_IDR": "228_0", 
+        "H_Up": 4.1, 
+        "ET_X": 542402.6127, 
+        "Av_S_Down": 4.3, 
+        "ET_Z": 11.78696, 
+        "Length_2D": 3620.4, 
+        "Max_Z": 271.8
+      }
+    }
+  ]
+}

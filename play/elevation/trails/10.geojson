@@ -1,0 +1,4709 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51958489262005, 
+          37.87528530468591
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4192086.563, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542250.617, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 102.15863, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51952668843252, 
+          37.87500618831705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4192055.6212, 
+        "ET_ORDER": 0.0078, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542255.8953, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 104.53229, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51939769645178, 
+          37.8747924022074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4192031.9599, 
+        "ET_ORDER": 0.0144, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542267.3619, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 106.65289, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51933471508126, 
+          37.87461169374141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4192011.9387, 
+        "ET_ORDER": 0.0196, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542273.0042, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 108.56356, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51934160533368, 
+          37.8745067328784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4192000.2901, 
+        "ET_ORDER": 0.0225, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542272.4582, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 109.19945, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51938797552546, 
+          37.87437732495319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191985.9112, 
+        "ET_ORDER": 0.0262, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542268.454, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 109.45951, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51953466157964, 
+          37.87409740440859
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191954.7874, 
+        "ET_ORDER": 0.0346, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542255.7132, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 109.5137, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51964322924796, 
+          37.8736319565606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191903.0965, 
+        "ET_ORDER": 0.0477, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542246.4307, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 111.49994, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51967427805747, 
+          37.87331219238378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191867.6044, 
+        "ET_ORDER": 0.0565, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542243.8826, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 112.28903, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51974105152959, 
+          37.87290891148934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191822.8299, 
+        "ET_ORDER": 0.0678, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542238.2402, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 113.6792, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51975134869522, 
+          37.87227901570753
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191752.9379, 
+        "ET_ORDER": 0.0852, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542237.6942, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 115.63269, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51976869221227, 
+          37.872157691920194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191739.4691, 
+        "ET_ORDER": 0.0886, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542236.2381, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 115.96226, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52002634893813, 
+          37.87150699862851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191667.1577, 
+        "ET_ORDER": 0.1075, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542213.9484, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 120.09641, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52020775343173, 
+          37.87114895676953
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191627.3507, 
+        "ET_ORDER": 0.1181, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542198.1979, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 122.60121, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52031313697368, 
+          37.870854102528114
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191594.5888, 
+        "ET_ORDER": 0.1266, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542189.0974, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 125.25937, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52032948299042, 
+          37.870567088211736
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191562.737, 
+        "ET_ORDER": 0.1346, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542187.8234, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 126.3116, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52029842658295, 
+          37.87025035139461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191527.6089, 
+        "ET_ORDER": 0.1434, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542190.7355, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 128.03448, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5201945266659, 
+          37.869997296653274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191499.5793, 
+        "ET_ORDER": 0.1507, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542200.0181, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 128.56803, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52010114137126, 
+          37.869889675519644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191487.6809, 
+        "ET_ORDER": 0.1543, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542208.293, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 128.54572, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51994772678715, 
+          37.86976170422136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191473.5518, 
+        "ET_ORDER": 0.1592, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542221.8593, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 128.39472, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51964569507044, 
+          37.86942745833639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191436.6037, 
+        "ET_ORDER": 0.1706, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542248.6148, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 127.21882, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51935653955566, 
+          37.86902272471275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191391.8292, 
+        "ET_ORDER": 0.1835, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542274.2783, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 124.64739, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51906020929471, 
+          37.86876724194551
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191363.6175, 
+        "ET_ORDER": 0.1931, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542300.4878, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 123.18971, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51891175104234, 
+          37.868684612415755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191354.517, 
+        "ET_ORDER": 0.197, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542313.5926, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 123.21818, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51874453165259, 
+          37.8686232317273
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191347.7826, 
+        "ET_ORDER": 0.2011, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542328.3354, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 123.6996, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51860439464764, 
+          37.86853407434171
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191337.9541, 
+        "ET_ORDER": 0.205, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542340.7121, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 123.72135, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51846453556169, 
+          37.868402264695746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191323.3932, 
+        "ET_ORDER": 0.2098, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542353.0888, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 123.18615, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51802937583096, 
+          37.86791855509612
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191269.9229, 
+        "ET_ORDER": 0.2262, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542391.6403, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 120.50403, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51733865733549, 
+          37.867394414098854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191212.0831, 
+        "ET_ORDER": 0.2472, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542452.6934, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 118.37384, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5161969183745, 
+          37.86635796575643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191097.6085, 
+        "ET_ORDER": 0.2853, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542553.7122, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 122.50271, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51550403938501, 
+          37.86581932382589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191038.162, 
+        "ET_ORDER": 0.3065, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542614.9661, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 131.32029, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51517966114051, 
+          37.865493979317634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4191002.213, 
+        "ET_ORDER": 0.318, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542643.6852, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 135.20172, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5149236989592, 
+          37.86518158629985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190967.6698, 
+        "ET_ORDER": 0.3283, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542666.3793, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 137.7785, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51474325076771, 
+          37.86504907860634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190953.0505, 
+        "ET_ORDER": 0.3337, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542682.3277, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 139.62586, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51441735975493, 
+          37.86475050344301
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190920.0725, 
+        "ET_ORDER": 0.3446, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542711.165, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 144.41837, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51400944179794, 
+          37.86428362204429
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190868.4585, 
+        "ET_ORDER": 0.3603, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542747.3148, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 147.68965, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51383302997974, 
+          37.86414211026923
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190852.8385, 
+        "ET_ORDER": 0.3659, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542762.9137, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 149.02075, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51260398865425, 
+          37.86338187343352
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190769.0536, 
+        "ET_ORDER": 0.4, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542871.4604, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 153.55144, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51247486891889, 
+          37.86332901193712
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190763.2479, 
+        "ET_ORDER": 0.4032, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542882.8485, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 153.29217, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.512343077061, 
+          37.86329626442406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190759.6751, 
+        "ET_ORDER": 0.4063, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542894.46, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 152.38242, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51179874286171, 
+          37.863237843126946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190753.4435, 
+        "ET_ORDER": 0.4183, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542942.374, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 152.09465, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51155391274672, 
+          37.863134981414426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190742.1436, 
+        "ET_ORDER": 0.4244, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542963.9692, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 154.66525, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51138688137141, 
+          37.863044159003394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190732.1437, 
+        "ET_ORDER": 0.4288, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 542978.7142, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 157.10217, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51096602338389, 
+          37.86272649070059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190697.0921, 
+        "ET_ORDER": 0.4416, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543015.918, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 168.77902, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51087418274267, 
+          37.86256521943711
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190679.2413, 
+        "ET_ORDER": 0.4465, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543024.0902, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 173.64442, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51078349626935, 
+          37.86231281944752
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190651.2792, 
+        "ET_ORDER": 0.4537, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543032.2139, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 177.98566, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51079537548364, 
+          37.86216591045092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190634.9741, 
+        "ET_ORDER": 0.4578, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543031.2544, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 181.57392, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51092389518186, 
+          37.8619858367464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190614.9356, 
+        "ET_ORDER": 0.4635, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543020.0542, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 186.4114, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51090828841045, 
+          37.861927536027345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190608.4743, 
+        "ET_ORDER": 0.4652, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543021.4609, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 187.19237, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5104408064987, 
+          37.8615272173247
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190564.2743, 
+        "ET_ORDER": 0.4803, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543062.8147, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 184.53056, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51017530911211, 
+          37.861253649227194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190534.0443, 
+        "ET_ORDER": 0.4898, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543086.3279, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 184.35332, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50978833661765, 
+          37.86094465746662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190499.9402, 
+        "ET_ORDER": 0.5019, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543120.5473, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 184.05079, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50973633117523, 
+          37.860886287961584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190493.4881, 
+        "ET_ORDER": 0.5038, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543125.1559, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 184.1175, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50969750544421, 
+          37.86081551099605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190485.6533, 
+        "ET_ORDER": 0.506, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543128.6124, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 184.22734, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50957824787601, 
+          37.860429748688844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190442.9079, 
+        "ET_ORDER": 0.517, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543139.3276, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 187.05851, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50948141920313, 
+          37.86021750123952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190419.4037, 
+        "ET_ORDER": 0.5232, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543147.9688, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 189.25326, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50935066215645, 
+          37.85985443064521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190379.1813, 
+        "ET_ORDER": 0.5336, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543159.6825, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 191.47142, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50924385750832, 
+          37.85963165745368
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190354.5139, 
+        "ET_ORDER": 0.5402, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543169.2075, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 191.98582, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50916189508898, 
+          37.85953556135173
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190343.8899, 
+        "ET_ORDER": 0.5434, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543176.4734, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 192.42114, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50908314432579, 
+          37.859478550082024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190337.6009, 
+        "ET_ORDER": 0.5458, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543183.434, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 192.81016, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50867549340315, 
+          37.85930074863851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190318.0624, 
+        "ET_ORDER": 0.556, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543219.397, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 194.80565, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50854777348776, 
+          37.85919675682589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190306.5836, 
+        "ET_ORDER": 0.56, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543230.6927, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 195.80269, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50849148599617, 
+          37.85910186700197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190296.0816, 
+        "ET_ORDER": 0.5629, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543235.6995, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 196.76974, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50840348792048, 
+          37.85886981690297
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190270.3763, 
+        "ET_ORDER": 0.5696, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543243.5759, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 198.9349, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50827320158564, 
+          37.858629884896686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190243.8161, 
+        "ET_ORDER": 0.5768, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543255.1769, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 200.98147, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50824735655249, 
+          37.85844542164958
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190223.3618, 
+        "ET_ORDER": 0.582, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543257.5582, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 202.37526, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50829761359884, 
+          37.858089576083316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190183.8573, 
+        "ET_ORDER": 0.5919, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543253.3452, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 204.88048, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50833455003708, 
+          37.857962607762474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190169.753, 
+        "ET_ORDER": 0.5955, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543250.1702, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 205.86055, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50844641055946, 
+          37.857736894455755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190144.6582, 
+        "ET_ORDER": 0.6022, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543240.462, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 208.23223, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50847764485256, 
+          37.85763246461046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190133.0572, 
+        "ET_ORDER": 0.6052, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543237.7754, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 209.31633, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5084726691958, 
+          37.85754549417967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190123.4101, 
+        "ET_ORDER": 0.6076, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543238.2639, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 209.86014, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50841774655102, 
+          37.85745446306806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190113.3356, 
+        "ET_ORDER": 0.6104, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543243.1485, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 210.40808, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50833000065137, 
+          37.857393561557394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190106.6192, 
+        "ET_ORDER": 0.6129, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543250.9029, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 210.89663, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50823657506464, 
+          37.85735189802117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190102.0399, 
+        "ET_ORDER": 0.6153, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543259.1457, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 211.54915, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5078064891899, 
+          37.85720976988337
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190086.4701, 
+        "ET_ORDER": 0.6255, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543297.0626, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 214.9393, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50758914451653, 
+          37.85711971054022
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190076.5788, 
+        "ET_ORDER": 0.6309, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543316.2347, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 215.69283, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50705651255427, 
+          37.85684672584163
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190046.5383, 
+        "ET_ORDER": 0.6448, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543363.2493, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 218.6813, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50664445770538, 
+          37.85649940153221
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4190008.194, 
+        "ET_ORDER": 0.658, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543399.7008, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 218.49962, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50653651766054, 
+          37.85634486054628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189991.0978, 
+        "ET_ORDER": 0.6629, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543409.2868, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 219.56749, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50645899847423, 
+          37.856155601663204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189970.1355, 
+        "ET_ORDER": 0.6684, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543416.2171, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 220.06051, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50639741507926, 
+          37.85608664705598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189962.5136, 
+        "ET_ORDER": 0.6707, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543421.675, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 220.06188, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50630128758989, 
+          37.85602304013291
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189955.5011, 
+        "ET_ORDER": 0.6734, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543430.1686, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 220.27178, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50613036201695, 
+          37.85595921407651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189948.4991, 
+        "ET_ORDER": 0.6776, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543445.2423, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 220.13538, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5058826744437, 
+          37.85593158290757
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189945.5487, 
+        "ET_ORDER": 0.6831, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543467.0475, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 219.71402, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5056951268486, 
+          37.855953358997475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189948.0521, 
+        "ET_ORDER": 0.6872, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543483.5332, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 219.48442, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50550380842348, 
+          37.85602024452788
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189955.5622, 
+        "ET_ORDER": 0.6918, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543500.3241, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 219.91233, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50542043829007, 
+          37.85602591149053
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189956.2298, 
+        "ET_ORDER": 0.6936, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543507.6548, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 219.94892, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50546285064736, 
+          37.85590272907881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189942.5429, 
+        "ET_ORDER": 0.6972, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543503.9962, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 221.21459, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50548143448161, 
+          37.855728460725224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189923.1991, 
+        "ET_ORDER": 0.702, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543502.4638, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 223.21662, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50545110575338, 
+          37.85557126493904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189905.7723, 
+        "ET_ORDER": 0.7064, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543505.2242, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 224.83274, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50537852310445, 
+          37.855440946998684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189891.3473, 
+        "ET_ORDER": 0.7104, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543511.6859, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 225.96381, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5053016790257, 
+          37.855354007987565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189881.7372, 
+        "ET_ORDER": 0.7133, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543518.497, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 226.67981, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50520232977435, 
+          37.855275241119465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189873.0443, 
+        "ET_ORDER": 0.7164, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543527.2831, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 227.25565, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50473575072152, 
+          37.855022163747954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189845.1829, 
+        "ET_ORDER": 0.7288, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543568.4772, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 228.55155, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50462827025096, 
+          37.85494051227117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189836.1738, 
+        "ET_ORDER": 0.732, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543577.9804, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 228.68311, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50448716661485, 
+          37.854899076896096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189831.6424, 
+        "ET_ORDER": 0.7353, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543590.4178, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 229.11096, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50420008813292, 
+          37.85477151200137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189817.6231, 
+        "ET_ORDER": 0.7426, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543615.7475, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 230.95044, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.503929507349, 
+          37.854701903054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189810.0264, 
+        "ET_ORDER": 0.7488, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543639.5918, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 232.09275, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.503130483852, 
+          37.85441919219392
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189779.0333, 
+        "ET_ORDER": 0.768, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543710.0497, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 234.96719, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5027923273423, 
+          37.85431901977511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189768.0775, 
+        "ET_ORDER": 0.7759, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543739.857, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 235.6551, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50259583793905, 
+          37.854290391027696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189764.9932, 
+        "ET_ORDER": 0.7803, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543757.1594, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 236.14289, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50228142776923, 
+          37.8543089245363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189767.1969, 
+        "ET_ORDER": 0.7872, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543784.8076, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 238.19319, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50208457560302, 
+          37.85425652151252
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189761.4751, 
+        "ET_ORDER": 0.7918, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543802.156, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 239.16697, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50189877785574, 
+          37.85415250398356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189750.0215, 
+        "ET_ORDER": 0.7968, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543818.5625, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 240.32357, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50162494074428, 
+          37.85390383825458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189722.5605, 
+        "ET_ORDER": 0.8059, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543842.7997, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 242.9402, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50152494435109, 
+          37.85382970635582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189714.3825, 
+        "ET_ORDER": 0.8089, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543851.6405, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 244.09563, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5014481553456, 
+          37.8537944169837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189710.5032, 
+        "ET_ORDER": 0.8108, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543858.4167, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 244.7928, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50132019231731, 
+          37.853765369598236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189707.3405, 
+        "ET_ORDER": 0.8138, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543869.6911, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 246.05814, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50108588122046, 
+          37.85374085574428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189704.7308, 
+        "ET_ORDER": 0.8189, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543890.3185, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 248.47475, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50096579542337, 
+          37.85377680283077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189708.7756, 
+        "ET_ORDER": 0.8218, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543900.8614, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 249.998, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50083603748516, 
+          37.85376330201631
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189707.3387, 
+        "ET_ORDER": 0.8246, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543912.2845, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 251.13814, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50076664290518, 
+          37.853693003552124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189699.5717, 
+        "ET_ORDER": 0.8271, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543918.431, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 251.61941, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50071537846851, 
+          37.853516284746085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189679.9888, 
+        "ET_ORDER": 0.8321, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543923.0457, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 253.28911, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50066315455133, 
+          37.85346028159908
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189673.7998, 
+        "ET_ORDER": 0.834, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543927.6732, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 254.24868, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50054593698431, 
+          37.85340810370943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189668.0658, 
+        "ET_ORDER": 0.837, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543938.0161, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 255.71535, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5003449562746, 
+          37.85338688972114
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189665.8067, 
+        "ET_ORDER": 0.8414, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543955.7095, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 258.02294, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50022279351083, 
+          37.85335436599242
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189662.2557, 
+        "ET_ORDER": 0.8443, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543966.4758, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 259.31148, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50009741136257, 
+          37.853253880063825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189651.1658, 
+        "ET_ORDER": 0.8482, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543977.5657, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 259.84221, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49988076319956, 
+          37.853186324020776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189643.7725, 
+        "ET_ORDER": 0.8533, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 543996.665, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 261.89207, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49981822308825, 
+          37.85311387024691
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189635.7632, 
+        "ET_ORDER": 0.8557, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544002.2099, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 262.30681, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49972759461215, 
+          37.85305240207783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189628.986, 
+        "ET_ORDER": 0.8583, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544010.2193, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 262.78561, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49960180078806, 
+          37.85301299704632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189624.6733, 
+        "ET_ORDER": 0.8613, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544021.3092, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 263.65349, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49936361887804, 
+          37.85302309051967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189625.9055, 
+        "ET_ORDER": 0.8665, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544042.2568, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 265.83797, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49906195721255, 
+          37.85309954868594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189634.5309, 
+        "ET_ORDER": 0.8735, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544068.7494, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 268.36755, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49886586863653, 
+          37.85309871434493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189634.5309, 
+        "ET_ORDER": 0.8778, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544086.0004, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 270.23017, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49870509741164, 
+          37.85305360656276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189629.6021, 
+        "ET_ORDER": 0.8815, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544100.1708, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 271.24756, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49857256434073, 
+          37.85297530030539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189620.9766, 
+        "ET_ORDER": 0.8851, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544111.8768, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 271.93821, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49851017501905, 
+          37.85288063384356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189610.5028, 
+        "ET_ORDER": 0.8881, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544117.4218, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 272.10006, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4983780939496, 
+          37.852735694083776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189594.4841, 
+        "ET_ORDER": 0.893, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544129.1278, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 272.92116, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49817579487514, 
+          37.852618218723215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189581.5458, 
+        "ET_ORDER": 0.8985, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544146.9948, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 273.42942, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49799382662893, 
+          37.85260078430566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189579.6975, 
+        "ET_ORDER": 0.9026, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544163.0136, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 273.51427, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49788851635466, 
+          37.85263920674558
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189584.0103, 
+        "ET_ORDER": 0.9051, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544172.2552, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 273.51754, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49777593925526, 
+          37.85271646773408
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189592.6357, 
+        "ET_ORDER": 0.9084, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544182.1129, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 273.97549, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49764246579612, 
+          37.85277698156846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189599.4129, 
+        "ET_ORDER": 0.9117, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544193.8189, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 274.19633, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49746716225147, 
+          37.85280955117285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189603.1095, 
+        "ET_ORDER": 0.9157, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544209.2215, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 274.14636, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4972501030411, 
+          37.85280307171295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189602.4934, 
+        "ET_ORDER": 0.9205, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544228.3208, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 273.87262, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49667885564142, 
+          37.85274080916105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189595.8561, 
+        "ET_ORDER": 0.9331, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544278.6126, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 274.45095, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49658761108765, 
+          37.85266424361185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189587.4044, 
+        "ET_ORDER": 0.936, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544286.6855, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 273.70984, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49651623650645, 
+          37.85243972737766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189562.5281, 
+        "ET_ORDER": 0.9424, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544293.0989, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 272.8956, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49652794947286, 
+          37.851982685628045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189511.8136, 
+        "ET_ORDER": 0.9551, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544292.3419, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 270.49015, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49642149240285, 
+          37.85182190734936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189494.0257, 
+        "ET_ORDER": 0.9601, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544301.8036, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 271.71763, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49613054375438, 
+          37.851588705842396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189468.29, 
+        "ET_ORDER": 0.9692, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544327.5393, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 272.21161, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49598253326617, 
+          37.851212847797335
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189426.6587, 
+        "ET_ORDER": 0.9801, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544340.7856, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 270.24667, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49599204217539, 
+          37.851079854198716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189411.8985, 
+        "ET_ORDER": 0.9837, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544340.0287, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 270.40648, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49592374773876, 
+          37.8510011060479
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189403.1938, 
+        "ET_ORDER": 0.9864, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544346.0841, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 270.28208, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4956709160945, 
+          37.85085675578134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189387.2982, 
+        "ET_ORDER": 0.9932, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544368.4136, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 269.80369, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4954851597328, 
+          37.850660829518304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3120.2, 
+        "Av_S_Up": 3.5, 
+        "Length_3D": 4020.1, 
+        "Len_Down": 899.9, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 102.2, 
+        "H_Down": 23.7, 
+        "ET_ID": 10, 
+        "trail_name": "Alta Avenue Fire Road", 
+        "ET_Y": 4189365.6484, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 13.9, 
+        "ET_IDP": 10, 
+        "ET_IDR": "10_0", 
+        "H_Up": 190.8, 
+        "ET_X": 544384.8731, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 269.21335, 
+        "Length_2D": 4010.7, 
+        "Max_Z": 274.5
+      }
+    }
+  ]
+}

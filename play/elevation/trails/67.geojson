@@ -1,0 +1,5765 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49915493001946, 
+          37.826963212977454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186734.6576, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_0", 
+        "H_Up": 171.5, 
+        "ET_X": 544076.121, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 245.6761, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49912248609803, 
+          37.82700036031861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186738.7944, 
+        "ET_ORDER": 0.0012, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_0", 
+        "H_Up": 171.5, 
+        "ET_X": 544078.9541, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 244.03355, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4989371234598, 
+          37.827423096489596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186785.7844, 
+        "ET_ORDER": 0.0132, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_0", 
+        "H_Up": 171.5, 
+        "ET_X": 544095.0152, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 244.82798, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49879078866205, 
+          37.827644478607745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186810.4158, 
+        "ET_ORDER": 0.0199, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_0", 
+        "H_Up": 171.5, 
+        "ET_X": 544107.7614, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 245.46395, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49865727097742, 
+          37.827756319666115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186822.8876, 
+        "ET_ORDER": 0.0241, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_0", 
+        "H_Up": 171.5, 
+        "ET_X": 544119.4448, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 244.64131, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51070872203539, 
+          37.827348798397274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186772.0501, 
+        "ET_ORDER": 0.0241, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543059.1165, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 94.35375, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49865727097742, 
+          37.827756319666115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186822.8876, 
+        "ET_ORDER": 0.0241, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 544119.4448, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 244.64131, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49865727097742, 
+          37.827756319666115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186822.8876, 
+        "ET_ORDER": 0.0241, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544119.4448, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 244.64131, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51021955138631, 
+          37.826986673656776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186732.098, 
+        "ET_ORDER": 0.0383, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543102.3759, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 98.57592, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51009676061332, 
+          37.826914621633804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186724.1605, 
+        "ET_ORDER": 0.0416, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543113.2239, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 99.11477, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5097940129366, 
+          37.82677743297724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186709.0792, 
+        "ET_ORDER": 0.049, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543139.9468, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 99.78757, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50885542088554, 
+          37.82660717466738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186690.6229, 
+        "ET_ORDER": 0.0695, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543222.6462, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 104.70334, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50854938375127, 
+          37.82654212063329
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186683.5468, 
+        "ET_ORDER": 0.0763, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543249.6168, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 106.15356, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50841745020325, 
+          37.826489106705566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186677.726, 
+        "ET_ORDER": 0.0794, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543261.2585, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 106.96171, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50825004945521, 
+          37.826344132781315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186661.7187, 
+        "ET_ORDER": 0.0847, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543276.0752, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 108.53872, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50807111383833, 
+          37.82612518332512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186637.5092, 
+        "ET_ORDER": 0.0917, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543291.9503, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 109.57714, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50801128792786, 
+          37.82607962466908
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186632.4822, 
+        "ET_ORDER": 0.0935, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543297.2419, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 109.43137, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50794684820019, 
+          37.82604954650832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186629.1749, 
+        "ET_ORDER": 0.0951, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543302.9305, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 109.42424, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50779660058106, 
+          37.82603818685361
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186627.9842, 
+        "ET_ORDER": 0.0983, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543316.1597, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 110.08761, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50768077564932, 
+          37.82604962708459
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186629.3072, 
+        "ET_ORDER": 0.1008, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543326.3462, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 110.21695, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50747601718767, 
+          37.826097657103006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186634.7311, 
+        "ET_ORDER": 0.1053, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543344.3379, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 111.67723, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50729820540695, 
+          37.826162493522766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186642.0072, 
+        "ET_ORDER": 0.1095, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543359.9483, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 113.09478, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50691647766489, 
+          37.82637432769627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186665.6874, 
+        "ET_ORDER": 0.1194, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543393.4182, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 116.97297, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5067794575633, 
+          37.82640833268938
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186669.5239, 
+        "ET_ORDER": 0.1224, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543405.4567, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 119.03142, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50663076826496, 
+          37.82638863195722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186667.4072, 
+        "ET_ORDER": 0.1257, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543418.5536, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 121.1668, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50632806781776, 
+          37.82624547334743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186651.6645, 
+        "ET_ORDER": 0.1332, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543445.2766, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 125.46355, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5062395624963, 
+          37.82621767824602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186648.6218, 
+        "ET_ORDER": 0.1352, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543453.0818, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 126.43892, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.506029306139, 
+          37.82618818009584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186645.4468, 
+        "ET_ORDER": 0.1397, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543471.6027, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 128.60851, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50593909899017, 
+          37.82619018570004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186645.7113, 
+        "ET_ORDER": 0.1417, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543479.5402, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 129.47644, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50570576983905, 
+          37.82623928611893
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186651.2676, 
+        "ET_ORDER": 0.1468, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543500.0455, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 131.19028, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50523724228339, 
+          37.826392325926854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186668.4656, 
+        "ET_ORDER": 0.1576, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543541.1883, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 137.00204, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50506988604249, 
+          37.82646674143647
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186676.8, 
+        "ET_ORDER": 0.1617, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543555.8727, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 139.02631, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5049308120271, 
+          37.82658300796054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186689.7646, 
+        "ET_ORDER": 0.166, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543568.0435, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 141.40193, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5048398315548, 
+          37.826700668944646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186702.8615, 
+        "ET_ORDER": 0.1697, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543575.981, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 143.35653, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50470874319986, 
+          37.8269479387619
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186730.3572, 
+        "ET_ORDER": 0.1769, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543587.3719, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 147.45666, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50464997067834, 
+          37.826993190535816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186735.4053, 
+        "ET_ORDER": 0.1786, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543592.5175, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 148.45733, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50447339336407, 
+          37.82709737536727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186747.047, 
+        "ET_ORDER": 0.1833, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543607.9957, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 151.48655, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50403270229084, 
+          37.82730115212061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186769.8618, 
+        "ET_ORDER": 0.1942, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543646.6582, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 157.9116, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50389854160595, 
+          37.827383350619236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186779.0444, 
+        "ET_ORDER": 0.1978, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543658.4164, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 159.97819, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50366313336686, 
+          37.827573118874135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186800.2092, 
+        "ET_ORDER": 0.2049, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543679.0213, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.32542, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50365222315654, 
+          37.82759845463245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186803.0253, 
+        "ET_ORDER": 0.2057, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543679.9665, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.83698, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50370047374922, 
+          37.827649842339035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186808.7042, 
+        "ET_ORDER": 0.2074, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543675.69, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.82425, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50370338175614, 
+          37.8276834111911
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186812.4273, 
+        "ET_ORDER": 0.2083, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543675.4143, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.71113, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50366869596029, 
+          37.82771557782276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186816.0124, 
+        "ET_ORDER": 0.2094, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543678.4478, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.5003, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50344255658959, 
+          37.82779167837053
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186824.5615, 
+        "ET_ORDER": 0.2147, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543698.3039, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 168.33618, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50331991900889, 
+          37.82785454485526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186831.5939, 
+        "ET_ORDER": 0.2178, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543709.0593, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 171.14092, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50306614278662, 
+          37.82784601698842
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186830.7665, 
+        "ET_ORDER": 0.2232, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543731.3974, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 178.78278, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50297809210412, 
+          37.82789163018888
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186835.8685, 
+        "ET_ORDER": 0.2254, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543739.1192, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 181.52352, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50287062156747, 
+          37.82779665195415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186825.381, 
+        "ET_ORDER": 0.2288, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543748.633, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 184.38048, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50270591390095, 
+          37.82782336902077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186828.4224, 
+        "ET_ORDER": 0.2324, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543763.112, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 190.30216, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50261840525656, 
+          37.82778820091055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186824.5615, 
+        "ET_ORDER": 0.2345, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543770.8338, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 191.82261, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50214696896086, 
+          37.82752646207982
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186795.7426, 
+        "ET_ORDER": 0.2468, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543812.4764, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 197.66417, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50191279457297, 
+          37.827632353611584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186807.6011, 
+        "ET_ORDER": 0.2525, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543833.0219, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 209.55784, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50186577298652, 
+          37.82763464055865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186807.8769, 
+        "ET_ORDER": 0.2535, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543837.1586, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 211.16848, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5016065753229, 
+          37.82750056326384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186793.1227, 
+        "ET_ORDER": 0.2601, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543860.0482, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 215.40281, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50153181932549, 
+          37.8274331355173
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186785.6767, 
+        "ET_ORDER": 0.2625, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543866.6669, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 215.72999, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50141504388125, 
+          37.827323273834075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186773.5424, 
+        "ET_ORDER": 0.2664, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543877.0086, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 217.8149, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5013160714996, 
+          37.82712897716954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186752.0317, 
+        "ET_ORDER": 0.272, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543885.8336, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 219.3393, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50101947543862, 
+          37.8271973182163
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186759.7535, 
+        "ET_ORDER": 0.2786, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543911.8947, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 230.3497, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50114738838775, 
+          37.82751477615497
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186794.9153, 
+        "ET_ORDER": 0.2875, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543900.4498, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 234.24593, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50134247360273, 
+          37.82786234533472
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186833.3864, 
+        "ET_ORDER": 0.2977, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543883.0758, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 238.82093, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50116408167153, 
+          37.827949314224185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186843.1194, 
+        "ET_ORDER": 0.3022, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543898.7233, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 248.4314, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50104810146469, 
+          37.828003304313384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186849.1641, 
+        "ET_ORDER": 0.3051, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543908.8979, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 247.69838, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50085178775497, 
+          37.828055363056876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186855.0323, 
+        "ET_ORDER": 0.3095, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543926.1432, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 258.87284, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50083879667326, 
+          37.82805797947706
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186855.3287, 
+        "ET_ORDER": 0.3098, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543927.2849, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 258.90967, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5003294004576, 
+          37.82816055780097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186866.9494, 
+        "ET_ORDER": 0.3209, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543972.0523, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 247.49676, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50014466164, 
+          37.82818027236521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186869.2237, 
+        "ET_ORDER": 0.3249, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 543988.2981, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 247.04941, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49993985199981, 
+          37.828166438571564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186867.7853, 
+        "ET_ORDER": 0.3293, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 544006.3301, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 246.64536, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49879063544415, 
+          37.827865198328226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186834.9047, 
+        "ET_ORDER": 0.3551, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_1", 
+        "H_Up": 171.5, 
+        "ET_X": 544107.6435, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 246.88644, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49856291206954, 
+          37.82782244441369
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186830.2687, 
+        "ET_ORDER": 0.3618, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544127.7093, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 244.63657, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49827622115255, 
+          37.82797377796803
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186847.1946, 
+        "ET_ORDER": 0.3692, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544152.8488, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 245.2035, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49808164890028, 
+          37.82801725455084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186852.1103, 
+        "ET_ORDER": 0.3735, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544169.9458, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 246.56077, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49789344401454, 
+          37.82801769076756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186852.2477, 
+        "ET_ORDER": 0.3775, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544186.5081, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 246.0982, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4978196470497, 
+          37.82804022699829
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186854.783, 
+        "ET_ORDER": 0.3792, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544192.989, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 246.16506, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49775900829901, 
+          37.82807774585027
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186858.9744, 
+        "ET_ORDER": 0.3808, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544198.303, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 246.64264, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49768384103751, 
+          37.82818322440382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186870.7128, 
+        "ET_ORDER": 0.384, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544204.855, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 245.60559, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49768120069417, 
+          37.82824265889373
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186877.3083, 
+        "ET_ORDER": 0.3856, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544205.0519, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 245.45136, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49771486501872, 
+          37.82838523792246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186893.1115, 
+        "ET_ORDER": 0.3895, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544202.0043, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 244.29546, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4978063835782, 
+          37.8286755464089
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186925.2779, 
+        "ET_ORDER": 0.3976, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544193.7773, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 241.70787, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49787458326706, 
+          37.828827115360156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186942.0622, 
+        "ET_ORDER": 0.4019, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544187.6852, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 240.45225, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4980442752415, 
+          37.829017488223855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186963.1038, 
+        "ET_ORDER": 0.4082, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544172.6385, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 237.86594, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49812290044733, 
+          37.829136022566246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186976.218, 
+        "ET_ORDER": 0.4118, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544165.6487, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 236.41055, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4983417717971, 
+          37.829832716667376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187053.4127, 
+        "ET_ORDER": 0.431, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544145.9726, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 230.11913, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49840450965944, 
+          37.83013255684518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187086.6503, 
+        "ET_ORDER": 0.4392, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544140.273, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 227.34786, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49835216108734, 
+          37.83027604375691
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187102.5949, 
+        "ET_ORDER": 0.4432, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544144.7942, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 225.80105, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49829490631281, 
+          37.83034489681085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187110.2612, 
+        "ET_ORDER": 0.4454, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544149.7916, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 224.72332, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49821140222183, 
+          37.83040641672973
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187117.1263, 
+        "ET_ORDER": 0.4478, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544157.1033, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 224.04537, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49789209211642, 
+          37.83055177070469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187133.4043, 
+        "ET_ORDER": 0.4557, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544185.1159, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 221.75055, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49777749925586, 
+          37.830621594909225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187141.2055, 
+        "ET_ORDER": 0.4588, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544195.1584, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 220.86789, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49766368946597, 
+          37.83073260217171
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187153.5756, 
+        "ET_ORDER": 0.4626, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544205.1074, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 218.90236, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49758804021118, 
+          37.830824443575956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187163.8012, 
+        "ET_ORDER": 0.4655, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544211.7097, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 218.18849, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4975049015608, 
+          37.830981204785566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187181.2332, 
+        "ET_ORDER": 0.4701, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544218.9323, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 217.18481, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49744611577856, 
+          37.831213084749095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187206.9881, 
+        "ET_ORDER": 0.4765, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544223.967, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 214.75837, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49738328647197, 
+          37.83136236784699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187223.5808, 
+        "ET_ORDER": 0.4807, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544229.4068, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 213.15738, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49732477554001, 
+          37.831424330866525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187230.4833, 
+        "ET_ORDER": 0.4828, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544234.5187, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 212.3633, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49721222042962, 
+          37.831494513811066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187238.3234, 
+        "ET_ORDER": 0.4858, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544244.3815, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 211.23317, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49676381478623, 
+          37.83163556767041
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187254.1858, 
+        "ET_ORDER": 0.4961, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544283.7563, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 207.27061, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49654309527769, 
+          37.83168672533529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187259.9664, 
+        "ET_ORDER": 0.501, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544303.1487, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 206.01476, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4961913447192, 
+          37.83171531673792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187263.3055, 
+        "ET_ORDER": 0.5085, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544334.0851, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 202.88156, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49565526404187, 
+          37.83168186055407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187259.8481, 
+        "ET_ORDER": 0.52, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544381.2794, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 199.60321, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49552967159228, 
+          37.83168710726273
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187260.4899, 
+        "ET_ORDER": 0.5226, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544392.3282, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 198.30332, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49535817664653, 
+          37.83173397601342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187265.7715, 
+        "ET_ORDER": 0.5265, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544407.3914, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 196.66113, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49523620748654, 
+          37.83179351014017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187272.4348, 
+        "ET_ORDER": 0.5296, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544418.0888, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 196.95376, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49514833183427, 
+          37.83185806906216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187279.6394, 
+        "ET_ORDER": 0.5321, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544425.783, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 196.28963, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49507816663993, 
+          37.831937798936366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187288.5188, 
+        "ET_ORDER": 0.5347, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544431.9096, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 195.56565, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49501991458321, 
+          37.832038625366394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187299.7332, 
+        "ET_ORDER": 0.5377, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544436.9752, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 194.48215, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.494811748481, 
+          37.83273609774382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187377.2168, 
+        "ET_ORDER": 0.5569, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544454.8749, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 187.97328, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49471219300406, 
+          37.83294754899459
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187400.7247, 
+        "ET_ORDER": 0.563, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544463.5086, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 185.72429, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49458036633305, 
+          37.83307705905695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187415.1566, 
+        "ET_ORDER": 0.5675, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544475.0312, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 184.23572, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49420735360857, 
+          37.833355424356306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187446.2189, 
+        "ET_ORDER": 0.5784, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544507.6879, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 181.26293, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49393361571774, 
+          37.83350311008473
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187462.7351, 
+        "ET_ORDER": 0.5854, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544531.6871, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 178.8653, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49370056596551, 
+          37.83356001201506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187469.1595, 
+        "ET_ORDER": 0.5906, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544552.1604, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 176.89327, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4934347930196, 
+          37.83352747397071
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187465.6762, 
+        "ET_ORDER": 0.5964, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544575.567, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 176.15151, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49315633800502, 
+          37.833457721675316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187458.0701, 
+        "ET_ORDER": 0.6026, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544600.112, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 174.15096, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49238312771007, 
+          37.83334162553623
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187445.5587, 
+        "ET_ORDER": 0.6193, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544668.2217, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 171.24735, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49227465627435, 
+          37.833295541030566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187440.4975, 
+        "ET_ORDER": 0.6219, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544677.7946, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 170.437, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4921847092129, 
+          37.83322811854616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187433.06, 
+        "ET_ORDER": 0.6246, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544685.7503, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 170.02035, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49211346635933, 
+          37.83313683433999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187422.9661, 
+        "ET_ORDER": 0.6275, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544692.0745, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 169.08584, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49183272195317, 
+          37.832654047904356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187369.5353, 
+        "ET_ORDER": 0.6417, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544717.0705, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 166.79106, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49159096733088, 
+          37.8324541059637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187347.4675, 
+        "ET_ORDER": 0.6492, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544738.465, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.51584, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4914842759381, 
+          37.83231765256958
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187332.3791, 
+        "ET_ORDER": 0.6535, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544747.936, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 165.32039, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49141929680317, 
+          37.83227513495133
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187327.6929, 
+        "ET_ORDER": 0.6553, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544753.6797, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 165.48308, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49130685885353, 
+          37.832240031071834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187323.852, 
+        "ET_ORDER": 0.6579, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544763.5952, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 165.31964, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49117254453267, 
+          37.832264135863554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187326.5908, 
+        "ET_ORDER": 0.6608, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544775.4, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 165.43108, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49103097101083, 
+          37.83235488060259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187336.7268, 
+        "ET_ORDER": 0.6647, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544787.8033, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.98605, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49086508753568, 
+          37.8325049684778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187353.4586, 
+        "ET_ORDER": 0.67, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544802.3099, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 164.30561, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49069141825906, 
+          37.832725923743986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187378.0569, 
+        "ET_ORDER": 0.677, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544817.4587, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 163.6918, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49057552947541, 
+          37.83280540810632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187386.9313, 
+        "ET_ORDER": 0.6803, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544827.6085, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 163.45502, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49046215859269, 
+          37.832827408887894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187389.4267, 
+        "ET_ORDER": 0.6828, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544837.5715, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 163.14416, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49034592556785, 
+          37.832822903262404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187388.9826, 
+        "ET_ORDER": 0.6852, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544847.8024, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 163.11894, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48999622356764, 
+          37.83262047196312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187366.6908, 
+        "ET_ORDER": 0.6945, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544878.6978, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 163.32225, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48989190089523, 
+          37.8325921193159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187363.5952, 
+        "ET_ORDER": 0.6968, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544887.8951, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 163.21415, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48970647924727, 
+          37.83258952067162
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187363.396, 
+        "ET_ORDER": 0.7008, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544904.2133, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 162.82806, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48956893778221, 
+          37.832627776386936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187367.7066, 
+        "ET_ORDER": 0.7039, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544916.2934, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 162.57149, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48915922198994, 
+          37.83281683367102
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187388.8796, 
+        "ET_ORDER": 0.714, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544952.2326, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 162.1463, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48898236458831, 
+          37.83287309120885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187395.2065, 
+        "ET_ORDER": 0.718, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544967.7614, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 161.88312, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4887950086315, 
+          37.83285164362215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187392.9171, 
+        "ET_ORDER": 0.722, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544984.2612, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 161.56722, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48873194899222, 
+          37.83281667679678
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187389.0679, 
+        "ET_ORDER": 0.7237, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 544989.8315, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 161.48468, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48845339926297, 
+          37.83262260385861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187367.6697, 
+        "ET_ORDER": 0.7316, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545014.461, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 159.69874, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48835295866873, 
+          37.832529647525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187357.4046, 
+        "ET_ORDER": 0.7349, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545023.356, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 159.37783, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48819012760546, 
+          37.83230876611742
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187332.9763, 
+        "ET_ORDER": 0.7417, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545037.819, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 159.174, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48774247006703, 
+          37.83196864330458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187295.4556, 
+        "ET_ORDER": 0.7549, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545077.4188, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 156.95135, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48760004350521, 
+          37.83178736671113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187275.4117, 
+        "ET_ORDER": 0.7607, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545090.0624, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 155.89775, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48736943199671, 
+          37.83132049750127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187223.7239, 
+        "ET_ORDER": 0.7741, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545110.6401, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 153.67186, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4870799287588, 
+          37.83093815639566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187181.443, 
+        "ET_ORDER": 0.7861, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545136.349, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 151.10599, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48702610483127, 
+          37.830829127923394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187169.3723, 
+        "ET_ORDER": 0.7893, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545141.1519, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 150.71797, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48699773710736, 
+          37.830716614993484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187156.9027, 
+        "ET_ORDER": 0.7923, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545143.7168, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 148.96204, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48697074902975, 
+          37.82992909038574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187069.5399, 
+        "ET_ORDER": 0.8135, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545146.5716, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 146.25237, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48697883596118, 
+          37.82949309576034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187021.1624, 
+        "ET_ORDER": 0.8252, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545146.1256, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 144.8594, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48694188339705, 
+          37.829322366021266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187002.2378, 
+        "ET_ORDER": 0.8298, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545149.4815, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 144.11397, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48686816128816, 
+          37.829222013279335
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186991.1393, 
+        "ET_ORDER": 0.833, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545156.0303, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 143.60376, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48609518587263, 
+          37.82870351809228
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186933.9862, 
+        "ET_ORDER": 0.8545, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545224.3697, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 140.33273, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4859913768234, 
+          37.82869566897216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186933.1656, 
+        "ET_ORDER": 0.8567, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545233.5099, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 140.17641, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48592571322295, 
+          37.82871783214837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186935.6564, 
+        "ET_ORDER": 0.8583, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545239.2749, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 139.94188, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48575596655911, 
+          37.82889540214432
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186955.44, 
+        "ET_ORDER": 0.8642, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545254.1045, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 138.62846, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48533824177589, 
+          37.82926798414781
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4186996.9804, 
+        "ET_ORDER": 0.8776, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545290.6373, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 136.05388, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48519407658912, 
+          37.82937598594036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187009.0331, 
+        "ET_ORDER": 0.8819, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545303.258, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 135.31697, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48501083950185, 
+          37.829451834736844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187017.5374, 
+        "ET_ORDER": 0.8863, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545319.3367, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 134.60059, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48470332575654, 
+          37.829464196806875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187019.0582, 
+        "ET_ORDER": 0.8928, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545346.3907, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 133.84569, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48432481187061, 
+          37.82944861225681
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187017.5129, 
+        "ET_ORDER": 0.9009, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545379.7099, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 132.64007, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48392540227059, 
+          37.82945091240367
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187017.9622, 
+        "ET_ORDER": 0.9094, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545414.857, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 131.35655, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48381738334751, 
+          37.829425451208316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187015.1898, 
+        "ET_ORDER": 0.9118, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545424.3784, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 130.92498, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48374562716837, 
+          37.82940853733295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187013.3481, 
+        "ET_ORDER": 0.9134, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545430.7034, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 130.83495, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48362211761042, 
+          37.829400206799455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187012.4839, 
+        "ET_ORDER": 0.916, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545441.5775, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 130.73903, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48347276257327, 
+          37.82945469385225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187018.6019, 
+        "ET_ORDER": 0.9195, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545454.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 130.45292, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48339165776294, 
+          37.82951176581205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187024.9735, 
+        "ET_ORDER": 0.9218, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545461.7898, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 130.1581, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48333316557517, 
+          37.829583757104515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187032.9894, 
+        "ET_ORDER": 0.9241, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545466.893, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 129.94528, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48330740155664, 
+          37.82961546742889
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187036.5202, 
+        "ET_ORDER": 0.9252, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545469.1408, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 129.80466, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48326168725296, 
+          37.82971796179112
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187047.9142, 
+        "ET_ORDER": 0.9281, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545473.1008, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 129.55786, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48327084050777, 
+          37.82975055986164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187051.5265, 
+        "ET_ORDER": 0.929, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545472.2753, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 129.44126, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48331782439409, 
+          37.829917884520064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187070.0683, 
+        "ET_ORDER": 0.9336, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545468.038, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 129.06511, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48349495840128, 
+          37.830093285171344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187089.4428, 
+        "ET_ORDER": 0.9396, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545452.3425, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 127.90438, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48374357911733, 
+          37.83024280243723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187105.9108, 
+        "ET_ORDER": 0.9463, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545430.3721, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 125.73931, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48389886411775, 
+          37.83037883676186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187120.9283, 
+        "ET_ORDER": 0.9512, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545416.6236, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 123.94803, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4839733135333, 
+          37.830481705562185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187132.3054, 
+        "ET_ORDER": 0.9544, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545410.009, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 122.6513, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48399384466413, 
+          37.83055572160699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187140.5075, 
+        "ET_ORDER": 0.9564, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545408.1569, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 121.85644, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48399811320917, 
+          37.83080613507221
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187168.2888, 
+        "ET_ORDER": 0.9631, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545407.6278, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 119.2533, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48396746038256, 
+          37.83112010890423
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187203.1391, 
+        "ET_ORDER": 0.9716, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545410.1328, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 115.78468, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48371667059311, 
+          37.83178725125199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187277.2805, 
+        "ET_ORDER": 0.9903, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545431.793, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 107.37709, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48351824117643, 
+          37.83211371509899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1493.1, 
+        "Av_S_Up": 6.6, 
+        "Length_3D": 4159.6, 
+        "Len_Down": 2666.5, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 94.4, 
+        "H_Down": 163.8, 
+        "ET_ID": 67, 
+        "trail_name": "Conzelman Trail", 
+        "ET_Y": 4187313.5982, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 31.5, 
+        "ET_IDP": 67, 
+        "ET_IDR": "67_2", 
+        "H_Up": 171.5, 
+        "ET_X": 545449.0542, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 103.05129, 
+        "Length_2D": 4132.3, 
+        "Max_Z": 258.9
+      }
+    }
+  ]
+}

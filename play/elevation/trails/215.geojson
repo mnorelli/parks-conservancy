@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45247726637226, 
+          37.80477871937464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184296.3395, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548198.3707, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.19442, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45258073866485, 
+          37.80496412284158
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184316.8566, 
+        "ET_ORDER": 0.1642, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548189.1415, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.38506, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45268914188902, 
+          37.80505898012506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184327.3251, 
+        "ET_ORDER": 0.2679, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548179.5371, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.57468, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45309728081598, 
+          37.80522431459141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184345.4586, 
+        "ET_ORDER": 0.5624, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548143.5012, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.67921, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45315645557736, 
+          37.805283076176515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184351.9477, 
+        "ET_ORDER": 0.6233, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548138.2539, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.72354, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45316011164466, 
+          37.80528670649809
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184352.3486, 
+        "ET_ORDER": 0.6271, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548137.9297, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.71345, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4532560721509, 
+          37.805441867103234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184369.5142, 
+        "ET_ORDER": 0.767, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548129.3816, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.64107, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45338023052209, 
+          37.80552257150005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184378.4044, 
+        "ET_ORDER": 0.8702, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548118.3996, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.5816, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45346510986035, 
+          37.805559100621764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184382.4136, 
+        "ET_ORDER": 0.9322, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548110.904, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.52726, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45352961256529, 
+          37.80562531172428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 94.7, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 137.0, 
+        "Len_Down": 42.3, 
+        "Max_S_Down": 1.1, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.2, 
+        "ET_ID": 215, 
+        "trail_name": "Promenade Cut-off Trail", 
+        "ET_Y": 4184389.7265, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 215, 
+        "ET_IDR": "215_0", 
+        "H_Up": 0.5, 
+        "ET_X": 548105.1829, 
+        "Av_S_Down": 0.3, 
+        "ET_Z": 3.53791, 
+        "Length_2D": 137.0, 
+        "Max_Z": 3.7
+      }
+    }
+  ]
+}

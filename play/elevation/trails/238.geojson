@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4922093004435, 
+          37.836531780637515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187799.5897, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544681.5937, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 228.30267, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49148201434032, 
+          37.836646647003775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187812.6823, 
+        "ET_ORDER": 0.178, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544745.5202, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 238.13345, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49135091869343, 
+          37.83663844681767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187811.8353, 
+        "ET_ORDER": 0.2096, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544757.0606, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 240.71576, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49099295320535, 
+          37.836551971056075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187802.4124, 
+        "ET_ORDER": 0.2994, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544788.6112, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 248.38122, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49029408326655, 
+          37.8362397391557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187768.1056, 
+        "ET_ORDER": 0.492, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544850.2957, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 263.43384, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49014590959442, 
+          37.83619905004043
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187763.6623, 
+        "ET_ORDER": 0.5296, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544863.3586, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 265.16084, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48979257636992, 
+          37.83613931081231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187757.204, 
+        "ET_ORDER": 0.6163, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544894.4857, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 268.78983, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48976021447989, 
+          37.8361210399346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187755.1924, 
+        "ET_ORDER": 0.6259, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544897.3444, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 268.91623, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48962803018169, 
+          37.83592198241919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187733.1705, 
+        "ET_ORDER": 0.694, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544909.0964, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 271.04315, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48947039435731, 
+          37.83574953274776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187714.113, 
+        "ET_ORDER": 0.7584, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544923.0719, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 274.75702, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4893822412908, 
+          37.83562128135643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187699.9259, 
+        "ET_ORDER": 0.8026, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544930.9066, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 277.10659, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48937368145697, 
+          37.83546665488881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187682.7742, 
+        "ET_ORDER": 0.8495, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544931.7536, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 278.71841, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4894269696476, 
+          37.83524168190947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187657.7878, 
+        "ET_ORDER": 0.9188, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544927.201, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 281.28469, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48949912015888, 
+          37.83507309166415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187639.048, 
+        "ET_ORDER": 0.9727, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544920.9544, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 282.7907, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48957059313166, 
+          37.8350027867978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 371.2, 
+        "Av_S_Up": 8.5, 
+        "Length_3D": 371.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 228.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 238, 
+        "trail_name": "Slacker Road", 
+        "ET_Y": 4187631.2133, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 238, 
+        "ET_IDR": "238_0", 
+        "H_Up": 54.5, 
+        "ET_X": 544914.7078, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 282.82696, 
+        "Length_2D": 366.6, 
+        "Max_Z": 282.8
+      }
+    }
+  ]
+}

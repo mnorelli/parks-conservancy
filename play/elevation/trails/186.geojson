@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5732275621296, 
+          37.8934431657969
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194078.2592, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537523.7174, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 45.46177, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5731408514709, 
+          37.893519823330315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194086.7993, 
+        "ET_ORDER": 0.1283, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537531.3025, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 46.25221, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57302537548232, 
+          37.89355958989783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194091.2579, 
+        "ET_ORDER": 0.2527, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537541.4355, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 46.98052, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57291674778104, 
+          37.89347760833737
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194082.2057, 
+        "ET_ORDER": 0.4009, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537551.0282, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 47.94558, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57293104882272, 
+          37.89339607272901
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194073.1535, 
+        "ET_ORDER": 0.5036, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537549.8122, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 47.8903, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57286407937448, 
+          37.89328501668839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194060.8587, 
+        "ET_ORDER": 0.657, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537555.7569, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 47.1209, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57294897856114, 
+          37.89321835000594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194053.4278, 
+        "ET_ORDER": 0.7751, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537548.326, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 44.94431, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57316864950984, 
+          37.89326565022363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 35.8, 
+        "Av_S_Up": 4.0, 
+        "Length_3D": 89.4, 
+        "Len_Down": 53.6, 
+        "Max_S_Down": 11.7, 
+        "Min_Z": 43.9, 
+        "H_Down": 4.1, 
+        "ET_ID": 186, 
+        "trail_name": "Muir Woods Upper Boardwalk Trail", 
+        "ET_Y": 4194058.5874, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 186, 
+        "ET_IDR": "186_0", 
+        "H_Up": 2.5, 
+        "ET_X": 537528.9874, 
+        "Av_S_Down": 4.4, 
+        "ET_Z": 43.88225, 
+        "Length_2D": 89.0, 
+        "Max_Z": 47.9
+      }
+    }
+  ]
+}

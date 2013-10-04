@@ -1,0 +1,741 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57872850945108, 
+          37.905485438209325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195412.1619, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537034.013, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 75.6213, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57807669545389, 
+          37.905364475457944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195399.0, 
+        "ET_ORDER": 0.1286, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537091.375, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 118.59542, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57787799412444, 
+          37.905300672113746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195392.0, 
+        "ET_ORDER": 0.1698, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537108.875, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 131.69732, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57766219971137, 
+          37.904993456501096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195358.0, 
+        "ET_ORDER": 0.255, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537128.0, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 139.22263, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57761551008501, 
+          37.90495273052591
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195353.5, 
+        "ET_ORDER": 0.2683, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537132.125, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 140.74063, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57733315249321, 
+          37.904848067588546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195342.0, 
+        "ET_ORDER": 0.3282, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537157.0, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 146.18953, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57727622655445, 
+          37.90485687613998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195343.0, 
+        "ET_ORDER": 0.3394, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537162.0, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 147.84212, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57723831523646, 
+          37.90489729841106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195347.5, 
+        "ET_ORDER": 0.3516, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537165.3125, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 151.61383, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5771484690366, 
+          37.9050682223879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195366.5, 
+        "ET_ORDER": 0.3965, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537173.125, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 165.766, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57702394144927, 
+          37.905211982708785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195382.5, 
+        "ET_ORDER": 0.4387, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537184.0, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 177.29047, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57692534244002, 
+          37.9052972516951
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195392.0, 
+        "ET_ORDER": 0.4668, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537192.625, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 184.3239, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57667642615294, 
+          37.90543605797134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195407.5, 
+        "ET_ORDER": 0.5252, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537214.4375, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 195.36109, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57654485146614, 
+          37.905444597662644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195408.5, 
+        "ET_ORDER": 0.5506, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537226.0, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 200.548, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57640723999465, 
+          37.90539002459057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195402.5, 
+        "ET_ORDER": 0.5801, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537238.125, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 200.72198, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57629392969486, 
+          37.90531300637895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195394.0, 
+        "ET_ORDER": 0.6088, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537248.125, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 195.11399, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57611583417773, 
+          37.90512759894583
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195373.5, 
+        "ET_ORDER": 0.6653, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537263.875, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 176.35533, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57598336839884, 
+          37.90491982316504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195350.5, 
+        "ET_ORDER": 0.7217, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537275.625, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 180.61907, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57583050588298, 
+          37.90479759708644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195337.0, 
+        "ET_ORDER": 0.7635, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537289.125, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 175.28824, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57554432592795, 
+          37.90461630571217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195317.0, 
+        "ET_ORDER": 0.8338, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537314.375, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 192.0119, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57536002863898, 
+          37.90452100461243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195306.5, 
+        "ET_ORDER": 0.8761, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537330.625, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 206.732, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57509110578225, 
+          37.90442990424664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195296.5, 
+        "ET_ORDER": 0.9323, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537354.3125, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 225.42136, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57490749454823, 
+          37.90433911140723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195286.5, 
+        "ET_ORDER": 0.9739, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537370.5, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 237.6324, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57479319800612, 
+          37.90439766691977
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 452.6, 
+        "Av_S_Up": 25.9, 
+        "Length_3D": 518.7, 
+        "Len_Down": 66.0, 
+        "Max_S_Down": 36.0, 
+        "Min_Z": 75.6, 
+        "H_Down": 29.7, 
+        "ET_ID": 145, 
+        "trail_name": "Lost Trail", 
+        "ET_Y": 4195293.0426, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 37.3, 
+        "ET_IDP": 145, 
+        "ET_IDR": "145_0", 
+        "H_Up": 194.4, 
+        "ET_X": 537380.5184, 
+        "Av_S_Down": 27.1, 
+        "ET_Z": 240.36318, 
+        "Length_2D": 457.7, 
+        "Max_Z": 240.4
+      }
+    }
+  ]
+}

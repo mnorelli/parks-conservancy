@@ -1,0 +1,389 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58560253895745, 
+          37.86287856612539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190682.196, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536450.7094, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 148.72686, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58561101587458, 
+          37.86282793088976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190676.5747, 
+        "ET_ORDER": 0.0361, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536449.9887, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 148.96801, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5856605413778, 
+          37.862762500973815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190669.2959, 
+        "ET_ORDER": 0.0902, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536445.6646, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 149.21488, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58570250666567, 
+          37.862730171007364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190665.6925, 
+        "ET_ORDER": 0.123, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536441.9892, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 149.25619, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58573201292236, 
+          37.86272832530067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190665.4762, 
+        "ET_ORDER": 0.1396, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536439.3947, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 149.23005, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58575935417787, 
+          37.86252770982922
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190643.2072, 
+        "ET_ORDER": 0.2824, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536437.0885, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 146.01625, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5857494243491, 
+          37.86248311436275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190638.2632, 
+        "ET_ORDER": 0.3144, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536437.9839, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 144.73844, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58595038040059, 
+          37.8623209273856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190620.1901, 
+        "ET_ORDER": 0.4753, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536420.3873, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 141.08984, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58607494005358, 
+          37.8621209348569
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190597.9523, 
+        "ET_ORDER": 0.6332, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536409.5292, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 137.15159, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58612326184073, 
+          37.86196423432567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190580.5475, 
+        "ET_ORDER": 0.7473, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536405.3558, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 137.50709, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58623351917211, 
+          37.86181929264588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190564.4232, 
+        "ET_ORDER": 0.8671, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536395.7286, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 137.99093, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58645813603258, 
+          37.86175981325665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 56.0, 
+        "Av_S_Up": 1.4, 
+        "Length_3D": 158.1, 
+        "Len_Down": 102.1, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 134.4, 
+        "H_Down": 15.7, 
+        "ET_ID": 183, 
+        "trail_name": "Muir Beach Overlook Trail", 
+        "ET_Y": 4190557.7364, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.4, 
+        "ET_IDP": 183, 
+        "ET_IDR": "183_0", 
+        "H_Up": 1.4, 
+        "ET_X": 536376.0, 
+        "Av_S_Down": 8.9, 
+        "ET_Z": 134.36855, 
+        "Length_2D": 156.8, 
+        "Max_Z": 149.3
+      }
+    }
+  ]
+}

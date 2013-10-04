@@ -1,0 +1,965 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48072981659644, 
+          37.83156147677754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187253.6877, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545694.7706, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 35.43201, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48010917604152, 
+          37.83174405642052
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187274.2487, 
+        "ET_ORDER": 0.0955, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545749.2734, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 39.40363, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48008784480797, 
+          37.831742300248585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187274.0643, 
+        "ET_ORDER": 0.0986, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545751.1516, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 39.61203, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47966229130142, 
+          37.83170727086192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187270.3863, 
+        "ET_ORDER": 0.1604, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545788.6213, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 42.4355, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4794013116181, 
+          37.83176051051014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187276.4212, 
+        "ET_ORDER": 0.1993, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545811.5542, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 44.02194, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47918958585815, 
+          37.83183137432382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187284.3874, 
+        "ET_ORDER": 0.2325, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545830.1419, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 45.64933, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47908219119988, 
+          37.83188964472826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187290.9052, 
+        "ET_ORDER": 0.2512, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545839.5564, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 46.5469, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47894926644842, 
+          37.832067466748526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187310.6998, 
+        "ET_ORDER": 0.2889, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545851.1435, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 48.18409, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4789009494914, 
+          37.832306584995045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187337.2537, 
+        "ET_ORDER": 0.3329, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545855.2473, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 50.1935, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47890283570644, 
+          37.83242843464726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187350.772, 
+        "ET_ORDER": 0.3551, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545855.0059, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 51.26651, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47893469791848, 
+          37.83257870171859
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187367.4285, 
+        "ET_ORDER": 0.3828, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545852.1091, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 52.65165, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47910753717372, 
+          37.83296674770488
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187410.3974, 
+        "ET_ORDER": 0.4577, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545836.6596, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 56.26271, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47918105154707, 
+          37.83304539994524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187419.0878, 
+        "ET_ORDER": 0.4755, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545830.1419, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 57.20154, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47930126271434, 
+          37.83311555468585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187426.8125, 
+        "ET_ORDER": 0.4971, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545819.5203, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 58.33912, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47980213363687, 
+          37.83327877289348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187444.676, 
+        "ET_ORDER": 0.5752, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545775.3444, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 61.84423, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4804977734275, 
+          37.83344284825621
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187462.5395, 
+        "ET_ORDER": 0.68, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545714.0292, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 66.44241, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48065396738835, 
+          37.83346747040983
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187465.1949, 
+        "ET_ORDER": 0.703, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545700.2695, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 67.53698, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48088160688211, 
+          37.83347500126271
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187465.9191, 
+        "ET_ORDER": 0.7359, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545680.2334, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 69.05508, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4813262482922, 
+          37.83344214822451
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187462.0567, 
+        "ET_ORDER": 0.8003, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545641.1268, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 72.23272, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48145269363407, 
+          37.83340571720522
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187457.9529, 
+        "ET_ORDER": 0.8197, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545630.0225, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 73.11843, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4815517829153, 
+          37.83335828776395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187452.6422, 
+        "ET_ORDER": 0.8364, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545621.3322, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 74.52922, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48164020485648, 
+          37.83326729531555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187442.5034, 
+        "ET_ORDER": 0.8573, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545613.6074, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.61017, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4816432372923, 
+          37.8332259693432
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187437.9168, 
+        "ET_ORDER": 0.8649, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545613.366, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.68818, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48162233567952, 
+          37.83322608735253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187437.9401, 
+        "ET_ORDER": 0.8679, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545615.2052, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.67734, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48150010473239, 
+          37.83329496340967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187445.6416, 
+        "ET_ORDER": 0.8895, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545625.9187, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.71644, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48138797465592, 
+          37.83333386941403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187450.013, 
+        "ET_ORDER": 0.9072, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545635.7618, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.60216, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48126656799366, 
+          37.83334615312591
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187451.4352, 
+        "ET_ORDER": 0.9249, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545646.4376, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.50833, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4810389745697, 
+          37.8333320959604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187449.9868, 
+        "ET_ORDER": 0.9578, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545666.4737, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.26472, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48088278075986, 
+          37.833307474318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187447.3314, 
+        "ET_ORDER": 0.9808, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545680.2334, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.14938, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48090808714062, 
+          37.83320387614049
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 553.9, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 611.4, 
+        "Len_Down": 57.5, 
+        "Max_S_Down": 0.7, 
+        "Min_Z": 35.4, 
+        "H_Down": 0.6, 
+        "ET_ID": 72, 
+        "trail_name": "Dana Bower Trail", 
+        "ET_Y": 4187435.8248, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 9.3, 
+        "ET_IDP": 72, 
+        "ET_IDR": "72_0", 
+        "H_Up": 41.5, 
+        "ET_X": 545678.0704, 
+        "Av_S_Down": 0.6, 
+        "ET_Z": 76.38943, 
+        "Length_2D": 609.7, 
+        "Max_Z": 76.7
+      }
+    }
+  ]
+}

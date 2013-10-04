@@ -1,0 +1,2821 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45969703290771, 
+          37.51704114847324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152369.0388, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547746.7485, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 255.98421, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45966785883589, 
+          37.517122037686775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152378.0278, 
+        "ET_ORDER": 0.0022, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547749.2751, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 255.89542, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45939585906756, 
+          37.517425037713956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152411.782, 
+        "ET_ORDER": 0.012, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547773.1188, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 258.06112, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45886285966785, 
+          37.51787203789958
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152461.6449, 
+        "ET_ORDER": 0.0281, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547819.935, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 260.85552, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45843285925913, 
+          37.51826903757168
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152505.9084, 
+        "ET_ORDER": 0.0419, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547857.6806, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 262.41664, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4582618592471, 
+          37.51846703782947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152527.9624, 
+        "ET_ORDER": 0.0482, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547872.6653, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 263.70521, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45785485981973, 
+          37.51882703752839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152568.1095, 
+        "ET_ORDER": 0.0609, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547908.4014, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 270.03441, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4573688598385, 
+          37.51931003746537
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152621.9432, 
+        "ET_ORDER": 0.0771, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547951.0396, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 279.43373, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45680885969333, 
+          37.520307037721956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152732.8403, 
+        "ET_ORDER": 0.1057, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547999.8872, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 296.86486, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45689785969445, 
+          37.520742037051825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152781.0556, 
+        "ET_ORDER": 0.1173, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547991.7439, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 306.74888, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4573408589507, 
+          37.52098803710271
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152808.122, 
+        "ET_ORDER": 0.1286, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 547952.4401, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 312.18634, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45650785966664, 
+          37.52159603700956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152876.0011, 
+        "ET_ORDER": 0.1521, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548025.6595, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 325.98878, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45639385954223, 
+          37.52180503721586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152899.2467, 
+        "ET_ORDER": 0.1581, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548035.5992, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 329.61017, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45619585920151, 
+          37.52242103764057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4152967.6896, 
+        "ET_ORDER": 0.1748, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548052.7005, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 339.92029, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45593685903782, 
+          37.52309203752375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153042.2656, 
+        "ET_ORDER": 0.1932, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548075.1564, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 348.37788, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45580285943399, 
+          37.52365903698026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153105.2395, 
+        "ET_ORDER": 0.2083, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548086.6332, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 354.84978, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45545785884451, 
+          37.524491037291845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153197.7217, 
+        "ET_ORDER": 0.2313, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548116.5842, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 361.28723, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45519185802696, 
+          37.52488853722616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153241.9582, 
+        "ET_ORDER": 0.2431, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548139.8332, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 365.09221, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45486085856805, 
+          37.526733036624165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153446.7646, 
+        "ET_ORDER": 0.2919, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548167.8949, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 373.59481, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45458785842362, 
+          37.52723803668594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153502.9314, 
+        "ET_ORDER": 0.3063, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548191.6922, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 375.62627, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45418085876284, 
+          37.52813903683556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153603.101, 
+        "ET_ORDER": 0.3314, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548227.0742, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 376.80374, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45411985909315, 
+          37.5285810364462
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153652.1697, 
+        "ET_ORDER": 0.3431, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548232.1794, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 381.0508, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45348685885827, 
+          37.5296080363925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153766.4345, 
+        "ET_ORDER": 0.3731, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548287.4476, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 398.05945, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45335185897936, 
+          37.5304350360371
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4153858.2549, 
+        "ET_ORDER": 0.3949, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548298.8424, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 398.70752, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4529408589548, 
+          37.53177403611347
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154007.0208, 
+        "ET_ORDER": 0.4311, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548334.2923, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 394.40709, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45277685871149, 
+          37.53280203598847
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154121.1561, 
+        "ET_ORDER": 0.4582, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548348.1187, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 388.59264, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45227885861591, 
+          37.533509036358346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154199.8501, 
+        "ET_ORDER": 0.4795, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548391.6614, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 389.56673, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4520498590157, 
+          37.53393303572839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154247.0084, 
+        "ET_ORDER": 0.4916, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548411.6198, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 390.90203, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45176485844435, 
+          37.53504303597119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154370.3037, 
+        "ET_ORDER": 0.5213, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548436.082, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 399.09017, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45103185877194, 
+          37.53584003539664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154459.1043, 
+        "ET_ORDER": 0.5472, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548500.3262, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 403.43424, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44986185788015, 
+          37.53762703551087
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154657.9665, 
+        "ET_ORDER": 0.6, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548602.5346, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 417.39868, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4491108584896, 
+          37.53842503560186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154746.8888, 
+        "ET_ORDER": 0.6261, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548668.3643, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 425.08334, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44877585835131, 
+          37.5392860353055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154842.5856, 
+        "ET_ORDER": 0.6498, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548697.4002, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 433.83519, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44871496608441, 
+          37.5393593940292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154850.7559, 
+        "ET_ORDER": 0.6521, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548702.732, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 433.92017, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44857320548898, 
+          37.53946237474199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154862.2545, 
+        "ET_ORDER": 0.6561, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548715.1888, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 434.61297, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4484103254964, 
+          37.539487525131065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154865.1292, 
+        "ET_ORDER": 0.6595, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548729.562, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 435.51861, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44822587996322, 
+          37.53949530016084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154866.0874, 
+        "ET_ORDER": 0.6634, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548745.8517, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 437.59497, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44818933938335, 
+          37.53947174119067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154863.4926, 
+        "ET_ORDER": 0.6644, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548749.0952, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 437.52719, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44811792900907, 
+          37.53942570002568
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154858.4216, 
+        "ET_ORDER": 0.6663, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548755.4339, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 437.84029, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4480101703839, 
+          37.53933019139155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154847.8813, 
+        "ET_ORDER": 0.6697, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548765.016, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 438.56199, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44786949153092, 
+          37.5392863491411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154843.0902, 
+        "ET_ORDER": 0.6728, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548777.4728, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 439.00666, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4477827231568, 
+          37.53928594341067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154843.0902, 
+        "ET_ORDER": 0.6746, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548785.1386, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 439.3144, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44753269369431, 
+          37.53936250541354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154851.7141, 
+        "ET_ORDER": 0.6802, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548807.1775, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 440.64394, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44738072310581, 
+          37.53937906868832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154853.6306, 
+        "ET_ORDER": 0.6834, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548820.5925, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 440.965, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44719985817396, 
+          37.53934803503527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154850.2815, 
+        "ET_ORDER": 0.6873, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548836.5912, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 442.19923, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44670694362594, 
+          37.53909943089511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154822.9563, 
+        "ET_ORDER": 0.6995, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548880.2999, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 438.5633, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44655949470759, 
+          37.538960652248115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154807.6362, 
+        "ET_ORDER": 0.7042, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548893.4169, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 440.23813, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44642979082268, 
+          37.5388995862538
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154800.9287, 
+        "ET_ORDER": 0.7074, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548904.9155, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 441.69, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44566885923327, 
+          37.538867034687264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154797.7133, 
+        "ET_ORDER": 0.7233, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548972.1615, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 443.47948, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44551585942912, 
+          37.53874003546253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154783.7031, 
+        "ET_ORDER": 0.7279, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548985.7614, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 442.90276, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44489785908478, 
+          37.53801603502635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154703.7012, 
+        "ET_ORDER": 0.7508, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549040.8331, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 444.94704, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44477811986027, 
+          37.53784677005258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154684.9846, 
+        "ET_ORDER": 0.7559, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549051.5225, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 446.84161, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44440185872581, 
+          37.537836034633386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154683.9899, 
+        "ET_ORDER": 0.7638, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549084.7709, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 449.62813, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44406185866679, 
+          37.53816203455771
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154720.3354, 
+        "ET_ORDER": 0.7749, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549114.5949, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 454.07151, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44392952277695, 
+          37.538196888593916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154724.2714, 
+        "ET_ORDER": 0.7778, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549126.2634, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 454.49112, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44383203954989, 
+          37.538179156040854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154722.355, 
+        "ET_ORDER": 0.7799, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549134.8873, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 454.78453, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44371331318042, 
+          37.53810086530028
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154713.7311, 
+        "ET_ORDER": 0.7831, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549145.4277, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 456.37847, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44358399819323, 
+          37.53798797671174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154701.2743, 
+        "ET_ORDER": 0.7871, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549156.9263, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 458.04766, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44345429845781, 
+          37.537926906570696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154694.5667, 
+        "ET_ORDER": 0.7903, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549168.4249, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 459.79908, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44338085969456, 
+          37.537967034643636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154699.0571, 
+        "ET_ORDER": 0.7921, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549174.8866, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 460.4264, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44307485891196, 
+          37.53832903503038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154739.3792, 
+        "ET_ORDER": 0.8036, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549201.6828, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 465.46166, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44276828809791, 
+          37.5384107040385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154748.6004, 
+        "ET_ORDER": 0.8103, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549228.7134, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 468.65023, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44258297562978, 
+          37.53841509872839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154749.185, 
+        "ET_ORDER": 0.8142, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549245.0821, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 470.10221, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4423874936724, 
+          37.53844872364896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154753.0179, 
+        "ET_ORDER": 0.8183, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549262.33, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 472.27903, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44230164604404, 
+          37.53853501456023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154762.6364, 
+        "ET_ORDER": 0.8212, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549269.8575, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 474.4127, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44209885910651, 
+          37.53858903449209
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154768.7359, 
+        "ET_ORDER": 0.8257, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549287.7373, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 477.82572, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4417818590052, 
+          37.5386450343971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154775.115, 
+        "ET_ORDER": 0.8325, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549315.706, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 484.38287, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44177107732419, 
+          37.53874723793894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154786.4596, 
+        "ET_ORDER": 0.8352, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549316.5912, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 486.12985, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44188568989115, 
+          37.53883501230377
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154796.1376, 
+        "ET_ORDER": 0.8385, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549306.4079, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 488.04936, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44235238287243, 
+          37.53879403255373
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154791.3465, 
+        "ET_ORDER": 0.8483, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549265.2047, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 489.98109, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44256955709753, 
+          37.53876051099821
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154787.5137, 
+        "ET_ORDER": 0.8529, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549246.0404, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 490.00322, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4428729204512, 
+          37.5388051272021
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154792.3048, 
+        "ET_ORDER": 0.8593, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549219.2103, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 490.28611, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44307860645644, 
+          37.53885791783245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154798.054, 
+        "ET_ORDER": 0.8638, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549201.0042, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 491.00749, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44321585976063, 
+          37.538964034693706
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154809.7553, 
+        "ET_ORDER": 0.8678, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549188.8088, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 492.59218, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44355285898821, 
+          37.53956603468705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154876.3678, 
+        "ET_ORDER": 0.8851, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549158.6413, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 503.56287, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4436269638149, 
+          37.53992241422521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154915.8675, 
+        "ET_ORDER": 0.8946, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549151.8606, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 510.74674, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44360139062881, 
+          37.54002636084105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154927.4132, 
+        "ET_ORDER": 0.8974, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549154.0516, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 512.18793, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44361140218372, 
+          37.540138687316045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154939.87, 
+        "ET_ORDER": 0.9003, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549153.0934, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 513.92748, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44368385951698, 
+          37.54019603454211
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154946.1945, 
+        "ET_ORDER": 0.9024, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549146.6546, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 515.04267, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44399005163345, 
+          37.5402700235736
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154954.2432, 
+        "ET_ORDER": 0.9091, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549119.5559, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 518.68378, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4441196917361, 
+          37.54033972866545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154961.9089, 
+        "ET_ORDER": 0.9124, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549108.0573, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 520.38838, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44419385856997, 
+          37.54044103522819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154973.1096, 
+        "ET_ORDER": 0.9155, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549101.4387, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 522.55093, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44423713992323, 
+          37.54059075117865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4154989.6972, 
+        "ET_ORDER": 0.9195, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549097.5169, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 525.25516, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44420508714236, 
+          37.540698634258135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4155001.683, 
+        "ET_ORDER": 0.9224, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549100.2778, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 527.85968, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44421085866684, 
+          37.54083103449819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4155016.3691, 
+        "ET_ORDER": 0.9259, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549099.6811, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 529.49808, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44475485871311, 
+          37.5413080351619
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4155069.0059, 
+        "ET_ORDER": 0.9428, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 549051.31, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 534.49065, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4456978586854, 
+          37.54203503488276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4155149.1712, 
+        "ET_ORDER": 0.9702, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548967.5276, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 541.37195, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44635085844266, 
+          37.54304803492688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3896.9, 
+        "Av_S_Up": 4.5, 
+        "Length_3D": 4249.7, 
+        "Len_Down": 352.8, 
+        "Max_S_Down": 4.0, 
+        "Min_Z": 255.9, 
+        "H_Down": 14.5, 
+        "ET_ID": 280, 
+        "trail_name": "Wicklow Fire Road", 
+        "ET_Y": 4155261.2184, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 12.9, 
+        "ET_IDP": 280, 
+        "ET_IDR": "280_0", 
+        "H_Up": 307.3, 
+        "ET_X": 548909.1788, 
+        "Av_S_Down": 2.4, 
+        "ET_Z": 548.76656, 
+        "Length_2D": 4232.6, 
+        "Max_Z": 548.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49156075347587, 
+          37.82887928779411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 26.6, 
+        "Len_Down": 26.6, 
+        "Max_S_Down": 10.2, 
+        "Min_Z": 22.3, 
+        "H_Down": 4.0, 
+        "ET_ID": 128, 
+        "trail_name": "Kirby Cove Cart Trail", 
+        "ET_Y": 4186950.856, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 128, 
+        "ET_IDR": "128_0", 
+        "H_Up": 0.0, 
+        "ET_X": 544743.2825, 
+        "Av_S_Down": 8.7, 
+        "ET_Z": 26.30826, 
+        "Length_2D": 26.3, 
+        "Max_Z": 26.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4914364852379, 
+          37.82881344434648
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 26.6, 
+        "Len_Down": 26.6, 
+        "Max_S_Down": 10.2, 
+        "Min_Z": 22.3, 
+        "H_Down": 4.0, 
+        "ET_ID": 128, 
+        "trail_name": "Kirby Cove Cart Trail", 
+        "ET_Y": 4186943.6102, 
+        "ET_ORDER": 0.5, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 128, 
+        "ET_IDR": "128_0", 
+        "H_Up": 0.0, 
+        "ET_X": 544754.2581, 
+        "Av_S_Down": 8.7, 
+        "ET_Z": 23.9424, 
+        "Length_2D": 26.3, 
+        "Max_Z": 26.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49133438964284, 
+          37.828726881735115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 26.6, 
+        "Len_Down": 26.6, 
+        "Max_S_Down": 10.2, 
+        "Min_Z": 22.3, 
+        "H_Down": 4.0, 
+        "ET_ID": 128, 
+        "trail_name": "Kirby Cove Cart Trail", 
+        "ET_Y": 4186934.055, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 128, 
+        "ET_IDR": "128_0", 
+        "H_Up": 0.0, 
+        "ET_X": 544763.295, 
+        "Av_S_Down": 8.7, 
+        "ET_Z": 22.28371, 
+        "Length_2D": 26.3, 
+        "Max_Z": 26.3
+      }
+    }
+  ]
+}

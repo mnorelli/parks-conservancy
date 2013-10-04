@@ -1,0 +1,1221 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51092676649806, 
+          37.827760635680164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186817.6429, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 543039.6886, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 93.13255, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51103460215343, 
+          37.827765854031774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186818.1722, 
+        "ET_ORDER": 0.0122, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 543030.1957, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 92.6455, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51118700051886, 
+          37.82790000010524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186832.9855, 
+        "ET_ORDER": 0.0379, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 543016.7063, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 91.42719, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51138499984845, 
+          37.8280430003423
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186848.7602, 
+        "ET_ORDER": 0.0681, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542999.1988, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 91.86131, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5115070004801, 
+          37.82810800041107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186855.9158, 
+        "ET_ORDER": 0.0847, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542988.4247, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 92.87387, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51159300056916, 
+          37.82817499979217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186863.3098, 
+        "ET_ORDER": 0.0982, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542980.8176, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 93.48979, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51170715990523, 
+          37.82822118477558
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186868.3815, 
+        "ET_ORDER": 0.1127, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542970.7445, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 95.02216, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51186793368232, 
+          37.828313644031454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186878.5659, 
+        "ET_ORDER": 0.1351, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542956.5424, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 97.30605, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51197073037302, 
+          37.82834270277837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186881.7427, 
+        "ET_ORDER": 0.1474, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542947.4792, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 98.57434, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51205200054451, 
+          37.828344999843004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186881.9602, 
+        "ET_ORDER": 0.1566, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542940.3259, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 99.53861, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51227999956912, 
+          37.828420000178724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186890.1767, 
+        "ET_ORDER": 0.1844, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542920.218, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 99.91025, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51244851052762, 
+          37.828503845332975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186899.4019, 
+        "ET_ORDER": 0.2069, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542905.3401, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 97.98474, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51267025738281, 
+          37.828527500347576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186901.9246, 
+        "ET_ORDER": 0.2321, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542885.8122, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 93.12641, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51325085540475, 
+          37.82855348123635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186904.5408, 
+        "ET_ORDER": 0.2977, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542834.7033, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 80.05353, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51338529901018, 
+          37.828613828658135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186911.1747, 
+        "ET_ORDER": 0.3151, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542822.8371, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 77.14399, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51357071613529, 
+          37.828672701912126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186917.6217, 
+        "ET_ORDER": 0.3377, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542806.486, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 73.22569, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51385057028398, 
+          37.828740385633616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186925.003, 
+        "ET_ORDER": 0.3707, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542781.8192, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 68.651, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51394673858947, 
+          37.82880899534548
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186932.5712, 
+        "ET_ORDER": 0.3852, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542773.3166, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 66.61919, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51402930865902, 
+          37.82884639064805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186936.6824, 
+        "ET_ORDER": 0.396, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542766.0287, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 65.07227, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51401714561852, 
+          37.82908213799836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186962.8441, 
+        "ET_ORDER": 0.4295, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542766.963, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 62.76367, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51409420283088, 
+          37.82959687031743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187019.9183, 
+        "ET_ORDER": 0.5032, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542759.8848, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 57.50023, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51413000750054, 
+          37.82968136333627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187029.2764, 
+        "ET_ORDER": 0.5159, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542756.6852, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 56.83411, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51416481848825, 
+          37.82971603424469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187033.1072, 
+        "ET_ORDER": 0.5222, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542753.6018, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 56.38263, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51429950784019, 
+          37.829739327056046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187035.6299, 
+        "ET_ORDER": 0.5378, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542741.7356, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 54.52963, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51437000027185, 
+          37.8297130003044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187032.6767, 
+        "ET_ORDER": 0.5466, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542735.5474, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 53.66743, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51457482604606, 
+          37.829365711716655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186994.0514, 
+        "ET_ORDER": 0.6011, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542717.7228, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 51.30242, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51463783629731, 
+          37.82930954860549
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186987.7913, 
+        "ET_ORDER": 0.6118, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542712.2102, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 50.92562, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5147272639571, 
+          37.829272862517875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186983.6801, 
+        "ET_ORDER": 0.6231, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542704.3616, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 50.25298, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51484713814479, 
+          37.82928851546202
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186985.362, 
+        "ET_ORDER": 0.6368, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542693.8035, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 49.07536, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51492429558931, 
+          37.82934188786317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4186991.2484, 
+        "ET_ORDER": 0.6484, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542686.9828, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 47.90893, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51497993325528, 
+          37.82943896255264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187001.9934, 
+        "ET_ORDER": 0.6636, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542682.0307, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 46.36233, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51503339522502, 
+          37.82970613934296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187031.6122, 
+        "ET_ORDER": 0.702, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542677.1721, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 44.65663, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51503904891976, 
+          37.82981564090879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187043.7588, 
+        "ET_ORDER": 0.7176, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542676.6115, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 41.95842, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51524599797713, 
+          37.83052629995345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187122.5118, 
+        "ET_ORDER": 0.8213, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542657.9907, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 32.13469, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51498999995422, 
+          37.83089999995359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187164.0907, 
+        "ET_ORDER": 0.8818, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542680.3032, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 29.12219, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51480595897125, 
+          37.831133543217824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187190.0864, 
+        "ET_ORDER": 0.921, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542696.3641, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 26.79928, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51474064362229, 
+          37.83136272457004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187215.5439, 
+        "ET_ORDER": 0.9544, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542701.9797, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 24.47455, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5147300362822, 
+          37.83168323639041
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 114.8, 
+        "Av_S_Up": 4.2, 
+        "Length_3D": 786.7, 
+        "Len_Down": 671.9, 
+        "Max_S_Down": 14.3, 
+        "Min_Z": 22.7, 
+        "H_Down": 78.9, 
+        "ET_ID": 64, 
+        "trail_name": "Clyde's Ridge Trail", 
+        "ET_Y": 4187251.1095, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 7.7, 
+        "ET_IDP": 64, 
+        "ET_IDR": "64_0", 
+        "H_Up": 8.5, 
+        "ET_X": 542702.7284, 
+        "Av_S_Down": 6.8, 
+        "ET_Z": 22.67437, 
+        "Length_2D": 780.2, 
+        "Max_Z": 99.9
+      }
+    }
+  ]
+}

@@ -1,3 +1,12 @@
+blog/
+*.DS_Store
+.env
+data/convio/node_modules
+project.mml
+data/
+tmp/
+data-*
+SeanNotes.txt
 .*.sw?
 node_modules/
 npm-debug.log

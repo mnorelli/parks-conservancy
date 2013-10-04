@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47847332743815, 
+          37.83140318021827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187237.2309, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545893.4367, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 5.77995, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47857131765002, 
+          37.83125926803725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187221.2157, 
+        "ET_ORDER": 0.0287, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545884.9028, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 5.17067, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47903246012343, 
+          37.83072127373208
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187161.2988, 
+        "ET_ORDER": 0.1426, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545844.6556, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.53687, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47912057182884, 
+          37.830590504393875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187146.7467, 
+        "ET_ORDER": 0.1686, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545836.9827, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.66396, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47921782072666, 
+          37.83044308228663
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187130.3425, 
+        "ET_ORDER": 0.1978, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545828.516, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.68799, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47927368133294, 
+          37.83019531939932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187102.8258, 
+        "ET_ORDER": 0.2419, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545823.7535, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.44928, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47925982207316, 
+          37.830028327995336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187084.3049, 
+        "ET_ORDER": 0.2712, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545825.0764, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 4.279, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47915107838872, 
+          37.8296725249628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4187044.8819, 
+        "ET_ORDER": 0.3353, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545834.866, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 5.81457, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47896453553705, 
+          37.829263913492845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186999.638, 
+        "ET_ORDER": 0.4115, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545851.5348, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.14231, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47887497362925, 
+          37.828746035478424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186942.2234, 
+        "ET_ORDER": 0.5031, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545859.7369, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 5.7989, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4790005638156, 
+          37.82798825208303
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186858.0857, 
+        "ET_ORDER": 0.637, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545849.1536, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 5.69271, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47891056709675, 
+          37.827532373885916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186807.5502, 
+        "ET_ORDER": 0.7178, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545857.3557, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.06296, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47891805598604, 
+          37.82732255206259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186784.2668, 
+        "ET_ORDER": 0.7546, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545856.8265, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.54142, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47889485959337, 
+          37.8272008288444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186770.773, 
+        "ET_ORDER": 0.7762, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545858.9432, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.53737, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4789238797238, 
+          37.826921945864584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186739.8167, 
+        "ET_ORDER": 0.8252, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545856.5619, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.81787, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47890644505488, 
+          37.82683601921397
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186730.2917, 
+        "ET_ORDER": 0.8405, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545858.1494, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.95799, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47879362757882, 
+          37.82663281872516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186707.802, 
+        "ET_ORDER": 0.8794, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545868.2036, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.56212, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47869816114383, 
+          37.82652746963886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186696.1604, 
+        "ET_ORDER": 0.9021, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545876.6703, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.99295, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47865680968042, 
+          37.826422359116606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186684.5187, 
+        "ET_ORDER": 0.9214, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545880.3745, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.58859, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4786547761787, 
+          37.82628403639363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186669.1728, 
+        "ET_ORDER": 0.9456, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545880.6391, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 6.12635, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47870804933004, 
+          37.8259766442655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 253.4, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 633.3, 
+        "Len_Down": 379.9, 
+        "Max_S_Down": 1.9, 
+        "Min_Z": 4.3, 
+        "H_Down": 3.5, 
+        "ET_ID": 176, 
+        "trail_name": "Moore Road", 
+        "ET_Y": 4186635.0415, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.2, 
+        "ET_IDP": 176, 
+        "ET_IDR": "176_0", 
+        "H_Up": 3.7, 
+        "ET_X": 545876.1411, 
+        "Av_S_Down": 0.5, 
+        "ET_Z": 5.97605, 
+        "Length_2D": 633.2, 
+        "Max_Z": 7.0
+      }
+    }
+  ]
+}

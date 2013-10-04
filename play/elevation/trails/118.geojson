@@ -1,0 +1,3621 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54538185048013, 
+          37.84941935853287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189205.3615, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 539995.8403, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 31.85011, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54529028653738, 
+          37.849292098409585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189191.2812, 
+        "ET_ORDER": 0.007, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540003.9646, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 30.61222, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54514451356341, 
+          37.84885214871406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189142.5312, 
+        "ET_ORDER": 0.0288, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540017.0271, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 26.72186, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54508923291482, 
+          37.848599569452844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189114.5312, 
+        "ET_ORDER": 0.041, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540022.0271, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 24.31554, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54508632723591, 
+          37.84837873821224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189090.0312, 
+        "ET_ORDER": 0.0516, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540022.4021, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 22.33129, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54472640911585, 
+          37.84778523324306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189024.3361, 
+        "ET_ORDER": 0.0831, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540054.3882, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 17.73175, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54466442930855, 
+          37.84768418700503
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189013.1516, 
+        "ET_ORDER": 0.0885, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540059.8958, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 17.18805, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5446009719494, 
+          37.847642297666376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189008.5312, 
+        "ET_ORDER": 0.0916, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540065.5014, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 17.05217, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54447751536863, 
+          37.84750211769815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188993.0312, 
+        "ET_ORDER": 0.0998, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540076.4389, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 16.54627, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54425019515186, 
+          37.84750123815887
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188993.0312, 
+        "ET_ORDER": 0.1084, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540096.4389, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 17.51767, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54415238524989, 
+          37.84746480732882
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188989.0312, 
+        "ET_ORDER": 0.1125, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540105.0639, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 18.59453, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54405369858031, 
+          37.847455412212305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188988.0312, 
+        "ET_ORDER": 0.1162, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540113.7514, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 20.90717, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54380649042514, 
+          37.84756937136586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189000.7812, 
+        "ET_ORDER": 0.1271, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540135.4389, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 22.12987, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54372892057128, 
+          37.847591603499545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189003.2812, 
+        "ET_ORDER": 0.1302, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540142.2514, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 22.4677, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54330294972338, 
+          37.8478941431375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189037.0312, 
+        "ET_ORDER": 0.1519, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540179.5639, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 23.04651, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5430977487259, 
+          37.847992490833754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189048.0312, 
+        "ET_ORDER": 0.161, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540197.5639, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 22.35184, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5428706644735, 
+          37.84806822056906
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189056.5312, 
+        "ET_ORDER": 0.1703, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540217.5014, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 22.64307, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54200147799055, 
+          37.84824285126043
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189076.2812, 
+        "ET_ORDER": 0.2043, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540293.8764, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 22.46259, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54170530425807, 
+          37.8482326859327
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189075.2812, 
+        "ET_ORDER": 0.2156, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540319.9389, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 25.68598, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54137886329397, 
+          37.84817733668148
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189069.2812, 
+        "ET_ORDER": 0.2282, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540348.6889, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 30.21827, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54122999023394, 
+          37.84812718495934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189063.7812, 
+        "ET_ORDER": 0.2344, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540361.8139, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 32.83933, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5411946247419, 
+          37.84810226125881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189061.0312, 
+        "ET_ORDER": 0.2362, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540364.9389, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 33.68318, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54108894553146, 
+          37.8480748102911
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189058.0312, 
+        "ET_ORDER": 0.2404, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540374.2514, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 35.37984, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54104580782335, 
+          37.84804309646136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189054.5312, 
+        "ET_ORDER": 0.2426, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540378.0639, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 36.88204, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54097817001193, 
+          37.8479527022197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189044.5312, 
+        "ET_ORDER": 0.2477, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540384.0639, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 39.99025, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54088180985411, 
+          37.84791176779866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189040.0312, 
+        "ET_ORDER": 0.2518, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540392.5639, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 41.87142, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54054524388532, 
+          37.84788566921294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189037.2812, 
+        "ET_ORDER": 0.2646, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540422.1889, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 43.84454, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54004637934356, 
+          37.84779809770135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189027.7812, 
+        "ET_ORDER": 0.284, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540466.1264, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 50.35795, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53968927087509, 
+          37.84775295655748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189022.9276, 
+        "ET_ORDER": 0.2977, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540497.5692, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 58.87652, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53940394315246, 
+          37.84769341553577
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189016.4453, 
+        "ET_ORDER": 0.3089, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540522.7047, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 65.17443, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53930643660941, 
+          37.84765607065323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4189012.3442, 
+        "ET_ORDER": 0.313, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540531.3037, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 66.4818, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53915526812541, 
+          37.84754339814396
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188999.9088, 
+        "ET_ORDER": 0.3209, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540544.6651, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 68.17181, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53899606489755, 
+          37.847327819801585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188976.0595, 
+        "ET_ORDER": 0.3328, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540558.7898, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 70.98866, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53891980756197, 
+          37.847253163489526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188967.8095, 
+        "ET_ORDER": 0.3374, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540565.5398, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 72.60959, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5389037355727, 
+          37.8472102885166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188963.0595, 
+        "ET_ORDER": 0.3396, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540566.9773, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 73.46006, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53868654965692, 
+          37.847065228929246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188947.0595, 
+        "ET_ORDER": 0.3503, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540586.1648, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 78.65256, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53863373511992, 
+          37.84699066426166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188938.8095, 
+        "ET_ORDER": 0.3544, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540590.8523, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 80.51998, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53854827875645, 
+          37.8467403548503
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188911.0748, 
+        "ET_ORDER": 0.3668, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540598.508, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 85.93066, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53852942856416, 
+          37.84638734296632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188871.9163, 
+        "ET_ORDER": 0.3837, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540600.36, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 95.44028, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53854971852185, 
+          37.84626818776106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188858.6872, 
+        "ET_ORDER": 0.3895, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540598.6402, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 99.29166, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53855282682413, 
+          37.84606650831299
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188836.3095, 
+        "ET_ORDER": 0.3991, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540598.4773, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 104.78196, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53858702811294, 
+          37.84593595290199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188821.8095, 
+        "ET_ORDER": 0.4055, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540595.5398, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 109.14752, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53857995826735, 
+          37.84581650210546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188808.5595, 
+        "ET_ORDER": 0.4112, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540596.2273, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 111.98348, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5386020047103, 
+          37.845584502086105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188782.8095, 
+        "ET_ORDER": 0.4223, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540594.4148, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 118.68554, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53863540344751, 
+          37.84548054917014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188771.2614, 
+        "ET_ORDER": 0.4275, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540591.5333, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 121.20329, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53867545146957, 
+          37.8452041338631
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188740.5757, 
+        "ET_ORDER": 0.4408, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540588.1613, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 128.34542, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53871624519596, 
+          37.84511577544892
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188730.7546, 
+        "ET_ORDER": 0.4453, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540584.6206, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 130.48997, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53888337477244, 
+          37.84489608487433
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188706.3073, 
+        "ET_ORDER": 0.4575, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540570.0365, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 139.97387, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53891981866356, 
+          37.844736666565915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188688.604, 
+        "ET_ORDER": 0.4653, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540566.9174, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 146.2078, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53896400676075, 
+          37.844718604332826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188686.5808, 
+        "ET_ORDER": 0.4672, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540563.0395, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 147.21868, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53904545265554, 
+          37.84471816335779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188686.4965, 
+        "ET_ORDER": 0.4703, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540555.8739, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 148.65948, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53908945155833, 
+          37.844730492394596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188687.8453, 
+        "ET_ORDER": 0.472, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540551.996, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 149.63047, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53911705729426, 
+          37.84475947379233
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188691.0488, 
+        "ET_ORDER": 0.4738, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540549.5513, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 149.94856, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5391576464552, 
+          37.84485764792214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188701.9236, 
+        "ET_ORDER": 0.4787, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540545.9264, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 151.93019, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53920132234543, 
+          37.84507588544092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188726.1181, 
+        "ET_ORDER": 0.4893, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540541.9642, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 156.13216, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53928650750231, 
+          37.84524451699413
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188744.7908, 
+        "ET_ORDER": 0.498, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540534.3771, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 160.36504, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53942471432039, 
+          37.8454547799091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188768.0595, 
+        "ET_ORDER": 0.5093, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540522.1023, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 164.85102, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53955519142637, 
+          37.84560625897052
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188784.8095, 
+        "ET_ORDER": 0.5181, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540510.5398, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 167.76631, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53969329086955, 
+          37.84567439683332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188792.3095, 
+        "ET_ORDER": 0.5243, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540498.3523, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 170.26643, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53984306433216, 
+          37.8456930082963
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188794.3095, 
+        "ET_ORDER": 0.53, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540485.1648, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 172.59634, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53990206603508, 
+          37.84568647903191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188793.5595, 
+        "ET_ORDER": 0.5323, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540479.9773, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 173.74792, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54035416423426, 
+          37.84552375607593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188775.3095, 
+        "ET_ORDER": 0.5511, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540440.2898, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 180.45982, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54053057026718, 
+          37.84548613895633
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188771.0595, 
+        "ET_ORDER": 0.558, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540424.7898, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 182.08129, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.540575308714, 
+          37.84548856676777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188771.3095, 
+        "ET_ORDER": 0.5597, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540420.8523, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 181.7784, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54068843699972, 
+          37.84545971559567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188768.0595, 
+        "ET_ORDER": 0.5642, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540410.9148, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 183.47982, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54097043426299, 
+          37.8454630684001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188768.3095, 
+        "ET_ORDER": 0.5749, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540386.1023, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 188.37056, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54120586914831, 
+          37.84541441401003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188762.8095, 
+        "ET_ORDER": 0.5841, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540365.4148, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 191.71299, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54127795001992, 
+          37.84536061641619
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188756.8095, 
+        "ET_ORDER": 0.5879, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540359.1023, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 192.59661, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54127198951575, 
+          37.84529074194049
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188749.0595, 
+        "ET_ORDER": 0.5912, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540359.6648, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 193.85353, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54099631616543, 
+          37.84519710539449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188738.7897, 
+        "ET_ORDER": 0.6026, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540383.9702, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 195.04186, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54091990532028, 
+          37.84514723568352
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188733.2897, 
+        "ET_ORDER": 0.6064, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540390.7202, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 195.3868, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54075470283306, 
+          37.84498210310414
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188715.0397, 
+        "ET_ORDER": 0.6165, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540405.3452, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 197.05877, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5406746032714, 
+          37.84483983492185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188699.2897, 
+        "ET_ORDER": 0.6239, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540412.4702, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 198.52166, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54064460331632, 
+          37.84475184051155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188689.5397, 
+        "ET_ORDER": 0.6283, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540415.1577, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 199.18978, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54063945163786, 
+          37.84466619628724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188680.0397, 
+        "ET_ORDER": 0.6324, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540415.6577, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 199.37387, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54072289075158, 
+          37.844269946796395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188636.0397, 
+        "ET_ORDER": 0.6516, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540408.5327, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 201.73808, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54072205696674, 
+          37.84417530634107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188625.5397, 
+        "ET_ORDER": 0.6561, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540408.6577, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 204.17672, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54068971656636, 
+          37.84412110180715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188619.5397, 
+        "ET_ORDER": 0.659, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540411.5327, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 206.35249, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5406168727215, 
+          37.844068992539206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188613.7897, 
+        "ET_ORDER": 0.6627, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540417.9702, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 209.30363, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54045954024275, 
+          37.84400979376427
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188607.2897, 
+        "ET_ORDER": 0.6693, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540431.8452, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 213.09143, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5403682837347, 
+          37.84394859942366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188600.5397, 
+        "ET_ORDER": 0.6738, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540439.9077, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 215.46617, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54012740773342, 
+          37.843667234575705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188569.4266, 
+        "ET_ORDER": 0.6901, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540461.2546, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 221.26827, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.540029419187, 
+          37.84360928632678
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188563.0397, 
+        "ET_ORDER": 0.6947, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540469.9077, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 223.2518, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53991238141185, 
+          37.843581789934746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188560.0397, 
+        "ET_ORDER": 0.6994, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540480.2202, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 223.24633, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53908449240483, 
+          37.84351996766223
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188553.5397, 
+        "ET_ORDER": 0.7309, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540553.0952, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 232.2544, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53892461047877, 
+          37.84352835486566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188554.5397, 
+        "ET_ORDER": 0.737, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540567.1577, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 232.40369, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53877028491905, 
+          37.843557043015394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188557.7897, 
+        "ET_ORDER": 0.743, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540580.7202, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 232.48958, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53854394839344, 
+          37.84362826088234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188565.7897, 
+        "ET_ORDER": 0.7522, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540600.5952, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 232.39061, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53848996271005, 
+          37.843628049329524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188565.7897, 
+        "ET_ORDER": 0.7543, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540605.3452, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 232.68466, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53842402767404, 
+          37.8436075115162
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188563.5397, 
+        "ET_ORDER": 0.757, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540611.1577, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 233.13524, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5382614226617, 
+          37.84348294440325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188549.7897, 
+        "ET_ORDER": 0.7655, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540625.5327, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 236.58666, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53817079466164, 
+          37.843435270426035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188544.5397, 
+        "ET_ORDER": 0.7697, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540633.5327, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 238.2851, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5380700393763, 
+          37.84341684912458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188542.5397, 
+        "ET_ORDER": 0.7736, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540642.4077, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 238.83974, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53781434659416, 
+          37.84341133936566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188542.0397, 
+        "ET_ORDER": 0.7833, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540664.9077, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 239.94267, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5376255942253, 
+          37.84337905269327
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188538.5397, 
+        "ET_ORDER": 0.7906, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540681.5327, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 240.19548, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53748461741336, 
+          37.843317660895075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188531.7897, 
+        "ET_ORDER": 0.7967, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540693.9702, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 240.53096, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53732965937705, 
+          37.84322016173038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188521.0397, 
+        "ET_ORDER": 0.8042, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540707.6577, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 240.24441, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53721695564744, 
+          37.84318141335476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188516.7897, 
+        "ET_ORDER": 0.8089, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540717.5952, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 240.72711, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53703732578182, 
+          37.84316718772374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188515.2897, 
+        "ET_ORDER": 0.8157, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540733.4077, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 241.90829, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53667748831315, 
+          37.843231117307035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188522.5397, 
+        "ET_ORDER": 0.8297, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540765.0327, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 247.24461, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53649197833971, 
+          37.84324841344514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188524.5397, 
+        "ET_ORDER": 0.8368, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540781.3452, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 250.14013, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5364366427996, 
+          37.84323692930491
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188523.2897, 
+        "ET_ORDER": 0.8389, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540786.2202, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 251.0456, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5363158105254, 
+          37.84313505660058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188512.0397, 
+        "ET_ORDER": 0.8456, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540796.9077, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 252.89966, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53618906227061, 
+          37.84309642229017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188507.8086, 
+        "ET_ORDER": 0.8508, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540808.0809, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 253.38293, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53564361437542, 
+          37.84304061712664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188501.8555, 
+        "ET_ORDER": 0.8716, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540856.1028, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 260.05089, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53560793324468, 
+          37.84297608887853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188494.7117, 
+        "ET_ORDER": 0.875, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540859.2778, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 260.20377, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53533275643271, 
+          37.84296795792002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188493.93, 
+        "ET_ORDER": 0.8855, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540883.4937, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 263.7292, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53511497442634, 
+          37.842941950156046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188491.1398, 
+        "ET_ORDER": 0.8938, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540902.6696, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 266.23128, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5348148715489, 
+          37.842829840383814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188478.8327, 
+        "ET_ORDER": 0.9064, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540929.1361, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 269.44638, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53459358405343, 
+          37.84278137527205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188473.5525, 
+        "ET_ORDER": 0.9151, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540948.6329, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 270.75658, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53414982178975, 
+          37.84271722053237
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188466.6292, 
+        "ET_ORDER": 0.9322, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 540987.7129, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 272.4186, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53351444667538, 
+          37.84265177620711
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188459.6472, 
+        "ET_ORDER": 0.9565, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 541043.6528, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 281.26296, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53238816462837, 
+          37.842480202704586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1960.5, 
+        "Av_S_Up": 8.1, 
+        "Length_3D": 2346.0, 
+        "Len_Down": 385.5, 
+        "Max_S_Down": 4.8, 
+        "Min_Z": 16.5, 
+        "H_Down": 16.9, 
+        "ET_ID": 118, 
+        "trail_name": "Hill 88 Trail", 
+        "ET_Y": 4188441.1067, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 19.1, 
+        "ET_IDP": 118, 
+        "ET_IDR": "118_0", 
+        "H_Up": 275.9, 
+        "ET_X": 541142.8444, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 290.88809, 
+        "Length_2D": 2320.0, 
+        "Max_Z": 290.9
+      }
+    }
+  ]
+}

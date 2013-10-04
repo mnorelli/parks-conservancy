@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4569600230757, 
+          37.80518455517176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 20.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 37.9, 
+        "Len_Down": 17.8, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.5, 
+        "H_Down": 0.1, 
+        "ET_ID": 79, 
+        "trail_name": "East Beach Boardwalk", 
+        "ET_Y": 4184339.0647, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.0, 
+        "ET_IDP": 79, 
+        "ET_IDR": "79_0", 
+        "H_Up": 0.3, 
+        "ET_X": 547803.4895, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.45098, 
+        "Length_2D": 37.9, 
+        "Max_Z": 3.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45697108573012, 
+          37.80536552787432
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 20.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 37.9, 
+        "Len_Down": 17.8, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.5, 
+        "H_Down": 0.1, 
+        "ET_ID": 79, 
+        "trail_name": "East Beach Boardwalk", 
+        "ET_Y": 4184359.1379, 
+        "ET_ORDER": 0.5305, 
+        "Max_S_Up": 1.0, 
+        "ET_IDP": 79, 
+        "ET_IDR": "79_0", 
+        "H_Up": 0.3, 
+        "ET_X": 547802.399, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.79857, 
+        "Length_2D": 37.9, 
+        "Max_Z": 3.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4568914309009, 
+          37.80551289073974
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 20.1, 
+        "Av_S_Up": 1.0, 
+        "Length_3D": 37.9, 
+        "Len_Down": 17.8, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.5, 
+        "H_Down": 0.1, 
+        "ET_ID": 79, 
+        "trail_name": "East Beach Boardwalk", 
+        "ET_Y": 4184375.5285, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.0, 
+        "ET_IDP": 79, 
+        "ET_IDR": "79_0", 
+        "H_Up": 0.3, 
+        "ET_X": 547809.316, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.67992, 
+        "Length_2D": 37.9, 
+        "Max_Z": 3.8
+      }
+    }
+  ]
+}

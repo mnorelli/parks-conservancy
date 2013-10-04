@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49376235582739, 
+          37.61936246503705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163704.3385, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544675.208, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 24.10316, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49373563436816, 
+          37.6192923974485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163696.5775, 
+        "ET_ORDER": 0.0258, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544677.6081, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 23.95374, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49364712854029, 
+          37.6191594901622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163681.8741, 
+        "ET_ORDER": 0.0788, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544685.4983, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 24.1541, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49339946619142, 
+          37.6190168384607
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163666.1654, 
+        "ET_ORDER": 0.1644, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544707.44, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 22.91146, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49316889568847, 
+          37.61893714520006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163657.4336, 
+        "ET_ORDER": 0.2349, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544727.8357, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 22.36007, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49293739633802, 
+          37.61893372604766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163657.1646, 
+        "ET_ORDER": 0.2997, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544748.2677, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 20.90703, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49276039240672, 
+          37.61888218745547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163651.531, 
+        "ET_ORDER": 0.3526, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544763.9193, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 20.1448, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49267591026069, 
+          37.618910542745475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163654.7172, 
+        "ET_ORDER": 0.3782, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544771.3579, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 19.65731, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49249228048039, 
+          37.61899512618158
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163664.189, 
+        "ET_ORDER": 0.4377, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544787.5126, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 18.42399, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49233028615164, 
+          37.619116748312024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163677.7598, 
+        "ET_ORDER": 0.5001, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544801.7357, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 17.18461, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4920800434769, 
+          37.61923435529309
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163690.9273, 
+        "ET_ORDER": 0.5816, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544823.7491, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 15.3715, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49204204817232, 
+          37.61924800296286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163692.4596, 
+        "ET_ORDER": 0.5932, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544827.094, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 14.9428, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49191720929356, 
+          37.619242603678316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163691.9202, 
+        "ET_ORDER": 0.6283, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544838.1143, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 15.66247, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49184682641803, 
+          37.61927307773701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163695.3348, 
+        "ET_ORDER": 0.6507, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544844.3073, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 15.54544, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49169667712756, 
+          37.61941971348769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163711.6752, 
+        "ET_ORDER": 0.7173, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544857.4699, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 14.2192, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49166059540005, 
+          37.61943654379356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163713.5597, 
+        "ET_ORDER": 0.729, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544860.644, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 14.23424, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.491518989893, 
+          37.61954699399804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163725.8814, 
+        "ET_ORDER": 0.7846, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544873.0743, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 12.91238, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49138139716884, 
+          37.61972387109748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163745.571, 
+        "ET_ORDER": 0.8579, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544885.1105, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 11.29632, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49153202714281, 
+          37.61974609562153
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163747.9647, 
+        "ET_ORDER": 0.9008, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544871.8041, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 10.23722, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49159328045167, 
+          37.61979238643553
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163753.0712, 
+        "ET_ORDER": 0.9245, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544866.3707, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 9.79183, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4916451728945, 
+          37.61990723961916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163765.7889, 
+        "ET_ORDER": 0.9675, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544861.7222, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 8.70096, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49173962220786, 
+          37.61996100575765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 31.4, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 315.5, 
+        "Len_Down": 284.1, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.5, 
+        "ET_ID": 141, 
+        "trail_name": "Lishumsha Trail", 
+        "ET_Y": 4163771.7089, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 141, 
+        "ET_IDR": "141_0", 
+        "H_Up": 0.9, 
+        "ET_X": 544853.3548, 
+        "Av_S_Down": 3.3, 
+        "ET_Z": 8.51227, 
+        "Length_2D": 315.0, 
+        "Max_Z": 24.2
+      }
+    }
+  ]
+}

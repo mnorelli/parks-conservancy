@@ -1,0 +1,1765 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52033853163482, 
+          37.85431704265418
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189759.7831, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542196.2918, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 253.85568, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52048366492659, 
+          37.85428687043019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189756.3699, 
+        "ET_ORDER": 0.0121, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542183.5414, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 253.09639, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5205425329362, 
+          37.854236657814695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189750.7722, 
+        "ET_ORDER": 0.0191, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542178.3913, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 253.09716, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52052278763837, 
+          37.85419686233341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189746.3658, 
+        "ET_ORDER": 0.0235, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542180.151, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 252.47309, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52040906929082, 
+          37.85408296735287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189733.7805, 
+        "ET_ORDER": 0.0383, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542190.2199, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 249.24709, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52037251485595, 
+          37.85399744960426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189724.3088, 
+        "ET_ORDER": 0.0475, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542193.4844, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 246.02775, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52040399945396, 
+          37.85392365103822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189716.1066, 
+        "ET_ORDER": 0.0554, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542190.7567, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 243.64458, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52038480805287, 
+          37.85369539049215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189690.7897, 
+        "ET_ORDER": 0.0788, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542192.5751, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 236.85074, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52037753210509, 
+          37.853504286981995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189669.59, 
+        "ET_ORDER": 0.0983, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542193.3241, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 231.51942, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52034597886481, 
+          37.85341571613892
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189659.7773, 
+        "ET_ORDER": 0.1076, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542196.1504, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 229.0432, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52029561465105, 
+          37.853330755893644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189650.3737, 
+        "ET_ORDER": 0.1172, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542200.6295, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 226.84479, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5201027412199, 
+          37.853126624866775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189627.8125, 
+        "ET_ORDER": 0.1432, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542217.7135, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 222.85093, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51993192819195, 
+          37.85291244918845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189604.1269, 
+        "ET_ORDER": 0.1691, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542232.8626, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 218.83596, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51978518439302, 
+          37.85260773260583
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189570.3849, 
+        "ET_ORDER": 0.2023, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542245.946, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 214.04668, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51970100771376, 
+          37.852536455711814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189562.5148, 
+        "ET_ORDER": 0.2123, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542253.392, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 212.11874, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51960601723202, 
+          37.85250589795227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189559.1674, 
+        "ET_ORDER": 0.2206, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542261.7661, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 210.86173, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51950358395673, 
+          37.85249071214336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189557.5289, 
+        "ET_ORDER": 0.229, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542270.7862, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 209.29513, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51941663778186, 
+          37.85249469440925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189558.0101, 
+        "ET_ORDER": 0.236, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542278.4329, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 207.83942, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51931026376961, 
+          37.85254215916709
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189563.3245, 
+        "ET_ORDER": 0.2459, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542287.7639, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 205.63056, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51915867166191, 
+          37.85267272876306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189577.8799, 
+        "ET_ORDER": 0.264, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542301.0254, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 202.01391, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.518983356922, 
+          37.852953249559555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189609.0832, 
+        "ET_ORDER": 0.2959, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542316.2881, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 199.64563, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5189060905606, 
+          37.85303994586108
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189618.7372, 
+        "ET_ORDER": 0.3067, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542323.0359, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 199.33937, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51852244111173, 
+          37.85327030873141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189644.47, 
+        "ET_ORDER": 0.3456, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542356.6549, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 198.25732, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51839867195855, 
+          37.85336905606094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189655.4822, 
+        "ET_ORDER": 0.3598, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542367.4867, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 197.88063, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51803358098815, 
+          37.853832822030604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189707.1029, 
+        "ET_ORDER": 0.4156, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542399.3391, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 197.27174, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5178670043027, 
+          37.85398728616339
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189724.3164, 
+        "ET_ORDER": 0.4363, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542413.9047, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 197.92565, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51767482874595, 
+          37.85410444025677
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189737.402, 
+        "ET_ORDER": 0.4559, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542430.7436, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 199.76704, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51747280169296, 
+          37.854201710545475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189748.286, 
+        "ET_ORDER": 0.475, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542448.4605, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 199.15856, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51724021969733, 
+          37.85428297603986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189757.4082, 
+        "ET_ORDER": 0.4956, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542468.8745, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 199.2673, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51691240152677, 
+          37.85435051470145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189765.0508, 
+        "ET_ORDER": 0.5229, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542497.6744, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 201.20944, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51661768766802, 
+          37.854519050614186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189783.8841, 
+        "ET_ORDER": 0.5523, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542523.504, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 206.26106, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51644187185734, 
+          37.85458611945628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189791.4055, 
+        "ET_ORDER": 0.5681, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542538.9322, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 207.3095, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5161195015862, 
+          37.85465950250163
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189799.6943, 
+        "ET_ORDER": 0.5952, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542567.2493, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 206.97545, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51560533970614, 
+          37.854727582122884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189807.4823, 
+        "ET_ORDER": 0.6373, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542612.4415, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 212.32531, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51524640439986, 
+          37.85474825189096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189809.9395, 
+        "ET_ORDER": 0.6664, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542644.0055, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 216.9127, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51493671385026, 
+          37.854733831960175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189808.4811, 
+        "ET_ORDER": 0.6915, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542671.2576, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 218.23253, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51469879353321, 
+          37.854695498895886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189804.3368, 
+        "ET_ORDER": 0.7111, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542692.2098, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 218.5586, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51455331135249, 
+          37.8546549750501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189799.9072, 
+        "ET_ORDER": 0.7236, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542705.0314, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 219.76729, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51444848046059, 
+          37.8545962068125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189793.4348, 
+        "ET_ORDER": 0.734, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542714.2874, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 220.94557, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51416901480468, 
+          37.85438632015458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189770.2757, 
+        "ET_ORDER": 0.7651, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542738.9935, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 226.49225, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5139926857687, 
+          37.85431917089852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189762.9062, 
+        "ET_ORDER": 0.7809, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542754.5442, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 228.29961, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51389776167234, 
+          37.85430517749418
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189761.3971, 
+        "ET_ORDER": 0.7887, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542762.9029, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 228.7487, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51382063480484, 
+          37.854325893718375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189763.7309, 
+        "ET_ORDER": 0.7953, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542769.6759, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 229.28472, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51368732652534, 
+          37.85439325832107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189771.2661, 
+        "ET_ORDER": 0.8081, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542781.3643, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 230.03763, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51344338195283, 
+          37.85463824807047
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189798.5596, 
+        "ET_ORDER": 0.8399, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542802.6828, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 231.79563, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51332280999787, 
+          37.85470473473438
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189805.9916, 
+        "ET_ORDER": 0.8518, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542813.2512, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 230.49348, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51308503611102, 
+          37.85470995544407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189806.6799, 
+        "ET_ORDER": 0.871, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542834.1654, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 234.65124, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5128042219263, 
+          37.85462708259031
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189797.614, 
+        "ET_ORDER": 0.8952, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542858.9169, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 237.43298, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.512687304317, 
+          37.85462013554097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189796.8969, 
+        "ET_ORDER": 0.9047, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542869.2063, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 236.50712, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51257193337038, 
+          37.85465020322966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189800.2859, 
+        "ET_ORDER": 0.9145, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542879.3382, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 234.71997, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5122525714892, 
+          37.8547846451773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189815.349, 
+        "ET_ORDER": 0.9438, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542907.3549, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 231.94741, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51200527804991, 
+          37.854801963939686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189817.3842, 
+        "ET_ORDER": 0.9638, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542929.0995, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 233.54218, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51187484663087, 
+          37.85482778106884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189820.3086, 
+        "ET_ORDER": 0.9747, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542940.5587, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 235.12246, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51171353915815, 
+          37.854864948131535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189824.5065, 
+        "ET_ORDER": 0.9883, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542954.7275, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 237.02698, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51158662412202, 
+          37.854920299935976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.6, 
+        "Av_S_Up": 5.4, 
+        "Length_3D": 1097.0, 
+        "Len_Down": 566.4, 
+        "Max_S_Down": 17.8, 
+        "Min_Z": 197.3, 
+        "H_Down": 64.3, 
+        "ET_ID": 111, 
+        "trail_name": "Hawk Camp Fire Road", 
+        "ET_Y": 4189830.7062, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 11.2, 
+        "ET_IDP": 111, 
+        "ET_IDR": "111_0", 
+        "H_Up": 49.9, 
+        "ET_X": 542965.8602, 
+        "Av_S_Down": 6.5, 
+        "ET_Z": 239.39311, 
+        "Length_2D": 1088.2, 
+        "Max_Z": 253.9
+      }
+    }
+  ]
+}

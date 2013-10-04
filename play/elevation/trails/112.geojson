@@ -1,0 +1,421 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49934868813015, 
+          37.82698759783088
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186737.2717, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544059.055, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 247.89052, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49930369350471, 
+          37.826964572828814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186734.7383, 
+        "ET_ORDER": 0.0295, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544063.0284, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 248.61422, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49929966433481, 
+          37.82689525863723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186727.0498, 
+        "ET_ORDER": 0.0777, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544063.4242, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 247.48103, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49946079279215, 
+          37.82676123040058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186712.1034, 
+        "ET_ORDER": 0.2062, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544049.3239, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 250.15025, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49957775802253, 
+          37.826728177122035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186708.381, 
+        "ET_ORDER": 0.2746, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544039.0501, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 251.70548, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49971472598386, 
+          37.82673949536199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186709.5722, 
+        "ET_ORDER": 0.3505, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544026.9896, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 253.39273, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49978386571094, 
+          37.82677333840485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186713.2945, 
+        "ET_ORDER": 0.3952, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544020.8849, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 254.66848, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49987299147554, 
+          37.82685423794051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186722.2283, 
+        "ET_ORDER": 0.4698, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544012.9934, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 256.32464, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49988281390284, 
+          37.82688670780877
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186725.8262, 
+        "ET_ORDER": 0.493, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544012.1097, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 256.71904, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49989616093714, 
+          37.826930830330475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186730.7153, 
+        "ET_ORDER": 0.5245, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544010.9089, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 259.16784, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49989807757959, 
+          37.82714824386634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186754.8364, 
+        "ET_ORDER": 0.6754, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544010.6111, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 264.00229, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49987339370834, 
+          37.82754671454555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186799.0583, 
+        "ET_ORDER": 0.9524, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544012.5467, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 270.97737, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49985293037983, 
+          37.827613284777904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 154.4, 
+        "Av_S_Up": 9.2, 
+        "Length_3D": 162.2, 
+        "Len_Down": 7.8, 
+        "Max_S_Down": 8.4, 
+        "Min_Z": 247.5, 
+        "H_Down": 1.1, 
+        "ET_ID": 112, 
+        "trail_name": "Hawk Hill Road", 
+        "ET_Y": 4186806.4539, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 25.9, 
+        "ET_IDP": 112, 
+        "ET_IDR": "112_0", 
+        "H_Up": 24.7, 
+        "ET_X": 544014.308, 
+        "Av_S_Down": 8.4, 
+        "ET_Z": 271.48705, 
+        "Length_2D": 159.8, 
+        "Max_Z": 271.5
+      }
+    }
+  ]
+}

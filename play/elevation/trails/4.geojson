@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46378408080537, 
+          37.80322691578318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 100.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 152.5, 
+        "Len_Down": 51.8, 
+        "Max_S_Down": 1.0, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.9, 
+        "ET_ID": 4, 
+        "trail_name": "Airstrip Cut-off Trail #3", 
+        "ET_Y": 4184118.3972, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.6, 
+        "ET_IDP": 4, 
+        "ET_IDR": "4_0", 
+        "H_Up": 1.1, 
+        "ET_X": 547204.0133, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 3.22074, 
+        "Length_2D": 152.5, 
+        "Max_Z": 4.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46361628188886, 
+          37.80412444003625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 100.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 152.5, 
+        "Len_Down": 51.8, 
+        "Max_S_Down": 1.0, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.9, 
+        "ET_ID": 4, 
+        "trail_name": "Airstrip Cut-off Trail #3", 
+        "ET_Y": 4184218.0619, 
+        "ET_ORDER": 0.6603, 
+        "Max_S_Up": 0.6, 
+        "ET_IDP": 4, 
+        "ET_IDR": "4_0", 
+        "H_Up": 1.1, 
+        "ET_X": 547218.2136, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 4.31042, 
+        "Length_2D": 152.5, 
+        "Max_Z": 4.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46352994364345, 
+          37.80458623602323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 100.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 152.5, 
+        "Len_Down": 51.8, 
+        "Max_S_Down": 1.0, 
+        "Min_Z": 3.2, 
+        "H_Down": 0.9, 
+        "ET_ID": 4, 
+        "trail_name": "Airstrip Cut-off Trail #3", 
+        "ET_Y": 4184269.3416, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.6, 
+        "ET_IDP": 4, 
+        "ET_IDR": "4_0", 
+        "H_Up": 1.1, 
+        "ET_X": 547225.52, 
+        "Av_S_Down": 1.0, 
+        "ET_Z": 3.3951, 
+        "Length_2D": 152.5, 
+        "Max_Z": 4.3
+      }
+    }
+  ]
+}

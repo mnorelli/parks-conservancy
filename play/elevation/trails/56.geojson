@@ -1,0 +1,997 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48312075341069, 
+          37.79320951042832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4182997.383, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545507.906, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 10.24789, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4831194160194, 
+          37.79331344121767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183008.9147, 
+        "ET_ORDER": 0.0372, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545507.96, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 10.51318, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48302349012839, 
+          37.793381095568265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183016.4676, 
+        "ET_ORDER": 0.0736, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545516.3642, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 11.05527, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48292955637889, 
+          37.793534942082395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183033.5825, 
+        "ET_ORDER": 0.1348, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545524.5401, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.44425, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48297163540215, 
+          37.79358856737015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183039.5117, 
+        "ET_ORDER": 0.1574, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545520.8024, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.58814, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48296189741066, 
+          37.793651264094734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183046.4726, 
+        "ET_ORDER": 0.18, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545521.6213, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.62806, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48288559124279, 
+          37.793700598725835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183051.9834, 
+        "ET_ORDER": 0.208, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545528.3093, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.97092, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48287558523344, 
+          37.793730362111376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183055.2905, 
+        "ET_ORDER": 0.219, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545529.172, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 13.18497, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48279533781405, 
+          37.793762409336104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183058.8852, 
+        "ET_ORDER": 0.2445, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545536.2176, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 14.45629, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48278038688886, 
+          37.79379863054022
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183062.9112, 
+        "ET_ORDER": 0.2582, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545537.5117, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 14.35527, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48280307329672, 
+          37.79395440481441
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183080.1832, 
+        "ET_ORDER": 0.3143, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545535.4187, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.68132, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48277820768928, 
+          37.79399440225428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183084.633, 
+        "ET_ORDER": 0.3302, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545537.5834, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.67705, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4826955095701, 
+          37.79402634941987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183088.2178, 
+        "ET_ORDER": 0.3564, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545544.8448, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 13.08522, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48267732820557, 
+          37.79405737297721
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183091.6687, 
+        "ET_ORDER": 0.3686, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545546.4265, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 13.117, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48271003946573, 
+          37.79411617311498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183098.1766, 
+        "ET_ORDER": 0.3916, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545543.5104, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.77804, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48269992936986, 
+          37.794164103779686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183103.4994, 
+        "ET_ORDER": 0.409, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545544.3711, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.4995, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48266217181316, 
+          37.79420236634345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183107.763, 
+        "ET_ORDER": 0.4264, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545547.6719, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.73896, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48260595680173, 
+          37.794221648220216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183109.9297, 
+        "ET_ORDER": 0.4438, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545552.6094, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 13.09677, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48251166879282, 
+          37.794393599281385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183129.0535, 
+        "ET_ORDER": 0.5109, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545560.8052, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.66694, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48252652231209, 
+          37.79443960891862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183134.151, 
+        "ET_ORDER": 0.5279, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545559.4692, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.69373, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48251154616499, 
+          37.79448559479057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183139.2604, 
+        "ET_ORDER": 0.5449, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545560.7595, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.65676, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4824704591347, 
+          37.794520132864236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183143.1124, 
+        "ET_ORDER": 0.5619, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545564.3557, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.67454, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48241346727308, 
+          37.79453464509528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183144.7503, 
+        "ET_ORDER": 0.5789, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545569.3645, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.58846, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48225835578998, 
+          37.79488362404854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183183.5449, 
+        "ET_ORDER": 0.7113, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545582.8065, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.00359, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48226083805773, 
+          37.79494344513622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183190.1808, 
+        "ET_ORDER": 0.7327, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545582.5512, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 11.73833, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4821921527553, 
+          37.79507298090907
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183204.5862, 
+        "ET_ORDER": 0.783, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545588.5188, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 11.96761, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48215968806089, 
+          37.79514336770198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183212.4114, 
+        "ET_ORDER": 0.8098, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545591.3338, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 12.5566, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48220290848559, 
+          37.79543041649138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183244.2382, 
+        "ET_ORDER": 0.9133, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545587.3522, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 11.86856, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48225855864156, 
+          37.79553713757415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183256.0517, 
+        "ET_ORDER": 0.9546, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545582.3871, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 9.03983, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48231259828367, 
+          37.795596014410634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183262.5577, 
+        "ET_ORDER": 0.9807, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545577.5932, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 6.46801, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4823668199156, 
+          37.79562865843047
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 133.2, 
+        "Av_S_Up": 2.6, 
+        "Length_3D": 311.2, 
+        "Len_Down": 178.1, 
+        "Max_S_Down": 17.7, 
+        "Min_Z": 5.2, 
+        "H_Down": 11.2, 
+        "ET_ID": 56, 
+        "trail_name": "Chamberlin Staircase to Baker Beac", 
+        "ET_Y": 4183266.1531, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 9.1, 
+        "ET_IDP": 56, 
+        "ET_IDR": "56_0", 
+        "H_Up": 6.1, 
+        "ET_X": 545572.7994, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 5.17292, 
+        "Length_2D": 310.0, 
+        "Max_Z": 14.5
+      }
+    }
+  ]
+}

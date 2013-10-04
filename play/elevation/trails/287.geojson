@@ -1,0 +1,6885 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45795119860264, 
+          37.60425440936733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162045.8078, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547845.2257, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 370.93929, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45795119860264, 
+          37.60425440936733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162045.8078, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547845.2257, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 370.93929, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45784235729393, 
+          37.60409114717672
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162027.75, 
+        "ET_ORDER": 0.0038, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547854.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 369.56598, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45750222808493, 
+          37.60363891398513
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161977.75, 
+        "ET_ORDER": 0.0147, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547885.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 365.38013, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4572637819495, 
+          37.60322545442251
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161932.0, 
+        "ET_ORDER": 0.0241, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547906.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 362.25723, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45716690389965, 
+          37.603013193855006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161908.5, 
+        "ET_ORDER": 0.0287, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547915.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 360.57524, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45701425556817, 
+          37.60277814311064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161882.5, 
+        "ET_ORDER": 0.0342, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547928.875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 358.82137, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4567093584495, 
+          37.602350856526634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161835.25, 
+        "ET_ORDER": 0.0443, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547956.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 353.1972, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45625867451547, 
+          37.60181699002852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161776.25, 
+        "ET_ORDER": 0.0576, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 547996.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 350.51337, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45614415246229, 
+          37.60169478135861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161762.75, 
+        "ET_ORDER": 0.0607, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548006.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 350.09996, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45586098813364, 
+          37.60149292784861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161740.5, 
+        "ET_ORDER": 0.067, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548031.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 349.5405, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45552343740647, 
+          37.601175901824604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161705.5, 
+        "ET_ORDER": 0.0756, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548061.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 349.50348, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45541351229885, 
+          37.601103287385385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161697.5, 
+        "ET_ORDER": 0.0779, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548071.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 349.31338, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45528786319552, 
+          37.60105088043733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161691.75, 
+        "ET_ORDER": 0.0802, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548082.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 348.95831, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45514999724215, 
+          37.60102320382511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161688.75, 
+        "ET_ORDER": 0.0826, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548094.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 348.66004, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45481928806878, 
+          37.60103069001692
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161689.75, 
+        "ET_ORDER": 0.088, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548123.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 348.22835, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4546814552269, 
+          37.600998506307434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161686.25, 
+        "ET_ORDER": 0.0904, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548135.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 347.83252, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45446893486242, 
+          37.60091640349017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161677.25, 
+        "ET_ORDER": 0.0942, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548154.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 346.71411, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45432593200032, 
+          37.600816594916395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161666.25, 
+        "ET_ORDER": 0.0974, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548167.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 345.82298, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45424874179743, 
+          37.60072159722321
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161655.75, 
+        "ET_ORDER": 0.0997, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548174.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 344.99301, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45405869798444, 
+          37.60037370208592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161617.25, 
+        "ET_ORDER": 0.1075, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548191.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 342.70274, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45353332601414, 
+          37.59979441254458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161553.25, 
+        "ET_ORDER": 0.1223, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548238.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 338.95862, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45336137512939, 
+          37.5995395228558
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161525.0594, 
+        "ET_ORDER": 0.1282, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548253.4058, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 338.67039, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45324054634922, 
+          37.59936041293581
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161505.25, 
+        "ET_ORDER": 0.1324, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548264.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 339.14806, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45304030046377, 
+          37.59914992332997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161482.0, 
+        "ET_ORDER": 0.1379, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548282.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 340.09181, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45280449249302, 
+          37.59886490787987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161450.5, 
+        "ET_ORDER": 0.1449, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548303.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 338.92224, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45250816419372, 
+          37.59843314331119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161402.75, 
+        "ET_ORDER": 0.1551, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548329.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 339.45379, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45232394232363, 
+          37.598258780444034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161383.5, 
+        "ET_ORDER": 0.1598, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548345.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 340.66095, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45206959748472, 
+          37.598088598461686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161364.75, 
+        "ET_ORDER": 0.1652, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548368.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 341.18285, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45148217614503, 
+          37.597768147140314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161329.5, 
+        "ET_ORDER": 0.1769, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548420.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 345.6167, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4508519083131, 
+          37.597305532322224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161278.5, 
+        "ET_ORDER": 0.191, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548476.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 348.85569, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45048836369506, 
+          37.5970627314959
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161251.75, 
+        "ET_ORDER": 0.1988, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548508.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 351.42014, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45017813016868, 
+          37.596887778496956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161232.5, 
+        "ET_ORDER": 0.205, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548536.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 352.48168, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44961237484763, 
+          37.596607979142306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161201.75, 
+        "ET_ORDER": 0.2159, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548586.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 352.34821, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44880336444726, 
+          37.59628873428255
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161166.75, 
+        "ET_ORDER": 0.2308, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548657.875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 355.26069, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44836477955393, 
+          37.59614247061284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161150.75, 
+        "ET_ORDER": 0.2386, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548696.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 355.48784, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44813431455374, 
+          37.59609632616214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161145.75, 
+        "ET_ORDER": 0.2425, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548717.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 355.09925, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44799204620726, 
+          37.596091154146876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161145.25, 
+        "ET_ORDER": 0.2448, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548729.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 354.92033, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44775820018917, 
+          37.59611935379485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161148.5, 
+        "ET_ORDER": 0.2487, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548750.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 354.05173, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44757735170856, 
+          37.59616132116585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161153.25, 
+        "ET_ORDER": 0.2518, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548766.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 353.37365, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44734018213026, 
+          37.59616021084117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161153.25, 
+        "ET_ORDER": 0.2557, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548787.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 353.14536, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44711836340363, 
+          37.59609382471956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161146.0, 
+        "ET_ORDER": 0.2596, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548806.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 353.29332, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44652455742664, 
+          37.59578007888332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161111.5, 
+        "ET_ORDER": 0.2713, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548859.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 356.37761, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44586885907688, 
+          37.59534337236265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161063.3906, 
+        "ET_ORDER": 0.2853, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548917.5447, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 362.01146, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44579538985262, 
+          37.595294439703125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161058.0, 
+        "ET_ORDER": 0.2869, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548924.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 362.18253, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44499070819073, 
+          37.59496842900258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161022.25, 
+        "ET_ORDER": 0.3017, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 548995.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 365.4938, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44471070402709, 
+          37.59482515072973
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4161006.5, 
+        "ET_ORDER": 0.3072, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 549020.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 366.60794, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44440978061299, 
+          37.594638959611515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4160986.0, 
+        "ET_ORDER": 0.3134, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 549046.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 367.52673, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44427275590262, 
+          37.59459550080181
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4160981.25, 
+        "ET_ORDER": 0.3159, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_0", 
+        "H_Up": 285.9, 
+        "ET_X": 549058.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 368.2319, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4577456098765, 
+          37.60425069059426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162045.5, 
+        "ET_ORDER": 0.3192, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547863.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.89728, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45761083558365, 
+          37.60428387152568
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162049.25, 
+        "ET_ORDER": 0.3216, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547875.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 372.05973, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45751324404867, 
+          37.60436454359172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162058.25, 
+        "ET_ORDER": 0.3239, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547883.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 372.42187, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45749925112759, 
+          37.60443883984199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162066.5, 
+        "ET_ORDER": 0.3254, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547885.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 372.82397, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.457563671659, 
+          37.60453828338382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162077.5, 
+        "ET_ORDER": 0.3277, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547879.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 373.34188, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45768145788148, 
+          37.604601918522924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162084.5, 
+        "ET_ORDER": 0.3301, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547868.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 373.97628, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4578547060611, 
+          37.604731155507885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162098.75, 
+        "ET_ORDER": 0.334, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547853.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 373.77954, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45815813258814, 
+          37.60507055159274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162136.25, 
+        "ET_ORDER": 0.3426, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547826.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 369.00357, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45821094125428, 
+          37.60511152740637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162140.7692, 
+        "ET_ORDER": 0.3438, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_1", 
+        "H_Up": 285.9, 
+        "ET_X": 547821.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 368.62514, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45821094125428, 
+          37.60511152740637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162140.7692, 
+        "ET_ORDER": 0.3438, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_2", 
+        "H_Up": 285.9, 
+        "ET_X": 547821.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 368.62514, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45821094125428, 
+          37.60511152740637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162140.7692, 
+        "ET_ORDER": 0.3438, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547821.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 368.62514, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45815854181663, 
+          37.60472128413502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162097.5, 
+        "ET_ORDER": 0.3519, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_2", 
+        "H_Up": 285.9, 
+        "ET_X": 547826.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 372.39823, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45803854827574, 
+          37.60440465204813
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162062.4321, 
+        "ET_ORDER": 0.3587, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_2", 
+        "H_Up": 285.9, 
+        "ET_X": 547837.4193, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 372.33289, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45802167145878, 
+          37.60436011953938
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162057.5, 
+        "ET_ORDER": 0.3596, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_2", 
+        "H_Up": 285.9, 
+        "ET_X": 547838.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.93571, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4656586899493, 
+          37.62784778042269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164659.5, 
+        "ET_ORDER": 0.3642, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547150.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 235.28613, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46593878079592, 
+          37.6277048345979
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164643.5, 
+        "ET_ORDER": 0.3696, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547125.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 238.63032, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46623128176819, 
+          37.62751011735998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164621.75, 
+        "ET_ORDER": 0.3759, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547099.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 242.81912, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46629119522723, 
+          37.62745180146877
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164615.25, 
+        "ET_ORDER": 0.3774, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547094.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 243.80299, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46646694358519, 
+          37.627141634983715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164580.75, 
+        "ET_ORDER": 0.3845, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547079.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 247.79146, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.466666417002, 
+          37.62698029609648
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164562.75, 
+        "ET_ORDER": 0.3891, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547061.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 250.51844, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4667714331729, 
+          37.62685458352196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164548.75, 
+        "ET_ORDER": 0.3922, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547052.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 252.64941, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46680224254766, 
+          37.62670600210818
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164532.25, 
+        "ET_ORDER": 0.3953, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547049.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 254.38669, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4666898387575, 
+          37.62637875935375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164496.0, 
+        "ET_ORDER": 0.4023, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547059.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 257.66911, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46667577034458, 
+          37.6262660286038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164483.5, 
+        "ET_ORDER": 0.4047, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547061.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 258.68259, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4667370024293, 
+          37.62612209138445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164467.5, 
+        "ET_ORDER": 0.4078, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547055.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 260.20774, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4669297600967, 
+          37.62590889476394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164443.75, 
+        "ET_ORDER": 0.4132, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547039.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 263.87263, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46696383645698, 
+          37.62579863488061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164431.5, 
+        "ET_ORDER": 0.4156, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547036.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 265.42331, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46695303543356, 
+          37.625724225751654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164423.25, 
+        "ET_ORDER": 0.4171, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547037.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 266.46669, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46687794454559, 
+          37.625626992726694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164412.5, 
+        "ET_ORDER": 0.4195, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547043.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 267.69032, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46665410549114, 
+          37.625432193613655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164391.0, 
+        "ET_ORDER": 0.4249, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547063.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 270.5892, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46634093298464, 
+          37.62505221589315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164349.0, 
+        "ET_ORDER": 0.4343, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547091.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 276.0378, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46619468152498, 
+          37.624902833658034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164332.5, 
+        "ET_ORDER": 0.4382, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547104.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 277.83198, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46600210476012, 
+          37.62479380178588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164320.5, 
+        "ET_ORDER": 0.4421, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547121.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 278.40745, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46579095302411, 
+          37.62470721894191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164311.0, 
+        "ET_ORDER": 0.446, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547140.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 277.86302, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46565217138729, 
+          37.62460293672588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164299.5, 
+        "ET_ORDER": 0.4491, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547152.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 277.59238, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46560092149592, 
+          37.6245396109992
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164292.5, 
+        "ET_ORDER": 0.4507, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547157.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 277.58171, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46542027897377, 
+          37.624148964239644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164249.25, 
+        "ET_ORDER": 0.4593, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547173.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 281.08473, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46536832135163, 
+          37.62408563520224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164242.25, 
+        "ET_ORDER": 0.4608, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547178.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 281.726, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46520143806995, 
+          37.62394967830395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164227.25, 
+        "ET_ORDER": 0.4647, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547192.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 282.53815, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46488721307757, 
+          37.623718412611844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164201.75, 
+        "ET_ORDER": 0.4718, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547220.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 283.64637, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46465443370137, 
+          37.623586662766435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164187.25, 
+        "ET_ORDER": 0.4764, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547241.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 285.51776, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46387453731289, 
+          37.62330596048496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164156.5, 
+        "ET_ORDER": 0.4905, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547310.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 289.46918, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46383101501789, 
+          37.62328315808261
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164153.9921, 
+        "ET_ORDER": 0.4914, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547314.1676, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 289.40783, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4637666801686, 
+          37.62323561670919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164148.75, 
+        "ET_ORDER": 0.4928, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547319.875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 289.11404, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46369048704253, 
+          37.62309556308723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164133.25, 
+        "ET_ORDER": 0.4959, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547326.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 288.25221, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46363568252755, 
+          37.623034473687184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164126.5, 
+        "ET_ORDER": 0.4975, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547331.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 287.34766, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46356165887528, 
+          37.622986816953535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164121.25, 
+        "ET_ORDER": 0.4991, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547338.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 286.637, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46346971916958, 
+          37.62296837218511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164119.25, 
+        "ET_ORDER": 0.5006, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547346.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 285.85218, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46332868521688, 
+          37.62298125088348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164120.75, 
+        "ET_ORDER": 0.5029, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547358.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 284.0452, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46296408519358, 
+          37.62315760623065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164140.5, 
+        "ET_ORDER": 0.5099, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547390.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 278.46648, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46280788617321, 
+          37.62321097547604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164146.5, 
+        "ET_ORDER": 0.5127, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547404.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 275.93799, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46276090522669, 
+          37.62314541460221
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164139.25, 
+        "ET_ORDER": 0.5143, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547408.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 273.72345, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46274656762031, 
+          37.62307098896704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164131.0, 
+        "ET_ORDER": 0.5158, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547410.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 271.66644, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46282957014478, 
+          37.62285504582174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164107.0, 
+        "ET_ORDER": 0.5205, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547402.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 265.56629, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46287659878587, 
+          37.62261865876177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164080.75, 
+        "ET_ORDER": 0.5254, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547398.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 259.59073, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46284961562374, 
+          37.622431508352435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164060.0, 
+        "ET_ORDER": 0.5293, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547401.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 256.35557, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4628566270547, 
+          37.622244512685675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164039.25, 
+        "ET_ORDER": 0.5332, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547400.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 252.67271, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46279093539586, 
+          37.62202338587043
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164014.75, 
+        "ET_ORDER": 0.5379, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547406.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 248.34307, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46280138549265, 
+          37.621949073077275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164006.5, 
+        "ET_ORDER": 0.5394, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547405.875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 247.60343, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46287853742488, 
+          37.62185703716946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163996.25, 
+        "ET_ORDER": 0.5417, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547399.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 246.18896, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4631033378742, 
+          37.62171835287424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163980.75, 
+        "ET_ORDER": 0.5464, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547379.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 243.23634, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46323655136308, 
+          37.621610798383934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163968.75, 
+        "ET_ORDER": 0.5495, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547367.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 241.30365, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4632788380641, 
+          37.62154113704924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163961.0, 
+        "ET_ORDER": 0.5511, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547364.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 240.972, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46328051368106, 
+          37.62150509115507
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163957.0, 
+        "ET_ORDER": 0.5518, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547363.875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 241.10931, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46326548384073, 
+          37.62142840906834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163948.5, 
+        "ET_ORDER": 0.5534, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547365.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 241.67432, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46324233971121, 
+          37.621396756964074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163945.0, 
+        "ET_ORDER": 0.5542, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547367.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 241.99319, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46320068493759, 
+          37.62137854071633
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163943.0, 
+        "ET_ORDER": 0.555, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547371.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 242.22196, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4631558294054, 
+          37.621312989651024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163935.75, 
+        "ET_ORDER": 0.5565, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547375.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 243.70755, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4631106012454, 
+          37.62129926380348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163934.25, 
+        "ET_ORDER": 0.5573, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547379.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 243.83664, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46304583497091, 
+          37.621244888824805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163928.25, 
+        "ET_ORDER": 0.5588, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547384.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 245.80073, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46284301095042, 
+          37.62098708438083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163899.75, 
+        "ET_ORDER": 0.5651, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547402.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 251.15365, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46286367862143, 
+          37.6209691517039
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163897.75, 
+        "ET_ORDER": 0.5656, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547401.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 252.15797, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46291468565636, 
+          37.62096713053512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163897.5, 
+        "ET_ORDER": 0.5665, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547396.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 253.955, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46294637661761, 
+          37.620992061570455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163900.25, 
+        "ET_ORDER": 0.5672, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547393.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 253.78343, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46298468458127, 
+          37.62098322253796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163899.25, 
+        "ET_ORDER": 0.5678, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547390.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 254.99566, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46301782439998, 
+          37.62100365345803
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163901.5, 
+        "ET_ORDER": 0.5685, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547387.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 255.13618, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4630384272075, 
+          37.62099473383498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163900.5, 
+        "ET_ORDER": 0.5689, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547385.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 255.43954, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46306528391541, 
+          37.62080557506939
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163879.5, 
+        "ET_ORDER": 0.5728, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547383.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 261.89271, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46309430408961, 
+          37.62080796046264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163879.75, 
+        "ET_ORDER": 0.5733, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547380.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 262.35473, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46307819364718, 
+          37.62078310036249
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163877.0, 
+        "ET_ORDER": 0.5739, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547382.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 263.29193, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46312574054888, 
+          37.620769796632466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163875.5, 
+        "ET_ORDER": 0.5747, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547378.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 264.78638, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46323673879539, 
+          37.62069819456258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163867.5, 
+        "ET_ORDER": 0.5771, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547368.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 270.57512, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46341694635449, 
+          37.6206539472676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163862.5, 
+        "ET_ORDER": 0.5802, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547352.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 276.26342, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46345605945613, 
+          37.62063159167158
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163860.0, 
+        "ET_ORDER": 0.581, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547348.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 277.0121, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46357375480562, 
+          37.62051495283023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163847.0, 
+        "ET_ORDER": 0.584, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547338.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 278.69156, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46357472204987, 
+          37.62047890370486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163843.0, 
+        "ET_ORDER": 0.5848, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547338.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 278.9763, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46349072564375, 
+          37.62034106777001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163827.75, 
+        "ET_ORDER": 0.5879, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547346.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 282.04928, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46335585261612, 
+          37.62018722698768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163810.75, 
+        "ET_ORDER": 0.5918, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547358.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 287.13818, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46328320429177, 
+          37.620047189164175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163795.25, 
+        "ET_ORDER": 0.5949, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547364.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 291.96716, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46312720892327, 
+          37.61985950233455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163774.5056, 
+        "ET_ORDER": 0.5996, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547378.4481, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 297.40379, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46313044282697, 
+          37.619824534311995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163770.6244, 
+        "ET_ORDER": 0.6003, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547378.1849, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 297.961, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46318604494834, 
+          37.61976312402769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163763.7831, 
+        "ET_ORDER": 0.6019, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547373.317, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 298.66668, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46337691134342, 
+          37.61965370804424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163751.5475, 
+        "ET_ORDER": 0.6057, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547356.5425, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 301.02913, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46337721391643, 
+          37.619611611518934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163746.8769, 
+        "ET_ORDER": 0.6066, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547356.5425, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 301.41622, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46324498273533, 
+          37.61944499171948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163728.4578, 
+        "ET_ORDER": 0.6107, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547368.3176, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 306.0125, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46316616894165, 
+          37.619313597539026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163713.9199, 
+        "ET_ORDER": 0.6137, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547375.3563, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 309.03386, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46314137164389, 
+          37.61923759024113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163705.4997, 
+        "ET_ORDER": 0.6153, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547377.5929, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 310.23985, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46314667534968, 
+          37.6191219943061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163692.6721, 
+        "ET_ORDER": 0.6177, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547377.1982, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 311.19788, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46311394335207, 
+          37.619009190720455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163680.1735, 
+        "ET_ORDER": 0.6201, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547380.1584, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 312.55591, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46306747038592, 
+          37.61894138610603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163672.6743, 
+        "ET_ORDER": 0.6217, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547384.3027, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 313.49602, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46294002822468, 
+          37.618834672659325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163660.8992, 
+        "ET_ORDER": 0.6247, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547395.6173, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 315.08679, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46224930711742, 
+          37.61833169248887
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163605.4445, 
+        "ET_ORDER": 0.6401, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547456.8937, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 320.62354, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46203008602497, 
+          37.61833620404237
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163606.0559, 
+        "ET_ORDER": 0.6437, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547476.2374, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 320.84269, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46191564045502, 
+          37.61829199345729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163601.2088, 
+        "ET_ORDER": 0.6457, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547486.3655, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 321.44577, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46184861029965, 
+          37.618242485524696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163595.75, 
+        "ET_ORDER": 0.6472, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547492.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 321.93956, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46160984389908, 
+          37.6179619814878
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163564.75, 
+        "ET_ORDER": 0.6542, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547513.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 323.75288, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4611423373515, 
+          37.6174843915322
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163512.0, 
+        "ET_ORDER": 0.6667, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547555.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 326.08048, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46012507460479, 
+          37.61625166812918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163375.75, 
+        "ET_ORDER": 0.6972, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547645.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 344.675, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45996133687068, 
+          37.615978263979606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163345.5, 
+        "ET_ORDER": 0.7034, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547660.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 349.36783, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45976784346885, 
+          37.61551093556215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163293.75, 
+        "ET_ORDER": 0.7136, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547677.6875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 355.56591, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45956895261044, 
+          37.6153004636141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163270.5, 
+        "ET_ORDER": 0.719, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547695.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 359.9712, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45954681363166, 
+          37.6152282551248
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163262.5, 
+        "ET_ORDER": 0.7205, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547697.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 361.40914, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45957621598288, 
+          37.61507966889298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163246.0, 
+        "ET_ORDER": 0.7236, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547694.875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 363.87609, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45940274146558, 
+          37.61468453860239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163202.25, 
+        "ET_ORDER": 0.7323, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547710.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 367.69855, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4592717246561, 
+          37.6142941092889
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163159.0, 
+        "ET_ORDER": 0.7406, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547722.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 369.43919, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45921313821131, 
+          37.614169906726495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163145.25, 
+        "ET_ORDER": 0.7433, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547727.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 370.61836, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45913561807335, 
+          37.61411772446389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163139.5, 
+        "ET_ORDER": 0.745, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547734.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.40878, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45904999836837, 
+          37.61410831861725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163138.5, 
+        "ET_ORDER": 0.7464, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547741.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.47647, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45895571774435, 
+          37.614121406470815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163140.0, 
+        "ET_ORDER": 0.748, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547750.25, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.72698, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45873356346814, 
+          37.614190241467405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163147.75, 
+        "ET_ORDER": 0.7519, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547769.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.56355, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45863720727091, 
+          37.61419655950435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163148.5, 
+        "ET_ORDER": 0.7535, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547778.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.47515, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45860835318284, 
+          37.61417164031198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163145.75, 
+        "ET_ORDER": 0.7542, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547780.875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 371.7516, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4585777177736, 
+          37.61409939265055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163137.75, 
+        "ET_ORDER": 0.7558, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547783.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 372.76564, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45853218398574, 
+          37.61383554211137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163108.5, 
+        "ET_ORDER": 0.7613, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547787.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 377.34768, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45844834584332, 
+          37.61358052915389
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163080.25, 
+        "ET_ORDER": 0.7667, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547795.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 379.30658, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45849161825647, 
+          37.613472567059425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163068.25, 
+        "ET_ORDER": 0.769, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547791.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 380.49956, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45867159771556, 
+          37.61316468421697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163034.0, 
+        "ET_ORDER": 0.776, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547775.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 382.22378, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45875104365001, 
+          37.61295098061547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4163010.25, 
+        "ET_ORDER": 0.7806, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547769.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 382.69877, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45865480627519, 
+          37.61215961413264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162922.5, 
+        "ET_ORDER": 0.797, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547778.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 384.02092, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45856910450766, 
+          37.610989733310824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162792.75, 
+        "ET_ORDER": 0.8212, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547786.375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 385.21853, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45853477718848, 
+          37.61084085482207
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162776.25, 
+        "ET_ORDER": 0.8243, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547789.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 385.21203, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45839761636579, 
+          37.61051799658416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162740.5, 
+        "ET_ORDER": 0.8314, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547801.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 383.90189, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45810324763383, 
+          37.610000628407875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162683.25, 
+        "ET_ORDER": 0.8431, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547828.125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 384.40861, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45790752095418, 
+          37.6094544190927
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162622.75, 
+        "ET_ORDER": 0.8548, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547845.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 386.43842, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45788284726456, 
+          37.60934163830825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162610.25, 
+        "ET_ORDER": 0.8572, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547848.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 386.50285, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45805088324153, 
+          37.60814137504588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162477.0, 
+        "ET_ORDER": 0.8821, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547833.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 376.45009, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45814918442845, 
+          37.607085005506804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162359.75, 
+        "ET_ORDER": 0.9039, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547825.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 372.55705, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45834912797565, 
+          37.60626795735171
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162269.0, 
+        "ET_ORDER": 0.9211, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547808.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 369.86873, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45840397552267, 
+          37.60593020655438
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162231.5, 
+        "ET_ORDER": 0.9281, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547804.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 370.13142, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45840309853946, 
+          37.60585584197296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162223.25, 
+        "ET_ORDER": 0.9297, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547804.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 369.99765, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45838748137186, 
+          37.605811884953425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162218.3811, 
+        "ET_ORDER": 0.9306, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547805.7191, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 369.77443, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45836701455332, 
+          37.60575427560903
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162212.0, 
+        "ET_ORDER": 0.9319, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547807.5625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 369.5305, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4583744654371, 
+          37.60560558868628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162195.5, 
+        "ET_ORDER": 0.9349, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547807.0, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 368.29187, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45826836012513, 
+          37.60539554009011
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162172.25, 
+        "ET_ORDER": 0.9396, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547816.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 368.14355, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46501123720834, 
+          37.628351848596964
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164715.75, 
+        "ET_ORDER": 0.9455, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547206.8125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 214.00199, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46503768568587, 
+          37.628318168380964
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164712.0, 
+        "ET_ORDER": 0.9463, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547204.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 215.7136, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4650059424839, 
+          37.628299997716326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164710.0, 
+        "ET_ORDER": 0.947, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547207.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 217.2305, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46486124421826, 
+          37.62832863498571
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164713.25, 
+        "ET_ORDER": 0.9494, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547220.0625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 215.39815, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46493957456465, 
+          37.628270403321494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164706.75, 
+        "ET_ORDER": 0.9512, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547213.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 217.59454, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46513932659295, 
+          37.62816990857484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164695.5, 
+        "ET_ORDER": 0.9551, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547195.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 223.60406, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46522921496454, 
+          37.6280801823143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164685.5, 
+        "ET_ORDER": 0.9574, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547187.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 227.07213, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46539194224009, 
+          37.62800655943056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164677.25, 
+        "ET_ORDER": 0.9605, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547173.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 230.92345, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46549731527901, 
+          37.62793042317565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164668.75, 
+        "ET_ORDER": 0.9629, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547164.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 233.85438, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46360664478244, 
+          37.62835673829421
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164717.0, 
+        "ET_ORDER": 0.9641, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547330.75, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 214.4304, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46361347268686, 
+          37.62829367575288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164710.0, 
+        "ET_ORDER": 0.9654, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547330.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 215.82564, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46370286111481, 
+          37.62827380199975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164707.75, 
+        "ET_ORDER": 0.967, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547322.3125, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 215.87616, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46389279606119, 
+          37.62815974469374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164695.0, 
+        "ET_ORDER": 0.9709, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547305.625, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 217.96192, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46425321738965, 
+          37.6279766076942
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164674.5, 
+        "ET_ORDER": 0.9779, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547273.9375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 221.81187, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46458855652916, 
+          37.6278339159336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164658.5, 
+        "ET_ORDER": 0.9841, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547244.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 225.27812, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46472757160662, 
+          37.62780750655418
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164655.5, 
+        "ET_ORDER": 0.9865, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547232.1875, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 226.55277, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46491745285113, 
+          37.627799354436384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164654.5, 
+        "ET_ORDER": 0.9896, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547215.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 228.17956, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46538078929954, 
+          37.62788257505943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164663.5, 
+        "ET_ORDER": 0.9974, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547174.5, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 232.6225, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45795119860264, 
+          37.60425440936733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4162045.8078, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_2", 
+        "H_Up": 285.9, 
+        "ET_X": 547845.2257, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 370.93929, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46554018272232, 
+          37.627878790480324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164663.0, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_3", 
+        "H_Up": 285.9, 
+        "ET_X": 547160.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 234.17373, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46554018272232, 
+          37.627878790480324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164663.0, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_4", 
+        "H_Up": 285.9, 
+        "ET_X": 547160.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 234.17373, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46554018272232, 
+          37.627878790480324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 3512.0, 
+        "Av_S_Up": 4.7, 
+        "Length_3D": 5403.8, 
+        "Len_Down": 1891.9, 
+        "Max_S_Down": 14.8, 
+        "Min_Z": 214.0, 
+        "H_Down": 114.2, 
+        "ET_ID": 287, 
+        "trail_name": "Sweeney Ridge Trail", 
+        "ET_Y": 4164663.0, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 24.7, 
+        "ET_IDP": 287, 
+        "ET_IDR": "287_5", 
+        "H_Up": 285.9, 
+        "ET_X": 547160.4375, 
+        "Av_S_Down": 3.5, 
+        "ET_Z": 234.17373, 
+        "Length_2D": 5377.3, 
+        "Max_Z": 386.5
+      }
+    }
+  ]
+}

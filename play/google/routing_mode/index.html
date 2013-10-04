@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>Parks</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body, html{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', helvetica, 'Source Sans', arial, sans-serif;
+        }
+        label{
+
+        }
+        button{padding: 5px;}
+        #content, #map{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+
+        }
+        #directions-options{
+            top: 70px;
+        }
+        #directions-panel{
+            display: block;
+            width: 400px;
+            height: 500px;
+            overflow-y: scroll;
+            margin-top: 10px;
+        }
+
+        .panel{
+            position: absolute;
+            z-index: 10;
+            background: rgba(255,255,255,.8);
+            padding: 10px;
+        }
+        .panel.position-tl{
+            top: 10px;
+            left: 100px;
+        }
+        .panel.position-tr{
+            top: 40px;
+            right: 5px;
+        }
+        .hide{
+            display:none;
+        }
+        .heading{
+            margin: 0;
+            display: inline-block;
+        }
+        .vertical label{
+            display: block;
+            margin: 10px 0;
+        }
+        .horizontal label{
+            margin-right: 20px;
+            display: inline-block;
+            vertical-align: baseline;
+        }
+        .horizontal select{
+            position: relative;
+            top: -1px;
+
+        }
+
+
+    </style>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div id="content">
+
+        <div class="panel position-tl horizontal">
+            <label>MODE:
+                <select id="mode">
+                    <option value="DRIVING">Driving</option>
+                    <option value="WALKING">Walking</option>
+                    <option value="BICYCLING">Bicycling</option>
+                    <option value="TRANSIT">Transit</option>
+                </select>
+            </label>
+
+            <label>FROM: <input type='text' id="origin"></label>
+            <label>TO: <select id="destination"></select></label>
+
+            <button onclick="makeRoute();">GO!</button>
+        </div>
+
+        <div id="directions-options" class="panel position-tl vertical">
+            <h3 class='heading'>Route Options</h3>
+            <label><input type='checkbox' id='avoid-highways'> Avoid Highways</label>
+            <label><input type='checkbox' id='avoid-tolls'> Avoid Tolls</label>
+            <label><input type='checkbox' id='provide-route-alternatives'> Provide Route Alternatives</label>
+        </div>
+
+        <div id="directions-panel-wrap" class="panel position-tr hide">
+            <button class='close'>X</button>
+            <h3 class='heading'>Directions</h3>
+            <div id="directions-panel"></div>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script>
+        var CUSTOM_STYLE_ID = 'sample_style',
+            styledMapOptions,
+            origin,
+            destination,
+            map,
+            directionsDisplay,
+            geocoder,
+            parksData,
+            hash,
+            overlayMap;
+
+        var directionsService = new google.maps.DirectionsService();
+
+        d3.selectAll('.close')
+            .on('click', function(){
+                d3.select(this.parentNode).classed('hide', true);
+            });
+
+        function setDestinations(){
+            var destElm = d3.select('#destination');
+            var sorted = parksData.slice(0).sort(function(a,b){
+                return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+            });
+            destElm.selectAll('option')
+                .data(sorted)
+                .enter()
+                .append('option')
+                .attr('value', function(d){
+                    return d.idx;
+                })
+                .text(function(d){return d.name});
+        }
+
+        function getParks(callback){
+            var counter = -1;
+            d3.csv("locations.csv", function(d,i) {
+                if(d.Type == "Trailhead"){
+                    counter++;
+                    return {
+                        idx: counter,
+                        name: d.Name,
+                        latlng: new google.maps.LatLng(parseFloat(d.POINT_Y), parseFloat(d.POINT_X))
+                    };
+
+                }
+            }, function(error, rows) {
+
+                parksData = rows;
+                setDestinations();
+                callback();
+            });
+        }
+
+        function setHash(){
+            var options = getDirectionOptions();
+            var originValue = document.getElementById('origin').value;
+            var destinationValue = document.getElementById('destination').value;
+            var destinationName = parksData[destinationValue].name;
+            options.origin = originValue;
+            options.destination = destinationName;
+            options.mode = document.getElementById('mode').value;
+
+            var hashStr = '';
+            for(var item in options){
+                hashStr += item + "=" + encodeURIComponent(options[item]) + "&";
+            }
+
+            // remove trailing &
+            hashStr = hashStr.slice(0,-1);
+            document.location.hash = hashStr;
+        }
+
+        function getHash(){
+            var hashStr = document.location.hash;
+            if(hashStr.charAt(0) == "#")hashStr = hashStr.slice(1);
+
+            if(!hashStr.length){
+                return null;
+            }
+
+            var hashParts = hashStr.split('&');
+
+            var hashObj = {};
+            hashParts.forEach(function(part){
+                var params = part.split('=');
+                hashObj[params[0]] = decodeURIComponent(params[1]);
+            });
+
+            return hashObj;
+        }
+
+        function setDisplayFromHash(){
+            hash = getHash();
+            if(hash){
+                var opts,opt;
+                if(hash.hasOwnProperty('origin') && hash.hasOwnProperty('destination')) {
+                    d3.select('#origin').attr('value',hash.origin);
+
+                    opts = d3.select("#destination").selectAll('option');
+                    opt = opts.filter(function(d){return this.text == hash.destination});
+                    opt.property('selected', 'selected');
+
+                    if(hash.hasOwnProperty('avoidHighways') && hash.avoidHighways == "true"){
+                        d3.select('#avoid-highways').property('checked', true);
+                    }
+                    if(hash.hasOwnProperty('avoidTolls') && hash.avoidTolls == "true"){
+                        d3.select('#avoid-tollss').property('checked', true);
+                    }
+                    if(hash.hasOwnProperty('provideRouteAlternatives') && hash.provideRouteAlternatives == "true"){
+                        d3.select('#provide-route-alternatives').property('checked', true);
+                    }
+
+                    if(hash.hasOwnProperty('mode')){
+                        opts = d3.select("#mode").selectAll('option');
+                        opt = opts.filter(function(d){return this.value == hash.mode});
+                        console.log(opt, hash.mode);
+                        opt.property('selected', 'selected');
+                    }
+
+                    makeRoute();
+                }
+            }
+        }
+
+        function initialize(){
+            // loads park locations
+            getParks(function(){
+
+                // geocoder
+                geocoder = new google.maps.Geocoder();
+
+                // set up Directions renderer
+                var rendererPolylineOptions = {
+                    strokeColor: '#ff0099',
+                    strokeOpacity: 1,
+                    strokeWeight: 4
+                };
+
+                var rendererOptions = {
+                    draggable: true,
+                    hideRouteList: false,
+                    polylineOptions: rendererPolylineOptions
+                }
+
+                directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
+
+                // set up map
+                var mapOptions = {
+                    center: new google.maps.LatLng(37.7706, -122.3782),
+                    zoom: 12,
+                    mapTypeId: CUSTOM_STYLE_ID,
+                    mapTypeControlOptions: {
+                        mapTypeIds: [CUSTOM_STYLE_ID,google.maps.MapTypeId.TERRAIN, google.maps.MapTypeId.ROADMAP]
+                    }
+                };
+                map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+                styledMapOptions = {
+                    name: 'Sample Style'
+                };
+
+                var customMapType = new google.maps.StyledMapType(mapStyles(), styledMapOptions);
+
+                map.mapTypes.set(CUSTOM_STYLE_ID, customMapType);
+
+                overlayMap = createTileOverlay(map,"toner", "http://tile.stamen.com/toner-hybrid/{Z}/{X}/{Y}.png");
+
+                // bind directions to map and output panel
+                directionsDisplay.setMap(map);
+                directionsDisplay.setPanel(document.getElementById('directions-panel'));
+
+                setDisplayFromHash();
+
+
+
+                google.maps.event.addListener(map, 'maptypeid_changed', function(){
+                    var current = map.getMapTypeId();
+                    if(current != 'sample_style'){
+                        if(map.overlayMapTypes.length)map.overlayMapTypes.pop();
+                    }else{
+                        map.overlayMapTypes.push(overlayMap);
+                    }
+
+                });
+
+            });
+        }
+
+        function makeRoute(){
+            var originValue = document.getElementById('origin').value;
+            var destinationValue = document.getElementById('destination').value;
+            codeAddress(originValue, function(data){
+                if(data){
+
+                    origin = data;
+                    console.log("origin = ", origin);
+
+                    // we already have Lat/Lng's for pre-selected destinations
+                    if(parksData[destinationValue]){
+                        destination = parksData[destinationValue].latlng;
+                        console.log("destination = ", destination);
+                        calcRoute();
+                    }else{
+                        console.log("No destination location found.");
+                    }
+
+                    /* uncomment to geocode the destination addr
+                    codeAddress(destinationStr, function(data){
+                        if(data){
+                            destination = data;
+                            console.log("destination = ", destination);
+                            calcRoute();
+                        }else{
+                            console.log("No destination location found.");
+                        }
+                    });
+                    */
+
+                }else{
+                    console.log("No origin location found.");
+                }
+            });
+        }
+
+        function mapStyles(){
+            return  [
+              {
+                "featureType": "road",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              },{
+                "featureType": "transit",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              },{
+                "elementType": "labels",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              }
+            ];
+
+        }
+
+        function createTileOverlay(map,name,template){
+            //
+
+            template = template.toLowerCase();
+            var overlay = (function(template){
+                    return new google.maps.ImageMapType({
+                        getTileUrl: function(coord, zoom) {
+
+                            return template.replace('{z}', zoom).replace('{x}', coord.x).replace('{y}', coord.y);
+                        },
+                        tileSize: new google.maps.Size(256, 256),
+                        name: name,
+                        maxZoom: 18
+                    });
+                })(template);
+
+            map.overlayMapTypes.push(overlay);
+
+            return overlay;
+        }
+
+        function getDirectionOptions(){
+            var opts = {};
+            opts.avoidHighways = d3.select('#avoid-highways').property('checked');
+            opts.avoidTolls = d3.select('#avoid-tolls').property('checked');
+            opts.provideRouteAlternatives = d3.select('#provide-route-alternatives').property('checked');
+
+            return opts;
+
+        }
+
+        function calcRoute() {
+            var selectedMode = document.getElementById('mode').value;
+            var request = getDirectionOptions();
+            request.origin = origin;
+            request.destination = destination;
+            request.travelMode = google.maps.TravelMode[selectedMode]
+
+            setHash();
+
+            directionsService.route(request, function(response, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                  directionsDisplay.setDirections(response);
+                  d3.select('#directions-panel-wrap').classed('hide', false);
+                }
+            });
+        }
+
+        function codeAddress(address, callback) {
+            geocoder.geocode( { 'address': address}, function(results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    callback(results[0].geometry.location)
+                } else {
+                    callback(null);
+                }
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</body>
+</html>

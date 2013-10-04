@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46096372849458, 
+          37.80467044549543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.4, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 495.7, 
+        "Len_Down": 254.3, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.3, 
+        "H_Down": 1.0, 
+        "ET_ID": 6, 
+        "trail_name": "Airstrip Trail", 
+        "ET_Y": 4184279.9843, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 6, 
+        "ET_IDR": "6_0", 
+        "H_Up": 0.9, 
+        "ET_X": 547451.372, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 3.40612, 
+        "Length_2D": 495.7, 
+        "Max_Z": 4.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4610419553654, 
+          37.80464455456063
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.4, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 495.7, 
+        "Len_Down": 254.3, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.3, 
+        "H_Down": 1.0, 
+        "ET_ID": 6, 
+        "trail_name": "Airstrip Trail", 
+        "ET_Y": 4184277.072, 
+        "ET_ORDER": 0.0151, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 6, 
+        "ET_IDR": "6_0", 
+        "H_Up": 0.9, 
+        "ET_X": 547444.5022, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 3.43833, 
+        "Length_2D": 495.7, 
+        "Max_Z": 4.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46111508423502, 
+          37.80462097104104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.4, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 495.7, 
+        "Len_Down": 254.3, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.3, 
+        "H_Down": 1.0, 
+        "ET_ID": 6, 
+        "trail_name": "Airstrip Trail", 
+        "ET_Y": 4184274.4183, 
+        "ET_ORDER": 0.0291, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 6, 
+        "ET_IDR": "6_0", 
+        "H_Up": 0.9, 
+        "ET_X": 547438.0797, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 3.62878, 
+        "Length_2D": 495.7, 
+        "Max_Z": 4.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46361628188886, 
+          37.80412444003625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.4, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 495.7, 
+        "Len_Down": 254.3, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.3, 
+        "H_Down": 1.0, 
+        "ET_ID": 6, 
+        "trail_name": "Airstrip Trail", 
+        "ET_Y": 4184218.0619, 
+        "ET_ORDER": 0.487, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 6, 
+        "ET_IDR": "6_0", 
+        "H_Up": 0.9, 
+        "ET_X": 547218.2136, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 4.31042, 
+        "Length_2D": 495.7, 
+        "Max_Z": 4.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46362967704393, 
+          37.80412178087157
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.4, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 495.7, 
+        "Len_Down": 254.3, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.3, 
+        "H_Down": 1.0, 
+        "ET_ID": 6, 
+        "trail_name": "Airstrip Trail", 
+        "ET_Y": 4184217.7601, 
+        "ET_ORDER": 0.4895, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 6, 
+        "ET_IDR": "6_0", 
+        "H_Up": 0.9, 
+        "ET_X": 547217.0361, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 4.30701, 
+        "Length_2D": 495.7, 
+        "Max_Z": 4.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4664173086693, 
+          37.80356530047307
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 241.4, 
+        "Av_S_Up": 0.2, 
+        "Length_3D": 495.7, 
+        "Len_Down": 254.3, 
+        "Max_S_Down": 0.2, 
+        "Min_Z": 3.3, 
+        "H_Down": 1.0, 
+        "ET_ID": 6, 
+        "trail_name": "Airstrip Trail", 
+        "ET_Y": 4184154.6143, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 6, 
+        "ET_IDR": "6_0", 
+        "H_Up": 0.9, 
+        "ET_X": 546971.9897, 
+        "Av_S_Down": 0.2, 
+        "ET_Z": 3.31731, 
+        "Length_2D": 495.7, 
+        "Max_Z": 4.3
+      }
+    }
+  ]
+}

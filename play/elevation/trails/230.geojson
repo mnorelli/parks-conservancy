@@ -1,0 +1,2661 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5166615238754, 
+          37.83210926480166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187297.4961, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542532.516, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 22.77505, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51668234589002, 
+          37.83203733215406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187289.5057, 
+        "ET_ORDER": 0.0053, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542530.725, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 23.80954, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51654774191674, 
+          37.83168237376015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187250.1844, 
+        "ET_ORDER": 0.0319, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542542.7737, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 28.85057, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51655913979307, 
+          37.83163692793416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187245.137, 
+        "ET_ORDER": 0.0353, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542541.7968, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 29.72177, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51662332640326, 
+          37.83158289299464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187239.1126, 
+        "ET_ORDER": 0.0406, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542536.1795, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 30.86701, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51674277141275, 
+          37.83156724073269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187237.3216, 
+        "ET_ORDER": 0.0475, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542525.6775, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 32.07373, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51698953542173, 
+          37.8316049407209
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187241.3921, 
+        "ET_ORDER": 0.0618, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542503.941, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 34.06719, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51719153693442, 
+          37.83169748875898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187251.5684, 
+        "ET_ORDER": 0.0751, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542486.1121, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 35.43372, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5173139314863, 
+          37.8317970477705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187262.5588, 
+        "ET_ORDER": 0.0851, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542475.2845, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 36.7086, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51741997049722, 
+          37.83185104702835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187268.5018, 
+        "ET_ORDER": 0.0923, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542465.9223, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 38.16945, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51750885298658, 
+          37.83184040441172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187267.2806, 
+        "ET_ORDER": 0.0974, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542458.1069, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 39.31573, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51753684034381, 
+          37.83180456499191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187263.2915, 
+        "ET_ORDER": 0.1005, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542455.6646, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 39.70132, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51754100014415, 
+          37.83173414121845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187255.4761, 
+        "ET_ORDER": 0.1055, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542455.3389, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 40.53307, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51740221595392, 
+          37.831492824279046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187228.7651, 
+        "ET_ORDER": 0.1246, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542467.69, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 43.04582, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.517288085749, 
+          37.83122020754918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187198.5702, 
+        "ET_ORDER": 0.1452, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542477.8896, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 46.95808, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51725638092603, 
+          37.830832653082645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187155.5855, 
+        "ET_ORDER": 0.1732, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542480.9018, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 51.00199, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5172808354054, 
+          37.8307711182678
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187148.7471, 
+        "ET_ORDER": 0.1778, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542478.7851, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 51.63138, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51732157256524, 
+          37.83076614866999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187148.1772, 
+        "ET_ORDER": 0.1801, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542475.2031, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 52.05629, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51736769345334, 
+          37.83078688298973
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187150.4567, 
+        "ET_ORDER": 0.1832, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542471.1326, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 52.51046, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51741432948178, 
+          37.83087072267825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187159.7375, 
+        "ET_ORDER": 0.1897, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542466.9806, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 53.8893, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51771972510583, 
+          37.831192258812095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187195.2731, 
+        "ET_ORDER": 0.2187, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542439.9218, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 57.9164, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51807327734925, 
+          37.83138209830952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187216.1752, 
+        "ET_ORDER": 0.243, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542408.7009, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 61.19025, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5181118347482, 
+          37.831463336833515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187225.1711, 
+        "ET_ORDER": 0.2493, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542405.2614, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 61.51413, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51813760740254, 
+          37.83166137400166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187247.1316, 
+        "ET_ORDER": 0.2636, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542402.8801, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 61.32308, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51817928150851, 
+          37.83172593122723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187254.2753, 
+        "ET_ORDER": 0.2688, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542399.1759, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 61.56685, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51826921608442, 
+          37.83176683903869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187258.7732, 
+        "ET_ORDER": 0.2747, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542391.2384, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 63.08346, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51839254878735, 
+          37.83175780488807
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187257.7149, 
+        "ET_ORDER": 0.2817, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542380.3905, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 65.19015, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51847399121053, 
+          37.8317175979629
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187253.217, 
+        "ET_ORDER": 0.2872, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542373.2467, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 66.93643, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51868298121596, 
+          37.831482365432194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187227.0232, 
+        "ET_ORDER": 0.3079, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542354.9904, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 71.09419, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51878250807547, 
+          37.83143507761191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187221.7315, 
+        "ET_ORDER": 0.3145, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542346.2592, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 71.87636, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51913400267969, 
+          37.83147943802504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187226.494, 
+        "ET_ORDER": 0.3348, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542315.3028, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 72.83816, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51923000021092, 
+          37.831448000238645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187222.9625, 
+        "ET_ORDER": 0.3407, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542306.8731, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 72.93804, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51924916548819, 
+          37.83133921038273
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187210.8836, 
+        "ET_ORDER": 0.3486, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542305.2487, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 71.07612, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51920152467552, 
+          37.831267473688015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187202.946, 
+        "ET_ORDER": 0.3544, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542309.482, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 69.81369, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51919300067962, 
+          37.83119112874852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187194.4794, 
+        "ET_ORDER": 0.3599, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542310.2757, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 68.34202, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51906258358831, 
+          37.830902045214756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187162.4647, 
+        "ET_ORDER": 0.382, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542321.9174, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 62.98432, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51899541306935, 
+          37.830596527615036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187128.598, 
+        "ET_ORDER": 0.4043, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542328.0029, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 57.01776, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51889676359806, 
+          37.83049086272208
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187116.9192, 
+        "ET_ORDER": 0.4138, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542336.7444, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 57.17527, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51871434470107, 
+          37.83035690770076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187102.1396, 
+        "ET_ORDER": 0.4279, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542352.8738, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 58.67175, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51856790676064, 
+          37.83022038023054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187087.0583, 
+        "ET_ORDER": 0.4408, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542365.8384, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 61.07648, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51850537426635, 
+          37.830127120422965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187076.7395, 
+        "ET_ORDER": 0.4484, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542371.3946, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 62.19737, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51849987219504, 
+          37.83004840291354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187068.0083, 
+        "ET_ORDER": 0.4541, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542371.9238, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 62.38033, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51851600492319, 
+          37.829879153622116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187049.2228, 
+        "ET_ORDER": 0.4663, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542370.6009, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 62.22927, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51859225292591, 
+          37.829712535815624
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187030.702, 
+        "ET_ORDER": 0.479, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542363.9863, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 63.28326, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5187686300021, 
+          37.82940562748784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186996.5706, 
+        "ET_ORDER": 0.5032, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542348.6404, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 64.56356, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51887283300191, 
+          37.82910080983179
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186962.7039, 
+        "ET_ORDER": 0.5259, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542339.6446, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 63.19836, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51898382364195, 
+          37.82867678390109
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186915.608, 
+        "ET_ORDER": 0.5571, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542330.1195, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 66.90016, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51900270518638, 
+          37.82848087691196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186893.8636, 
+        "ET_ORDER": 0.5712, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542328.5698, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 65.95431, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51896281437385, 
+          37.828388594870226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186883.643, 
+        "ET_ORDER": 0.5782, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542332.133, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 66.26766, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51881620469759, 
+          37.82815811998788
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186858.1383, 
+        "ET_ORDER": 0.5968, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542345.1667, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 68.00339, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51879315476435, 
+          37.828098021207104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186851.4808, 
+        "ET_ORDER": 0.6013, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542347.2295, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 67.83708, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51879998114691, 
+          37.82803128377175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186844.0732, 
+        "ET_ORDER": 0.6061, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542346.6669, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 66.81984, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51884094052923, 
+          37.8279587695917
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186836.0092, 
+        "ET_ORDER": 0.6118, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542343.1038, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 65.68497, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51889442867667, 
+          37.82792602814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186832.3523, 
+        "ET_ORDER": 0.6156, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542338.4154, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 64.36643, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51904688453686, 
+          37.82791228302706
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186830.7582, 
+        "ET_ORDER": 0.6244, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542325.0067, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 62.25718, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51919458916106, 
+          37.827809779992755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186819.3186, 
+        "ET_ORDER": 0.6356, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542312.0668, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 62.08323, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51944136626004, 
+          37.82771021641844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186808.1603, 
+        "ET_ORDER": 0.6514, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542290.4065, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 63.7058, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51956715719616, 
+          37.8277005880672
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186807.0351, 
+        "ET_ORDER": 0.6586, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542279.342, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 64.28165, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52005990172411, 
+          37.827790490763626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186816.7869, 
+        "ET_ORDER": 0.6874, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542235.9277, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 65.21522, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52048231570726, 
+          37.82788179504039
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186826.7262, 
+        "ET_ORDER": 0.7123, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542198.702, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 65.84105, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52090453962707, 
+          37.82800511781879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186840.2182, 
+        "ET_ORDER": 0.738, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542161.4749, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 63.10502, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52107245714944, 
+          37.828069280796406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186847.2613, 
+        "ET_ORDER": 0.7486, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542146.6612, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 61.21933, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52147906160221, 
+          37.82829911863614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186872.5784, 
+        "ET_ORDER": 0.7771, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542110.7483, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 58.81397, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52165826064905, 
+          37.828434223539304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186887.4875, 
+        "ET_ORDER": 0.7912, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542094.9016, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 57.68854, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52180115194332, 
+          37.82858185676358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186903.803, 
+        "ET_ORDER": 0.8046, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542082.243, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 57.97862, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52190096366381, 
+          37.82863550496186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186909.7103, 
+        "ET_ORDER": 0.8114, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542073.4289, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 58.73041, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52213692436105, 
+          37.828726047202984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186919.6497, 
+        "ET_ORDER": 0.8264, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542052.6125, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 60.16695, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52222107037444, 
+          37.828730613908334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186920.1185, 
+        "ET_ORDER": 0.8312, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542045.2049, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 59.90807, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52236619501494, 
+          37.828697397145106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186916.3678, 
+        "ET_ORDER": 0.8398, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542032.4525, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 60.6185, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52245359735953, 
+          37.82869268079399
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186915.8052, 
+        "ET_ORDER": 0.8448, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 542024.7636, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 60.47437, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52281636818253, 
+          37.828781199484474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186925.4632, 
+        "ET_ORDER": 0.8664, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541992.7889, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 55.39692, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52293755658208, 
+          37.82882479278883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186930.2454, 
+        "ET_ORDER": 0.874, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541982.0994, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 55.70995, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52303203041062, 
+          37.828880109263096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186936.3403, 
+        "ET_ORDER": 0.8807, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541973.7542, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 56.18535, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52328639991254, 
+          37.82909073207081
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186959.5946, 
+        "ET_ORDER": 0.9017, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541951.25, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 56.54738, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52341178619614, 
+          37.82914448249919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186965.5019, 
+        "ET_ORDER": 0.9098, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541940.1854, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 55.79107, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52348206477433, 
+          37.82915152757085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186966.252, 
+        "ET_ORDER": 0.9138, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541933.9968, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 54.52689, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52386715100549, 
+          37.829092070863375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186959.4825, 
+        "ET_ORDER": 0.9362, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541900.1423, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 50.24487, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52417697813907, 
+          37.82912137708156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186962.5951, 
+        "ET_ORDER": 0.954, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541872.8605, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 46.18605, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52426309368488, 
+          37.82915130499457
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186965.877, 
+        "ET_ORDER": 0.9593, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541865.2653, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 44.34148, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52432571397296, 
+          37.82918958862532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186970.0965, 
+        "ET_ORDER": 0.9638, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541859.733, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 42.73121, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5244355761054, 
+          37.82933793068098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186986.5058, 
+        "ET_ORDER": 0.9762, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541849.9812, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 38.39804, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52446282825319, 
+          37.82940818684742
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4186994.2885, 
+        "ET_ORDER": 0.9815, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541847.5433, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 36.5496, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5244924168199, 
+          37.829664715934975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 969.4, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 1552.3, 
+        "Len_Down": 582.8, 
+        "Max_S_Down": 13.0, 
+        "Min_Z": 22.8, 
+        "H_Down": 64.3, 
+        "ET_ID": 230, 
+        "trail_name": "Rosenstock Trail", 
+        "ET_Y": 4187022.7371, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 11.7, 
+        "ET_IDP": 230, 
+        "ET_IDR": "230_0", 
+        "H_Up": 71.9, 
+        "ET_X": 541844.7946, 
+        "Av_S_Down": 6.4, 
+        "ET_Z": 30.34062, 
+        "Length_2D": 1543.8, 
+        "Max_Z": 72.9
+      }
+    }
+  ]
+}

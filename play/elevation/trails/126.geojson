@@ -1,0 +1,3557 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5151694799608, 
+          37.83222583443755
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187311.1099, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542663.7456, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 18.72744, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51496434279433, 
+          37.83210833985768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187298.1676, 
+        "ET_ORDER": 0.0077, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542681.8649, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 20.30051, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51489775420899, 
+          37.83204925347792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187291.6424, 
+        "ET_ORDER": 0.0108, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542687.7586, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 20.93823, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5148044778919, 
+          37.83186484294277
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187271.2247, 
+        "ET_ORDER": 0.0184, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542696.073, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 21.97679, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51474628514792, 
+          37.83179692670152
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187263.716, 
+        "ET_ORDER": 0.0216, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542701.233, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 22.29642, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51423673487737, 
+          37.83175401858542
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187259.1884, 
+        "ET_ORDER": 0.0372, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542746.0973, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 23.33894, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51375023052772, 
+          37.83176314037139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187260.4232, 
+        "ET_ORDER": 0.052, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542788.9036, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 24.62388, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51304769548823, 
+          37.83190491932718
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187276.4756, 
+        "ET_ORDER": 0.0741, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542850.6435, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 26.25876, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51290769522849, 
+          37.831856113236114
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187271.1248, 
+        "ET_ORDER": 0.0788, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542862.9915, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 26.79303, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51246871925618, 
+          37.83175042302644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187259.6, 
+        "ET_ORDER": 0.0928, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542901.6818, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 29.6217, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51223459005737, 
+          37.83179026123376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187264.1276, 
+        "ET_ORDER": 0.1001, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542922.2617, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 30.6726, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51220997082403, 
+          37.831680227676074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187251.9307, 
+        "ET_ORDER": 0.1044, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542924.4919, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 30.68646, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5119996976315, 
+          37.83165074009267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187248.7557, 
+        "ET_ORDER": 0.1109, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 542943.0127, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 30.92153, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.510972839269, 
+          37.83143424187381
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187225.2078, 
+        "ET_ORDER": 0.1433, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543033.5004, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 34.95283, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51076277085875, 
+          37.83137375155524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187218.5932, 
+        "ET_ORDER": 0.1501, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543052.0213, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 35.72538, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51062489348008, 
+          37.83130879112441
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187211.4494, 
+        "ET_ORDER": 0.155, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543064.1921, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 36.18373, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.509769282512, 
+          37.831059752716435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187184.2134, 
+        "ET_ORDER": 0.1828, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543139.6299, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 39.82055, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50694021392889, 
+          37.8304161238077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187114.1131, 
+        "ET_ORDER": 0.2725, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543388.9625, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 60.23136, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50664651603093, 
+          37.83036338418641
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187108.3981, 
+        "ET_ORDER": 0.2817, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543414.8388, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 61.85463, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5064192582327, 
+          37.83035670871778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187107.7631, 
+        "ET_ORDER": 0.2886, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543434.8414, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 63.03608, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50628964246079, 
+          37.83031610233038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187103.3181, 
+        "ET_ORDER": 0.2929, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543446.2714, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 63.92124, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50618314352417, 
+          37.83032567208553
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187104.4294, 
+        "ET_ORDER": 0.2961, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543455.6377, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 64.60187, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50592461864898, 
+          37.8304090061461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187113.7956, 
+        "ET_ORDER": 0.3046, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543478.339, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 66.12517, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50581629708918, 
+          37.83042142957482
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187115.2244, 
+        "ET_ORDER": 0.308, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543487.864, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 66.64811, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50574627738226, 
+          37.83037105640153
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187109.6681, 
+        "ET_ORDER": 0.3109, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543494.0553, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 67.34628, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50571443666861, 
+          37.83027648826691
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187099.1906, 
+        "ET_ORDER": 0.3146, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543496.9128, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 68.22852, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50566402224072, 
+          37.83026196842013
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187097.6031, 
+        "ET_ORDER": 0.3163, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543501.3578, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 68.49981, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5052416269265, 
+          37.830301689198194
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187102.2069, 
+        "ET_ORDER": 0.3292, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543538.5053, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 71.28807, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5049548405237, 
+          37.830294760823996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187101.5719, 
+        "ET_ORDER": 0.338, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543563.7466, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 73.7594, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.504655244402, 
+          37.83031496311893
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187103.9531, 
+        "ET_ORDER": 0.3471, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543590.0992, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 76.27608, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50407116417672, 
+          37.83025384177086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187097.4444, 
+        "ET_ORDER": 0.3651, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543641.5343, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 82.25968, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50347750979874, 
+          37.83027566416334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187100.1431, 
+        "ET_ORDER": 0.3832, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543693.7631, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 89.363, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50322322311207, 
+          37.83026457655219
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187099.0319, 
+        "ET_ORDER": 0.391, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543716.1469, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 91.43104, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50315805046286, 
+          37.83029864146178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187102.8419, 
+        "ET_ORDER": 0.3934, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543721.862, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 91.77836, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5031469678662, 
+          37.8303372265556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187107.1281, 
+        "ET_ORDER": 0.3949, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543722.8145, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 91.83192, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50316297349994, 
+          37.830371633893904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187110.9381, 
+        "ET_ORDER": 0.3963, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543721.3857, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 91.84773, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50321681307852, 
+          37.830413355397496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187115.5419, 
+        "ET_ORDER": 0.3986, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543716.6232, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 92.10885, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50353858535503, 
+          37.83058354962111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187134.2744, 
+        "ET_ORDER": 0.4104, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543688.2069, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 93.42529, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50368221938157, 
+          37.83068574406302
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187145.5457, 
+        "ET_ORDER": 0.4163, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543675.5069, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 94.49132, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50436843584535, 
+          37.831244473750345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187207.2161, 
+        "ET_ORDER": 0.4463, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543614.7912, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 100.93574, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50458242945955, 
+          37.83149222868411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187234.6046, 
+        "ET_ORDER": 0.4578, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543595.8142, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 103.44017, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50476656362287, 
+          37.83174339800756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187262.3859, 
+        "ET_ORDER": 0.469, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543579.4629, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 105.91616, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5048579721645, 
+          37.8318324944154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187272.2285, 
+        "ET_ORDER": 0.4734, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543571.3667, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 106.76831, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5052352001747, 
+          37.83207445839243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187298.8985, 
+        "ET_ORDER": 0.4882, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543538.0291, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 110.24688, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50525285767623, 
+          37.83213176558722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187305.2485, 
+        "ET_ORDER": 0.4905, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543536.4416, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 110.68776, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5052461621949, 
+          37.83217820256034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187310.4038, 
+        "ET_ORDER": 0.4922, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543537.0035, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 111.12516, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50514186884867, 
+          37.83227295147009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187320.9648, 
+        "ET_ORDER": 0.4971, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543546.1254, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 111.95509, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5050186920499, 
+          37.83234826805345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187329.3786, 
+        "ET_ORDER": 0.5018, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543556.9204, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 112.83416, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50451242972288, 
+          37.83251783832377
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187348.4286, 
+        "ET_ORDER": 0.5186, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543601.3705, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 116.31774, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50410279002182, 
+          37.83268702012722
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187367.3906, 
+        "ET_ORDER": 0.5327, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543637.3181, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 118.75283, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50396784089412, 
+          37.83269746221323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187368.6122, 
+        "ET_ORDER": 0.5368, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543649.1871, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 119.30401, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50366643797403, 
+          37.832664596192174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187365.1066, 
+        "ET_ORDER": 0.5461, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543675.7291, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 120.78812, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50309178411347, 
+          37.83264778189719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187363.5099, 
+        "ET_ORDER": 0.5636, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543726.307, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 123.24994, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50274150439763, 
+          37.83269208991638
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187368.5899, 
+        "ET_ORDER": 0.5744, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543757.1045, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 124.89364, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50246847791507, 
+          37.832783940947216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187378.9087, 
+        "ET_ORDER": 0.5835, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543781.0758, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 126.18104, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50238875662552, 
+          37.83283511385092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187384.6237, 
+        "ET_ORDER": 0.5866, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543788.0608, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 126.64672, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50225381126201, 
+          37.832934567983884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187395.7214, 
+        "ET_ORDER": 0.5922, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543799.8768, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 127.4223, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50197676281478, 
+          37.83323754377827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187429.4665, 
+        "ET_ORDER": 0.6066, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543824.077, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 129.44062, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50192825514793, 
+          37.833330021860085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187439.7497, 
+        "ET_ORDER": 0.6104, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543828.2908, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 129.84743, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50191643892825, 
+          37.83341045590686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187448.6794, 
+        "ET_ORDER": 0.6136, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543829.283, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 130.34455, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50193408780453, 
+          37.83358044134651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187467.531, 
+        "ET_ORDER": 0.6201, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543827.6294, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 131.50089, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50203589561019, 
+          37.83388172182149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187500.9103, 
+        "ET_ORDER": 0.6321, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543818.4925, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 133.49946, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50212067189648, 
+          37.83406441283727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187521.1401, 
+        "ET_ORDER": 0.6396, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543810.9245, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 134.78489, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5021153566711, 
+          37.8341168599532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187526.9616, 
+        "ET_ORDER": 0.6416, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543811.3612, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 135.08509, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50210179070069, 
+          37.83416664848355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187532.492, 
+        "ET_ORDER": 0.6436, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543812.5255, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 135.30813, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50206347902426, 
+          37.834207150778276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187537.0037, 
+        "ET_ORDER": 0.6455, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543815.8728, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 135.54166, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5018670950997, 
+          37.83438865291495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187557.2335, 
+        "ET_ORDER": 0.6547, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543833.0463, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 136.77285, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50178908895646, 
+          37.83442898722106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187561.7452, 
+        "ET_ORDER": 0.6575, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543839.8866, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 137.15898, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50169457894488, 
+          37.834464004238875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187565.6747, 
+        "ET_ORDER": 0.6607, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543848.1823, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 137.62781, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50151261606365, 
+          37.83446848071442
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187566.2568, 
+        "ET_ORDER": 0.6663, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543864.1915, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 138.39374, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50135912297863, 
+          37.83442060877035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187561.0175, 
+        "ET_ORDER": 0.6713, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543877.7265, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 139.32857, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50124217407466, 
+          37.83434927895369
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187553.1584, 
+        "ET_ORDER": 0.6758, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543888.0597, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 140.06882, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5010530020538, 
+          37.83419631544424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187536.276, 
+        "ET_ORDER": 0.684, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543904.7966, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 141.23847, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50072993225999, 
+          37.83398583410404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187513.075, 
+        "ET_ORDER": 0.6968, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543933.3501, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 142.82272, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50032451198523, 
+          37.833466632051845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187455.6603, 
+        "ET_ORDER": 0.7203, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543969.3335, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 146.43954, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50021684165023, 
+          37.83335325404637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187443.1317, 
+        "ET_ORDER": 0.7257, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543978.8754, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 147.18574, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50002758576201, 
+          37.8332134061439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187427.7047, 
+        "ET_ORDER": 0.7336, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 543995.6123, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 148.46978, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49987310801104, 
+          37.83306193906113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187410.9722, 
+        "ET_ORDER": 0.7411, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544009.2958, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 149.52035, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49960191137498, 
+          37.832848164283334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187387.3817, 
+        "ET_ORDER": 0.7528, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544033.2873, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 150.98016, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4994842761327, 
+          37.83277626648083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187379.4601, 
+        "ET_ORDER": 0.7573, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544043.6816, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 151.61552, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49937935036094, 
+          37.83274241267838
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187375.7535, 
+        "ET_ORDER": 0.7607, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544052.9349, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 151.83822, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49928283833734, 
+          37.83275164007858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187376.8228, 
+        "ET_ORDER": 0.7637, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544061.4222, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 152.03025, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49916774292078, 
+          37.83281379334427
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187383.773, 
+        "ET_ORDER": 0.7679, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544071.5133, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 152.29603, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49864171755124, 
+          37.83343145170912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187452.5505, 
+        "ET_ORDER": 0.7966, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544117.4342, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 156.30138, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49831776830563, 
+          37.83364887801474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187476.827, 
+        "ET_ORDER": 0.8095, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544145.811, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 158.20495, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49826285975233, 
+          37.83378754541701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187492.2381, 
+        "ET_ORDER": 0.8151, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544150.5601, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 159.01182, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49824321104997, 
+          37.834024978602336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187518.5906, 
+        "ET_ORDER": 0.8243, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544152.1476, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 160.23949, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49827978100629, 
+          37.83438323621747
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187558.322, 
+        "ET_ORDER": 0.8381, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544148.7161, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 162.45634, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49820274969692, 
+          37.834494117577535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187570.6607, 
+        "ET_ORDER": 0.843, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544155.4284, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 163.09938, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49814716702771, 
+          37.834532036665145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187574.8941, 
+        "ET_ORDER": 0.8452, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544160.2968, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 163.35443, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49783725570946, 
+          37.83465185851387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187588.3349, 
+        "ET_ORDER": 0.8557, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544187.496, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 164.88821, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49768873889451, 
+          37.83466782724497
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187590.1769, 
+        "ET_ORDER": 0.8603, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544200.5552, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 165.62257, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49747312514495, 
+          37.834642889420806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187587.5121, 
+        "ET_ORDER": 0.8669, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544219.543, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 166.63045, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49678020299758, 
+          37.83438131611786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187558.8188, 
+        "ET_ORDER": 0.8903, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544280.673, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 170.30672, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49639065733146, 
+          37.83428096876525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187547.87, 
+        "ET_ORDER": 0.9028, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544315.0112, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 171.8711, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49613121680373, 
+          37.834185343562616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187537.3835, 
+        "ET_ORDER": 0.9115, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544337.898, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 173.20718, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49595314424995, 
+          37.83414790110554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187533.3138, 
+        "ET_ORDER": 0.9171, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544353.59, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 174.06091, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49563987523776, 
+          37.83411230760756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187529.5135, 
+        "ET_ORDER": 0.9268, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544381.1776, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 175.2249, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49553069220238, 
+          37.834083978793586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187526.4223, 
+        "ET_ORDER": 0.9303, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544390.8022, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 175.44251, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49523931810367, 
+          37.833953956170944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187512.1348, 
+        "ET_ORDER": 0.9405, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544416.5198, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 175.88084, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49466120058389, 
+          37.83383067129004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187498.7314, 
+        "ET_ORDER": 0.9587, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544467.4657, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 177.13382, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4946168820378, 
+          37.833824926369076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187498.1151, 
+        "ET_ORDER": 0.9601, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544471.369, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 177.13172, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4945758712539, 
+          37.83393833215532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187510.717, 
+        "ET_ORDER": 0.9646, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544474.9097, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 175.26393, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49445635109082, 
+          37.83394627884343
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187511.6556, 
+        "ET_ORDER": 0.9683, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544485.4222, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 176.88369, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49435342380514, 
+          37.83394322770241
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187511.3661, 
+        "ET_ORDER": 0.9714, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544494.4812, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 175.93667, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49438925035793, 
+          37.83408811514894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187527.4243, 
+        "ET_ORDER": 0.9771, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544491.2416, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 174.80587, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4945035119238, 
+          37.834225654716604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187542.6299, 
+        "ET_ORDER": 0.9834, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544481.1045, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 172.04764, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49451696304311, 
+          37.834268895855395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187547.4211, 
+        "ET_ORDER": 0.9852, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544479.8949, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 171.69033, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49453792861779, 
+          37.83449079380387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187572.0307, 
+        "ET_ORDER": 0.9937, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544477.9168, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 170.08449, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49452489761688, 
+          37.83456618355225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187580.4014, 
+        "ET_ORDER": 0.9966, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544479.0182, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 169.51114, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49448428994448, 
+          37.83464741167048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2783.0, 
+        "Av_S_Up": 3.3, 
+        "Length_3D": 2892.1, 
+        "Len_Down": 109.0, 
+        "Max_S_Down": 8.6, 
+        "Min_Z": 18.7, 
+        "H_Down": 9.5, 
+        "ET_ID": 126, 
+        "trail_name": "Julian Trail", 
+        "ET_Y": 4187589.433, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.7, 
+        "ET_IDP": 126, 
+        "ET_IDR": "126_0", 
+        "H_Up": 160.0, 
+        "ET_X": 544482.5427, 
+        "Av_S_Down": 5.0, 
+        "ET_Z": 169.20404, 
+        "Length_2D": 2886.2, 
+        "Max_Z": 177.1
+      }
+    }
+  ]
+}

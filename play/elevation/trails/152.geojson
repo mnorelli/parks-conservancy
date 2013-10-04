@@ -1,0 +1,965 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4687386651886, 
+          37.80639021142813
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184466.873, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546765.8547, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.39024, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46875646096304, 
+          37.80633052851822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184460.2423, 
+        "ET_ORDER": 0.0033, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546764.3258, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.4491, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46864228757391, 
+          37.80582768465107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184404.5091, 
+        "ET_ORDER": 0.0311, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546774.6935, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.2523, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46841282109801, 
+          37.80515585384545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184330.0846, 
+        "ET_ORDER": 0.069, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546795.3172, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.04861, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46813071601967, 
+          37.80461561953885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184270.2871, 
+        "ET_ORDER": 0.1008, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546820.492, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.3157, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46796020289237, 
+          37.80435370483792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184241.3132, 
+        "ET_ORDER": 0.1169, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546835.6678, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.46086, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46774133135538, 
+          37.80409948310447
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184213.2171, 
+        "ET_ORDER": 0.1336, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546855.0959, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.55295, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4674683510496, 
+          37.80381538399452
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184181.8333, 
+        "ET_ORDER": 0.1531, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546879.3063, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.74577, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46733661540208, 
+          37.80372049963753
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184171.372, 
+        "ET_ORDER": 0.1608, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546890.9632, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.92747, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46718072740126, 
+          37.803679385329765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184166.8886, 
+        "ET_ORDER": 0.1678, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546904.7123, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.81218, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46642288019737, 
+          37.80356613328243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184154.7039, 
+        "ET_ORDER": 0.2011, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546971.4987, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.30111, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4664173086693, 
+          37.80356530047307
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184154.6143, 
+        "ET_ORDER": 0.2014, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 546971.9897, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.31731, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46533906792867, 
+          37.80340434001038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184137.2982, 
+        "ET_ORDER": 0.2488, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547067.0115, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 2.9579, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46378408080537, 
+          37.80322691578318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184118.3972, 
+        "ET_ORDER": 0.3166, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547204.0133, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.22074, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4611833165225, 
+          37.8029274320898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184086.4862, 
+        "ET_ORDER": 0.43, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547433.1563, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.6672, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46102710088977, 
+          37.802932105526644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184087.084, 
+        "ET_ORDER": 0.4368, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547446.9054, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.63964, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46090809553775, 
+          37.80295580715409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184089.7741, 
+        "ET_ORDER": 0.4421, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547457.3666, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.57506, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46070795668805, 
+          37.80302276970467
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184097.3052, 
+        "ET_ORDER": 0.4515, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547474.9425, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.47164, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46048207498764, 
+          37.80317745481207
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184114.5822, 
+        "ET_ORDER": 0.4644, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547494.7284, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.42469, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46021363572144, 
+          37.80340589428239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184140.0639, 
+        "ET_ORDER": 0.4813, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547518.2134, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.47223, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46014162746411, 
+          37.80344981323819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184144.9733, 
+        "ET_ORDER": 0.4853, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547524.5243, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.46953, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45993288634192, 
+          37.80352784729131
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184153.7373, 
+        "ET_ORDER": 0.4952, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547542.8502, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.37169, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45970843205863, 
+          37.80357800349125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184159.4163, 
+        "ET_ORDER": 0.5053, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 547562.5772, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.37027, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45468760644493, 
+          37.80423091315544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184234.4231, 
+        "ET_ORDER": 0.725, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 548004.1478, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.00551, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45255099029045, 
+          37.8044990178747
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184265.2687, 
+        "ET_ORDER": 0.8184, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 548192.0625, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.34904, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44971202905103, 
+          37.80487062917728
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184307.9664, 
+        "ET_ORDER": 0.9426, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 548441.7361, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.46735, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44914095014073, 
+          37.80495955483644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184318.1288, 
+        "ET_ORDER": 0.9677, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 548491.9503, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.48705, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44869989768227, 
+          37.80505966225833
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184329.4646, 
+        "ET_ORDER": 0.9875, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 548530.7108, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.34032, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44868619062139, 
+          37.805062773424225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184329.8169, 
+        "ET_ORDER": 0.9881, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 548531.9154, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.34785, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44842186237798, 
+          37.805122768349094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1094.9, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 2039.0, 
+        "Len_Down": 944.1, 
+        "Max_S_Down": 0.5, 
+        "Min_Z": 3.0, 
+        "H_Down": 2.3, 
+        "ET_ID": 152, 
+        "trail_name": "Mason Street Bike Path", 
+        "ET_Y": 4184336.6106, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.9, 
+        "ET_IDP": 152, 
+        "ET_IDR": "152_0", 
+        "H_Up": 2.2, 
+        "ET_X": 548555.145, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 3.26733, 
+        "Length_2D": 2039.0, 
+        "Max_Z": 3.9
+      }
+    }
+  ]
+}

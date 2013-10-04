@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46943811877517, 
+          37.806718216575426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.4, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 44.8, 
+        "Len_Down": 32.3, 
+        "Max_S_Down": 1.5, 
+        "Min_Z": 3.4, 
+        "H_Down": 0.8, 
+        "ET_ID": 276, 
+        "trail_name": "West Bluff Cut-off Trail", 
+        "ET_Y": 4184502.9153, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 276, 
+        "ET_IDR": "276_0", 
+        "H_Up": 0.4, 
+        "ET_X": 546704.0762, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 3.89298, 
+        "Length_2D": 44.8, 
+        "Max_Z": 4.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46931582810201, 
+          37.80677445637558
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.4, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 44.8, 
+        "Len_Down": 32.3, 
+        "Max_S_Down": 1.5, 
+        "Min_Z": 3.4, 
+        "H_Down": 0.8, 
+        "ET_ID": 276, 
+        "trail_name": "West Bluff Cut-off Trail", 
+        "ET_Y": 4184509.2162, 
+        "ET_ORDER": 0.278, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 276, 
+        "ET_IDR": "276_0", 
+        "H_Up": 0.4, 
+        "ET_X": 546714.8058, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 4.24575, 
+        "Length_2D": 44.8, 
+        "Max_Z": 4.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4689932359881, 
+          37.806913403353676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.4, 
+        "Av_S_Up": 1.6, 
+        "Length_3D": 44.8, 
+        "Len_Down": 32.3, 
+        "Max_S_Down": 1.5, 
+        "Min_Z": 3.4, 
+        "H_Down": 0.8, 
+        "ET_ID": 276, 
+        "trail_name": "West Bluff Cut-off Trail", 
+        "ET_Y": 4184524.7936, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.6, 
+        "ET_IDP": 276, 
+        "ET_IDR": "276_0", 
+        "H_Up": 0.4, 
+        "ET_X": 546743.1154, 
+        "Av_S_Down": 1.5, 
+        "ET_Z": 3.40653, 
+        "Length_2D": 44.8, 
+        "Max_Z": 4.2
+      }
+    }
+  ]
+}

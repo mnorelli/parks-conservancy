@@ -1,0 +1,421 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51169648980124, 
+          37.55679209477346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4156754.0624, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543128.6087, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 62.621, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51185484632514, 
+          37.55693203783366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4156769.5157, 
+        "ET_ORDER": 0.0233, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543114.5414, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 67.59217, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51210484720532, 
+          37.5573680380888
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4156817.773, 
+        "ET_ORDER": 0.0826, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543092.2093, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 76.50386, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51199484705747, 
+          37.55841603842843
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4156934.0936, 
+        "ET_ORDER": 0.2126, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543101.3212, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 104.66693, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51146784668552, 
+          37.55853903837662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4156947.9816, 
+        "ET_ORDER": 0.2667, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543147.796, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 104.84992, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51079784736227, 
+          37.55861503848036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4156956.7212, 
+        "ET_ORDER": 0.3333, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543206.9277, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 120.92419, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.510288846742, 
+          37.55944703771773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4157049.2613, 
+        "ET_ORDER": 0.4477, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543251.4026, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 135.39235, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5097288468931, 
+          37.560174037429476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4157130.176, 
+        "ET_ORDER": 0.5532, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543300.4415, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 143.94452, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50941584698661, 
+          37.56116303748963
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4157240.0447, 
+        "ET_ORDER": 0.6793, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543327.5129, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 166.40389, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50912984716349, 
+          37.5616130377595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4157290.1018, 
+        "ET_ORDER": 0.7416, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543352.5113, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 166.79212, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50803284733797, 
+          37.56197703761717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4157330.9923, 
+        "ET_ORDER": 0.8586, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543449.185, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 181.01349, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50739784642562, 
+          37.56241003773465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4157379.3252, 
+        "ET_ORDER": 0.9409, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543505.0151, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 182.90959, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50712672327026, 
+          37.56283639231966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 909.7, 
+        "Av_S_Up": 8.3, 
+        "Length_3D": 909.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 62.6, 
+        "H_Down": 0.0, 
+        "ET_ID": 231, 
+        "trail_name": "San Pedro Mountain Road", 
+        "ET_Y": 4157426.7526, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.1, 
+        "ET_IDP": 231, 
+        "ET_IDR": "231_0", 
+        "H_Up": 130.9, 
+        "ET_X": 543528.7119, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 193.50861, 
+        "Length_2D": 897.3, 
+        "Max_Z": 193.5
+      }
+    }
+  ]
+}

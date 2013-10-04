@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45983255436636, 
+          37.804815672058375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.1, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 26.1, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 3.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 110, 
+        "trail_name": "Haus Plaque Trail", 
+        "ET_Y": 4184296.672, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.1, 
+        "ET_IDP": 110, 
+        "ET_IDR": "110_0", 
+        "H_Up": 0.5, 
+        "ET_X": 547550.8569, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 3.43245, 
+        "Length_2D": 26.1, 
+        "Max_Z": 3.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45988653145811, 
+          37.805046936091586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.1, 
+        "Av_S_Up": 1.1, 
+        "Length_3D": 26.1, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 3.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 110, 
+        "trail_name": "Haus Plaque Trail", 
+        "ET_Y": 4184322.3032, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.1, 
+        "ET_IDP": 110, 
+        "ET_IDR": "110_0", 
+        "H_Up": 0.5, 
+        "ET_X": 547545.957, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 3.91257, 
+        "Length_2D": 26.1, 
+        "Max_Z": 3.9
+      }
+    }
+  ]
+}

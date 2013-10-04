@@ -1,0 +1,357 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5252940157571, 
+          37.8307311760731
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187140.7019, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541773.652, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 17.83219, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52462832721947, 
+          37.8305915409413
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187125.5073, 
+        "ET_ORDER": 0.3284, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541832.3111, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 18.04988, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52453707497864, 
+          37.83054827483044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187120.7478, 
+        "ET_ORDER": 0.3791, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541840.3657, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 18.27991, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5245249757409, 
+          37.83048882886969
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187114.1577, 
+        "ET_ORDER": 0.4153, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541841.464, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 18.74248, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52457095116596, 
+          37.830456016667746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187110.4966, 
+        "ET_ORDER": 0.4448, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541837.4367, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 19.0725, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52478900114102, 
+          37.8301896100719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187080.8412, 
+        "ET_ORDER": 0.6358, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541818.3987, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 22.69361, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52481459781824, 
+          37.83009071904627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187069.8578, 
+        "ET_ORDER": 0.6965, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541816.202, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 24.2246, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5247984218422, 
+          37.83001805699987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187061.8032, 
+        "ET_ORDER": 0.7409, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541817.6665, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 25.38912, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52472415039767, 
+          37.82992206270122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187051.1859, 
+        "ET_ORDER": 0.8086, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541824.2566, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 26.9897, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52454633926581, 
+          37.82975305364314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187032.514, 
+        "ET_ORDER": 0.941, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541839.9995, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 29.97641, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5244924168199, 
+          37.829664715934975
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 185.2, 
+        "Av_S_Up": 3.9, 
+        "Length_3D": 185.2, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 17.8, 
+        "H_Down": 0.0, 
+        "ET_ID": 44, 
+        "trail_name": "Bosworth Road", 
+        "ET_Y": 4187022.7371, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.1, 
+        "ET_IDP": 44, 
+        "ET_IDR": "44_0", 
+        "H_Up": 12.5, 
+        "ET_X": 541844.7946, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 30.34062, 
+        "Length_2D": 184.5, 
+        "Max_Z": 30.3
+      }
+    }
+  ]
+}

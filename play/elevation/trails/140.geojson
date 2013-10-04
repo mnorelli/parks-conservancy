@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50427066566111, 
+          37.784093714813544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 68.8, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 107.6, 
+        "Len_Down": 38.9, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 72.9, 
+        "H_Down": 12.1, 
+        "ET_ID": 140, 
+        "trail_name": "Legion of Honor Trail", 
+        "ET_Y": 4181975.9093, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 140, 
+        "ET_IDR": "140_0", 
+        "H_Up": 3.7, 
+        "ET_X": 543651.1419, 
+        "Av_S_Down": 18.1, 
+        "ET_Z": 84.96473, 
+        "Length_2D": 105.6, 
+        "Max_Z": 85.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5046902549539, 
+          37.78409437979538
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 68.8, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 107.6, 
+        "Len_Down": 38.9, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 72.9, 
+        "H_Down": 12.1, 
+        "ET_ID": 140, 
+        "trail_name": "Legion of Honor Trail", 
+        "ET_Y": 4181975.7873, 
+        "ET_ORDER": 0.3498, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 140, 
+        "ET_IDR": "140_0", 
+        "H_Up": 3.7, 
+        "ET_X": 543614.1946, 
+        "Av_S_Down": 18.1, 
+        "ET_Z": 72.91241, 
+        "Length_2D": 105.6, 
+        "Max_Z": 85.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50519257694043, 
+          37.784050040194565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 68.8, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 107.6, 
+        "Len_Down": 38.9, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 72.9, 
+        "H_Down": 12.1, 
+        "ET_ID": 140, 
+        "trail_name": "Legion of Honor Trail", 
+        "ET_Y": 4181970.6337, 
+        "ET_ORDER": 0.7711, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 140, 
+        "ET_IDR": "140_0", 
+        "H_Up": 3.7, 
+        "ET_X": 543569.9887, 
+        "Av_S_Down": 18.1, 
+        "ET_Z": 75.72396, 
+        "Length_2D": 105.6, 
+        "Max_Z": 85.0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50546652146913, 
+          37.78406438734551
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 68.8, 
+        "Av_S_Up": 3.1, 
+        "Length_3D": 107.6, 
+        "Len_Down": 38.9, 
+        "Max_S_Down": 18.1, 
+        "Min_Z": 72.9, 
+        "H_Down": 12.1, 
+        "ET_ID": 140, 
+        "trail_name": "Legion of Honor Trail", 
+        "ET_Y": 4181972.0979, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 140, 
+        "ET_IDR": "140_0", 
+        "H_Up": 3.7, 
+        "ET_X": 543545.8581, 
+        "Av_S_Down": 18.1, 
+        "ET_Z": 76.61962, 
+        "Length_2D": 105.6, 
+        "Max_Z": 85.0
+      }
+    }
+  ]
+}

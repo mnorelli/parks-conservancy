@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45468760644493, 
+          37.80423091315544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 824.7, 
+        "Av_S_Up": 2.1, 
+        "Length_3D": 880.8, 
+        "Len_Down": 56.1, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.4, 
+        "ET_ID": 14, 
+        "trail_name": "Anza Esplanade", 
+        "ET_Y": 4184234.4231, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 14, 
+        "ET_IDR": "14_0", 
+        "H_Up": 30.0, 
+        "ET_X": 548004.1478, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 3.00551, 
+        "Length_2D": 880.2, 
+        "Max_Z": 33.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.456531978099, 
+          37.80178863263573
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 824.7, 
+        "Av_S_Up": 2.1, 
+        "Length_3D": 880.8, 
+        "Len_Down": 56.1, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.4, 
+        "ET_ID": 14, 
+        "trail_name": "Anza Esplanade", 
+        "ET_Y": 4183962.5074, 
+        "ET_ORDER": 0.3589, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 14, 
+        "ET_IDR": "14_0", 
+        "H_Up": 30.0, 
+        "ET_X": 547843.361, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 14.33258, 
+        "Length_2D": 880.2, 
+        "Max_Z": 33.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45848403666008, 
+          37.799213009205566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 824.7, 
+        "Av_S_Up": 2.1, 
+        "Length_3D": 880.8, 
+        "Len_Down": 56.1, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.4, 
+        "ET_ID": 14, 
+        "trail_name": "Anza Esplanade", 
+        "ET_Y": 4183675.7458, 
+        "ET_ORDER": 0.7377, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 14, 
+        "ET_IDR": "14_0", 
+        "H_Up": 30.0, 
+        "ET_X": 547673.1687, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 24.28294, 
+        "Length_2D": 880.2, 
+        "Max_Z": 33.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45840990285238, 
+          37.79917774083162
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 824.7, 
+        "Av_S_Up": 2.1, 
+        "Length_3D": 880.8, 
+        "Len_Down": 56.1, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.4, 
+        "ET_ID": 14, 
+        "trail_name": "Anza Esplanade", 
+        "ET_Y": 4183671.8706, 
+        "ET_ORDER": 0.7463, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 14, 
+        "ET_IDR": "14_0", 
+        "H_Up": 30.0, 
+        "ET_X": 547679.7179, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 24.52788, 
+        "Length_2D": 880.2, 
+        "Max_Z": 33.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45939073155974, 
+          37.79788787053424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 824.7, 
+        "Av_S_Up": 2.1, 
+        "Length_3D": 880.8, 
+        "Len_Down": 56.1, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.4, 
+        "ET_ID": 14, 
+        "trail_name": "Anza Esplanade", 
+        "ET_Y": 4183528.2603, 
+        "ET_ORDER": 0.9362, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 14, 
+        "ET_IDR": "14_0", 
+        "H_Up": 30.0, 
+        "ET_X": 547594.1961, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 33.0513, 
+        "Length_2D": 880.2, 
+        "Max_Z": 33.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45884019487295, 
+          37.797632755974305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 824.7, 
+        "Av_S_Up": 2.1, 
+        "Length_3D": 880.8, 
+        "Len_Down": 56.1, 
+        "Max_S_Down": 0.4, 
+        "Min_Z": 3.0, 
+        "H_Down": 0.4, 
+        "ET_ID": 14, 
+        "trail_name": "Anza Esplanade", 
+        "ET_Y": 4183500.2359, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 14, 
+        "ET_IDR": "14_0", 
+        "H_Up": 30.0, 
+        "ET_X": 547642.8285, 
+        "Av_S_Down": 0.4, 
+        "ET_Z": 32.64246, 
+        "Length_2D": 880.2, 
+        "Max_Z": 33.1
+      }
+    }
+  ]
+}

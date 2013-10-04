@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53214419608535, 
+          37.8279746243162
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 21.3, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 53.6, 
+        "Len_Down": 32.3, 
+        "Max_S_Down": 6.2, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.5, 
+        "ET_ID": 32, 
+        "trail_name": "Battery O'Rorke Trail", 
+        "ET_Y": 4186831.8219, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 32, 
+        "ET_IDR": "32_0", 
+        "H_Up": 0.1, 
+        "ET_X": 541172.3713, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 57.60709, 
+        "Length_2D": 53.6, 
+        "Max_Z": 57.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53215725881093, 
+          37.82800871954247
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 21.3, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 53.6, 
+        "Len_Down": 32.3, 
+        "Max_S_Down": 6.2, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.5, 
+        "ET_ID": 32, 
+        "trail_name": "Battery O'Rorke Trail", 
+        "ET_Y": 4186835.599, 
+        "ET_ORDER": 0.0738, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 32, 
+        "ET_IDR": "32_0", 
+        "H_Up": 0.1, 
+        "ET_X": 541171.2028, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 57.17632, 
+        "Length_2D": 53.6, 
+        "Max_Z": 57.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53237286013676, 
+          37.82819849910136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 21.3, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 53.6, 
+        "Len_Down": 32.3, 
+        "Max_S_Down": 6.2, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.5, 
+        "ET_ID": 32, 
+        "trail_name": "Battery O'Rorke Trail", 
+        "ET_Y": 4186856.56, 
+        "ET_ORDER": 0.6031, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 32, 
+        "ET_IDR": "32_0", 
+        "H_Up": 0.1, 
+        "ET_X": 541152.1239, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 56.06862, 
+        "Length_2D": 53.6, 
+        "Max_Z": 57.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53251815394736, 
+          37.82835156651978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 21.3, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 53.6, 
+        "Len_Down": 32.3, 
+        "Max_S_Down": 6.2, 
+        "Min_Z": 56.1, 
+        "H_Down": 1.5, 
+        "ET_ID": 32, 
+        "trail_name": "Battery O'Rorke Trail", 
+        "ET_Y": 4186873.4788, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 32, 
+        "ET_IDR": "32_0", 
+        "H_Up": 0.1, 
+        "ET_X": 541139.2527, 
+        "Av_S_Down": 2.7, 
+        "ET_Z": 56.19557, 
+        "Length_2D": 53.6, 
+        "Max_Z": 57.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48654147735344, 
+          37.619245511296796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163694.8244, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 545312.5221, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 18.81193, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48742435382967, 
+          37.619383900675594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163709.7523, 
+        "ET_ORDER": 0.0956, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 545234.5242, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 15.93325, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48764415506143, 
+          37.619398310443444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163711.2451, 
+        "ET_ORDER": 0.1191, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 545215.118, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 15.74744, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4883757469022, 
+          37.61939812093582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163710.8719, 
+        "ET_ORDER": 0.1968, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 545150.5551, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 15.32195, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48924299231244, 
+          37.61959697550094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163732.5172, 
+        "ET_ORDER": 0.2927, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 545073.9006, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 13.5136, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48990180067263, 
+          37.619727648686826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163746.6987, 
+        "ET_ORDER": 0.3649, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 545015.6821, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 12.42025, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4908228861674, 
+          37.61984599413878
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163759.3873, 
+        "ET_ORDER": 0.464, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544934.3254, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 10.37229, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49104696414372, 
+          37.619853688431334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163760.1337, 
+        "ET_ORDER": 0.4878, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544914.546, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 9.27893, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49147583864524, 
+          37.619905994424016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163765.7317, 
+        "ET_ORDER": 0.5339, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544876.6666, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 8.63517, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49173962220786, 
+          37.61996100575765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163771.7089, 
+        "ET_ORDER": 0.5629, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544853.3548, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 8.51227, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4917967667359, 
+          37.61997720558566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163773.4789, 
+        "ET_ORDER": 0.5694, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544848.3021, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 8.59346, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49367230616966, 
+          37.620345745374436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163813.4724, 
+        "ET_ORDER": 0.7746, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544682.5664, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 8.68671, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49506604911393, 
+          37.620616013691034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163842.795, 
+        "ET_ORDER": 0.9271, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544559.4088, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 10.26902, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49513395014188, 
+          37.62065879426001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163847.5091, 
+        "ET_ORDER": 0.9363, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544553.3911, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 10.22736, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49528273598689, 
+          37.62081428713712
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163864.6898, 
+        "ET_ORDER": 0.9624, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544540.1682, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 9.7167, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49532539116173, 
+          37.62083717070696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163867.2084, 
+        "ET_ORDER": 0.9679, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544536.3903, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 9.80269, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49538864517734, 
+          37.620829357112434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163866.3115, 
+        "ET_ORDER": 0.9747, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544530.8129, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 9.92438, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49562429381245, 
+          37.62080034279969
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 333.7, 
+        "Av_S_Up": 0.6, 
+        "Length_3D": 830.7, 
+        "Len_Down": 497.0, 
+        "Max_S_Down": 3.2, 
+        "Min_Z": 8.5, 
+        "H_Down": 10.9, 
+        "ET_ID": 197, 
+        "trail_name": "Old Mori Road", 
+        "ET_Y": 4163862.9807, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 197, 
+        "ET_IDR": "197_0", 
+        "H_Up": 3.3, 
+        "ET_X": 544510.0346, 
+        "Av_S_Down": 1.3, 
+        "ET_Z": 11.25463, 
+        "Length_2D": 830.5, 
+        "Max_Z": 18.8
+      }
+    }
+  ]
+}

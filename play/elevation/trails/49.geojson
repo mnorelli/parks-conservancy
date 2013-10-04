@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58056784500577, 
+          37.90130416156808
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 39.0, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 39.0, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 49, 
+        "trail_name": "Bridge 4", 
+        "ET_Y": 4194947.5163, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 49, 
+        "ET_IDR": "49_0", 
+        "H_Up": 2.0, 
+        "ET_X": 536874.4025, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 59.39463, 
+        "Length_2D": 38.9, 
+        "Max_Z": 61.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58078628634978, 
+          37.90099922717539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 39.0, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 39.0, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 49, 
+        "trail_name": "Bridge 4", 
+        "ET_Y": 4194913.5972, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 2.9, 
+        "ET_IDP": 49, 
+        "ET_IDR": "49_0", 
+        "H_Up": 2.0, 
+        "ET_X": 536855.3502, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 61.39937, 
+        "Length_2D": 38.9, 
+        "Max_Z": 61.4
+      }
+    }
+  ]
+}

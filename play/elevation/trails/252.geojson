@@ -1,0 +1,645 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51309200177415, 
+          37.78044910073883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181567.462, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542876.4852, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 18.68892, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51308967525047, 
+          37.78053162819152
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181576.6194, 
+        "ET_ORDER": 0.0243, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542876.6424, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 19.11407, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51311439248542, 
+          37.78059658718884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181583.8152, 
+        "ET_ORDER": 0.0443, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542874.4283, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 19.56669, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51316425358638, 
+          37.78066165097075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181591.0111, 
+        "ET_ORDER": 0.0667, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542870.0, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 19.75017, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5133394674153, 
+          37.78078211182559
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181604.2958, 
+        "ET_ORDER": 0.1208, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542854.5013, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 19.58419, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51344612868198, 
+          37.78081248589741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181607.6169, 
+        "ET_ORDER": 0.1473, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542845.0913, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 19.77125, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5137730193396, 
+          37.78080884648935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181607.0634, 
+        "ET_ORDER": 0.2237, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542816.3078, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 17.43164, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51395510909069, 
+          37.780839532235
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181610.3846, 
+        "ET_ORDER": 0.2671, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542800.2555, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 16.46593, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5140808228771, 
+          37.78084005073379
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181610.3846, 
+        "ET_ORDER": 0.2965, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542789.185, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 17.78271, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51417729096097, 
+          37.78081131800268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181607.1526, 
+        "ET_ORDER": 0.3206, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542780.7067, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 15.82552, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51424673997211, 
+          37.78081895906088
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181607.9686, 
+        "ET_ORDER": 0.3369, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542774.5867, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 14.41835, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51424990517198, 
+          37.78104328880268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181632.8563, 
+        "ET_ORDER": 0.403, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542774.1787, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 17.69355, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5136892254416, 
+          37.781052008180154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181634.0803, 
+        "ET_ORDER": 0.534, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542823.5463, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 27.65207, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51328107811408, 
+          37.78111651555767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181641.4243, 
+        "ET_ORDER": 0.6312, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542859.4499, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 35.68624, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51302517164228, 
+          37.7812527808183
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181656.6601, 
+        "ET_ORDER": 0.7031, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542881.9059, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 40.27343, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51290435930527, 
+          37.78138693797096
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181671.6001, 
+        "ET_ORDER": 0.7517, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542892.4669, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 41.50593, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51282870951465, 
+          37.78154798139567
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181689.5024, 
+        "ET_ORDER": 0.8023, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542899.0354, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 41.64425, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51277044340618, 
+          37.781734633617084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181710.238, 
+        "ET_ORDER": 0.8588, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542904.0583, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 42.97326, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51247385722637, 
+          37.78168881697162
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181705.2908, 
+        "ET_ORDER": 0.9294, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542930.2015, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 47.56178, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51220025716871, 
+          37.781587057265895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 299.5, 
+        "Av_S_Up": 7.6, 
+        "Length_3D": 380.8, 
+        "Len_Down": 81.3, 
+        "Max_S_Down": 12.8, 
+        "Min_Z": 14.4, 
+        "H_Down": 6.8, 
+        "ET_ID": 252, 
+        "trail_name": "Sutro Baths Upper Trail", 
+        "ET_Y": 4181694.1263, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 12.4, 
+        "ET_IDP": 252, 
+        "ET_IDR": "252_0", 
+        "H_Up": 39.8, 
+        "ET_X": 542954.353, 
+        "Av_S_Down": 4.8, 
+        "ET_Z": 51.61623, 
+        "Length_2D": 377.0, 
+        "Max_Z": 51.6
+      }
+    }
+  ]
+}

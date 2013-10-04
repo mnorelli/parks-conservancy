@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48699509559074, 
+          37.82845323289243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.8, 
+        "Av_S_Up": 3.7, 
+        "Length_3D": 139.8, 
+        "Len_Down": 113.0, 
+        "Max_S_Down": 7.7, 
+        "Min_Z": 88.2, 
+        "H_Down": 11.4, 
+        "ET_ID": 131, 
+        "trail_name": "Kirby Cove Spur Trail", 
+        "ET_Y": 4186905.7818, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 131, 
+        "ET_IDR": "131_0", 
+        "H_Up": 1.7, 
+        "ET_X": 545145.3283, 
+        "Av_S_Down": 5.8, 
+        "ET_Z": 99.64971, 
+        "Length_2D": 139.2, 
+        "Max_Z": 99.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48684831574208, 
+          37.82815569834327
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.8, 
+        "Av_S_Up": 3.7, 
+        "Length_3D": 139.8, 
+        "Len_Down": 113.0, 
+        "Max_S_Down": 7.7, 
+        "Min_Z": 88.2, 
+        "H_Down": 11.4, 
+        "ET_ID": 131, 
+        "trail_name": "Kirby Cove Spur Trail", 
+        "ET_Y": 4186872.8413, 
+        "ET_ORDER": 0.2547, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 131, 
+        "ET_IDR": "131_0", 
+        "H_Up": 1.7, 
+        "ET_X": 545158.4266, 
+        "Av_S_Down": 5.8, 
+        "ET_Z": 96.54223, 
+        "Length_2D": 139.2, 
+        "Max_Z": 99.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48674788529932, 
+          37.82789395010251
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.8, 
+        "Av_S_Up": 3.7, 
+        "Length_3D": 139.8, 
+        "Len_Down": 113.0, 
+        "Max_S_Down": 7.7, 
+        "Min_Z": 88.2, 
+        "H_Down": 11.4, 
+        "ET_ID": 131, 
+        "trail_name": "Kirby Cove Spur Trail", 
+        "ET_Y": 4186843.8489, 
+        "ET_ORDER": 0.4728, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 131, 
+        "ET_IDR": "131_0", 
+        "H_Up": 1.7, 
+        "ET_X": 545167.4243, 
+        "Av_S_Down": 5.8, 
+        "ET_Z": 93.46676, 
+        "Length_2D": 139.2, 
+        "Max_Z": 99.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48662985511723, 
+          37.827713221092125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.8, 
+        "Av_S_Up": 3.7, 
+        "Length_3D": 139.8, 
+        "Len_Down": 113.0, 
+        "Max_S_Down": 7.7, 
+        "Min_Z": 88.2, 
+        "H_Down": 11.4, 
+        "ET_ID": 131, 
+        "trail_name": "Kirby Cove Spur Trail", 
+        "ET_Y": 4186823.8541, 
+        "ET_ORDER": 0.635, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 131, 
+        "ET_IDR": "131_0", 
+        "H_Up": 1.7, 
+        "ET_X": 545177.9215, 
+        "Av_S_Down": 5.8, 
+        "ET_Z": 90.39842, 
+        "Length_2D": 139.2, 
+        "Max_Z": 99.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48639775701483, 
+          37.827599575535494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.8, 
+        "Av_S_Up": 3.7, 
+        "Length_3D": 139.8, 
+        "Len_Down": 113.0, 
+        "Max_S_Down": 7.7, 
+        "Min_Z": 88.2, 
+        "H_Down": 11.4, 
+        "ET_ID": 131, 
+        "trail_name": "Kirby Cove Spur Trail", 
+        "ET_Y": 4186811.3574, 
+        "ET_ORDER": 0.8075, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 131, 
+        "ET_IDR": "131_0", 
+        "H_Up": 1.7, 
+        "ET_X": 545198.4162, 
+        "Av_S_Down": 5.8, 
+        "ET_Z": 88.22444, 
+        "Length_2D": 139.2, 
+        "Max_Z": 99.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48610280610959, 
+          37.827539719325564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 26.8, 
+        "Av_S_Up": 3.7, 
+        "Length_3D": 139.8, 
+        "Len_Down": 113.0, 
+        "Max_S_Down": 7.7, 
+        "Min_Z": 88.2, 
+        "H_Down": 11.4, 
+        "ET_ID": 131, 
+        "trail_name": "Kirby Cove Spur Trail", 
+        "ET_Y": 4186804.8591, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.7, 
+        "ET_IDP": 131, 
+        "ET_IDR": "131_0", 
+        "H_Up": 1.7, 
+        "ET_X": 545224.4094, 
+        "Av_S_Down": 5.8, 
+        "ET_Z": 89.93415, 
+        "Length_2D": 139.2, 
+        "Max_Z": 99.6
+      }
+    }
+  ]
+}

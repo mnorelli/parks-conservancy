@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/travel-time.js"></script>
+    <style type="text/css">
+      body {
+        font-family: Helvetica, Arial, 'Sans Serif';
+      }
+
+      body,
+      svg {
+        margin: 0;
+        padding: 0;
+      }
+
+      .location-type {
+        padding-left: 10px;
+      }
+
+      #map {
+        width: 100%;
+        height: 500px;
+      }
+
+      #container {
+        font-size: 11.5px;
+        position: fixed;
+        left: 0;
+        width: 50%;
+      }
+
+      #results {
+        width: 40%;
+        float: right;
+        font-size: 11.5px;
+      }
+
+      form {
+        padding: 10px;
+      }
+
+      span.show-more,
+      span.show-less {
+        padding-left: 20px;
+        font-weight: bold;
+        color: steelblue;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="container">
+      <div id="map"></div>
+
+      <form>
+        <p>
+          <!-- <label>longitude, latitude: <input id="location" value="37.7631,-122.4191" type="text"></label> -->
+          <label>address: <input id="location" value="2017 Mission Street, 94110" type="text"></label>
+          <label>Mode:
+          <select id="mode">
+            <option value="s3" selected>Carpool</option>
+            <option value="wTrnW">Transit</option>
+            <option value="da">Car</option>
+            <option value="bike">Bike</option>
+            <option value="walk">Walk</option>
+          </select>
+        </label> |
+        <label>TOD:
+          <select id="time">
+            <option value="AM">Morning</option>
+            <option value="MD" selected>Midday</option>
+            <option value="PM">Evening</option>
+          </select>
+        </label>
+        </p>
+        <p>taz: <input id="taz" disabled></p>
+        <p id="took"></p>
+      </form>
+      <div class='second-step'>
+        <button id="submitDest">GO</button>
+        </p>
+        <h3 id='travel-time'></h3>
+      </div>
+
+    </div>
+    <div id="results"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+
+      // create the map
+      var mid = [37.7835, -122.4400];  // take a point from the middle of the route as a center
+      var center = new google.maps.LatLng(mid[0], mid[1]);
+      var mapOptions = {
+        zoom: 11,
+        center: center
+        // mapTypeId: google.maps.MapTypeId.TERRAIN
+      };
+      var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+      var locations,
+          youAreHere,
+          overlays = [];
+
+      var res = d3.select("#results");
+
+      d3.csv('taz-locs-new.csv', function(d) {
+        return {
+            id: +d.id,
+            taz: +d.taz,
+            title: d.title,
+            type: d.type,
+            lat: +d.lat || null,
+            lng: +d.long || null
+        };
+      },
+      function(err, rows){
+
+        // this is already happening when i grab the data from heroku, but
+        // i'm keeping it in case something changes with the heroku data
+        rows = rows.filter(function(d) { 
+          return d.lat !== null && d.lng !== null; 
+        });
+
+        locations = rows;
+
+        var form = d3.select("form"),
+            input = form.select("#location"),
+            output = form.select("#taz"),
+            req;
+
+        function clearOverlays(clearYouAreHere) {
+          if (clearYouAreHere && youAreHere) 
+            youAreHere.setMap(null);
+          if (overlays.length) {
+            while (overlays[0]) {
+              overlays.pop().setMap(null);
+            }
+          }
+        }
+
+        function addYouAreHere(center) {
+          var marker = {
+            strokeWeight: 0,
+            fillColor: "#FF0000",
+            fillOpacity: 1,
+            map: map,
+            center: center,
+            radius: 500
+          };
+          youAreHere = new google.maps.Circle(marker);
+        }
+
+        var geocoder = new google.maps.Geocoder();
+        function codeAddress(address, callback) {
+          geocoder.geocode({address: address}, function(results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+              callback(results[0].geometry.location)
+            } else {
+              console.warn("THERE WAS A GEOCODING ERROR");
+              callback(null);
+            }
+          });
+        }
+
+        function geocodeTextInput() {
+          var textloc = input.property("value");
+          codeAddress(textloc, calculateTazDistances);
+        }
+
+        function calculateTazDistances(gloc) {
+
+          var loc = [gloc.nb, gloc.ob].join(",");
+          var lnglat = loc.split(",").map(Number),
+              center = new google.maps.LatLng(lnglat[0], lnglat[1]);
+          map.setCenter(center);
+          addYouAreHere(center);
+
+          console.log(loc, lnglat, center);
+
+
+          req = mtc.location2taz(loc, function(error, taz) {
+            if (error) {
+              output.classed("error", true).attr("value", "error");
+            } else {
+              output.classed("error", false).attr("value", taz);
+
+              var fromTazValue = d3.select('#taz').attr('value');
+
+              var mode = document.getElementById('mode');
+              var modeValue = mode.options[mode.selectedIndex].value;
+
+              var time = document.getElementById('time');
+              var timeValue = time.options[time.selectedIndex].value;
+
+              var uniqTazs = d3.set(rows.map(function(d) { return d.taz; })).values();
+              var travelTimes = [],
+                  pending = uniqTazs.length;
+
+              uniqTazs.forEach(function(toTazValue) {
+                
+                var o = {
+                  from: fromTazValue,
+                  to: toTazValue,
+                  time: timeValue,
+                  mode: modeValue
+                };
+
+                mtc.travelTimeBetweenTazs(o, function(err, travelTime, extras) {
+                  if (err) {
+                    console.log(err);
+                  } else {
+                    // d3.select('#travel-time').html('Will take<b> ' + travelTime + '</b> minutes')
+                    o.travelTime = travelTime;
+                    travelTimes.push(o);
+                    if (--pending === 0) {
+                      // async!
+                      go(travelTimes);
+                    }
+                  }
+                });
+              });
+            }
+          });
+        }
+
+        d3.select('#submitDest')
+          .on('click', function() {
+
+            d3.event.preventDefault();            
+            if (req) req.abort();
+
+            res.html("");
+            clearOverlays(true);
+
+            geocodeTextInput();
+
+          });
+
+      });
+
+      function go(travelTimes) {
+
+        // sorted by time, then type of destination
+        var tazBins = {
+          30: {},
+          60: {},
+          90: {}
+        };
+        travelTimes.forEach(function(o) {
+          var destTaz = o.to,
+              time = o.travelTime,
+              binnedTime = (Math.round(time / 30) * 30);
+
+          if (binnedTime === 0) binnedTime = 30;
+          if (binnedTime > 90 || binnedTime < 0) return;
+
+          locations.forEach(function(loc) {
+            if (+loc.taz === +destTaz) {
+              if (!tazBins[binnedTime][loc.type]) 
+                tazBins[binnedTime][loc.type] = [];
+              tazBins[binnedTime][loc.type].push(loc);
+            }
+          });
+          // d3.values(tazBins[binnedTime]).forEach(function(destinations) {
+          //   destinations = destinations.sort(function(a, b) { return d3.ascending(a.) })
+          // });
+        });
+
+        // DISPLAY MARKERS ON MAP
+        var colors = {
+          30: "#ffcc00",
+          60: "#00ff00",
+          90: "#0000ff"
+        };
+
+        d3.keys(tazBins).forEach(function(time) {
+          d3.keys(tazBins[time]).forEach(function(type) {
+            tazBins[time][type].forEach(function(l) {
+
+              var marker = {
+                strokeWeight: 1,
+                stroke: "#000",
+                fillColor: colors[time],
+                fillOpacity: 1,
+                map: map,
+                center: new google.maps.LatLng(l.lat, l.lng),
+                radius: 300
+              };
+              var destination = new google.maps.Circle(marker);
+              overlays.push(destination);
+
+            });
+          });
+        });
+        // console.log(tazBins);
+        // END DISPLAY MARKERS ON MAP
+
+        // DISPLAY RAW NEARBY DATA
+        // XXX FIX: this seriously needs to be cleaned up. there are way too many nests happening here
+        res.append("h1").text("Nearby:");
+        var resContainer = res.append("div").classed("results-container", true);
+        // res = res.select(".results-container");
+
+        d3.keys(tazBins).forEach(function(time) {
+          var timeContainer = resContainer.append("div")
+            .classed("time" + time, true);
+          
+          timeContainer
+            .append("h2")
+              .text(time + " mins away:");
+
+          d3.keys(tazBins[time]).forEach(function(type) {
+
+            var typeContainer = timeContainer.append("div")
+              .classed(type, true);
+
+            typeContainer.append("h3")
+              .classed("location-type", true)
+              .text(type);
+            
+            var fullList = tazBins[time][type],
+                stubList = fullList.slice(0, 4);
+
+            var nearbyContainer,
+                showLink,
+                typeClassName = type.toLowerCase().replace(/\s/g, "-");
+
+            function showList(list) {
+              console.log("list to show:", list);
+
+              nearbyContainer = typeContainer.append("div")
+                .attr("class", typeClassName);
+
+              nearbyContainer.append("ul")
+                .selectAll("li")
+                  .data(list)
+                .enter().append("li")
+                  .text(function(d) {
+                    return d.title;
+                  });
+
+              if (list == stubList) {
+                moreOrLess = "show-more";
+                moreOrLessText = "Show More";
+              } else {
+                moreOrLess = "show-less";
+                moreOrLessText = "Show Less";
+              }
+
+              nearbyContainer.append("br");
+              // if (showLink) showLink.remove();
+              showLink = nearbyContainer.append("span")
+                .attr("class", moreOrLess)
+                .text(moreOrLessText)
+                .on("click", function() {
+                  console.log("click registered");
+                  nearbyContainer.remove();
+                  if (showLink.classed("show-more")) {
+                    console.log("showing full list");
+                    showList(fullList);
+                  } else {
+                    console.log("showing stub list");
+                    showList(stubList);
+                  }
+                });
+
+              // console.log("nearbyContainer:", nearbyContainer);
+            }
+
+            showList(stubList);
+
+            // showLink
+            //   .on("click", function() {
+            //     console.log("click registered");
+            //     nearbyContainer.remove();
+            //     if (showLink.classed("show-more")) {
+            //       console.log("showing full list");
+            //       showList(fullList);
+            //     } else {
+            //       console.log("showing stub list");
+            //       showList(stubList);
+            //     }
+            //   });
+          });
+        });
+        // END DISPLAY DATA
+      }
+
+
+    </script>
+  </body>
+</html>

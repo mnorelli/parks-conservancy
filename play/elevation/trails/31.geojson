@@ -1,0 +1,421 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47241451101974, 
+          37.80701144182367
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184533.9654, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546441.8861, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 40.44352, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47249463823465, 
+          37.80704365835737
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184537.5, 
+        "ET_ORDER": 0.0244, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546434.8125, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 40.2005, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4728021661125, 
+          37.807229803593515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184558.0, 
+        "ET_ORDER": 0.1297, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546407.625, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 38.85142, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4730127898211, 
+          37.80737479427818
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184573.9821, 
+        "ET_ORDER": 0.2055, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546388.9936, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 37.84717, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47337671208622, 
+          37.80766874630521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184606.4154, 
+        "ET_ORDER": 0.3468, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546356.7747, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 38.51846, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47358828034363, 
+          37.807802315174555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184621.1299, 
+        "ET_ORDER": 0.4204, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546338.0675, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 39.65848, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47391215705885, 
+          37.807947763411875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184637.1068, 
+        "ET_ORDER": 0.5216, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546309.4668, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 41.53403, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4746439398248, 
+          37.80815710381799
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184659.9707, 
+        "ET_ORDER": 0.7333, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546244.9198, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 43.36179, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47476550927135, 
+          37.808183357587204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184662.8234, 
+        "ET_ORDER": 0.7675, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546234.2021, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 43.83921, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47506137327382, 
+          37.80820669447512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184665.2663, 
+        "ET_ORDER": 0.8484, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546208.1437, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 45.89824, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47519813309785, 
+          37.808257292271776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184670.8125, 
+        "ET_ORDER": 0.8895, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546196.0737, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 46.81363, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47527817549323, 
+          37.80834921561552
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184680.9718, 
+        "ET_ORDER": 0.9278, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546188.9706, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 45.8846, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47534698467963, 
+          37.80855262057083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 221.5, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 323.9, 
+        "Len_Down": 102.4, 
+        "Max_S_Down": 4.3, 
+        "Min_Z": 37.8, 
+        "H_Down": 4.5, 
+        "ET_ID": 31, 
+        "trail_name": "Battery East Road", 
+        "ET_Y": 4184703.5055, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.5, 
+        "ET_IDP": 31, 
+        "ET_IDR": "31_0", 
+        "H_Up": 9.0, 
+        "ET_X": 546182.7869, 
+        "Av_S_Down": 2.5, 
+        "ET_Z": 44.92151, 
+        "Length_2D": 323.6, 
+        "Max_Z": 46.8
+      }
+    }
+  ]
+}

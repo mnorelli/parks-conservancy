@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50410010063854, 
+          37.72165086926229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4175048.0514, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543702.874, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 31.44392, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50423218947086, 
+          37.721625070087406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4175045.1274, 
+        "ET_ORDER": 0.0828, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543691.2483, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 31.49682, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50449858309133, 
+          37.72161415916917
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4175043.7926, 
+        "ET_ORDER": 0.2451, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543667.7777, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 29.68672, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5046414055092, 
+          37.721584682179035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4175040.4556, 
+        "ET_ORDER": 0.3349, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543655.2082, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 27.25822, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50478977767278, 
+          37.721480033553185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4175028.7759, 
+        "ET_ORDER": 0.4556, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543642.1937, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 22.80116, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50489152896574, 
+          37.72136315807866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4175015.7614, 
+        "ET_ORDER": 0.5645, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543633.295, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 18.8926, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50505632203335, 
+          37.7212565735272
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4175003.8593, 
+        "ET_ORDER": 0.6938, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543618.8344, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 14.50543, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5053746089357, 
+          37.72115393618872
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4174992.3237, 
+        "ET_ORDER": 0.9028, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543590.8441, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 7.07532, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50552974693389, 
+          37.72112381847095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 12.0, 
+        "Av_S_Up": 0.3, 
+        "Length_3D": 148.2, 
+        "Len_Down": 136.2, 
+        "Max_S_Down": 16.3, 
+        "Min_Z": 3.0, 
+        "H_Down": 28.5, 
+        "ET_ID": 101, 
+        "trail_name": "Funston Beach Trail (North)", 
+        "ET_Y": 4174988.91, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.3, 
+        "ET_IDP": 101, 
+        "ET_IDR": "101_0", 
+        "H_Up": 0.1, 
+        "ET_X": 543577.1895, 
+        "Av_S_Down": 12.1, 
+        "ET_Z": 2.96729, 
+        "Length_2D": 144.8, 
+        "Max_Z": 31.5
+      }
+    }
+  ]
+}

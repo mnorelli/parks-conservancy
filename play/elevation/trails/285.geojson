@@ -1,0 +1,1317 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47534698467963, 
+          37.80855262057083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184703.5055, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546182.7869, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 44.92151, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47527939954624, 
+          37.8085620113302
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184704.5808, 
+        "ET_ORDER": 0.0113, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546188.7303, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 44.79778, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47516666991255, 
+          37.80867169698262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184716.8061, 
+        "ET_ORDER": 0.0408, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546198.5851, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 40.49415, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47509841014791, 
+          37.808674625845214
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184717.1648, 
+        "ET_ORDER": 0.052, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546204.5919, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 39.09441, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47500356448579, 
+          37.80858151698493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184706.8813, 
+        "ET_ORDER": 0.0769, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546212.9988, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 37.83312, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47472881225448, 
+          37.808472358523886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184694.9061, 
+        "ET_ORDER": 0.1276, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546237.2522, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 37.01653, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47464341789707, 
+          37.80839576655944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184686.4505, 
+        "ET_ORDER": 0.1489, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546244.8169, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 36.10624, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47427540072634, 
+          37.80828849481813
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184674.7309, 
+        "ET_ORDER": 0.2136, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546277.279, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 38.30424, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47416321030512, 
+          37.80823035981493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184668.3364, 
+        "ET_ORDER": 0.2357, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546287.191, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 37.69321, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47318752602585, 
+          37.80794872696058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184637.573, 
+        "ET_ORDER": 0.407, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546373.2531, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 35.56126, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47297000713246, 
+          37.807888272956376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184630.9736, 
+        "ET_ORDER": 0.445, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546392.4384, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 35.86996, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47281414582449, 
+          37.807951826325464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184638.1022, 
+        "ET_ORDER": 0.4739, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546406.1186, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 36.39231, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47278392837818, 
+          37.80799519551891
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184642.929, 
+        "ET_ORDER": 0.4842, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546408.7514, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 36.68728, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47278366593802, 
+          37.80803210749177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184647.0245, 
+        "ET_ORDER": 0.4919, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546408.7514, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 36.61031, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47281380981629, 
+          37.80807706543928
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184651.9976, 
+        "ET_ORDER": 0.5025, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546406.0698, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 36.42855, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47306761056836, 
+          37.808233873425586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184669.2694, 
+        "ET_ORDER": 0.5556, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546383.6305, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 34.96188, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47311819881462, 
+          37.808283754664224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184674.7786, 
+        "ET_ORDER": 0.5689, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546379.1462, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 34.5597, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47314028159792, 
+          37.80836742919174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184684.0513, 
+        "ET_ORDER": 0.5866, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546377.15, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 33.65426, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4730902269059, 
+          37.80844516861613
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184692.7013, 
+        "ET_ORDER": 0.6048, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546381.5075, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 32.70706, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47302955904317, 
+          37.80846812038903
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184695.2779, 
+        "ET_ORDER": 0.6159, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546386.8335, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 32.25953, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47296990302395, 
+          37.8084655434508
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184695.0216, 
+        "ET_ORDER": 0.6257, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546392.0864, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 32.0045, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47290064109711, 
+          37.808380935850266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184685.6688, 
+        "ET_ORDER": 0.6467, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546398.2362, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 31.70173, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.472712403099, 
+          37.808243831600485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184670.5506, 
+        "ET_ORDER": 0.6889, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546414.8919, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 30.785, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4726686664003, 
+          37.808254028826816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184671.7037, 
+        "ET_ORDER": 0.6964, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546418.7355, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 30.35472, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4725993087311, 
+          37.80837318875336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184684.9589, 
+        "ET_ORDER": 0.7237, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546424.7662, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 29.36651, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47254685021407, 
+          37.80838153435142
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184685.9109, 
+        "ET_ORDER": 0.7325, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546429.3787, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 28.90503, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47252032699855, 
+          37.8083584393999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184683.3617, 
+        "ET_ORDER": 0.739, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546431.7279, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 28.49476, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47248556926063, 
+          37.808212792518944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184667.2195, 
+        "ET_ORDER": 0.7698, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546434.8787, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 27.22178, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.472449383025, 
+          37.808216536747615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184667.6529, 
+        "ET_ORDER": 0.7759, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546438.0617, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 26.32937, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47236678748409, 
+          37.80817852272077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184663.4763, 
+        "ET_ORDER": 0.7916, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546445.3561, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 24.51637, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47225655284582, 
+          37.80817431733116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184663.0645, 
+        "ET_ORDER": 0.8098, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546455.0623, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 22.41509, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4721594426859, 
+          37.8082041040621
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184666.4176, 
+        "ET_ORDER": 0.827, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546463.5919, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 20.67666, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47207404585028, 
+          37.808277948758665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184674.6531, 
+        "ET_ORDER": 0.8478, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546471.0628, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 18.81609, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47201869074581, 
+          37.808262325226195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184672.9472, 
+        "ET_ORDER": 0.8575, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546475.9453, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 17.78597, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47199056842054, 
+          37.80827015233704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184673.8296, 
+        "ET_ORDER": 0.8625, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546478.4159, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 16.95002, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47186003107844, 
+          37.80835153949348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184682.9244, 
+        "ET_ORDER": 0.8898, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546489.8556, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 13.49756, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4718209379354, 
+          37.80843403145449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184692.0963, 
+        "ET_ORDER": 0.9082, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546493.2451, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 11.39808, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47180565152462, 
+          37.80854838689764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184704.7916, 
+        "ET_ORDER": 0.9321, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546494.519, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 8.50804, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4717043956652, 
+          37.80860028992794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184710.6006, 
+        "ET_ORDER": 0.952, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546503.3996, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 4.75777, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4716417236059, 
+          37.808651098691236
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184716.269, 
+        "ET_ORDER": 0.9668, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546508.8845, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 4.43027, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47147555635475, 
+          37.80874150453895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 75.8, 
+        "Av_S_Up": 2.5, 
+        "Length_3D": 537.6, 
+        "Len_Down": 461.7, 
+        "Max_S_Down": 19.5, 
+        "Min_Z": 4.0, 
+        "H_Down": 44.3, 
+        "ET_ID": 285, 
+        "trail_name": "Battery East Trail", 
+        "ET_Y": 4184726.3822, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.6, 
+        "ET_IDP": 285, 
+        "ET_IDR": "285_0", 
+        "H_Up": 3.3, 
+        "ET_X": 546523.4548, 
+        "Av_S_Down": 5.5, 
+        "ET_Z": 3.98661, 
+        "Length_2D": 533.6, 
+        "Max_Z": 44.9
+      }
+    }
+  ]
+}

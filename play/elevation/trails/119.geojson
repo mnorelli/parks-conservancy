@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58078628634978, 
+          37.90099922717539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194913.5972, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536855.3502, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 61.39937, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58069463641476, 
+          37.90093944021226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194907.0, 
+        "ET_ORDER": 0.0133, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536863.4375, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 64.05567, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58056312653378, 
+          37.90081278976513
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194893.0, 
+        "ET_ORDER": 0.0364, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536875.0625, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 71.70994, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58045226390175, 
+          37.900555524368585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194864.5, 
+        "ET_ORDER": 0.0747, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536884.9375, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 92.96449, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58039097946613, 
+          37.90045616298987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194853.5, 
+        "ET_ORDER": 0.0902, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536890.375, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 98.80624, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58010582304983, 
+          37.90022080827528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194827.5, 
+        "ET_ORDER": 0.1362, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536915.5625, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 110.69825, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57972967540033, 
+          37.899985128018066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194801.5, 
+        "ET_ORDER": 0.1897, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536948.75, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 122.2096, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57949501406382, 
+          37.89987162751113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194789.0, 
+        "ET_ORDER": 0.2204, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536969.4375, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 113.37068, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57916775930968, 
+          37.89978934100685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194780.0, 
+        "ET_ORDER": 0.2587, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 536998.25, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 115.58147, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57869688175823, 
+          37.899711046117304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194771.5, 
+        "ET_ORDER": 0.3124, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537039.6875, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 97.27737, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57850814735528, 
+          37.89964727948393
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194764.5, 
+        "ET_ORDER": 0.3353, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537056.3125, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 96.01363, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57839331901071, 
+          37.89958828378597
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194758.0, 
+        "ET_ORDER": 0.3506, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537066.4375, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 98.14684, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57823467353465, 
+          37.89948406601039
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194746.5, 
+        "ET_ORDER": 0.3736, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537080.4375, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 98.28751, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57788999433576, 
+          37.89921694713949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194717.0, 
+        "ET_ORDER": 0.4274, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537110.875, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 90.58208, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57703713983692, 
+          37.89843426160863
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194630.5, 
+        "ET_ORDER": 0.5731, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537186.25, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 103.02558, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57647686954587, 
+          37.8979545582967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194577.5, 
+        "ET_ORDER": 0.6652, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537235.75, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 83.05428, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57633720347869, 
+          37.897764782774665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194556.5, 
+        "ET_ORDER": 0.6961, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537248.125, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 96.73089, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57627908032079, 
+          37.89761135262716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194539.5, 
+        "ET_ORDER": 0.7187, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537253.3125, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 101.44032, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5760715928195, 
+          37.89615468381404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194377.9642, 
+        "ET_ORDER": 0.9252, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537272.2893, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 66.85894, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57597618031956, 
+          37.89599451625582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194360.2316, 
+        "ET_ORDER": 0.9502, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537280.7589, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 59.36755, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57583662566226, 
+          37.89591601317082
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194351.5774, 
+        "ET_ORDER": 0.9693, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537293.0684, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 53.42472, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57557235535627, 
+          37.89585528008036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 385.2, 
+        "Av_S_Up": 14.7, 
+        "Length_3D": 821.5, 
+        "Len_Down": 436.3, 
+        "Max_S_Down": 23.4, 
+        "Min_Z": 48.8, 
+        "H_Down": 108.8, 
+        "ET_ID": 119, 
+        "trail_name": "Hillside Trail", 
+        "ET_Y": 4194344.9447, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 35.2, 
+        "ET_IDP": 119, 
+        "ET_IDR": "119_0", 
+        "H_Up": 96.1, 
+        "ET_X": 537316.3342, 
+        "Av_S_Down": 14.5, 
+        "ET_Z": 48.76813, 
+        "Length_2D": 787.6, 
+        "Max_Z": 122.2
+      }
+    }
+  ]
+}

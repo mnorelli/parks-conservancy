@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51122795855585, 
+          37.78188240170739
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 29.7, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 29.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 98, 
+        "trail_name": "Fort Miley Trail", 
+        "ET_Y": 4181727.3415, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 16.0, 
+        "ET_IDP": 98, 
+        "ET_IDR": "98_0", 
+        "H_Up": 8.2, 
+        "ET_X": 543039.8003, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 59.30681, 
+        "Length_2D": 28.6, 
+        "Max_Z": 67.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51093415447181, 
+          37.78199160903231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 29.7, 
+        "Av_S_Up": 16.0, 
+        "Length_3D": 29.7, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 59.3, 
+        "H_Down": 0.0, 
+        "ET_ID": 98, 
+        "trail_name": "Fort Miley Trail", 
+        "ET_Y": 4181739.5932, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 16.0, 
+        "ET_IDP": 98, 
+        "ET_IDR": "98_0", 
+        "H_Up": 8.2, 
+        "ET_X": 543065.6086, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 67.52103, 
+        "Length_2D": 28.6, 
+        "Max_Z": 67.5
+      }
+    }
+  ]
+}

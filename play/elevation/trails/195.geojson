@@ -1,0 +1,3685 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53919662899835, 
+          37.83215694707884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187292.7649, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540549.4489, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 7.07972, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53986929893695, 
+          37.8322446812435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187302.2072, 
+        "ET_ORDER": 0.0237, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540490.2075, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 9.40392, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54019015574461, 
+          37.83230941168791
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187309.25, 
+        "ET_ORDER": 0.0352, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540461.9375, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 11.88689, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54042709951156, 
+          37.832478176363715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187327.8718, 
+        "ET_ORDER": 0.0463, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540440.9949, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 14.52999, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54052270618931, 
+          37.83257632243213
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187338.7197, 
+        "ET_ORDER": 0.0517, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540432.5282, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 15.89835, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54075678110043, 
+          37.83288385241359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187372.7388, 
+        "ET_ORDER": 0.0674, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540411.7625, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 19.8412, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5411818453907, 
+          37.83343977500803
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187434.2345, 
+        "ET_ORDER": 0.0959, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540374.0552, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 26.68673, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54139914933357, 
+          37.833691228342715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187462.0393, 
+        "ET_ORDER": 0.1093, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540354.7963, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 29.56135, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54154929236516, 
+          37.833825145226854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187476.8325, 
+        "ET_ORDER": 0.1171, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540341.5114, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 30.06073, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54165676640575, 
+          37.833949569132976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187490.5909, 
+        "ET_ORDER": 0.1238, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540331.9864, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 30.04149, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54168926577269, 
+          37.83404269890448
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187500.9096, 
+        "ET_ORDER": 0.128, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540329.0759, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 30.36606, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54173674461872, 
+          37.83436562141271
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187536.7173, 
+        "ET_ORDER": 0.1422, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540324.7222, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 33.89925, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54179476396534, 
+          37.834486666619775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187550.1222, 
+        "ET_ORDER": 0.1479, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540319.5509, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 35.63193, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54184854586218, 
+          37.83454172495941
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187556.2077, 
+        "ET_ORDER": 0.151, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540314.7884, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 36.62299, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5419204862014, 
+          37.8345777750102
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187560.1764, 
+        "ET_ORDER": 0.1539, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540308.4384, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 37.57283, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54207216908142, 
+          37.834597782662904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187562.3308, 
+        "ET_ORDER": 0.1593, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540295.0802, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 39.25198, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54220206182022, 
+          37.834543728747775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187556.2775, 
+        "ET_ORDER": 0.1644, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540283.6797, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 40.80546, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54226844152574, 
+          37.83448086813693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187549.2745, 
+        "ET_ORDER": 0.168, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540277.8728, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 41.91582, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54231772207146, 
+          37.83437704598086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187537.7342, 
+        "ET_ORDER": 0.1728, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540273.5928, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 43.41876, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54245863462705, 
+          37.83386327363383
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187480.6705, 
+        "ET_ORDER": 0.1959, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540261.4724, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 49.34934, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.542541672499, 
+          37.833761540151315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187469.3474, 
+        "ET_ORDER": 0.2012, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540254.2207, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 50.50185, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5425878906342, 
+          37.833730794870284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187465.9163, 
+        "ET_ORDER": 0.2033, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540250.1704, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 50.91025, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54275848757989, 
+          37.83367347704093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187459.4834, 
+        "ET_ORDER": 0.2097, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540235.1897, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 52.28454, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54290754361473, 
+          37.833683924056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187460.5783, 
+        "ET_ORDER": 0.2149, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540222.0677, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 53.22874, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5430059155501, 
+          37.83371113234483
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187463.5547, 
+        "ET_ORDER": 0.2185, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540213.3966, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 53.91975, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54316293402387, 
+          37.83379630496276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187472.937, 
+        "ET_ORDER": 0.2251, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540199.5334, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 55.92151, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54321314075902, 
+          37.83384610140197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187478.4403, 
+        "ET_ORDER": 0.2279, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540195.0884, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 56.78347, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54323911711327, 
+          37.83392442129197
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187487.1187, 
+        "ET_ORDER": 0.2315, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540192.7601, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 57.81504, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5432045325639, 
+          37.83450256656762
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187551.2787, 
+        "ET_ORDER": 0.2568, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540195.4897, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 65.56781, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54321192103704, 
+          37.83459923800155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187562.0012, 
+        "ET_ORDER": 0.2611, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540194.7871, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 66.92203, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54325373232587, 
+          37.8347102403428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187574.2989, 
+        "ET_ORDER": 0.2662, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540191.0477, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 68.52987, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54341424622812, 
+          37.83485558128632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187590.3554, 
+        "ET_ORDER": 0.2746, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540176.8445, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 71.06352, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54411131037823, 
+          37.83525161159916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187633.9953, 
+        "ET_ORDER": 0.3044, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540115.2922, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 79.8807, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54418307643853, 
+          37.835316277029165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187641.1391, 
+        "ET_ORDER": 0.3082, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540108.9422, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 81.20279, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54420369846969, 
+          37.835385513314506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187648.812, 
+        "ET_ORDER": 0.3113, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540107.0901, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 82.20694, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54419422512383, 
+          37.83545883322035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187656.9509, 
+        "ET_ORDER": 0.3146, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540107.884, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 83.22459, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5441638766547, 
+          37.83550459505029
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187662.0412, 
+        "ET_ORDER": 0.3168, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540110.5297, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 83.90413, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54409136195544, 
+          37.83556154742948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187668.3912, 
+        "ET_ORDER": 0.3204, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540116.8797, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 85.0998, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54403411567108, 
+          37.83558040380014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187670.5079, 
+        "ET_ORDER": 0.3225, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540121.9068, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 85.82132, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5439438831217, 
+          37.835584824147546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187671.0371, 
+        "ET_ORDER": 0.3257, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540129.8443, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 86.83305, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54379674196754, 
+          37.83555325288328
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187667.5975, 
+        "ET_ORDER": 0.331, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540142.8089, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 88.50806, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54341455986489, 
+          37.8354397176226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187655.1651, 
+        "ET_ORDER": 0.3452, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540176.5001, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 92.85176, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.543277363465, 
+          37.835422464589406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187653.3099, 
+        "ET_ORDER": 0.35, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540188.5819, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 94.37842, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54314386825088, 
+          37.835443032024195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187655.6493, 
+        "ET_ORDER": 0.3547, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540200.3175, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 95.91978, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54309411032733, 
+          37.8354680747229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187658.4492, 
+        "ET_ORDER": 0.3568, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540204.6823, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 96.57009, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5430243835311, 
+          37.83553739419319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187666.1702, 
+        "ET_ORDER": 0.3606, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540210.7802, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 97.68691, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54296604515413, 
+          37.83569288321056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187683.4468, 
+        "ET_ORDER": 0.3677, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540215.8292, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 99.85151, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54295769468575, 
+          37.83595718462786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187712.7746, 
+        "ET_ORDER": 0.3793, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540216.4205, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 102.93892, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54300621854715, 
+          37.836186033867136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187738.1445, 
+        "ET_ORDER": 0.3895, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540212.0265, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 103.52772, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54333715617281, 
+          37.83714301310175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187844.1788, 
+        "ET_ORDER": 0.433, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540182.3872, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 103.91878, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54342133408241, 
+          37.83754907401118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187889.195, 
+        "ET_ORDER": 0.451, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540174.76, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 106.86386, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54328206099109, 
+          37.83774063422542
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187910.5085, 
+        "ET_ORDER": 0.4607, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540186.9109, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 106.26296, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5431546468377, 
+          37.837836112193486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187921.1566, 
+        "ET_ORDER": 0.4668, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540198.0704, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 105.33092, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54285508394031, 
+          37.837971353689085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187936.2906, 
+        "ET_ORDER": 0.4788, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540224.3558, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 103.49522, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54269374239708, 
+          37.83800518700469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187940.1139, 
+        "ET_ORDER": 0.4846, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540238.534, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 102.75594, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54253817782752, 
+          37.838016876678246
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187941.4779, 
+        "ET_ORDER": 0.49, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540252.2159, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 101.96625, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54241054573656, 
+          37.83800611314478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187940.3387, 
+        "ET_ORDER": 0.4945, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540263.4522, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 101.33715, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54221247674212, 
+          37.837953063042356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187934.5382, 
+        "ET_ORDER": 0.5017, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540280.9093, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 100.26532, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54185762690592, 
+          37.837808172449115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187918.6157, 
+        "ET_ORDER": 0.5156, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540312.2117, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 98.57648, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54165428757017, 
+          37.83775131090717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187912.3947, 
+        "ET_ORDER": 0.5231, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540330.1347, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 97.65578, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54149597539252, 
+          37.83774885961248
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187912.1911, 
+        "ET_ORDER": 0.5286, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540344.0661, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 96.98259, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5413191705676, 
+          37.83778015945763
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187915.7402, 
+        "ET_ORDER": 0.5349, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540359.6063, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 96.16612, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54109222627112, 
+          37.83788265535358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187927.2102, 
+        "ET_ORDER": 0.544, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540379.5195, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 95.06134, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54094361125713, 
+          37.83790792116138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187930.0777, 
+        "ET_ORDER": 0.5493, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540392.5825, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 94.35448, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54081692531045, 
+          37.83790024746965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187929.2811, 
+        "ET_ORDER": 0.5537, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540403.7339, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 93.57945, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54071155051291, 
+          37.837875920371864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187926.6276, 
+        "ET_ORDER": 0.5575, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540413.0192, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 93.28507, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54038351644566, 
+          37.837721949197714
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187909.6865, 
+        "ET_ORDER": 0.5707, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540441.9673, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 91.61392, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54026595512546, 
+          37.83770282515993
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187907.6156, 
+        "ET_ORDER": 0.5749, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540452.3221, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 91.06749, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54011377182316, 
+          37.83771946039212
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187909.5272, 
+        "ET_ORDER": 0.5802, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540465.7038, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 90.42639, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53977100372722, 
+          37.83781432248361
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187920.2007, 
+        "ET_ORDER": 0.5929, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540495.8125, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 88.77821, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53955910244558, 
+          37.83782641716675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187921.6345, 
+        "ET_ORDER": 0.6002, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540514.4513, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 87.90584, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5388133657404, 
+          37.83779765425184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187918.767, 
+        "ET_ORDER": 0.6262, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540580.0852, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 84.62104, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53862702528077, 
+          37.83777538675476
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187916.3774, 
+        "ET_ORDER": 0.6327, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540596.4937, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 83.8151, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5384668414222, 
+          37.837733714470474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187911.8235, 
+        "ET_ORDER": 0.6386, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540610.6113, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 83.07987, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53817003408537, 
+          37.83760560265954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187897.7386, 
+        "ET_ORDER": 0.6503, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540636.798, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 81.57066, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53801857587239, 
+          37.8375059359944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187886.7465, 
+        "ET_ORDER": 0.6572, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540650.1797, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 80.82508, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53792320774343, 
+          37.837404781239265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187875.5649, 
+        "ET_ORDER": 0.6627, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540658.6268, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 80.17893, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53786059325618, 
+          37.8372913772788
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187863.01, 
+        "ET_ORDER": 0.6681, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540664.1986, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 79.42755, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53784308094639, 
+          37.83719654326708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187852.4958, 
+        "ET_ORDER": 0.6723, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540665.7916, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 79.13266, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53785778680657, 
+          37.836870667378044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187816.3335, 
+        "ET_ORDER": 0.6866, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540664.6765, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 77.90949, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53790782883067, 
+          37.83659465076317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187785.6877, 
+        "ET_ORDER": 0.6989, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540660.4247, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 76.42313, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53795061801678, 
+          37.83650058601358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187775.2326, 
+        "ET_ORDER": 0.7032, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540656.7112, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 75.78979, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5381205873343, 
+          37.83624423848987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187746.7169, 
+        "ET_ORDER": 0.7159, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540641.8958, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 73.92278, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53828297411285, 
+          37.836042422553774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187724.2548, 
+        "ET_ORDER": 0.7264, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540627.7176, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 72.31633, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53846814817909, 
+          37.835704332304864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187686.6632, 
+        "ET_ORDER": 0.7426, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540611.6089, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 69.87291, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53855689933671, 
+          37.83537296179017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187649.8591, 
+        "ET_ORDER": 0.7574, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540603.981, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 67.70436, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.538624683818, 
+          37.83495396410212
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187603.3419, 
+        "ET_ORDER": 0.7759, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540598.246, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 64.94385, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53860246337211, 
+          37.83474280963123
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187579.924, 
+        "ET_ORDER": 0.7852, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540600.317, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 63.58767, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5385189593392, 
+          37.83448833971687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187551.7269, 
+        "ET_ORDER": 0.7967, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540607.8044, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 61.77058, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53838794908185, 
+          37.834304039658676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187531.3358, 
+        "ET_ORDER": 0.806, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540619.4337, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 60.30882, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53827282146374, 
+          37.83418584958036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187518.2727, 
+        "ET_ORDER": 0.8126, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540629.6292, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 59.34871, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53810705679653, 
+          37.834058846105385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187504.2538, 
+        "ET_ORDER": 0.8206, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540644.2854, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 58.12567, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53792135397462, 
+          37.83393607152385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187490.7128, 
+        "ET_ORDER": 0.829, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540660.6938, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 56.94096, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53763238122498, 
+          37.83382581422772
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187478.6056, 
+        "ET_ORDER": 0.8401, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540686.1827, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 55.20966, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53748055492841, 
+          37.83378645101387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187474.3044, 
+        "ET_ORDER": 0.8457, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540699.5644, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 54.35544, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53711865021116, 
+          37.833759184193596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187471.4369, 
+        "ET_ORDER": 0.8583, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540731.4255, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 52.35569, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53687407546262, 
+          37.83378693928757
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187474.623, 
+        "ET_ORDER": 0.8669, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540752.9318, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 51.10578, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53666007084664, 
+          37.83384783807416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187481.4731, 
+        "ET_ORDER": 0.8748, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540771.7298, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 50.2169, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5364410831343, 
+          37.833836925860886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187480.358, 
+        "ET_ORDER": 0.8824, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540791.0058, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 48.75228, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53619646294689, 
+          37.8338718582864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187484.3406, 
+        "ET_ORDER": 0.8911, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540812.5121, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 47.36084, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53609486862402, 
+          37.83390591787266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187488.1639, 
+        "ET_ORDER": 0.8949, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540821.4332, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 46.83192, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53578047477373, 
+          37.834097081323065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187509.5109, 
+        "ET_ORDER": 0.9087, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540848.9931, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 44.82289, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53552289456424, 
+          37.83417790814384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187518.5913, 
+        "ET_ORDER": 0.9183, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540871.6144, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 42.83284, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53538521773719, 
+          37.83419172383486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187520.1844, 
+        "ET_ORDER": 0.9231, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540883.7217, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 42.35214, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53530011439167, 
+          37.83419425964311
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187520.503, 
+        "ET_ORDER": 0.9261, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540891.209, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 42.18354, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53515920127805, 
+          37.83417089596138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187517.9725, 
+        "ET_ORDER": 0.9311, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540903.6216, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 41.53643, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53479063472179, 
+          37.83402712686269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187502.1828, 
+        "ET_ORDER": 0.9453, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540936.1332, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 39.6175, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53464052964722, 
+          37.83400212462798
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187499.4746, 
+        "ET_ORDER": 0.9507, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540949.3556, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 38.82015, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53451381500906, 
+          37.83400018809269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187499.3153, 
+        "ET_ORDER": 0.9551, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540960.507, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 38.17471, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53438517279227, 
+          37.83401690989037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187501.227, 
+        "ET_ORDER": 0.9596, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540971.8177, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 37.58385, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53407855815676, 
+          37.83412194890925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187513.0156, 
+        "ET_ORDER": 0.9712, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 540998.7403, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 35.77403, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53393895462128, 
+          37.83415442047486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187516.6796, 
+        "ET_ORDER": 0.9763, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 541011.0068, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 35.0446, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5337162645683, 
+          37.83415641149727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187516.9983, 
+        "ET_ORDER": 0.984, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 541030.6014, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 33.81007, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53353724830423, 
+          37.83412267778747
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187513.3342, 
+        "ET_ORDER": 0.9904, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 541046.3727, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 32.87355, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53333012952496, 
+          37.83397819148862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1130.5, 
+        "Av_S_Up": 5.1, 
+        "Length_3D": 2539.3, 
+        "Len_Down": 1408.8, 
+        "Max_S_Down": 4.7, 
+        "Min_Z": 7.1, 
+        "H_Down": 75.4, 
+        "ET_ID": 195, 
+        "trail_name": "Old Bunker Fire Road", 
+        "ET_Y": 4187497.3945, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 7.9, 
+        "ET_IDP": 195, 
+        "ET_IDR": "195_0", 
+        "H_Up": 99.8, 
+        "ET_X": 541064.6783, 
+        "Av_S_Down": 3.1, 
+        "ET_Z": 31.47245, 
+        "Length_2D": 2531.9, 
+        "Max_Z": 106.9
+      }
+    }
+  ]
+}

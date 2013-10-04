@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4904362365865, 
+          37.8284130334491
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 57.6, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 57.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 15.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 129, 
+        "trail_name": "Kirby Cove Connector Trail", 
+        "ET_Y": 4186899.6643, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 129, 
+        "ET_IDR": "129_0", 
+        "H_Up": 1.7, 
+        "ET_X": 544842.5242, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 15.94502, 
+        "Length_2D": 57.6, 
+        "Max_Z": 17.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49027052357788, 
+          37.82848858592699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 57.6, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 57.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 15.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 129, 
+        "trail_name": "Kirby Cove Connector Trail", 
+        "ET_Y": 4186908.1264, 
+        "ET_ORDER": 0.2922, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 129, 
+        "ET_IDR": "129_0", 
+        "H_Up": 1.7, 
+        "ET_X": 544857.0616, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 17.04797, 
+        "Length_2D": 57.6, 
+        "Max_Z": 17.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.490112637041, 
+          37.828501591574856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 57.6, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 57.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 15.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 129, 
+        "trail_name": "Kirby Cove Connector Trail", 
+        "ET_Y": 4186909.6452, 
+        "ET_ORDER": 0.5349, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 129, 
+        "ET_IDR": "129_0", 
+        "H_Up": 1.7, 
+        "ET_X": 544870.9481, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 17.57469, 
+        "Length_2D": 57.6, 
+        "Max_Z": 17.6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.48980842967657, 
+          37.828497363900055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 57.6, 
+        "Av_S_Up": 1.7, 
+        "Length_3D": 57.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 15.9, 
+        "H_Down": 0.0, 
+        "ET_ID": 129, 
+        "trail_name": "Kirby Cove Connector Trail", 
+        "ET_Y": 4186909.3223, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 3.8, 
+        "ET_IDP": 129, 
+        "ET_IDR": "129_0", 
+        "H_Up": 1.7, 
+        "ET_X": 544897.7216, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 17.61973, 
+        "Length_2D": 57.6, 
+        "Max_Z": 17.6
+      }
+    }
+  ]
+}

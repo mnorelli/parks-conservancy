@@ -1,0 +1,805 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5489810367436, 
+          37.84604631878963
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188829.587, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539681.0014, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 11.41726, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54869091505712, 
+          37.84629596973175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188857.4091, 
+        "ET_ORDER": 0.0426, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539706.3928, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 11.98786, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54854518070755, 
+          37.8464806233327
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188877.9584, 
+        "ET_ORDER": 0.07, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539719.1156, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 12.76839, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54833265235993, 
+          37.846669199939285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188898.9714, 
+        "ET_ORDER": 0.1018, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539737.7128, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 13.23355, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54785289781579, 
+          37.84690475762861
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188925.3108, 
+        "ET_ORDER": 0.1579, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539779.7953, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 14.61055, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5470663693134, 
+          37.84722372414523
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188961.0355, 
+        "ET_ORDER": 0.2459, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539848.8226, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 14.48474, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54672129458851, 
+          37.84738066131222
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188978.595, 
+        "ET_ORDER": 0.2855, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539879.0977, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 15.00547, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54642467742134, 
+          37.84749139657697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188991.0078, 
+        "ET_ORDER": 0.3182, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539905.1343, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 15.70158, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54618694154236, 
+          37.84753959825037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4188996.4574, 
+        "ET_ORDER": 0.3426, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539926.0242, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 15.68908, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54605230461362, 
+          37.847610025655136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189004.3289, 
+        "ET_ORDER": 0.3587, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539937.8315, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 16.4269, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54575952891274, 
+          37.84765528512542
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189009.4757, 
+        "ET_ORDER": 0.3884, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539963.5653, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 17.14501, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54552864073736, 
+          37.847708968388034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189015.5307, 
+        "ET_ORDER": 0.4124, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 539983.8497, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 17.65338, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5450279086743, 
+          37.847771202458944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189022.6501, 
+        "ET_ORDER": 0.4628, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540027.8701, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 17.45205, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54472640911585, 
+          37.84778523324306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189024.3361, 
+        "ET_ORDER": 0.4929, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540054.3882, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 17.73175, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54355900599724, 
+          37.848306826426835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189082.7083, 
+        "ET_ORDER": 0.6263, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540156.8125, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 19.90212, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54333001408985, 
+          37.848461413936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189099.9583, 
+        "ET_ORDER": 0.6563, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540176.875, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 20.23265, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5426266647353, 
+          37.84869978364393
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189126.7083, 
+        "ET_ORDER": 0.7325, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540238.625, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 20.8221, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54209090700674, 
+          37.84894781399156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189154.4583, 
+        "ET_ORDER": 0.7942, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540285.625, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 21.8559, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54171685839695, 
+          37.84901498704674
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189162.0726, 
+        "ET_ORDER": 0.8324, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540318.4964, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 22.65274, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54100373225681, 
+          37.84907516674177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189169.0577, 
+        "ET_ORDER": 0.9038, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540381.2028, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 24.20663, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54073078930682, 
+          37.8491513670143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189177.6302, 
+        "ET_ORDER": 0.9327, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540405.1741, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 25.30235, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54046526253045, 
+          37.84927352614232
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189191.2987, 
+        "ET_ORDER": 0.9632, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540428.4678, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 26.33694, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54023362383332, 
+          37.84943676511037
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189209.5104, 
+        "ET_ORDER": 0.9941, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540448.7576, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 27.92674, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54021921903598, 
+          37.849453960764784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189211.4245, 
+        "ET_ORDER": 0.9967, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540450.0155, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 28.09682, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.54022764228924, 
+          37.849479487990756
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 739.8, 
+        "Av_S_Up": 1.3, 
+        "Length_3D": 883.7, 
+        "Len_Down": 143.9, 
+        "Max_S_Down": 0.3, 
+        "Min_Z": 11.4, 
+        "H_Down": 0.3, 
+        "ET_ID": 148, 
+        "trail_name": "Lower Tennessee Valley Trail", 
+        "ET_Y": 4189214.2531, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 4.2, 
+        "ET_IDP": 148, 
+        "ET_IDR": "148_0", 
+        "H_Up": 17.2, 
+        "ET_X": 540449.2605, 
+        "Av_S_Down": 0.1, 
+        "ET_Z": 28.29975, 
+        "Length_2D": 883.5, 
+        "Max_Z": 28.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53995323485047, 
+          37.87042301523831
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191538.0631, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540461.951, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 202.18235, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53890462999549, 
+          37.870443087082386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191540.7452, 
+        "ET_ORDER": 0.1822, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540554.1672, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 202.40048, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53851442871287, 
+          37.87049592936653
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191546.7777, 
+        "ET_ORDER": 0.251, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540588.4573, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 202.15615, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53819454767685, 
+          37.870560492740054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191554.0802, 
+        "ET_ORDER": 0.3084, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540616.5561, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 201.4798, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5380347141555, 
+          37.870575605156105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191555.8265, 
+        "ET_ORDER": 0.3363, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540630.6055, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 201.16738, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53792380151646, 
+          37.8705608617365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191554.239, 
+        "ET_ORDER": 0.3559, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540640.3686, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 200.88599, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53760040418513, 
+          37.87046587282533
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191543.8408, 
+        "ET_ORDER": 0.4158, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540668.8643, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 199.38544, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53749308259974, 
+          37.87045400473952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191542.5708, 
+        "ET_ORDER": 0.4346, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540678.31, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 198.57894, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53725755919177, 
+          37.870450217660924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191542.2533, 
+        "ET_ORDER": 0.4756, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540699.0269, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 196.73161, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5371509927369, 
+          37.87046196095134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191543.6027, 
+        "ET_ORDER": 0.4943, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540708.3932, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 195.75936, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53704971173768, 
+          37.870494472012176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191547.254, 
+        "ET_ORDER": 0.5132, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540717.2832, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 194.74884, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53690743024045, 
+          37.87058906207611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191557.8109, 
+        "ET_ORDER": 0.5455, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540729.7451, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 193.19788, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53680833203951, 
+          37.87070528367821
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191570.749, 
+        "ET_ORDER": 0.5763, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540738.397, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 190.83891, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53667275653109, 
+          37.871025969937044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191606.3885, 
+        "ET_ORDER": 0.6504, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540750.1445, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 185.41875, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53658969617014, 
+          37.871175163713424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191622.9779, 
+        "ET_ORDER": 0.6861, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540757.3676, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 182.16821, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53657484447184, 
+          37.87124092286799
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191630.2804, 
+        "ET_ORDER": 0.7008, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540758.6376, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 181.02683, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53663858304559, 
+          37.8715831395914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191668.2217, 
+        "ET_ORDER": 0.7766, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540752.8432, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 173.44209, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53663529678497, 
+          37.87167541461518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191678.4611, 
+        "ET_ORDER": 0.7968, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540753.0814, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 171.9193, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53658303118644, 
+          37.871826077008336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191695.2, 
+        "ET_ORDER": 0.8311, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540757.5952, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 168.85445, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53639624875225, 
+          37.87208941153689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191724.4987, 
+        "ET_ORDER": 0.8973, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540773.8777, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 163.76908, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53603446132365, 
+          37.872460026834084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 92.3, 
+        "Av_S_Up": 0.1, 
+        "Length_3D": 509.8, 
+        "Len_Down": 417.5, 
+        "Max_S_Down": 11.2, 
+        "Min_Z": 154.7, 
+        "H_Down": 47.7, 
+        "ET_ID": 69, 
+        "trail_name": "County View Road", 
+        "ET_Y": 4191765.7768, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.1, 
+        "ET_IDP": 69, 
+        "ET_IDR": "69_0", 
+        "H_Up": 0.2, 
+        "ET_X": 540805.4926, 
+        "Av_S_Down": 6.6, 
+        "ET_Z": 154.65235, 
+        "Length_2D": 506.2, 
+        "Max_Z": 202.4
+      }
+    }
+  ]
+}

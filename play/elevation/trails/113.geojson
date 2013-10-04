@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49985293037983, 
+          37.827613284777904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186806.4539, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 544014.308, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 271.48705, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49993810120152, 
+          37.82766310478675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186811.9413, 
+        "ET_ORDER": 0.0213, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 544006.7831, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 270.95669, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5001275067831, 
+          37.82771717068091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186817.8507, 
+        "ET_ORDER": 0.0619, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543990.0827, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 267.64001, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50045221375731, 
+          37.827838965755475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186831.211, 
+        "ET_ORDER": 0.1343, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543961.4352, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 264.61426, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50083879667326, 
+          37.82805797947706
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186855.3287, 
+        "ET_ORDER": 0.23, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543927.2849, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 258.90967, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50092469914637, 
+          37.828106645494806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186860.6878, 
+        "ET_ORDER": 0.2512, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543919.6964, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 257.96357, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50100582124132, 
+          37.82821993209394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186873.2188, 
+        "ET_ORDER": 0.2843, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543912.4903, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 256.95654, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50127049725049, 
+          37.82831318031658
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186883.4403, 
+        "ET_ORDER": 0.3427, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543889.1429, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.93718, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50126854275551, 
+          37.82813793616482
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186863.9979, 
+        "ET_ORDER": 0.3872, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543889.4187, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 249.05837, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50124240036152, 
+          37.828064499563304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186855.8624, 
+        "ET_ORDER": 0.4066, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543891.7628, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.43856, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50116408167153, 
+          37.827949314224185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186843.1194, 
+        "ET_ORDER": 0.4398, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543898.7233, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.4314, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50114155208729, 
+          37.82791617865828
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186839.4536, 
+        "ET_ORDER": 0.4494, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543900.7256, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.43903, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50101720953765, 
+          37.82776651522869
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186822.9069, 
+        "ET_ORDER": 0.4949, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543911.7568, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.10162, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50089375359249, 
+          37.82769465812433
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186814.9924, 
+        "ET_ORDER": 0.5258, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543922.6639, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.93117, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50065614984298, 
+          37.82744203829507
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186787.076, 
+        "ET_ORDER": 0.6058, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543943.7236, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 251.81992, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50052439664317, 
+          37.827190248161465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186759.2019, 
+        "ET_ORDER": 0.6751, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543955.4677, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.56094, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50032329104333, 
+          37.82703901553052
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186742.5173, 
+        "ET_ORDER": 0.7309, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543973.2555, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 249.44866, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50015980604843, 
+          37.82683438559107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186719.8906, 
+        "ET_ORDER": 0.7925, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 543987.7643, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 248.37611, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49988281390284, 
+          37.82688670780877
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186725.8262, 
+        "ET_ORDER": 0.8498, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 544012.1097, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 256.71904, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49934868813015, 
+          37.82698759783088
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186737.2717, 
+        "ET_ORDER": 0.9605, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 544059.055, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 247.89052, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49915493001946, 
+          37.826963212977454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 123.0, 
+        "Av_S_Up": 6.1, 
+        "Length_3D": 441.6, 
+        "Len_Down": 318.6, 
+        "Max_S_Down": 17.5, 
+        "Min_Z": 245.7, 
+        "H_Down": 38.9, 
+        "ET_ID": 113, 
+        "trail_name": "Hawk Hill Trail", 
+        "ET_Y": 4186734.6576, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 18.4, 
+        "ET_IDP": 113, 
+        "ET_IDR": "113_0", 
+        "H_Up": 13.1, 
+        "ET_X": 544076.121, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 245.6761, 
+        "Length_2D": 436.8, 
+        "Max_Z": 271.5
+      }
+    }
+  ]
+}

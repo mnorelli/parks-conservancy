@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49081940901085, 
+          37.78736046982628
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 53.2, 
+        "Len_Down": 53.2, 
+        "Max_S_Down": 18.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.8, 
+        "ET_ID": 60, 
+        "trail_name": "China Beach Staircase", 
+        "ET_Y": 4182344.7171, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 60, 
+        "ET_IDR": "60_0", 
+        "H_Up": 0.0, 
+        "ET_X": 544833.6182, 
+        "Av_S_Down": 18.5, 
+        "ET_Z": 25.36764, 
+        "Length_2D": 50.4, 
+        "Max_Z": 25.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49091884700611, 
+          37.787458101688934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 53.2, 
+        "Len_Down": 53.2, 
+        "Max_S_Down": 18.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.8, 
+        "ET_ID": 60, 
+        "trail_name": "China Beach Staircase", 
+        "ET_Y": 4182355.5016, 
+        "ET_ORDER": 0.2761, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 60, 
+        "ET_IDR": "60_0", 
+        "H_Up": 0.0, 
+        "ET_X": 544824.8036, 
+        "Av_S_Down": 18.5, 
+        "ET_Z": 20.80814, 
+        "Length_2D": 50.4, 
+        "Max_Z": 25.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49108495678544, 
+          37.78775961379862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 53.2, 
+        "Len_Down": 53.2, 
+        "Max_S_Down": 18.6, 
+        "Min_Z": 8.5, 
+        "H_Down": 16.8, 
+        "ET_ID": 60, 
+        "trail_name": "China Beach Staircase", 
+        "ET_Y": 4182388.8745, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 60, 
+        "ET_IDR": "60_0", 
+        "H_Up": 0.0, 
+        "ET_X": 544809.9954, 
+        "Av_S_Down": 18.5, 
+        "ET_Z": 8.53427, 
+        "Length_2D": 50.4, 
+        "Max_Z": 25.4
+      }
+    }
+  ]
+}

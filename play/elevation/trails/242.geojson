@@ -1,0 +1,4581 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45393954426065, 
+          37.619190862487415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163705.0, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548189.6875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 200.25004, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45343578186149, 
+          37.61864096740783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163644.25, 
+        "ET_ORDER": 0.0274, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548234.5, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 193.68012, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45321698918865, 
+          37.618441659434666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163622.25, 
+        "ET_ORDER": 0.038, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548253.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 191.82861, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45317001966148, 
+          37.6183760947784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163615.0, 
+        "ET_ORDER": 0.041, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548258.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 191.55414, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45310027293645, 
+          37.618326197954644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163609.5, 
+        "ET_ORDER": 0.044, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548264.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 190.92125, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45296259234166, 
+          37.61817233230697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163592.5, 
+        "ET_ORDER": 0.0516, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548276.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 189.95346, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45284979757213, 
+          37.618005061819424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163574.0, 
+        "ET_ORDER": 0.0593, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548286.625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 188.91621, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45272765039634, 
+          37.617761134111646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163547.0, 
+        "ET_ORDER": 0.0698, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548297.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 187.64239, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45255677898744, 
+          37.61720827193048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163485.75, 
+        "ET_ORDER": 0.0927, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548313.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 185.75133, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45251478450643, 
+          37.617140476739145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163478.25, 
+        "ET_ORDER": 0.0958, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548316.75, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 185.55096, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45239664577247, 
+          37.616736579729555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163433.5, 
+        "ET_ORDER": 0.1125, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548327.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 187.56549, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45235465169755, 
+          37.61666878447904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163426.0, 
+        "ET_ORDER": 0.1155, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548331.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 187.99592, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45228128878153, 
+          37.61643634938913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163400.25, 
+        "ET_ORDER": 0.1251, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548337.8125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 189.55581, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45224045205943, 
+          37.616210825270706
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163375.25, 
+        "ET_ORDER": 0.1343, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548341.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 190.5427, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45225260907625, 
+          37.61609821441574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163362.75, 
+        "ET_ORDER": 0.1389, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548340.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 191.02085, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45223727753594, 
+          37.616064343062824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163359.0, 
+        "ET_ORDER": 0.1403, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548341.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 191.31288, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45220134331021, 
+          37.616039389450435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163356.25, 
+        "ET_ORDER": 0.1418, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548345.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 190.9101, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45206146443869, 
+          37.6157998853655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163329.75, 
+        "ET_ORDER": 0.1524, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548357.625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 194.38915, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45203195340386, 
+          37.6157682014887
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163326.25, 
+        "ET_ORDER": 0.154, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548360.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 194.76302, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4519514717733, 
+          37.61573402754565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163322.5, 
+        "ET_ORDER": 0.157, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548367.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 195.49585, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45192622627793, 
+          37.6157001101069
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163318.75, 
+        "ET_ORDER": 0.1585, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548369.625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 195.20525, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45192958813622, 
+          37.615628018653176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163310.75, 
+        "ET_ORDER": 0.1614, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548369.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 195.80233, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45189001727579, 
+          37.61551967425611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163298.75, 
+        "ET_ORDER": 0.166, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548372.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 196.63887, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45188801165818, 
+          37.61540699764306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163286.25, 
+        "ET_ORDER": 0.1705, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548373.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 197.43933, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45194601992662, 
+          37.615222492695764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163265.75, 
+        "ET_ORDER": 0.1782, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548368.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 198.62907, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4521341177548, 
+          37.61487409748807
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163227.0, 
+        "ET_ORDER": 0.1934, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548351.8125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 201.24899, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45239523521681, 
+          37.61451477409377
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163187.0, 
+        "ET_ORDER": 0.2101, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548329.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 203.19844, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45258414862292, 
+          37.61434439627061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163168.0, 
+        "ET_ORDER": 0.2192, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548312.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 204.19862, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4526359111177, 
+          37.61423872909673
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163156.25, 
+        "ET_ORDER": 0.2238, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548307.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 204.69097, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45257147245458, 
+          37.6141415362837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163145.5, 
+        "ET_ORDER": 0.2282, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548313.6875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 205.43799, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45248076673056, 
+          37.614053234950454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163135.75, 
+        "ET_ORDER": 0.2328, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548321.75, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 205.94042, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45232263935618, 
+          37.613984900774234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163128.25, 
+        "ET_ORDER": 0.2386, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548335.75, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 207.30031, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45223390718398, 
+          37.61401378243055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163131.5, 
+        "ET_ORDER": 0.2416, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548343.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 207.94194, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45198335255583, 
+          37.614188380150445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163151.0, 
+        "ET_ORDER": 0.2523, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548365.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 210.48049, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45186043078613, 
+          37.61424414289955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163157.25, 
+        "ET_ORDER": 0.2568, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548376.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 211.34214, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45136383827247, 
+          37.61436351586839
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163170.75, 
+        "ET_ORDER": 0.2734, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548420.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 213.97288, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45122280212331, 
+          37.614378633496436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163172.5, 
+        "ET_ORDER": 0.278, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548432.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 214.58591, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45108268938708, 
+          37.61436446174944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163171.0, 
+        "ET_ORDER": 0.2825, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548444.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 215.03224, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45068910432592, 
+          37.614150815730554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163147.5, 
+        "ET_ORDER": 0.2977, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548479.8125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 217.43041, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45051793828144, 
+          37.614026084787774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163133.75, 
+        "ET_ORDER": 0.3052, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548495.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 219.06932, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45049610689607, 
+          37.61391331581124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163121.25, 
+        "ET_ORDER": 0.3098, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548497.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 219.87106, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4504477097145, 
+          37.61384999673657
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163114.25, 
+        "ET_ORDER": 0.3127, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548501.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 219.5641, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4504444509317, 
+          37.61381167467119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163110.0, 
+        "ET_ORDER": 0.3143, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548501.625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 219.23256, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45047370009051, 
+          37.61378251737759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163106.75, 
+        "ET_ORDER": 0.3158, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548499.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 220.93296, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45047608980275, 
+          37.613746474962646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163102.75, 
+        "ET_ORDER": 0.3172, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548498.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 221.19139, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45046584719157, 
+          37.61340617193997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163065.0, 
+        "ET_ORDER": 0.3309, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548500.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 223.36116, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4504320822269, 
+          37.613182933381864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163040.25, 
+        "ET_ORDER": 0.34, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548503.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 224.81616, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45037802052573, 
+          37.61311958789223
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163033.25, 
+        "ET_ORDER": 0.3431, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548507.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 225.28301, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45001032945444, 
+          37.612948873779274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163014.5, 
+        "ET_ORDER": 0.3567, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548540.5, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 227.243, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44993846550481, 
+          37.612898965196365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163009.0, 
+        "ET_ORDER": 0.3597, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548546.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 227.609, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44988866978976, 
+          37.61283338601956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4163001.75, 
+        "ET_ORDER": 0.3628, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548551.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 228.16143, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44986229213706, 
+          37.61276115595604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162993.75, 
+        "ET_ORDER": 0.3658, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548553.6875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 228.87926, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44984879925947, 
+          37.612574065267715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162973.0, 
+        "ET_ORDER": 0.3734, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548555.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 230.77278, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44986237546702, 
+          37.61246146121604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162960.5, 
+        "ET_ORDER": 0.3779, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548553.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 231.86843, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44992532660571, 
+          37.612279233569346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162940.25, 
+        "ET_ORDER": 0.3855, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548548.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 233.06659, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.44999191213527, 
+          37.612180396661465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162929.25, 
+        "ET_ORDER": 0.39, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548542.625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 233.76479, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45019208856021, 
+          37.612019088481894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162911.25, 
+        "ET_ORDER": 0.3991, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548525.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 235.04578, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4503735926857, 
+          37.61179685261643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162886.5, 
+        "ET_ORDER": 0.4098, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548509.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 237.09634, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45044126179441, 
+          37.61174308743493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162880.5, 
+        "ET_ORDER": 0.4129, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548503.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 237.56587, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45056628823714, 
+          37.61168958927732
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162874.5, 
+        "ET_ORDER": 0.4174, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548492.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 238.24897, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45083170372618, 
+          37.611611957569494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162865.75, 
+        "ET_ORDER": 0.4265, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548468.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 239.71798, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45099724132251, 
+          37.611538367343606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162857.5, 
+        "ET_ORDER": 0.4325, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548454.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 240.85864, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45108806222935, 
+          37.61151400300772
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162854.75, 
+        "ET_ORDER": 0.4356, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548446.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 241.41913, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45118298273641, 
+          37.611509937793976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162854.25, 
+        "ET_ORDER": 0.4386, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548437.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 241.95449, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4512688964161, 
+          37.61147879045436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162850.75, 
+        "ET_ORDER": 0.4417, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548430.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 242.42888, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45133374869366, 
+          37.61142275830966
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162844.5, 
+        "ET_ORDER": 0.4447, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548424.6875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 242.92769, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45140800858934, 
+          37.61124283575127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162824.5, 
+        "ET_ORDER": 0.4523, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548418.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 244.54174, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45161310647875, 
+          37.61098916074457
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162796.25, 
+        "ET_ORDER": 0.4645, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548400.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 246.9857, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45162144168053, 
+          37.61091483900608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162788.0, 
+        "ET_ORDER": 0.4675, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548399.625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 247.6011, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4515484933122, 
+          37.61081985939695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162777.5, 
+        "ET_ORDER": 0.4719, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548406.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 248.78929, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45094035270343, 
+          37.61060747014544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162754.25, 
+        "ET_ORDER": 0.4932, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548459.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 252.76143, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45079020545298, 
+          37.61051438420778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162744.0, 
+        "ET_ORDER": 0.4993, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548473.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 253.55816, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45068136066028, 
+          37.61038994347486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162730.25, 
+        "ET_ORDER": 0.5054, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548482.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 254.54461, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45064788546362, 
+          37.61031993386705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162722.5, 
+        "ET_ORDER": 0.5084, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548485.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 254.98041, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45062846097308, 
+          37.610168869138896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162705.75, 
+        "ET_ORDER": 0.5145, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548487.75, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 255.87824, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45068489072044, 
+          37.60990999681594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162677.0, 
+        "ET_ORDER": 0.5251, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548482.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 257.96028, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45077212836824, 
+          37.60969858814801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162653.5, 
+        "ET_ORDER": 0.534, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548475.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 260.36653, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45084225092297, 
+          37.6095997671678
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162642.5, 
+        "ET_ORDER": 0.5386, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548469.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 261.89346, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45093140904997, 
+          37.60951230145266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162632.75, 
+        "ET_ORDER": 0.5431, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548461.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 263.82705, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45107235726998, 
+          37.60941155649262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162621.5, 
+        "ET_ORDER": 0.5492, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548449.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 266.77547, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45116525016792, 
+          37.6093939617626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162619.5, 
+        "ET_ORDER": 0.5522, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548440.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 268.0069, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45122721864733, 
+          37.60934467628405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162614.0, 
+        "ET_ORDER": 0.555, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548435.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 269.42114, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45132146140196, 
+          37.60933610110042
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162613.0, 
+        "ET_ORDER": 0.5581, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548427.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 270.55587, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45135846437553, 
+          37.609311486305515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162610.25, 
+        "ET_ORDER": 0.5596, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548423.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 271.25592, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45149326700523, 
+          37.609276059364475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162606.25, 
+        "ET_ORDER": 0.5642, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548412.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 273.13097, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45187084631434, 
+          37.609255280241186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162603.75, 
+        "ET_ORDER": 0.5763, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548378.6875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 277.68909, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45201238235796, 
+          37.609267204295044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162605.0, 
+        "ET_ORDER": 0.5808, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548366.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 279.15995, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45219404841698, 
+          37.609310861345854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162609.75, 
+        "ET_ORDER": 0.5869, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548350.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 280.94634, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45248844819947, 
+          37.60943165504213
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162623.0, 
+        "ET_ORDER": 0.5975, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548324.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 284.45435, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45262505903591, 
+          37.609535942791105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162634.5, 
+        "ET_ORDER": 0.6036, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548311.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 286.99009, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45278836152919, 
+          37.60976654165305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162660.0, 
+        "ET_ORDER": 0.6142, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548297.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 291.44471, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45308736858914, 
+          37.61032225140064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162721.5, 
+        "ET_ORDER": 0.6385, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548270.625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 300.87159, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45338647796426, 
+          37.61096133469589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162792.25, 
+        "ET_ORDER": 0.666, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548243.8125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 311.51336, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4534405406947, 
+          37.61102467883814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162799.25, 
+        "ET_ORDER": 0.669, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548239.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 312.76574, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45354692130108, 
+          37.61109953196919
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162807.5, 
+        "ET_ORDER": 0.6736, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548229.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 314.40735, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45368408059606, 
+          37.61112946054133
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162810.75, 
+        "ET_ORDER": 0.6781, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548217.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 315.7379, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45377900049866, 
+          37.61112539323421
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162810.25, 
+        "ET_ORDER": 0.6812, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548209.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 316.60144, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45390051595267, 
+          37.61106736858045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162803.75, 
+        "ET_ORDER": 0.6857, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548198.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 317.67368, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45419548531754, 
+          37.610723970985994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162765.5, 
+        "ET_ORDER": 0.7024, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548172.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 322.05672, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4544291273236, 
+          37.610535770137226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162744.5, 
+        "ET_ORDER": 0.7131, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548152.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 325.10847, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45495292544373, 
+          37.61027454881504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162715.25, 
+        "ET_ORDER": 0.7329, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548106.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 329.58463, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45513729538912, 
+          37.61023934664094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162711.25, 
+        "ET_ORDER": 0.7389, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548089.75, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 330.76235, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45523287289078, 
+          37.610242041240774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162711.5, 
+        "ET_ORDER": 0.742, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548081.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 331.30709, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4555538590018, 
+          37.61031112301527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162719.0, 
+        "ET_ORDER": 0.7526, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548052.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 332.75022, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45569546337464, 
+          37.6103140295798
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162719.25, 
+        "ET_ORDER": 0.7572, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 548040.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 333.3851, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45621552346478, 
+          37.610273613523574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162714.5, 
+        "ET_ORDER": 0.7739, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547994.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 336.29978, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45629229393346, 
+          37.610233406983454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162710.0, 
+        "ET_ORDER": 0.7768, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547987.8125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 336.82064, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45631668110568, 
+          37.61019070572116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162705.25, 
+        "ET_ORDER": 0.7787, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547985.6875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 337.15669, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45631962556472, 
+          37.610078051866786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162692.75, 
+        "ET_ORDER": 0.7832, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547985.5, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 337.97871, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45617097947017, 
+          37.60968077761854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162648.75, 
+        "ET_ORDER": 0.7999, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547998.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 341.02551, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45641774383206, 
+          37.60914787089086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162589.5, 
+        "ET_ORDER": 0.8228, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547977.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 344.70108, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45650910543229, 
+          37.60865931497809
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162535.25, 
+        "ET_ORDER": 0.8426, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547969.6875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 348.60018, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45652986953719, 
+          37.608627863717594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162531.75, 
+        "ET_ORDER": 0.844, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547967.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 348.67162, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45651101349917, 
+          37.608591723295916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162527.75, 
+        "ET_ORDER": 0.8456, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547969.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 348.90933, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45647007558878, 
+          37.60857350796207
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162525.75, 
+        "ET_ORDER": 0.8471, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547973.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 348.89306, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45638931791387, 
+          37.608480748676946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162515.5, 
+        "ET_ORDER": 0.8517, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547980.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 349.72647, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45631598574035, 
+          37.608340703215106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162500.0, 
+        "ET_ORDER": 0.8578, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547986.9375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 350.93711, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45632319500069, 
+          37.608225815624166
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162487.25, 
+        "ET_ORDER": 0.8624, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547986.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 351.87533, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45630168725265, 
+          37.6081648761104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162480.5, 
+        "ET_ORDER": 0.8649, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547988.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 352.26097, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45631393790154, 
+          37.6081356390113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162477.25, 
+        "ET_ORDER": 0.8662, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547987.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 352.41512, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.456279487859, 
+          37.608101680056414
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162473.5, 
+        "ET_ORDER": 0.8679, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547990.3125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 352.55343, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45632873922942, 
+          37.60804782658294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162467.5, 
+        "ET_ORDER": 0.8706, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547986.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 353.30501, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45627284716703, 
+          37.607943915017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162456.0, 
+        "ET_ORDER": 0.8752, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547991.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 353.85609, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45627154307861, 
+          37.60783124154645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162443.5, 
+        "ET_ORDER": 0.8797, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547991.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 354.68597, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45630987504059, 
+          37.60772100403502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162431.25, 
+        "ET_ORDER": 0.8843, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547987.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 355.52568, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45652040828362, 
+          37.60730059744517
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162384.5, 
+        "ET_ORDER": 0.9025, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547969.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 357.86444, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45653905795682, 
+          37.60707309502715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162359.25, 
+        "ET_ORDER": 0.9117, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547968.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 358.63066, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45662499388827, 
+          37.60694054311085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162344.5, 
+        "ET_ORDER": 0.9177, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547960.5625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 358.88725, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45686920262443, 
+          37.60665999856621
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162313.25, 
+        "ET_ORDER": 0.9314, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547939.1875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 359.96303, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45696892208429, 
+          37.60657933686721
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162304.25, 
+        "ET_ORDER": 0.9359, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547930.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 360.42537, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45705482770593, 
+          37.606548185226195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162300.75, 
+        "ET_ORDER": 0.939, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547922.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 360.71484, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45728666079091, 
+          37.6065086912931
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162296.25, 
+        "ET_ORDER": 0.9465, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547902.4375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 361.2072, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4574277567429, 
+          37.60643742846426
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162288.2717, 
+        "ET_ORDER": 0.9519, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547890.0293, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 361.59959, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45769708106917, 
+          37.606253696094285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162267.75, 
+        "ET_ORDER": 0.9632, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547866.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 362.93521, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45776154306044, 
+          37.606152591543534
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162256.5, 
+        "ET_ORDER": 0.9678, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547860.75, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 363.5375, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45781244875373, 
+          37.60596805072127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162236.0, 
+        "ET_ORDER": 0.9754, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547856.375, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 364.94352, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45784977501798, 
+          37.60589836834716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162228.25, 
+        "ET_ORDER": 0.9785, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547853.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 365.50648, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45793962859386, 
+          37.60581090043682
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162218.5, 
+        "ET_ORDER": 0.983, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547845.25, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 366.31395, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45810025534236, 
+          37.6057282641538
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162209.25, 
+        "ET_ORDER": 0.9891, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547831.125, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 367.2307, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45819238496895, 
+          37.60571742040705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162208.0, 
+        "ET_ORDER": 0.9921, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547823.0, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 367.77211, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45828431847626, 
+          37.60573361589113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162209.75, 
+        "ET_ORDER": 0.9951, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547814.875, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 368.61401, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45838748137189, 
+          37.605811884953454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162218.3811, 
+        "ET_ORDER": 0.9997, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547805.7191, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 369.77443, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.45839487953832, 
+          37.60581749729993
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 2477.5, 
+        "Av_S_Up": 4.3, 
+        "Length_3D": 2767.5, 
+        "Len_Down": 289.9, 
+        "Max_S_Down": 5.5, 
+        "Min_Z": 185.6, 
+        "H_Down": 16.0, 
+        "ET_ID": 242, 
+        "trail_name": "Sneath Lane Road", 
+        "ET_Y": 4162219.0, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 22.3, 
+        "ET_IDP": 242, 
+        "ET_IDR": "242_0", 
+        "H_Up": 185.6, 
+        "ET_X": 547805.0625, 
+        "Av_S_Down": 3.2, 
+        "ET_Z": 369.84193, 
+        "Length_2D": 2758.3, 
+        "Max_Z": 369.8
+      }
+    }
+  ]
+}

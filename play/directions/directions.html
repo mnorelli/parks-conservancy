@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <style>
+
+      body,
+      div#map,
+      div#map svg {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        /*background: #1a1a1a;*/
+      }
+
+      svg image {
+        /*opacity: 0.2;*/
+      }
+
+      g.layer path {
+        fill: none;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        opacity: 0.5;
+      }
+
+      .zoom path {
+        stroke: #fff;
+      }
+
+      #controls {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 10px;
+      }
+
+      #controls #reset {
+        background: red;
+        padding: 50px;
+        cursor: pointer;
+      }
+
+      #tooltip {
+        position: fixed;
+        display: none;
+        background: #fff;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="map"></div>
+    <div id="controls">
+      <select>
+        <option>DRIVING</option>
+        <option>WALKING</option>
+        <option>BICYCLING</option>
+        <option>TRANSIT</option>
+      </select>
+      <!--       
+      <div id="reset">
+        <div class="text">new points</div>
+        <div class="countdown"></div>
+      </div> 
+      
+      <div id="reset">reset!</div>
+      -->
+    </div>
+    <div id="tooltip"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="js/vendor/d3.v3.js"></script>
+    <script src="js/vendor/polymaps.js"></script>
+    <script>
+
+      var opts = {transit: "DRIVING"};
+      var optsBox = d3.select("select");
+      optsBox.on("change", function() {
+        opts.transit = optsBox.property("value");
+        endpoints = [];
+        features = [];
+        getendpoints();
+      });
+
+      var coords = {
+        origin: {lat: 37.7648, lon: -122.4198},
+        destination: {lat: 37.6527, lon: -120.9249}
+      };
+
+      var directionsService = new google.maps.DirectionsService();
+      var features = [],
+          endpoints = [],
+          reqs = 10,
+          locations;
+
+      d3.csv("locations.csv", function(locs) {
+        locations = locs;
+        getendpoints();
+      });
+
+      function getendpoints() {
+        endpoints = [];
+        for (var i = 0; i < reqs; i++) {
+          var idx = ~~(Math.random() * locations.length);
+          endpoints.push(locations[idx]);
+        }
+        // console.log(endpoints.map(function(pt) { return pt.Name; }));
+        routes(endpoints);
+      }
+
+
+      var durations = [],
+          size;
+      function routes(endpoints) {
+        directionsService = new google.maps.DirectionsService();
+        var end = endpoints.length;
+        endpoints.forEach(function(endpoint, i) {
+          var request = {
+            origin: new google.maps.LatLng(coords.origin.lat, coords.origin.lon),
+            destination: new google.maps.LatLng(+endpoint.POINT_Y, +endpoint.POINT_X),
+            travelMode: google.maps.TravelMode[opts.transit]  // WALKING, BICYCLING, TRANSIT, DRIVING
+          };
+          directionsService.route(request, function(response, status) {
+            if (status != google.maps.DirectionsStatus.OK) {
+              console.log("failed to get directions!", status, response);
+            } else {
+              // console.log("response:", response.routes[0].legs[0]);
+              var steps = response.routes[0].legs[0].steps;
+              var feature = {
+                type: "Feature",
+                geometry: {
+                  type: "MultiLineString",
+                  coordinates: []
+                },
+                properties: {
+                  duration: 0
+                }
+              };
+              steps.forEach(function(step) {
+                var line = step.path.map(function(point) {
+                  return [point.kb, point.jb];
+                });
+
+                feature.properties.duration += parseFloat(step.duration.text);
+                feature.geometry.coordinates.push(line);
+              });
+              features.push(feature);
+            }
+            if (--end === 0) {
+              features.sort(function(a,b) { return d3.descending(a.properties.duration, b.properties.duration); });
+              var extent = d3.extent(features, function(feat) { return feat.properties.duration; });
+              size = d3.scale.linear().domain(extent).range([2, 50]);
+              mapthat(features);
+            }
+          });
+        });
+      }
+
+      var po = org.polymaps;
+      
+      var map = po.map()
+          .container(document.getElementById("map").appendChild(po.svg("svg")))
+          .center({lat: coords.origin.lat, lon: coords.origin.lon})
+          .zoomRange([1, 20])
+          .zoom(12)
+          .add(po.interact())
+          .add(po.hash());
+      
+      map.add(po.image()
+        .url(po.url("https://mts1.googleapis.com/vt?lyrs=m@225212212&src=apiv3&hl=en-US&x={X}&y={Y}&z={Z}&s=Gali&apistyle=s.t%3A3%7Cp.v%3Aoff%2Cs.t%3A4%7Cp.v%3Aoff%2Cs.e%3Al%7Cp.v%3Aoff&style=59,37%7Csmartmaps")));
+
+      // map.add(po.image()
+      //     .url(po.url("http://{S}tile.stamen.com/toner/{Z}/{X}/{Y}.jpg")
+      //     .hosts(["a.", "b.", "c.", ""])));
+
+      map.add(po.compass()
+          .pan("none"));
+
+      function min2hours(mins) {
+        return mins/60 < 1 ? mins : (mins/60).toFixed(2);
+      }
+
+      var geo = po.geoJson(),
+          tooltip = d3.select("#tooltip");
+      function mapthat(features) {
+        map.add(geo.features(features)
+          .on("load", load));
+        var routes = d3.selectAll("path.route")[0];
+        routes.forEach(function(route) { 
+          route.addEventListener("mousemove", function(e) { 
+            tooltip
+              .style("display", "inline")
+              .style("top", e.y + 10 + "px")
+              .style("left", e.x + 10 + "px")
+              .html("Duration:<br>" + min2hours(route.getAttribute("data-duration") * 2 + 60) + " hours");
+          });
+          route.addEventListener("mouseout", function() {
+            tooltip.style("display", "none");
+          });
+        })
+      }
+
+      function load(e) {
+        e.features.forEach(function(feature, i) {
+          var color = "hsl(" + Math.random() * 360 + ", 100%, 70%)",
+              duration = feature.data.properties.duration;
+          // console.log("duration:", feature.data.properties.duration, "; i:", i);
+          // feature.element.parentNode.insertBefore(feature.element.parentNode.firstChild);
+          feature.element.setAttribute("data-duration", duration);
+          // feature.element.setAttribute("data-name", feature.data.properties.Name);
+          feature.element.setAttribute("stroke", color);
+          feature.element.setAttribute("stroke-width", size(duration));
+          feature.element.setAttribute("class", "route");
+        });
+      }
+
+      // var interval, time = 5;
+      // d3.select("#reset").on("click", function() {
+      //   var countdown = d3.select("#countdown");
+      //   if (interval) clearInterval(interval);
+      //   interval = setInterval(function() { 
+      //     if (time === 0) {
+      //       clearInterval(interval);
+      //       time = 5;
+      //     }
+      //     countdown.html(time--);
+      //   }, 1000);
+      // });
+
+      var resetter = d3.select("#reset");
+      resetter.on("click", function() {
+        reset();
+      });
+
+      function reset() {
+        d3.selectAll("g.layer path").remove();
+        features = [];
+        getendpoints();
+      }
+
+      // XXX to do it via request:
+      // var url = ["http://maps.googleapis.com/maps/api/directions/json?origin=",
+      //            coords.origin.lat + "," + coords.origin.lon,
+      //            "&destination=",
+      //            coords.destination.lat + "," + coords.destination.lon,
+      //            "&sensor=false"].join("");
+
+      // d3.json(url, function(error, json) {
+      //   if (error) {
+      //     console.log("error getting json!");
+      //     return;
+      //   }
+      
+      //   var steps = json.routes[0].legs[0].steps;
+      //   var feature = {
+      //     "type": "Feature",
+      //       "geometry": {
+      //         "type": "MultiLineString",
+      //         "coordinates": []
+      //       }
+      //   };
+      //   steps.forEach(function(step, idx) {
+      //     // console.log(step.start_location, step.end_location);
+      //     feature.geometry.coordinates.push([
+      //       [step.start_location.lng, step.start_location.lat], 
+      //       [step.end_location.lng, step.end_location.lat]
+      //     ]);
+      //     // if (idx === steps.length-1) {
+      //     //   feature.coordinates.push([step.end_location.lat, step.end_location.lon]);
+      //     // }
+      //   });
+        
+      //   console.log(json, feature.geometry.coordinates);
+      //   mapthat(feature);
+      // });
+
+    </script>
+
+  </body>
+</html>

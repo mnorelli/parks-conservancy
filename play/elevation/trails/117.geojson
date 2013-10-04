@@ -1,0 +1,5669 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59077964551715, 
+          37.873234227715386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191829.1507, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 535990.2879, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 153.31179, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59069502595707, 
+          37.87331270931656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191837.8909, 
+        "ET_ORDER": 0.0054, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 535997.6919, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 153.13046, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59057855707866, 
+          37.87345978558573
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191854.254, 
+        "ET_ORDER": 0.0144, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536007.8636, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 152.21086, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5903966305333, 
+          37.87362257898653
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191872.3862, 
+        "ET_ORDER": 0.0258, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536023.7845, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 151.01538, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59030521386455, 
+          37.87378568709349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191890.5184, 
+        "ET_ORDER": 0.0351, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536031.745, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 150.02189, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59023953569967, 
+          37.87384126184115
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191896.7098, 
+        "ET_ORDER": 0.039, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536037.4942, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 149.51994, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58999245797949, 
+          37.873963967680474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191910.4195, 
+        "ET_ORDER": 0.0511, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536059.1644, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 148.05565, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58987664960583, 
+          37.873991465978264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191913.5152, 
+        "ET_ORDER": 0.0561, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536069.3361, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 147.5775, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58966691492633, 
+          37.87412742689071
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191928.6812, 
+        "ET_ORDER": 0.0673, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536087.7155, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 145.5471, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58956563698761, 
+          37.87424437762715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191941.6961, 
+        "ET_ORDER": 0.0747, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536096.5656, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 144.31525, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5894278345882, 
+          37.87464938459936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191986.6851, 
+        "ET_ORDER": 0.0965, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536108.4873, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 140.9721, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58934329590622, 
+          37.87470393767996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191992.7705, 
+        "ET_ORDER": 0.101, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536115.8956, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 140.66777, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58930693055743, 
+          37.874751505107945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191998.0622, 
+        "ET_ORDER": 0.1039, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536119.0706, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 140.7614, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58908054626829, 
+          37.87488664346617
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192013.1435, 
+        "ET_ORDER": 0.1156, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536138.9144, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 139.06182, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58904671118839, 
+          37.87502006879634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192027.9602, 
+        "ET_ORDER": 0.1227, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536141.8249, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 138.61717, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58912414832594, 
+          37.87516103614045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192043.5706, 
+        "ET_ORDER": 0.1307, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536134.9457, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 137.52381, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58930086367553, 
+          37.87530235069675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192059.1811, 
+        "ET_ORDER": 0.1411, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536119.3352, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 136.98431, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58929237592068, 
+          37.875332593165076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192062.5398, 
+        "ET_ORDER": 0.1427, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536120.0669, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 136.49802, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58926850227432, 
+          37.875331157924855
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192062.3898, 
+        "ET_ORDER": 0.1437, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536122.1672, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 136.17374, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58923616731958, 
+          37.875284143087654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192057.186, 
+        "ET_ORDER": 0.1465, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536125.0339, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 136.15339, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58910183444324, 
+          37.87524133740489
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192052.4887, 
+        "ET_ORDER": 0.1525, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536136.8689, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 133.67921, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58893211473175, 
+          37.875069746956655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192033.5164, 
+        "ET_ORDER": 0.1638, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536151.879, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 131.87089, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58903852694236, 
+          37.875276270876704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192056.3891, 
+        "ET_ORDER": 0.1755, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536142.4195, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 129.90038, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58907817511745, 
+          37.87531349700084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192060.504, 
+        "ET_ORDER": 0.178, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536138.9144, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 129.91999, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58906892984217, 
+          37.875330461511126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192062.3898, 
+        "ET_ORDER": 0.179, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536139.7192, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 129.83574, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58903494944524, 
+          37.8753060050063
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192059.6895, 
+        "ET_ORDER": 0.1809, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536142.7196, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 129.41215, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58892481988751, 
+          37.875171761651856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192044.8378, 
+        "ET_ORDER": 0.1892, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536152.4707, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 127.72721, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58881615577894, 
+          37.87508079038144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192034.7866, 
+        "ET_ORDER": 0.1957, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536162.0718, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 126.25509, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58872841929411, 
+          37.87490741383937
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192015.5844, 
+        "ET_ORDER": 0.2055, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536169.8727, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 125.03615, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58871622376499, 
+          37.87495334312016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192020.685, 
+        "ET_ORDER": 0.2079, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536170.9228, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 124.62677, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5887496991323, 
+          37.87506838976427
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192033.4365, 
+        "ET_ORDER": 0.2141, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536167.9225, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 123.8802, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58885940101011, 
+          37.87527970224414
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192056.8392, 
+        "ET_ORDER": 0.226, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536158.1713, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 121.82474, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58890347939787, 
+          37.875328531955496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192062.2398, 
+        "ET_ORDER": 0.2291, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536154.2709, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 121.78062, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58890498207053, 
+          37.87536504449617
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192066.2903, 
+        "ET_ORDER": 0.231, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536154.1209, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 121.36264, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58888440043961, 
+          37.87538525375674
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192068.5405, 
+        "ET_ORDER": 0.2324, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536155.9211, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 121.1195, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58864246266629, 
+          37.875334380929395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192062.9899, 
+        "ET_ORDER": 0.2427, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536177.2235, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 118.17641, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58857251951983, 
+          37.87533548848241
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192063.1399, 
+        "ET_ORDER": 0.2456, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536183.3742, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 117.31485, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58828907128444, 
+          37.87538723016108
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192068.9906, 
+        "ET_ORDER": 0.2576, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536208.2771, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 114.60229, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58815124424326, 
+          37.875325902911435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192062.2398, 
+        "ET_ORDER": 0.2641, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536220.4285, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 112.98088, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58808640270175, 
+          37.87532973193192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192062.6898, 
+        "ET_ORDER": 0.2668, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536226.1292, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 112.67366, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58793658500223, 
+          37.87524566405428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192053.4206, 
+        "ET_ORDER": 0.2744, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536239.3463, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 110.85843, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58774070087225, 
+          37.87522711356432
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192051.4385, 
+        "ET_ORDER": 0.2825, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536256.5827, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 109.86916, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5876440233399, 
+          37.87512807145779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192040.4873, 
+        "ET_ORDER": 0.2891, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536265.1337, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 108.42217, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58752680185701, 
+          37.8750424777498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192031.0362, 
+        "ET_ORDER": 0.2957, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536275.4849, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 107.0357, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58753370810719, 
+          37.87502762863679
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192029.386, 
+        "ET_ORDER": 0.2965, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536274.8848, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 106.60313, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58757626837402, 
+          37.8750426510437
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192031.0362, 
+        "ET_ORDER": 0.2984, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536271.1344, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 106.39515, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58772579324167, 
+          37.875147287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192042.5875, 
+        "ET_ORDER": 0.3066, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536257.9329, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 106.33569, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58781090761316, 
+          37.875178683592964
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192046.0379, 
+        "ET_ORDER": 0.3105, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536250.432, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 106.07478, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58795091412598, 
+          37.87515483578518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192043.3376, 
+        "ET_ORDER": 0.3164, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536238.1306, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 104.63579, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5879595333806, 
+          37.875138640687474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192041.5374, 
+        "ET_ORDER": 0.3174, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536237.3805, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 103.78123, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58782136052439, 
+          37.87513950898498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192041.6874, 
+        "ET_ORDER": 0.3231, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536249.5319, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 103.82951, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58765982021028, 
+          37.87504835242169
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192031.6363, 
+        "ET_ORDER": 0.3313, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536263.7835, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 102.21162, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58760472381005, 
+          37.87498215519201
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192024.3131, 
+        "ET_ORDER": 0.3354, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536268.6615, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 101.16002, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58752394112656, 
+          37.87494376328784
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192020.0849, 
+        "ET_ORDER": 0.3393, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536275.7849, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 100.46415, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58733292012654, 
+          37.874939038027826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192019.6349, 
+        "ET_ORDER": 0.3472, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536292.5869, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 99.59815, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58721512590135, 
+          37.87495620230608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192021.5851, 
+        "ET_ORDER": 0.3521, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536302.9381, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 98.86511, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58722205483713, 
+          37.874937297425475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192019.4849, 
+        "ET_ORDER": 0.3531, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536302.338, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 98.50311, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5872801331163, 
+          37.874922627727805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192017.8347, 
+        "ET_ORDER": 0.3557, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536297.2374, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 98.1141, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5875753468039, 
+          37.87490202826051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192015.4344, 
+        "ET_ORDER": 0.3679, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536271.2844, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 96.80498, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58765027165252, 
+          37.874925276643204
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192017.9847, 
+        "ET_ORDER": 0.3712, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536264.6836, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 96.41194, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58769775258254, 
+          37.87497547067876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192023.5353, 
+        "ET_ORDER": 0.3745, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536260.4832, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 96.83609, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58782886941525, 
+          37.87501649293851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192028.0358, 
+        "ET_ORDER": 0.3803, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536248.9318, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 95.67413, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58798063482715, 
+          37.8750251367882
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192028.9359, 
+        "ET_ORDER": 0.3866, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536235.5803, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 94.68581, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58797047572288, 
+          37.87501158078237
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192027.4358, 
+        "ET_ORDER": 0.3874, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536236.4804, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 94.42868, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58782737480708, 
+          37.87497862935759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192023.8354, 
+        "ET_ORDER": 0.3936, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536249.0818, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 93.66366, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58773727098918, 
+          37.874924229363636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192017.8347, 
+        "ET_ORDER": 0.3983, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536257.0328, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 93.25108, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58771698305536, 
+          37.874891706890494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192014.2342, 
+        "ET_ORDER": 0.4002, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536258.833, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 92.99405, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58764113721001, 
+          37.87486437872897
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192011.2316, 
+        "ET_ORDER": 0.4036, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536265.5168, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 92.83937, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58759115123969, 
+          37.87482095640069
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192006.4333, 
+        "ET_ORDER": 0.4067, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536269.9342, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 92.33433, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58721937558796, 
+          37.87480613306327
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192004.9332, 
+        "ET_ORDER": 0.422, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536302.638, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 90.40435, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58727067572934, 
+          37.87478332697275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192002.3829, 
+        "ET_ORDER": 0.4245, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536298.1375, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 89.43352, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58737823529242, 
+          37.87476612676858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192000.4327, 
+        "ET_ORDER": 0.429, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536288.6864, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 89.42676, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58754542011533, 
+          37.874762655819076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191999.9826, 
+        "ET_ORDER": 0.4359, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536273.9847, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 88.70626, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58763744657293, 
+          37.87477785148873
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192001.6328, 
+        "ET_ORDER": 0.4398, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536265.8838, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 88.42936, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58771281920276, 
+          37.87482335728594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192006.6524, 
+        "ET_ORDER": 0.4437, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536259.2327, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 88.38252, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5879130904567, 
+          37.87490185895375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192015.2844, 
+        "ET_ORDER": 0.4529, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536241.581, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 87.41807, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58796598417007, 
+          37.87489933926786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192014.9843, 
+        "ET_ORDER": 0.4551, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536236.9304, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 86.62133, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58797980285748, 
+          37.874868289055144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192011.5339, 
+        "ET_ORDER": 0.4568, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536235.7303, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 86.43389, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58796813404166, 
+          37.874819572424805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192006.1333, 
+        "ET_ORDER": 0.4594, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536236.7804, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 86.10159, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58791219837511, 
+          37.874755827549585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191999.0825, 
+        "ET_ORDER": 0.4635, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536241.731, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 84.90044, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58785879057217, 
+          37.87454471125463
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191975.6798, 
+        "ET_ORDER": 0.4747, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536246.5315, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 82.70562, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58788036654282, 
+          37.8743460259275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191953.6272, 
+        "ET_ORDER": 0.4851, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536244.7313, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 80.99147, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58781783406275, 
+          37.87424169474641
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191942.0759, 
+        "ET_ORDER": 0.4911, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536250.282, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 80.42257, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58778725170396, 
+          37.874219953686
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191939.6756, 
+        "ET_ORDER": 0.4928, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536252.9823, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 80.17647, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58757282026261, 
+          37.8741313157088
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191929.9245, 
+        "ET_ORDER": 0.5028, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536271.8845, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 77.67873, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58757270718992, 
+          37.874151597346106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191932.1748, 
+        "ET_ORDER": 0.5038, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536271.8845, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 77.18066, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58770872807813, 
+          37.87423049617553
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191940.8758, 
+        "ET_ORDER": 0.5108, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536259.8831, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 77.16004, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58777815031935, 
+          37.87432268303907
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191951.077, 
+        "ET_ORDER": 0.5164, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536253.7324, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 76.64525, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58778300434588, 
+          37.874370023876416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191956.3276, 
+        "ET_ORDER": 0.5189, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536253.2823, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 76.54435, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58769890314922, 
+          37.874463025112775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191966.6788, 
+        "ET_ORDER": 0.5248, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536260.6332, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 75.71518, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5876874537999, 
+          37.874536955894804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191974.8859, 
+        "ET_ORDER": 0.5287, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536261.6039, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 74.88765, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58770346324255, 
+          37.87456309658401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191977.78, 
+        "ET_ORDER": 0.5302, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536260.1831, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 75.09049, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58767943915129, 
+          37.87458870320449
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191980.6304, 
+        "ET_ORDER": 0.5319, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536262.2834, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 75.01903, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58759950355869, 
+          37.874546507211306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191975.9798, 
+        "ET_ORDER": 0.5359, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536269.3342, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 74.03196, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58737112433303, 
+          37.87451190453004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191972.2294, 
+        "ET_ORDER": 0.5455, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536289.4365, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 73.01393, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58725675695155, 
+          37.874526376952645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191973.8796, 
+        "ET_ORDER": 0.5503, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536299.4877, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 72.07311, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58717836120408, 
+          37.87451393269171
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191972.5294, 
+        "ET_ORDER": 0.5536, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536306.3885, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 71.27934, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58701800775027, 
+          37.87451607512926
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191972.8295, 
+        "ET_ORDER": 0.5602, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536320.4901, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 70.75342, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5870178494938, 
+          37.87449757802448
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191970.7773, 
+        "ET_ORDER": 0.5611, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536320.5131, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 70.4647, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58725774255987, 
+          37.87447730082881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191968.4342, 
+        "ET_ORDER": 0.5711, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536299.4251, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 69.00431, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58731778321317, 
+          37.874460352284515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191966.5304, 
+        "ET_ORDER": 0.5737, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536294.153, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 68.72753, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58731954352946, 
+          37.87444320034049
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191964.6267, 
+        "ET_ORDER": 0.5746, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536294.0066, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 68.00127, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58707326593114, 
+          37.87446106140817
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191966.7042, 
+        "ET_ORDER": 0.5849, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536315.6573, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 67.00585, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58696390814053, 
+          37.87442935030068
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191963.2284, 
+        "ET_ORDER": 0.5897, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536325.2906, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 66.12352, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58690247839338, 
+          37.874433190640666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191963.6784, 
+        "ET_ORDER": 0.5922, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536330.6913, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 66.05741, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58687357155327, 
+          37.87441686394514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191961.8782, 
+        "ET_ORDER": 0.5937, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536333.2416, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 65.60098, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58689242527848, 
+          37.87440070483614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191960.078, 
+        "ET_ORDER": 0.5948, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536331.5914, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 65.1492, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58696042894529, 
+          37.87439694254403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191959.6341, 
+        "ET_ORDER": 0.5976, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536325.6125, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 65.12974, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5871037776568, 
+          37.87442984091187
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191963.2284, 
+        "ET_ORDER": 0.6038, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536312.9892, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 64.53481, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58728316560652, 
+          37.87437908928831
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191957.5277, 
+        "ET_ORDER": 0.6117, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536297.2374, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 63.19713, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58742988091741, 
+          37.87437554674269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191957.0776, 
+        "ET_ORDER": 0.6177, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536284.3359, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 62.34561, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58742833373935, 
+          37.87434714755693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191953.9273, 
+        "ET_ORDER": 0.6192, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536284.4859, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 62.14589, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58729432773707, 
+          37.87421281899334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191939.0756, 
+        "ET_ORDER": 0.6281, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536296.3373, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 60.33303, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58719556180672, 
+          37.87418272611508
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191935.7752, 
+        "ET_ORDER": 0.6325, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536305.0383, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 56.78155, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5871789947121, 
+          37.87409478101769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191926.0241, 
+        "ET_ORDER": 0.6371, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536306.5385, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 59.08283, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58711369378977, 
+          37.87405968329929
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191922.1554, 
+        "ET_ORDER": 0.6404, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536312.2988, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 58.17755, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58703470365919, 
+          37.87396988067965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191912.2225, 
+        "ET_ORDER": 0.6461, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536319.2899, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 57.24727, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58697079932678, 
+          37.87380605098797
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191894.0704, 
+        "ET_ORDER": 0.655, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536324.9906, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 56.0955, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58695028554949, 
+          37.873814091654154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191894.9705, 
+        "ET_ORDER": 0.656, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536326.7908, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 55.87764, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58695504067637, 
+          37.87385603337311
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191899.6221, 
+        "ET_ORDER": 0.6582, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536326.352, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 55.75484, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5870003244936, 
+          37.87401708392945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191917.4731, 
+        "ET_ORDER": 0.6668, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536322.2903, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 54.52048, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58703910318727, 
+          37.874098346285955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191926.4741, 
+        "ET_ORDER": 0.6713, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536318.8399, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 54.31897, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58717484422306, 
+          37.87422727340385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191940.7258, 
+        "ET_ORDER": 0.6801, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536306.8385, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 54.28371, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58715763576772, 
+          37.87425425487143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191943.7261, 
+        "ET_ORDER": 0.6816, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536308.3387, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 53.72821, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58710472853714, 
+          37.874259478058526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191944.3262, 
+        "ET_ORDER": 0.6838, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536312.9892, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 53.49249, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58705538330842, 
+          37.87423767100514
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191941.9259, 
+        "ET_ORDER": 0.6862, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536317.3397, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 53.03116, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58696152264432, 
+          37.87424545438932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191942.826, 
+        "ET_ORDER": 0.6901, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536325.5907, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 52.17925, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58681683897278, 
+          37.87419086219572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191936.8253, 
+        "ET_ORDER": 0.6967, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536338.3421, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 50.51245, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5867115219661, 
+          37.87411207012345
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191928.1243, 
+        "ET_ORDER": 0.7027, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536347.6432, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 49.08984, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58666931286935, 
+          37.8740442953411
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191920.6211, 
+        "ET_ORDER": 0.7066, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536351.3887, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 48.24476, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58659442893367, 
+          37.87403082832421
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191919.1561, 
+        "ET_ORDER": 0.7098, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536357.9812, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 47.67056, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58646591992249, 
+          37.87403895111368
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191920.1074, 
+        "ET_ORDER": 0.7151, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536369.2793, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 46.93081, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58647101812244, 
+          37.87402049049598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191918.0572, 
+        "ET_ORDER": 0.7161, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536368.84, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 46.31508, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58661433518199, 
+          37.873999875353086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191915.7141, 
+        "ET_ORDER": 0.7221, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536356.2457, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 45.96628, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5866194112174, 
+          37.873985374077336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191914.1032, 
+        "ET_ORDER": 0.7229, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536355.8064, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 45.70383, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58658615772354, 
+          37.873973930633454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191912.8465, 
+        "ET_ORDER": 0.7244, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536358.7366, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 45.12628, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5863928618519, 
+          37.874001736527646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191916.0069, 
+        "ET_ORDER": 0.7325, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536375.7229, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 43.6367, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58631810809072, 
+          37.87402783701689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191918.9319, 
+        "ET_ORDER": 0.7359, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536382.2845, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 42.71239, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58632289059655, 
+          37.874008090938865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191916.7392, 
+        "ET_ORDER": 0.7369, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536381.8736, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 42.13728, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58636297133224, 
+          37.87398711241805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191914.396, 
+        "ET_ORDER": 0.7389, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536378.3589, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 42.26767, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58653230065298, 
+          37.87392127752875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191907.0256, 
+        "ET_ORDER": 0.7467, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536363.4991, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 41.15942, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58651826110813, 
+          37.873909783470395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191905.7558, 
+        "ET_ORDER": 0.7475, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536364.7395, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 40.97711, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58626575889139, 
+          37.8739735559273
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191912.9298, 
+        "ET_ORDER": 0.7585, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536386.9152, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 39.60617, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58614847369796, 
+          37.87409528205419
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191926.4811, 
+        "ET_ORDER": 0.7665, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536397.1703, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 37.99733, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58603775701344, 
+          37.87412939381341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191930.309, 
+        "ET_ORDER": 0.7714, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536406.8908, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 37.13777, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5860396275978, 
+          37.87419723249094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191937.835, 
+        "ET_ORDER": 0.7749, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536406.6929, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 37.29029, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58597706976073, 
+          37.87421351808702
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191939.6663, 
+        "ET_ORDER": 0.7776, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536412.1867, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 36.88401, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58591100562204, 
+          37.87420048904028
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191938.2465, 
+        "ET_ORDER": 0.7804, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536418.0033, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 36.40359, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58584802977526, 
+          37.87416449749582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191934.2778, 
+        "ET_ORDER": 0.7837, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536423.5596, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 36.93756, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58588121496031, 
+          37.87414792118482
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191932.4257, 
+        "ET_ORDER": 0.7853, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536420.6492, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 35.60372, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58591148607127, 
+          37.87416909652729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191934.7633, 
+        "ET_ORDER": 0.7869, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536417.9765, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 35.62237, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58598636044509, 
+          37.874174522515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191935.3361, 
+        "ET_ORDER": 0.79, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536411.3888, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 35.17125, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58594722826454, 
+          37.87407210588045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191923.9882, 
+        "ET_ORDER": 0.7956, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536414.8808, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 32.70569, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58595699797625, 
+          37.874045645520994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191921.0486, 
+        "ET_ORDER": 0.7971, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536414.0346, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 32.20461, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58599377672842, 
+          37.87402286552517
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191918.5068, 
+        "ET_ORDER": 0.799, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536410.8112, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 32.38105, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58604441347809, 
+          37.8740149516733
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191917.609, 
+        "ET_ORDER": 0.8011, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536406.3617, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 32.69784, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58607179609636, 
+          37.87396020002408
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191911.5236, 
+        "ET_ORDER": 0.8042, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536403.9804, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 32.19499, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58605007345744, 
+          37.87396093482296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191911.6136, 
+        "ET_ORDER": 0.8051, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536405.8905, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 31.97657, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58601159814906, 
+          37.873992477653005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191915.1283, 
+        "ET_ORDER": 0.8074, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536409.2588, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 31.67672, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58591515967741, 
+          37.874006620651244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191916.7351, 
+        "ET_ORDER": 0.8114, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536417.7334, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 30.51426, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58585774848228, 
+          37.87404052674342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191920.5194, 
+        "ET_ORDER": 0.8144, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536422.7659, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 30.25941, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58578261960474, 
+          37.8740259542521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191918.9319, 
+        "ET_ORDER": 0.8176, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536429.3805, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 29.53411, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58566605507639, 
+          37.8739780490019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191913.6623, 
+        "ET_ORDER": 0.823, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536439.6557, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 28.18772, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58556020161022, 
+          37.873989401487904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191914.9632, 
+        "ET_ORDER": 0.8274, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536448.9597, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 27.5381, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5854037941147, 
+          37.87396062017981
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191911.831, 
+        "ET_ORDER": 0.834, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536462.7296, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 26.4599, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58513287030067, 
+          37.87400257958205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191916.5923, 
+        "ET_ORDER": 0.8455, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536486.5361, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 24.16429, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58497616664528, 
+          37.87406126996786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191923.1653, 
+        "ET_ORDER": 0.8526, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536500.2889, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 22.86419, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5847351995942, 
+          37.874367594415325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191957.2464, 
+        "ET_ORDER": 0.8714, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536521.3302, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 18.95791, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58465225025215, 
+          37.87442021733402
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191963.1174, 
+        "ET_ORDER": 0.8758, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536528.5994, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 18.61157, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5844863880436, 
+          37.87449117303509
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191971.0549, 
+        "ET_ORDER": 0.8836, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536543.1515, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 17.37199, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58424766786219, 
+          37.874678722517245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191991.9571, 
+        "ET_ORDER": 0.8975, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536564.0536, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 15.51582, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58401564638629, 
+          37.87474467420495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4191999.3654, 
+        "ET_ORDER": 0.9077, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536584.4266, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 14.98239, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58386181599757, 
+          37.874815671530285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192007.3029, 
+        "ET_ORDER": 0.915, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536597.9204, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 14.81919, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58371245234866, 
+          37.87495140343209
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192022.421, 
+        "ET_ORDER": 0.9244, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536610.9893, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 15.1401, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58312375441076, 
+          37.875715066724005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192107.3809, 
+        "ET_ORDER": 0.971, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536662.3849, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 18.30048, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58286616765501, 
+          37.87592213546485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192130.4565, 
+        "ET_ORDER": 0.9862, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536684.9359, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 18.16687, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58259100810069, 
+          37.87607241872089
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 194.2, 
+        "Av_S_Up": 2.3, 
+        "Length_3D": 2137.0, 
+        "Len_Down": 1942.8, 
+        "Max_S_Down": 23.7, 
+        "Min_Z": 14.8, 
+        "H_Down": 143.2, 
+        "ET_ID": 117, 
+        "trail_name": "Heather Cutoff Trail", 
+        "ET_Y": 4192147.2387, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 13.1, 
+        "ET_IDP": 117, 
+        "ET_IDR": "117_0", 
+        "H_Up": 7.9, 
+        "ET_X": 536709.0604, 
+        "Av_S_Down": 4.2, 
+        "ET_Z": 17.98535, 
+        "Length_2D": 2129.1, 
+        "Max_Z": 153.3
+      }
+    }
+  ]
+}

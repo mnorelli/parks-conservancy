@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Parks Conservancy - Directions Prototype</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+    <script src="js/tabletop.js"></script>
+    <script src="js/maps.js"></script>
+    <style>
+      @import url(style.css);
+    </style>
+  </head>
+  <body>
+    <div id="trip-planner" class="container">
+      <h2>Plan Your Trip</h2>
+      <form id="directions" target="#">
+        <div class="to-from row">
+          <p class="span one-third">
+            <label for="from">Where are you coming from?</label>
+            <input id="from" name="from" type="text" value="2017 Mission St, SF">
+          </p>
+          <p class="span two-thirds">
+            <label for="to">Going to...</label>
+            <input id="to" name="to" type="text" value="Muir Woods">
+            <select id="to-location">
+            </select>
+            <select id="mode" name="mode">
+            </select>
+            <input type="submit" value="GO">
+          </p>
+        </div>
+        <div class="maps row">
+          <div id="map-from" class="map span one-third"></div>
+          <div id="map-to" class="map span two-thirds"></div>
+        </div>
+        <div id="steps">
+          <h3>Directions</h3>
+          <div id="actual-directions"></div>
+          <div id="bespoke-directions"></div>
+        </div>
+      </form>
+    </div>
+    <script>
+
+      // set up the form, to and from maps, mode selector, location selector
+      // and directions service
+      var form = d3.select("#directions")
+            .on("submit", getDirections),
+          mapFrom = new ggnpc.Map("map-from"),
+          mapTo = new ggnpc.Map("map-to"),
+          maps = [mapFrom, mapTo],
+          modeSelect = d3.select("#mode"),
+          toSelect = d3.select("#to-location"),
+          directionsService = new google.maps.DirectionsService();
+
+      // add a directions display to the from map
+      mapFrom.directionsDisplay = new google.maps.DirectionsRenderer({
+        map: mapFrom,
+        preserveViewport: true
+      });
+
+      // and add a directions display to the to map, telling this one to
+      // write its text directions to the "actual-directions" div
+      mapTo.directionsDisplay = new google.maps.DirectionsRenderer({
+        map: mapTo,
+        preserveViewport: true,
+        panel: document.getElementById("actual-directions")
+      });
+
+      // set the bounding box for both maps
+      var bounds = new google.maps.LatLngBounds(
+        new google.maps.LatLng(37.558072, -122.681354),
+        new google.maps.LatLng(37.99226, -122.276233)
+      );
+      maps.forEach(function(map) {
+        map.fitBounds(bounds);
+      });
+
+      // add modes to the drop-down
+      modeSelect.selectAll("option")
+        .data([
+          {value: "DRIVING", label: "Driving"},
+          {value: "TRANSIT", label: "Transit"},
+          {value: "BICYCLING", label: "Bike"},
+          {value: "WALKING", label: "Walking"}
+        ])
+        .enter()
+        .append("option")
+          .attr("value", function(d) {
+            return google.maps.DirectionsTravelMode[d.value];
+          })
+          .text(function(d) { return d.label; });
+
+      // load locations from the API
+      d3.json("http://stamen-parks-api-staging.herokuapp.com/kind/location", function(error, data) {
+
+        // get just the location attributes
+        var locations = data.results.map(function(d) {
+            return d.attributes;
+          })
+          /*
+          .filter(function(d) {
+            switch (d.parklocationtype) {
+              case "Point of Interest":
+              case "Visitor Center":
+              case "Trailhead":
+              case "Campground":
+                return true;
+            } 
+            return false;
+          })
+          */
+          .sort(function(a, b) {
+            return d3.ascending(a.title, b.title);
+          });
+
+        // add the locations to the drop-down
+        var option = toSelect.selectAll("option")
+          .data(locations)
+          .enter()
+          .append("option")
+            .attr("value", function(d) { return d.location; })
+            .text(function(d) { return d.title; });
+
+        // hide the text input
+        d3.select("input[name=to]")
+          .style("display", "none");
+
+        // create a dictionary to look up locations by filename
+        var locationsByFilename = d3.nest()
+          .key(function(d) { return d.filename; })
+          .rollup(function(d) { return d[0]; })
+          .map(locations);
+
+        // load the directions
+        loadBespokeDirections(function(rows) {
+          // iterate over the directions rows
+          rows.forEach(function(row) {
+            // if we have a location with this filename, assign its bespoke directions
+            if (row.filename in locationsByFilename) {
+              // console.log("bespoke:", row.filename, row.name);
+              var parsed = ggnpc.BespokeDirections.parse(row.directions);
+              if (parsed) {
+                locationsByFilename[row.filename].bespoke_directions = parsed;
+              }
+            }
+          });
+
+          // prepend the location name with a * if it has bespoke directions
+          option.filter(function(d) {
+            return d.bespoke_directions;
+          })
+          .text(function(d) {
+            return "* " + d.title;
+          });
+        });
+      });
+
+      // load bespoke directions from Google Spreadsheets with Tabletop
+      function loadBespokeDirections(callback) {
+        // XXX: how to handle errors here?
+        Tabletop.init({
+          key: "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
+          simpleSheet: true,
+          callback: callback
+        });
+      }
+
+      function getDirections() {
+        // prevent the form from submitting
+        if (d3.event) d3.event.preventDefault();
+
+        // get the input data
+        var origin = form.select("input[name=from]").property("value"),
+            // get the list of location objects from the drop-down
+            locations = toSelect.selectAll("option").data(),
+            // and the selected index...
+            index = toSelect.property("selectedIndex"),
+            // then, set the destination to the selected location if 
+            dest = locations.length
+              ? locations[index]
+              : form.select("input[name=to]").property("value"),
+            mode = getSelectValue(modeSelect.node()),
+            request = {
+              origin: origin,
+              // if dest is an object (Parks location), then use the object's
+              // location ("lat,lon", understood by Google) as the destination
+              destination: (typeof dest === "object")
+                ? dest.location
+                : dest,
+              travelMode: mode
+            };
+
+        form.classed("routing", true);
+
+        // route that shit
+        directionsService.route(request, function(response, status) {
+          form.classed("routing", false);
+
+          if (status === google.maps.DirectionsStatus.OK) {
+            // console.log("directions:", response);
+
+            // get the origin and destination geographic locations
+            var route = response.routes[0],
+                firstLeg = route.legs[0],
+                lastLeg = route.legs[route.legs.length - 1],
+                originLocation = firstLeg.start_location,
+                destLocation = lastLeg.end_location;
+
+            // set the center and zoom on the origin and dest maps
+            mapFrom.setZoom(16);
+            mapFrom.setCenter(originLocation);
+            mapFrom.setZoom(14);
+            mapTo.setCenter(destLocation);
+
+            // augment the bespoke directions
+            if (dest.bespoke_directions) {
+              // but do it after 100ms, because Google doesn't modify the DOM
+              // right away
+              setTimeout(function() {
+                d3.select("#actual-directions table.adp-directions tbody")
+                  .call(ggnpc.BespokeDirections.augmentGoogleDisplay, dest.bespoke_directions);
+              }, 100);
+            }
+
+            // show the directions on both maps
+            [mapFrom, mapTo].forEach(function(map) {
+              map.directionsDisplay.setDirections(response);
+            });
+
+          } else {
+            // XXX what to do here?
+            alert("Whoops, something went wrong: " + status);
+          }
+        });
+      }
+
+      function getSelectValue(node) {
+        return node.options[node.selectedIndex].value;
+      }
+
+    </script>
+  </body>
+</html>

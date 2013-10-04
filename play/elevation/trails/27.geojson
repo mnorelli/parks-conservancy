@@ -1,0 +1,1317 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53405562475912, 
+          37.82504305655535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186505.7246, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541005.7825, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 4.09768, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53396033310834, 
+          37.825033225716126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186504.6757, 
+        "ET_ORDER": 0.0128, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541014.1742, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 8.31146, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53368613853962, 
+          37.82504159431737
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186505.7246, 
+        "ET_ORDER": 0.0495, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541038.3004, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 16.44567, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5335493685201, 
+          37.82499378088203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186500.4798, 
+        "ET_ORDER": 0.0695, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541050.3635, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 18.87158, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53344212794504, 
+          37.82498862876933
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186499.9553, 
+        "ET_ORDER": 0.0838, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541059.8042, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 21.04641, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53337040603762, 
+          37.82502143532101
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186503.6267, 
+        "ET_ORDER": 0.0949, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541066.098, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 21.90328, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53328092418204, 
+          37.825035261985235
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186505.2001, 
+        "ET_ORDER": 0.1071, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541073.9653, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 22.65986, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53310223067584, 
+          37.825020372575054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186503.6267, 
+        "ET_ORDER": 0.1311, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541089.6997, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 24.43196, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53282854153349, 
+          37.82494837863606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186495.7594, 
+        "ET_ORDER": 0.1696, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541113.826, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 28.50335, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5326915039728, 
+          37.82494310855284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186495.235, 
+        "ET_ORDER": 0.188, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541125.8891, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 30.31224, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53254230860645, 
+          37.824975606296896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186498.9063, 
+        "ET_ORDER": 0.2087, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541139.0012, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 32.41613, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53241072362506, 
+          37.82505072007238
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186507.2981, 
+        "ET_ORDER": 0.2303, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541150.5398, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 33.97242, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53223158157198, 
+          37.8251067353701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186513.5919, 
+        "ET_ORDER": 0.2561, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541166.2743, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 34.93941, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53189102637145, 
+          37.825242471541245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186528.8019, 
+        "ET_ORDER": 0.307, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541196.1698, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 38.67281, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53139564231552, 
+          37.825358682266355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186541.914, 
+        "ET_ORDER": 0.376, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541239.7019, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 43.44675, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53103184397827, 
+          37.82539977882782
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186546.6343, 
+        "ET_ORDER": 0.4251, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541271.6954, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 49.03067, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53081691314091, 
+          37.82546037683009
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186553.4526, 
+        "ET_ORDER": 0.4556, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541290.5768, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 50.44394, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53067671372554, 
+          37.825450247268634
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186552.3907, 
+        "ET_ORDER": 0.4744, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541302.9208, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 51.47692, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53072193105235, 
+          37.825543760709365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186562.746, 
+        "ET_ORDER": 0.4913, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541298.8893, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 51.87416, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53084769116323, 
+          37.82571929685293
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186582.1661, 
+        "ET_ORDER": 0.5253, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541287.7239, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 53.17609, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53084938680232, 
+          37.82581832684341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186593.1527, 
+        "ET_ORDER": 0.542, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541287.5195, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 54.61249, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53083345388345, 
+          37.8258595739841
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186597.7361, 
+        "ET_ORDER": 0.5493, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541288.8987, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 55.17034, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53079435887088, 
+          37.82589163915205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186601.311, 
+        "ET_ORDER": 0.5568, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541292.3214, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 55.67457, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53053496131793, 
+          37.825952878772554
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186608.2202, 
+        "ET_ORDER": 0.593, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541315.1156, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 57.54372, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53044561011595, 
+          37.82598796838371
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186612.1529, 
+        "ET_ORDER": 0.6063, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541322.9594, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 58.14544, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53027612287471, 
+          37.8260991937178
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186624.5683, 
+        "ET_ORDER": 0.6357, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541337.8131, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 59.83319, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53020583126832, 
+          37.82613488371637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186628.5592, 
+        "ET_ORDER": 0.6468, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541343.9792, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 60.18655, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53017457577765, 
+          37.82618226704872
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186633.8302, 
+        "ET_ORDER": 0.6558, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541346.7034, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 60.37386, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53012297549458, 
+          37.82633670151469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186650.9875, 
+        "ET_ORDER": 0.6828, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541351.1583, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 60.71706, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53012562105955, 
+          37.826443468524154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186662.8321, 
+        "ET_ORDER": 0.7008, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541350.8659, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 60.21492, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53018483271364, 
+          37.82659617647485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186679.7488, 
+        "ET_ORDER": 0.7277, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541345.5698, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 58.97087, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53018560556802, 
+          37.826644362638014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186685.0947, 
+        "ET_ORDER": 0.7358, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541345.4749, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 58.51226, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53014150529938, 
+          37.826697615419526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186691.0226, 
+        "ET_ORDER": 0.7465, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541349.3262, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 57.80619, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53006502861618, 
+          37.82671710215795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186693.2185, 
+        "ET_ORDER": 0.7573, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541356.0456, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 57.01118, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.53000669181962, 
+          37.826703640875124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186691.7508, 
+        "ET_ORDER": 0.7654, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541361.187, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 56.49281, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5299232087647, 
+          37.82665378168841
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186686.2559, 
+        "ET_ORDER": 0.7793, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541368.5617, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 55.6029, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52939876212922, 
+          37.82618118787109
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186634.0541, 
+        "ET_ORDER": 0.8854, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541414.9794, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 51.59276, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52915324747411, 
+          37.8260672537048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186621.522, 
+        "ET_ORDER": 0.9234, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541436.6496, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 52.01152, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5289841387453, 
+          37.82605244953749
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186619.9545, 
+        "ET_ORDER": 0.9462, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541451.5403, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 54.82908, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5287792093267, 
+          37.826069289192034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186621.9138, 
+        "ET_ORDER": 0.9737, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541469.5657, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 58.06003, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.52864995514473, 
+          37.82595159371294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 530.9, 
+        "Av_S_Up": 7.1, 
+        "Length_3D": 664.7, 
+        "Len_Down": 133.8, 
+        "Max_S_Down": 6.4, 
+        "Min_Z": 4.1, 
+        "H_Down": 9.1, 
+        "ET_ID": 27, 
+        "trail_name": "Battery Alexander Trail", 
+        "ET_Y": 4186608.9129, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 26.5, 
+        "ET_IDP": 27, 
+        "ET_IDR": "27_0", 
+        "H_Up": 65.0, 
+        "ET_X": 541481.0066, 
+        "Av_S_Down": 3.9, 
+        "ET_Z": 60.01176, 
+        "Length_2D": 658.5, 
+        "Max_Z": 60.7
+      }
+    }
+  ]
+}

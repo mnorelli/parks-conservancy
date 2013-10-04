@@ -1,0 +1,933 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49667885564142, 
+          37.85274080916105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189595.8561, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544278.6126, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 274.45095, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49643770618636, 
+          37.85272635234261
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189594.3665, 
+        "ET_ORDER": 0.0399, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544299.836, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 269.95453, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49616560186479, 
+          37.85265546714479
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189586.6309, 
+        "ET_ORDER": 0.0871, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544323.8164, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 261.05187, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.495906307088, 
+          37.85264041334995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189585.0838, 
+        "ET_ORDER": 0.13, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544346.6365, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 252.01806, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49576151061542, 
+          37.85259796028526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189580.4424, 
+        "ET_ORDER": 0.1554, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544359.4002, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 246.63902, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49555048192474, 
+          37.85259705645081
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189580.4424, 
+        "ET_ORDER": 0.1902, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544377.9657, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 238.6101, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49537422131802, 
+          37.85265556467478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189587.0177, 
+        "ET_ORDER": 0.2217, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544393.4369, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 234.36303, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49516293099936, 
+          37.852693004998876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189591.2722, 
+        "ET_ORDER": 0.2574, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544412.0024, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 229.83505, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4949086584424, 
+          37.85280288404701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189603.5843, 
+        "ET_ORDER": 0.3052, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544434.3057, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 225.12577, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49468181772473, 
+          37.85296982734388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189622.2147, 
+        "ET_ORDER": 0.3562, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544454.1614, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 221.08874, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49447189855393, 
+          37.85315137095887
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189642.457, 
+        "ET_ORDER": 0.4074, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544472.5196, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 216.93815, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49429831098091, 
+          37.853346590682584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189664.1994, 
+        "ET_ORDER": 0.4571, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544487.6733, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 210.7315, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49430543438467, 
+          37.85340006588394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189670.1291, 
+        "ET_ORDER": 0.4683, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544487.0145, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 210.52324, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49425341621932, 
+          37.85334045918057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189663.5405, 
+        "ET_ORDER": 0.4833, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544491.6265, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 209.47352, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49439053272216, 
+          37.85300256426416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189625.9856, 
+        "ET_ORDER": 0.5572, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544479.767, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 208.55446, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49436859240177, 
+          37.85292527157957
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189617.4204, 
+        "ET_ORDER": 0.5736, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544481.7436, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 204.63692, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49421771497245, 
+          37.8530849583644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189635.2096, 
+        "ET_ORDER": 0.6151, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544494.9208, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 203.43173, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49408979147849, 
+          37.85317348378792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189645.0925, 
+        "ET_ORDER": 0.6431, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544506.1214, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 199.80634, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49406064591997, 
+          37.85305459196111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189631.9153, 
+        "ET_ORDER": 0.6683, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544508.7569, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 195.2465, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49406186336593, 
+          37.852876447280444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189612.1495, 
+        "ET_ORDER": 0.7053, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544508.7569, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 189.74995, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49394276911475, 
+          37.852769045397494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189600.29, 
+        "ET_ORDER": 0.7351, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544519.2986, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 178.37822, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49384398979797, 
+          37.85297646241198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189623.3501, 
+        "ET_ORDER": 0.7812, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544527.8638, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 181.06366, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4938281592004, 
+          37.85310109966065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189637.1862, 
+        "ET_ORDER": 0.8072, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544529.1815, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 184.02504, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4936852571857, 
+          37.853189560256304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189647.0691, 
+        "ET_ORDER": 0.8371, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544541.6998, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 176.24177, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49363910348674, 
+          37.85336751079564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189666.8348, 
+        "ET_ORDER": 0.8749, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544545.653, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 175.44733, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49367492469531, 
+          37.853605198017696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189693.1892, 
+        "ET_ORDER": 0.9247, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544542.3587, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 177.80821, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4935925851081, 
+          37.8535989061517
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189692.5304, 
+        "ET_ORDER": 0.9383, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544549.6061, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 172.49409, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4935633995713, 
+          37.85348595182918
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189680.012, 
+        "ET_ORDER": 0.9623, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544552.2416, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 172.02054, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.49344463012619, 
+          37.85333104493187
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 65.6, 
+        "Av_S_Up": 7.0, 
+        "Length_3D": 554.1, 
+        "Len_Down": 488.5, 
+        "Max_S_Down": 36.1, 
+        "Min_Z": 166.7, 
+        "H_Down": 115.8, 
+        "ET_ID": 180, 
+        "trail_name": "Morning Sun Trail", 
+        "ET_Y": 4189662.8817, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 12.0, 
+        "ET_IDP": 180, 
+        "ET_IDR": "180_0", 
+        "H_Up": 8.0, 
+        "ET_X": 544562.7833, 
+        "Av_S_Down": 13.9, 
+        "ET_Z": 166.67205, 
+        "Length_2D": 533.6, 
+        "Max_Z": 274.5
+      }
+    }
+  ]
+}

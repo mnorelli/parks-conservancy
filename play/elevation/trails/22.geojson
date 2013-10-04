@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51002293582337, 
+          37.775222475652306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 126.6, 
+        "Av_S_Up": 13.3, 
+        "Length_3D": 126.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 10.1, 
+        "H_Down": 0.0, 
+        "ET_ID": 22, 
+        "trail_name": "Balboa Staircase", 
+        "ET_Y": 4180988.9852, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 17.5, 
+        "ET_IDP": 22, 
+        "ET_IDR": "22_0", 
+        "H_Up": 29.0, 
+        "ET_X": 543149.7828, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 10.11782, 
+        "Length_2D": 122.9, 
+        "Max_Z": 39.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51002421069175, 
+          37.77559759793182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 126.6, 
+        "Av_S_Up": 13.3, 
+        "Length_3D": 126.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 10.1, 
+        "H_Down": 0.0, 
+        "ET_ID": 22, 
+        "trail_name": "Balboa Staircase", 
+        "ET_Y": 4181030.604, 
+        "ET_ORDER": 0.3387, 
+        "Max_S_Up": 17.5, 
+        "ET_IDP": 22, 
+        "ET_IDR": "22_0", 
+        "H_Up": 29.0, 
+        "ET_X": 543149.4525, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 23.21818, 
+        "Length_2D": 122.9, 
+        "Max_Z": 39.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51007980303527, 
+          37.77569905138926
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 126.6, 
+        "Av_S_Up": 13.3, 
+        "Length_3D": 126.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 10.1, 
+        "H_Down": 0.0, 
+        "ET_ID": 22, 
+        "trail_name": "Balboa Staircase", 
+        "ET_Y": 4181041.8345, 
+        "ET_ORDER": 0.4385, 
+        "Max_S_Up": 17.5, 
+        "ET_IDP": 22, 
+        "ET_IDR": "22_0", 
+        "H_Up": 29.0, 
+        "ET_X": 543144.4978, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 24.51349, 
+        "Length_2D": 122.9, 
+        "Max_Z": 39.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51012752005902, 
+          37.77585703777797
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 126.6, 
+        "Av_S_Up": 13.3, 
+        "Length_3D": 126.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 10.1, 
+        "H_Down": 0.0, 
+        "ET_ID": 22, 
+        "trail_name": "Balboa Staircase", 
+        "ET_Y": 4181059.3409, 
+        "ET_ORDER": 0.5852, 
+        "Max_S_Up": 17.5, 
+        "ET_IDP": 22, 
+        "ET_IDR": "22_0", 
+        "H_Up": 29.0, 
+        "ET_X": 543140.2038, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 26.72619, 
+        "Length_2D": 122.9, 
+        "Max_Z": 39.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51011948855859, 
+          37.77593738646312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 126.6, 
+        "Av_S_Up": 13.3, 
+        "Length_3D": 126.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 10.1, 
+        "H_Down": 0.0, 
+        "ET_ID": 22, 
+        "trail_name": "Balboa Staircase", 
+        "ET_Y": 4181068.2592, 
+        "ET_ORDER": 0.658, 
+        "Max_S_Up": 17.5, 
+        "ET_IDP": 22, 
+        "ET_IDR": "22_0", 
+        "H_Up": 29.0, 
+        "ET_X": 543140.8644, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 29.54915, 
+        "Length_2D": 122.9, 
+        "Max_Z": 39.1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51014699824202, 
+          37.77631559571025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 126.6, 
+        "Av_S_Up": 13.3, 
+        "Length_3D": 126.6, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 10.1, 
+        "H_Down": 0.0, 
+        "ET_ID": 22, 
+        "trail_name": "Balboa Staircase", 
+        "ET_Y": 4181110.2084, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 17.5, 
+        "ET_IDP": 22, 
+        "ET_IDR": "22_0", 
+        "H_Up": 29.0, 
+        "ET_X": 543138.222, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 39.11317, 
+        "Length_2D": 122.9, 
+        "Max_Z": 39.1
+      }
+    }
+  ]
+}

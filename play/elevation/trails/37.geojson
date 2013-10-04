@@ -1,0 +1,1957 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59645835563893, 
+          37.89832434605944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194610.7397, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535478.8119, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 340.40116, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59646843509083, 
+          37.89840960574742
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194620.1955, 
+        "ET_ORDER": 0.0057, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535477.8848, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 339.92269, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59653090546091, 
+          37.898555203198406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194636.3259, 
+        "ET_ORDER": 0.0158, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535472.3226, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 332.84169, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59654056429288, 
+          37.898717329710195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194654.3103, 
+        "ET_ORDER": 0.0265, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535471.3956, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 322.30434, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59659749801925, 
+          37.89877249873696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194660.4097, 
+        "ET_ORDER": 0.0312, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535466.3636, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 317.96452, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59662037120646, 
+          37.89877776230313
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194660.985, 
+        "ET_ORDER": 0.0325, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535464.3501, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 317.16851, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59668142646427, 
+          37.89879635263238
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194663.0244, 
+        "ET_ORDER": 0.0359, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535458.9733, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 314.37173, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59673611793745, 
+          37.89882160607038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194665.8055, 
+        "ET_ORDER": 0.0392, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535454.1528, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 312.15279, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59674218999682, 
+          37.898868416961804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194670.9969, 
+        "ET_ORDER": 0.0423, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535453.5965, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 309.19762, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59672765466013, 
+          37.89890119160928
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194674.6388, 
+        "ET_ORDER": 0.0446, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535454.8587, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 306.94536, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59671090746532, 
+          37.89899308666023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194684.841, 
+        "ET_ORDER": 0.0507, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535456.287, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 299.78991, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59674952177235, 
+          37.899070641523366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194693.4311, 
+        "ET_ORDER": 0.0562, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535452.8549, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 292.4042, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59679553236246, 
+          37.89914098427013
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194701.2182, 
+        "ET_ORDER": 0.0614, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535448.776, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 286.56803, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59684170824829, 
+          37.89918124848069
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194705.668, 
+        "ET_ORDER": 0.065, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535444.697, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 282.69903, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59682883586619, 
+          37.899221310436985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194710.1178, 
+        "ET_ORDER": 0.0678, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535445.8095, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 278.77157, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59679792488846, 
+          37.89926035702745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194714.4618, 
+        "ET_ORDER": 0.0708, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535448.5084, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 275.34545, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59681796563176, 
+          37.899285297046326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194717.2213, 
+        "ET_ORDER": 0.0727, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535446.7345, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 273.2412, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59619881625694, 
+          37.89950650506542
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194742.0, 
+        "ET_ORDER": 0.1083, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535501.0625, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 275.2922, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59533395740097, 
+          37.899841522400195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194779.5, 
+        "ET_ORDER": 0.1586, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535576.9375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 261.70057, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59383456926595, 
+          37.900507826409836
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194854.0, 
+        "ET_ORDER": 0.2485, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535708.4375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 237.31797, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5932829437502, 
+          37.90088897399355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194896.5, 
+        "ET_ORDER": 0.2868, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535756.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 228.00061, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59314222798125, 
+          37.90101016313203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194910.0, 
+        "ET_ORDER": 0.2976, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535769.0625, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 228.83177, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59288981769593, 
+          37.9012751737617
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194939.5, 
+        "ET_ORDER": 0.3195, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535791.125, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 222.18772, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5927027183298, 
+          37.901427747410104
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194956.5, 
+        "ET_ORDER": 0.3336, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535807.5, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 220.36089, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59257877360567, 
+          37.901472383434154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194961.5, 
+        "ET_ORDER": 0.3407, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535818.375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 221.1625, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59243789141514, 
+          37.90149442819412
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194964.0, 
+        "ET_ORDER": 0.3482, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535830.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 224.15386, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59223315255045, 
+          37.90149371909727
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194964.0, 
+        "ET_ORDER": 0.3589, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535848.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 229.23616, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5918914839646, 
+          37.90144296349066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194958.5, 
+        "ET_ORDER": 0.3771, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535878.8125, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 237.56495, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59175501638525, 
+          37.90143798375486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194958.0, 
+        "ET_ORDER": 0.3842, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535890.8125, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 241.13277, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59148261781299, 
+          37.901459571152564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194960.5, 
+        "ET_ORDER": 0.3985, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535914.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 237.71236, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59100594179637, 
+          37.90152551326299
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194968.0, 
+        "ET_ORDER": 0.4238, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 535956.625, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 212.63785, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.59025081717368, 
+          37.90154992597838
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194971.0, 
+        "ET_ORDER": 0.4633, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536023.0, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 185.24482, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5895086735399, 
+          37.90166901555509
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194984.5, 
+        "ET_ORDER": 0.5029, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536088.1875, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 189.36267, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58820516662219, 
+          37.901741072874934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194993.0, 
+        "ET_ORDER": 0.5713, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536202.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 195.88354, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58779071144491, 
+          37.90173962216547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194993.0, 
+        "ET_ORDER": 0.5929, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536239.1875, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 188.36488, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58751498255326, 
+          37.90172063024218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194991.0, 
+        "ET_ORDER": 0.6074, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536263.4375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 175.53944, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58725006832587, 
+          37.90167463661724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194986.0, 
+        "ET_ORDER": 0.6216, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536286.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 164.5239, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58688625824746, 
+          37.90151563292539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194968.5, 
+        "ET_ORDER": 0.6433, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536318.8125, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 169.43062, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58620165418269, 
+          37.901260864353155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194940.5, 
+        "ET_ORDER": 0.6828, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536379.125, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 156.92422, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58586859364684, 
+          37.90107042013318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194919.5, 
+        "ET_ORDER": 0.7043, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536408.5, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 141.11906, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58561299682778, 
+          37.90088475420336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194899.0, 
+        "ET_ORDER": 0.7225, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536431.0625, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 142.41271, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58547005375267, 
+          37.90076708196112
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194886.0, 
+        "ET_ORDER": 0.7332, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536443.6875, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 134.32191, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58537209946455, 
+          37.9006135160511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194869.0, 
+        "ET_ORDER": 0.7446, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536452.375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 129.846, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58519404553445, 
+          37.9005452912544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194861.5, 
+        "ET_ORDER": 0.7549, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536468.0625, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 121.36954, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58498024506873, 
+          37.90051299213318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194858.0, 
+        "ET_ORDER": 0.7663, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536486.875, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 127.68619, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58484512558125, 
+          37.900521528634606
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194859.0, 
+        "ET_ORDER": 0.7734, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536498.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 125.36813, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58472407191283, 
+          37.90055715358934
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194863.0, 
+        "ET_ORDER": 0.7801, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536509.375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 120.59758, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5843204413639, 
+          37.900781053712414
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194888.0, 
+        "ET_ORDER": 0.8059, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536544.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 106.51205, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58407670788935, 
+          37.90088834863941
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194900.0, 
+        "ET_ORDER": 0.8205, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536566.125, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 101.74871, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58388377698382, 
+          37.900937238210275
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194905.5, 
+        "ET_ORDER": 0.8311, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536583.0625, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 100.9782, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58360855994698, 
+          37.90095429092501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194907.5, 
+        "ET_ORDER": 0.8455, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536607.25, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 107.50875, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58333283514956, 
+          37.900935289225664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194905.5, 
+        "ET_ORDER": 0.86, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536631.5, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 117.44613, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58300491128487, 
+          37.90084399802215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194895.5, 
+        "ET_ORDER": 0.8782, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536660.375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 121.4025, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58280675056132, 
+          37.90081175036014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194892.0, 
+        "ET_ORDER": 0.8887, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536677.8125, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 110.45163, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58239049713595, 
+          37.90087787172165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194899.5, 
+        "ET_ORDER": 0.9109, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536714.375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 88.34206, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58188375565727, 
+          37.90097972218252
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194911.0, 
+        "ET_ORDER": 0.9383, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536758.875, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 63.98704, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58165702847155, 
+          37.90109608548663
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194924.0, 
+        "ET_ORDER": 0.9524, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536778.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 59.11429, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58131559509933, 
+          37.90113092346107
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194928.0, 
+        "ET_ORDER": 0.9704, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536808.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 59.9587, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58104273940633, 
+          37.90110742010668
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194925.5, 
+        "ET_ORDER": 0.9847, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536832.75, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 60.68833, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58091571935097, 
+          37.90106640946356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194921.0, 
+        "ET_ORDER": 0.9919, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536843.9375, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 60.87254, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.58078628634978, 
+          37.90099922717539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 597.5, 
+        "Av_S_Up": 6.7, 
+        "Length_3D": 1759.3, 
+        "Len_Down": 1161.8, 
+        "Max_S_Down": 40.6, 
+        "Min_Z": 59.1, 
+        "H_Down": 348.5, 
+        "ET_ID": 37, 
+        "trail_name": "Ben Johnson Trail", 
+        "ET_Y": 4194913.5972, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 22.2, 
+        "ET_IDP": 37, 
+        "ET_IDR": "37_0", 
+        "H_Up": 69.5, 
+        "ET_X": 536855.3502, 
+        "Av_S_Down": 17.7, 
+        "ET_Z": 61.39937, 
+        "Length_2D": 1681.4, 
+        "Max_Z": 340.4
+      }
+    }
+  ]
+}

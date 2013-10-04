@@ -1,0 +1,12 @@
+1. create a grid over the bay area in qgis
+2. get centroids of each cell
+3. output this as geojson
+4. read grid centroids in python, with parks locations
+5. for each GC, create a googz distance matrix REST call where origins=centroid, destinations=38 parks locations
+6. get the distance data, cache it so we never have to do this again
+7. create contours based on near-similar distances...
+   7a. when a user selects their location-grid on the frontend
+   7b. load the json file that contains distances to all parks
+   7c. group the near-similar points
+   7d. d3.hull() each group of near-similar points
+8. beer

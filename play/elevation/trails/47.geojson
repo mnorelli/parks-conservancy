@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57557235535627, 
+          37.89585528008036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.6, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 44.5, 
+        "Len_Down": 29.0, 
+        "Max_S_Down": 6.9, 
+        "Min_Z": 47.0, 
+        "H_Down": 1.8, 
+        "ET_ID": 47, 
+        "trail_name": "Bridge 2", 
+        "ET_Y": 4194344.9447, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 6.7, 
+        "ET_IDP": 47, 
+        "ET_IDR": "47_0", 
+        "H_Up": 1.0, 
+        "ET_X": 537316.3342, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 48.76813, 
+        "Length_2D": 44.4, 
+        "Max_Z": 48.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57547269553012, 
+          37.895825149862084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.6, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 44.5, 
+        "Len_Down": 29.0, 
+        "Max_S_Down": 6.9, 
+        "Min_Z": 47.0, 
+        "H_Down": 1.8, 
+        "ET_ID": 47, 
+        "trail_name": "Bridge 2", 
+        "ET_Y": 4194341.6416, 
+        "ET_ORDER": 0.2113, 
+        "Max_S_Up": 6.7, 
+        "ET_IDP": 47, 
+        "ET_IDR": "47_0", 
+        "H_Up": 1.0, 
+        "ET_X": 537325.1117, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 48.22248, 
+        "Length_2D": 44.4, 
+        "Max_Z": 48.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57536202594619, 
+          37.895832651473775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.6, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 44.5, 
+        "Len_Down": 29.0, 
+        "Max_S_Down": 6.9, 
+        "Min_Z": 47.0, 
+        "H_Down": 1.8, 
+        "ET_ID": 47, 
+        "trail_name": "Bridge 2", 
+        "ET_Y": 4194342.5182, 
+        "ET_ORDER": 0.4313, 
+        "Max_S_Up": 6.7, 
+        "ET_IDP": 47, 
+        "ET_IDR": "47_0", 
+        "H_Up": 1.0, 
+        "ET_X": 537334.8382, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 47.04902, 
+        "Length_2D": 44.4, 
+        "Max_Z": 48.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57525451911184, 
+          37.89585385603999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.6, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 44.5, 
+        "Len_Down": 29.0, 
+        "Max_S_Down": 6.9, 
+        "Min_Z": 47.0, 
+        "H_Down": 1.8, 
+        "ET_ID": 47, 
+        "trail_name": "Bridge 2", 
+        "ET_Y": 4194344.9139, 
+        "ET_ORDER": 0.6508, 
+        "Max_S_Up": 6.7, 
+        "ET_IDP": 47, 
+        "ET_IDR": "47_0", 
+        "H_Up": 1.0, 
+        "ET_X": 537344.2797, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 46.95294, 
+        "Length_2D": 44.4, 
+        "Max_Z": 48.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57521658111375, 
+          37.89591438473207
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.6, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 44.5, 
+        "Len_Down": 29.0, 
+        "Max_S_Down": 6.9, 
+        "Min_Z": 47.0, 
+        "H_Down": 1.8, 
+        "ET_ID": 47, 
+        "trail_name": "Bridge 2", 
+        "ET_Y": 4194351.6448, 
+        "ET_ORDER": 0.8198, 
+        "Max_S_Up": 6.7, 
+        "ET_IDP": 47, 
+        "ET_IDR": "47_0", 
+        "H_Up": 1.0, 
+        "ET_X": 537347.5847, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 47.83652, 
+        "Length_2D": 44.4, 
+        "Max_Z": 48.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.57515060105635, 
+          37.8959640353614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 15.6, 
+        "Av_S_Up": 3.8, 
+        "Length_3D": 44.5, 
+        "Len_Down": 29.0, 
+        "Max_S_Down": 6.9, 
+        "Min_Z": 47.0, 
+        "H_Down": 1.8, 
+        "ET_ID": 47, 
+        "trail_name": "Bridge 2", 
+        "ET_Y": 4194357.18, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 6.7, 
+        "ET_IDP": 47, 
+        "ET_IDR": "47_0", 
+        "H_Up": 1.0, 
+        "ET_X": 537353.3607, 
+        "Av_S_Down": 3.6, 
+        "ET_Z": 47.99222, 
+        "Length_2D": 44.4, 
+        "Max_Z": 48.8
+      }
+    }
+  ]
+}

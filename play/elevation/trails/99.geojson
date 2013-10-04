@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47534698467963, 
+          37.80855262057083
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184703.5055, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546182.7869, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 44.92151, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47534914356491, 
+          37.808576001152154
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184706.0985, 
+        "ET_ORDER": 0.008, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546182.5823, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 44.79596, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47542047816212, 
+          37.808667696338254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184716.2368, 
+        "ET_ORDER": 0.045, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546176.2459, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 44.06342, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47553870071044, 
+          37.80871677630323
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184721.6238, 
+        "ET_ORDER": 0.0813, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546165.8087, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 43.03156, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47618109993641, 
+          37.80874087666332
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184723.9806, 
+        "ET_ORDER": 0.2563, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546109.246, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 39.35168, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47650034963063, 
+          37.80882921094738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184733.6238, 
+        "ET_ORDER": 0.3483, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546081.0889, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 35.87161, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4767363524574, 
+          37.80891934857661
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184743.5082, 
+        "ET_ORDER": 0.4196, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546060.2586, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 32.66908, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47679944500871, 
+          37.80900072327249
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184752.5056, 
+        "ET_ORDER": 0.4524, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546054.6543, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 30.72952, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47683396062207, 
+          37.80945082938226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184802.4277, 
+        "ET_ORDER": 0.6071, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546051.3365, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 24.35338, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47696886877783, 
+          37.80984592094266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184846.1965, 
+        "ET_ORDER": 0.7475, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546039.2159, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 20.32508, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47677670505675, 
+          37.809816796190454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184843.0598, 
+        "ET_ORDER": 0.8007, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546056.1491, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 19.69917, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4765734657087, 
+          37.80959687231304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184818.7595, 
+        "ET_ORDER": 0.8942, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546074.1758, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 11.02716, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47647953472901, 
+          37.80957636110453
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184816.5301, 
+        "ET_ORDER": 0.9207, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546082.4568, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 7.6165, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47634562359808, 
+          37.80958150724827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184817.1671, 
+        "ET_ORDER": 0.9572, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546094.2411, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 6.88347, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47621267412505, 
+          37.8096480042653
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 0.0, 
+        "Av_S_Up": 0.0, 
+        "Length_3D": 326.9, 
+        "Len_Down": 326.9, 
+        "Max_S_Down": 21.7, 
+        "Min_Z": 5.1, 
+        "H_Down": 39.9, 
+        "ET_ID": 99, 
+        "trail_name": "Fort Point Trail", 
+        "ET_Y": 4184824.6105, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.0, 
+        "ET_IDP": 99, 
+        "ET_IDR": "99_0", 
+        "H_Up": 0.0, 
+        "ET_X": 546105.9026, 
+        "Av_S_Down": 7.0, 
+        "ET_Z": 5.05115, 
+        "Length_2D": 323.5, 
+        "Max_Z": 44.9
+      }
+    }
+  ]
+}

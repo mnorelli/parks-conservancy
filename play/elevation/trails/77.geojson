@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55296094043698, 
+          37.89561396350834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194327.4571, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539304.5028, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 128.00279, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55312580105654, 
+          37.89560168919721
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194326.0258, 
+        "ET_ORDER": 0.0426, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539290.0144, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 126.44838, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55350149578578, 
+          37.895483914434834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194312.8004, 
+        "ET_ORDER": 0.1464, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539257.045, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 127.86309, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55355400175202, 
+          37.8955205359917
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194316.8415, 
+        "ET_ORDER": 0.1644, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539252.4091, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 128.61606, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55360449613588, 
+          37.89556632512311
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194321.9006, 
+        "ET_ORDER": 0.1841, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539247.9452, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 129.69195, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5536589115853, 
+          37.89555872621788
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194321.0346, 
+        "ET_ORDER": 0.1983, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539243.1649, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 131.4659, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55395779896126, 
+          37.89612685209595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194383.943, 
+        "ET_ORDER": 0.398, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539216.5846, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 126.43881, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55393808098825, 
+          37.8961627329055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194387.9323, 
+        "ET_ORDER": 0.4107, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539218.2992, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 125.63796, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55393278629269, 
+          37.89618519574946
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194390.4268, 
+        "ET_ORDER": 0.4181, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539218.7528, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 125.1058, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55393169797644, 
+          37.89619459397834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194391.47, 
+        "ET_ORDER": 0.4211, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539218.8435, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 124.81051, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55390889492082, 
+          37.89621208560121
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194393.4203, 
+        "ET_ORDER": 0.4293, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539220.8391, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 123.84666, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55388042634367, 
+          37.8962279198896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194395.1891, 
+        "ET_ORDER": 0.4382, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539223.3337, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 122.72035, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5538657500607, 
+          37.89625404159928
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194398.0935, 
+        "ET_ORDER": 0.4475, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539224.6102, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 121.71662, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55391760613304, 
+          37.896449169306344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194419.7213, 
+        "ET_ORDER": 0.5122, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539219.9474, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 117.37143, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55391093802292, 
+          37.89649189175319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194424.4642, 
+        "ET_ORDER": 0.5262, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539220.511, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 116.58709, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55364988243473, 
+          37.89675960283546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194454.2768, 
+        "ET_ORDER": 0.6359, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539243.3212, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 103.92645, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55365137557892, 
+          37.89682311763595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194461.3232, 
+        "ET_ORDER": 0.6565, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539243.1562, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 103.96989, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55329853289562, 
+          37.89732548633786
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194517.21, 
+        "ET_ORDER": 0.843, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539273.9115, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 113.0122, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55329714403453, 
+          37.89739344351717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194524.7505, 
+        "ET_ORDER": 0.865, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539273.9975, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 111.45685, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55334784483259, 
+          37.89751292012883
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194537.9852, 
+        "ET_ORDER": 0.9059, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539269.4764, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 106.98232, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.55298481276579, 
+          37.89754957955172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 125.2, 
+        "Av_S_Up": 6.5, 
+        "Length_3D": 349.2, 
+        "Len_Down": 224.0, 
+        "Max_S_Down": 20.2, 
+        "Min_Z": 96.5, 
+        "H_Down": 45.6, 
+        "ET_ID": 77, 
+        "trail_name": "Eagle Trail", 
+        "ET_Y": 4194542.2055, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 20.1, 
+        "ET_IDP": 77, 
+        "ET_IDR": "77_0", 
+        "H_Up": 14.1, 
+        "ET_X": 539301.3747, 
+        "Av_S_Down": 11.8, 
+        "ET_Z": 96.45871, 
+        "Length_2D": 342.1, 
+        "Max_Z": 131.5
+      }
+    }
+  ]
+}

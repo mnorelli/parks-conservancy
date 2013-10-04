@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42871409210987, 
+          37.80730525146039
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184589.1775, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550288.5442, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 28.73189, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42868947475648, 
+          37.80739682938218
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184599.3513, 
+        "ET_ORDER": 0.0399, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550290.6491, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 29.17872, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42865153002992, 
+          37.80740771251711
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184600.5792, 
+        "ET_ORDER": 0.0536, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550293.9819, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 29.47717, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42850694117881, 
+          37.80755246248942
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184616.717, 
+        "ET_ORDER": 0.1323, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550306.6115, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 29.31719, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42835153617678, 
+          37.80780782963177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184645.1336, 
+        "ET_ORDER": 0.2533, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550320.1181, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 26.20341, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42824362992253, 
+          37.807846830117604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184649.5188, 
+        "ET_ORDER": 0.2934, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550329.5903, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 25.84646, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42807032023501, 
+          37.80783966523641
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184648.8172, 
+        "ET_ORDER": 0.3521, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550344.8511, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 26.41016, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42803065097803, 
+          37.80781575741036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184646.186, 
+        "ET_ORDER": 0.3689, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550348.3593, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 26.48147, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42778178066216, 
+          37.80778767177039
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184643.204, 
+        "ET_ORDER": 0.454, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550370.2857, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 27.63086, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42747453023281, 
+          37.80785073690072
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184650.3667, 
+        "ET_ORDER": 0.5614, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550397.2892, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 22.56818, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4272804559943, 
+          37.80775142023035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184639.4522, 
+        "ET_ORDER": 0.6395, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550414.4405, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 20.81657, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42717479045072, 
+          37.80767220783238
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184630.7206, 
+        "ET_ORDER": 0.6887, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550423.7958, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 18.69623, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42696688527806, 
+          37.80766576449176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184630.1179, 
+        "ET_ORDER": 0.7591, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550442.1015, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 9.20267, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4268301133857, 
+          37.807506525628895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184612.5242, 
+        "ET_ORDER": 0.8412, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550454.2495, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 13.80225, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4267825131402, 
+          37.807508182257216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184612.7337, 
+        "ET_ORDER": 0.8574, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550458.4385, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 11.2543, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42670353037238, 
+          37.807568206283705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184619.436, 
+        "ET_ORDER": 0.8944, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550465.3503, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 4.76247, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4267120988906, 
+          37.80769095388741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184633.0502, 
+        "ET_ORDER": 0.9468, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550464.5125, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 4.59252, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.42656249625522, 
+          37.80765246993675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 77.7, 
+        "Av_S_Up": 5.3, 
+        "Length_3D": 266.6, 
+        "Len_Down": 189.0, 
+        "Max_S_Down": 34.0, 
+        "Min_Z": 4.3, 
+        "H_Down": 31.6, 
+        "ET_ID": 38, 
+        "trail_name": "Black Point Battery Trail", 
+        "ET_Y": 4184628.8612, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 12.1, 
+        "ET_IDP": 38, 
+        "ET_IDR": "38_0", 
+        "H_Up": 7.1, 
+        "ET_X": 550477.7078, 
+        "Av_S_Down": 9.8, 
+        "ET_Z": 4.27735, 
+        "Length_2D": 260.2, 
+        "Max_Z": 29.5
+      }
+    }
+  ]
+}

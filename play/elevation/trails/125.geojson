@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50171133624931, 
+          37.71879992465234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.3, 
+        "Av_S_Up": 10.9, 
+        "Length_3D": 132.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 31.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 125, 
+        "trail_name": "John Muir Sandladder", 
+        "ET_Y": 4174732.8627, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 15.0, 
+        "ET_IDP": 125, 
+        "ET_IDR": "125_0", 
+        "H_Up": 25.1, 
+        "ET_X": 543915.0764, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 31.44829, 
+        "Length_2D": 129.7, 
+        "Max_Z": 56.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50197991814018, 
+          37.71883576051499
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.3, 
+        "Av_S_Up": 10.9, 
+        "Length_3D": 132.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 31.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 125, 
+        "trail_name": "John Muir Sandladder", 
+        "ET_Y": 4174736.7127, 
+        "ET_ORDER": 0.1851, 
+        "Max_S_Up": 15.0, 
+        "ET_IDP": 125, 
+        "ET_IDR": "125_0", 
+        "H_Up": 25.1, 
+        "ET_X": 543891.3845, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 36.42293, 
+        "Length_2D": 129.7, 
+        "Max_Z": 56.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50209572745946, 
+          37.71889129175363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.3, 
+        "Av_S_Up": 10.9, 
+        "Length_3D": 132.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 31.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 125, 
+        "trail_name": "John Muir Sandladder", 
+        "ET_Y": 4174742.8195, 
+        "ET_ORDER": 0.277, 
+        "Max_S_Up": 15.0, 
+        "ET_IDP": 125, 
+        "ET_IDR": "125_0", 
+        "H_Up": 25.1, 
+        "ET_X": 543881.1452, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 39.62737, 
+        "Length_2D": 129.7, 
+        "Max_Z": 56.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50240180082197, 
+          37.71898045952838
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.3, 
+        "Av_S_Up": 10.9, 
+        "Length_3D": 132.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 31.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 125, 
+        "trail_name": "John Muir Sandladder", 
+        "ET_Y": 4174752.5691, 
+        "ET_ORDER": 0.4985, 
+        "Max_S_Up": 15.0, 
+        "ET_IDP": 125, 
+        "ET_IDR": "125_0", 
+        "H_Up": 25.1, 
+        "ET_X": 543854.1177, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 46.52941, 
+        "Length_2D": 129.7, 
+        "Max_Z": 56.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5028856148084, 
+          37.71887812989248
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.3, 
+        "Av_S_Up": 10.9, 
+        "Length_3D": 132.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 31.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 125, 
+        "trail_name": "John Muir Sandladder", 
+        "ET_Y": 4174740.9894, 
+        "ET_ORDER": 0.8388, 
+        "Max_S_Up": 15.0, 
+        "ET_IDP": 125, 
+        "ET_IDR": "125_0", 
+        "H_Up": 25.1, 
+        "ET_X": 543811.5384, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 54.49304, 
+        "Length_2D": 129.7, 
+        "Max_Z": 56.5
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50307242125443, 
+          37.71876198499139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 132.3, 
+        "Av_S_Up": 10.9, 
+        "Length_3D": 132.3, 
+        "Len_Down": 0.0, 
+        "Max_S_Down": 0.0, 
+        "Min_Z": 31.4, 
+        "H_Down": 0.0, 
+        "ET_ID": 125, 
+        "trail_name": "John Muir Sandladder", 
+        "ET_Y": 4174728.016, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 15.0, 
+        "ET_IDP": 125, 
+        "ET_IDR": "125_0", 
+        "H_Up": 25.1, 
+        "ET_X": 543795.1431, 
+        "Av_S_Down": 0.0, 
+        "ET_Z": 56.51798, 
+        "Length_2D": 129.7, 
+        "Max_Z": 56.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+      }
+
+      .map {
+        display: inline-block;
+        margin: 10px;
+        width: 235px;
+        float: left;
+      }
+
+      .map .map-container {
+        width: 235px;
+        height: 320px;
+      }
+
+      .nearby {
+        width: 235px;
+      }
+
+      .count {
+        /*font-size: 10px;*/
+      }
+
+      #info {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        /*font-size: 12px;*/
+        display: none;
+        padding: 10px;
+        border: 2px solid black;
+      }
+
+      li {
+        font-size: 11px;
+      }
+
+      h5,
+      h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="content"></div>
+    <!-- <div id="info"></div> -->
+
+    <script src="js/d3.v3.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+    <script>
+      var content = d3.select("#content");
+
+      var qs = function() {
+        var args = {},
+            parts = window.location.search.substr(1).split("&");
+        
+        parts.forEach(function(arg) {
+          arg = arg.split("=");
+          args[arg[0]] = decodeURIComponent(arg[1]);
+        });
+        return args;
+      };
+      var args = qs();
+
+      var format = function(str, replacements) {
+        Object.keys(replacements).forEach(function(repl) {
+          str.replace(repl, replacements[repl]);
+        });
+        return str;
+      }
+
+
+      var test = null;
+      d3.json("data/nearby.json", function(err, locations) {
+
+        var valid = ["Visitor Center", "Site of Interest", "Cafe", "Restroom", "Parking Lot", "Trailhead", "Overlook"];
+        locations = locations.filter(function(d) { return valid.indexOf(d.type) > -1; });
+
+
+        var nest = d3.nest()
+          .key(function(d) { return d.type; });
+
+        var entries = nest.entries(locations);
+        var entries_by_type = nest.map(locations);
+
+        var loctype = args.type || null;
+        if (!args || !loctype) {
+          var list = d3.keys(entries_by_type).map(function(type) {
+            // console.log(entry);
+            var link = [
+              "<a href=locations-nearby.html?type=",
+              encodeURIComponent(type),
+              ">",
+              type,
+              "</a> <span class=\"count\">(",
+              entries_by_type[type].length,
+              " points)</span>"
+            ].join("");
+            return link;
+          });
+          content.html("<h2>" + locations.length + " locations</h2>" + list.join("<br>"));
+          return;
+        }
+
+        var filtered = entries_by_type[loctype];
+
+        content.html(["<h1>type=", loctype, " (", filtered.length, " points)</h1>"].join(""));
+        var div = content.selectAll("div")
+          .data(filtered)
+        .enter().append("div")
+          .attr("class", "map");
+
+        var name_header = div.append("h4");
+          
+        name_header
+          .text(function(d) { return d.name; });
+          // .on("mouseover", function(d) { 
+          //   // var nearby = locations.filter(function(loc) {
+          //   //   var ids = d.nearby.map(function(n) { 
+          //   //     return n.id; 
+          //   //   });
+          //   //   return ids.indexOf(loc.cms_link) > -1;
+          //   // });
+          //   var nearbyStr = d.nearby.map(function(near) { 
+          //     return near.name 
+          //          + " (" 
+          //          + near.dist.toFixed(2) 
+          //          + "mi)"; 
+          //   }).join("<br>");
+            
+          //   var t = d3.select(this);
+          //   test = t;
+          //   d3.select("#info")
+          //     .style("display", "inline")
+          //     .style("top", t.property("offsetTop") + 10 + "px")
+          //     .style("left", t.property("offsetLeft") + 20 + "px")
+          //     .html("<h2>Nearby:</h2>" + nearbyStr);
+          // })
+          // .on("mouseout", function() {
+          //   d3.select("#info").style("display", "none");
+          // });
+
+        div.append("div")
+          .attr("id", function(d, i) { return "map" + i; })
+          .attr("class", "map-container");
+
+        filtered.forEach(function(point, i) {
+          var glocation = new google.maps.LatLng(+point.Y, +point.X);
+          var opts = {
+            zoom: 14,
+            center: glocation,
+            disableDefaultUI: true,
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+          };
+          var map = new google.maps.Map(document.getElementById('map' + i), opts);
+
+          var display = {
+            strokeWeight: 0,
+            fillColor: '#FF0000',
+            fillOpacity: 0.7,
+            map: map,
+            center: glocation,
+            radius: 30
+          };
+          var circle = new google.maps.Circle(display);
+
+        });
+
+        div.append("div")
+          .attr("class", "nearby")
+          .html(function(d) {
+            var nearbyIds = d.nearby.map(function(near) { return near.id; });
+            var nearby = locations.filter(function(loc) {
+              return nearbyIds.indexOf(loc.cms_link) > -1;
+            });
+            // record distance info
+            nearby.forEach(function(near) {
+              for (var i = 0; i < d.nearby.length; i++) {
+                if (d.nearby[i].id === near.cms_link) {
+                  near.distance = d.nearby[i].dist;
+                  break;
+                }
+              }
+            });
+            // console.log(nearby);
+
+            var nearbyByType = d3.nest()
+              .key(function(d) { return d.type; })
+              .map(nearby);
+
+            // console.log("nearbyByType:", nearbyByType);
+
+            var nearbyStr = [];
+            for (var type in nearbyByType) {
+
+              // XXX FIX: get rid of these rows when you first pull in the data
+              // if (valid.indexOf(type) > -1) {
+                nearbyByType[type] = nearbyByType[type].slice(0, 2);
+              // } else {
+                // continue;
+              // }
+
+              var str = nearbyByType[type].sort(function(a,b) {
+                return d3.ascending(a.distance, b.distance);
+              }).map(function(near) {
+                // console.log(near);
+                return "<li>"
+                     + near.name 
+                     + " (" 
+                     + near.distance.toFixed(2)
+                     + "mi)</li>"; 
+              }).join("");
+              str = "<h6>" + type + "</h6><ul>" + str + "</ul>";
+              nearbyStr.push(str);
+            }
+            // var nearbyStr = d.nearby.map(function(near) { 
+            //   return "<li>"
+            //        + near.name 
+            //        + " (" 
+            //        + near.dist.toFixed(2)
+            //        + "mi)</li>"; 
+            // }).join("");
+            
+            return "<h5>Nearby:</h5><br>" + nearbyStr.join("");
+          });
+
+
+      });
+
+    </script>
+
+  </body>
+</html>

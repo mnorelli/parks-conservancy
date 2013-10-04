@@ -1,0 +1,805 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47967301749912, 
+          37.7965602114846
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183370.8249, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545809.3901, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 56.52885, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47958828665438, 
+          37.79652721875853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183367.2059, 
+        "ET_ORDER": 0.0311, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545816.8702, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 59.1184, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47957259127794, 
+          37.7965211070318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183366.5355, 
+        "ET_ORDER": 0.0368, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545818.2558, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 59.13289, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47940872279985, 
+          37.79648165637681
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183362.2388, 
+        "ET_ORDER": 0.0932, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545832.7072, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 59.27007, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47933983650218, 
+          37.79646429463489
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183360.3463, 
+        "ET_ORDER": 0.1169, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545838.7827, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 60.55972, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47923260587707, 
+          37.79641093441529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183354.4786, 
+        "ET_ORDER": 0.1586, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545848.2563, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 62.61397, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47918661007763, 
+          37.796350084517336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183347.7499, 
+        "ET_ORDER": 0.188, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545852.3434, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 63.35093, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47919062234281, 
+          37.79620473055466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183331.621, 
+        "ET_ORDER": 0.2483, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545852.08, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 64.2502, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47915800991805, 
+          37.796155742485986
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183326.2018, 
+        "ET_ORDER": 0.2713, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545854.9815, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 65.17781, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47906535445307, 
+          37.796110699861075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183321.2498, 
+        "ET_ORDER": 0.307, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545863.1668, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 66.57896, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47903077954903, 
+          37.796068810825346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183316.6192, 
+        "ET_ORDER": 0.3278, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545866.2367, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 65.93535, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47898916068847, 
+          37.79600130328354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183309.1497, 
+        "ET_ORDER": 0.359, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545869.9426, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 66.93388, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47898098010825, 
+          37.795890724798056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183296.8851, 
+        "ET_ORDER": 0.4049, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545870.7312, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 65.98599, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4785318707325, 
+          37.79554517299416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183258.7668, 
+        "ET_ORDER": 0.6108, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545910.4851, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 70.90968, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47850017656847, 
+          37.79550300092072
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183254.1034, 
+        "ET_ORDER": 0.6311, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545913.3016, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 70.88847, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47847930726321, 
+          37.79550035872995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183253.8205, 
+        "ET_ORDER": 0.6381, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545915.1406, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 71.4656, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47842869550752, 
+          37.79551010769654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183254.927, 
+        "ET_ORDER": 0.6552, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545919.5905, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 73.21032, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47840333862334, 
+          37.79553362513418
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183257.5487, 
+        "ET_ORDER": 0.6681, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545921.8084, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 74.29071, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47837824163378, 
+          37.79572290941388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183278.562, 
+        "ET_ORDER": 0.747, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545923.9008, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 80.28138, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47833221784344, 
+          37.795720633517995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183278.3321, 
+        "ET_ORDER": 0.7622, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545927.9542, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 81.6101, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47820285317603, 
+          37.79563863881291
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183269.2984, 
+        "ET_ORDER": 0.8166, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545939.3944, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 83.80566, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47814087784121, 
+          37.79562522227825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183267.8403, 
+        "ET_ORDER": 0.8378, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545944.8591, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 85.19368, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47807508805461, 
+          37.79563655776748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183269.1303, 
+        "ET_ORDER": 0.8599, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545950.6443, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 86.99778, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47799052420828, 
+          37.79569178504873
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183275.2993, 
+        "ET_ORDER": 0.896, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545958.0552, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 89.96278, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47783131833728, 
+          37.7959084822842
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 249.8, 
+        "Av_S_Up": 10.4, 
+        "Length_3D": 273.2, 
+        "Len_Down": 23.4, 
+        "Max_S_Down": 6.6, 
+        "Min_Z": 56.5, 
+        "H_Down": 1.6, 
+        "ET_ID": 124, 
+        "trail_name": "Immigrant Point Trail", 
+        "ET_Y": 4183299.42, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 20.8, 
+        "ET_IDP": 124, 
+        "ET_IDR": "124_0", 
+        "H_Up": 44.9, 
+        "ET_X": 545971.9376, 
+        "Av_S_Down": 4.0, 
+        "ET_Z": 99.82484, 
+        "Length_2D": 267.5, 
+        "Max_Z": 99.8
+      }
+    }
+  ]
+}

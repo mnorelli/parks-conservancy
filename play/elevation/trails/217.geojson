@@ -1,0 +1,4197 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71242325102416, 
+          37.983412140429834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4204013.5697, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525254.1823, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 413.79063, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71250624347587, 
+          37.983285534538766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203999.5, 
+        "ET_ORDER": 0.0059, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525246.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 412.34866, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71262997333139, 
+          37.9829478532067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203962.0, 
+        "ET_ORDER": 0.0206, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525236.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 408.32005, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71280939863728, 
+          37.982745501207475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203939.5, 
+        "ET_ORDER": 0.0309, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525220.5, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 406.20502, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71301209808752, 
+          37.982597283109556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203923.0, 
+        "ET_ORDER": 0.04, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525202.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 403.60072, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71317380951132, 
+          37.98255711950738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203918.5, 
+        "ET_ORDER": 0.0456, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525188.5625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 401.2139, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71344574492005, 
+          37.98253975650851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203916.5, 
+        "ET_ORDER": 0.0546, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525164.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 398.65325, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71358916226316, 
+          37.98244547036832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203906.0, 
+        "ET_ORDER": 0.0608, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525152.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 397.82686, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71395269411143, 
+          37.98193261969533
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203849.0, 
+        "ET_ORDER": 0.0853, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525120.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 390.05938, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71403673051883, 
+          37.981734540218596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203827.0, 
+        "ET_ORDER": 0.094, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525113.0625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 387.1424, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7140803354188, 
+          37.981685075266306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203821.5, 
+        "ET_ORDER": 0.0965, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525109.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 386.04876, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71416511284754, 
+          37.981662749058444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203819.0, 
+        "ET_ORDER": 0.0995, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525101.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 384.71536, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71425334378159, 
+          37.98166746988152
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203819.5, 
+        "ET_ORDER": 0.1024, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525094.0625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 383.22547, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71450145848264, 
+          37.9817356691216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203827.0, 
+        "ET_ORDER": 0.1111, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525072.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 379.82251, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71467906477214, 
+          37.98181721617915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203836.0, 
+        "ET_ORDER": 0.1178, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525056.625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 377.74978, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71476437942451, 
+          37.98183995534646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203838.5, 
+        "ET_ORDER": 0.1208, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525049.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 376.83154, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71484412273688, 
+          37.98183113579315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203837.5, 
+        "ET_ORDER": 0.1235, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525042.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 375.74001, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71488909821147, 
+          37.98179519321491
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203833.5, 
+        "ET_ORDER": 0.1256, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525038.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 374.85399, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7149163862032, 
+          37.9817321690494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203826.5, 
+        "ET_ORDER": 0.1283, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525035.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 374.34334, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71489878595175, 
+          37.98168255543602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203821.0, 
+        "ET_ORDER": 0.1305, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525037.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 374.12466, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71455575975145, 
+          37.981496959033095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203800.5, 
+        "ET_ORDER": 0.1442, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525067.5625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 373.97886, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7145168792712, 
+          37.981429267915374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203793.0, 
+        "ET_ORDER": 0.1473, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525071.0, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 372.80305, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71455292105775, 
+          37.981127423185505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203759.5, 
+        "ET_ORDER": 0.1599, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525067.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 367.04211, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71469379792634, 
+          37.98113677787495
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203760.5, 
+        "ET_ORDER": 0.1646, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525055.5625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 366.30849, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71503248303513, 
+          37.981340389170626
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203783.0, 
+        "ET_ORDER": 0.1786, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 525025.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 364.89044, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71534813919833, 
+          37.98124201156036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203772.0, 
+        "ET_ORDER": 0.1898, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524998.0625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 359.45656, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71548906858851, 
+          37.98123784607215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203771.5, 
+        "ET_ORDER": 0.1945, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524985.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 358.60932, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71567266499, 
+          37.98105803197148
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203751.5, 
+        "ET_ORDER": 0.2041, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524969.625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 353.3401, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71583166392492, 
+          37.98098180653176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203743.0, 
+        "ET_ORDER": 0.2103, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524955.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 350.78682, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71594587921187, 
+          37.980891953382745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203733.0, 
+        "ET_ORDER": 0.2156, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524945.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 348.77219, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71576370917852, 
+          37.98070224236834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203712.0, 
+        "ET_ORDER": 0.2255, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524961.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 346.77706, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71579590819175, 
+          37.980657255657746
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203707.0, 
+        "ET_ORDER": 0.2277, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524958.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 345.98774, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71588566562039, 
+          37.98063494023562
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203704.5, 
+        "ET_ORDER": 0.2308, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524951.0625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 345.14655, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71600088683796, 
+          37.98065324429032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203706.5, 
+        "ET_ORDER": 0.2347, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524940.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 344.42136, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71607137699968, 
+          37.98064440155959
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203705.5, 
+        "ET_ORDER": 0.237, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524934.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 343.12979, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71619262139619, 
+          37.98057709738858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203698.0, 
+        "ET_ORDER": 0.2419, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524924.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 340.37032, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71615637825799, 
+          37.980378726069404
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203676.0, 
+        "ET_ORDER": 0.2503, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524927.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 338.1447, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71616896260035, 
+          37.98025257579015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203662.0, 
+        "ET_ORDER": 0.2555, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524926.3125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 335.86618, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71624766243048, 
+          37.98014461082387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203650.0, 
+        "ET_ORDER": 0.2607, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524919.4375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 333.82201, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71685101331109, 
+          37.97981258730402
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203613.0, 
+        "ET_ORDER": 0.285, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524866.5625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 324.1274, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71685628929049, 
+          37.97973599031815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203604.5, 
+        "ET_ORDER": 0.2882, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524866.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 323.52567, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71671938885446, 
+          37.97961849294439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203591.5, 
+        "ET_ORDER": 0.2948, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524878.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 323.77566, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71668620064612, 
+          37.97955081622907
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203584.0, 
+        "ET_ORDER": 0.2979, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524881.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 322.91469, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71666630748693, 
+          37.979356990862456
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203562.5, 
+        "ET_ORDER": 0.306, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524882.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 320.1622, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71656568525422, 
+          37.97924408713537
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203550.0, 
+        "ET_ORDER": 0.3117, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524891.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 317.99477, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71649967446167, 
+          37.97919886353266
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203545.0, 
+        "ET_ORDER": 0.3146, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524897.625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 316.44008, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71650210413289, 
+          37.97912225969512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203536.5, 
+        "ET_ORDER": 0.3178, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524897.4375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 314.5973, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71654216488055, 
+          37.979068278808654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203530.5, 
+        "ET_ORDER": 0.3204, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524893.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 313.67938, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71661556939816, 
+          37.9790414169593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203527.5, 
+        "ET_ORDER": 0.3231, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524887.5, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 312.93054, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71683474199457, 
+          37.97904645123061
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203528.0, 
+        "ET_ORDER": 0.3303, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524868.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 311.54035, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71701392347458, 
+          37.979087440512004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203532.5, 
+        "ET_ORDER": 0.3365, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524852.5, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 310.50748, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71722783799311, 
+          37.979164564643526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203541.0, 
+        "ET_ORDER": 0.3442, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524833.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 309.64659, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71736065856877, 
+          37.979232480653216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203548.5, 
+        "ET_ORDER": 0.3495, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524822.0, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 308.99936, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71751438002192, 
+          37.97941761447334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203569.0, 
+        "ET_ORDER": 0.3587, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524808.4375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 308.72672, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71775327720215, 
+          37.9796615363783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203596.0, 
+        "ET_ORDER": 0.3716, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524787.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 303.65515, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71784867436426, 
+          37.97965275234098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203595.0, 
+        "ET_ORDER": 0.3747, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524779.0, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 302.07905, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.717890278496, 
+          37.979567229534744
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203585.5, 
+        "ET_ORDER": 0.3786, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524775.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 300.7044, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7179591280026, 
+          37.979242930058724
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203549.5, 
+        "ET_ORDER": 0.3923, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524769.4375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 296.0392, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71803596502396, 
+          37.979062856161136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203529.5, 
+        "ET_ORDER": 0.4002, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524762.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 292.68938, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71824573787171, 
+          37.97873438775527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203493.0, 
+        "ET_ORDER": 0.4155, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524744.4375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 285.6024, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7183720792519, 
+          37.978635548344734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203482.0, 
+        "ET_ORDER": 0.4214, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524733.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 284.28, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71851525894682, 
+          37.97859983943645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203478.0, 
+        "ET_ORDER": 0.4264, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524720.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 283.328, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71870460982196, 
+          37.97858677304206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203476.5, 
+        "ET_ORDER": 0.4326, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524704.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 282.24656, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71886242450253, 
+          37.978632214865435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203481.5, 
+        "ET_ORDER": 0.4382, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524690.3125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 280.35999, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71902794728905, 
+          37.978709220061276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203490.0, 
+        "ET_ORDER": 0.4445, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524675.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 277.9579, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71904771894448, 
+          37.97874982536528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203494.5, 
+        "ET_ORDER": 0.4463, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524674.0, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 277.91, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71904746125342, 
+          37.97881742154603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203502.0, 
+        "ET_ORDER": 0.4491, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524674.0, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 277.8996, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7190021287963, 
+          37.978948000398496
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203516.5, 
+        "ET_ORDER": 0.4548, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524677.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 277.15937, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71900827596059, 
+          37.979015611877045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203524.0, 
+        "ET_ORDER": 0.4576, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524677.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 276.23077, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7190485826285, 
+          37.9790833049488
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203531.5, 
+        "ET_ORDER": 0.4607, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524673.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 275.23318, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71913521575658, 
+          37.97913308281974
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203537.0, 
+        "ET_ORDER": 0.4643, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524666.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 274.16244, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71931665386172, 
+          37.979142528813504
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203538.0, 
+        "ET_ORDER": 0.4703, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524650.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 272.08023, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7194599198646, 
+          37.979084286700754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203531.5, 
+        "ET_ORDER": 0.4756, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524637.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 270.58466, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.71958626022735, 
+          37.97898544598794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203520.5, 
+        "ET_ORDER": 0.4814, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524626.625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 269.08467, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7200088173293, 
+          37.978468210446174
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203463.0, 
+        "ET_ORDER": 0.5071, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524589.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 261.34868, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72013331186716, 
+          37.97829275502898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203443.5, 
+        "ET_ORDER": 0.5155, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524578.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 257.93872, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72020964644894, 
+          37.97824336563324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203438.0, 
+        "ET_ORDER": 0.5188, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524572.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 256.76006, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72031153183467, 
+          37.978212062757585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203434.5, 
+        "ET_ORDER": 0.5224, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524563.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 255.07125, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72047671957596, 
+          37.978189923144484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203432.0, 
+        "ET_ORDER": 0.5279, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524548.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 253.50222, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72090297940998, 
+          37.978195441756185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203432.5, 
+        "ET_ORDER": 0.542, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524511.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 250.08218, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72113250056928, 
+          37.97828611519048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203442.5, 
+        "ET_ORDER": 0.5504, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524491.0625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 249.28355, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72147752726414, 
+          37.97850774888268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203467.0, 
+        "ET_ORDER": 0.5651, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524460.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 246.04403, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72156209451832, 
+          37.9785394942669
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203470.5, 
+        "ET_ORDER": 0.5682, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524453.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 244.97375, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72164608635734, 
+          37.978535186600574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203470.0, 
+        "ET_ORDER": 0.571, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524445.875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 243.9443, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72172021716887, 
+          37.97850381682465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203466.5, 
+        "ET_ORDER": 0.5737, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524439.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 243.2425, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72182610277544, 
+          37.97835535430719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203450.0, 
+        "ET_ORDER": 0.5809, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524430.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 242.32562, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72184325308324, 
+          37.97814809799122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203427.0, 
+        "ET_ORDER": 0.5895, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524428.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 240.53594, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72180838514832, 
+          37.97795874446983
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203406.0, 
+        "ET_ORDER": 0.5975, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524431.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 238.69159, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72181435046694, 
+          37.977886655313576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203398.0, 
+        "ET_ORDER": 0.6005, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524431.3125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 238.11625, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72190645870805, 
+          37.97780575693501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203389.0, 
+        "ET_ORDER": 0.605, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524423.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 235.89185, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72206810384814, 
+          37.97777910025394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203386.0, 
+        "ET_ORDER": 0.6105, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524409.0625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 233.79021, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72355823515639, 
+          37.97779613103632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203387.5, 
+        "ET_ORDER": 0.6597, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524278.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 213.78646, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72370889932664, 
+          37.97775592692947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203383.0, 
+        "ET_ORDER": 0.6649, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524264.9688, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 211.71352, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72384126437693, 
+          37.977661602217076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203372.5, 
+        "ET_ORDER": 0.6708, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524253.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 209.62562, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72391467985148, 
+          37.97753559382766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203358.5, 
+        "ET_ORDER": 0.6766, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524246.9688, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 208.72867, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72394935915642, 
+          37.977206704030024
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203322.0, 
+        "ET_ORDER": 0.6904, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524244.0313, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 206.13172, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72392170578435, 
+          37.97708496485094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203308.5, 
+        "ET_ORDER": 0.6955, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524246.5, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 204.60501, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72387927768519, 
+          37.9770127619862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203300.5, 
+        "ET_ORDER": 0.6988, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524250.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 203.60542, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72387010829586, 
+          37.97680093707812
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203277.0, 
+        "ET_ORDER": 0.7077, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524251.125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 201.59542, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72390982213481, 
+          37.976647810823465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203260.0, 
+        "ET_ORDER": 0.7142, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524247.6875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 201.2069, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72399457195188, 
+          37.97653534832886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203247.5, 
+        "ET_ORDER": 0.7196, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524240.2813, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 200.21598, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72412832396401, 
+          37.97645003943502
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203238.0, 
+        "ET_ORDER": 0.7253, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524228.5625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 198.09848, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72419887660948, 
+          37.97642316614471
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203235.0, 
+        "ET_ORDER": 0.7279, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524222.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 196.93398, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72441365175487, 
+          37.97636508559901
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203228.5, 
+        "ET_ORDER": 0.7354, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524203.5313, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 195.08467, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72448198509794, 
+          37.97636073921608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203228.0, 
+        "ET_ORDER": 0.7377, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524197.5313, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 195.17018, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72461632999881, 
+          37.97630697634074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203222.0, 
+        "ET_ORDER": 0.7426, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524185.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 194.21058, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72479914658102, 
+          37.97613615887662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203203.0, 
+        "ET_ORDER": 0.752, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524169.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 193.07024, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72503214601846, 
+          37.975866316409196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203173.0, 
+        "ET_ORDER": 0.7656, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524149.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 189.78597, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72539511888107, 
+          37.97566437379566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203150.5, 
+        "ET_ORDER": 0.7802, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524117.5625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 182.96719, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72571742249352, 
+          37.975394738385994
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203120.5, 
+        "ET_ORDER": 0.7957, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524089.3438, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 179.08761, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72607722294009, 
+          37.97518377333493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203097.0, 
+        "ET_ORDER": 0.8105, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524057.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 175.13962, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72623936672791, 
+          37.97511655395099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203089.5, 
+        "ET_ORDER": 0.8165, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524043.5938, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 174.53542, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72640784900949, 
+          37.975067374911276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203084.0, 
+        "ET_ORDER": 0.8224, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 524028.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 173.87606, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72697325746411, 
+          37.97496504009512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203072.5, 
+        "ET_ORDER": 0.8416, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523979.1875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 171.21561, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72754072058875, 
+          37.97469146195223
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203042.0, 
+        "ET_ORDER": 0.8635, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523929.4375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 166.70929, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72760491575082, 
+          37.974651052510076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203037.5, 
+        "ET_ORDER": 0.8662, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523923.8125, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 165.9582, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72782518021559, 
+          37.974453278245086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203015.5, 
+        "ET_ORDER": 0.8772, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523904.5313, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 161.43049, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72794677674108, 
+          37.974381456213
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4203007.5, 
+        "ET_ORDER": 0.8822, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523893.875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 159.73469, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72861489859352, 
+          37.97421175412543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202988.5, 
+        "ET_ORDER": 0.9054, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523835.25, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 155.49875, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72877815567244, 
+          37.97413101441992
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202979.5, 
+        "ET_ORDER": 0.9117, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523820.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 153.84, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.7291152103822, 
+          37.97400561025902
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202965.5, 
+        "ET_ORDER": 0.924, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523791.375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 149.19241, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72943276936927, 
+          37.973956770069705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202960.0, 
+        "ET_ORDER": 0.9347, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523763.5, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 147.21014, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72950121596176, 
+          37.97392087582153
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202956.0, 
+        "ET_ORDER": 0.9374, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523757.5, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 146.50154, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72956291818981, 
+          37.973880459570346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202951.5, 
+        "ET_ORDER": 0.9401, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523752.0938, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 145.59632, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.72972825050613, 
+          37.973718607067305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202933.5, 
+        "ET_ORDER": 0.9487, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523737.625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 142.84454, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.73000175935381, 
+          37.97335871850862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202893.5, 
+        "ET_ORDER": 0.9662, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523713.7188, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 134.96845, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.73010746363728, 
+          37.97315617045329
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202871.0, 
+        "ET_ORDER": 0.9754, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523704.5, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 130.9865, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.73015328422478, 
+          37.9728858880609
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202841.0, 
+        "ET_ORDER": 0.9868, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523700.5625, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 128.38778, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.73018331975078, 
+          37.97284539882924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202836.5, 
+        "ET_ORDER": 0.9887, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523697.9375, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 128.13641, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.73030951964803, 
+          37.972778091345106
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202829.0, 
+        "ET_ORDER": 0.9937, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523686.875, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 127.64443, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.73048149518301, 
+          37.97284157591623
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 23.8, 
+        "Av_S_Up": 0.8, 
+        "Length_3D": 2679.5, 
+        "Len_Down": 2655.7, 
+        "Max_S_Down": 12.2, 
+        "Min_Z": 127.6, 
+        "H_Down": 286.5, 
+        "ET_ID": 217, 
+        "trail_name": "Randall Trail", 
+        "ET_Y": 4202836.0, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 0.8, 
+        "ET_IDP": 217, 
+        "ET_IDR": "217_0", 
+        "H_Up": 0.3, 
+        "ET_X": 523671.75, 
+        "Av_S_Down": 6.2, 
+        "ET_Z": 127.63469, 
+        "Length_2D": 2661.1, 
+        "Max_Z": 413.8
+      }
+    }
+  ]
+}

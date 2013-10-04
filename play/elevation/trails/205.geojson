@@ -1,0 +1,4389 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47338947739044, 
+          37.78731985684196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182348.7114, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546368.3689, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.83912, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4731945822489, 
+          37.787338821691
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182350.9122, 
+        "ET_ORDER": 0.0062, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546385.5178, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.84729, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47266653247006, 
+          37.78755635915462
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182375.3099, 
+        "ET_ORDER": 0.0249, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546431.8771, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.25359, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47236559271764, 
+          37.78784455145036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182407.4341, 
+        "ET_ORDER": 0.0398, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546458.1947, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.12386, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47192253000102, 
+          37.78871486069105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182504.2145, 
+        "ET_ORDER": 0.077, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546496.6613, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 48.87162, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47182169368138, 
+          37.78930649186847
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182569.9057, 
+        "ET_ORDER": 0.1007, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546505.1691, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 50.57043, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47171603492436, 
+          37.789612034552526
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182603.858, 
+        "ET_ORDER": 0.1133, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546514.2807, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 51.51216, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47170451601363, 
+          37.78963264910148
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182606.1509, 
+        "ET_ORDER": 0.1141, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546515.282, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 51.56894, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47159682846107, 
+          37.78982534993835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182627.5845, 
+        "ET_ORDER": 0.1225, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546524.6429, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 52.2345, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.471482117775, 
+          37.78997041183281
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182643.7361, 
+        "ET_ORDER": 0.1293, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546534.652, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 52.76077, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47139699113835, 
+          37.79008366292521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182656.3436, 
+        "ET_ORDER": 0.1345, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546542.0762, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 53.13653, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47111686782233, 
+          37.79045633244287
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182697.8305, 
+        "ET_ORDER": 0.1518, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546566.5066, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 54.29947, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47070098719581, 
+          37.791097248444565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182769.1469, 
+        "ET_ORDER": 0.1804, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546602.7213, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 58.11398, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.47003142631077, 
+          37.79221787664757
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182893.8138, 
+        "ET_ORDER": 0.2296, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546660.9692, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 72.11367, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46985071810421, 
+          37.792623728487044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182938.933, 
+        "ET_ORDER": 0.2466, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546676.6244, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 76.66474, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46969847858367, 
+          37.79274293768822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182952.2352, 
+        "ET_ORDER": 0.2534, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546689.9533, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 77.56581, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46930430525059, 
+          37.79294763089605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182975.1427, 
+        "ET_ORDER": 0.2682, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546724.5293, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 78.79248, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46915460578826, 
+          37.79305799182853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4182987.462, 
+        "ET_ORDER": 0.2746, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546737.64, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 79.75459, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46843961332844, 
+          37.79382716183365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183073.1586, 
+        "ET_ORDER": 0.3125, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546800.1059, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 87.41486, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4684050693873, 
+          37.7938849720459
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183079.5899, 
+        "ET_ORDER": 0.3151, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546803.1108, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 87.99007, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4683944088371, 
+          37.794006219794284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183093.0476, 
+        "ET_ORDER": 0.3199, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546803.9729, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 88.6932, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46841291742219, 
+          37.7940763523647
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183100.8195, 
+        "ET_ORDER": 0.3227, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546802.2991, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 89.05916, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46845887317522, 
+          37.79413502059991
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183107.3057, 
+        "ET_ORDER": 0.3255, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546798.216, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 89.35039, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46895032419071, 
+          37.79466833933534
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183166.2312, 
+        "ET_ORDER": 0.3517, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546754.611, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 91.93008, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46898104002489, 
+          37.7947257840881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183172.5893, 
+        "ET_ORDER": 0.3542, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546751.8705, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 92.90545, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46931872764289, 
+          37.794985327771485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183201.2167, 
+        "ET_ORDER": 0.369, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546721.9762, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 92.15321, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46913234319555, 
+          37.79512466639029
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183216.7694, 
+        "ET_ORDER": 0.377, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546738.2981, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 91.7003, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46908942038368, 
+          37.795175469191555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183222.4274, 
+        "ET_ORDER": 0.3795, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546742.0451, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 91.23504, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46899082403542, 
+          37.7954746064312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183255.6658, 
+        "ET_ORDER": 0.3917, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546750.5372, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 88.40229, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46900276907726, 
+          37.79554417483328
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183263.3784, 
+        "ET_ORDER": 0.3945, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546749.4417, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 87.67258, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46900912489686, 
+          37.79558118790224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183267.4818, 
+        "ET_ORDER": 0.396, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546748.8588, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 87.48322, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46915206379602, 
+          37.79590762646159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183303.6285, 
+        "ET_ORDER": 0.4097, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546736.0686, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 85.01071, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46916252151637, 
+          37.7959750745657
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183311.1066, 
+        "ET_ORDER": 0.4124, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546735.1054, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 84.30225, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46914839708218, 
+          37.79604178639657
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183318.5153, 
+        "ET_ORDER": 0.4151, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546736.3069, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 83.52572, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46911350474888, 
+          37.79608821436228
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183323.6839, 
+        "ET_ORDER": 0.4172, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546739.3496, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 82.83031, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46899280864734, 
+          37.7961681656599
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183332.6148, 
+        "ET_ORDER": 0.4222, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546749.9254, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 82.01059, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46875745090095, 
+          37.79628326745828
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183345.503, 
+        "ET_ORDER": 0.4309, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546770.5739, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 80.76039, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46860086056824, 
+          37.796314831816304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183349.0834, 
+        "ET_ORDER": 0.436, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546784.3403, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 79.8299, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46839506666885, 
+          37.79633370971887
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183351.2809, 
+        "ET_ORDER": 0.4425, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546802.4466, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 79.9669, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46837615062866, 
+          37.796457144599856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183364.9854, 
+        "ET_ORDER": 0.4474, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546804.0341, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 78.00405, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46819760684221, 
+          37.79659445937482
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183380.3098, 
+        "ET_ORDER": 0.4552, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546819.6665, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 76.57523, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46812020041622, 
+          37.79672005379656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183394.2832, 
+        "ET_ORDER": 0.4608, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546826.4021, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 75.40474, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46796952568621, 
+          37.79688589615728
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183412.7588, 
+        "ET_ORDER": 0.4689, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546839.5628, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 73.59565, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46789731418514, 
+          37.79699514697019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183424.9163, 
+        "ET_ORDER": 0.4738, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546845.8513, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 72.07219, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46768628052494, 
+          37.79717710307139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183445.21, 
+        "ET_ORDER": 0.4836, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546864.3157, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 69.96371, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4675217493623, 
+          37.797186989617806
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183446.3894, 
+        "ET_ORDER": 0.4888, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546878.7947, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 69.52636, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46737464936035, 
+          37.797243014455475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183452.6791, 
+        "ET_ORDER": 0.4939, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546891.7099, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 68.19345, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4673696279371, 
+          37.7972573838933
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183454.2759, 
+        "ET_ORDER": 0.4945, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546892.1429, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 67.96559, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46744657216114, 
+          37.79727253036516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183455.9178, 
+        "ET_ORDER": 0.497, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546885.3592, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 67.60642, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46748972828581, 
+          37.797303954074145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183459.3826, 
+        "ET_ORDER": 0.4989, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546881.5399, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 67.39777, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46756068058558, 
+          37.797432774714515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183473.6396, 
+        "ET_ORDER": 0.5045, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546875.2119, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 66.56998, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46751875303094, 
+          37.7974477596972
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183475.3232, 
+        "ET_ORDER": 0.5059, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546878.8937, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 66.5631, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46739467005625, 
+          37.797454828407425
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183476.1697, 
+        "ET_ORDER": 0.5098, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546889.8134, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 65.44575, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46730701003716, 
+          37.79740914569329
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183471.1452, 
+        "ET_ORDER": 0.5131, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546897.5598, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 65.09908, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46729695435475, 
+          37.79747145744914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183478.0637, 
+        "ET_ORDER": 0.5156, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546898.4057, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 64.99572, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46717862236216, 
+          37.797472015625715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183478.185, 
+        "ET_ORDER": 0.5193, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546908.8232, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 63.99986, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46719807561743, 
+          37.7976481089703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183497.7127, 
+        "ET_ORDER": 0.5263, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546906.9992, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 63.07441, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46722775629462, 
+          37.797714759068086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183505.0926, 
+        "ET_ORDER": 0.5292, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546904.344, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 62.35033, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46727023984843, 
+          37.797754765705285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183509.51, 
+        "ET_ORDER": 0.5312, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546900.5785, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 61.95848, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46736702587471, 
+          37.79777101051719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183511.2638, 
+        "ET_ORDER": 0.5343, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_0", 
+        "H_Up": 62.3, 
+        "ET_X": 546892.0473, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 61.53993, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46736702587471, 
+          37.79777101051719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183511.2638, 
+        "ET_ORDER": 0.5343, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546892.0473, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 61.53993, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46736702587471, 
+          37.79777101051719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183511.2638, 
+        "ET_ORDER": 0.5343, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_2", 
+        "H_Up": 62.3, 
+        "ET_X": 546892.0473, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 61.53993, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4673443872783, 
+          37.797834246011135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183518.2911, 
+        "ET_ORDER": 0.5369, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546894.0004, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 60.73005, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46729014210592, 
+          37.797860150486066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183521.1924, 
+        "ET_ORDER": 0.5389, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546898.7597, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 60.57488, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46720363638528, 
+          37.79785802157219
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183520.9996, 
+        "ET_ORDER": 0.5417, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546906.3769, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 59.97566, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46710177482953, 
+          37.79795614989334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183531.938, 
+        "ET_ORDER": 0.5467, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546915.2826, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 59.07939, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4672385749518, 
+          37.79795315524732
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183531.5371, 
+        "ET_ORDER": 0.551, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546903.2408, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 59.03735, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46725729207525, 
+          37.798047845119676
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183542.0335, 
+        "ET_ORDER": 0.5548, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546901.5331, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 57.684, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46737724717138, 
+          37.798020845226866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183538.9777, 
+        "ET_ORDER": 0.5587, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546890.9895, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 57.76317, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46738867307269, 
+          37.798044227323814
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183541.5662, 
+        "ET_ORDER": 0.5597, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546889.9688, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 57.31634, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46732464694679, 
+          37.798108866509594
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183548.77, 
+        "ET_ORDER": 0.563, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546895.5647, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 56.14546, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4675149928861, 
+          37.79805355006539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183542.5372, 
+        "ET_ORDER": 0.5694, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546878.8419, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 56.46872, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46772937236744, 
+          37.798055690529885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183542.6672, 
+        "ET_ORDER": 0.5761, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546859.9669, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 54.3434, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46812275575797, 
+          37.79801627364647
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183538.0968, 
+        "ET_ORDER": 0.5886, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546825.3589, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 53.12748, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46837626724769, 
+          37.79815276329505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183553.1133, 
+        "ET_ORDER": 0.5983, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546802.954, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 51.23439, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46840521278101, 
+          37.79819156737139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183557.4041, 
+        "ET_ORDER": 0.6, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546800.3812, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 51.27351, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46845081951672, 
+          37.79834938094105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183574.8906, 
+        "ET_ORDER": 0.6065, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546796.2665, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 50.26685, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46857680676574, 
+          37.79840949714288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183581.4974, 
+        "ET_ORDER": 0.6111, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_1", 
+        "H_Up": 62.3, 
+        "ET_X": 546785.1369, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 49.63844, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46786849257184, 
+          37.79781084326366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183515.4318, 
+        "ET_ORDER": 0.6111, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_2", 
+        "H_Up": 62.3, 
+        "ET_X": 546847.8736, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 61.83538, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46857680676574, 
+          37.79840949714288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183581.4974, 
+        "ET_ORDER": 0.6111, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_3", 
+        "H_Up": 62.3, 
+        "ET_X": 546785.1369, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 49.63844, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46857680676574, 
+          37.79840949714288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183581.4974, 
+        "ET_ORDER": 0.6111, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_4", 
+        "H_Up": 62.3, 
+        "ET_X": 546785.1369, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 49.63844, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46762191484406, 
+          37.79775355684014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183509.1995, 
+        "ET_ORDER": 0.6192, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_2", 
+        "H_Up": 62.3, 
+        "ET_X": 546869.6182, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 62.8969, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4674548589054, 
+          37.797752787392895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183509.1979, 
+        "ET_ORDER": 0.6244, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_2", 
+        "H_Up": 62.3, 
+        "ET_X": 546884.3261, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 61.9959, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46886050183294, 
+          37.79814002890669
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183551.4581, 
+        "ET_ORDER": 0.6412, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_3", 
+        "H_Up": 62.3, 
+        "ET_X": 546760.3308, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 52.87528, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46888626680438, 
+          37.79808893525984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183545.7764, 
+        "ET_ORDER": 0.6434, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_3", 
+        "H_Up": 62.3, 
+        "ET_X": 546758.0947, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 53.58016, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46900526334814, 
+          37.797964576049736
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183531.9193, 
+        "ET_ORDER": 0.6496, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_3", 
+        "H_Up": 62.3, 
+        "ET_X": 546747.6968, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 54.32442, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46914216651061, 
+          37.797852578672156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183519.4248, 
+        "ET_ORDER": 0.6558, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_3", 
+        "H_Up": 62.3, 
+        "ET_X": 546735.7146, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 54.93361, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46841402947022, 
+          37.79860064832122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183602.787, 
+        "ET_ORDER": 0.665, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_4", 
+        "H_Up": 62.3, 
+        "ET_X": 546799.3469, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.78193, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46840560331275, 
+          37.79861003260748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183603.8324, 
+        "ET_ORDER": 0.6654, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_4", 
+        "H_Up": 62.3, 
+        "ET_X": 546800.0828, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.80281, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46840560331275, 
+          37.79861003260748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183603.8324, 
+        "ET_ORDER": 0.6654, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546800.0828, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.80281, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46840560331275, 
+          37.79861003260748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183603.8324, 
+        "ET_ORDER": 0.6654, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_6", 
+        "H_Up": 62.3, 
+        "ET_X": 546800.0828, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.80281, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4683245925753, 
+          37.7986493499654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183608.2352, 
+        "ET_ORDER": 0.6684, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546807.19, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 47.10751, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46825083869139, 
+          37.798652723285265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183608.6464, 
+        "ET_ORDER": 0.6707, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546813.681, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 46.96501, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46820065605003, 
+          37.79872999060306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183617.2443, 
+        "ET_ORDER": 0.6742, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546818.0502, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 46.21995, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46770745516348, 
+          37.798638925519704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183607.3878, 
+        "ET_ORDER": 0.6901, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546861.528, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 44.24267, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46738802412172, 
+          37.798733538165386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183618.0452, 
+        "ET_ORDER": 0.7008, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546889.5902, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 42.08266, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46731222861317, 
+          37.798829804310294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183628.7639, 
+        "ET_ORDER": 0.7053, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546896.2022, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 41.66235, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4673147067245, 
+          37.79892333645632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183639.14, 
+        "ET_ORDER": 0.7091, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546895.9249, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 40.85637, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46723673947484, 
+          37.799039637887304
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183652.0827, 
+        "ET_ORDER": 0.7143, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546902.7154, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 39.82401, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.467266933137, 
+          37.799125565719585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183661.6012, 
+        "ET_ORDER": 0.7178, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546900.0029, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 39.05532, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46739422718619, 
+          37.79920558823415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183670.4158, 
+        "ET_ORDER": 0.7229, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546888.7457, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 38.2006, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46739920081632, 
+          37.79922336294172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183672.3854, 
+        "ET_ORDER": 0.7237, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546888.2966, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 37.98504, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46725666508208, 
+          37.799359745692044
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183687.5885, 
+        "ET_ORDER": 0.7307, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546900.7588, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 36.70485, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46716730561411, 
+          37.79950053374203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183703.2537, 
+        "ET_ORDER": 0.7369, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546908.5367, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 35.969, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46712983827, 
+          37.7995331125117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183706.8871, 
+        "ET_ORDER": 0.7387, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546911.8146, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 35.58758, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46711231039882, 
+          37.79969422098131
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183724.7708, 
+        "ET_ORDER": 0.7451, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546913.2558, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 35.08372, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46727123927637, 
+          37.79970125794637
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183725.4718, 
+        "ET_ORDER": 0.7501, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546899.2598, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 34.90458, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46738667241563, 
+          37.79981067085584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183737.5532, 
+        "ET_ORDER": 0.7558, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546889.0283, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 33.77637, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46758787419877, 
+          37.799842505192125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183740.9843, 
+        "ET_ORDER": 0.7622, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546871.2951, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 32.31708, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46764631193133, 
+          37.79987614301557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183744.6871, 
+        "ET_ORDER": 0.7645, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546866.1292, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 32.06213, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46767977346252, 
+          37.799944470277865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183752.2512, 
+        "ET_ORDER": 0.7674, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546863.1402, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 32.1315, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46761793529961, 
+          37.80006110709916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183765.223, 
+        "ET_ORDER": 0.7724, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546868.5105, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 31.49693, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46748617342487, 
+          37.800131520470764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183773.1014, 
+        "ET_ORDER": 0.7774, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546880.0658, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 30.29714, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46745409160857, 
+          37.80013192525177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183773.1624, 
+        "ET_ORDER": 0.7784, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546882.8899, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 30.33512, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46740826269945, 
+          37.80016687911723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183777.0635, 
+        "ET_ORDER": 0.7804, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546886.9024, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 30.00779, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46736620407053, 
+          37.800229793352415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183784.0649, 
+        "ET_ORDER": 0.7833, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546890.5653, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 29.87588, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46723174476607, 
+          37.80032570404209
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183794.7736, 
+        "ET_ORDER": 0.789, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546902.3419, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 29.05631, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46726388867708, 
+          37.800488260212525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183812.793, 
+        "ET_ORDER": 0.7955, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546899.4093, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 28.29426, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46724395970578, 
+          37.800614553700285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183826.8152, 
+        "ET_ORDER": 0.8005, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546901.0839, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 27.12272, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46724909431332, 
+          37.800870390560576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183855.1976, 
+        "ET_ORDER": 0.8107, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546900.4701, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 25.59026, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46727346774709, 
+          37.800965568337226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183865.7453, 
+        "ET_ORDER": 0.8145, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546898.2642, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 24.2534, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46740970926872, 
+          37.80108495907393
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183878.9233, 
+        "ET_ORDER": 0.8209, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_5", 
+        "H_Up": 62.3, 
+        "ET_X": 546886.1947, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 23.68743, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46774233565644, 
+          37.79914801293856
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183663.8533, 
+        "ET_ORDER": 0.8209, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_6", 
+        "H_Up": 62.3, 
+        "ET_X": 546858.1356, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 39.96145, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.467927385073, 
+          37.799036005585585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183651.3334, 
+        "ET_ORDER": 0.8283, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_6", 
+        "H_Up": 62.3, 
+        "ET_X": 546841.9151, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 41.16604, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46811914062785, 
+          37.79889415245478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183635.4988, 
+        "ET_ORDER": 0.8365, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_6", 
+        "H_Up": 62.3, 
+        "ET_X": 546825.123, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 43.48988, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46829133868344, 
+          37.79873729584294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183618.0094, 
+        "ET_ORDER": 0.8448, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_6", 
+        "H_Up": 62.3, 
+        "ET_X": 546810.0621, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 45.78019, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46716598787494, 
+          37.80099686879359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183869.272, 
+        "ET_ORDER": 0.851, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546907.7064, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 23.18022, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46708908209213, 
+          37.80175636551996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183953.5764, 
+        "ET_ORDER": 0.8812, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546913.9964, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 17.99735, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46759502257176, 
+          37.80190587948613
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183969.9111, 
+        "ET_ORDER": 0.8982, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546869.3619, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 19.14395, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46767282439801, 
+          37.80196776174454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4183976.7379, 
+        "ET_ORDER": 0.9017, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546862.4736, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 19.45928, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46774732733412, 
+          37.8026889548662
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4184056.7166, 
+        "ET_ORDER": 0.9304, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546855.4592, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 14.88471, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46775853304653, 
+          37.80311179042241
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4184103.6244, 
+        "ET_ORDER": 0.9471, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546854.2056, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 9.30409, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46769507148177, 
+          37.80332985425863
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4184127.8503, 
+        "ET_ORDER": 0.956, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546859.6545, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 4.79596, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4676007185189, 
+          37.8034474310536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4184140.9427, 
+        "ET_ORDER": 0.9616, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546867.8863, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 4.36039, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46751388068516, 
+          37.80354713270113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4184152.0481, 
+        "ET_ORDER": 0.9664, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546875.4678, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 4.5262, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.467393819251, 
+          37.803588964164014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4184156.7495, 
+        "ET_ORDER": 0.9705, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546886.0106, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 4.27501, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.46647626331692, 
+          37.803435985191875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 1220.1, 
+        "Av_S_Up": 2.9, 
+        "Length_3D": 2802.7, 
+        "Len_Down": 1582.6, 
+        "Max_S_Down": 10.3, 
+        "Min_Z": 3.1, 
+        "H_Down": 93.7, 
+        "ET_ID": 205, 
+        "trail_name": "Park Trail", 
+        "ET_Y": 4184140.2372, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 8.0, 
+        "ET_IDP": 205, 
+        "ET_IDR": "205_7", 
+        "H_Up": 62.3, 
+        "ET_X": 546966.8817, 
+        "Av_S_Down": 3.4, 
+        "ET_Z": 3.12992, 
+        "Length_2D": 2796.7, 
+        "Max_Z": 92.9
+      }
+    }
+  ]
+}

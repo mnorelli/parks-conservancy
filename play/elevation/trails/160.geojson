@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51332541993273, 
+          37.58965920442366
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160399.7596, 
+        "ET_ORDER": 0.0, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 542965.8481, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 188.35867, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51322494437301, 
+          37.58954371453783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160386.9925, 
+        "ET_ORDER": 0.0285, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 542974.785, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 187.3245, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51307363130513, 
+          37.589462538153775
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160378.0556, 
+        "ET_ORDER": 0.0579, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 542988.1904, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 186.89477, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51270589631663, 
+          37.58930566930479
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160360.8201, 
+        "ET_ORDER": 0.1252, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543020.7463, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 182.04729, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51244616767401, 
+          37.589218291195515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160351.2449, 
+        "ET_ORDER": 0.1706, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543043.7269, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 181.01353, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51194023244142, 
+          37.58918743115381
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160348.0531, 
+        "ET_ORDER": 0.2525, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543088.4115, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 180.77856, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51154294082345, 
+          37.589128250379815
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160341.6696, 
+        "ET_ORDER": 0.3176, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543123.5208, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 175.75488, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5110875440104, 
+          37.58910910418478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160339.7546, 
+        "ET_ORDER": 0.3912, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543163.7369, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 171.61931, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5100966893434, 
+          37.589151025611955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160344.8614, 
+        "ET_ORDER": 0.5512, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543251.191, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 167.29463, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50971348262891, 
+          37.58914943446985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160344.8614, 
+        "ET_ORDER": 0.613, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543285.0236, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 167.57176, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50951845376665, 
+          37.589119855084135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160341.6696, 
+        "ET_ORDER": 0.645, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543302.259, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 167.9608, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50941048962244, 
+          37.589044608321586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160333.3711, 
+        "ET_ORDER": 0.6681, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543311.8343, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 167.10511, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5094256299615, 
+          37.588941103159286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160321.8807, 
+        "ET_ORDER": 0.6892, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543310.5576, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 164.86319, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50959976078039, 
+          37.58884976703333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160311.6671, 
+        "ET_ORDER": 0.7229, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543295.2372, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 160.0739, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.50985331148128, 
+          37.588776022123376
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160303.3686, 
+        "ET_ORDER": 0.7664, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543272.8949, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 153.94321, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51003463451048, 
+          37.58869046849928
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160293.7933, 
+        "ET_ORDER": 0.8004, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543256.9361, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 148.34805, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51033890854018, 
+          37.588599671435475
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160283.5797, 
+        "ET_ORDER": 0.8528, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543230.1254, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 146.63525, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51036858335647, 
+          37.58848471987004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160270.8127, 
+        "ET_ORDER": 0.8766, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543227.572, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 140.5315, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.5105788637022, 
+          37.5883935313355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160260.599, 
+        "ET_ORDER": 0.9152, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543209.0598, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 137.00128, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51075276588446, 
+          37.588336714946195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160254.2155, 
+        "ET_ORDER": 0.9455, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543193.7394, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 135.75491, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51098420956905, 
+          37.58832616657766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160252.9388, 
+        "ET_ORDER": 0.9829, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543173.3121, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 135.65815, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.51107025813842, 
+          37.58827674268062
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "Len_Up": 51.4, 
+        "Av_S_Up": 0.7, 
+        "Length_3D": 552.8, 
+        "Len_Down": 501.5, 
+        "Max_S_Down": 25.1, 
+        "Min_Z": 134.5, 
+        "H_Down": 54.5, 
+        "ET_ID": 160, 
+        "trail_name": "Middle Ridge Trail", 
+        "ET_Y": 4160247.4159, 
+        "ET_ORDER": 1.0, 
+        "Max_S_Up": 1.3, 
+        "ET_IDP": 160, 
+        "ET_IDR": "160_0", 
+        "H_Up": 0.7, 
+        "ET_X": 543165.7437, 
+        "Av_S_Down": 6.3, 
+        "ET_Z": 134.51739, 
+        "Length_2D": 547.5, 
+        "Max_Z": 188.4
+      }
+    }
+  ]
+}
