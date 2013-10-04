@@ -25,28 +25,24 @@
     return d3.text(url, callback);
   };
 
-  mtc.blockFindUrl = "http://data.fcc.gov/api/block/find";
+  // mtc.blockFindUrl = "http://data.fcc.gov/api/block/find";
+  mtc.blockFindUrl = "http://bay-area-blockgroups.herokuapp.com/areas?lat={lat}&lon={lon}&include_geom=false&format=jsonp&callback={callback}";
 
   mtc.location2fips = function(loc, callback) {
     if (typeof loc === "string") {
       loc = loc.split(/\s*,\s*/).reverse();
     }
-    var url = [
-      mtc.blockFindUrl, "?",
-      "longitude=", loc[0], "&",
-      "latitude=", loc[1], "&",
-      "format=jsonp&callback={callback}"
-    ].join("");
-    return d3.jsonp(url, function(data) {
-      if (data) {
-        if (data.status === "OK") {
-          var fips = data.Block.FIPS;
-          return callback(null, fips);
-        } else if (data.Err) {
-          return callback(data.Err);
-        }
+    var url = mtc.blockFindUrl
+          .replace("{lon}", loc[0])
+          .replace("{lat}", loc[1]),
+        load = (url.indexOf("callback=") > -1)
+          ? d3.jsonp
+          : d3.json;
+    return load(url, function(data) {
+      if (data && data.features.length > 0) {
+        return callback(null, data.features[0].properties.GEOID);
       }
-      return callback(null, data);
+      return callback("no features found", data);
     });
   };
 
