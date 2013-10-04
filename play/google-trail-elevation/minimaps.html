@@ -78,7 +78,7 @@
       }
 
       path.elevation-mouseover {
-        stroke-width: 40;
+        stroke-width: 200;
         stroke: #000;
         opacity: 0;
       }
@@ -170,7 +170,8 @@
       var debug = {},
           overlays = {};
 
-      trips.slice(1).forEach(function(tripId) {
+      // trips.slice(1).forEach(function(tripId) {
+      [1287].forEach(function(tripId) {
 
         var elevationProfileFile = "trips-elevation/" + tripId + ".json";
 
@@ -250,6 +251,7 @@
 
           // display some metadata (from TnT, mostly)
           var metadata = [
+            "<a href=\"http://www.transitandtrails.org/trips/" + profile.metadata.id + "\">View on Transit & Trails</a>",
             "<b>Duration: </b>" + profile.metadata.duration,
             "<b>Elevation Change: </b>" + elevationChange.toFixed(2) + "ft",
             "<b>Length: </b>" + profile.metadata.length_miles.toFixed(2) + " miles",
@@ -299,6 +301,12 @@
                 .x(function(d) { return x(d.distance) })
                 .y(function(d) { return y(d.height); });
 
+          var halfHeight = height/2;
+
+          var fatLine = d3.svg.line()
+                .x(function(d) { return x(d.distance); })
+                .y(function(d) { return halfHeight; });
+
           // move the container over so it's "centered"
           var g = svg.append("g")
             .attr("transform", "translate(" + padding + ",0)");
@@ -329,6 +337,7 @@
               // when you mouseover the "route"/segment on the map, the same segment is highlighted on the
               // elevation profile
               google.maps.event.addListener(routePath, "mouseover", function() {
+                // XXX FIX: y(sister.datum.height) ???
                 var sister = svg.select(".route-segment" + i),
                     locStr = sister.attr("d").substr(1).split(/[ML]/g),
                     first = locStr[0].split(",").map(Number),
@@ -341,7 +350,7 @@
                       .datum(elevation[i])
                         .attr("cx", midx)
                         .attr("cy", midy)
-                        .attr("r", 10)
+                        .attr("r", 5)
                         .attr("transform", "translate(" + padding + ",0)")
                         .style("fill", "red")
                         .style("opacity", 0.8);
@@ -359,10 +368,11 @@
             var elevationPoints = g.selectAll("path")
                 .data(elevationData)
               .enter().append("path")
-              .attr("class", function(d, i) { return "elevation-mouseover route-segment" + (i+1); })
+              // .attr("id", function(d, i) { return "route-segment-mouseover" + (i+1) })
+              .attr("class", function(d, i) { return "elevation-mouseover route-segment-mouseover" + (i+1); })
               .attr("d", function(d, i) {
                 if (i === elevationData.length-1) return "M0,0";
-                return line([d, elevationData[i+1]]); 
+                return fatLine([d, elevationData[i+1]]);
               });
 
             // var r = d3.scale.linear().domain([0, maxHeight]).range([1, 20]);
@@ -378,7 +388,7 @@
 
             // when you mouseover the elevation profile segments, it highlights the same 
             // segment on the map
-            elevationPoints.on("mouseover", function(e) {
+            elevationPoints.on("mouseover", function(e, i) {
               var markerStyle = {
                 strokeColor: '#FF0000',
                 strokeOpacity: 0.8,
@@ -392,10 +402,24 @@
               };
               var marker = new google.maps.Circle(markerStyle);
               overlays.graph2map = marker;
+
+              // var rsm = svg.select(".route-segment" + i).;
+              var overlay = svg.append("circle")
+                    .datum(e)
+                      .attr("cx", function(d) { return x(d.distance); })
+                      .attr("cy", function(d) { return y(d.height); })
+                      .attr("r", 5)
+                      .attr("transform", "translate(" + padding + ",0)")
+                      .style("fill", "red")
+                      .style("opacity", 0.8);
+
+              overlays.map2graph = overlay;
             });
 
             elevationPoints.on("mouseout", function(e) {
               clearOverlay(overlays.graph2map);
+              overlays.map2graph.remove();
+              overlays.map2graph = null;
             });
           }
 
@@ -404,7 +428,8 @@
               .data(elevationData)
             .enter().append("path")
             // .attr("class", "elevation")
-            .attr("class", function(d, i) { return "elevation"; }) // route-segment" + (i+1); })
+            // .attr("class", function(d, i) { return "elevation"; }) // route-segment" + (i+1); })
+            .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
             .attr("d", function(d, i) {
               if (i === elevationData.length-1) return "M0,0";
               return line([d, elevationData[i+1]]); 
