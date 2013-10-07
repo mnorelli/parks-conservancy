@@ -171,15 +171,15 @@
 
         var writeDOM = function(writeMapElements){
             // check if we are a big map or small map
-            // biased towards #main-map, which is "big map"
-            var rootElement = document.getElementById('main-map') || document.getElementById('sidebar-map');
+            // biased towards #big-map, which is "big map"
+            var rootElement = document.getElementById('big-map') || document.getElementById('sidebar-map');
 
             exports.GGNPC_MAP.root = rootElement; // store root element
-            exports.GGNPC_MAP.mapSize = (rootElement.id === 'main-map') ? 'big' : 'small';
+            exports.GGNPC_MAP.mapSize = (rootElement.id === 'big-map') ? 'big' : 'small';
 
             // uh-oh
             if(!rootElement){
-                console.error('No element named sidebar-map or main-map');
+                console.error('No element named sidebar-map or big-map');
                 return;
             }
 

@@ -554,13 +554,12 @@
             .startAngle(0)
             .endAngle(Math.PI * 2);
 
-        //"M0,10A10,10 0 1,1 0,-10A10,10 0 1,1 0,10Z"
         var pointMarker = {
           path: arc(),
           fillColor: 'red',
-          fillOpacity: .5,
+          fillOpacity: .7,
           scale: 1,
-          strokeColor: 'black',
+          strokeColor: 'none',
           strokeWeight: 4,
           strokeOpacity: 0
         };
@@ -747,14 +746,19 @@
 
     }]).directive('ggnpcMap', ["$timeout", "$filter", 'debounce', function ($timeout, $filter, debounce) {
         return {
-            template: '',
-            restrict: 'A',
+            template: '<div class="ggnpc-map-content"></div><div ggnpc-map-legend class="ggnpc-map-legend"></div>',
+            replace: false,
+            restrict: 'EA',
             scope: {
                 mapSize: '@',
                 refresh: "&refresh" // optional
             },
             link: function postLink(scope, element, attrs) {
-                var root = element[0] || null;
+
+                var root = element[0],
+                    mapElm = d3.select(root).select('.ggnpc-map-content').node(),
+                    legend = d3.select(root).select('.ggnpc-map-legend').node();
+
                 var center = new google.maps.LatLng(37.7706, -122.3782);
                 var zoom = 12;
                 var currentBounds;
@@ -768,7 +772,7 @@
                 }
 
                 var _m = new MapModel(angular.extend(opts, {
-                    container: element[0],
+                    container: mapElm,
                     center: center,
                     draggable: true,
                     zoom: zoom
@@ -881,6 +885,35 @@
 
             } // end "link"
         }
+    }]).directive('ggnpcMapLegend', [function(){
+        return {
+            template: '<div class="map-legend-wrapper">' +
+                    '<a href="" class="map-legend-toggle">' +
+                    '<span ng-hide="active">Map Key</span>' +
+                    '<span ng-show="active">Hide x</span>' +
+                    '</a>' +
+                    '<div class="map-legend-info"></div></div>',
+            replace: false,
+            restrict: 'EA',
+            scope: {
+            },
+            link: function postLink(scope, element, attrs) {
+                scope.active = false;
+                var legend = d3.select(element[0]).select('.map-legend-info'),
+                    wrapper = d3.select(element[0]).select('.map-legend-wrapper'),
+                    toggleBtn = d3.select(element[0]).select('.map-legend-toggle')
+                        .on('click', function(){
+                            d3.event.preventDefault ? d3.event.preventDefault() : d3.event.returnValue = false;
+
+                            scope.active = !scope.active;
+                            wrapper.classed('active', scope.active);
+                            scope.$apply();
+
+                        });
+
+            }
+        }
+
     }]);
 
 
