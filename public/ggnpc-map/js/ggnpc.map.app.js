@@ -515,7 +515,7 @@
         $scope.markers = [];
         $scope.geometries = [];
 
-        $scope.mapOptions = {
+        var mapOptions = {
             options: {
                 backgroundColor: '#fff',
                 center: new google.maps.LatLng(37.7706, -122.3782),
@@ -547,15 +547,16 @@
             }
         };
 
+
         var arc = d3.svg.arc()
             .innerRadius(0)
             .outerRadius(10)
             .startAngle(0)
             .endAngle(Math.PI * 2);
 
-
+        //"M0,10A10,10 0 1,1 0,-10A10,10 0 1,1 0,10Z"
         var pointMarker = {
-          path: "M0,10A10,10 0 1,1 0,-10A10,10 0 1,1 0,10Z",
+          path: arc(),
           fillColor: 'red',
           fillOpacity: .5,
           scale: 1,
@@ -564,39 +565,14 @@
           strokeOpacity: 0
         };
 
-
-        if(GGNPC_MAP.mapSize == 'small') $scope.mapOptions = angular.extend($scope.mapOptions,smallMapOptions);
-
-
-        var makeLatLngFromLocation = function(str){
-            var ll = str.split(",").map(function(l){return +l;});
-            if(ll.length < 2) return null;
-            return {latitude: ll[0], longitude: ll[1]};
-        };
-
-        var collectMarkers = function(data){
-            var arr = [];
-            // check parent
-            if(data && data.hasOwnProperty('parent')){
-                var m = makeLatLngFromLocation(data.parent.location || '');
-                //var m = {latitude: data.parent.latitude, longitude: data.parent.longitude};
-                m.icon = null;
-                m.infoWindow = data.parent.title;
-                //if(m)arr.push(m); // skipping for now
-            }
-
-            if(GGNPC_MAP.mapSize != 'small'){
-                if(data && data.hasOwnProperty('children')){
-                    data.children.forEach(function(item){
-                        var m = {latitude: item.latitude, longitude: item.longitude};
-                        m.icon = pointMarker;
-                        m.infoWindow = item.attributes.title;
-                        if(m)arr.push(m);
-                    });
-                }
-            }
-
-            $scope.markers = arr;
+        var pointMarkerHover = {
+          path: arc(),
+          fillColor: 'white',
+          fillOpacity: 0,
+          scale: 1,
+          strokeColor: 'black',
+          strokeWeight: 4,
+          strokeOpacity: 1
         };
 
         var geometryStyleSmallMap = {
@@ -615,6 +591,63 @@
             fillColor: 'none',
             fillOpacity: 0,
             zIndex: 1000
+        };
+
+        $scope.mapOptions = (GGNPC_MAP.mapSize == 'small')  ? angular.extend(mapOptions,smallMapOptions) : mapOptions;
+
+        var makeLatLngFromLocation = function(str){
+            var ll = str.split(",").map(function(l){return +l;});
+            if(ll.length < 2) return null;
+            return {latitude: ll[0], longitude: ll[1]};
+        };
+
+        var setInfoWindowContent = function(infowindow){
+            var data = this.extras.data;
+            if(infowindow ){
+
+                var txt = '';
+                txt += '<strong>Kind</strong>:' + data.kind + '<br\>';
+                for(var k in data.attributes){
+                    if(data.attributes[k].indexOf('http') === 0){
+                        txt += '<strong>' + k + '</strong>' + ': <a href="' + data.attributes[k] + '" target="_blank">' + data.attributes[k] + '</a><br\>';
+                    }else{
+                        txt += '<strong>' + k + '</strong>' + ': ' + data.attributes[k] + '<br\>';
+                    }
+                }
+
+                infowindow.setContent(txt);
+            }
+        };
+
+        var collectMarkers = function(data){
+            var arr = [];
+            // check parent
+            if(data && data.hasOwnProperty('parent')){
+                var m = makeLatLngFromLocation(data.parent.location || '');
+                //var m = {latitude: data.parent.latitude, longitude: data.parent.longitude};
+                m.icon = null;
+                m.infoWindow = data.parent.title;
+                //if(m)arr.push(m); // skipping for now
+            }
+
+            if(GGNPC_MAP.mapSize != 'small'){
+                if(data && data.hasOwnProperty('children')){
+                    data.children.forEach(function(item){
+                        var m = {latitude: item.latitude, longitude: item.longitude};
+                        m.icon = pointMarker;
+                        m.infoWindow = setInfoWindowContent;//item.attributes.title;
+                        m.extras = {
+                            marker_default: pointMarker,
+                            marker_hover: pointMarkerHover,
+                            marker_clicked: pointMarkerHover,
+                            data: item
+                        }
+                        if(m)arr.push(m);
+                    });
+                }
+            }
+
+            $scope.markers = arr;
         };
 
         var collectGeometries = function(data){
@@ -636,6 +669,7 @@
         // watch for a change in the contextChange flag
         // contextChange <timestamp>
         $scope.$watch('contextChange', function(newVal, oldVal){
+
             if(angular.isDefined(newVal)){
                 console.log("contextChange", contextor.context);
 
@@ -650,20 +684,21 @@
                     collectGeometries(data);
 
                     // pretty much dancing around the clobbering markers
-
-                    console.log("INIT: ",initialContextLoaded,pendingBoundsChange )
+                    //console.log("INIT: ",initialContextLoaded,pendingBoundsChange )
                     if(!pendingBoundsChange){
                         collectMarkers(data);
                     }else if(!initialContextLoaded && pendingBoundsChange){
                         //loadMarkersOnExtentChange(pendingBoundsChange);
                         pendingBoundsChange = null;
                     }
-                    console.log("initialContextLoaded")
+                    //console.log("initialContextLoaded")
                     initialContextLoaded = true;
-                });
 
+                });
             }
+
         });
+
 
         var loadMarkersOnExtentChange = function(extentString){
             api.getUsingBBox(extentString, function(err, data){
@@ -674,17 +709,27 @@
 
                 if(angular.isDefined(data) && data.length){
                     var arr = [];
+
+                    // TODO: align the data structure with the api call
                     data[0].data.forEach(function(item){
                         var m = {latitude: item.latitude, longitude: item.longitude};
                         m.icon = pointMarker;
-                        m.infoWindow = item.attributes.title;
+                        m.infoWindow = setInfoWindowContent;//item.attributes.title;
+                        m.extras = {
+                            marker_default: pointMarker,
+                            marker_hover: pointMarkerHover,
+                            marker_clicked: pointMarkerHover,
+                            data: item
+                        }
                         if(m)arr.push(m);
                     });
+
                     $scope.markers = arr;
                 };
 
             });
         }
+
 
         // current bounds watcher
         $scope.$watch('currentBoundString', function(newVal, oldValue){
@@ -729,6 +774,8 @@
                     zoom: zoom
                 }));
 
+
+                // storing the  url value for bounds change
                 var handleBoundsChanged = debounce(function(){
                     if(currentBounds != _m.bounds){
                         currentBounds = _m.bounds;
@@ -738,8 +785,10 @@
 
                 _m.on('bounds_changed',handleBoundsChanged);
 
+
                 // Put the map into the scope
                 scope.map = _m;
+
 
                 // Check if we need to refresh the map
                 if (angular.isUndefined(scope.refresh())) {
@@ -753,6 +802,7 @@
                     }
                   });
                 }
+
 
                 // watch for new geometries to draws
                 scope.$watch("geometries", function (newValue, oldValue) {
@@ -768,14 +818,23 @@
                     });
                 });
 
+
                 // watch for new markers to place on the map
                 scope.$watch("markers", function (newValue, oldValue) {
 
                   $timeout(function () {
-
+                    //this.addMarker = function (lat, lng, icon, infoWindowContent, label, url, thumbnail, extras)
                     angular.forEach(newValue, function (v, i) {
                       if (!_m.hasMarker(v.latitude, v.longitude)) {
-                        _m.addMarker(v.latitude, v.longitude, v.icon, v.infoWindow);
+
+                        var icon = v.icon || null,
+                            infoWindow = v.infoWindow || null,
+                            label = v.label || null,
+                            url = v.url || null,
+                            thumb = v.thumbnail || null,
+                            extras = v.extras || null;
+
+                        _m.addMarker(v.latitude, v.longitude, icon, infoWindow, label, url, thumb, extras);
                       }
                     });
 
@@ -818,6 +877,8 @@
                   });
 
                 }, true);
+
+
             } // end "link"
         }
     }]);
@@ -1032,7 +1093,7 @@ function PrivateMapModel(opts) {
         return {geom:boundary, bounds:bounds};
     }
 
-    this.addMarker = function (lat, lng, icon, infoWindowContent, label, url, thumbnail) {
+    this.addMarker = function (lat, lng, icon, infoWindowContent, label, url, thumbnail, extras) {
 
         if (that.findMarker(lat, lng) != null) {
             return;
@@ -1045,65 +1106,70 @@ function PrivateMapModel(opts) {
             anchorPoint: new google.maps.Point(-3,3)
         });
 
+        marker.extras = extras || {};
+
         if (label) {}
 
         if (url) {}
 
         if (infoWindowContent != null) {
-
-            var infoWindow = new google.maps.InfoWindow({
-                content: infoWindowContent
-            });
+            var infoWindow;
+            if(angular.isFunction(infoWindowContent)){
+                infoWindow = new google.maps.InfoWindow();
+                marker.setInfoWindowContent = infoWindowContent;
+            }else{
+                infoWindow = new google.maps.InfoWindow({
+                    content: infoWindowContent
+                });
+            }
 
             infoWindow.marker = marker;
-
 
             google.maps.event.addListener(infoWindow, 'closeclick', function(){
 
                 if(this.marker){
                     this.marker.isSelected = false;
-                    if(this.marker.hasOwnProperty('previousIconShape')){
-                        this.marker.setIcon( this.marker.previousIconShape );
+
+                    if(this.marker.extras && this.marker.extras.hasOwnProperty('marker_default')){
+                        this.marker.setIcon( this.marker.extras.marker_default );
                     }
                 }
 
             });
 
 
-            var hh = {
-              path: "M0,10A10,10 0 1,1 0,-10A10,10 0 1,1 0,10Z",
-              fillColor: 'white',
-              fillOpacity: 0,
-              scale: 1,
-              strokeColor: 'black',
-              strokeWeight: 4,
-              strokeOpacity: 1
-            };
 
             google.maps.event.addListener(marker, 'click', function() {
                 if (currentInfoWindow != null) {
                     currentInfoWindow.close();
                 }
 
-                this.setIcon( hh );
+                if(this.extras && this.extras.hasOwnProperty('marker_clicked')){
+                    this.setIcon( this.extras.marker_clicked );
+                }
+
                 this.isSelected = true;
 
                 infoWindow.open(_instance, marker);
+                if(this.setInfoWindowContent && angular.isFunction(this.setInfoWindowContent)){
+                    this.setInfoWindowContent(infoWindow);
+                }
                 currentInfoWindow = infoWindow;
             });
 
 
 
             google.maps.event.addListener(marker, 'mouseover', function() {
-                if(!this.hasOwnProperty('previousIconShape')){
-                    this.previousIconShape = this.icon;
+                if(this.extras && this.extras.hasOwnProperty('marker_hover')){
+                    this.setIcon( this.extras.marker_hover );
                 }
-                this.setIcon( hh);
             });
 
             google.maps.event.addListener(marker, 'mouseout', function() {
-                if(this.hasOwnProperty('previousIconShape') && !this.isSelected){
-                    this.setIcon( this.previousIconShape );
+                if(this.isSelected)return;
+
+                if(this.extras && this.extras.hasOwnProperty('marker_default')){
+                    this.setIcon( this.extras.marker_default );
                 }
             });
         }
@@ -1120,7 +1186,8 @@ function PrivateMapModel(opts) {
           "infoWindowContent": infoWindowContent,
           "label": label,
           "url": url,
-          "thumbnail": thumbnail
+          "thumbnail": thumbnail,
+          "extras": extras
     });
 
         // Return marker instance
