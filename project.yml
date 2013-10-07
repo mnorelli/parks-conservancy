@@ -136,13 +136,7 @@ Layer:
     status: on
     Datasource:
       <<: *postgis
-      table: >
-        (
-            SELECT way
-            FROM planet_osm_polygon
-            WHERE way && !bbox!
-              AND tags @> 'natural=>beach'
-        ) AS beach
+      table: beach
 
   # ---- Sports Fields -------------------------------------------------
 
@@ -216,70 +210,10 @@ Layer:
       geometry_field: geom
       table: >
         (
-            SELECT ftype, ST_Collect(geom) AS geom
-            FROM nhdwaterbody
-            WHERE geom && !bbox!
-              AND fcode IN (
-                39000, -- Lake/Pond
-                39004, -- Lake/Pond: Hydrographic Category = Perennial
-                39009, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Average Water Elevation
-                39010, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Normal Pool
-                39011, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Date of Photography
-                39012, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Spillway Elevation
-
-                43600, -- Reservoir
-                43601, -- Reservoir: Reservoir Type = Aquaculture
-                43603, -- Reservoir: Reservoir Type = Decorative Pool
-                43604, -- Reservoir: Reservoir Type = Tailings Pond; Construction Material = Earthen
-                43605, -- Reservoir: Reservoir Type = Tailings Pond
-                43606, -- Reservoir: Reservoir Type = Disposal
-                43607, -- Reservoir: Reservoir Type = Evaporator
-                43608, -- Reservoir: Reservoir Type = Swimming Pool
-                43609, -- Reservoir: Reservoir Type = Cooling Pond
-                43610, -- Reservoir: Reservoir Type = Filtration Pond
-                43611, -- Reservoir: Reservoir Type = Settling Pond
-                43612, -- Reservoir: Reservoir Type = Sewage Treatment Pond
-                43613, -- Reservoir: Reservoir Type = Water Storage; Construction Material = Nonearthen
-                43614, -- Reservoir: Reservoir Type = Water Storage; Construction Material = Earthen; Hydrographic Category = Intermittent
-                43615, -- Reservoir: Reservoir Type = Water Storage; Construction Material = Earthen; Hydrographic Category = Perennial
-                43617, -- Reservoir: Reservoir Type = Water Storage
-                43618, -- Reservoir: Construction Material = Earthen
-                43619, -- Reservoir: Construction Material = Nonearthen
-                43621, -- Reservoir: Reservoir Type = Water Storage; Hydrographic Category = Perennial
-                43623, -- Reservoir: Reservoir Type = Evaporator; Construction Material = Earthen
-                43624, -- Reservoir; Reservoir Type = Treatment
-                43625, -- Reservoir: Reservoir Type = Disposal; Construction Material = Earthen
-                43626, -- Reservoir: Reservoir Type = Disposal; Construction Material = Nonearthen
-
-                46600, -- Swamp/Marsh
-                46601, -- Swamp/Marsh: Hydrographic Category = Intermittent
-                46602, -- Swamp/Marsh: Hydrographic Category = Perennial
-
-                 -1
-              )
-            GROUP BY ftype
-          UNION
-            SELECT ftype, ST_Collect(geom) AS geom
-            FROM nhdarea
-            WHERE geom && !bbox!
-              AND fcode IN (
-                33600, -- Canal/Ditch
-                33601, -- Canal/Ditch: Canal/Ditch Type = Aqueduct
-
-                44500, -- Sea/Ocean
-
-                45500, -- Spillway
-
-                46000, -- Stream/River
-                46006, -- Stream/River: Hydrographic Category = Perennial
-
-                 -1
-              )
-            GROUP BY ftype
-          UNION
-            SELECT 445, geom
-            FROM water_fill
-            WHERE geom && !bbox!
+          SELECT ftype, ST_Collect(geom) AS geom
+          FROM water
+          WHERE geom && !bbox!
+          GROUP BY ftype
         ) AS _
 
   # ---- Coastline (NHD) -----------------------------------------------
@@ -288,73 +222,19 @@ Layer:
     name: coastline
     id:   coastline
     status: on
+    properties:
+      minzoom: 12
     Datasource:
       <<: *postgis
       geometry_field: geom
       table: >
         (
-          SELECT ST_Union(geom) AS geom, SUM(areasqkm) AS areasqkm FROM (
-              SELECT geom, areasqkm
-              FROM nhdwaterbody
-              WHERE geom && !bbox!
-                AND fcode IN (
-                  39000, -- Lake/Pond
-                  39004, -- Lake/Pond: Hydrographic Category = Perennial
-                  39009, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Average Water Elevation
-                  39010, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Normal Pool
-                  39011, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Date of Photography
-                  39012, -- Lake/Pond: Hydrographic Category = Perennial; Stage = Spillway Elevation
-
-                  43600, -- Reservoir
-                  43601, -- Reservoir: Reservoir Type = Aquaculture
-                  43603, -- Reservoir: Reservoir Type = Decorative Pool
-                  43604, -- Reservoir: Reservoir Type = Tailings Pond; Construction Material = Earthen
-                  43605, -- Reservoir: Reservoir Type = Tailings Pond
-                  43606, -- Reservoir: Reservoir Type = Disposal
-                  43607, -- Reservoir: Reservoir Type = Evaporator
-                  43608, -- Reservoir: Reservoir Type = Swimming Pool
-                  43609, -- Reservoir: Reservoir Type = Cooling Pond
-                  43610, -- Reservoir: Reservoir Type = Filtration Pond
-                  43611, -- Reservoir: Reservoir Type = Settling Pond
-                  43612, -- Reservoir: Reservoir Type = Sewage Treatment Pond
-                  43613, -- Reservoir: Reservoir Type = Water Storage; Construction Material = Nonearthen
-                  43614, -- Reservoir: Reservoir Type = Water Storage; Construction Material = Earthen; Hydrographic Category = Intermittent
-                  43615, -- Reservoir: Reservoir Type = Water Storage; Construction Material = Earthen; Hydrographic Category = Perennial
-                  43617, -- Reservoir: Reservoir Type = Water Storage
-                  43618, -- Reservoir: Construction Material = Earthen
-                  43619, -- Reservoir: Construction Material = Nonearthen
-                  43621, -- Reservoir: Reservoir Type = Water Storage; Hydrographic Category = Perennial
-                  43623, -- Reservoir: Reservoir Type = Evaporator; Construction Material = Earthen
-                  43624, -- Reservoir; Reservoir Type = Treatment
-                  43625, -- Reservoir: Reservoir Type = Disposal; Construction Material = Earthen
-                  43626, -- Reservoir: Reservoir Type = Disposal; Construction Material = Nonearthen
-
-                  -1
-                )
-            UNION
-              SELECT geom, 9999
-              FROM nhdarea
-              WHERE geom && !bbox!
-                AND fcode IN (
-                  33600, -- Canal/Ditch
-                  33601, -- Canal/Ditch: Canal/Ditch Type = Aqueduct
-
-                  44500, -- Sea/Ocean
-
-                  45500, -- Spillway
-
-                  46000, -- Stream/River
-                  46006, -- Stream/River: Hydrographic Category = Perennial
-
-                  -1
-                )
-            UNION
-              SELECT geom, 9999
-              FROM water_fill
-              WHERE geom && !bbox!
-          ) AS _
+          SELECT ST_Union(geom) AS geom, SUM(areasqkm) AS areasqkm
+          FROM coastline
           -- TODO zoom-dependent factor (0.075 makes sense at z14)
-          WHERE areasqkm >= 0.075
+          WHERE zoom(!scale_denominator!) >= 12
+            AND geom && !bbox!
+            AND areasqkm >= 0.075
         ) AS _
 
   # ---- GGNRA Boundaries (offshore) -----------------------------------
@@ -421,68 +301,66 @@ Layer:
   - <<: *layer
     name: road
     id:   road
+    class: road
     properties:
       cache-features: on
+      minzoom: 6
+      maxzoom: 13
     Datasource:
       <<: *postgis
       table: >
         (
-          SELECT tags -> 'highway' AS highway,
-            tags -> 'aeroway' AS aeroway,
-            (CASE
-            WHEN tags ? 'bridge' AND tags -> 'bridge' NOT IN ('no', 'false') THEN 'yes'
-            ELSE NULL
-            END) bridge,
-            (CASE
-            WHEN tags ? 'tunnel' AND tags -> 'tunnel' NOT IN ('no', 'false') THEN 'yes'
-            ELSE NULL
-            END) tunnel,
-            way
-          FROM planet_osm_line
+          SELECT *, !scale_denominator! scale, !pixel_width! width
+          FROM road
           WHERE way && !bbox!
             AND (
-              (zoom(!scale_denominator!) >= 14 AND
-                ((tags ? 'highway'
-                  AND tags -> 'highway' IN ('motorway', 'trunk', 'primary',
-                                            'motorway_link', 'trunk_link', 'primary_link',
-                                            'secondary_link', 'tertiary_link',
-                                            'secondary', 'tertiary', 'residential',
-                                            'unclassified', 'service', 'road')
-                  AND
-                  (NOT tags ? 'access' OR tags -> 'access' NOT IN ('no', 'false')))
-                OR
-                (tags ? 'aeroway' AND tags -> 'aeroway' IN ('runway', 'taxiway')))
-              )
-              OR
               (zoom(!scale_denominator!) >= 11 AND
-                ((tags ? 'highway'
-                  AND tags -> 'highway' IN ('motorway', 'trunk', 'primary',
-                                            'secondary', 'tertiary', 'residential',
-                                            'unclassified', 'service', 'road')
-                  AND
-                  (NOT tags ? 'access' OR tags -> 'access' NOT IN ('no', 'false')))
+                highway IN ('motorway', 'trunk', 'primary',
+                                         'secondary', 'tertiary', 'residential',
+                                         'unclassified', 'service', 'road')
                 OR
-                (tags ? 'aeroway' AND tags -> 'aeroway' IN ('runway', 'taxiway')))
+                aeroway IN ('runway', 'taxiway')
               )
               OR
               (zoom(!scale_denominator!) >= 10 AND
-                (tags -> 'highway' IN ('motorway', 'trunk', 'primary', 'secondary', 'tertiary')
-                  AND
-                  (NOT tags ? 'access' OR tags -> 'access' NOT IN ('no', 'false')))
+                highway IN ('motorway', 'trunk', 'primary', 'secondary', 'tertiary')
               )
               OR
               (zoom(!scale_denominator!) >= 9 AND
-                (tags -> 'highway' IN ('motorway', 'trunk', 'primary')
-                  AND
-                  (NOT tags ? 'access' OR tags -> 'access' NOT IN ('no', 'false')))
+                highway IN ('motorway', 'trunk', 'primary')
               )
               OR
               (zoom(!scale_denominator!) >= 6 AND
-                (tags -> 'highway' IN ('motorway', 'trunk')
-                  AND
-                  (NOT tags ? 'access' OR tags -> 'access' NOT IN ('no', 'false')))
+                highway IN ('motorway', 'trunk')
               )
             )
+          ORDER BY z_order ASC
+        ) AS _
+
+  - <<: *layer
+    # this is an interesting idea, but it doesn't seem to help
+    name: road_lowzoom
+    id:   road_lowzoom
+    class: road
+    properties:
+      cache-features: on
+      minzoom: 14
+    Datasource:
+      <<: *postgis
+      table: >
+        (
+          SELECT *
+          FROM road
+          WHERE way && !bbox!
+            AND (
+                highway IN ('motorway', 'trunk', 'primary',
+                                         'motorway_link', 'trunk_link', 'primary_link',
+                                         'secondary_link', 'tertiary_link',
+                                         'secondary', 'tertiary', 'residential',
+                                         'unclassified', 'service', 'road')
+                OR
+                aeroway IN ('runway', 'taxiway')
+              )
           ORDER BY z_order ASC
         ) AS _
 
@@ -752,82 +630,35 @@ Layer:
   - <<: *layer
     name: places
     id:   places
+    class: places
     status: on
+    properties:
+      maxzoom: 12
     Datasource:
       <<: *postgis
       table: >
         (
           SELECT *
-          FROM 
-          (
-            SELECT DISTINCT ON (name) name, way, place, population,
-                   priority, size
-            FROM
-            (
-              SELECT (string_to_array(tags -> 'name', ';'))[1] AS name,
-                     way,
-                     tags -> 'place' AS place,
-                     COALESCE(replace(tags -> 'population', ',', '')::numeric, 0) AS population,
-                     CASE
-                      WHEN tags -> 'place' IN ('city') THEN 1
-                      WHEN tags -> 'place' IN ('suburb') THEN 2
-                      WHEN tags -> 'place' IN ('town') THEN 3
-                      WHEN tags -> 'place' IN ('neighbourhood') THEN 4
-                      WHEN tags -> 'place' IN ('village') THEN 5
-                      ELSE 10
-                    END AS priority,
-                    1 as size
-              FROM planet_osm_point
-              WHERE way && !bbox!
-                AND tags ?& ARRAY['name', 'place']
-                AND tags -> 'name' NOT LIKE '%Home%'
-                AND tags -> 'name' NOT LIKE '%Trailer Court%'
-                AND tags -> 'name' NOT IN ('Doelger City')
-                AND NOT tags ? 'historic'
-                AND (
-                  (
-                    zoom(!scale_denominator!) <= 12
-                    AND tags -> 'place' IN ('city','town')
-                  )
-                  OR (
-                    zoom(!scale_denominator!) > 12
-                    -- island is intentionally omitted
-                    AND tags -> 'place' IN ('city','town','village','suburb','neighbourhood','hamlet','islet','locale','locality')
-                  )
-                )
-            UNION
-              SELECT (string_to_array(tags -> 'name', ';'))[1] AS name,
-                     way,
-                     tags -> 'place' AS place,
-                     way_area size,
-              COALESCE(replace(tags -> 'population', ',', '')::numeric, 0) AS population,
-              CASE
-                WHEN tags->'place' IN ('city') THEN 1
-                WHEN tags->'place' IN ('suburb') THEN 2
-                WHEN tags->'place' IN('town') THEN 3
-                WHEN tags->'place' IN ('neighbourhood') THEN 4
-                WHEN tags->'place' IN ('village') THEN 5
-                ELSE 10
-              END AS priority
-              FROM planet_osm_polygon
-              WHERE way && !bbox!
-                AND tags ?& ARRAY['name', 'place']
-                AND tags -> 'name' NOT LIKE '%Home%'
-                AND tags -> 'name' NOT LIKE '%Trailer Court%'
-                AND (
-                  (
-                    zoom(!scale_denominator!) <= 12
-                    AND tags -> 'place' IN ('city','town','village')
-                  )
-                  OR (
-                    -- island is intentionally omitted
-                    zoom(!scale_denominator!) > 12
-                    AND tags -> 'place' IN ('city','town','village','suburb','neighbourhood','hamlet','islet','locale','locality')
-                  )
-                )
-            ) AS stuff
-            ORDER BY name
-          ) AS stuff
+          FROM places
+          WHERE way && !bbox!
+            AND place IN ('city', 'town')
+          ORDER BY priority ASC, population DESC, size DESC
+        ) AS places
+
+  - <<: *layer
+    name: places_z13plus
+    id:   places_z13plus
+    class: places
+    status: on
+    properties:
+      minzoom: 13
+    Datasource:
+      <<: *postgis
+      table: >
+        (
+          SELECT *
+          FROM places
+          WHERE way && !bbox!
           ORDER BY priority ASC, population DESC, size DESC
         ) AS places
 
@@ -931,7 +762,10 @@ Layer:
   - <<: *layer
     name: bay
     id:   bay
+    class: bay
     status: on
+    properties:
+      maxzoom: 12
     Datasource:
       <<: *postgis
       table: >
@@ -941,9 +775,25 @@ Layer:
           WHERE way && !bbox!
             AND tags @> 'natural=>bay'
             AND tags ? 'name'
-            AND (zoom(!scale_denominator!) >= 13
-              OR tags -> 'name' IN ('San Pablo Bay', 'San Francisco Bay', 'Gulf of the Farallones')
-            )
+            AND tags -> 'name' IN ('San Pablo Bay', 'San Francisco Bay', 'Gulf of the Farallones')
+        ) AS bay
+
+  - <<: *layer
+    name: bay_z13plus
+    id:   bay_z13plus
+    class: bay
+    status: on
+    properties:
+      minzoom: 13
+    Datasource:
+      <<: *postgis
+      table: >
+        (
+          SELECT tags -> 'name' AS name, way
+          FROM planet_osm_point
+          WHERE way && !bbox!
+            AND tags @> 'natural=>bay'
+            AND tags ? 'name'
         ) AS bay
 
   # ---- Road Labels ---------------------------------------------------
@@ -952,6 +802,8 @@ Layer:
     name: highway-labels
     id:   highway-labels
     status: on
+    properties:
+      minzoom: 12
     Datasource:
       <<: *postgis
       table: >
