@@ -123,7 +123,7 @@
         };
     }]);
     /* Services */
-    angular.module('services', ['services.api', 'services.contextor', 'services.debounce']);
+    angular.module('services', ['services.api', 'services.contextor', 'services.debounce', 'services.hasher']);
 
     angular.module('services.api',[]).factory('api', ['$http', '$q', '$rootScope', function($http, $q, $rootScope){
         var API_URL_BASE = exports.GGNPC_MAP.API_URL_BASE;
@@ -426,34 +426,56 @@
         return utils;
     }]);
 
+    angular.module('services.hasher', []).factory('hasher', ['$location', function($location){
+        var hasher = {};
+        var currentHash = {};
+
+        hasher.set = function(obj){
+            //console.log("SET: ", obj, $location.search('a','b'));
+            currentHash = angular.extend(currentHash, obj);
+            $location.search(currentHash);
+
+        }
+
+        hasher.get = function(){
+            return currentHash;
+        }
+
+        hasher.read = function(){
+            return $location.search();
+        }
+
+        return hasher;
+    }]);
+
 
     angular.module('services.debounce', [])
-    .factory('debounce', ['$timeout','$q', function($timeout, $q){
-        return function(func, wait, immediate) {
-    var timeout;
-    var deferred = $q.defer();
-    return function() {
-      var context = this, args = arguments;
-      var later = function() {
-        timeout = null;
-        if(!immediate) {
-          deferred.resolve(func.apply(context, args));
-          deferred = $q.defer();
-        }
-      };
-      var callNow = immediate && !timeout;
-      if ( timeout ) {
-        $timeout.cancel(timeout);
-      }
-      timeout = $timeout(later, wait);
-      if (callNow) {
-        deferred.resolve(func.apply(context,args));
-        deferred = $q.defer();
-      }
-      return deferred.promise;
-    };
-  };
-    }]);
+        .factory('debounce', ['$timeout','$q', function($timeout, $q){
+            return function(func, wait, immediate) {
+                var timeout;
+                var deferred = $q.defer();
+                return function() {
+                    var context = this, args = arguments;
+                    var later = function() {
+                        timeout = null;
+                        if(!immediate) {
+                            deferred.resolve(func.apply(context, args));
+                            deferred = $q.defer();
+                        }
+                    };
+                    var callNow = immediate && !timeout;
+                    if ( timeout ) {
+                        $timeout.cancel(timeout);
+                    }
+                    timeout = $timeout(later, wait);
+                    if (callNow) {
+                        deferred.resolve(func.apply(context,args));
+                        deferred = $q.defer();
+                    }
+                    return deferred.promise;
+                };
+            };
+        }]);
 
 
     var floatEqual = function (f1, f2) {
@@ -462,7 +484,7 @@
 
     /* MAP */
     angular.module('map', [])
-    .controller('mapController', ['$scope', '$rootScope', 'contextor', 'api', function($scope, $rootScope, contextor, api){
+    .controller('mapController', ['$scope', '$rootScope', 'contextor', 'api', 'hasher', function($scope, $rootScope, contextor, api, hasher){
 
         // map template object
         var ggnpcMapTemplate = {
@@ -515,11 +537,29 @@
         $scope.markers = [];
         $scope.geometries = [];
 
+
+        var initialUrlParams = hasher.read();
+
+        var initialZoom = 12,
+            initialCenter = new google.maps.LatLng(37.7706, -122.3782);
+
+        if(initialUrlParams && initialUrlParams.hasOwnProperty('c')){
+            var parts = initialUrlParams.c.split(':');
+            if(parts.length){
+                initialZoom = parseInt(parts[0], 10);
+                if(parts[1] && parts[2]){
+                    initialCenter = new google.maps.LatLng(+parts[1], +parts[2]);
+
+                    $scope.initialDefinedLocation = true;
+                }
+            }
+        }
+
         var mapOptions = {
+            center: initialCenter,
+            zoom: initialZoom,
             options: {
                 backgroundColor: '#fff',
-                center: new google.maps.LatLng(37.7706, -122.3782),
-                zoom: 12,
                 mapTypeControlOptions: {
                     mapTypeIds: ['parks']
                 },
@@ -724,6 +764,7 @@
                     });
 
                     $scope.markers = arr;
+                    $scope.initialDefinedLocation = false;
                 };
 
             });
@@ -732,14 +773,24 @@
 
         // current bounds watcher
         $scope.$watch('currentBoundString', function(newVal, oldValue){
+
             if(GGNPC_MAP.mapSize == 'small') return;
 
             if(angular.isDefined(newVal) && newVal != oldValue){
                 console.log('currentBoundChange: ', newVal);
+
+                // update the hash
+                if($scope.map){
+                    hasher.set({
+                        c: $scope.map.zoom + ":" + $scope.map.center.lat().toFixed(5) + ":" + $scope.map.center.lng().toFixed(5)
+                    });
+                }
+
                 if(!initialContextLoaded){
                      pendingBoundsChange = newVal;
                      return;
                 }
+
                 loadMarkersOnExtentChange(newVal);
             }
         });
@@ -767,15 +818,15 @@
                 var opts = (angular.isDefined(scope.mapOptions)) ? scope.mapOptions :
                     { options: {} };
 
+                console.log("OPTS: ", opts);
+
                 if (attrs.options) {
                     opts.options = angular.fromJson(attrs.options);
                 }
 
                 var _m = new MapModel(angular.extend(opts, {
                     container: mapElm,
-                    center: center,
                     draggable: true,
-                    zoom: zoom
                 }));
 
 
@@ -818,7 +869,7 @@
                         // TODO: write a clear orphan routine,
                         // based on markers method below
 
-                        _m.fitGeometries();
+                        if(!scope.initialDefinedLocation)_m.fitGeometries();
                     });
                 });
 
