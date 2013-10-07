@@ -79,11 +79,17 @@ body.map #ggnpc-map{
 }
 
 .ggnpc-map-legend{
+    display: none;
     position: absolute;
     bottom: 5px;
     left: 75px;
     z-index: 4;
+
 }
+.ggnpc-map-legend.show{
+    display: block;
+}
+
 .map-legend-wrapper{
     position: relative;
 }
@@ -116,11 +122,11 @@ body.map #ggnpc-map{
     background: #FF9999;
 }
 
-#ggnpc-link-big-map{
+.little-map-link{
     position: relative;
     display: block;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 12px;
     /* bg orange btn
     background: #f63;
     color: #fff;
@@ -138,7 +144,12 @@ body.map #ggnpc-map{
     right: 5px;
     */
 }
-
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
 body.map #ggnpc-link-big-map{
     display: none;
 }

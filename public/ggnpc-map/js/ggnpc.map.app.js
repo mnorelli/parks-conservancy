@@ -1,8 +1,6 @@
 (function(exports){
     "use strict";
 
-    console.log("MAP APP LOADED");
-    console.log("GGNPC_MAP OBJ: ", exports.GGNPC_MAP);
     exports.GGNPC_MAP = exports.GGNPC_MAP || {};
     exports.GGNPC_MAP.API_URL_BASE = exports.GGNPC_MAP.API_URL_BASE || 'http://stamen-parks-api-staging.herokuapp.com/';
 
@@ -26,12 +24,12 @@
     }]);
 
     // controller for app
-    // handles setting the context
     angular.module('app').controller('AppController', ['$scope', '$rootScope', '$location', '$route', '$routeParams', 'api', 'contextor', function($scope, $rootScope, $location, $route, $routeParams, api, contextor) {
         $(exports.GGNPC_MAP.root).addClass('forceShow');
 
+        $rootScope.isBigMap = GGNPC_MAP.mapSize == 'big' ? true : false;
 
-        //when you add it to the $rootScope variable, then it's accessible to all other $scope variables.
+        //when you add it to $rootScope, then it's accessible to all other $scope variables.
         $rootScope.$safeApply = function($scope, fn) {
             fn = fn || function() {};
             if($scope.$$phase) {
@@ -53,6 +51,10 @@
 
             if(GGNPC_MAP.mapSize == 'small' && contextor.context.linkToBigMap){
                 $rootScope.linkToBigMap = contextor.context.linkToBigMap;
+
+                if(contextor.context.linkToPlanner){
+                    $rootScope.linkToPlanner = contextor.context.linkToPlanner;
+                }
             }
 
             $rootScope.contextChange = +new Date();
@@ -371,28 +373,33 @@
             var getParkContext = function(path){
                 if(path == '/about' || path == '/visit' || path == '/park-improvements' || path == '/learn' || path == '/conservation' || path == '/get-involved'){
                     o.fileName = path.split('/').pop();
-                    o.linkToBigMap = environmentBaseUrl + "/map";
+                    o.linkToBigMap  = environmentBaseUrl + "/map";
+                    o.linkToPlanner = environmentBaseUrl + "/planner";
                     o.ggnpcPageName = path.replace("/",'');
                     o.section = 'list';
 
                 }else if(path == '/about/map' || path == '/visit/map' || path == '/park-improvements/map' || path == '/learn/map' || path == '/conservation/map' || path == '/get-involved/map'){
                     o.linkToBigMap = environmentBaseUrl + "/map";
+                    o.linkToPlanner = environmentBaseUrl + "/planner";
                     o.ggnpcPageName = path.replace("/map",'').replace('/','');
                     o.section = 'list';
 
                 }else if(path.indexOf('/visit/park-sites/') === 0){
                     o.fileName = path.split('/').pop();
                     o.linkToBigMap = environmentBaseUrl + "/map/#" + path;
+                    o.linkToPlanner = environmentBaseUrl + "/planner/#" + path;
                     o.section = 'visit';
 
                 }else if(path.indexOf('/events/') === 0){
                     o.fileName = path.split('/').pop();
                     o.linkToBigMap = environmentBaseUrl + "/map/#" + path;
+                    o.linkToPlanner = environmentBaseUrl + "/planner/#" + path;
                     o.section =  'events';
 
                 }else{
                     o.fileName = '';
                     o.linkToBigMap = environmentBaseUrl + "/map";
+                    o.linkToPlanner = environmentBaseUrl + "/planner";
                     o.ggnpcPageName = "Index"
                     o.section = '';
                 }
@@ -538,6 +545,7 @@
         $scope.geometries = [];
 
 
+
         var initialUrlParams = hasher.read();
 
         var initialZoom = 12,
@@ -558,11 +566,13 @@
         var mapOptions = {
             center: initialCenter,
             zoom: initialZoom,
+            draggable: true,
             options: {
                 backgroundColor: '#fff',
                 mapTypeControlOptions: {
                     mapTypeIds: ['parks']
                 },
+
                 mapTypeControl: false,
                 scrollwheel: false,
                 streetViewControl: false
@@ -574,11 +584,11 @@
             }
         }
 
-        var smallMapOptions = smallMapOptions = {
+        var smallMapOptions =  {
+            draggable: false,
             options:{
                 disableDefaultUI: true,
                 disableDoubleClickZoom: true,
-                draggable: false,
                 keyboardShortcuts: false,
                 panControl: false,
                 streetViewControl: false,
@@ -632,7 +642,7 @@
             zIndex: 1000
         };
 
-        $scope.mapOptions = (GGNPC_MAP.mapSize == 'small')  ? angular.extend(mapOptions,smallMapOptions) : mapOptions;
+        $scope.mapOptions = (!$rootScope.isBigMap) ? angular.extend(mapOptions,smallMapOptions) : mapOptions;
 
         var makeLatLngFromLocation = function(str){
             var ll = str.split(",").map(function(l){return +l;});
@@ -795,9 +805,9 @@
             }
         });
 
-    }]).directive('ggnpcMap', ["$timeout", "$filter", 'debounce', function ($timeout, $filter, debounce) {
+    }]).directive('ggnpcMap', ["$rootScope", "$timeout", "$filter", 'debounce', function ($rootScope, $timeout, $filter, debounce) {
         return {
-            template: '<div class="ggnpc-map-content"></div><div ggnpc-map-legend class="ggnpc-map-legend"></div>',
+            template: '<div class="ggnpc-map-content"></div><div ggnpc-map-legend class="ggnpc-map-legend" ng-class="{show: isBigMap}"></div>',
             replace: false,
             restrict: 'EA',
             scope: {
@@ -805,7 +815,7 @@
                 refresh: "&refresh" // optional
             },
             link: function postLink(scope, element, attrs) {
-
+                console.log('$rootScope.isBigMap: ', $rootScope.isBigMap);
                 var root = element[0],
                     mapElm = d3.select(root).select('.ggnpc-map-content').node(),
                     legend = d3.select(root).select('.ggnpc-map-legend').node();
@@ -818,15 +828,13 @@
                 var opts = (angular.isDefined(scope.mapOptions)) ? scope.mapOptions :
                     { options: {} };
 
-                console.log("OPTS: ", opts);
 
                 if (attrs.options) {
                     opts.options = angular.fromJson(attrs.options);
                 }
 
                 var _m = new MapModel(angular.extend(opts, {
-                    container: mapElm,
-                    draggable: true,
+                    container: mapElm
                 }));
 
 
@@ -946,8 +954,7 @@
                     '<div class="map-legend-info"></div></div>',
             replace: false,
             restrict: 'EA',
-            scope: {
-            },
+
             link: function postLink(scope, element, attrs) {
                 scope.active = false;
                 var legend = d3.select(element[0]).select('.map-legend-info'),

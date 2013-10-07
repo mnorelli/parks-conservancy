@@ -194,13 +194,14 @@
 
                 if(exports.GGNPC_MAP.mapSize === 'big'){
                     content += '<h1 style="display:none;" ng-show="ggnpcPageName">{{ggnpcPageName}}</h1>';
-                }
-
-                content += '<div id="ggnpc-map" ng-controller="mapController"></div>';
-                //content += '<div ggnpc-map></div>'
-
-                if(exports.GGNPC_MAP.mapSize === 'small'){
-                    content += '<a style="display:none;" ng-show="linkToBigMap" ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">Open Map &raquo; </a>';
+                    content += '<div id="loading" ng-show="loadingData">loading....</div>';
+                    content += '<div style="width:{{winWidth}}px; height:{{winHeight}}px;" resizer offsety="250">';
+                    content += '<div id="ggnpc-map" ng-controller="mapController" ggnpc-map map-size="' + GGNPC_MAP.mapSize + '" map-data="mapData" park-context="parkContext" map-traffic="queryString.traffic" map-weather="queryString.weather"></div>';
+                    content += '</div>';
+                }else if(exports.GGNPC_MAP.mapSize === 'small'){
+                    content += '<div id="ggnpc-map" ng-controller="mapController" ggnpc-map map-size="' + GGNPC_MAP.mapSize + '" map-data="mapData" park-context="parkContext"></div>';
+                    content += '<a style="display:none;" ng-show="linkToBigMap" class="little-map-link pull-left" ng-href="{{linkToBigMap}}" id="ggnpc-link-big-map">See Larger Map</a>';
+                    content += '<a style="display:none;" ng-show="linkToBigMap" class="little-map-link pull-right" ng-href="{{linkToPlanner}}" id="ggnpc-link-trip-planner">Get Directions</a>';
                 }
 
                 rootElement.innerHTML = content;
@@ -209,7 +210,7 @@
 
         // these are our two main bootstrapping functions
         // write necessary DOM elements
-        writeDOM();
+        writeDOM(true);
 
         // load required files (scripts & css)
         checkRequirements();

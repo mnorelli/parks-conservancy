@@ -35,7 +35,7 @@ app.configure("production", function() {
 
 app.use(express.static(__dirname + "/public"));
 
-app.get("/directions", function(req, res) {
+app.get("/planner", function(req, res) {
   return res.render("index.html.ejs", {
     layout: "layouts/directions.ejs",
     environment: process.env.PARKS_ENV,
