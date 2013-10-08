@@ -241,9 +241,6 @@
 
               visibleElevationPoints
                 .style("opacity", function(d) {
-                  // var lat = d.coordinates[0],
-                  //     lng = d.coordinates[1],
-                  //     gloc = new google.maps.LatLng(lat, lng);
                   return bounds.contains(d.googleLoc) ? 1 : 0.2;
                 });
             });
@@ -260,7 +257,6 @@
             if (args.maps) tripBounds.extend(coordinate);
           });
 
-          // route.forEach(function(r) { bounds.extend(r); });
           if (args.maps)
             map.fitBounds(tripBounds);
 
@@ -348,6 +344,15 @@
           var elevationData = elevation.slice(1);
 
           if (args.maps) {
+            var backgroundPath = new google.maps.Polyline({
+              path: route,
+              strokeColor: "black", //steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
+              strokeOpacity: 1,
+              strokeWeight: 10
+            });
+
+            backgroundPath.setMap(map);
+
             route.forEach(function(point, i) {
               if (i === route.length-1) return;
               var primary = i,
@@ -355,16 +360,18 @@
 
               var segment = [route[primary], route[secondary]],
                   maxSegmentHeight = d3.max([elevation[primary].height, elevation[secondary].height]),
+                  roundedHeight = Math.round(maxSegmentHeight / 100) * 100,
                   // strokeWeight = (maxSegmentHeight / maxHeight) * 20,
                   heightDelta = elevation[primary].height - elevation[secondary].height,  // you're going "forwards" on a trail
                   // strokeWeight = steepnessStrokeWeight(heightDelta),
-                  strokeWeight = heightStrokeWeight(Math.round(maxSegmentHeight / 100) * 100);
+                  strokeWeight = heightStrokeWeight(roundedHeight);
 
               var routePath = new google.maps.Polyline({
                 path: segment,
-                strokeColor: "black", //steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
+                strokeColor: heightColorScale(roundedHeight),
                 strokeOpacity: 1,
-                strokeWeight: 10
+                strokeWeight: 5,
+                zIndex: 9999
               });
 
               routePath.setMap(map);
