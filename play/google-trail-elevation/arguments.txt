@@ -1,0 +1,7 @@
+querystring arguments:
+
+marker ("circle", "line"): type of marker to represent the segment between two points on the trip (default: line)
+skip ([number]): skip every [number] point when drawing the trip map (default: 0)
+size ("steepness", "height"): size the markers by steepness or height (default: height)
+fill ("steepness", "height"): color the markers by steepness or height (default: height)
+opacity ([decimal, 0.0-1.0]): the opacity of the markers on the map (default: 1.0)
