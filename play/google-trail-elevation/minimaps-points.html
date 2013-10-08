@@ -111,9 +111,9 @@
     </div>
     -->
 
-    <script src="js/d3.v3.js"></script>
+    <script src="./js/d3.v3.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script src="js/customTiles.js"></script>
+    <script src="./js/customTiles.js"></script>
 
     <script>
 
@@ -403,7 +403,7 @@
                   path: segment,
                   strokeColor: dataColor, //steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
                   strokeOpacity: opacity,
-                  strokeWeight: markerSize
+                  strokeWeight: 10  // XXX FIX: need @shawnbot's input on scaling width based on zoom level
                 });
               }
 
