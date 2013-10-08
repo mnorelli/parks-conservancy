@@ -226,6 +226,7 @@
             var mid = elevation[~~(elevation.length/2)].coordinates;  // take a point from the middle of the route as a center
             var center = new google.maps.LatLng(mid[0], mid[1]);
             var mapOptions = {
+              scrollwheel: false,
               zoom: 14,
               center: center,
               mapTypeControlOptions: {
