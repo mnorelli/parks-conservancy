@@ -366,9 +366,16 @@
                   // strokeWeight = steepnessStrokeWeight(heightDelta),
                   strokeWeight = heightStrokeWeight(roundedHeight);
 
+              // var heightz = d3.extent(heightDeltas),
+              //     hdiff = (heightz[1] - heightz[0]) / 10;
+              // var roundedHeightDelta = Math.round(heightDelta / ~~hdiff) * ~~hdiff;
+              var dataColor = (args.color && args.color === "steepness")
+                            ? steepnessColorScale(heightDelta)
+                            : heightColorScale(roundedHeight);
+
               var routePath = new google.maps.Polyline({
                 path: segment,
-                strokeColor: heightColorScale(roundedHeight),
+                strokeColor: dataColor,
                 strokeOpacity: 1,
                 strokeWeight: 5,
                 zIndex: 9999
