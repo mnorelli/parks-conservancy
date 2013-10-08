@@ -175,8 +175,8 @@
       var debug = {},
           overlays = {};
 
-      trips.slice(1).forEach(function(tripId) {
-      // [1287].forEach(function(tripId) {
+      // trips.slice(1).forEach(function(tripId) {
+      [1287].forEach(function(tripId) {
 
         var elevationProfileFile = "trips-elevation/" + tripId + ".json";
 
@@ -364,7 +364,7 @@
                 path: segment,
                 strokeColor: "black", //steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
                 strokeOpacity: 1,
-                strokeWeight: strokeWeight
+                strokeWeight: 10
               });
 
               routePath.setMap(map);
@@ -420,20 +420,28 @@
 
             // when you mouseover the elevation profile segments, it highlights the same 
             // segment on the map
+            var timeout,
+                hovering = false;
             elevationPoints.on("mouseover", function(e, i) {
-              var markerStyle = {
-                strokeColor: '#FF0000',
-                strokeOpacity: 0.8,
-                strokeWeight: 2,
-                fillColor: '#FF0000',
-                fillOpacity: 0.35,
-                map: map,
-                center: e.googleLoc, //new google.maps.LatLng(e.coordinates[0], e.coordinates[1]),
-                radius: 50,
-                zIndex: 99999999999
-              };
-              var marker = new google.maps.Circle(markerStyle);
-              overlays.graph2map = marker;
+              if (hovering) {
+                if (timeout) clearTimeout(timeout);
+                overlays.graph2map.setCenter(e.googleLoc);
+              } else {
+                var markerStyle = {
+                  strokeColor: '#FF0000',
+                  strokeOpacity: 0.8,
+                  strokeWeight: 2,
+                  fillColor: '#FF0000',
+                  fillOpacity: 0.35,
+                  map: map,
+                  center: e.googleLoc, //new google.maps.LatLng(e.coordinates[0], e.coordinates[1]),
+                  radius: 50,
+                  zIndex: 99999999999
+                };
+                var marker = new google.maps.Circle(markerStyle);
+                overlays.graph2map = marker;
+              }
+              hovering = true;
 
               var overlay = svg.append("circle")
                     .datum(e)
@@ -448,7 +456,11 @@
             });
 
             elevationPoints.on("mouseout", function(e) {
-              clearOverlay(overlays.graph2map);
+              timeout = setTimeout(function() {
+                console.log("hovering=false");
+                hovering = false;
+                clearOverlay(overlays.graph2map);
+              }, 500);
               overlays.map2graph.remove();
               overlays.map2graph = null;
             });
