@@ -1,0 +1,12 @@
+{
+  "name": "ggnpc-tp",
+  "version": "0.0.0",
+  "private": true,
+  "description": "GGNPC 'tp instance",
+  "scripts": {
+    "start": "node_modules/.bin/tp"
+  },
+  "dependencies": {
+    "tp": "git+https://github.com/mojodna/tp.git"
+  }
+}
