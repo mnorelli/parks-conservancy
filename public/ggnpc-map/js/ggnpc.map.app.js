@@ -17,7 +17,8 @@
             .when(
                 '/map',
                 {
-                    action: 'map'
+                    action: 'map',
+                    reloadOnSearch: false
                 }
             );
 
@@ -75,6 +76,14 @@
                 });
             }
         );
+
+        /*
+        var lastRoute = $route.current;
+        $scope.$on('$locationChangeSuccess', function(event) {
+            $route.current = lastRoute;
+        });
+*/
+
 
         checkContext();
 
@@ -436,11 +445,21 @@
     angular.module('services.hasher', []).factory('hasher', ['$location', function($location){
         var hasher = {};
         var currentHash = {};
+        var firstLoad = false;
 
         hasher.set = function(obj){
             //console.log("SET: ", obj, $location.search('a','b'));
             currentHash = angular.extend(currentHash, obj);
+            /*
+            if(!firstLoad){
+                $location.search(currentHash);
+            }else{
+                $location.search(currentHash).replace();
+            }
+            firstLoad = true;
+            */
             $location.search(currentHash);
+
 
         }
 
@@ -807,7 +826,7 @@
 
     }]).directive('ggnpcMap', ["$rootScope", "$timeout", "$filter", 'debounce', function ($rootScope, $timeout, $filter, debounce) {
         return {
-            template: '<div class="ggnpc-map-content"></div><div ggnpc-map-legend class="ggnpc-map-legend" ng-class="{show: isBigMap}"></div><div ggnpc-map-date-picker class="ggnpc-map-datepicker"></div>',
+            template: '<div class="ggnpc-map-content"></div><div ggnpc-map-legend class="ggnpc-map-legend" ng-class="{show: isBigMap}"></div><div ggnpc-map-date-picker class="ggnpc-map-datepicker" ng-class="{show: isBigMap}></div>',
             replace: false,
             restrict: 'EA',
             scope: {
