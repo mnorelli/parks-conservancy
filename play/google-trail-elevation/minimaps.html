@@ -472,10 +472,9 @@
 
             elevationPoints.on("mouseout", function(e) {
               timeout = setTimeout(function() {
-                console.log("hovering=false");
                 hovering = false;
                 clearOverlay(overlays.graph2map);
-              }, 500);
+              }, 300);
               overlays.map2graph.remove();
               overlays.map2graph = null;
             });
