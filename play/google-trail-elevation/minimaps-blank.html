@@ -97,13 +97,13 @@
         font-size: 14px;
       }
 
-      .map img {
+/*      .map img {
         display: none !important;
       }
 
       .map {
         background-color:#fff !important;
-      }
+      }*/
 
 
     </style>
@@ -354,16 +354,16 @@
           var elevationData = elevation.slice(1);
 
           if (args.maps) {
-            var backgroundPath = new google.maps.Polyline({
-              path: route,
-              strokeColor: "black", //steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
-              strokeOpacity: 1,
-              strokeWeight: 10
-            });
+            // var backgroundPath = new google.maps.Polyline({
+            //   path: route,
+            //   strokeColor: "black", //steepnessColorScale(heightDelta), //heightColorScale(maxSegmentHeight),
+            //   strokeOpacity: 1,
+            //   strokeWeight: 10
+            // });
 
             backgroundPath.setMap(map);
 
-            route.forEach(function(point, i) {
+            [].forEach(function(point, i) {
               if (i === route.length-1) return;
               var primary = i,
                   secondary = i+1;
