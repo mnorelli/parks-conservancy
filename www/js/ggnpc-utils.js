@@ -4,7 +4,7 @@ var GGNPC = (function(exports){
     utils.extend = function(o) {
       Array.prototype.slice.call(arguments, 1).forEach(function(other) {
         if (!other) return;
-        d3.keys(other).forEach(function(k) {
+        Object.keys(other).forEach(function(k) {
           o[k] = other[k];
         });
       });
