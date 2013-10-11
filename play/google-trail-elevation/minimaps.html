@@ -117,6 +117,8 @@
 
     <script>
 
+      var debug = {};
+
       // default sample trail profile
       var elevationProfileFile = "elevation-profile-metadata.json";
       
@@ -290,7 +292,7 @@
 
           // console.log("elevation:", elevation);
           if (args.preset) {
-            var elevationPts = d3.range(3).map(function(d, i) { return i * (maxHeight/3); });
+            var elevationPts = d3.range(4).map(function(d, i) { return i * (maxHeight/3); });
             var heightColorScale = d3.scale.linear()
                   .domain(elevationPts)
                   .range(presetColors[+args.preset]);
@@ -300,6 +302,8 @@
                   .domain([0, maxHeight])
                   .range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
           }
+          if (!debug.color) debug.color = {};
+          debug.color[tripId] = heightColorScale;
           // stroke weight of segment polyline as a function of segment elevation
           var heightStrokeWeight = d3.scale.linear()
                 .domain([0, maxHeight])
