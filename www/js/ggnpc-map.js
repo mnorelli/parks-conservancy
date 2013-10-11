@@ -7,38 +7,30 @@
     var GGNPC = exports.GGNPC || (exports.GGNPC = {}),
         maps = GGNPC.maps = {};
 
-    maps.base = function(options){
-        options = GGNPC.utils.extend({}, maps.base.defaults, options);
-        var base = {};
-        var map;
-
-        var initialize = function(){
-            return new google.maps.Map(document.getElementById(options.root), options.mapOptions);
-        }
-
-        return initialize();
-        //return base;
-    }
-
-    maps.base.defaults = {
-        mapOptions: {
-            center: new google.maps.LatLng(37.7706, -122.3782),
-            zoom: 12,
-            mapTypeId: google.maps.MapTypeId.TERRAIN
-        },
-        root: 'map'
+    // base() just returns a new map
+    maps.base = function(root, options) {
+      return new maps.Map(root, options);
     };
 
     /*
      * GGNPC.maps.Map extends google.maps.Map
      * and sets the default map type to our ParkMapType (to show our tiles)
      */
-    maps.Map = function(element, options) {
-      options = GGNPC.utils.extend({}, maps.Map.defaults, options);
-      if (typeof element === "string") {
-        element = document.getElementById(element);
+    maps.Map = function(root, options) {
+      if (arguments.length === 1) {
+        if (typeof root === "string") {
+          options = GGNPC.utils.extend({}, maps.Map.defaults);
+        } else {
+          options = GGNPC.utils.extend({}, maps.Map.defaults, arguments[1]);
+          root = null;
+        }
+      } else {
+        options = GGNPC.utils.extend({}, maps.Map.defaults, options);
       }
-      google.maps.Map.call(this, element, options);
+
+      root = GGNPC.utils.coerceElement(root || options.root);
+      google.maps.Map.call(this, root, options);
+
       this.mapTypes.set(maps.ParkMapType.name, maps.ParkMapType);
       this.setMapTypeId(maps.ParkMapType.name);
     };
@@ -46,6 +38,7 @@
     maps.Map.prototype = new google.maps.Map(document.createElement("div"));
 
     maps.Map.defaults = {
+      root: "map",
       backgroundColor: '#fff',
       center: new google.maps.LatLng(37.7706, -122.3782),
       zoom: 12,
