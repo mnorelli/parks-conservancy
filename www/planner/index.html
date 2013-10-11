@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="../js/vendor/d3.v3.min.js"></script>
+    <script src="../js/ggnpc-map.js"></script>
+    <script src="../js/ggnpc-utils.js"></script>
+    <script src="../js/ggnpc-planner.js"></script>
+    <style>
+      @import url(style.css);
+    </style>
+  </head>
+  <body>
+    <div id="trip-planner">
+    </div>
+    <script>
+      var planner = new GGNPC.planner.TripPlanner("trip-planner", {
+        origin: "2017 Mission St, SF",
+        destination: "Muir Woods"
+      });
+
+      planner.addListener("route", function(route) {
+        console.log("routed:", route);
+      });
+      planner.addListener("error", function(error) {
+        console.warn("error:", error);
+      });
+    </script>
+  </body>
+</html>
