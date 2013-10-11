@@ -1,5 +1,9 @@
 (function(exports) {
 
+    // turn on the Google Maps "visual refresh"
+    // <https://developers.google.com/maps/documentation/javascript/basics#VisualRefresh>
+    google.maps.visualRefresh = true;
+
     var GGNPC = exports.GGNPC || (exports.GGNPC = {}),
         maps = GGNPC.maps = {};
 
@@ -25,6 +29,10 @@
         root: 'map'
     };
 
+    /*
+     * GGNPC.maps.Map extends google.maps.Map
+     * and sets the default map type to our ParkMapType (to show our tiles)
+     */
     maps.Map = function(element, options) {
       options = GGNPC.utils.extend({}, maps.Map.defaults, options);
       if (typeof element === "string") {
@@ -35,7 +43,7 @@
       this.setMapTypeId(maps.ParkMapType.name);
     };
 
-    maps.Map.prototype = new google.maps.Map();
+    maps.Map.prototype = new google.maps.Map(document.createElement("div"));
 
     maps.Map.defaults = {
       backgroundColor: '#fff',
