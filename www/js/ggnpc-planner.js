@@ -1,7 +1,8 @@
 (function(exports) {
 
   var ggnpc = exports.GGNPC || (exports.GGNPC = {}),
-      planner = ggnpc.planner = {};
+      planner = ggnpc.planner = {},
+      utils = ggnpc.utils;
 
   /*
    * Trip Planner
@@ -47,11 +48,11 @@
   /*
    * TripPlanner API
    */
-  TripPlanner.prototype = ggnpc.utils.extend(new google.maps.MVCObject(), {
+  TripPlanner.prototype = utils.extend(new google.maps.MVCObject(), {
     // the constructor
     initialize: function(root, options) {
-      this.root = ggnpc.utils.coerceElement(root);
-      this.options = ggnpc.utils.extend({}, planner.TripPlanner.defaults, options);
+      this.root = utils.coerceElement(root);
+      this.options = utils.extend({}, planner.TripPlanner.defaults, options);
 
       this._request = {
         origin: this.options.origin,
@@ -228,7 +229,7 @@
     route: function(callback) {
       this._clearRoute();
 
-      var request = ggnpc.utils.extend({}, this._request);
+      var request = utils.extend({}, this._request);
       console.log("request:", this._request);
       if (typeof request.destination === "object") {
         request.destination = this._getObjectLocation(request.destination);
@@ -269,13 +270,14 @@
           start = leg0.start_location,
           end = legN.end_location;
 
+      this.originMap.directionsDisplay.setDirections(response);
       this.originMap.setZoom(this.options.originMap.zoom || 15);
       this.originMap.setCenter(start);
-      this.originMap.directionsDisplay.setDirections(response);
 
-      this.destMap.setZoom(this.options.destMap.zoom || 15);
-      this.destMap.setCenter(end);
       this.destMap.directionsDisplay.setDirections(response);
+      this.destMap.setZoom(this.options.destMap.zoom || 15);
+      var bounds = utils.getLatLngBounds(start, end);
+      this.destMap.fitBounds(bounds);
 
       this._updateBespokeDirections();
     },
