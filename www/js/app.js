@@ -238,16 +238,7 @@ angular.module('map', ['maps.markers'])
         //return base;
     }
 
-    maps.base.defaults = {
-        mapOptions: {
-            center: new google.maps.LatLng(37.7706, -122.3782),
-            zoom: 12,
-            mapTypeId: google.maps.MapTypeId.TERRAIN
-        },
-        root: 'ggnpc-map'
-    };
-
-    $scope.map = maps.base();
+    $scope.map = new GGNPC.maps.Map("ggnpc-map");
     mapsMarkers.map = $scope.map;
 
     infowindow = mapsMarkers.infowindow = new google.maps.InfoWindow();
