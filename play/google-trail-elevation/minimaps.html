@@ -140,20 +140,6 @@
         // }
       }
 
-      // for selecting a TnT trip from a dropdown menu
-      // var tripsDropdown = d3.select("#trips select");
-      // tripsDropdown.selectAll("option")
-      //     .data(trips)
-      //   .enter().append("option")
-      //     .attr("value", String)
-      //     .text(String);
-
-      // tripsDropdown.on("change", function(e) {
-      //   var selected = tripsDropdown.node().selectedOptions[0].value;
-      //   if (selected !== "Select a trip ID")
-      //     window.location.search = "?id=" + selected;
-      // });
-
 
       // distance is in miles, height is in feet. need to convert.
       function milesToFeet(mi) {
@@ -249,6 +235,10 @@
             var tripBounds = new google.maps.LatLngBounds();
           }
 
+          var maxDistInFeet = 0,
+              maxDist = 0,
+              maxHeight = 0;
+
           var route = [];
           elevation.forEach(function(d) { 
             var c = d.coordinates,
@@ -256,14 +246,17 @@
             route.push(coordinate);
             d.googleLoc = coordinate; 
             if (args.maps) tripBounds.extend(coordinate);
+            maxDistInFeet = Math.max(maxDistInFeet, milesToFeet(d.distance));
+            maxDist = Math.max(maxDist, d.distance);
+            maxHeight = Math.max(maxHeight, d.height);
           });
 
           if (args.maps)
             map.fitBounds(tripBounds);
 
-          var maxDistInFeet = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
-              maxDist = d3.max(elevation, function(d) { return d.distance; }),
-              maxHeight = d3.max(elevation, function(d) { return d.height; });
+          // var maxDistInFeet = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
+              // maxDist = d3.max(elevation, function(d) { return d.distance; }),
+              // maxHeight = d3.max(elevation, function(d) { return d.height; });
           var maxScale = Math.max(maxDistInFeet, maxHeight);  // so everything is in proportion
 
           // calculate the change in steepness for every segment
@@ -287,11 +280,26 @@
           var metadataContainer = container.append("div").classed("metadata", true);
           metadataContainer.html(metadata);
 
-          // stroke color of segment polyline as a function of segment elevation
-          var heightColorScale = d3.scale.linear()
-                .domain([0, maxHeight])
-                .range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
+          var presetColors = [
+            ["#5b9240", "#3e6a32", "#bb5a4c", "#982e20"],
+            ["#f0ee88", "#aec85c", "#28bdc0", "#6985c3"],
+            ["#6ccbdb", "#47a6b9", "#a66799", "#7c1c59"],
+            ["#7d0057", "#c01a87", "#d269a9", "#ebabcd"],
+            ["rgb(125,175,211)", "rgb(100,147,188)", "rgb(81,119,158)", "rgb(32,18,131)"]
+          ];
 
+          // console.log("elevation:", elevation);
+          if (args.preset) {
+            var elevationPts = d3.range(3).map(function(d, i) { return i * (maxHeight/3); });
+            var heightColorScale = d3.scale.linear()
+                  .domain(elevationPts)
+                  .range(presetColors[+args.preset]);
+          } else {
+            // stroke color of segment polyline as a function of segment elevation
+            var heightColorScale = d3.scale.linear()
+                  .domain([0, maxHeight])
+                  .range(["hsl(200, 100%, 70%)", "hsl(360, 100%, 70%)"]);
+          }
           // stroke weight of segment polyline as a function of segment elevation
           var heightStrokeWeight = d3.scale.linear()
                 .domain([0, maxHeight])
