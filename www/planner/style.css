@@ -3,29 +3,36 @@
   margin: 0 auto;
 }
 
+/* Google map pin icons */
 .trip-planner .inputs img.point {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
 }
 
+/* bootstrap-like layout rows */
 .trip-planner .row {
   display: table;
   width: 100%;
 }
 
+/* layout columns */
 .trip-planner .column {
   display: table-cell;
        box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
 
+/* standard column sizes */
 .trip-planner .column.half { width: 50%; }
-.trip-planner .column.one-third { width: 33.3%; }
-.trip-planner .column.two-thirds { width: 66.6%; }
+.trip-planner .column.one-third { width: 40%; }
+.trip-planner .column.two-thirds { width: 60%; }
 
 .trip-planner .map {
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 
+.trip-planner .column.destination {
+  border-left: 2px solid #fff;
+}

@@ -27,7 +27,9 @@
     },
 
     originTitle: "Where are you coming from?",
+    originColumnSize: "one-third",
     destTitle: "Going to...",
+    destColumnSize: "two-thirds",
 
     travelModes: [
       {label: "Driving", value: google.maps.DirectionsTravelMode.DRIVING},
@@ -76,15 +78,15 @@
           inputs = form.append("div")
             .attr("class", "inputs row"),
           originInputs = inputs.append("div")
-            .attr("class", "origin column half"),
+            .attr("class", "origin column " + this.options.originColumnSize),
           destInputs = inputs.append("div")
-            .attr("class", "dest column half"),
+            .attr("class", "destination column " + this.options.destColumnSize),
           mapRoot = form.append("div")
             .attr("class", "maps row"),
           originMapRoot = mapRoot.append("div")
-            .attr("class", "map origin column half"),
+            .attr("class", "map origin column " + this.options.originColumnSize),
           destMapRoot = mapRoot.append("div")
-            .attr("class", "map origin column half"),
+            .attr("class", "map destination column " + this.options.destColumnSize),
           directionsRoot = form.append("div")
             .attr("class", "row directions"),
           directionsPanel = directionsRoot.append("div")
