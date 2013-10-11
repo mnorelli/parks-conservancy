@@ -35,7 +35,7 @@
       this.setMapTypeId(maps.ParkMapType.name);
     };
 
-    maps.Map.prototype = google.maps.Map.prototype;
+    maps.Map.prototype = new google.maps.Map();
 
     maps.Map.defaults = {
       backgroundColor: '#fff',
