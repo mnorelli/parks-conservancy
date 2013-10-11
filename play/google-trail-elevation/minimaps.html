@@ -180,16 +180,16 @@
 
         var h3 = visuals.append("h3");
         
+        var svg = visuals.append("svg")
+              .attr("width", width)
+              .attr("height", 150)
+              .classed("trip" + tripId, true);
+
         if (args.maps) {
           var mapContainer = visuals.append("div")
                 .classed("map", true)
                 .style("width", width + "px");
         }
-
-        var svg = visuals.append("svg")
-              .attr("width", width)
-              .attr("height", height)
-              .classed("trip" + tripId, true);
 
         // var profileBackground = svg.append("rect")
         //   .attr("x", padding)
@@ -344,7 +344,7 @@
 
           var fatLine = d3.svg.line()
                 .x(function(d) { return x(d.distance); })
-                .y(function(d) { return halfHeight; });
+                .y(function(d) { return 0; });
 
           // move the container over so it's "centered"
           var g = svg.append("g")
