@@ -33,11 +33,13 @@
     destColumnSize: "two-thirds",
 
     travelModes: [
-      {label: "Driving", value: google.maps.DirectionsTravelMode.DRIVING},
-      {label: "Transit", value: google.maps.DirectionsTravelMode.TRANSIT},
-      {label: "Biking", value: google.maps.DirectionsTravelMode.BICYCLING},
-      {label: "Walking", value: google.maps.DirectionsTravelMode.WALKING}
+      {title: "Driving", value: google.maps.DirectionsTravelMode.DRIVING},
+      {title: "Transit", value: google.maps.DirectionsTravelMode.TRANSIT},
+      {title: "Biking", value: google.maps.DirectionsTravelMode.BICYCLING},
+      {title: "Walking", value: google.maps.DirectionsTravelMode.WALKING}
     ],
+
+    destinationOptions: [],
 
     pointImageUrls: {
       origin: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&text=A&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1",
@@ -126,16 +128,76 @@
         .attr("src", this.options.pointImageUrls.destination)
         .attr("class", "point")
         .attr("title", "destination");
-      destLabel.append("input")
-        .attr("class", "destination")
-        .attr({
-          type: "text",
-          name: "destination",
-          value: this._request.destination
-        })
-        .on("change", function() {
-          that.setDestination(this.value);
+
+      if (Array.isArray(this.options.destinationOptions)) {
+
+        var destSelect = destLabel.append("select")
+          .attr("class", "destination")
+          .attr("name", "destination")
+          .on("change", function() {
+            var dest = d3.select(this.options[this.selectedIndex]).datum();
+            that.setDestination(dest);
+          });
+
+        var dests = this.options.destinationOptions,
+            options = [
+              {title: "Select a location..."}
+            ],
+            groups = [];
+        dests.forEach(function(d, i) {
+          d._index = i;
+          if (d.children) {
+            groups.push(d);
+          } else {
+            options.push(d);
+          }
         });
+
+        var destOptions = destSelect.selectAll("option")
+          .data(options)
+          .enter()
+          .append("option")
+            .text(function(d) { return d.title; });
+
+        var destGroups = destSelect.selectAll("optgroup")
+          .data(groups)
+          .enter()
+          .append("optgroup")
+            .attr("label", function(d) { return d.title; });
+        destGroups.selectAll("option")
+          .data(function(d) { return d.children; })
+          .enter()
+          .append("option")
+            .text(function(d) { return d.title; });
+
+        destSelect.selectAll("option, optgroup")
+          .filter(function(d) {
+            return !isNaN(d._index);
+          })
+          .sort(function(a, b) {
+            return d3.ascending(a._index, b._index);
+          });
+
+        destSelect.selectAll("option")
+          .attr("selected", function(d) {
+            var selected = d === that.options.destination;
+            return selected ? "selected" : null;
+          });
+
+      } else {
+
+        destLabel.append("input")
+          .attr("class", "destination")
+          .attr({
+            type: "text",
+            name: "destination",
+            value: this._request.destination
+          })
+          .on("change", function() {
+            that.setDestination(this.value);
+          });
+
+      }
 
       destInputs.append("select")
         .attr("class", "mode")
@@ -148,7 +210,7 @@
           .enter()
           .append("option")
             .attr("value", function(d) { return d.value; })
-            .text(function(d) { return d.label; })
+            .text(function(d) { return d.title; })
             .attr("selected", function(d) {
               return d.value === that._request.travelMode
                 ? "selected"
@@ -230,12 +292,24 @@
       this._clearRoute();
 
       var request = utils.extend({}, this._request);
-      console.log("request:", this._request);
       if (typeof request.destination === "object") {
         request.destination = this._getObjectLocation(request.destination);
       } else {
         request.destination = this._parseLocation(request.destination);
       }
+
+      var error;
+      if (!request.origin) {
+        google.maps.event.trigger(this, "error", error = "No origin provided");
+        return callback && callback(error);
+      } else if (!request.destination) {
+        google.maps.event.trigger(this, "error", error = "No destination provided");
+        return callback && callback(error);
+      } else if (!request.travelMode) {
+        google.maps.event.trigger(this, "error", error = "No travel mode provided");
+        return callback && callback(error);
+      }
+
       console.log("route(", request, ")");
       var that = this;
 
@@ -272,12 +346,12 @@
 
       this.originMap.directionsDisplay.setDirections(response);
       this.originMap.setZoom(this.options.originMap.zoom || 15);
-      this.originMap.setCenter(start);
+      var bounds = utils.getLatLngBounds(start, end);
+      this.originMap.fitBounds(bounds);
 
       this.destMap.directionsDisplay.setDirections(response);
       this.destMap.setZoom(this.options.destMap.zoom || 15);
-      var bounds = utils.getLatLngBounds(start, end);
-      this.destMap.fitBounds(bounds);
+      this.destMap.setCenter(end);
 
       this._updateBespokeDirections();
     },
@@ -335,6 +409,90 @@
           fourth = rows.append("td")
             .attr("class", "adp-substep")
             .text(function(d) { /* distance goes here */ });
+    }
+  };
+
+  /*
+   * GGNPC.planner.DestinationLoader loads locations from the API. Usage:
+   *
+   * var loader = new GGNPC.planner.DestinationLoader({ ... });
+   * loader.load(function(error, locations) {
+   * });
+   */
+  var DestinationLoader = planner.DestinationLoader = function(options) {
+    this.options = utils.extend({}, DestinationLoader.defaults, options);
+    this._parks = [];
+    this._parksById = {};
+  };
+
+  DestinationLoader.defaults = {
+    // TODO: fix this URL
+    apiUrl: "http://stamen-parks-api-staging.herokuapp.com/",
+    locationTypes: ["Access", "Trailhead", "Visitor Center"],
+    groupByPark: true
+  };
+  
+  DestinationLoader.prototype = {
+    load: function(callback) {
+      var that = this,
+          options = this.options;
+      return d3.json(options.apiUrl + "kind/park", function(error, data) {
+        if (error) return callback(error, null);
+
+        var parks = that._parks = data.results.map(that._getAttibutes)
+          .sort(that._sortByTitle);
+        parks.forEach(function(d) {
+          that._parksById[d.id] = d;
+        });
+
+        var parksById = that._parksById;
+
+        d3.json(options.apiUrl + "kind/location", function(error, data) {
+          if (error) return callback(error, null);
+
+          var locations = data.results.map(that._getAttibutes);
+
+          if (options.locationTypes && options.locationTypes.length > 0) {
+            locations = locations.filter(function(d) {
+              return d.relatedpark && options.locationTypes.indexOf(d.parklocationtype) > -1;
+            });
+          }
+
+          if (options.groupByPark) {
+            locations = d3.nest()
+              .key(function(d) { return d.relatedpark; })
+              .entries(locations)
+              .map(function(d) {
+                if (!parksById[d.key]) console.warn("bad park id:", d.key);
+                return (d.values.length > 1 && parksById[d.key])
+                  ? {
+                    title: parksById[d.key].title,
+                    children: d.values.sort(that._sortByTitle)
+                  }
+                  : d.values[0];
+              })
+              .sort(that._sortByTitle);
+          }
+
+          callback(null, that._locations = locations);
+        });
+      });
+    },
+
+    getParks: function() {
+      return this._parks;
+    },
+
+    getParkById: function(id) {
+      return this._parksById[id];
+    },
+
+    _getAttibutes: function(d) {
+      return d.attributes;
+    },
+
+    _sortByTitle: function(a, b) {
+      return d3.ascending(a.title, b.title);
     }
   };
 

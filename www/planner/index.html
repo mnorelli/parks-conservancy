@@ -15,17 +15,35 @@
     <div id="trip-planner">
     </div>
     <script>
-      var planner = new GGNPC.planner.TripPlanner("trip-planner", {
-        origin: "2017 Mission St, SF",
-        destination: "Muir Woods"
+
+      var planner,
+          destinations,
+          loader = new GGNPC.planner.DestinationLoader(),
+          root = d3.select("#trip-planner")
+            .classed("loading", true);
+
+      loader.load(function(error, locations) {
+        destinations = locations;
+        initialize();
       });
 
-      planner.addListener("route", function(route) {
-        console.log("routed:", route);
-      });
-      planner.addListener("error", function(error) {
-        console.warn("error:", error);
-      });
+      function initialize() {
+        root.classed("loading", false);
+
+        planner = new GGNPC.planner.TripPlanner("trip-planner", {
+          origin: "2017 Mission St, SF",
+          // destination: "Muir Woods",
+          destinationOptions: destinations
+        });
+
+        planner.addListener("route", function(route) {
+          console.log("routed:", route);
+        });
+        planner.addListener("error", function(error) {
+          console.warn("error:", error);
+        });
+      }
+
     </script>
   </body>
 </html>
