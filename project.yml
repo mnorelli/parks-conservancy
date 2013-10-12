@@ -149,7 +149,7 @@ Layer:
       geometry_field: geom
       table: >
         (
-          SELECT ST_Union(geom) AS geom, SUM(areasqkm) AS areasqkm FROM (
+          SELECT ST_Collect(geom) AS geom, SUM(areasqkm) AS areasqkm FROM (
               SELECT geom, areasqkm
               FROM nhdwaterbody
               WHERE geom && !bbox!
