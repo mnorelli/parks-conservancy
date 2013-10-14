@@ -416,44 +416,44 @@ Layer:
 #           ORDER BY z_order ASC
 #         ) AS _
 # 
-#   # ---- Buildings -----------------------------------------------------
-# 
-#   - <<: *layer
-#     name: buildings
-#     id:   buildings
-#     status: on
-#     properties:
-#       minzoom: 15
-#     Datasource:
-#       <<: *postgis
-#       geometry_field: geom
-#       table: >
-#         (
-#           SELECT geom,
-#             (CASE
-#             WHEN name ILIKE 'battery %' THEN true
-#             ELSE false
-#             END) battery
-#           FROM ggnra_buildings
-#           WHERE geom && !bbox!
-#         ) AS _
-# 
-#   # ---- Trails --------------------------------------------------------
-# 
-#   - <<: *layer
-#     name: trails
-#     id:   trails
-#     status: on
-#     properties:
-#       minzoom: 13
-#       cache-features: on
-#     Datasource:
-#       <<: *postgis
-#       geometry_field: geom
-#       table: >
-#         (
-#           SELECT *
-#           FROM trails
-#           WHERE geom && !bbox!
-#         ) AS _
-# 
+  # ---- Buildings -----------------------------------------------------
+
+  - <<: *layer
+    name: buildings
+    id:   buildings
+    status: on
+    properties:
+      minzoom: 15
+    Datasource:
+      <<: *postgis
+      geometry_field: geom
+      table: >
+        (
+          SELECT geom,
+            (CASE
+            WHEN name ILIKE 'battery %' THEN true
+            ELSE false
+            END) battery
+          FROM ggnra_buildings
+          WHERE geom && !bbox!
+        ) AS _
+
+  # ---- Trails --------------------------------------------------------
+
+  - <<: *layer
+    name: trails
+    id:   trails
+    status: on
+    properties:
+      minzoom: 13
+      cache-features: on
+    Datasource:
+      <<: *postgis
+      geometry_field: geom
+      table: >
+        (
+          SELECT *
+          FROM trails
+          WHERE geom && !bbox!
+        ) AS _
+
