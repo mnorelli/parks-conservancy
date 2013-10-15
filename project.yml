@@ -402,6 +402,7 @@ Layer:
             way
           FROM planet_osm_line
           WHERE way && !bbox!
+            AND zoom(!scale_denominator!) > 0
             AND
               (tags ? 'highway'
                 AND tags -> 'highway' IN ('motorway', 'trunk', 'primary',
