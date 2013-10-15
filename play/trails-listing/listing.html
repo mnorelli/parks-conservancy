@@ -80,7 +80,7 @@
         metaHeader.append("h3")
           .text(function(d) { return d.name; });
 
-        metaHeader.append("h3")
+        metaHeader.append("span")
           .classed("trail-metadata-header-duration", true)
           .text(function(d) { return d.duration; });
 
@@ -106,6 +106,8 @@
 
       // var x; // debug
       function trailDataClick(trailData) {
+        // what happens when you click the trail listing
+
         var that = d3.select(this);
         // x = that;
 
@@ -116,23 +118,27 @@
         }
 
         that.classed("open", true);
-        // what happens when you click the trail listing
         d3.json("data/" + trailData.id + ".json", function(err, fullTrailData) {
           if (err) {
             console.log(err);
             return;
           }
-          console.log(trailData.id, fullTrailData);
+          // console.log(trailData.id, fullTrailData);
           displayFullTrail(fullTrailData, that);
         }); 
       }
 
       function closeFullTrail(container) {
-        container.classed("open", false);
         var displayContainer = container.select(".full-trail-data");
         displayContainer
-          .transition().duration(500)
-            .style("height", "0px");
+          .html("")
+          .transition().duration(200)
+            .style("height", "0px")
+            .remove()
+            .each("end", function() {
+              console.log("done");
+              container.classed("open", false);
+            });
       }
 
       function displayFullTrail(fullTrailData, container) {
@@ -141,9 +147,11 @@
 
         // XXX DO ALL MAPMAKING STUFF HERE
 
+        displayContainer.text("i'm open");
+
         // END ALL MAPMAKING STUFF
 
-        displayContainer.transition().duration(500)
+        displayContainer.transition().duration(200)
           .style("height", "200px");
           // .classed("open", true);
 
