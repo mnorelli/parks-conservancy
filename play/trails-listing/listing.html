@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      body,
+      svg {
+        margin: 0;
+        padding: 0;
+      }
+
+      div.trail-data {
+        background: #ccc;
+      }
+
+      div.full-trail-data {
+        background: red;
+        height: 0;
+        display: hidden;
+      }
+
+/*      div.full-trail-data.open {
+        display: block;
+      }*/
+
+    </style>
+  </head>
+  <body>
+
+
+    <div id="trails-listing-header">
+      <h2>Browse Trails</h2>
+      <a class="browse-link" href="#">All</a> /
+      <a class="browse-link" href="#">Easy</a> /
+      <a class="browse-link" href="#">Moderate</a> /
+      <a class="browse-link" href="#">Strenuous</a> 
+    </div>
+    <div id="trails-listing"></div>
+
+    <script src="js/d3.v3.js"></script>
+    <script>
+
+
+      // var trips = [
+      //   1287, 1424, 1431, 89, 45, 1297, 216, 
+      //   1338, 1446, 1295, 140, 1333, 63, 1448, 
+      //   1449, 263, 1433
+      // ];
+      // var numTrips = trips.length;
+
+      // trips.forEach(function(tripId) {
+      //   var elevationProfileFile = "trips-elevation/" + tripId + ".json";
+      //   d3.json()
+      // });
+
+      // load the metadata for the stored trips
+      d3.json("data/index.json", function(err, index) {
+        if (err) {
+          console.log(err); 
+          return;
+        }
+        var container = d3.select("#trails-listing");
+        var trailsList = container.selectAll("div.trail-data")
+          .data(index)
+        .enter().append("div")
+          .attr("id", function(d) { return "tripContainer-" + d.id; })
+          .classed("trail-data", true)
+          .on("click", trailDataClick);
+
+        // duration, intensity, name, length_miles, id
+
+
+        var meta = trailsList.append("div")
+          .classed("trail-metadata", true);
+
+        var metaHeader = meta.append("div")
+          .classed("trail-metadata-header", true);
+
+        metaHeader.append("h3")
+          .text(function(d) { return d.name; });
+
+        metaHeader.append("h3")
+          .classed("trail-metadata-header-duration", true)
+          .text(function(d) { return d.duration; });
+
+        meta.append("ul")
+          .selectAll("li")
+            .data(function(d) { 
+              // middle elevation value needs to be preprocessed on the backend
+              return [
+                [d.length_miles, "miles"], 
+                ["[image]", 0, "elevation change"], 
+                [d.duration]
+              ]; 
+            })
+          .enter().append("li")
+            .attr("class", function(d, i) { 
+              return (i < 2) ? "light" : "";
+            })
+            .text(function(d) { return d.join(" "); });
+
+        var profileSample = trailsList.append("div.profile-sample")
+          .html(function(d) { return "[image]" });  // return "images/" + d.id + ".jpg";
+      });
+
+      // var x; // debug
+      function trailDataClick(trailData) {
+        var that = d3.select(this);
+        // x = that;
+
+        if (that.classed("open")) {
+          // console.log("registered as open, should close", that.node());
+          closeFullTrail(that);
+          return;
+        }
+
+        that.classed("open", true);
+        // what happens when you click the trail listing
+        d3.json("data/" + trailData.id + ".json", function(err, fullTrailData) {
+          if (err) {
+            console.log(err);
+            return;
+          }
+          console.log(trailData.id, fullTrailData);
+          displayFullTrail(fullTrailData, that);
+        }); 
+      }
+
+      function closeFullTrail(container) {
+        container.classed("open", false);
+        var displayContainer = container.select(".full-trail-data");
+        displayContainer
+          .transition().duration(500)
+            .style("height", "0px");
+      }
+
+      function displayFullTrail(fullTrailData, container) {
+        var displayContainer = container.append("div")
+          .classed("full-trail-data", true);
+
+        // XXX DO ALL MAPMAKING STUFF HERE
+
+        // END ALL MAPMAKING STUFF
+
+        displayContainer.transition().duration(500)
+          .style("height", "200px");
+          // .classed("open", true);
+
+
+
+      }
+
+    </script>
+
+  </body>
+</html>
