@@ -20,10 +20,6 @@
         display: hidden;
       }
 
-/*      div.full-trail-data.open {
-        display: block;
-      }*/
-
     </style>
   </head>
   <body>
@@ -117,13 +113,14 @@
           return;
         }
 
-        that.classed("open", true);
+        // XXX FIX: should save some of the data on the front so we don't reload it
+        // every single time
         d3.json("data/" + trailData.id + ".json", function(err, fullTrailData) {
           if (err) {
             console.log(err);
             return;
           }
-          // console.log(trailData.id, fullTrailData);
+          console.log("loaded " + trailData.id, fullTrailData);
           displayFullTrail(fullTrailData, that);
         }); 
       }
@@ -142,6 +139,8 @@
       }
 
       function displayFullTrail(fullTrailData, container) {
+        container.classed("open", true);
+
         var displayContainer = container.append("div")
           .classed("full-trail-data", true);
 
