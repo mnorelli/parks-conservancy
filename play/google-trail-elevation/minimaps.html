@@ -256,9 +256,6 @@
           if (args.maps)
             map.fitBounds(tripBounds);
 
-          // var maxDistInFeet = d3.max(elevation, function(d) { return milesToFeet(d.distance); }),
-              // maxDist = d3.max(elevation, function(d) { return d.distance; }),
-              // maxHeight = d3.max(elevation, function(d) { return d.height; });
           var maxScale = Math.max(maxDistInFeet, maxHeight);  // so everything is in proportion
 
           // calculate the change in steepness for every segment
