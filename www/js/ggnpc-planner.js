@@ -58,7 +58,7 @@
 
       this._request = {
         origin: this.options.origin,
-        destination: this.options.destination,
+        destination: this._resolveDestination(this.options.destination),
         travelMode: this.options.travelMode || this.options.travelModes[0].value
       };
 
@@ -178,9 +178,10 @@
             return d3.ascending(a._index, b._index);
           });
 
+        var dest = this.getDestination();
         destSelect.selectAll("option")
           .attr("selected", function(d) {
-            var selected = d === that.options.destination;
+            var selected = (d === dest);
             return selected ? "selected" : null;
           });
 
@@ -260,9 +261,16 @@
       return this._request.destination;
     },
 
+    getDestinationString: function() {
+      var dest = this.getDestination();
+      return (typeof dest === "string")
+        ? dest
+        : [dest.title, dest.id].join(":");
+    },
+
     setDestination: function(dest) {
       if (dest != this._request.destination) {
-        this._request.destination = dest;
+        this._request.destination = this._resolveDestination(dest);
         google.maps.event.trigger(this, "destination", dest);
       }
       return this;
@@ -275,17 +283,6 @@
     setTravelMode: function(mode) {
       this._request.travelMode = mode;
       return this;
-    },
-
-    setLocationLookup: function(locationsById) {
-      this._locationsById = locationsById;
-      return this;
-    },
-
-    getLocationById: function(id) {
-      return this._locationsById
-        ? this._locationsById[id]
-        : null;
     },
 
     route: function(callback) {
@@ -311,6 +308,7 @@
       }
 
       console.log("route(", request, ")");
+
       var that = this;
 
       this._form.classed("routing", true);
@@ -324,6 +322,39 @@
           if (callback) callback(response, null);
         }
       });
+    },
+
+    _resolveDestination: function(dest) {
+      if (typeof dest === "string" && this.options.destinationOptions) {
+        var parts = dest.split(":"),
+            name = parts[0],
+            id = parts[1],
+            found = null;
+
+        // console.log("_resolveDestination():", name, id);
+        this.options.destinationOptions.forEach(function(option) {
+          if (option.children) {
+            option.children.forEach(check);
+          } else {
+            check(option);
+          }
+        });
+
+        function check(option) {
+          if (found) return;
+          if (id && option.id === id) {
+            return found = option;
+          }
+          if (name && option.title === name) {
+            return found = option;
+          }
+          console.log("x", option.title, option.id);
+        }
+
+        // console.log("_resolveDestination(", dest, ") ->", found);
+        return found || dest;
+      }
+      return dest;
     },
 
     _getObjectLocation: function(obj) {
