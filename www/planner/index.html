@@ -60,7 +60,7 @@
           location.hash = GGNPC.utils.qs.format({
             from: planner.getOrigin(),
             to: planner.getDestinationString(),
-            mode: planner.getTravelMode()
+            mode: planner.getTravelMode().toLowerCase()
           });
         });
         planner.addListener("error", function(error) {

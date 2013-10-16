@@ -59,7 +59,7 @@
       this._request = {
         origin: this.options.origin,
         destination: this._resolveDestination(this.options.destination),
-        travelMode: this.options.travelMode || this.options.travelModes[0].value
+        travelMode: String(this.options.travelMode || this.options.travelModes[0].value).toUpperCase()
       };
 
       this.directions = new google.maps.DirectionsService();
@@ -281,7 +281,7 @@
     },
 
     setTravelMode: function(mode) {
-      this._request.travelMode = mode;
+      this._request.travelMode = mode.toUpperCase();
       return this;
     },
 
