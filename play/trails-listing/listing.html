@@ -11,7 +11,14 @@
       }
 
       div.trail-data {
+        background: #000;
+        margin-bottom: 20px;
+      }
+
+      div.trail-metadata {
         background: #ccc;
+        width: 50%;
+        /*display: inline-block;*/
       }
 
       div.full-trail-data {
@@ -19,6 +26,23 @@
         height: 0;
         display: hidden;
       }
+
+      div.trail-metadata-header h3 {
+        display: inline;
+      }
+
+      span.trail-metadata-header-duration {
+        text-transform: uppercase;
+        display: inline;
+        margin-left: 5px;
+      }
+
+      div.profile-sample {
+        display: inline-block;
+        width: 50%;
+        background: pink;
+      }
+
 
     </style>
   </head>
@@ -60,7 +84,7 @@
         var trailsList = container.selectAll("div.trail-data")
           .data(index)
         .enter().append("div")
-          .attr("id", function(d) { return "tripContainer-" + d.id; })
+          .attr("id", function(d) { return "trip-container-" + d.id; })
           .classed("trail-data", true)
           .on("click", trailDataClick);
 
@@ -83,7 +107,7 @@
         meta.append("ul")
           .selectAll("li")
             .data(function(d) { 
-              // middle elevation value needs to be preprocessed on the backend
+              // XXX middle elevation value needs to be preprocessed on the backend
               return [
                 [d.length_miles, "miles"], 
                 ["[image]", 0, "elevation change"], 
@@ -96,7 +120,8 @@
             })
             .text(function(d) { return d.join(" "); });
 
-        var profileSample = trailsList.append("div.profile-sample")
+        var profileSample = trailsList.append("div")
+          .classed("profile-sample", true)
           .html(function(d) { return "[image]" });  // return "images/" + d.id + ".jpg";
       });
 
