@@ -1,3 +1,6 @@
+// Parks: convert trail elevation data to an svg for the elevation profile thumbnails
+// this is the renderer to use with @shawnbot's d3-to-png 
+
 module.exports = function(window, options, callback) {
   var d3 = window.d3,
       tripId = options.trip || 1287,
