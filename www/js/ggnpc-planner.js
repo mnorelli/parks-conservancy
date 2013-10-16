@@ -488,7 +488,9 @@
     // TODO: fix this URL
     apiUrl: "http://stamen-parks-api-staging.herokuapp.com/",
     locationTypes: ["Access", "Trailhead", "Visitor Center"],
-    groupByPark: true
+    groupByPark: true,
+    nearbyThreshold: 1, // miles
+    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"] 
   };
   
   DestinationLoader.prototype = {
@@ -514,6 +516,44 @@
           if (options.locationTypes && options.locationTypes.length > 0) {
             locations = locations.filter(function(d) {
               return d.relatedpark && options.locationTypes.indexOf(d.parklocationtype) > -1;
+            });
+          }
+
+          if (options.nearbyThreshold) {
+            var nearbyTypes = options.nearbyTypes,
+                nearbyThreshold = options.nearbyThreshold,
+                nearbyLimit = options.nearbyLimit,
+                nearbyCandidates = nearbyTypes
+                  ? locations.filter(function(d) {
+                    return nearbyTypes.indexOf(d.parklocationtype) > -1;
+                  })
+                  : locations.slice();
+
+            // give each nearby candidate a google.maps.LatLng
+            nearbyCandidates.forEach(function(d) {
+              d.latlng = ggnpc.utils.coerceLatLng(d.location);
+            });
+
+            // calculate distance between points in miles
+            var METERS_PER_MILE = 1609.34,
+                EARTH_RADIUS_METERS = 6378137,
+                EARTH_RADIUS_MILES = EARTH_RADIUS_METERS / METERS_PER_MILE;
+            function distanceInMiles(a, b) {
+              return google.maps.geometry.spherical.computeDistanceBetween(a, b, EARTH_RADIUS_MILES);
+            }
+
+            // assign a nearby[] array to each location based on distance from
+            // it to the other locations
+            locations.forEach(function(d) {
+              var a = ggnpc.utils.coerceLatLng(d.location);
+              d.nearby = nearbyCandidates
+                .filter(function(b) {
+                  return b != d && distanceInMiles(a, b.latlng) <= nearbyThreshold;
+                });
+              if (nearbyLimit > 0) {
+                d.nearby = d.nearby.slice(0, nearbyLimit);
+              }
+              if (d.nearby.length) console.log(d.title, "has", d.nearby.length, "nearby locations");
             });
           }
 
