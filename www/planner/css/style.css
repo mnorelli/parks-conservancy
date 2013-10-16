@@ -43,6 +43,7 @@
 
 .trip-planner .nearby-locations .location {
   display: table-row;
+  color: #707070;
   width: 100%;
   clear: left;
   margin: 0 0 5px 0;
@@ -55,10 +56,12 @@
 
 .trip-planner .nearby-locations .location > .icon {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  background: #000;
-  border-radius: 2px;
+  width: 26px;
+  height: 25px;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -66,6 +69,19 @@
   top: 3px;
 }
 
+.location.trailhead > .icon { background-image: url(images/icon-trailhead.png); }
+.location.visitor_center > .icon { background-image: url(images/icon-visitor_center.png); }
+
+.trip-planner .nearby-locations .location > .title {
+  width: 80%;
+}
+
+.trip-planner .nearby-locations .location > .title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .trip-planner .nearby-locations .location > .distance {
   text-align: right;
+  width: 20%;
 }
