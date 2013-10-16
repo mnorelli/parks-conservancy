@@ -227,7 +227,11 @@
           value: "Go!"
         });
 
-      nearbyPanel.append("h3")
+      var nearbyTitle = nearbyPanel.append("h3");
+      nearbyTitle.append("img")
+        .attr("class", "icon")
+        .attr("src", this.options.pointImageUrls.destination);
+      nearbyTitle.append("span")
         .text("Nearby");
 
       nearbyPanel.append("div")
