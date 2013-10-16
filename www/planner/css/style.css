@@ -76,6 +76,8 @@
 
 .location.trailhead > .icon { background-image: url(images/icon-trailhead.png); }
 .location.visitor_center > .icon { background-image: url(images/icon-visitor_center.png); }
+.location.restroom > .icon { background-image: url(images/icon-restroom.png); }
+.location.cafe > .icon { background-image: url(images/icon-cafe.png); }
 
 .trip-planner .nearby-locations .location > .title {
   width: 80%;
