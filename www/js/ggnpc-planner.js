@@ -58,8 +58,8 @@
 
       this._request = {
         origin: this.options.origin,
-        destination: this.options.destination,
-        travelMode: this.options.travelMode || this.options.travelModes[0].value
+        destination: this._resolveDestination(this.options.destination),
+        travelMode: String(this.options.travelMode || this.options.travelModes[0].value).toUpperCase()
       };
 
       this.directions = new google.maps.DirectionsService();
@@ -178,9 +178,10 @@
             return d3.ascending(a._index, b._index);
           });
 
+        var dest = this.getDestination();
         destSelect.selectAll("option")
           .attr("selected", function(d) {
-            var selected = d === that.options.destination;
+            var selected = (d === dest);
             return selected ? "selected" : null;
           });
 
@@ -260,9 +261,16 @@
       return this._request.destination;
     },
 
+    getDestinationString: function() {
+      var dest = this.getDestination();
+      return (typeof dest === "string")
+        ? dest
+        : [dest.title, dest.id].join(":");
+    },
+
     setDestination: function(dest) {
       if (dest != this._request.destination) {
-        this._request.destination = dest;
+        this._request.destination = this._resolveDestination(dest);
         google.maps.event.trigger(this, "destination", dest);
       }
       return this;
@@ -273,19 +281,8 @@
     },
 
     setTravelMode: function(mode) {
-      this._request.travelMode = mode;
+      this._request.travelMode = mode.toUpperCase();
       return this;
-    },
-
-    setLocationLookup: function(locationsById) {
-      this._locationsById = locationsById;
-      return this;
-    },
-
-    getLocationById: function(id) {
-      return this._locationsById
-        ? this._locationsById[id]
-        : null;
     },
 
     route: function(callback) {
@@ -311,6 +308,7 @@
       }
 
       console.log("route(", request, ")");
+
       var that = this;
 
       this._form.classed("routing", true);
@@ -324,6 +322,39 @@
           if (callback) callback(response, null);
         }
       });
+    },
+
+    _resolveDestination: function(dest) {
+      if (typeof dest === "string" && this.options.destinationOptions) {
+        var parts = dest.split(":"),
+            name = parts[0],
+            id = parts[1],
+            found = null;
+
+        // console.log("_resolveDestination():", name, id);
+        this.options.destinationOptions.forEach(function(option) {
+          if (option.children) {
+            option.children.forEach(check);
+          } else {
+            check(option);
+          }
+        });
+
+        function check(option) {
+          if (found) return;
+          if (id && option.id === id) {
+            return found = option;
+          }
+          if (name && option.title === name) {
+            return found = option;
+          }
+          console.log("x", option.title, option.id);
+        }
+
+        // console.log("_resolveDestination(", dest, ") ->", found);
+        return found || dest;
+      }
+      return dest;
     },
 
     _getObjectLocation: function(obj) {
@@ -357,8 +388,20 @@
     },
 
     _updateBespokeDirections: function() {
-      // XXX
-      this.destMap.directionsDisplay;
+      clearTimeout(this._bespokeDirectionsInterval);
+
+      var dest = this.getDestination();
+      if (dest && dest.bespoke_directions) {
+        var panel = this.destMap.directionsDisplay.getPanel();
+        this._bespokeDirectionsInterval = setTimeout(function() {
+          d3.select(panel)
+            .select("table.adp-directions tbody")
+            .call(planner.BespokeDirections.augmentGoogleDisplay, dest.bespoke_directions);
+        }, 100);
+        return true;
+      }
+
+      return false;
     },
 
     _parseLocation: function(loc) {
@@ -380,6 +423,22 @@
    * Bespoke Directions stuff
    */
   planner.BespokeDirections = {
+    load: function(sheetId, callback) {
+      return Tabletop.init({
+        key: sheetId,
+        simpleSheet: true,
+        callback: function(rows) {
+          var rowsByFilename = d3.nest()
+            .key(function(d) { return d.filename; })
+            .rollup(function(d) {
+              return planner.BespokeDirections.parse(d[0].directions);
+            })
+            .map(rows);
+          callback(null, rowsByFilename);
+        }
+      });
+    },
+
     parse: function(text) {
       if (!text) return null;
       return text.split(/[\r\n]+/g)
@@ -429,7 +488,9 @@
     // TODO: fix this URL
     apiUrl: "http://stamen-parks-api-staging.herokuapp.com/",
     locationTypes: ["Access", "Trailhead", "Visitor Center"],
-    groupByPark: true
+    groupByPark: true,
+    nearbyThreshold: 1, // miles
+    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"] 
   };
   
   DestinationLoader.prototype = {
@@ -455,6 +516,48 @@
           if (options.locationTypes && options.locationTypes.length > 0) {
             locations = locations.filter(function(d) {
               return d.relatedpark && options.locationTypes.indexOf(d.parklocationtype) > -1;
+            });
+          }
+
+          if (options.nearbyThreshold) {
+            var nearbyTypes = options.nearbyTypes,
+                nearbyThreshold = options.nearbyThreshold,
+                nearbyLimit = options.nearbyLimit,
+                nearbyCandidates = nearbyTypes
+                  ? locations.filter(function(d) {
+                    return nearbyTypes.indexOf(d.parklocationtype) > -1;
+                  })
+                  : locations.slice();
+
+            // give each nearby candidate a google.maps.LatLng
+            nearbyCandidates.forEach(function(d) {
+              d.latlng = ggnpc.utils.coerceLatLng(d.location);
+            });
+
+            // calculate distance between points in miles
+            var METERS_PER_MILE = 1609.34,
+                EARTH_RADIUS_METERS = 6378137,
+                EARTH_RADIUS_MILES = EARTH_RADIUS_METERS / METERS_PER_MILE;
+            function distanceInMiles(a, b) {
+              return google.maps.geometry.spherical.computeDistanceBetween(a, b, EARTH_RADIUS_MILES);
+            }
+
+            // assign a nearby[] array to each location based on distance from
+            // it to the other locations
+            locations.forEach(function(d) {
+              var a = ggnpc.utils.coerceLatLng(d.location);
+              d.nearby = nearbyCandidates
+                .filter(function(b) {
+                  return b != d && distanceInMiles(a, b.latlng) <= nearbyThreshold;
+                });
+              if (nearbyLimit > 0) {
+                d.nearby = d.nearby.slice(0, nearbyLimit);
+              }
+              /*
+              if (d.nearby.length) {
+                console.log(d.title, "has", d.nearby.length, "nearby locations");
+              }
+              */
             });
           }
 
