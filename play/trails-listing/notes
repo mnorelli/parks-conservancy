@@ -1,8 +1,9 @@
 git clone https://github.com/shawnbot/d3-to-png
 
-node d3-to-png/index.js --trip [tripId] ../svg_trail_paths.js > svg/[tripId].svg
 
 the chain:
-1. process_trips.js
-2. create_index.js
-3. svg_trail_paths.js
+1. node process_trips.js  (NOTE: this requires a list of trip ids. how do we get this?)
+2. node create_index.js
+3. node d3-to-png/index.js --trip $trip ../svg_trail_paths.js > svg/$trip.svg
+ 
+sometimes #3 fails because imagemagick hangs. i have no idea why.
