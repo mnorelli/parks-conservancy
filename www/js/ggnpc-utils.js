@@ -124,5 +124,13 @@ var GGNPC = (function(exports){
       }
     };
 
+    // calculate distance between points in miles
+    var METERS_PER_MILE = 1609.34,
+        EARTH_RADIUS_METERS = 6378137,
+        EARTH_RADIUS_MILES = EARTH_RADIUS_METERS / METERS_PER_MILE;
+    utils.distanceInMiles = function(a, b) {
+      return google.maps.geometry.spherical.computeDistanceBetween(a, b, EARTH_RADIUS_MILES);
+    };
+
     return exports;
 })(GGNPC || {});
