@@ -437,9 +437,10 @@
         function check(option) {
           if (found) return;
           if (id && option.id === id) {
-            return found = option;
-          }
-          if (name && option.title === name) {
+            if (!name || (name && option.title === name)) {
+              return found = option;
+            }
+          } else if (!id && (name && option.title === name)) {
             return found = option;
           }
           // console.log("x", option.title, option.id);
