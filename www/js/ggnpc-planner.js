@@ -82,7 +82,7 @@
       root.classed("loading", false);
 
       planner = new GGNPC.planner.TripPlanner("trip-planner", {
-        origin: hash.from || "2017 Mission St, SF",
+        origin: hash.from, // || "2017 Mission St, SF",
         destination: hash.to,
         travelMode: hash.mode,
         destinationOptions: destinations
