@@ -1,1 +1,8 @@
+git clone https://github.com/shawnbot/d3-to-png
+
 node d3-to-png/index.js --trip [tripId] ../svg_trail_paths.js > svg/[tripId].svg
+
+the chain:
+1. process_trips.js
+2. create_index.js
+3. svg_trail_paths.js
