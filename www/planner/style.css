@@ -62,6 +62,8 @@
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
+  position: relative;
+  top: 3px;
 }
 
 .trip-planner .nearby-locations .location > .distance {
