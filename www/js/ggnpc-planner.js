@@ -553,7 +553,11 @@
               if (nearbyLimit > 0) {
                 d.nearby = d.nearby.slice(0, nearbyLimit);
               }
-              if (d.nearby.length) console.log(d.title, "has", d.nearby.length, "nearby locations");
+              /*
+              if (d.nearby.length) {
+                console.log(d.title, "has", d.nearby.length, "nearby locations");
+              }
+              */
             });
           }
 
