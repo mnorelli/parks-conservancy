@@ -1,0 +1,240 @@
+[
+  {
+    "starting_trailhead_id": 436, 
+    "starting_trailhead": {
+      "latitude": 37.860715, 
+      "longitude": -122.574836
+    }, 
+    "name": "Meander in Marin", 
+    "id": 1287, 
+    "intensity": "Moderate", 
+    "duration": "Day Trip", 
+    "author_id": 2280, 
+    "length_miles": 7.7448530814104855, 
+    "ending_trailhead_id": 1155
+  }, 
+  {
+    "starting_trailhead_id": 1534, 
+    "starting_trailhead": {
+      "latitude": 37.8271244682, 
+      "longitude": -122.499210835
+    }, 
+    "name": "Marin headlands lookouts and Hawk Hill", 
+    "id": 1295, 
+    "intensity": "Easy", 
+    "duration": "Halfday", 
+    "author_id": 3444, 
+    "length_miles": 0.6522403068572583, 
+    "ending_trailhead_id": 1534
+  }, 
+  {
+    "starting_trailhead_id": 1643, 
+    "starting_trailhead": {
+      "latitude": 37.80502, 
+      "longitude": -122.476535
+    }, 
+    "name": "Marshall Beach ", 
+    "id": 1297, 
+    "intensity": "Easy", 
+    "duration": "Halfday", 
+    "author_id": 3429, 
+    "length_miles": 1.5924863258434823, 
+    "ending_trailhead_id": 1643
+  }, 
+  {
+    "starting_trailhead_id": 1016, 
+    "starting_trailhead": {
+      "latitude": 37.789697, 
+      "longitude": -122.459292
+    }, 
+    "name": "Ridge Trail Presidio Loop", 
+    "id": 1333, 
+    "intensity": "Moderate", 
+    "duration": "Halfday", 
+    "author_id": 102, 
+    "length_miles": 3.7900373537368606, 
+    "ending_trailhead_id": 1016
+  }, 
+  {
+    "starting_trailhead_id": 513, 
+    "starting_trailhead": {
+      "latitude": 37.7801956689, 
+      "longitude": -122.511704564
+    }, 
+    "name": "Sutro Trail/Lands End", 
+    "id": 1338, 
+    "intensity": "Easy", 
+    "duration": "Halfday", 
+    "author_id": 3445, 
+    "length_miles": 1.5499051639077646, 
+    "ending_trailhead_id": 513
+  }, 
+  {
+    "starting_trailhead_id": 1016, 
+    "starting_trailhead": {
+      "latitude": 37.789697, 
+      "longitude": -122.459292
+    }, 
+    "name": "Ridge Trail at SF's Presidio", 
+    "id": 140, 
+    "intensity": "Easy", 
+    "duration": "Halfday", 
+    "author_id": 1746, 
+    "length_miles": 3.4806709994847296, 
+    "ending_trailhead_id": 1016
+  }, 
+  {
+    "starting_trailhead_id": 1466, 
+    "starting_trailhead": {
+      "latitude": 37.8699434167, 
+      "longitude": -122.527500093
+    }, 
+    "name": "Tennessee Valley to Alta Ridge Loop", 
+    "id": 1424, 
+    "intensity": "Strenuous", 
+    "duration": "Halfday", 
+    "author_id": 3564, 
+    "length_miles": 5.723875296969063, 
+    "ending_trailhead_id": 1466
+  }, 
+  {
+    "starting_trailhead_id": 292, 
+    "starting_trailhead": {
+      "latitude": 37.860541772, 
+      "longitude": -122.535859197
+    }, 
+    "name": "Golden Gate High Ridge Tour", 
+    "id": 1431, 
+    "intensity": "Strenuous", 
+    "duration": "Halfday", 
+    "author_id": 3497, 
+    "length_miles": 6.8500458186658895, 
+    "ending_trailhead_id": 292
+  }, 
+  {
+    "starting_trailhead_id": 436, 
+    "starting_trailhead": {
+      "latitude": 37.860715, 
+      "longitude": -122.574836
+    }, 
+    "name": "Muir Beach to Pirate's Cove", 
+    "id": 1433, 
+    "intensity": "Moderate", 
+    "duration": "Halfday", 
+    "author_id": 3448, 
+    "length_miles": 3.5883387825076762, 
+    "ending_trailhead_id": 436
+  }, 
+  {
+    "starting_trailhead_id": 1528, 
+    "starting_trailhead": {
+      "latitude": 37.8074656429, 
+      "longitude": -122.470318079
+    }, 
+    "name": "Crissy Field Waterfront Walk", 
+    "id": 1446, 
+    "intensity": "Easy", 
+    "duration": "Halfday", 
+    "author_id": 3564, 
+    "length_miles": 1.9820236808316882, 
+    "ending_trailhead_id": 1528
+  }, 
+  {
+    "starting_trailhead_id": 970, 
+    "starting_trailhead": {
+      "latitude": 37.8919690586, 
+      "longitude": -122.570426166
+    }, 
+    "name": "Muir Woods East Side Loop Hike ", 
+    "id": 1448, 
+    "intensity": "Moderate", 
+    "duration": "Halfday", 
+    "author_id": 3497, 
+    "length_miles": 5.359096720865736, 
+    "ending_trailhead_id": 512
+  }, 
+  {
+    "starting_trailhead_id": 970, 
+    "starting_trailhead": {
+      "latitude": 37.8919690586, 
+      "longitude": -122.570426166
+    }, 
+    "name": "Muir Woods East Loop Hike", 
+    "id": 1449, 
+    "intensity": "Moderate", 
+    "duration": "Halfday", 
+    "author_id": 3497, 
+    "length_miles": 5.080448946757859, 
+    "ending_trailhead_id": 512
+  }, 
+  {
+    "starting_trailhead_id": 1231, 
+    "starting_trailhead": {
+      "latitude": 37.7796254058, 
+      "longitude": -122.509840429
+    }, 
+    "name": "Lands End Loop", 
+    "id": 216, 
+    "intensity": "Moderate", 
+    "duration": "Halfday", 
+    "author_id": 1746, 
+    "length_miles": 3.052187388028385, 
+    "ending_trailhead_id": 1213
+  }, 
+  {
+    "starting_trailhead_id": 1535, 
+    "starting_trailhead": {
+      "latitude": 37.8849306303, 
+      "longitude": -122.554764748
+    }, 
+    "name": "Dias Ridge Trail", 
+    "id": 263, 
+    "intensity": "Easy", 
+    "duration": "Halfday", 
+    "author_id": 102, 
+    "length_miles": 3.0493233916892346, 
+    "ending_trailhead_id": 1154
+  }, 
+  {
+    "starting_trailhead_id": 1012, 
+    "starting_trailhead": {
+      "latitude": 37.8698883655, 
+      "longitude": -122.514815927
+    }, 
+    "name": "Headlands Rodeo Beach Ramble", 
+    "id": 45, 
+    "intensity": "Moderate", 
+    "duration": "Day Trip", 
+    "author_id": 16, 
+    "length_miles": 7.813757406369787, 
+    "ending_trailhead_id": 1015
+  }, 
+  {
+    "starting_trailhead_id": 301, 
+    "starting_trailhead": {
+      "latitude": 37.8322237198, 
+      "longitude": -122.5395298
+    }, 
+    "name": "Coastal Trail Walk, with Newts", 
+    "id": 63, 
+    "intensity": "Easy", 
+    "duration": "Halfday", 
+    "author_id": 37, 
+    "length_miles": 1.8939228438008686, 
+    "ending_trailhead_id": 301
+  }, 
+  {
+    "starting_trailhead_id": 292, 
+    "starting_trailhead": {
+      "latitude": 37.860541772, 
+      "longitude": -122.535859197
+    }, 
+    "name": "Tennessee Valley loop", 
+    "id": 89, 
+    "intensity": "Moderate", 
+    "duration": "Halfday", 
+    "author_id": 1741, 
+    "length_miles": 5.3086374771197296, 
+    "ending_trailhead_id": 292
+  }
+]
