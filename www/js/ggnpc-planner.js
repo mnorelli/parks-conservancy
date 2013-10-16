@@ -47,6 +47,67 @@
     }
   };
 
+  TripPlanner.inject = function(callback) {
+    var planner,
+        destinations,
+        // XXX make this a global to modify
+        bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
+        loader = new GGNPC.planner.DestinationLoader(),
+        hash = GGNPC.utils.qs.parse(location.hash),
+        root = d3.select("#trip-planner")
+          .classed("loading", true);
+
+    if (root.empty()) {
+      if (callback) callback("No such element: #trip-planner");
+      return;
+    }
+
+    loader.load(function(error, locations) {
+      destinations = locations;
+
+      /*
+      GGNPC.planner.BespokeDirections.load(bespokeSheetId, function(error, rowsByFilename) {
+        destinations.forEach(function(d) {
+          if (d.filename in rowsByFilename) {
+            d.bespoke_directions = rowsByFilename[d.filename];
+          }
+        });
+      });
+      */
+
+      initialize();
+    });
+
+    function initialize() {
+      root.classed("loading", false);
+
+      planner = new GGNPC.planner.TripPlanner("trip-planner", {
+        origin: hash.from || "2017 Mission St, SF",
+        destination: hash.to,
+        travelMode: hash.mode,
+        destinationOptions: destinations
+      });
+
+      if (planner.getOrigin() && planner.getDestination()) {
+        planner.route();
+      }
+
+      planner.addListener("route", function(route) {
+        console.log("routed:", route);
+        location.hash = GGNPC.utils.qs.format({
+          from: planner.getOrigin(),
+          to: planner.getDestinationString(),
+          mode: planner.getTravelMode().toLowerCase()
+        });
+      });
+      planner.addListener("error", function(error) {
+        console.warn("error:", error);
+      });
+
+      if (callback) callback(null, planner);
+    }
+  };
+
   /*
    * TripPlanner API
    */
