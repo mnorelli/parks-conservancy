@@ -56,5 +56,73 @@ var GGNPC = (function(exports){
       );
     };
 
+    var qs = utils.qs = {
+      decode: function(str) {
+        str = String(str)
+          .replace(/\+/g, "%20");
+        return decodeURIComponent(str);
+      },
+
+      encode: function(str) {
+        return encodeURIComponent(str)
+          .replace(/%2C/g, ",")
+          .replace(/%3A/g, ":")
+          .replace(/%3B/g, ";")
+          .replace(/%20/g, "+");
+      },
+
+      parse: function(str) {
+        // remove the leading # or ?
+        if (str.charAt(0) === "#" || str.charAt(0) === "?") {
+          str = str.substr(1);
+        }
+        var data = {};
+        str.split("&").forEach(function(bit) {
+          var parts = bit.split("=", 2),
+              key = qs.decode(parts[0]),
+              val = qs.decode(parts[1]);
+
+          if (val) {
+            var num = +val;
+            if (isNaN(num)) {
+              switch (val) {
+                case "true": val = true; break;
+                case "false": val = false; break;
+              }
+            } else {
+              val = num;
+            }
+          }
+
+          if (data.hasOwnProperty(key)) {
+            if (Array.isArray(data[key])) {
+              data[key].push(val);
+            } else {
+              data[key] = [data[key], val];
+            }
+          } else {
+            data[key] = val;
+          }
+        });
+        return data;
+      },
+
+      format: function(data) {
+        return Object.keys(data)
+          .filter(function(k) {
+            return k
+                && data[k] !== null
+                && typeof data[k] !== undefined;
+          })
+          .map(function(k) {
+            return [
+              qs.encode(k),
+              qs.encode(String(data[k]))
+            ].join("=");
+          })
+          .join("&");
+      }
+    };
+
     return exports;
 })(GGNPC || {});
