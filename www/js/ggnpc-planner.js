@@ -604,7 +604,11 @@
               var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location));
               d.nearby = nearbyCandidates
                 .filter(function(b) {
-                  return b != d && utils.distanceInMiles(a, b.latlng) <= nearbyThreshold;
+                  return b != d &&
+                    (b._dist = utils.distanceInMiles(a, b.latlng)) <= nearbyThreshold;
+                })
+                .sort(function(a, b) {
+                  return d3.ascending(a._dist, b._dist);
                 });
               if (nearbyLimit > 0) {
                 d.nearby = d.nearby.slice(0, nearbyLimit);
