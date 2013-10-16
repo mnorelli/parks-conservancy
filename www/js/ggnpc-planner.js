@@ -88,9 +88,17 @@
         destinationOptions: destinations
       });
 
-      if (planner.getOrigin() && planner.getDestination()) {
-        planner.route();
+      autoRoute();
+
+      function autoRoute() {
+        if (planner.getOrigin() && planner.getDestination()) {
+          planner.route();
+        }
       }
+
+      planner.addListener("origin", autoRoute);
+      planner.addListener("destination", autoRoute);
+      planner.addListener("travelMode", autoRoute);
 
       planner.addListener("route", function(route) {
         console.log("routed:", route);
@@ -100,6 +108,7 @@
           mode: planner.getTravelMode().toLowerCase()
         });
       });
+
       planner.addListener("error", function(error) {
         console.warn("error:", error);
       });
@@ -334,8 +343,8 @@
       return this._request.destination;
     },
 
-    getDestinationString: function() {
-      var dest = this.getDestination();
+    getDestinationString: function(dest) {
+      if (!dest) dest = this.getDestination();
       return (typeof dest === "string")
         ? dest
         : [dest.title, dest.id].join(":");
@@ -345,6 +354,15 @@
       if (dest != this._request.destination) {
         this._request.destination = this._resolveDestination(dest);
         google.maps.event.trigger(this, "destination", dest);
+
+        var that = this;
+        d3.select(this.root)
+          .selectAll("select.destination option")
+            .attr("selected", function(d) {
+              return d === that._request.destination
+                ? "selected"
+                : null;
+            });
       }
       return this;
     },
@@ -354,7 +372,10 @@
     },
 
     setTravelMode: function(mode) {
-      this._request.travelMode = mode.toUpperCase();
+      if (mode != this._request.travelMode) {
+        this._request.travelMode = mode.toUpperCase();
+        google.maps.event.trigger(this, "travelMode", this._request.travelMode);
+      }
       return this;
     },
 
@@ -421,7 +442,7 @@
           if (name && option.title === name) {
             return found = option;
           }
-          console.log("x", option.title, option.id);
+          // console.log("x", option.title, option.id);
         }
 
         // console.log("_resolveDestination(", dest, ") ->", found);
@@ -467,11 +488,11 @@
     },
 
     _updateNearbyLocations: function() {
-      var dest = this.getDestination();
-      
-      var loc = d3.select(this.root).select(".nearby-locations")
-        .selectAll(".location")
-        .data(dest.nearby || []);
+      var dest = this.getDestination(),
+          that = this,
+          loc = d3.select(this.root).select(".nearby-locations")
+            .selectAll(".location")
+            .data(dest.nearby || []);
 
       loc.exit().remove();
 
@@ -483,7 +504,8 @@
         .attr("class", "icon");
 
       enter.append("span")
-        .attr("class", "title");
+        .attr("class", "title")
+        .append("a");
 
       enter.append("span")
         .attr("class", "distance");
@@ -496,7 +518,16 @@
           return ["location", type].join(" ");
         });
 
-      loc.select(".title")
+      loc.select(".title a")
+        .attr("href", function(d) {
+          return "#" + utils.qs.format({
+            to: that.getDestinationString(d)
+          });
+        })
+        .on("click", function(d) {
+          d3.event.preventDefault();
+          that.setDestination(d);
+        })
         .text(function(d) { return d.title; });
 
       loc.select(".distance")
