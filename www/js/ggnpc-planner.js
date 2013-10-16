@@ -512,6 +512,7 @@
         .attr("class", "distance");
 
       loc
+        .attr("id", function(d) { return "nearby-" + d.id; })
         .attr("class", function(d) {
           var type = d.parklocationtype
             .toLowerCase()
@@ -521,13 +522,16 @@
 
       loc.select(".title a")
         .attr("href", function(d) {
+          if (!that._hasDestination(d)) return;
           return "#" + utils.qs.format({
             to: that.getDestinationString(d)
           });
         })
         .on("click", function(d) {
           d3.event.preventDefault();
-          that.setDestination(d);
+          if (this.href) {
+            that.setDestination(d);
+          }
         })
         .text(function(d) { return d.title; });
 
@@ -576,6 +580,28 @@
         };
       }
       return loc;
+    },
+
+    _hasDestination: function(dest) {
+      var options = this.options.destinationOptions;
+      // console.log("has dest:", dest);
+      if (!options) {
+        return true;
+      } else if (options.indexOf(dest) > -1) {
+        return true;
+      } else {
+        var found = null;
+        options.forEach(function(d) {
+          if (found) return;
+          if (d.children) {
+            var i = d.children.indexOf(dest);
+            if (i > -1) {
+              found = d.children[i];
+            }
+          }
+        });
+        return found ? true : false;
+      }
     }
 
   });
@@ -672,7 +698,8 @@
         d3.json(options.apiUrl + "kind/location", function(error, data) {
           if (error) return callback(error, null);
 
-          var locations = data.results.map(that._getAttibutes);
+          var locations = data.results.map(that._getAttibutes),
+              allLocations = locations.slice();
 
           if (options.locationTypes && options.locationTypes.length > 0) {
             locations = locations.filter(function(d) {
@@ -685,10 +712,10 @@
                 nearbyThreshold = options.nearbyThreshold,
                 nearbyLimit = options.nearbyLimit,
                 nearbyCandidates = nearbyTypes
-                  ? locations.filter(function(d) {
+                  ? allLocations.filter(function(d) {
                     return nearbyTypes.indexOf(d.parklocationtype) > -1;
                   })
-                  : locations.slice();
+                  : allLocations.slice();
 
             // give each nearby candidate a google.maps.LatLng
             nearbyCandidates.forEach(function(d) {
