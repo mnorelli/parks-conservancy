@@ -23,25 +23,25 @@ module.exports = function(window, options, callback) {
     return 5280 * mi;
   };
 
-  var createSVG = function(tripData) {
+  var createSVG = function(tripData, scales) {
     var elevation = tripData.elevation,
         elevationData = elevation.slice(1);
 
-    // XXX FIX: these values should be coming from the index.json file
-    // which will contain aggregated statistics
-    // var maxDistInFeet = 0,
-    //     maxDist = 0,
-    //     maxHeight = 0;
+    var heightExtent   = scales.height,
+        distanceExtent = scales.distance,
+        minH = heightExtent[0],
+        maxH = heightExtent[1],
+        heightDiff     = maxH - minH; 
 
-    // elevation.forEach(function(d) { 
-    //   var coordinates = d.coordinates;
-    //   maxDistInFeet = Math.max(maxDistInFeet, milesToFeet(d.distance));
-    //   maxDist = Math.max(maxDist, d.distance);
-    //   maxHeight = Math.max(maxHeight, d.height);
-    // });
+    var heightAnchors = d3.range(3).map(function(n) { 
+      return ((n+1) * (heightDiff/3)) + minH;
+    });
 
-    var heightExtent = d3.extent(elevation.map(function(d) { return +d.height; }).sort(d3.ascending)),
-        distanceExtent = d3.extent(elevation.map(function(d) { return +d.distance; }).sort(d3.ascending));
+    heightAnchors = [heightExtent[0]].concat(heightAnchors);
+
+    var color = d3.scale.linear()
+          .domain(heightAnchors)
+          .range(["#5b9240", "#3e6a32", "#bb5a4c", "#982e20"]);
 
     var x = d3.scale.linear().domain(distanceExtent).range([0, width]);
     var y = d3.scale.linear().domain(heightExtent).range([height, 0]);
@@ -56,23 +56,28 @@ module.exports = function(window, options, callback) {
     var profile = svg.selectAll("path.elevation")
         .data(elevationData)
       .enter().append("path")
-      .style("stroke", "#000")
-      // .style("stroke", function(d) { 
-      //   var roundedHeight = Math.round(d.height / 100) * 100;
-      //   return heightColorScale(roundedHeight); 
-      // })
-      .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
-      .attr("d", function(d, i) {
-        if (i === elevationData.length-1) return "";
-        return line([d, elevationData[i+1]]);
-      });
+        // .style("stroke", "#000")
+        .style("stroke", function(d) { 
+          var roundedHeight = Math.round(d.height / 100) * 100;
+          return color(roundedHeight);
+        })
+        .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
+        .attr("d", function(d, i) {
+          if (i === elevationData.length-1) return "";
+          return line([d, elevationData[i+1]]);
+        });
 
     callback(null, svg);
 
   };
 
   var main = (function() {
-    readTripData(tripId, createSVG);
+    var index = JSON.parse(fs.readFileSync("index.json")),
+        scales = index.scales;
+
+    readTripData(tripId, function(tripData) {
+      createSVG(tripData, scales); 
+    });
   })();
 
 };
