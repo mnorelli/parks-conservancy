@@ -1,4 +1,4 @@
-// node script to grab and process T&T trips data
+// node script to grab tnt data and mash it up with mapquest elevation data
 var TransitAndTrails = require("transitandtrails");
 var fs = require("fs"),
     http = require("http"),
@@ -14,7 +14,7 @@ var mapquest = {
 mapquest.host = "http://open.mapquestapi.com";
 mapquest.path = "/elevation/v1/profile?key=" + mapquest.key + "&unit=f";
 
-
+// XXX FIX: need a way to get this list automatically, somehow
 var trips = [
   1287, 1424, 1431, 89, 45, 1297, 216, 
   1338, 1446, 1295, 140, 1333, 63, 1448, 
