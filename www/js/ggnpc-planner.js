@@ -93,7 +93,9 @@
           directionsRoot = form.append("div")
             .attr("class", "row directions"),
           directionsPanel = directionsRoot.append("div")
-            .attr("class", "directions-panel");
+            .attr("class", "directions-panel column half"),
+          nearbyPanel = directionsRoot.append("div")
+            .attr("class", "nearby-panel column half");
 
       originInputs.append("h3")
         .attr("class", "title")
@@ -224,6 +226,12 @@
           type: "submit",
           value: "Go!"
         });
+
+      nearbyPanel.append("h3")
+        .text("Nearby");
+
+      nearbyPanel.append("div")
+        .attr("class", "nearby-locations");
 
       this.originMap = new ggnpc.maps.Map(originMapRoot.node(), this.options.originMap);
       this.destMap = new ggnpc.maps.Map(destMapRoot.node(), this.options.destMap);
@@ -362,6 +370,11 @@
     },
 
     _clearRoute: function() {
+      // clear nearby locations
+      d3.select(this.root).select(".nearby-locations")
+        .selectAll(".location")
+        .remove();
+
       // this.originMap.directionsDisplay.setDirections(null);
       // this.destMap.directionsDisplay.setDirections(null);
     },
@@ -384,7 +397,58 @@
       this.destMap.setZoom(this.options.destMap.zoom || 15);
       this.destMap.setCenter(end);
 
+      this._updateNearbyLocations();
       this._updateBespokeDirections();
+    },
+
+    _updateNearbyLocations: function() {
+      var dest = this.getDestination();
+      
+      var loc = d3.select(this.root).select(".nearby-locations")
+        .selectAll(".location")
+        .data(dest.nearby || []);
+
+      loc.exit().remove();
+
+      var enter = loc.enter()
+        .append("div")
+          .attr("class", "location");
+
+      enter.append("span")
+        .attr("class", "icon");
+
+      enter.append("span")
+        .attr("class", "title");
+
+      enter.append("span")
+        .attr("class", "distance");
+
+      loc
+        .attr("class", function(d) {
+          var type = d.parklocationtype
+            .toLowerCase()
+            .replace(/ +/g, "_");
+          return ["location", type].join(" ");
+        });
+
+      loc.select(".title")
+        .text(function(d) { return d.title; });
+
+      loc.select(".distance")
+        .text(function(d) {
+          if (!d.latlng) d.latlng = utils.coerceLatLng(dest.location);
+          var dist = quantize(utils.distanceInMiles(dest.latlng, d.latlng), .1),
+              round = dist % 1 === 0,
+              one = dist === 1,
+              num = round ? dist : dist.toFixed(1),
+              word = one ? "mile" : "miles";
+          return [num, word].join(" ");
+        });
+
+      function quantize(n, f) {
+        return f * Math.round(n / f);
+      }
+
     },
 
     _updateBespokeDirections: function() {
@@ -531,24 +595,16 @@
 
             // give each nearby candidate a google.maps.LatLng
             nearbyCandidates.forEach(function(d) {
-              d.latlng = ggnpc.utils.coerceLatLng(d.location);
+              d.latlng = utils.coerceLatLng(d.location);
             });
-
-            // calculate distance between points in miles
-            var METERS_PER_MILE = 1609.34,
-                EARTH_RADIUS_METERS = 6378137,
-                EARTH_RADIUS_MILES = EARTH_RADIUS_METERS / METERS_PER_MILE;
-            function distanceInMiles(a, b) {
-              return google.maps.geometry.spherical.computeDistanceBetween(a, b, EARTH_RADIUS_MILES);
-            }
 
             // assign a nearby[] array to each location based on distance from
             // it to the other locations
             locations.forEach(function(d) {
-              var a = ggnpc.utils.coerceLatLng(d.location);
+              var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location));
               d.nearby = nearbyCandidates
                 .filter(function(b) {
-                  return b != d && distanceInMiles(a, b.latlng) <= nearbyThreshold;
+                  return b != d && utils.distanceInMiles(a, b.latlng) <= nearbyThreshold;
                 });
               if (nearbyLimit > 0) {
                 d.nearby = d.nearby.slice(0, nearbyLimit);
