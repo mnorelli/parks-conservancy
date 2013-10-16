@@ -36,3 +36,34 @@
 .trip-planner .column.destination {
   border-left: 2px solid #fff;
 }
+
+.trip-planner .nearby-panel {
+  padding-left: 20px;
+}
+
+.trip-planner .nearby-locations .location {
+  display: table-row;
+  width: 100%;
+  clear: left;
+  margin: 0 0 5px 0;
+}
+
+.trip-planner .nearby-locations .location > span {
+  display: table-cell;
+  width: 50%;
+}
+
+.trip-planner .nearby-locations .location > .icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #000;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.trip-planner .nearby-locations .location > .distance {
+  text-align: right;
+}
