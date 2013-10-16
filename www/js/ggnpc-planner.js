@@ -388,8 +388,20 @@
     },
 
     _updateBespokeDirections: function() {
-      // XXX
-      this.destMap.directionsDisplay;
+      clearTimeout(this._bespokeDirectionsInterval);
+
+      var dest = this.getDestination();
+      if (dest && dest.bespoke_directions) {
+        var panel = this.destMap.directionsDisplay.getPanel();
+        this._bespokeDirectionsInterval = setTimeout(function() {
+          d3.select(panel)
+            .select("table.adp-directions tbody")
+            .call(planner.BespokeDirections.augmentGoogleDisplay, dest.bespoke_directions);
+        }, 100);
+        return true;
+      }
+
+      return false;
     },
 
     _parseLocation: function(loc) {
@@ -411,6 +423,22 @@
    * Bespoke Directions stuff
    */
   planner.BespokeDirections = {
+    load: function(sheetId, callback) {
+      return Tabletop.init({
+        key: sheetId,
+        simpleSheet: true,
+        callback: function(rows) {
+          var rowsByFilename = d3.nest()
+            .key(function(d) { return d.filename; })
+            .rollup(function(d) {
+              return planner.BespokeDirections.parse(d[0].directions);
+            })
+            .map(rows);
+          callback(null, rowsByFilename);
+        }
+      });
+    },
+
     parse: function(text) {
       if (!text) return null;
       return text.split(/[\r\n]+/g)
