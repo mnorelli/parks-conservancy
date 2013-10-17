@@ -1,5 +1,4 @@
-parks-conservancy
-=================
+# parks-conservancy
 
 Redesign of the interactive map used on
 [parksconservancy.org](http://www.parksconservancy.org/) Parks for all forever!
@@ -33,5 +32,10 @@ git clone git@github.com:stamen/parks-conservancy.git -b <branch> parks-conserva
 
 * `HEROKU_POSTGRESQL_COBALT` (see stamen-data for the connection string)
 
-## Big map
-Is in the 'www' directory of master branch
+## Static Assets
+Are in the `www` directory of master branch.
+
+## Testing Proxy
+The testing proxy is in `proxy.js` here. See the [injection
+strategy](https://github.com/stamen/parks-conservancy/wiki/Injection-Strategy)
+page for more info about how the inject script and proxy work together.
