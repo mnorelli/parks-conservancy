@@ -51,6 +51,10 @@
         padding-left: 0;
       }
 
+      img.profile-thumb {
+        width: 50%;
+        height: 50%;
+      }
 
     </style>
   </head>
@@ -130,9 +134,13 @@
 
         var profileSample = trailsList.append("div")
           .classed("profile-sample", true)
-          .html(function(d) { 
-            return "[profile image]";
-          });
+          // XXX FIX: need to do error checking on images
+          .append("img")
+            .classed("profile-thumb", true)
+            .attr("src", function(d) { return "png/" + d.id + ".png"; });
+          // .html(function(d) { 
+          //   return "[profile image]";
+          // });
       });
 
       // var x; // debug
