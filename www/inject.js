@@ -279,7 +279,9 @@
     return parts.join("/");
   };
 
-  // stupid IE8.
+  // this is a wrapper that iterates over an array with
+  // Array.prototype.forEach() if it exists (modern browsers),
+  // and uses a simple for loop if not (IE8).
   var forEach = Array.prototype.forEach
     ? function(a, fn, ctx) { return a.forEach(fn, ctx); }
     : function(a, fn, ctx) {
