@@ -1,7 +1,7 @@
 var http = require("http"),
     httpProxy = require("http-proxy"),
     connect = require("connect"),
-    proxyPort = 8000,
+    proxyPort = process.env.port || 8000,
     proxyTarget = {
       host: "www.parksconservancy.org",
       port: 80
@@ -17,7 +17,9 @@ var http = require("http"),
     },
     injection = '\n<script src="/map/inject.js"></script>';
 
+console.log("+ listening on port:", proxyPort);
 console.log("+ proxying requests from:", proxyTarget.host);
+console.log("+ serving static files from:", filePath);
 
 /*
  * our proxy server either:
@@ -59,8 +61,6 @@ var proxyServer = httpProxy
     }
   })
   .listen(proxyPort);
-
-console.log("+ serving static files from:", filePath);
 
 /*
  * our static file server rewrites the request path like so
