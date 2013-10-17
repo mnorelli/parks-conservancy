@@ -16,7 +16,10 @@ module.exports = function(window, options, callback) {
 
   var readTripData = function(tripId, cb) {
     fs.readFile("trips/" + tripId + "-elevation.json", function(err, file) {
-      if (err) throw err; // should log this and continue instead
+      if (err) {
+        console.error("error reading file (svg_trail_paths):", err); // should log this and continue instead
+        return;
+      }
       var tripData = JSON.parse(file);
       cb(tripData);
     });

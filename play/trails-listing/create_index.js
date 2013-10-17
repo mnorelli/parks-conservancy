@@ -9,19 +9,24 @@ function writeFile(data, filename) {
     if (!exists) {
       fs.writeFile(filename, JSON.stringify(data, null, 2), function(err) {
         if (err) {
-          console.log(err);
+          console.error("error writing file (create_index):", err);
+          return;
         } else {
           console.log("[*] data written to file", filename);
         }
       });
     } else {
-      console.log("[*] file exists, skipping");
+      console.log("[*] file " + filename + " exists, skipping");
     }
   });
 }
 
 var tripsDir = "trips/";
 fs.readdir(tripsDir, function(err, filenames) {
+  if (err) {
+    console.error("error reading trips directory (create_index):", err);
+    return;
+  }
   var filenames = filenames.filter(function(d) { 
     var f = d.split(".");
     return f[f.length-1] === "json";

@@ -15,11 +15,14 @@ mapquest.host = "http://open.mapquestapi.com";
 mapquest.path = "/elevation/v1/profile?key=" + mapquest.key + "&unit=f";
 
 // XXX FIX: need a way to get this list automatically, somehow
-var trips = [
-  1287, 1424, 1431, 89, 45, 1297, 216, 
-  1338, 1446, 1295, 140, 1333, 63, 1448, 
-  1449, 263, 1433
-];
+var trips = process.argv.slice(2).map(Number);
+// console.log(trips);
+// process.exit();
+// var trips = [
+//   1287, 1424, 1431, 89, 45, 1297, 216, 
+//   1338, 1446, 1295, 140, 1333, 63, 1448, 
+//   1449, 263, 1433
+// ];
 
 function writeFile(data, filename) {
   // var filename = "tnt-geojson/" + id + ".geojson";
@@ -27,7 +30,7 @@ function writeFile(data, filename) {
     if (!exists) {
       fs.writeFile(filename, JSON.stringify(data, null, 2), function(err) {
         if (err) {
-          console.log(err);
+          console.error("error writing file (process_trips):", err);
         } else {
           console.log("[*] data written to file", filename);
         }
@@ -47,13 +50,19 @@ trips.forEach(function(id) {
   
   tnt.getTrip(id, function(err, trip) {
     if (err) {
-      console.error(err);
+      console.error("error getting tnt trip (process_trips):", err);
+      return;
     }
 
-    console.log("[*] got trip metadata from TnT");
+    console.log("[*] got trip metadata from TnT for " + id);
 
     tnt.getTripRoute(id, function(err, route) {
-      console.log("[*] got TnT trip coordinates");
+      if (err) {
+        console.error("error getting tnt trip route (process_trips):", err);
+        return;
+      }
+
+      console.log("[*] got TnT trip coordinates for " + id);
 
       var route = route.map(function(d) { return d.reverse(); });
 
@@ -83,8 +92,12 @@ trips.forEach(function(id) {
           latLngCollection: latLngCollection
         }
       }, function(err, res, body) {
-        
-        console.log("[*] got mapquest elevation data");
+        if (err) {
+          console.error("error getting mapquest elevation data (process_trips):", err);
+          return;
+        }
+
+        console.log("[*] got mapquest elevation data for " + id);
         
         var elevation = JSON.parse(body).elevationProfile;
         elevation = elevation.map(function(d, i) { 
