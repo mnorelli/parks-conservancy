@@ -101,6 +101,13 @@
     });
   };
 
+  /*
+   * Preload all uris (or spec objects) in the list sequentially, and call
+   * callback() when done.
+   *
+   * FIXME this always advances through the list if a preload fails. Should we
+   * error out early here?
+   */
   injector.preloadAll = function(uris, callback) {
     var loading = uris.slice();
     next();
@@ -142,6 +149,7 @@
     return null;
   };
 
+  // get a route by name
   injector.getRouteByName = function(name) {
     var found;
     forEach(injector.routes, function(route) {
@@ -152,6 +160,7 @@
     return found;
   };
 
+  // get the injector's own <script> DOM element
   injector.getSelfScript = function(filename) {
     var scripts = document.getElementsByTagName("script");
     for (var i = 0; i < scripts.length; i++) {
@@ -169,6 +178,7 @@
     }
   };
 
+  // extract and parse the query string from a URL/URI
   injector.getQueryString = function(uri) {
     if (uri.indexOf("?") > -1) {
       var query = uri.split("?").pop();
@@ -177,6 +187,13 @@
     return null;
   };
 
+  /*
+   * Preload an arbitrary URL by grabbing its file extension and calling the
+   * appropriate preloader for "js" or "css". There's a special exception here
+   * for the Google Maps JavaScrip API URL, which ends in "/js" instead of
+   * ".js"; to deal with it, we check to see if there's a "/" later in the URL
+   * than the last ".", and split on "/" to determine the extension if so.
+   */
   injector.preload = function(url, callback) {
     // check the filename extension
     var filename = url.split("?").shift(),
@@ -184,7 +201,6 @@
           ? "/"
           : ".",
         ext = filename.split(delim).pop();
-    console.log(url, "ext:", ext);
     switch (ext) {
       case "js":
         return injector.preloadJS(url, callback);
@@ -195,6 +211,9 @@
     }
   };
 
+  /*
+   * Preload a JavaScript URL and call the callback when loaded.
+   */
   injector.preloadJS = function(url, callback) {
     var script = document.createElement("script");
     script.type = "text/javascript";
@@ -209,7 +228,15 @@
     return script;
   };
 
-  // see: http://www.backalleycoder.com/2011/03/20/link-tag-css-stylesheet-load-event/
+  /*
+   * Preload a CSS URL and call the callback when finished.
+   *
+   * This uses a hacky technique detailed here:
+   * <http://www.backalleycoder.com/2011/03/20/link-tag-css-stylesheet-load-event/>
+   *
+   * in which we create an Image object and use its "error" handler to register
+   * the callback, since <link> elements don't dispact "load" events.
+   */
   injector.preloadCSS = function(url, callback) {
     var link = document.createElement("link");
     link.type = "text/css";
@@ -228,16 +255,9 @@
     return link;
   };
 
-  injector.coerceElement = function(element) {
-    if (typeof element === "object") {
-      return element;
-    } else if (element.match(/^[a-z]/i)) {
-      return document.getElementById(element);
-    } else {
-      return document.querySelector(element);
-    }
-  };
-
+  /*
+   * Merge multiple object keys into a single object. Null objects are skipped.
+   */
   injector.merge = function(obj, other) {
     forEach([].slice.call(arguments, 1), function(other) {
       if (!other) return;
@@ -248,6 +268,10 @@
     return obj;
   };
 
+  /*
+   * Derive a "base URL" from a URL by chopping off the component after the
+   * last "/".
+   */
   injector.getBaseUrl = function(url) {
     if (!url) return "";
     var parts = url.split("/");
@@ -273,9 +297,11 @@
   // this is where <script> and <link> elements get appended
   var head = document.getElementsByTagName("head")[0];
 
+  // remember the script and base URL for later use
   injector.script = injector.getSelfScript("inject.js");
   injector.baseUrl = injector.getBaseUrl(injector.script.src);
 
+  // kick off the injection
   injector.init();
 
 })(this);
