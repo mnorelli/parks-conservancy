@@ -1,9 +1,9 @@
 # 1287 1424 1431 89 45 1297 216 1338 1446 1295 140 1333 63 1448 1449 263 1433
 tripids=$*
 
+mkdir -p trips svg png
 node process_trips.js $tripids
 node create_index.js
-mkdir -p svg png
 
 for id in $tripids; do
   echo $id
