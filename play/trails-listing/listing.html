@@ -4,25 +4,37 @@
     <meta charset="utf-8">
     <style>
 
+      body {
+        /*font-family: Helvetica;*/
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+        font-size: 14px;
+      }
+
       body,
       svg {
         margin: 0;
         padding: 0;
       }
 
+      div#trails-listing-header {
+        padding-bottom: 25px;
+      }
+
       div.trail-data {
-        background: #000;
+        background: #fff;
         margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
       }
 
       div.trail-metadata {
         display: inline-block;
-        background: #ccc;
+        background: #fff;
         width: 50%;
       }
 
       div.full-trail-data {
-        background: red;
+        background: #fff;
         height: 0;
         display: hidden;
       }
@@ -39,9 +51,13 @@
 
       div.profile-sample {
         display: inline-block;
-        background: pink;
+        background: #fff;
         width: 50%;
         vertical-align: top;
+      }
+
+      div.trail-metadata-header {
+        padding-bottom: 5px;
       }
 
       ul,
@@ -54,6 +70,26 @@
       img.profile-thumb {
         width: 50%;
         height: 50%;
+      }
+
+      div.detail {
+        padding-top: 5px;
+      }
+
+      span.detail-link {
+        color: orange;
+        text-decoration: underline;
+        cursor: pointer;
+        padding-top: 5px;
+      }
+
+      .bullet {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      li.light {
+        color: #ccc;
       }
 
     </style>
@@ -71,20 +107,9 @@
     <div id="trails-listing"></div>
 
     <script src="js/d3.v3.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="js/customTiles.js"></script>
     <script>
-
-
-      // var trips = [
-      //   1287, 1424, 1431, 89, 45, 1297, 216, 
-      //   1338, 1446, 1295, 140, 1333, 63, 1448, 
-      //   1449, 263, 1433
-      // ];
-      // var numTrips = trips.length;
-
-      // trips.forEach(function(tripId) {
-      //   var elevationProfileFile = "trips-elevation/" + tripId + ".json";
-      //   d3.json()
-      // });
 
       // load the metadata for the stored trips
       d3.json("index.json", function(err, index) {
@@ -97,11 +122,9 @@
           .data(index.profiles)
         .enter().append("div")
           .attr("id", function(d) { return "trip-container-" + d.id; })
-          .classed("trail-data", true)
-          .on("click", trailDataClick);
+          .classed("trail-data", true);
 
         // duration, intensity, name, length_miles, id
-
 
         var meta = trailsList.append("div")
           .classed("trail-metadata", true);
@@ -116,21 +139,25 @@
           .classed("trail-metadata-header-duration", true)
           .text(function(d) { return d.duration; });
 
+        // this is pretty ugly
         meta.append("ul")
           .selectAll("li")
             .data(function(d) { 
-              // XXX middle elevation value needs to be preprocessed on the backend
+              // XXX FIX middle elevation value needs to be preprocessed on the backend
               return [
-                [d.length_miles, "miles"], 
+                [d.length_miles.toFixed(2), "miles"],
+                ["&bull;"],
                 ["[image]", 0, "elevation change"], 
-                [d.duration]
+                ["&bull;"],
+                [d.intensity]
               ]; 
             })
           .enter().append("li")
-            .attr("class", function(d, i) { 
-              return (i < 2) ? "light" : "";
+            .attr("class", function(d, i) {
+              if (d[0] === "&bull;") return "bullet light";
+              return (i !== 4) ? "light" : "";
             })
-            .text(function(d) { return d.join(" "); });
+            .html(function(d, i) { return d.join(" "); });
 
         var profileSample = trailsList.append("div")
           .classed("profile-sample", true)
@@ -141,18 +168,25 @@
           // .html(function(d) { 
           //   return "[profile image]";
           // });
+      
+        meta.append("br");
+        meta.append("div")
+          .classed("detail", true)
+            .append("span")
+            .classed("detail-link", true)
+            .text("View Detail + Map")
+            .on("click", trailDataClick);
+
       });
 
-      // var x; // debug
       function trailDataClick(trailData) {
         // what happens when you click the trail listing
 
-        var that = d3.select(this);
-        // x = that;
+        var node = d3.select("#trip-container-" + trailData.id);
 
-        if (that.classed("open")) {
+        if (node.classed("open")) {
           // console.log("registered as open, should close", that.node());
-          closeFullTrail(that);
+          closeFullTrail(node);
           return;
         }
 
@@ -164,9 +198,73 @@
             return;
           }
           console.log("loaded " + trailData.id, fullTrailData);
-          displayFullTrail(fullTrailData, that);
+          displayFullTrail(fullTrailData, node);
         }); 
       }
+
+
+      var showVisuals = function(trip, vizContainer) {
+        
+        var clearOverlay = function(overlay) {
+          if (overlay) 
+            overlay.setMap(null);
+        };
+
+        var width   = 760,
+            height  = 500,
+            padding = 20;
+
+        var svg = vizContainer.append("svg")
+              .attr("width", width)
+              .attr("height", 150)
+              .classed("trip" + trip.metadata.id, true);
+
+        var mapContainer = vizContainer.append("div")
+              .classed("map", true)
+              .style("width", width + "px");
+
+        var elevation = trip.elevation;
+
+
+        // draw the map
+        var mid = elevation[~~(elevation.length/2)].coordinates;  // take a point from the middle of the route as a center
+        var center = new google.maps.LatLng(mid[0], mid[1]);
+        var mapOptions = {
+          scrollwheel: false,
+          zoom: 14,
+          center: center,
+          mapTypeControlOptions: {
+            mapTypeIds: ['ggnra']
+          }
+        };
+        var map = new google.maps.Map(mapContainer.node(), mapOptions);
+        map.mapTypes.set('ggnra', mapType);
+        map.setMapTypeId('ggnra');
+
+        google.maps.event.addListener(map, 'bounds_changed', function() {
+          var bounds = map.getBounds();
+
+          // visibleElevationPoints
+          //   .style("opacity", function(d) {
+          //     return bounds.contains(d.googleLoc) ? 1 : 0.2;
+          //   });
+        });
+
+        var tripBounds = new google.maps.LatLngBounds(),
+            route = [];
+
+        elevation.forEach(function(d) { 
+          var coordinates = d.coordinates,
+              googleLoc   = new google.maps.LatLng(c[0], c[1]);
+          route.push(googleLoc);
+          d.googleLoc = googleLoc;
+          tripBounds.extend(googleLoc);
+          maxDistInFeet = Math.max(maxDistInFeet, milesToFeet(d.distance));
+          maxDist = Math.max(maxDist, d.distance);
+          maxHeight = Math.max(maxHeight, d.height);
+        });
+
+      };
 
       function closeFullTrail(container) {
         var displayContainer = container.select(".full-trail-data");
@@ -189,14 +287,14 @@
         // XXX DO ALL MAPMAKING STUFF HERE
 
         displayContainer.text("i'm open");
+        // showVisuals(fullTrailData, displayContainer);
+
 
         // END ALL MAPMAKING STUFF
 
         displayContainer.transition().duration(200)
           .style("height", "200px");
           // .classed("open", true);
-
-
 
       }
 
