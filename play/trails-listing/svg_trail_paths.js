@@ -69,7 +69,7 @@ module.exports = function(window, options, callback) {
         })
         .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
         .attr("d", function(d, i) {
-          if (i === elevationData.length-1) return "";
+          if (i === elevationData.length-1) return "M0,0";
           return line([d, elevationData[i+1]]);
         });
 
