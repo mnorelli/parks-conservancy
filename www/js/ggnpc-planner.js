@@ -334,7 +334,7 @@
     },
 
     setOrigin: function(origin) {
-      if (origin != this._request.origin) {
+      if (origin != this.getOrigin()) {
         this._request.origin = origin;
         google.maps.event.trigger(this, "origin", origin);
       }
@@ -353,7 +353,7 @@
     },
 
     setDestination: function(dest) {
-      if (dest != this._request.destination) {
+      if (dest != this.getDestination()) {
         this._request.destination = this._resolveDestination(dest);
         google.maps.event.trigger(this, "destination", dest);
 
@@ -374,9 +374,21 @@
     },
 
     setTravelMode: function(mode) {
-      if (mode != this._request.travelMode) {
+      if (mode != this.getTravelMode()) {
         this._request.travelMode = mode.toUpperCase();
         google.maps.event.trigger(this, "travelMode", this._request.travelMode);
+      }
+      return this;
+    },
+
+    getTravelTime: function() {
+      return this._request.time;
+    },
+
+    setTravelTime: function(time) {
+      if (time != this.getTravelTime()) {
+        this._request.time = time;
+        google.maps.event.trigger(this, "travelTime", this._request.time);
       }
       return this;
     },
