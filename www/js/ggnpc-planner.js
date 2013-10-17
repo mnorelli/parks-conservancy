@@ -47,7 +47,9 @@
     }
   };
 
-  TripPlanner.inject = function(callback) {
+  TripPlanner.inject = function(options, callback) {
+    // console.log("TripPlanner.inject(", options, callback, ")");
+
     var planner,
         destinations,
         // XXX make this a global to modify
