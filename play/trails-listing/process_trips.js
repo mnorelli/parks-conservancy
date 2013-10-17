@@ -48,69 +48,74 @@ trips.forEach(function(id) {
   
   console.log("[*] starting", id);
   
-  tnt.getTrip(id, function(err, trip) {
-    if (err) {
-      console.error("error getting tnt trip (process_trips):", err);
-      return;
-    }
-
-    console.log("[*] got trip metadata from TnT for " + id);
-
-    tnt.getTripRoute(id, function(err, route) {
-      if (err) {
-        console.error("error getting tnt trip route (process_trips):", err);
-        return;
-      }
-
-      console.log("[*] got TnT trip coordinates for " + id);
-
-      var route = route.map(function(d) { return d.reverse(); });
-
-      var data = {
-        type: "FeatureCollection",
-        features: [
-          {
-            type: "Feature",
-            geometry: {
-              type: "LineString",
-              coordinates: route
-            },
-            properties: trip
-          }
-        ]
-      };
-      // data.features[0].properties.trip.tnt_id = id;
-      var filename = "trips/" + id + ".geojson";
-      writeFile(data, filename);
-      
-      var latLngCollection = route.map(function(d) { return d.join(","); }).join(",");
-      var mapquestUrl = mapquest.host + mapquest.path;
-
-      request.post({
-        url: mapquestUrl,
-        form: {
-          latLngCollection: latLngCollection
-        }
-      }, function(err, res, body) {
+  var tntFilename = "trips/" + id + ".geojson";
+  fs.exists(tntFilename, function(exists) {
+    if (!exists) {
+      tnt.getTrip(id, function(err, trip) {
         if (err) {
-          console.error("error getting mapquest elevation data (process_trips):", err);
+          console.error("error getting tnt trip (process_trips):", err);
           return;
         }
 
-        console.log("[*] got mapquest elevation data for " + id);
-        
-        var elevation = JSON.parse(body).elevationProfile;
-        elevation = elevation.map(function(d, i) { 
-          d.coordinates = route[i];
-          return d;
-        });
-        var profile = {elevation: elevation, metadata: trip};
-        var filename = "trips/" + id + "-elevation.json";
-        // XXX TODO: THIS NEEDS TO GO IN A DATABASE OR SOMETHING
-        writeFile(profile, filename);
-      });
+        console.log("[*] got trip metadata from TnT for " + id);
 
-      // console.log("%j", data);
-    });
+        tnt.getTripRoute(id, function(err, route) {
+          if (err) {
+            console.error("error getting tnt trip route (process_trips):", err);
+            return;
+          }
+
+          console.log("[*] got TnT trip coordinates for " + id);
+
+          var route = route.map(function(d) { return d.reverse(); });
+
+          var data = {
+            type: "FeatureCollection",
+            features: [
+              {
+                type: "Feature",
+                geometry: {
+                  type: "LineString",
+                  coordinates: route
+                },
+                properties: trip
+              }
+            ]
+          };
+          writeFile(data, tntFilename);
+          
+          var latLngCollection = route.map(function(d) { return d.join(","); }).join(",");
+          var mapquestUrl = mapquest.host + mapquest.path;
+
+          request.post({
+            url: mapquestUrl,
+            form: {
+              latLngCollection: latLngCollection
+            }
+          }, function(err, res, body) {
+            if (err) {
+              console.error("error getting mapquest elevation data (process_trips):", err);
+              return;
+            }
+
+            console.log("[*] got mapquest elevation data for " + id);
+            
+            var elevation = JSON.parse(body).elevationProfile;
+            elevation = elevation.map(function(d, i) { 
+              d.coordinates = route[i];
+              return d;
+            });
+            var profile = {elevation: elevation, metadata: trip};
+            var filename = "trips/" + id + "-elevation.json";
+            // XXX TODO: THIS NEEDS TO GO IN A DATABASE OR SOMETHING
+            writeFile(profile, filename);
+          });
+
+          // console.log("%j", data);
+        });
+      });
+    } else {
+      console.log("[*] data already exists, skipping " + id + "(process_trips)");
+    }
   });
 });
