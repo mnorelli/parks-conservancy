@@ -15,7 +15,10 @@ var http = require("http"),
     options = {
       changeOrigin: true
     },
-    injection = '\n<script src="/map/inject.js"></script>';
+    injection = [
+      '\n<script src="/map/inject.js"></script>',
+      '\n<script src="/map/nav.js"></script>'
+    ].join("");
 
 console.log("+ listening on port:", proxyPort);
 console.log("+ proxying requests from:", proxyTarget.host);
