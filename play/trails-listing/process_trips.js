@@ -2,7 +2,8 @@
 var TransitAndTrails = require("transitandtrails");
 var fs = require("fs"),
     http = require("http"),
-    request = require("request");
+    request = require("request"),
+    d3 = require("d3");
 
 var tnt = new TransitAndTrails({
   key: "267de82bc6c6c1c56ac5c10dfc0f50e42dde75810f4b32c1c0c4db012d3f22d4"
@@ -105,6 +106,11 @@ trips.forEach(function(id) {
               d.coordinates = route[i];
               return d;
             });
+
+            ["height", "distance"].forEach(function(measure) {
+              trip[measure] = d3.extent(elevation.map(function(d) { return d[measure]; }).sort(d3.ascending));
+            });
+
             var profile = {elevation: elevation, metadata: trip};
             var filename = "trips/" + id + "-elevation.json";
             // XXX TODO: THIS NEEDS TO GO IN A DATABASE OR SOMETHING
