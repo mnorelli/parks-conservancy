@@ -1,1 +1,1 @@
-web: node proxy.js --port 80
+web: node proxy.js

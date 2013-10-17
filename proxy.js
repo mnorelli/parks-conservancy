@@ -1,10 +1,7 @@
 var http = require("http"),
     httpProxy = require("http-proxy"),
     connect = require("connect"),
-    argv = require("optimist")
-      .default("port", 8000)
-      .argv,
-    proxyPort = argv.port,
+    proxyPort = process.env.PORT || 8000,
     proxyTarget = {
       host: "www.parksconservancy.org",
       port: 80
