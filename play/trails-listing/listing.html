@@ -92,6 +92,30 @@
         color: #ccc;
       }
 
+      path.elevation {
+        fill: none;
+        /*stroke: #000;*/
+        stroke-width: 2;
+      }
+
+      path.elevation-mouseover {
+        stroke-width: 200;
+        stroke: #000;
+        opacity: 0;
+      }
+
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+
+      .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+      }
+
     </style>
   </head>
   <body>
@@ -212,19 +236,38 @@
 
         var width   = 760,
             height  = 500,
-            padding = 20;
+            padding = 20,
+            svgHeight = 150;
 
         var svg = vizContainer.append("svg")
               .attr("width", width)
-              .attr("height", 150)
+              .attr("height", svgHeight)
               .classed("trip" + trip.metadata.id, true);
 
         var mapContainer = vizContainer.append("div")
               .classed("map", true)
-              .style("width", width + "px");
+              .style("width", width + "px")
+              .style("height", height + "px");
+
+        var metaContainer = vizContainer.append("div")
+              .classed("metadata", true);
+
+        // display some metadata (from TnT, mostly)
+        // could do this cleaner where data is an array of 
+        // objects [{tag: "a", attrs: {"href": "[url]"}, text: "View"}, ...] (maybe??)
+        var metadata = [
+          "<a href=\"http://www.transitandtrails.org/trips/" + trip.metadata.id + "\">View on Transit & Trails</a>",
+          "<b>Duration: </b>" + trip.metadata.duration,
+          "<b>Elevation Change: </b>" + (trip.metadata.height[1] - trip.metadata.height[0]) + "ft",
+          "<b>Length: </b>" + trip.metadata.length_miles.toFixed(2) + " miles",
+          "<b>Intensity: </b>" + trip.metadata.intensity,
+          "<b>Description: </b>" + trip.metadata.description.replace(/[\n\r\t]/g, "").replace(/\<p\>/g, "")
+        ].join("<br>");
+        var metaContainer = vizContainer.append("div").classed("metadata", true);
+        metaContainer.html(metadata);
+
 
         var elevation = trip.elevation;
-
 
         // draw the map
         var mid = elevation[~~(elevation.length/2)].coordinates;  // take a point from the middle of the route as a center
@@ -244,25 +287,208 @@
         google.maps.event.addListener(map, 'bounds_changed', function() {
           var bounds = map.getBounds();
 
-          // visibleElevationPoints
-          //   .style("opacity", function(d) {
-          //     return bounds.contains(d.googleLoc) ? 1 : 0.2;
-          //   });
+          visibleElevationPoints
+            .style("opacity", function(d) {
+              return bounds.contains(d.googleLoc) ? 1 : 0.2;
+            });
         });
 
         var tripBounds = new google.maps.LatLngBounds(),
-            route = [];
+            route = [],
+            overlays = {};
 
         elevation.forEach(function(d) { 
           var coordinates = d.coordinates,
-              googleLoc   = new google.maps.LatLng(c[0], c[1]);
+              googleLoc   = new google.maps.LatLng(coordinates[0], coordinates[1]);
           route.push(googleLoc);
           d.googleLoc = googleLoc;
           tripBounds.extend(googleLoc);
-          maxDistInFeet = Math.max(maxDistInFeet, milesToFeet(d.distance));
-          maxDist = Math.max(maxDist, d.distance);
-          maxHeight = Math.max(maxHeight, d.height);
         });
+
+        map.fitBounds(tripBounds);
+
+        var h = trip.metadata.height,
+            heightDiff = h[1] - h[0];
+
+        var heightAnchors = d3.range(3).map(function(n) { 
+          return ((n+1) * (heightDiff/3)) + h[0];
+        });
+        heightAnchors = [h[0]].concat(heightAnchors);
+
+        var color = d3.scale.linear()
+              .domain(heightAnchors)
+              .range(["#5b9240", "#3e6a32", "#bb5a4c", "#982e20"]);
+
+        var backgroundPath = new google.maps.Polyline({
+          path: route,
+          strokeColor: "black",
+          strokeOpacity: 1,
+          strokeWeight: 10
+        });
+
+        backgroundPath.setMap(map);
+
+        var x = d3.scale.linear().domain(trip.metadata.distance).range([padding, width - padding * 2]);
+        var y = d3.scale.linear().domain(trip.metadata.height).range([100, padding]);
+
+        route.forEach(function(point, i) {
+          if (i === route.length-1) return;
+          var p1 = i, 
+              p2 = i+1,
+              e1 = elevation[p1].height,
+              e2 = elevation[p2].height;
+
+          var segment = [route[p1], route[p2]];
+              maxSegmentHeight = Math.max(e1, e2);
+
+          var routePath = new google.maps.Polyline({
+            path: segment,
+            strokeColor: color(maxSegmentHeight),
+            strokeOpacity: 1,
+            strokeWeight: 5,
+            zIndex: 9999
+          });
+
+          routePath.setMap(map);
+
+          // when you mouseover the "route"/segment on the map, the same segment is highlighted on the
+          // elevation profile
+          google.maps.event.addListener(routePath, "mouseover", function() {
+
+            overlays.map2graph = svg.append("circle")
+              .datum(elevation[i])
+                .attr("cx", function(d) { return x(d.distance); })
+                .attr("cy", function(d) { return y(d.height); })
+                .attr("r", 5)
+                .attr("transform", "translate(" + padding + ",0)")
+                .style("fill", "red")
+                .style("opacity", 0.8);
+
+          });
+
+          google.maps.event.addListener(routePath, "mouseout", function() {
+            overlays.map2graph.remove();
+            overlays.map2graph = null;
+          });
+        });
+
+
+        // svg elevation profile
+
+        var line = d3.svg.line()
+              .x(function(d) { return ~~x(d.distance) })
+              .y(function(d) { return ~~y(d.height); });
+
+        var fatLine = d3.svg.line()
+              .x(function(d) { return x(d.distance); })
+              .y(function(d) { return 0; });
+
+        // move the container over so it's "centered"
+        var g = svg.append("g")
+          .attr("transform", "translate(" + padding + ",0)");
+
+        var elevationData = elevation.slice(1);
+
+        // the invisible profile with a huge width (since it's hard to mouseover a tiny line)
+        var elevationPoints = g.selectAll("path")
+            .data(elevationData)
+          .enter().append("path")
+            .attr("class", function(d, i) { 
+              return "elevation-mouseover route-segment-mouseover" + (i+1); 
+            })
+            .attr("d", function(d, i) {
+              if (i === elevationData.length-1) return "M0,0";
+              return fatLine([d, elevationData[i+1]]);
+            });
+
+        // when you mouseover the elevation profile segments, it highlights the same 
+        // segment on the map
+        var timeout,
+            hovering = false;
+
+        elevationPoints.on("mouseover", function(e, i) {
+          if (hovering) {
+            if (timeout) clearTimeout(timeout);
+            overlays.graph2map.setCenter(e.googleLoc);
+          } else {
+            var markerStyle = {
+              strokeColor: '#FF0000',
+              strokeOpacity: 0.8,
+              strokeWeight: 2,
+              fillColor: '#FF0000',
+              fillOpacity: 0.35,
+              map: map,
+              center: e.googleLoc,
+              radius: 50,
+              zIndex: 99999999999
+            };
+            var marker = new google.maps.Circle(markerStyle);
+            overlays.graph2map = marker;
+          }
+          hovering = true;
+
+          overlays.map2graph = svg.append("circle")
+            .datum(e)
+              .attr("cx", function(d) { return x(d.distance); })
+              .attr("cy", function(d) { return y(d.height); })
+              .attr("r", 5)
+              .attr("transform", "translate(" + padding + ",0)")
+              .style("fill", "red")
+              .style("opacity", 0.8);
+        });
+
+        elevationPoints.on("mouseout", function(e) {
+          timeout = setTimeout(function() {
+            hovering = false;
+            clearOverlay(overlays.graph2map);
+          }, 300);
+          overlays.map2graph.remove();
+          overlays.map2graph = null;
+        });
+
+        elevationPoints.on("click", function(e) {
+          map.setCenter(e.googleLoc);
+        });
+
+        // the visible elevation profile
+        var visibleElevationPoints = g.selectAll("path.elevation")
+            .data(elevationData)
+          .enter().append("path")
+            .style("stroke", function(d) {
+              return color(d.height); 
+            })
+            .attr("class", function(d, i) { 
+              return "elevation route-segment" + (i+1); 
+            })
+            .attr("d", function(d, i) {
+              if (i === elevationData.length-1) return "M0,0";
+              return line([d, elevationData[i+1]]); 
+            });
+
+        // axes for the elevation profile
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom")
+            .ticks(5);  //Set rough # of ticks
+
+        g.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(0, 100)")
+            .call(xAxis);
+
+        // Define Y axis
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left")
+            .ticks(5);
+
+        //Create Y axis
+        g.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(" + padding + ",0)")
+            .call(yAxis);
+        // });
+
 
       };
 
@@ -286,14 +512,15 @@
 
         // XXX DO ALL MAPMAKING STUFF HERE
 
-        displayContainer.text("i'm open");
-        // showVisuals(fullTrailData, displayContainer);
+        // displayContainer.text("i'm open");
+        console.log("fulltraildata:", fullTrailData);
+        showVisuals(fullTrailData, displayContainer);
 
 
         // END ALL MAPMAKING STUFF
 
-        displayContainer.transition().duration(200)
-          .style("height", "200px");
+        displayContainer.transition().duration(300)
+          .style("height", 500 + 150 + "px"); // map height plus full profile height
           // .classed("open", true);
 
       }
