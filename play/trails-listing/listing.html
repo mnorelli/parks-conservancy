@@ -270,12 +270,8 @@
         var elevation = trip.elevation;
 
         // draw the map
-        var mid = elevation[~~(elevation.length/2)].coordinates;  // take a point from the middle of the route as a center
-        var center = new google.maps.LatLng(mid[0], mid[1]);
         var mapOptions = {
           scrollwheel: false,
-          zoom: 14,
-          center: center,
           mapTypeControlOptions: {
             mapTypeIds: ['ggnra']
           }
@@ -294,24 +290,23 @@
         });
 
         var tripBounds = new google.maps.LatLngBounds(),
-            route = [],
-            overlays = {};
+            route      = [],
+            overlays   = {};
 
         elevation.forEach(function(d) { 
-          var coordinates = d.coordinates,
-              googleLoc   = new google.maps.LatLng(coordinates[0], coordinates[1]);
-          route.push(googleLoc);
+          var googleLoc = new google.maps.LatLng(d.coordinates[0], d.coordinates[1]);
           d.googleLoc = googleLoc;
           tripBounds.extend(googleLoc);
+          route.push(googleLoc);
         });
 
         map.fitBounds(tripBounds);
 
         var h = trip.metadata.height,
-            heightDiff = h[1] - h[0];
+            diff = h[1] - h[0];
 
         var heightAnchors = d3.range(3).map(function(n) { 
-          return ((n+1) * (heightDiff/3)) + h[0];
+          return ((n+1) * (diff/3)) + h[0];
         });
         heightAnchors = [h[0]].concat(heightAnchors);
 
@@ -322,7 +317,6 @@
         var backgroundPath = new google.maps.Polyline({
           path: route,
           strokeColor: "black",
-          strokeOpacity: 1,
           strokeWeight: 10
         });
 
@@ -338,22 +332,21 @@
               e1 = elevation[p1].height,
               e2 = elevation[p2].height;
 
-          var segment = [route[p1], route[p2]];
+          var segmentPath = [route[p1], route[p2]];
               maxSegmentHeight = Math.max(e1, e2);
 
-          var routePath = new google.maps.Polyline({
-            path: segment,
+          var segment = new google.maps.Polyline({
+            path: segmentPath,
             strokeColor: color(maxSegmentHeight),
-            strokeOpacity: 1,
             strokeWeight: 5,
             zIndex: 9999
           });
 
-          routePath.setMap(map);
+          segment.setMap(map);
 
           // when you mouseover the "route"/segment on the map, the same segment is highlighted on the
           // elevation profile
-          google.maps.event.addListener(routePath, "mouseover", function() {
+          google.maps.event.addListener(segment, "mouseover", function() {
 
             overlays.map2graph = svg.append("circle")
               .datum(elevation[i])
@@ -366,7 +359,7 @@
 
           });
 
-          google.maps.event.addListener(routePath, "mouseout", function() {
+          google.maps.event.addListener(segment, "mouseout", function() {
             overlays.map2graph.remove();
             overlays.map2graph = null;
           });
@@ -379,7 +372,7 @@
               .x(function(d) { return ~~x(d.distance) })
               .y(function(d) { return ~~y(d.height); });
 
-        var fatLine = d3.svg.line()
+        var mouseoverLine = d3.svg.line()
               .x(function(d) { return x(d.distance); })
               .y(function(d) { return 0; });
 
@@ -387,18 +380,17 @@
         var g = svg.append("g")
           .attr("transform", "translate(" + padding + ",0)");
 
-        var elevationData = elevation.slice(1);
 
         // the invisible profile with a huge width (since it's hard to mouseover a tiny line)
-        var elevationPoints = g.selectAll("path")
-            .data(elevationData)
+        var profileMouseTarget = g.selectAll("path")
+            .data(elevation)
           .enter().append("path")
             .attr("class", function(d, i) { 
               return "elevation-mouseover route-segment-mouseover" + (i+1); 
             })
             .attr("d", function(d, i) {
-              if (i === elevationData.length-1) return "M0,0";
-              return fatLine([d, elevationData[i+1]]);
+              if (i === elevation.length-1) return "M0,0";
+              return mouseoverLine([d, elevation[i+1]]);
             });
 
         // when you mouseover the elevation profile segments, it highlights the same 
@@ -406,7 +398,7 @@
         var timeout,
             hovering = false;
 
-        elevationPoints.on("mouseover", function(e, i) {
+        profileMouseTarget.on("mouseover", function(e, i) {
           if (hovering) {
             if (timeout) clearTimeout(timeout);
             overlays.graph2map.setCenter(e.googleLoc);
@@ -437,7 +429,7 @@
               .style("opacity", 0.8);
         });
 
-        elevationPoints.on("mouseout", function(e) {
+        profileMouseTarget.on("mouseout", function(e) {
           timeout = setTimeout(function() {
             hovering = false;
             clearOverlay(overlays.graph2map);
@@ -446,13 +438,13 @@
           overlays.map2graph = null;
         });
 
-        elevationPoints.on("click", function(e) {
+        profileMouseTarget.on("click", function(e) {
           map.setCenter(e.googleLoc);
         });
 
         // the visible elevation profile
         var visibleElevationPoints = g.selectAll("path.elevation")
-            .data(elevationData)
+            .data(elevation)
           .enter().append("path")
             .style("stroke", function(d) {
               return color(d.height); 
@@ -461,8 +453,8 @@
               return "elevation route-segment" + (i+1); 
             })
             .attr("d", function(d, i) {
-              if (i === elevationData.length-1) return "M0,0";
-              return line([d, elevationData[i+1]]); 
+              if (i === elevation.length-1) return "M0,0";
+              return line([d, elevation[i+1]]); 
             });
 
         // axes for the elevation profile
@@ -487,8 +479,6 @@
             .attr("class", "axis")
             .attr("transform", "translate(" + padding + ",0)")
             .call(yAxis);
-        // });
-
 
       };
 
@@ -510,14 +500,7 @@
         var displayContainer = container.append("div")
           .classed("full-trail-data", true);
 
-        // XXX DO ALL MAPMAKING STUFF HERE
-
-        // displayContainer.text("i'm open");
-        console.log("fulltraildata:", fullTrailData);
         showVisuals(fullTrailData, displayContainer);
-
-
-        // END ALL MAPMAKING STUFF
 
         displayContainer.transition().duration(300)
           .style("height", 500 + 150 + "px"); // map height plus full profile height
