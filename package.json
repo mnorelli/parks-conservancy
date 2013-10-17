@@ -12,6 +12,7 @@
   "license": "BSD",
   "dependencies": {
     "connect": "~2.9.1",
-    "http-proxy": "~0.10.3"
+    "http-proxy": "~0.10.3",
+    "optimist": "~0.6.0"
   }
 }
