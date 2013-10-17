@@ -405,11 +405,16 @@
 
       console.log("route(", request, ")");
 
-      var that = this;
+      var that = this,
+          root = d3.select(this.root)
+            .classed("routed", false)
+            .classed("routing", true);
 
-      this._form.classed("routing", true);
       this.directions.route(request, function(response, stat) {
-        that._form.classed("routing", false);
+        root
+          .classed("routed", true)
+          .classed("routing", false);
+
         if (stat === google.maps.DirectionsStatus.OK) {
           that._updateRoute(response);
           if (callback) callback(null, response);
