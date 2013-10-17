@@ -64,8 +64,7 @@ module.exports = function(window, options, callback) {
       .enter().append("path")
         // .style("stroke", "#000")
         .style("stroke", function(d) { 
-          var roundedHeight = Math.round(d.height / 100) * 100;
-          return color(roundedHeight);
+          return color(d.height);
         })
         .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
         .attr("d", function(d, i) {
