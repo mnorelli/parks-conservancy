@@ -10,9 +10,11 @@
     defaultParams: {
     },
     reqs: [
-      // FIXME: make preloading google maps work!
       {
-        url: "http://maps.googleapis.com/maps/api/js?client=gme-goldengatenational&sensor=false&v=3.13&libraries=geometry&async=2&callback=GGNPC.injector.mapsCallback",
+        // XXX we can't use the client ID here because the Business account
+        // doesn't allow access on our Heroku domains...
+        // url: "http://maps.googleapis.com/maps/api/js?client=gme-goldengatenational&sensor=false&v=3.13&libraries=geometry&async=2&callback=GGNPC.injector.mapsCallback",
+        url: "http://maps.googleapis.com/maps/api/js?sensor=false&v=3.13&libraries=geometry&async=2&callback=GGNPC.injector.mapsCallback",
         wait: function(callback) {
           GGNPC.injector.mapsCallback = callback;
         }
