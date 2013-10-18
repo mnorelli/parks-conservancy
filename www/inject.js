@@ -33,13 +33,13 @@
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
         ],
-        pattern: new RegExp("/planner(/|.html)$"),
+        path: "/planner(/|.html)?$",
         run: function(options) {
           GGNPC.planner.TripPlanner.inject(options);
         }
       },
       {
-        pattern: new RegExp("/locations/(\w+).html$"),
+        path: "/locations/(\w+).html$",
         run: function(options) {
           // mini-map?
         }
@@ -141,7 +141,10 @@
     var routes = injector.routes;
     for (var i = 0; i < routes.length; i++) {
       var route = routes[i],
-          match = hostUri.match(route.pattern);
+          pattern = (route.path instanceof RegExp)
+            ? route.path
+            : new RegExp(route.path),
+          match = hostUri.match(pattern);
       if (match) {
         route.match = match;
         return route;
