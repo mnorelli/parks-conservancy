@@ -4,7 +4,7 @@
   var ggnpc = exports.GGNPC || (exports.GGNPC = {});
 
   var injector = ggnpc.injector = {
-    version: "0.0.1",
+    version: "0.1.0",
     script: null,
     baseUrl: null,
     defaultParams: {
