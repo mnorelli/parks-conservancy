@@ -1,5 +1,15 @@
 {
-  "/background/": "http://ggnpc-map-background.herokuapp.com",
-  "/features/": "http://ggnpc-map-features.herokuapp.com",
-  "/labels/": "http://ggnpc-map-labels.herokuapp.com"
+  "/background/": {
+    "origin": "http://ggnpc-map-background.herokuapp.com"
+  },
+  "/features/": {
+    "origin": "http://ggnpc-map-features.herokuapp.com"
+  },
+  "/labels/": {
+    "origin": "http://ggnpc-map-labels.herokuapp.com"
+  },
+  "/": {
+    "origin": "http://ggnpc-sandwich-maker.herokuapp.com/((terrain-grey-hills,$fff[@60],$fff[hsl-saturation])[@35],ggnpc-background[multiply]),ggnpc-features,ggnpc-labels",
+    "pathPrefix": "hillshade-background-features-labels"
+  }
 }
