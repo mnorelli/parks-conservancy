@@ -115,10 +115,12 @@
   ui.datePicker = function() {
     var dispatch = d3.dispatch("day", "month"),
         changeMonths = true,
+        selectToday = true,
+        todayFormat = d3.time.format("Today: %b. %e, %Y"),
         month = new Date(),
         selected = null,
         calendar = ui.calendar(),
-        monthFormat = d3.time.format("%b %Y");
+        monthFormat = d3.time.format("%b. %Y");
     
     function picker(selection) {
       selection
@@ -140,11 +142,12 @@
               .attr("class", function(d) {
                 return [
                   "offset",
-                  d.off > 1 ? "next" : "prev"
+                  d.off < 0 ? "prev" : "next"
                 ].join(" ");
               })
               .html(function(d) { return d.html; })
               .on("click", function(d) {
+                d3.event.preventDefault();
                 var offset = d3.time.month.offset(month, d.off);
                 dispatch.month(offset);
               });
@@ -155,6 +158,22 @@
 
       selection.select("caption .month")
         .text(monthFormat(month));
+
+      var tfoot = selection.select("tfoot tr td");
+      if (selectToday) {
+        if (tfoot.empty()) {
+          tfoot = selection.append("tfoot")
+            .append("tr")
+              .append("td")
+                .attr("colspan", 7);
+
+          tfoot.append("button")
+            .attr("class", "today")
+            .datum(d3.time.day.floor(new Date()))
+            .text(todayFormat)
+            .on("click", dispatch.day);
+        }
+      }
 
       var monthStart = d3.time.month.floor(month),
           monthEnd = d3.time.month.ceil(month);
