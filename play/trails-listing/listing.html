@@ -324,6 +324,7 @@
 
         var x = d3.scale.linear().domain(trip.metadata.distance).range([padding, width - padding * 2]);
         var y = d3.scale.linear().domain(trip.metadata.height).range([100, padding]);
+        var r = d3.scale.sqrt().domain(trip.metadata.height).range([3, 9]);
 
         route.forEach(function(point, i) {
           if (i === route.length-1) return;
@@ -352,9 +353,9 @@
               .datum(elevation[i])
                 .attr("cx", function(d) { return x(d.distance); })
                 .attr("cy", function(d) { return y(d.height); })
-                .attr("r", 5)
+                .attr("r", function(d) { return r(d.height); })
                 .attr("transform", "translate(" + padding + ",0)")
-                .style("fill", "red")
+                .style("fill", function(d) { return color(d.height); })
                 .style("opacity", 0.8);
 
           });
@@ -399,21 +400,24 @@
             hovering = false;
 
         profileMouseTarget.on("mouseover", function(e, i) {
+          var markerStyle = {
+            strokeColor: '#000',
+            strokeOpacity: 1,
+            strokeWeight: 1,
+            fillColor: color(e.height),
+            fillOpacity: 1,
+            map: map,
+            center: e.googleLoc,
+            radius: 40, // XXX FIX: this needs to scale based on zoom level and e.height
+            zIndex: 99999999999
+          };
+
           if (hovering) {
             if (timeout) clearTimeout(timeout);
             overlays.graph2map.setCenter(e.googleLoc);
+            markerStyle.fillColor = color(e.height);
+            overlays.graph2map.setOptions(markerStyle);
           } else {
-            var markerStyle = {
-              strokeColor: '#FF0000',
-              strokeOpacity: 0.8,
-              strokeWeight: 2,
-              fillColor: '#FF0000',
-              fillOpacity: 0.35,
-              map: map,
-              center: e.googleLoc,
-              radius: 50,
-              zIndex: 99999999999
-            };
             var marker = new google.maps.Circle(markerStyle);
             overlays.graph2map = marker;
           }
@@ -423,9 +427,9 @@
             .datum(e)
               .attr("cx", function(d) { return x(d.distance); })
               .attr("cy", function(d) { return y(d.height); })
-              .attr("r", 5)
+              .attr("r", function(d) { return r(d.height); })
               .attr("transform", "translate(" + padding + ",0)")
-              .style("fill", "red")
+              .style("fill", function(d) { return color(d.height); })
               .style("opacity", 0.8);
         });
 
