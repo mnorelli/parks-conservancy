@@ -163,15 +163,16 @@
           .classed("trail-metadata-header-duration", true)
           .text(function(d) { return d.duration; });
 
+        console.log(index);
+
         // this is pretty ugly
         meta.append("ul")
           .selectAll("li")
             .data(function(d) { 
-              // XXX FIX middle elevation value needs to be preprocessed on the backend
               return [
                 [d.length_miles.toFixed(2), "miles"],
                 ["&bull;"],
-                ["[image]", 0, "elevation change"], 
+                ["[image]", 0, "ft elevation change"], 
                 ["&bull;"],
                 [d.intensity]
               ]; 
