@@ -925,7 +925,13 @@
     locationTypes: ["Access", "Trailhead", "Visitor Center"],
     groupByPark: true,
     nearbyThreshold: 1, // miles
-    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"] 
+    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
+    nearbyTypeCounts: {
+      "Restroom": 1,
+      "Cafe": 1,
+      "Visitor Center": 1,
+      "Trailhead": 2
+    }
   };
   
   DestinationLoader.prototype = {
@@ -970,26 +976,57 @@
               d.latlng = utils.coerceLatLng(d.location);
             });
 
+            var collateNearbyLocatons = function(nearby, debug) {
+              if (nearby.length === 0) return nearby;
+
+              if (debug) console.log(nearby.length, "nearby locations");
+
+              var byType = d3.nest()
+                .key(function(d) { return d.parklocationtype; })
+                .sortValues(function(a, b) {
+                  return d3.ascending(a._dist, b._dist);
+                })
+                .map(nearby);
+
+              if (options.nearbyTypeCounts) {
+                for (var type in options.nearbyTypeCounts) {
+                  var len = options.nearbyTypeCounts[type];
+                  if (type in byType) {
+                    byType[type] = byType[type].slice(0, len);
+                  }
+                }
+              }
+
+              if (debug) console.log("nearby by type:", byType);
+
+              var collated = [];
+              d3.values(byType).forEach(function(typeList) {
+                collated = collated.concat(typeList);
+              });
+
+              if (debug) console.log("collated:", collated.map(function(d) { return d.parklocationtype; }));
+
+              collated.sort(function(a, b) {
+                return d3.ascending(a._dist, b._dist);
+              });
+
+              if (nearbyLimit) {
+                collated = collated.slice(0, nearbyLimit);
+              }
+
+              return collated;
+            };
+
             // assign a nearby[] array to each location based on distance from
             // it to the other locations
             locations.forEach(function(d) {
-              var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location));
-              d.nearby = nearbyCandidates
-                .filter(function(b) {
-                  return b != d &&
-                    (b._dist = utils.distanceInMiles(a, b.latlng)) <= nearbyThreshold;
-                })
-                .sort(function(a, b) {
-                  return d3.ascending(a._dist, b._dist);
-                });
-              if (nearbyLimit > 0) {
-                d.nearby = d.nearby.slice(0, nearbyLimit);
-              }
-              /*
-              if (d.nearby.length) {
-                console.log(d.title, "has", d.nearby.length, "nearby locations");
-              }
-              */
+              var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location)),
+                  nearby = nearbyCandidates
+                    .filter(function(b) {
+                      return b != d &&
+                        (b._dist = utils.distanceInMiles(a, b.latlng)) <= nearbyThreshold;
+                    });
+              d.nearby = collateNearbyLocatons(nearby, false);
             });
           }
 
