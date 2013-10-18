@@ -38,7 +38,7 @@
       hook.append("li")
         .attr("class", "stamen planner")
         .append("a")
-          .attr("href", "/map/planner/")
+          .attr("href", "/mapping/trip-planner.html")
           .text("Plan a Trip");
 
       hook.selectAll(".stamen a")
