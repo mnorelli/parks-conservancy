@@ -97,3 +97,54 @@
   text-align: right;
   width: 20%;
 }
+
+.date-picker {
+  position: relative;
+}
+
+.date-picker table.calendar {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1000;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 12em;
+  margin: 5px 0 0 -6em;
+}
+
+  .date-picker table.calendar td,
+  .date-picker table.calendar th {
+    padding: 2px 4px;
+  }
+
+  .date-picker table.calendar td.day {
+    color: #666;
+  }
+
+  .date-picker table.calendar td.day.valid {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .date-picker table.calendar caption {
+    position: relative;
+    background: #eee;
+  }
+
+  .date-picker table.calendar caption a.month-offset {
+    position: absolute;
+    top: -1px;
+    padding: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .date-picker table.calendar caption a.month-offset.prev {
+    left: 0;
+    font-size: 95%;
+  }
+
+  .date-picker table.calendar caption a.month-offset.next {
+    right: 0;
+  }

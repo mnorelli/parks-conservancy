@@ -28,9 +28,10 @@
         name: "trip-planner",
         prereqs: [
           "js/vendor/d3.v3.min.js",
+          "planner/css/style.css",
           "js/ggnpc-utils.js",
           "js/ggnpc-planner.js",
-          "planner/css/style.css"
+          "js/ggnpc-ui.js"
         ],
         pattern: new RegExp("/planner(/|.html)$"),
         run: function(options) {

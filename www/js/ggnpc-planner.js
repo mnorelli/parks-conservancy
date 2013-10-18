@@ -292,6 +292,72 @@
                 : null;
             });
 
+      var selectedDate = new Date(),
+          datePicker = destInputs.append("span")
+            .attr("class", "date-picker"),
+          dateButton = datePicker.append("button")
+            .text("now")
+            .on("click", function() {
+              d3.event.preventDefault();
+              dateTable.style("display", dateTable.style("display") === "none"
+                ? null
+                : "none");
+            }),
+          calendar = ggnpc.ui.calendar(),
+          dateTable = datePicker.append("table")
+            .attr("class", "calendar")
+            .call(updateCalendar)
+            .style("display", "none"),
+          dateCaption = dateTable.insert("caption", "thead"),
+          monthText = dateCaption.append("span")
+            .attr("class", "month"),
+          monthLinks = dateCaption.selectAll("a")
+            .data([
+              {offset: -1, html: "&#9664;"},
+              {offset: +1, html: "&#9654;"},
+            ])
+            .enter()
+            .append("a")
+              .attr("class", function(d, i) {
+                return ["month-offset", d.offset > 0 ? "next" : "prev"].join(" ");
+              })
+              .html(function(d) { return d.html; })
+              .on("click", function(d) {
+                var now = calendar.date()(),
+                    date = d3.time.month.offset(now, d.offset);
+                calendar.date(date);
+                dateTable.call(updateCalendar);
+              });
+
+      function updateCalendar(selection) {
+        var now = new Date();
+        selection
+          .call(calendar)
+          .selectAll("td.day")
+            .classed("selected", function(d2) {
+              return d2 === selectedDate;
+            })
+            .classed("valid", function(d) {
+              return d >= now;
+            }) 
+            .on("click", setDate);
+
+        var month = calendar.date()();
+        selection.select("caption .month")
+          .text(d3.time.format("%b %Y")(month));
+      }
+
+      function setDate(d) {
+        calendar.date(selectedDate = d);
+        dateButton
+          .text(d3.time.format("%b. %e")(d));
+        dateTable
+          .call(updateCalendar)
+          .style("display", "none");
+      }
+
+      setDate(new Date());
+
       destInputs.append("input")
         .attr("class", "submit")
         .attr({
@@ -334,7 +400,7 @@
     },
 
     setOrigin: function(origin) {
-      if (origin != this.getOrigin()) {
+      if (origin != this._request.origin) {
         this._request.origin = origin;
         google.maps.event.trigger(this, "origin", origin);
       }
@@ -353,7 +419,7 @@
     },
 
     setDestination: function(dest) {
-      if (dest != this.getDestination()) {
+      if (dest != this._request.destination) {
         this._request.destination = this._resolveDestination(dest);
         google.maps.event.trigger(this, "destination", dest);
 
@@ -374,21 +440,9 @@
     },
 
     setTravelMode: function(mode) {
-      if (mode != this.getTravelMode()) {
+      if (mode != this._request.travelMode) {
         this._request.travelMode = mode.toUpperCase();
         google.maps.event.trigger(this, "travelMode", this._request.travelMode);
-      }
-      return this;
-    },
-
-    getTravelTime: function() {
-      return this._request.time;
-    },
-
-    setTravelTime: function(time) {
-      if (time != this.getTravelTime()) {
-        this._request.time = time;
-        google.maps.event.trigger(this, "travelTime", this._request.time);
       }
       return this;
     },
