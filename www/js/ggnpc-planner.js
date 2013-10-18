@@ -292,71 +292,9 @@
                 : null;
             });
 
-      var selectedDate = new Date(),
-          datePicker = destInputs.append("span")
-            .attr("class", "date-picker"),
-          dateButton = datePicker.append("button")
-            .text("now")
-            .on("click", function() {
-              d3.event.preventDefault();
-              dateTable.style("display", dateTable.style("display") === "none"
-                ? null
-                : "none");
-            }),
-          calendar = ggnpc.ui.calendar(),
-          dateTable = datePicker.append("table")
-            .attr("class", "calendar")
-            .call(updateCalendar)
-            .style("display", "none"),
-          dateCaption = dateTable.insert("caption", "thead"),
-          monthText = dateCaption.append("span")
-            .attr("class", "month"),
-          monthLinks = dateCaption.selectAll("a")
-            .data([
-              {offset: -1, html: "&#9664;"},
-              {offset: +1, html: "&#9654;"},
-            ])
-            .enter()
-            .append("a")
-              .attr("class", function(d, i) {
-                return ["month-offset", d.offset > 0 ? "next" : "prev"].join(" ");
-              })
-              .html(function(d) { return d.html; })
-              .on("click", function(d) {
-                var now = calendar.date()(),
-                    date = d3.time.month.offset(now, d.offset);
-                calendar.date(date);
-                dateTable.call(updateCalendar);
-              });
-
-      function updateCalendar(selection) {
-        var now = new Date();
-        selection
-          .call(calendar)
-          .selectAll("td.day")
-            .classed("selected", function(d2) {
-              return d2 === selectedDate;
-            })
-            .classed("valid", function(d) {
-              return d >= now;
-            }) 
-            .on("click", setDate);
-
-        var month = calendar.date()();
-        selection.select("caption .month")
-          .text(d3.time.format("%b %Y")(month));
-      }
-
-      function setDate(d) {
-        calendar.date(selectedDate = d);
-        dateButton
-          .text(d3.time.format("%b. %e")(d));
-        dateTable
-          .call(updateCalendar)
-          .style("display", "none");
-      }
-
-      setDate(new Date());
+      destInputs.append("span")
+        .attr("class", "date-picker")
+        .call(this._setupDatePicker, this);
 
       destInputs.append("input")
         .attr("class", "submit")
@@ -393,6 +331,112 @@
         d3.event.preventDefault();
         that.route();
       });
+    },
+
+    _setupDatePicker: function(selection, that) {
+
+      var datePicker = ggnpc.ui.datePicker()
+            .on("month", function(month) {
+              // console.log("show month:", month);
+              table.call(datePicker.month(month));
+            })
+            .on("day", function(day) {
+              table.call(toggle);
+              setDay(day);
+            }),
+          dateButton = selection.append("button")
+            .text("today")
+            .on("click", function() {
+              d3.event.preventDefault();
+              table.call(toggle);
+            }),
+          table = selection.append("table")
+            .attr("class", "calendar")
+            .style("display", "none")
+            .call(datePicker),
+          hourSelect = selection.append("select")
+            .attr("class", "hour")
+            .attr("name", "hour")
+            .on("change", function() {
+              setTime(+this.options[this.selectedIndex].value, null);
+            }),
+          minuteSelect = selection.append("select")
+            .attr("class", "minute")
+            .attr("name", "minute")
+            .on("change", function() {
+              setTime(null, +this.options[this.selectedIndex].value);
+            });
+
+      var now = this._travelTime || new Date(),
+          currentHour = now.getHours(),
+          minuteStep = 15,
+          currentMinute = quantize(now.getMinutes(), minuteStep),
+          minuteFormat = d3.format("02");
+      hourSelect.selectAll("option")
+        .data(d3.range(0, 24))
+        .enter()
+        .append("option")
+          .attr("value", function(h) { return h; })
+          .text(function(h) {
+            var a = h >= 12 ? "pm" : "am";
+            return h > 12
+              ? (h - 12) + a
+              : h + a;
+          })
+          .attr("selected", function(h) {
+            return h === now.getHours()
+              ? "selected"
+              : null;
+          });
+
+      minuteSelect.selectAll("option")
+        .data(d3.range(0, 60, minuteStep))
+        .enter()
+        .append("option")
+          .attr("value", function(m) { return m; })
+          .text(function(m) {
+            return ":" + minuteFormat(m);
+          })
+          .attr("selected", function(m) {
+            return m === currentMinute
+              ? "selected"
+              : null;
+          });
+
+      function setTime(hour, minute) {
+        var d = that.getTravelTime() || new Date();
+        if (!isNaN(hour)) d.setHours(hour);
+        if (!isNaN(minute)) d.setMinutes(minute);
+        that.setTravelTime(d);
+      }
+
+      function setDay(day) {
+        var now = that.getTravelTime() || new Date(),
+            then = new Date(day.getTime());
+        if (now) {
+          // console.log("setting day on now:", now);
+          then.setHours(now.getHours());
+          then.setMinutes(now.getMinutes());
+          // console.log("set:", then);
+        }
+
+        dateButton
+          .text(d3.time.format("%b. %e")(then));
+        that.setTravelTime(then);
+
+        table.selectAll("td.day")
+          .classed("selected", function(d) {
+            return d === day;
+          });
+      }
+
+      function toggle(selection) {
+        selection.style("display", function() {
+          return (this.style.display === "none")
+            ? null
+            : "none";
+        });
+      }
     },
 
     getOrigin: function() {
@@ -447,6 +491,18 @@
       return this;
     },
 
+    getTravelTime: function() {
+      return this._travelTime;
+    },
+
+    setTravelTime: function(time) {
+      if (time != this._travelTime) {
+        this._travelTime = this._coerceDate(time);
+        google.maps.event.trigger(this, "travelTime", this._travelTime);
+      }
+      return this;
+    },
+
     route: function(callback) {
       this._clearRoute();
 
@@ -455,6 +511,12 @@
         request.destination = this._getObjectLocation(request.destination);
       } else {
         request.destination = this._parseLocation(request.destination);
+      }
+
+      if (!isNaN(this._travelTime)) {
+        request.transitOptions = {
+          departureTime: this._travelTime
+        };
       }
 
       var error;
@@ -489,6 +551,19 @@
           if (callback) callback(response, null);
         }
       });
+    },
+
+    _coerceDate: function(time) {
+      if (typeof time === "string") {
+        var formats = ["%Y-%m-%d", "%Y-%m-%d %H:%M"].map(d3.time.format);
+        for (var i = 0; i < formats.length; i++) {
+          var parsed = formats[i].parse(time);
+          if (parsed instanceof Date) return parsed;
+        }
+      }
+      return (time instanceof Date)
+        ? time
+        : null;
     },
 
     _resolveDestination: function(dest) {
@@ -618,10 +693,6 @@
               word = one ? "mile" : "miles";
           return [num, word].join(" ");
         });
-
-      function quantize(n, f) {
-        return f * Math.round(n / f);
-      }
 
     },
 
@@ -855,5 +926,9 @@
       return d3.ascending(a.title, b.title);
     }
   };
+
+  function quantize(n, f) {
+    return f * Math.round(n / f);
+  }
 
 })(this);

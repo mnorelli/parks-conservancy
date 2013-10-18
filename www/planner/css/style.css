@@ -100,6 +100,7 @@
 
 .date-picker {
   position: relative;
+  display: block;
 }
 
 .date-picker table.calendar {
@@ -116,15 +117,25 @@
   .date-picker table.calendar td,
   .date-picker table.calendar th {
     padding: 2px 4px;
+    text-align: center;
   }
 
   .date-picker table.calendar td.day {
-    color: #666;
+    color: #999;
+    text-align: right;
+  }
+
+  .date-picker table.calendar td.day.current {
+    color: #333;
   }
 
   .date-picker table.calendar td.day.valid {
     color: #000;
     cursor: pointer;
+  }
+
+  .date-picker table.calendar td.day.selected {
+    text-decoration: underline;
   }
 
   .date-picker table.calendar caption {
