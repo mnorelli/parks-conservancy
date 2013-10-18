@@ -164,6 +164,8 @@
             .attr("class", "map origin column " + this.options.originColumnSize),
           destMapRoot = mapRoot.append("div")
             .attr("class", "map destination column " + this.options.destColumnSize),
+          linksRoot = form.append("div")
+            .attr("class", "row links"),
           directionsRoot = form.append("div")
             .attr("class", "row directions"),
           directionsPanel = directionsRoot.append("div")
@@ -580,7 +582,7 @@
           .classed("routing", false);
 
         if (stat === google.maps.DirectionsStatus.OK) {
-          that._updateRoute(response);
+          that._updateRoute(response, request);
           if (callback) callback(null, response);
         } else {
           google.maps.event.trigger(this, "error", response);
@@ -642,15 +644,20 @@
 
     _clearRoute: function() {
       // clear nearby locations
-      d3.select(this.root).select(".nearby-locations")
+      var root = d3.select(this.root);
+      
+      root.selectAll(".nearby-locations")
         .selectAll(".location")
         .remove();
+
+      root.select(".links")
+        .text("");
 
       // this.originMap.directionsDisplay.setDirections(null);
       // this.destMap.directionsDisplay.setDirections(null);
     },
 
-    _updateRoute: function(response) {
+    _updateRoute: function(response, request) {
       google.maps.event.trigger(this, "route", response);
 
       var route = response.routes[0],
@@ -668,8 +675,69 @@
       this.destMap.setZoom(this.options.destMap.zoom || 15);
       this.destMap.setCenter(end);
 
+      this._updateLinks(response, request);
       this._updateNearbyLocations();
       this._updateBespokeDirections();
+    },
+
+    // URL params cribbed from:
+    // <http://moz.com/ugc/everything-you-never-wanted-to-know-about-google-maps-parameters>
+    _getGoogleMapsUrl: function(d) {
+      var url = "https://maps.google.com/maps",
+          params = {
+            f: "d", // directions
+            saddr: d.origin,
+            daddr: d.destination
+          };
+      switch (d.travelMode) {
+        case google.maps.DirectionsTravelMode.TRANSIT:
+          params.dirflg = "r";
+          break;
+        case google.maps.DirectionsTravelMode.BICYCLING:
+          params.dirflg = "b";
+          break;
+        case google.maps.DirectionsTravelMode.WALKING:
+          params.dirflg = "w";
+          break;
+      }
+
+      if (d.date instanceof Date) {
+        // "date=10%2F17%2F13&time=7:33pm"
+        params.date = d3.time.format("%m/%e/%y")(d.date).replace(/ /g, "");
+        params.time = d3.time.format("%I:%M%p")(d.date).replace(/^0/, "");
+      }
+      return [url, utils.qs.format(params)].join("?");
+    },
+
+    _updateLinks: function(res, req) {
+      var that = this,
+          linkRoot = d3.select(this.root)
+            .select(".links");
+
+      var params = {
+        origin:       req.origin,
+        destination:  req.destination,
+        travelMode:   req.travelMode
+      };
+
+      if (req.transitOptions && req.transitOptions.departureTime instanceof Date) {
+        params.date = req.transitOptions.departureTime;
+      }
+
+      console.log("link params:", params);
+
+      var links = linkRoot.selectAll("a")
+        .data([
+          {html: "Directions in Google Maps"}
+        ])
+        .enter()
+        .append("a")
+          .attr("target", "_blank")
+          .html(function(d) { return d.html; })
+          .attr("href", function(d) {
+            var p = utils.extend({}, params, d.params);
+            return that._getGoogleMapsUrl(p);
+          });
     },
 
     _updateNearbyLocations: function() {

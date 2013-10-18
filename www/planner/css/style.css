@@ -177,3 +177,16 @@
 
   .date-picker table.calendar tfoot button {
   }
+
+.trip-planner .links a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 0;
+}
+
+.trip-planner .links a:before {
+  content: "∞";
+  font-weight: bold;
+  text-decoration: none !important;
+  margin-right: 5px;
+}
