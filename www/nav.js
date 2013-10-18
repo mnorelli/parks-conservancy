@@ -24,20 +24,25 @@
 
       // the "Your Visit" menu is the second "upper" bit,
       // and ul.level1 is where links get attached
-      var menu = d3.select("#main_menu .upper:nth-child(2) ul.level1");
-
-      // add the Trip Planner link
-      menu.insert("li", "li:first-child")
-        .append("a")
-          .attr("href", "/map/planner/")
-          .text("Plan a Trip");
+      var menu = d3.select("#main_menu .upper:nth-child(2)"),
+          hook = menu.select(".column2 ul.level1");
 
       // add the Map link
-      menu.insert("li", "li:first-child")
-        .attr("class", "map")
+      hook.append("li")
+        .attr("class", "stamen map")
         .append("a")
           .attr("href", "/map/")
           .text("Map");
+
+      // add the Trip Planner link
+      hook.append("li")
+        .attr("class", "stamen planner")
+        .append("a")
+          .attr("href", "/mapping/trip-planner.html")
+          .text("Plan a Trip");
+
+      hook.selectAll(".stamen a")
+        .style("color", "#f0f");
     }
   }
 

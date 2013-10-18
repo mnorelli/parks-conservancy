@@ -48,7 +48,8 @@
   };
 
   TripPlanner.inject = function(options, callback) {
-    // console.log("TripPlanner.inject(", options, callback, ")");
+    console.log("TripPlanner.inject(", options, callback, ")");
+    if (!options) options = {};
 
     var planner,
         destinations,
@@ -56,7 +57,7 @@
         bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
         loader = new GGNPC.planner.DestinationLoader(),
         hash = GGNPC.utils.qs.parse(location.hash),
-        root = d3.select("#trip-planner")
+        root = d3.select(options.root || "#trip-planner")
           .classed("loading", true);
 
     if (root.empty()) {
@@ -83,7 +84,7 @@
     function initialize() {
       root.classed("loading", false);
 
-      planner = new GGNPC.planner.TripPlanner("trip-planner", {
+      planner = new GGNPC.planner.TripPlanner(root.node(), {
         origin: hash.from, // || "2017 Mission St, SF",
         destination: hash.to,
         travelMode: hash.mode,
@@ -134,6 +135,8 @@
         travelMode: String(this.options.travelMode || this.options.travelModes[0].value).toUpperCase()
       };
 
+      this._travelTime = this._coerceDate(this.options.departureTime) || new Date();
+
       this.directions = new google.maps.DirectionsService();
       this._setupDom();
 
@@ -162,6 +165,8 @@
             .attr("class", "map origin column " + this.options.originColumnSize),
           destMapRoot = mapRoot.append("div")
             .attr("class", "map destination column " + this.options.destColumnSize),
+          linksRoot = form.append("div")
+            .attr("class", "row links"),
           directionsRoot = form.append("div")
             .attr("class", "row directions"),
           directionsPanel = directionsRoot.append("div")
@@ -292,6 +297,10 @@
                 : null;
             });
 
+      destInputs.append("span")
+        .attr("class", "date-picker")
+        .call(this._setupDatePicker, this);
+
       destInputs.append("input")
         .attr("class", "submit")
         .attr({
@@ -329,12 +338,152 @@
       });
     },
 
+    _setupDatePicker: function(selection, that) {
+
+      var dateFormat = d3.time.format("%a, %b. %e, %Y"),
+          now = this._travelTime || new Date();
+
+      var datePicker = ggnpc.ui.datePicker()
+            .on("month", function(month) {
+              // console.log("month:", month);
+              table
+                .call(datePicker.month(month))
+                .call(updateDays, that.getTravelTime());
+            })
+            .on("day", function(day) {
+              datePopup.call(toggle);
+              setDay(day);
+            }),
+          dateWrapper = selection.append("span")
+            .attr("class", "date"),
+          dateButton = dateWrapper.append("button")
+            .text(dateFormat(now))
+            .on("click", function() {
+              d3.event.preventDefault();
+              datePopup.call(toggle);
+            }),
+          datePopup = dateWrapper.append("div")
+            .style("display", "none")
+            .attr("class", "popup"),
+          table = datePopup.append("table")
+            .attr("class", "calendar")
+            .call(datePicker)
+            .call(updateDays, now),
+          timeWrapper = selection.append("span")
+            .attr("class", "time"),
+          hourSelect = timeWrapper.append("select")
+            .attr("class", "hour")
+            .attr("name", "hour")
+            .on("change", function() {
+              setTime(+this.options[this.selectedIndex].value, null);
+            }),
+          minuteSelect = timeWrapper.append("select")
+            .attr("class", "minute")
+            .attr("name", "minute")
+            .on("change", function() {
+              setTime(null, +this.options[this.selectedIndex].value);
+            });
+
+      var currentHour = now.getHours(),
+          minuteStep = 15,
+          currentMinute = quantize(now.getMinutes(), minuteStep),
+          minuteFormat = d3.format("02");
+      hourSelect.selectAll("option")
+        .data(d3.range(0, 24))
+        .enter()
+        .append("option")
+          .attr("value", function(h) { return h; })
+          .text(function(h) {
+            var a = h >= 12 ? "pm" : "am";
+            return h > 12
+              ? (h - 12) + a
+              : h + a;
+          })
+          .attr("selected", function(h) {
+            return h === now.getHours()
+              ? "selected"
+              : null;
+          });
+
+      minuteSelect.selectAll("option")
+        .data(d3.range(0, 60, minuteStep))
+        .enter()
+        .append("option")
+          .attr("value", function(m) { return m; })
+          .text(function(m) {
+            return ":" + minuteFormat(m);
+          })
+          .attr("selected", function(m) {
+            return m === currentMinute
+              ? "selected"
+              : null;
+          });
+
+      function updateDays(selection, day) {
+        var isSelected = dayMatcher(day),
+            today = d3.time.day.floor(new Date()),
+            isToday = dayMatcher(new Date());
+        // console.log("select:", day, "today:", new Date());
+        selection.selectAll("td.day")  
+          .classed("today", isSelected)
+          .classed("selected", isToday)
+          .classed("valid", function(d) {
+            return d >= today;
+          })
+          .classed("invalid", function(d) {
+            return d < today;
+          });
+      }
+
+      function setTime(hour, minute) {
+        var d = that.getTravelTime();
+        if (!isNaN(hour)) d.setHours(hour);
+        if (!isNaN(minute)) d.setMinutes(minute);
+        that.setTravelTime(d);
+      }
+
+      function setDay(day) {
+        var now = that.getTravelTime(),
+            then = new Date(day.getTime());
+        then.setHours(now.getHours());
+        then.setMinutes(now.getMinutes());
+
+        dateButton
+          .text(dateFormat(then));
+
+        that.setTravelTime(then);
+
+        table
+          .call(datePicker.day(then))
+          .call(updateDays, then);
+      }
+
+      function dayMatcher(date) {
+        if (!date) return d3.functor(false);
+        var min = d3.time.day.floor(date).getTime(),
+            max = d3.time.day.ceil(date).getTime();
+        return function(d) {
+          var t = d.getTime();
+          return t >= min && t < max;
+        };
+      }
+
+      function toggle(selection) {
+        selection.style("display", function() {
+          return (this.style.display === "none")
+            ? null
+            : "none";
+        });
+      }
+
+    },
+
     getOrigin: function() {
       return this._request.origin;
     },
 
     setOrigin: function(origin) {
-      if (origin != this.getOrigin()) {
+      if (origin != this._request.origin) {
         this._request.origin = origin;
         google.maps.event.trigger(this, "origin", origin);
       }
@@ -353,7 +502,7 @@
     },
 
     setDestination: function(dest) {
-      if (dest != this.getDestination()) {
+      if (dest != this._request.destination) {
         this._request.destination = this._resolveDestination(dest);
         google.maps.event.trigger(this, "destination", dest);
 
@@ -374,7 +523,7 @@
     },
 
     setTravelMode: function(mode) {
-      if (mode != this.getTravelMode()) {
+      if (mode != this._request.travelMode) {
         this._request.travelMode = mode.toUpperCase();
         google.maps.event.trigger(this, "travelMode", this._request.travelMode);
       }
@@ -382,13 +531,13 @@
     },
 
     getTravelTime: function() {
-      return this._request.time;
+      return this._travelTime;
     },
 
     setTravelTime: function(time) {
-      if (time != this.getTravelTime()) {
-        this._request.time = time;
-        google.maps.event.trigger(this, "travelTime", this._request.time);
+      if (time != this._travelTime) {
+        this._travelTime = this._coerceDate(time);
+        google.maps.event.trigger(this, "travelTime", this._travelTime);
       }
       return this;
     },
@@ -401,6 +550,12 @@
         request.destination = this._getObjectLocation(request.destination);
       } else {
         request.destination = this._parseLocation(request.destination);
+      }
+
+      if (!isNaN(this._travelTime)) {
+        request.transitOptions = {
+          departureTime: this._travelTime
+        };
       }
 
       var error;
@@ -428,13 +583,26 @@
           .classed("routing", false);
 
         if (stat === google.maps.DirectionsStatus.OK) {
-          that._updateRoute(response);
+          that._updateRoute(response, request);
           if (callback) callback(null, response);
         } else {
           google.maps.event.trigger(this, "error", response);
           if (callback) callback(response, null);
         }
       });
+    },
+
+    _coerceDate: function(time) {
+      if (typeof time === "string") {
+        var formats = ["%Y-%m-%d", "%Y-%m-%d %H:%M"].map(d3.time.format);
+        for (var i = 0; i < formats.length; i++) {
+          var parsed = formats[i].parse(time);
+          if (parsed instanceof Date) return parsed;
+        }
+      }
+      return (time instanceof Date)
+        ? time
+        : null;
     },
 
     _resolveDestination: function(dest) {
@@ -477,15 +645,20 @@
 
     _clearRoute: function() {
       // clear nearby locations
-      d3.select(this.root).select(".nearby-locations")
+      var root = d3.select(this.root);
+      
+      root.selectAll(".nearby-locations")
         .selectAll(".location")
         .remove();
+
+      root.select(".links")
+        .text("");
 
       // this.originMap.directionsDisplay.setDirections(null);
       // this.destMap.directionsDisplay.setDirections(null);
     },
 
-    _updateRoute: function(response) {
+    _updateRoute: function(response, request) {
       google.maps.event.trigger(this, "route", response);
 
       var route = response.routes[0],
@@ -503,8 +676,69 @@
       this.destMap.setZoom(this.options.destMap.zoom || 15);
       this.destMap.setCenter(end);
 
+      this._updateLinks(response, request);
       this._updateNearbyLocations();
       this._updateBespokeDirections();
+    },
+
+    // URL params cribbed from:
+    // <http://moz.com/ugc/everything-you-never-wanted-to-know-about-google-maps-parameters>
+    _getGoogleMapsUrl: function(d) {
+      var url = "https://maps.google.com/maps",
+          params = {
+            f: "d", // directions
+            saddr: d.origin,
+            daddr: d.destination
+          };
+      switch (d.travelMode) {
+        case google.maps.DirectionsTravelMode.TRANSIT:
+          params.dirflg = "r";
+          break;
+        case google.maps.DirectionsTravelMode.BICYCLING:
+          params.dirflg = "b";
+          break;
+        case google.maps.DirectionsTravelMode.WALKING:
+          params.dirflg = "w";
+          break;
+      }
+
+      if (d.date instanceof Date) {
+        // "date=10%2F17%2F13&time=7:33pm"
+        params.date = d3.time.format("%m/%e/%y")(d.date).replace(/ /g, "");
+        params.time = d3.time.format("%I:%M%p")(d.date).replace(/^0/, "");
+      }
+      return [url, utils.qs.format(params)].join("?");
+    },
+
+    _updateLinks: function(res, req) {
+      var that = this,
+          linkRoot = d3.select(this.root)
+            .select(".links");
+
+      var params = {
+        origin:       req.origin,
+        destination:  req.destination,
+        travelMode:   req.travelMode
+      };
+
+      if (req.transitOptions && req.transitOptions.departureTime instanceof Date) {
+        params.date = req.transitOptions.departureTime;
+      }
+
+      console.log("link params:", params);
+
+      var links = linkRoot.selectAll("a")
+        .data([
+          {html: "Directions in Google Maps"}
+        ])
+        .enter()
+        .append("a")
+          .attr("target", "_blank")
+          .html(function(d) { return d.html; })
+          .attr("href", function(d) {
+            var p = utils.extend({}, params, d.params);
+            return that._getGoogleMapsUrl(p);
+          });
     },
 
     _updateNearbyLocations: function() {
@@ -564,10 +798,6 @@
               word = one ? "mile" : "miles";
           return [num, word].join(" ");
         });
-
-      function quantize(n, f) {
-        return f * Math.round(n / f);
-      }
 
     },
 
@@ -696,7 +926,13 @@
     locationTypes: ["Access", "Trailhead", "Visitor Center"],
     groupByPark: true,
     nearbyThreshold: 1, // miles
-    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"] 
+    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
+    nearbyTypeCounts: {
+      "Restroom": 1,
+      "Cafe": 1,
+      "Visitor Center": 1,
+      "Trailhead": 2
+    }
   };
   
   DestinationLoader.prototype = {
@@ -741,26 +977,57 @@
               d.latlng = utils.coerceLatLng(d.location);
             });
 
+            var collateNearbyLocatons = function(nearby, debug) {
+              if (nearby.length === 0) return nearby;
+
+              if (debug) console.log(nearby.length, "nearby locations");
+
+              var byType = d3.nest()
+                .key(function(d) { return d.parklocationtype; })
+                .sortValues(function(a, b) {
+                  return d3.ascending(a._dist, b._dist);
+                })
+                .map(nearby);
+
+              if (options.nearbyTypeCounts) {
+                for (var type in options.nearbyTypeCounts) {
+                  var len = options.nearbyTypeCounts[type];
+                  if (type in byType) {
+                    byType[type] = byType[type].slice(0, len);
+                  }
+                }
+              }
+
+              if (debug) console.log("nearby by type:", byType);
+
+              var collated = [];
+              d3.values(byType).forEach(function(typeList) {
+                collated = collated.concat(typeList);
+              });
+
+              if (debug) console.log("collated:", collated.map(function(d) { return d.parklocationtype; }));
+
+              collated.sort(function(a, b) {
+                return d3.ascending(a._dist, b._dist);
+              });
+
+              if (nearbyLimit) {
+                collated = collated.slice(0, nearbyLimit);
+              }
+
+              return collated;
+            };
+
             // assign a nearby[] array to each location based on distance from
             // it to the other locations
             locations.forEach(function(d) {
-              var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location));
-              d.nearby = nearbyCandidates
-                .filter(function(b) {
-                  return b != d &&
-                    (b._dist = utils.distanceInMiles(a, b.latlng)) <= nearbyThreshold;
-                })
-                .sort(function(a, b) {
-                  return d3.ascending(a._dist, b._dist);
-                });
-              if (nearbyLimit > 0) {
-                d.nearby = d.nearby.slice(0, nearbyLimit);
-              }
-              /*
-              if (d.nearby.length) {
-                console.log(d.title, "has", d.nearby.length, "nearby locations");
-              }
-              */
+              var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location)),
+                  nearby = nearbyCandidates
+                    .filter(function(b) {
+                      return b != d &&
+                        (b._dist = utils.distanceInMiles(a, b.latlng)) <= nearbyThreshold;
+                    });
+              d.nearby = collateNearbyLocatons(nearby, false);
             });
           }
 
@@ -801,5 +1068,9 @@
       return d3.ascending(a.title, b.title);
     }
   };
+
+  function quantize(n, f) {
+    return f * Math.round(n / f);
+  }
 
 })(this);

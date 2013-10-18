@@ -97,3 +97,96 @@
   text-align: right;
   width: 20%;
 }
+
+.date-picker {
+  display: block;
+}
+
+.date-picker span.date {
+  position: relative;
+}
+
+.date-picker div.popup {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1000;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 14em;
+  margin: 5px 0 0 -7em;
+  box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.date-picker table.calendar {
+  width: 100%;
+  position: relative;
+}
+
+  .date-picker table.calendar td,
+  .date-picker table.calendar th {
+    padding: 2px 4px;
+    text-align: center;
+  }
+
+  .date-picker table.calendar td.day {
+    color: #999;
+    text-align: right;
+    vertical-align: top;
+  }
+
+  .date-picker table.calendar td.day.current {
+    color: #333;
+  }
+
+  .date-picker table.calendar td.day.valid {
+    cursor: pointer;
+  }
+
+  .date-picker table.calendar td.day.invalid {
+    color: #ccc;
+  }
+
+  .date-picker table.calendar td.day.today {
+    border: 1px solid #666;
+  }
+
+  .date-picker table.calendar td.day.selected {
+    text-decoration: underline;
+  }
+
+  .date-picker table.calendar caption {
+    position: relative;
+    background: #eee;
+  }
+
+  .date-picker table.calendar caption .offset {
+    position: absolute;
+    top: -1px;
+    padding: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .date-picker table.calendar caption .offset.prev { left: 0; }
+  .date-picker table.calendar caption .offset.next { right: 0; }
+
+  .date-picker table.calendar tfoot {
+    text-align: center;
+  }
+
+  .date-picker table.calendar tfoot button {
+  }
+
+.trip-planner .links a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 0;
+}
+
+.trip-planner .links a:before {
+  content: "∞";
+  font-weight: bold;
+  text-decoration: none !important;
+  margin-right: 5px;
+}

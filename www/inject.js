@@ -4,21 +4,21 @@
   var ggnpc = exports.GGNPC || (exports.GGNPC = {});
 
   var injector = ggnpc.injector = {
-    version: "0.0.1",
+    version: "0.1.0",
     script: null,
     baseUrl: null,
     defaultParams: {
     },
-    prereqs: [
-      /*
-      // FIXME: make preloading google maps work!
+    reqs: [
       {
-        uri: "//maps.googleapis.com/maps/api/js?v=3.pre&amp;libraries=geometry&sensor=false",
+        // XXX we can't use the client ID here because the Business account
+        // doesn't allow access on our Heroku domains...
+        // url: "http://maps.googleapis.com/maps/api/js?client=gme-goldengatenational&sensor=false&v=3.13&libraries=geometry&async=2&callback=GGNPC.injector.mapsCallback",
+        url: "http://maps.googleapis.com/maps/api/js?sensor=false&v=3.13&libraries=geometry&async=2&callback=GGNPC.injector.mapsCallback",
         wait: function(callback) {
-          google.maps.event.addDomListener(window, 'load', callback);
+          GGNPC.injector.mapsCallback = callback;
         }
       },
-      */
       "js/vendor/aight.min.js",
       "js/ggnpc-map.js",
       "styles/ggnpc-map.css"
@@ -26,19 +26,24 @@
     routes: [
       {
         name: "trip-planner",
-        prereqs: [
+        reqs: [
           "js/vendor/d3.v3.min.js",
+          "planner/css/style.css",
           "js/ggnpc-utils.js",
           "js/ggnpc-planner.js",
-          "planner/css/style.css"
+          "js/ggnpc-ui.js"
         ],
-        pattern: new RegExp("/planner(/|.html)$"),
+        // path: new RegExp("/planner(/|.html)?$"),
+        path: "/mapping/trip-planner.html",
+        options: {
+          root: "#page_content"
+        },
         run: function(options) {
           GGNPC.planner.TripPlanner.inject(options);
         }
       },
       {
-        pattern: new RegExp("/locations/(\w+).html$"),
+        path: new RegExp("/locations/(\w+).html$"),
         run: function(options) {
           // mini-map?
         }
@@ -58,8 +63,8 @@
    *    find the named route. Otherwise, look for a route that matches the host
    *    URI (location.pathname).
    * 3. If no route is found, bail.
-   * 4. If a route is found, load all of the files in both injector.prereqs and
-   *    route.prereqs.
+   * 4. If a route is found, load all of the files in both injector.reqs and
+   *    route.reqs.
    * 5. When done loading prerequisites, call route.run() with the options and
    *    the optional callback as its arguments.
    *
@@ -86,13 +91,17 @@
     // remember the route for later
     injector.route = route;
 
-    var loaded = 0,
-        prereqs = injector.prereqs;
-    if (route.prereqs) {
-      prereqs = prereqs.concat(route.prereqs);
+    if (route.options) {
+      options = injector.merge({}, route.options, options);
     }
 
-    injector.preloadAll(prereqs, function() {
+    var loaded = 0,
+        reqs = injector.reqs;
+    if (route.reqs) {
+      reqs = reqs.concat(route.reqs);
+    }
+
+    injector.preloadAll(reqs, function() {
       if (route) {
         route.run(options, callback);
       } else {
@@ -116,7 +125,7 @@
       if (loading.length === 0) return callback();
       var uri = loading.shift();
       if (typeof uri === "object") {
-        var url = injector.getUrl(uri.uri);
+        var url = injector.getUrl(uri.url);
         injector.preload(url, function() {
           uri.wait(next);
         });
@@ -140,7 +149,9 @@
     var routes = injector.routes;
     for (var i = 0; i < routes.length; i++) {
       var route = routes[i],
-          match = hostUri.match(route.pattern);
+          match = (route.path instanceof RegExp)
+            ? hostUri.match(route.path)
+            : hostUri.indexOf(route.path) > -1;
       if (match) {
         route.match = match;
         return route;
@@ -197,18 +208,14 @@
   injector.preload = function(url, callback) {
     // check the filename extension
     var filename = url.split("?").shift(),
-        delim = (filename.lastIndexOf("/") > filename.lastIndexOf("."))
-          ? "/"
-          : ".",
-        ext = filename.split(delim).pop();
+        ext = filename.split(".").pop();
     switch (ext) {
-      case "js":
-        return injector.preloadJS(url, callback);
       case "css":
         return injector.preloadCSS(url, callback);
       default:
-        throw "Unrecognized preload extension: ." + ext;
+        // XXX should we bail here?
     }
+    return injector.preloadJS(url, callback);
   };
 
   /*
