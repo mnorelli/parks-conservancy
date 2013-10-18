@@ -206,18 +206,14 @@
   injector.preload = function(url, callback) {
     // check the filename extension
     var filename = url.split("?").shift(),
-        delim = (filename.lastIndexOf("/") > filename.lastIndexOf("."))
-          ? "/"
-          : ".",
-        ext = filename.split(delim).pop();
+        ext = filename.split(".").pop();
     switch (ext) {
-      case "js":
-        return injector.preloadJS(url, callback);
       case "css":
         return injector.preloadCSS(url, callback);
       default:
-        throw "Unrecognized preload extension: ." + ext;
+        // XXX should we bail here?
     }
+    return injector.preloadJS(url, callback);
   };
 
   /*
