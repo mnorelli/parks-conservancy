@@ -32,7 +32,7 @@ fs.readdir(tripsDir, function(err, filenames) {
     return f[f.length-1] === "json";
   });
 
-  var meta = {
+  var index = {
     profiles: [], 
     scales: {
       distance: [],
@@ -45,19 +45,31 @@ fs.readdir(tripsDir, function(err, filenames) {
     // XXX FIX: log errors???
 
     var tripData = JSON.parse(file);
-    tripData.elevation.forEach(function(d) {
-      meta.scales.distance.push(+d.distance);
-      meta.scales.height.push(+d.height);
-    });
     var metadata = tripData.metadata;
     delete metadata["description"];   // it's fat and unnecessary
-    meta.profiles.push(metadata);
+    metadata.scales = {
+      distance: [],
+      height: []
+    };
+
+    tripData.elevation.forEach(function(d) {
+      ["distance", "height"].forEach(function(measure) {
+        index.scales[measure].push(+d[measure]);  // for overall extent
+        metadata.scales[measure].push(+d[measure]); // for trip-local extent
+      });
+    });
+
+    d3.keys(metadata.scales).forEach(function(scale) {
+      metadata.scales[scale] = d3.extent(metadata.scales[scale].sort(d3.ascending));
+    });
+
+    index.profiles.push(metadata);
   });
 
-  d3.keys(meta.scales).forEach(function(scale) {
-    meta.scales[scale] = d3.extent(meta.scales[scale].sort(d3.ascending));
+  d3.keys(index.scales).forEach(function(scale) {
+    index.scales[scale] = d3.extent(index.scales[scale].sort(d3.ascending));
   });
 
-  writeFile(meta, "index.json");
+  writeFile(index, "index.json");
 
 });
