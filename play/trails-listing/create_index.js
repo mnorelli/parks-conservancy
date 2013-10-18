@@ -47,8 +47,9 @@ fs.readdir(tripsDir, function(err, filenames) {
 
     tripData.elevation.forEach(function(d) {
       ["distance", "height"].forEach(function(measure) {
-        index.scales[measure].push(+d[measure]);  // for overall extent
-        metadata.scales[measure].push(+d[measure]); // for trip-local extent
+        var m = +d[measure];
+        index.scales[measure].push(m);  // for overall extent
+        metadata.scales[measure].push(m); // for trip-local extent
       });
     });
 
