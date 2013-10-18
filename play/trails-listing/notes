@@ -1,11 +1,3 @@
 npm install optimist request transitandtrails d3 jsdom
 
 git clone https://github.com/shawnbot/d3-to-png
-
-
-the chain:
-1. node process_trips.js  (NOTE: this requires a list of trip ids. how do we get this?)
-2. node create_index.js
-3. node d3-to-png/index.js --trip $trip ../svg_trail_paths.js > svg/$trip.svg
- 
-sometimes #3 fails because imagemagick hangs. i have no idea why.
