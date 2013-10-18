@@ -9,7 +9,7 @@
     baseUrl: null,
     defaultParams: {
     },
-    prereqs: [
+    reqs: [
       /*
       // FIXME: make preloading google maps work!
       {
@@ -26,7 +26,7 @@
     routes: [
       {
         name: "trip-planner",
-        prereqs: [
+        reqs: [
           "js/vendor/d3.v3.min.js",
           "planner/css/style.css",
           "js/ggnpc-utils.js",
@@ -59,8 +59,8 @@
    *    find the named route. Otherwise, look for a route that matches the host
    *    URI (location.pathname).
    * 3. If no route is found, bail.
-   * 4. If a route is found, load all of the files in both injector.prereqs and
-   *    route.prereqs.
+   * 4. If a route is found, load all of the files in both injector.reqs and
+   *    route.reqs.
    * 5. When done loading prerequisites, call route.run() with the options and
    *    the optional callback as its arguments.
    *
@@ -88,12 +88,12 @@
     injector.route = route;
 
     var loaded = 0,
-        prereqs = injector.prereqs;
-    if (route.prereqs) {
-      prereqs = prereqs.concat(route.prereqs);
+        reqs = injector.reqs;
+    if (route.reqs) {
+      reqs = reqs.concat(route.reqs);
     }
 
-    injector.preloadAll(prereqs, function() {
+    injector.preloadAll(reqs, function() {
       if (route) {
         route.run(options, callback);
       } else {
