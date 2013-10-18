@@ -31,7 +31,11 @@
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
         ],
-        path: new RegExp("/planner(/|.html)?$"),
+        // path: new RegExp("/planner(/|.html)?$"),
+        path: "/mapping/trip-planner.html",
+        options: {
+          root: "#page_content"
+        },
         run: function(options) {
           GGNPC.planner.TripPlanner.inject(options);
         }
@@ -84,6 +88,10 @@
 
     // remember the route for later
     injector.route = route;
+
+    if (route.options) {
+      options = injector.merge({}, route.options, options);
+    }
 
     var loaded = 0,
         reqs = injector.reqs;

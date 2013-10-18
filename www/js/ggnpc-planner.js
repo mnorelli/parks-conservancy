@@ -48,7 +48,8 @@
   };
 
   TripPlanner.inject = function(options, callback) {
-    // console.log("TripPlanner.inject(", options, callback, ")");
+    console.log("TripPlanner.inject(", options, callback, ")");
+    if (!options) options = {};
 
     var planner,
         destinations,
@@ -56,7 +57,7 @@
         bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
         loader = new GGNPC.planner.DestinationLoader(),
         hash = GGNPC.utils.qs.parse(location.hash),
-        root = d3.select("#trip-planner")
+        root = d3.select(options.root || "#trip-planner")
           .classed("loading", true);
 
     if (root.empty()) {
@@ -83,7 +84,7 @@
     function initialize() {
       root.classed("loading", false);
 
-      planner = new GGNPC.planner.TripPlanner("trip-planner", {
+      planner = new GGNPC.planner.TripPlanner(root.node(), {
         origin: hash.from, // || "2017 Mission St, SF",
         destination: hash.to,
         travelMode: hash.mode,
