@@ -135,12 +135,26 @@
     <script src="js/customTiles.js"></script>
     <script>
 
+      var show;
+      window.addEventListener("hashchange", function() {
+        var show = window.location.hash.substr(1) || false;
+      });
+
       // load the metadata for the stored trips
       d3.json("index.json", function(err, index) {
         if (err) {
-          console.log(err); 
+          console.log(err);
           return;
         }
+
+        var showSimpleProfiles = function() {
+          // this is where you're going to do the 
+          // enter/update/remove logic for the filtering
+          if (!show) {
+
+          }
+        };
+
         var container = d3.select("#trails-listing");
         var trailsList = container.selectAll("div.trail-data")
           .data(index.profiles)
@@ -148,7 +162,6 @@
           .attr("id", function(d) { return "trip-container-" + d.id; })
           .classed("trail-data", true);
 
-        // duration, intensity, name, length_miles, id
 
         var meta = trailsList.append("div")
           .classed("trail-metadata", true);
@@ -163,8 +176,6 @@
           .classed("trail-metadata-header-duration", true)
           .text(function(d) { return d.duration; });
 
-        console.log(index);
-
         // this is pretty ugly
         meta.append("ul")
           .selectAll("li")
@@ -172,7 +183,7 @@
               return [
                 [d.length_miles.toFixed(2), "miles"],
                 ["&bull;"],
-                ["[image]", 0, "ft elevation change"], 
+                ["[image]", ~~(d.scales.height[1] - d.scales.height[0]), "ft elevation change"], 
                 ["&bull;"],
                 [d.intensity]
               ]; 
@@ -207,11 +218,10 @@
       function trailDataClick(trailData) {
         // what happens when you click the trail listing
 
-        var node = d3.select("#trip-container-" + trailData.id);
+        var container = d3.select("#trip-container-" + trailData.id);
 
-        if (node.classed("open")) {
-          // console.log("registered as open, should close", that.node());
-          closeFullTrail(node);
+        if (container.classed("open")) {
+          closeFullTrail(container);
           return;
         }
 
@@ -222,8 +232,7 @@
             console.log(err);
             return;
           }
-          console.log("loaded " + trailData.id, fullTrailData);
-          displayFullTrail(fullTrailData, node);
+          displayFullTrail(fullTrailData, container);
         }); 
       }
 
@@ -281,7 +290,7 @@
         map.mapTypes.set('ggnra', mapType);
         map.setMapTypeId('ggnra');
 
-        google.maps.event.addListener(map, 'bounds_changed', function() {
+        google.maps.event.addListener(map, "bounds_changed", function() {
           var bounds = map.getBounds();
 
           visibleElevationPoints
@@ -306,10 +315,9 @@
         var h = trip.metadata.height,
             diff = h[1] - h[0];
 
-        var heightAnchors = d3.range(3).map(function(n) { 
-          return ((n+1) * (diff/3)) + h[0];
+        var heightAnchors = d3.range(4).map(function(n) { 
+          return n * (diff/3) + h[0];
         });
-        heightAnchors = [h[0]].concat(heightAnchors);
 
         var color = d3.scale.linear()
               .domain(heightAnchors)
@@ -317,7 +325,7 @@
 
         var backgroundPath = new google.maps.Polyline({
           path: route,
-          strokeColor: "black",
+          strokeColor: "#000",
           strokeWeight: 10
         });
 
@@ -404,7 +412,7 @@
           var markerStyle = {
             strokeColor: '#000',
             strokeOpacity: 1,
-            strokeWeight: 1,
+            strokeWeight: 2,
             fillColor: color(e.height),
             fillOpacity: 1,
             map: map,
@@ -497,6 +505,7 @@
             .each("end", function() {
               container.classed("open", false);
             });
+        container.style("z-index", null);
       }
 
       function displayFullTrail(fullTrailData, container) {
