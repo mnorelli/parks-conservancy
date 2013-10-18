@@ -10,15 +10,13 @@
     defaultParams: {
     },
     reqs: [
-      /*
       // FIXME: make preloading google maps work!
       {
-        uri: "//maps.googleapis.com/maps/api/js?v=3.pre&amp;libraries=geometry&sensor=false",
+        url: "http://maps.googleapis.com/maps/api/js?client=gme-goldengatenational&sensor=false&v=3.13&libraries=geometry&async=2&callback=GGNPC.injector.mapsCallback",
         wait: function(callback) {
-          google.maps.event.addDomListener(window, 'load', callback);
+          GGNPC.injector.mapsCallback = callback;
         }
       },
-      */
       "js/vendor/aight.min.js",
       "js/ggnpc-map.js",
       "styles/ggnpc-map.css"
@@ -117,7 +115,7 @@
       if (loading.length === 0) return callback();
       var uri = loading.shift();
       if (typeof uri === "object") {
-        var url = injector.getUrl(uri.uri);
+        var url = injector.getUrl(uri.url);
         injector.preload(url, function() {
           uri.wait(next);
         });
