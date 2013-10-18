@@ -3,20 +3,13 @@ var d3 = require("d3"),
     fs = require("fs");
 
 
-function writeFile(data, filename) {
-  // var filename = "tnt-geojson/" + id + ".geojson";
-  fs.exists(filename, function(exists) {
-    if (!exists) {
-      fs.writeFile(filename, JSON.stringify(data, null, 2), function(err) {
-        if (err) {
-          console.error("error writing file (create_index):", err);
-          return;
-        } else {
-          console.log("[*] data written to file", filename);
-        }
-      });
+function writeIndexFile(data, filename) {
+  fs.writeFile(filename, JSON.stringify(data, null, 2), function(err) {
+    if (err) {
+      console.error("error writing file (create_index):", err);
+      return;
     } else {
-      console.log("[*] file " + filename + " exists, skipping");
+      console.log("[*] data written to file", filename);
     }
   });
 }
@@ -70,6 +63,6 @@ fs.readdir(tripsDir, function(err, filenames) {
     index.scales[scale] = d3.extent(index.scales[scale].sort(d3.ascending));
   });
 
-  writeFile(index, "index.json");
+  writeIndexFile(index, "index.json");
 
 });
