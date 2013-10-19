@@ -20,16 +20,17 @@
         }
       },
       "js/vendor/aight.min.js",
+      "js/ggnpc-utils.js",
       "js/ggnpc-map.js",
       "styles/ggnpc-map.css"
     ],
     routes: [
+
       {
         name: "trip-planner",
         reqs: [
           "js/vendor/d3.v3.min.js",
           "planner/css/style.css",
-          "js/ggnpc-utils.js",
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
         ],
@@ -42,12 +43,20 @@
           GGNPC.planner.TripPlanner.inject(options);
         }
       },
+
       {
-        path: new RegExp("/locations/(\w+).html$"),
+        name: "default",
+        reqs: [
+        ],
+        path: /.*/,
+        options: {
+          mini: "#sidebar-map"
+        },
         run: function(options) {
-          // mini-map?
+          GGNPC.maps.MiniMap.inject(options);
         }
       }
+
     ]
   };
 
