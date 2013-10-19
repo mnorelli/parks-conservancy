@@ -117,6 +117,8 @@
       });
 
       if (callback) callback(null, planner);
+
+      TripPlanner.instance = planner;
     }
   };
 

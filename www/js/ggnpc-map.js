@@ -5,39 +5,44 @@
     google.maps.visualRefresh = true;
 
     var GGNPC = exports.GGNPC || (exports.GGNPC = {}),
+        utils = GGNPC.utils,
         maps = GGNPC.maps = {};
 
     // base() just returns a new map
     maps.base = function(root, options) {
-      return new maps.Map(root, options);
+      return new Map(root, options);
+    };
+
+    maps.collapseOptions = function(root, options, defaults) {
+      if (arguments.length === 1) {
+        if (typeof root === "string") {
+          options = utils.extend({}, defaults);
+        } else {
+          options = utils.extend({}, defaults, arguments[1]);
+          root = null;
+        }
+      } else {
+        options = utils.extend({}, defaults, options);
+      }
+      options.root = utils.coerceElement(root || options.root);
+      return options;
     };
 
     /*
      * GGNPC.maps.Map extends google.maps.Map
      * and sets the default map type to our ParkMapType (to show our tiles)
      */
-    maps.Map = function(root, options) {
-      if (arguments.length === 1) {
-        if (typeof root === "string") {
-          options = GGNPC.utils.extend({}, maps.Map.defaults);
-        } else {
-          options = GGNPC.utils.extend({}, maps.Map.defaults, arguments[1]);
-          root = null;
-        }
-      } else {
-        options = GGNPC.utils.extend({}, maps.Map.defaults, options);
-      }
-
-      root = GGNPC.utils.coerceElement(root || options.root);
-      google.maps.Map.call(this, root, options);
+    var Map = maps.Map = function(root, options) {
+      options = maps.collapseOptions(root, options, Map.defaults);
+      google.maps.Map.call(this, options.root, options);
 
       this.mapTypes.set(maps.ParkMapType.name, maps.ParkMapType);
       this.setMapTypeId(maps.ParkMapType.name);
     };
 
-    maps.Map.prototype = new google.maps.Map(document.createElement("div"));
+    Map.prototype = new google.maps.Map(document.createElement("div"));
 
-    maps.Map.defaults = {
+    Map.defaults = {
       root: "map",
       backgroundColor: '#fff',
       center: new google.maps.LatLng(37.7706, -122.3782),
@@ -90,6 +95,19 @@
         }
         return {x: x, y: y};
       }
+    });
+
+
+    var MiniMap = maps.MiniMap = function(root, options) {
+      var defaults = utils.extend({}, Map.defaults, MiniMap.defaults);
+      options = maps.collapseOptions(root, options, defaults);
+      Map.call(this, options.root, options);
+    };
+
+    MiniMap.defaults = {
+    };
+
+    MiniMap.prototype = utils.extend(Map.prototype, {
     });
 
 })(this);
