@@ -44,6 +44,7 @@
         }
       },
 
+      // this is the "default" route that runs for all other pages
       {
         name: "default",
         reqs: [
@@ -56,6 +57,8 @@
           mini: "#sidebar-map"
         },
         run: function(options) {
+          // note that MiniMap.inject() will bail if it can't find
+          // its root node (options.mini = "#sidebar-map")
           GGNPC.maps.MiniMap.inject(options);
         }
       }
