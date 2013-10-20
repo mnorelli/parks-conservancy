@@ -117,10 +117,12 @@
       ],
       outline: {
         fitBounds: true,
-        strokeColor: "#f00",
-        strokeWeight: .5,
-        fillColor: "#f00",
-        fillOpacity: .2
+        strokeColor: "#333",
+        strokeOpacity: .4,
+        strokeWeight: 1,
+        fillColor: "#4afb05",
+        fillOpacity: .55,
+        zIndex: 1000
       },
       paths: [
         {
