@@ -47,6 +47,8 @@
       {
         name: "default",
         reqs: [
+          "js/vendor/d3.v3.min.js",
+          "js/vendor/geojson.js"
         ],
         path: /.*/,
         options: {
