@@ -33,7 +33,7 @@
      * and sets the default map type to our ParkMapType (to show our tiles)
      */
     var Map = maps.Map = function(root, options) {
-      options = maps.collapseOptions(root, options, Map.defaults);
+      options = this.options = maps.collapseOptions(root, options, Map.defaults);
       google.maps.Map.call(this, options.root, options);
 
       this.mapTypes.set(maps.ParkMapType.name, maps.ParkMapType);
@@ -56,7 +56,8 @@
       scaleControl: false,
       mapTypeControl: false,
       minZoom: 10,
-      maxZoom: 18
+      maxZoom: 18,
+      apiUrl: "http://stamen-parks-api-staging.herokuapp.com/"
     };
 
     maps.ParkMapType = new google.maps.ImageMapType({
@@ -101,13 +102,172 @@
     var MiniMap = maps.MiniMap = function(root, options) {
       var defaults = utils.extend({}, Map.defaults, MiniMap.defaults);
       options = maps.collapseOptions(root, options, defaults);
-      Map.call(this, options.root, options);
+      this.initialize(options.root, options);
     };
 
     MiniMap.defaults = {
+      bounds: new google.maps.LatLngBounds(
+        new google.maps.LatLng(37.558072, -122.681354),
+        new google.maps.LatLng(37.99226, -122.276233)
+      ),
+      zoomControl: false,
+      links: [
+        {type: "big-map", href: "/map/", text: "See Larger Map"},
+        {type: "directions", href: "/map/planner/", text: "Get Directions"}
+      ],
+      outline: {
+        fitBounds: true,
+        strokeColor: "#f00",
+        strokeWeight: .5,
+        fillColor: "#f00",
+        fillOpacity: .2
+      },
+      paths: [
+        {
+          pattern: new RegExp("/visit/park-sites/(.+)$"),
+          run: function(str, file) {
+            this._setContext(file);
+          }
+        }
+      ]
     };
 
     MiniMap.prototype = utils.extend(Map.prototype, {
+
+      initialize: function(root, options) {
+        Map.call(this, root, options);
+
+        var root = this.root;
+        root.classList.add("mini-map");
+        this._setupExtras(root);
+
+        google.maps.event.trigger(this, "resize");
+
+        if (this.options.bounds) this.fitBounds(this.options.bounds);
+
+        // XXX this happens automatically if it's called setPath()
+        if (this.options.path) this._setPath(this.options.path);
+      },
+
+      _setupExtras: function(root) {
+        var extras = this._extras = document.createElement("div");
+        extras.className = "mini-map-extras";
+        root.parentNode.insertBefore(extras, root.nextSibling);
+
+        var p = d3.select(extras)
+              .append("p")
+                .attr("class", "links"),
+            links = p.selectAll("a")
+              .data(this.options.links)
+              .enter()
+              .append("a")
+                .attr("class", function(d) { return d.type; })
+                .attr("href", function(d) { return d.href; })
+                .text(function(d) { return d.text; });
+      },
+
+      _setPath: function(rawPath) {
+        if (this._path === rawPath) return this;
+
+        if (rawPath) {
+          var found = false;
+          this.options.paths.forEach(function(path) {
+            if (found) return;
+            var match = rawPath.match(path.pattern);
+            if (match) {
+              path.match = match;
+              found = path;
+            }
+          });
+          if (found) {
+            found.run.apply(this, found.match);
+          }
+        } else {
+          console.warn("mini-map: no path specified");
+        }
+
+        this._path = rawPath;
+
+        d3.select(this._extras)
+          .select("a.big-map")
+            .attr("href", function(d) {
+              return [d.href, rawPath].join("#");
+            });
+
+        return this;
+      },
+
+      _setContext: function(file) {
+        console.log("min-map context:", file);
+
+        if (this._contextRequest) this._contextRequest.abort();
+
+        // XXX abstract this in GGNPC.API?
+        var url = [this.options.apiUrl, "context", file].join("/"),
+            that = this;
+        this._contextRequest = d3.json(url, function(error, data) {
+          if (error) {
+            console.warn("mini-map: no such context:", file, error);
+            return;
+          }
+          that._updateContext(data);
+          that._contextRequest = null;
+        });
+      },
+
+      _updateContext: function(data) {
+        console.log("mini-map update context:", data);
+        var that = this;
+
+        if (data.outlines.length) {
+          if (this._shapes) {
+            this._shapes.forEach(function(shape) {
+              shape.setMap(null);
+            });
+            this._shapes = null;
+          }
+
+          // XXX will this data structure ever *not* exist?
+          var feature = JSON.parse(data.outlines.results[0].geom),
+              shapes = new GeoJSON(feature, this.options.outline, true);
+          console.log("shapes:", shapes);
+
+          shapes.forEach(function(shape) {
+            shape.setMap(that);
+          });
+
+          this._shapes = shapes;
+          if (shapes.geojsonBounds && this.options.outline.fitBounds) {
+            this.fitBounds(shapes.geojsonBounds);
+          }
+        }
+
+        var parent = data.parent.results[0].attributes;
+        d3.select(this._extras)
+          .select("a.directions")
+            .attr("href", function(d) {
+              return [d.href, utils.qs.format({
+                from: "2017 Mission St, SF CA",
+                to: [parent.title, parent.id].join(":")
+              })].join("#");
+            });
+      }
+
     });
+
+    MiniMap.inject = function(options, callback) {
+      if (options.mini) {
+        var root = utils.coerceElement(options.mini);
+        if (root) {
+          var map = new MiniMap(root, {
+            path: location.pathname
+          });
+
+          if (callback) callback(null, map);
+
+          MiniMap.instance = map;
+        }
+      }
+    };
 
 })(this);
