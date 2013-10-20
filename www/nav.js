@@ -22,27 +22,41 @@
           return this.href.replace(pattern, "");
         });
 
-      // the "Your Visit" menu is the second "upper" bit,
-      // and ul.level1 is where links get attached
-      var menu = d3.select("#main_menu .upper:nth-child(2)"),
-          hook = menu.select(".column2 ul.level1");
+      var prefix = ["http://", location.hostname, ":", location.port].join("");
+      var menus = d3.selectAll("#main_menu .upper")
+        .datum(function() {
+          var href = d3.select(this)
+            .select("a")
+              .attr("href")
+              .replace(prefix, "");
+          return {
+            href: href
+          }
+        })
+        .filter(function(d) {
+          return !d.href.match(/about/);
+        });
 
-      // add the Map link
-      hook.append("li")
-        .attr("class", "stamen map")
-        .append("a")
-          .attr("href", "/map/")
-          .text("Map");
+      // Trip Planner
+      menus.filter(function(d) {
+        return d.href.match(/visit/);
+      })
+      .select(".content ul.level1:last-child")
+        .append("li")
+          .attr("class", "stamen")
+          .append("a")
+            .text("Plan a Trip")
+            .attr("href", "/mapping/trip-planner.html");
 
-      // add the Trip Planner link
-      hook.append("li")
-        .attr("class", "stamen planner")
-        .append("a")
-          .attr("href", "/mapping/trip-planner.html")
-          .text("Plan a Trip");
-
-      hook.selectAll(".stamen a")
-        .style("color", "#f0f");
+      var mapUrl = "/mapping/big-map.html";
+      menus.select(".content ul.level1:last-child")
+        .append("li")
+          .attr("class", "stamen")
+          .append("a")
+            .text("Map")
+            .attr("href", function(d) {
+              return [mapUrl, d.href].join("#");
+            });
     }
   }
 
