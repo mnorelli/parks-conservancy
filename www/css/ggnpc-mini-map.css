@@ -1,0 +1,32 @@
+
+.mini-map {
+  height: 450px;
+  border: none !important;
+  margin-bottom: 0 !important;
+}
+
+  .mini-map img {
+            box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+       -moz-box-shadow: none !important;
+  }
+
+  .mini-map-extras {
+    padding-bottom: 5px;
+    margin: 5px 0 .5em;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .mini-map-extras .links {
+    margin: 0;
+  }
+
+  .mini-map-extras .links a {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .mini-map-extras .links a.directions {
+    text-align: right;
+  }
+
