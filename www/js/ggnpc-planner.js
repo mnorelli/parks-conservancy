@@ -84,7 +84,7 @@
     function initialize() {
       root.classed("loading", false);
 
-      planner = new GGNPC.planner.TripPlanner(root.node(), {
+      planner = new TripPlanner(root.node(), {
         origin: hash.from, // || "2017 Mission St, SF",
         destination: hash.to,
         travelMode: hash.mode,
@@ -129,7 +129,7 @@
     // the constructor
     initialize: function(root, options) {
       this.root = utils.coerceElement(root);
-      this.options = utils.extend({}, planner.TripPlanner.defaults, options);
+      this.options = utils.extend({}, TripPlanner.defaults, options);
 
       this._request = {
         origin: this.options.origin,
@@ -210,6 +210,8 @@
         .attr("class", "point")
         .attr("title", "destination");
 
+      this._locationsById = {};
+
       if (Array.isArray(this.options.destinationOptions)) {
 
         var destSelect = destLabel.append("select")
@@ -228,8 +230,12 @@
         dests.forEach(function(d, i) {
           d._index = i;
           if (d.children) {
+            d.children.forEach(function(c) {
+              that._locationsById[c.id] = c;
+            });
             groups.push(d);
           } else {
+            that._locationsById[d.id] = d;
             options.push(d);
           }
         });
@@ -550,8 +556,6 @@
       var request = utils.extend({}, this._request);
       if (typeof request.destination === "object") {
         request.destination = this._getObjectLocation(request.destination);
-      } else {
-        request.destination = this._parseLocation(request.destination);
       }
 
       if (!isNaN(this._travelTime)) {
@@ -626,9 +630,7 @@
         function check(option) {
           if (found) return;
           if (id && option.id === id) {
-            if (!name || (name && option.title === name)) {
-              return found = option;
-            }
+            return found = option;
           } else if (!id && (name && option.title === name)) {
             return found = option;
           }
@@ -820,17 +822,8 @@
       return false;
     },
 
-    _parseLocation: function(loc) {
-      if (typeof loc === "string" && loc.indexOf(":") > -1) {
-        var parts = loc.split(":", 2),
-            type = parts[0],
-            id = parts[1];
-        return this.getLocationById(id) || {
-          type: type,
-          id: id
-        };
-      }
-      return loc;
+    getLocationById: function(id) {
+      return this._locationsById[id];
     },
 
     _hasDestination: function(dest) {
@@ -923,8 +916,8 @@
   };
 
   DestinationLoader.defaults = {
-    // TODO: fix this URL
-    apiUrl: "http://stamen-parks-api-staging.herokuapp.com/",
+    // XXX get the apiUrl from Map.defaults
+    apiUrl: ggnpc.maps.Map.defaults.apiUrl,
     locationTypes: ["Access", "Trailhead", "Visitor Center"],
     groupByPark: true,
     nearbyThreshold: 1, // miles
@@ -1040,10 +1033,9 @@
               .map(function(d) {
                 if (!parksById[d.key]) console.warn("bad park id:", d.key);
                 return (d.values.length > 1 && parksById[d.key])
-                  ? {
-                    title: parksById[d.key].title,
-                    children: d.values.sort(that._sortByTitle)
-                  }
+                  ? utils.extend({}, parksById[d.key], {
+                      children: d.values.sort(that._sortByTitle)
+                    })
                   : d.values[0];
               })
               .sort(that._sortByTitle);
