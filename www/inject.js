@@ -21,8 +21,8 @@
       },
       "js/vendor/aight.min.js",
       "js/ggnpc-utils.js",
-      "js/ggnpc-map.js",
-      "styles/ggnpc-map.css"
+      "js/ggnpc-map.js"
+      // "styles/ggnpc-map.css"
     ],
     routes: [
 
@@ -48,7 +48,8 @@
         name: "default",
         reqs: [
           "js/vendor/d3.v3.min.js",
-          "js/vendor/geojson.js"
+          "js/vendor/geojson.js",
+          "css/ggnpc-mini-map.css"
         ],
         path: /.*/,
         options: {
