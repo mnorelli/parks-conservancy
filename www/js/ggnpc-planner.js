@@ -57,15 +57,22 @@
         bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
         loader = new GGNPC.planner.DestinationLoader(),
         hash = GGNPC.utils.qs.parse(location.hash),
-        root = d3.select(options.root || "#trip-planner")
-          .classed("loading", true);
+        root = utils.coerceElement(options.root || "trip-planner");
 
-    if (root.empty()) {
-      if (callback) callback("No such element: #trip-planner");
+    if (!root) {
+      console.log("planner: no root", options.root);
+      if (callback) callback("No such element:", options.root);
       return;
     }
 
+    root = d3.select(root)
+      .classed("loading", true);
+
+    // console.log("loading destinations...");
     loader.load(function(error, locations) {
+      if (error) return console.error("unable to load locations:", error);
+
+      // console.log("loaded", locations.length, "locations");
       destinations = locations;
 
       /*
