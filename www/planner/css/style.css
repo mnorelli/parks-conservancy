@@ -19,7 +19,7 @@
 .trip-planner .inputs img.point {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 /* bootstrap-like layout rows */
@@ -254,4 +254,19 @@
 .trip-planner span.destination.frozen {
   font-weight: bold;
   margin-right: 10px;
+}
+
+.trip-planner .travel-modes .mode {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+  color: #ccc;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.trip-planner .travel-modes .mode.selected {
+  color: #000;
+  border-color: #999;
 }

@@ -28,21 +28,21 @@
     },
 
     originTitle: "Where are you coming from?",
-    originColumnSize: "one-third",
+    originColumnSize: "half",
 
     travelTimeTitle: "When do you want to leave?",
     travelModeTitle: "How will you travel?",
 
     destTitle: "Going to...",
-    destColumnSize: "two-thirds",
+    destColumnSize: "half",
 
-    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take <b>about <span class="duration"></span></b> to get there. ',
+    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take <b>about <span class="duration"></span></b> to get there <b class="mode">by car</b>. ',
 
     travelModes: [
-      {title: "Driving", value: google.maps.DirectionsTravelMode.DRIVING},
-      {title: "Transit", value: google.maps.DirectionsTravelMode.TRANSIT},
-      {title: "Biking", value: google.maps.DirectionsTravelMode.BICYCLING},
-      {title: "Walking", value: google.maps.DirectionsTravelMode.WALKING}
+      {title: "by car", value: google.maps.DirectionsTravelMode.DRIVING},
+      {title: "by transit", value: google.maps.DirectionsTravelMode.TRANSIT},
+      {title: "by bike", value: google.maps.DirectionsTravelMode.BICYCLING},
+      {title: "on foot", value: google.maps.DirectionsTravelMode.WALKING}
     ],
 
     freezeDestination: false,
@@ -272,23 +272,31 @@
         .attr("class", "title")
         .html(this.options.travelModeTitle || "");
 
-      travelMode.append("select")
-        .attr("class", "mode")
-        .on("change", function() {
-          var mode = this.options[this.selectedIndex].value;
-          that.setTravelMode(mode);
-        })
-        .selectAll("option")
+      var modes = travelMode.append("div")
+        .attr("class", "travel-modes")
+        .selectAll("span.mode")
           .data(this.options.travelModes)
           .enter()
-          .append("option")
-            .attr("value", function(d) { return d.value; })
-            .text(function(d) { return d.title; })
-            .attr("selected", function(d) {
-              return d.value === that._request.travelMode
-                ? "selected"
-                : null;
+          .append("a")
+            .attr("href", function(d) {
+              return "#mode=" + d.value.toLowerCase();
+            })
+            .attr("class", function(d) {
+              return ["mode", d.value.toLowerCase()].join(" ");
+            })
+            .classed("selected", function(d) {
+              return d.value === that._request.travelMode;
+            })
+            .on("click", function(d) {
+              d3.event.preventDefault();
+              that.setTravelMode(d.value);
+              modes.classed("selected", function(o) {
+                return o.value === d.value;
+              });
             });
+
+      modes.append("span")
+        .text(function(d) { return d.title; });
 
       /*
        * travel time inputs
