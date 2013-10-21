@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.trip-planner {
+  color: #666;
+}
+
 /* Google map pin icons */
 .trip-planner .inputs img.point {
   display: inline-block;
@@ -27,6 +31,25 @@
 .trip-planner .column.half { width: 50%; }
 .trip-planner .column.one-third { width: 40%; }
 .trip-planner .column.two-thirds { width: 60%; }
+
+.trip-planner .section {
+  margin-bottom: 20px;
+}
+
+.trip-planner .section .title {
+  color: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+.trip-planner .maps {
+  display: none;
+}
+
+.trip-planner.routed .maps {
+  display: block;
+}
 
 .trip-planner .map {
   width: 100%;

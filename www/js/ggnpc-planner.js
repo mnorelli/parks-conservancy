@@ -172,9 +172,9 @@
             .attr("class", "trip-planner"),
           inputs = form.append("div")
             .attr("class", "inputs row"),
-          originInputs = inputs.append("div")
+          originColumn = inputs.append("div")
             .attr("class", "origin column " + this.options.originColumnSize),
-          destInputs = inputs.append("div")
+          destColumn = inputs.append("div")
             .attr("class", "destination column " + this.options.destColumnSize),
           mapRoot = form.append("div")
             .attr("class", "maps row"),
@@ -195,14 +195,15 @@
           nearbyPanel = directionsRoot.append("div")
             .attr("class", "nearby-panel column half");
 
-      originInputs.append("h3")
+
+      var originSection = originColumn.append("div")
+        .attr("class", "origin-field section");
+
+      originSection.append("h3")
         .attr("class", "title")
         .html(this.options.originTitle || "");
 
-      var originField = originInputs.append("div")
-        .attr("class", "origin-field");
-
-      var originLabel = originField.append("p")
+      var originLabel = originSection.append("p")
         .append("label");
       originLabel
         .append("input")
@@ -217,8 +218,8 @@
             that.setOrigin(this.value);
           });
 
-      var travelTime = originInputs.append("div")
-        .attr("class", "travel-time");
+      var travelTime = originColumn.append("div")
+        .attr("class", "travel-time section");
 
       travelTime.append("h3")
         .attr("class", "title")
@@ -228,8 +229,8 @@
         .attr("class", "date-picker")
         .call(this._setupDatePicker, this);
 
-      var travelMode = originInputs.append("div")
-        .attr("class", "travel-mode");
+      var travelMode = originColumn.append("div")
+        .attr("class", "travel-mode section");
 
       travelMode.append("h3")
         .attr("class", "title")
@@ -253,20 +254,18 @@
                 : null;
             });
 
-      destInputs = destInputs.append("div")
-        .attr("class", "section");
+      var destSection = destColumn.append("div")
+        .attr("class", "destination section");
 
-      destInputs.append("h3")
+      destSection.append("h3")
         .attr("class", "title")
         .html(this.options.destTitle || "");
-
-      var destLabel = destInputs.append("label");
 
       this._locationsById = {};
 
       if (Array.isArray(this.options.destinationOptions)) {
 
-        var destSelect = destLabel.append("select")
+        var destSelect = destSection.append("select")
           .attr("class", "destination")
           .attr("name", "destination")
           .on("change", function() {
@@ -326,7 +325,7 @@
 
       } else {
 
-        destLabel.append("input")
+        destSection.append("input")
           .attr("class", "destination")
           .attr("tabindex", 2)
           .attr({
@@ -340,7 +339,7 @@
 
       }
 
-      destInputs.append("input")
+      destSection.append("input")
         .attr("class", "submit")
         .attr("tabindex", 3)
         .attr({
@@ -393,6 +392,7 @@
           dateWrapper = selection.append("span")
             .attr("class", "date"),
           dateButton = dateWrapper.append("a")
+            .attr("class", "date-toggle")
             .text(dateFormat(now))
             .on("click", function() {
               d3.event.preventDefault();
