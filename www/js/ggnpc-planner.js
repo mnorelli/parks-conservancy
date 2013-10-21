@@ -74,9 +74,20 @@
     root = d3.select(root)
       .classed("loading", true);
 
+    var message = root.append("p")
+      .attr("class", "loading-message")
+      .text("Loading the trip planner...");
+
     // console.log("loading destinations...");
     loader.load(function(error, locations) {
-      if (error) return console.error("unable to load locations:", error);
+      if (error) {
+        message.text("Unable to load locations!");
+        return console.error("unable to load locations:", error);
+      }
+
+      message
+        .text("Loaded " + locations.length + " locations!")
+        .remove();
 
       console.log("loaded", locations.length, "locations");
       destinations = locations;
