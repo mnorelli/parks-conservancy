@@ -207,6 +207,7 @@
       originLabel
         .append("input")
           .attr("class", "origin")
+          .attr("tabindex", 1)
           .attr({
             type: "text",
             name: "origin",
@@ -327,6 +328,7 @@
 
         destLabel.append("input")
           .attr("class", "destination")
+          .attr("tabindex", 2)
           .attr({
             type: "text",
             name: "destination",
@@ -340,6 +342,7 @@
 
       destInputs.append("input")
         .attr("class", "submit")
+        .attr("tabindex", 3)
         .attr({
           type: "submit",
           value: "Go!"
@@ -389,7 +392,7 @@
             }),
           dateWrapper = selection.append("span")
             .attr("class", "date"),
-          dateButton = dateWrapper.append("button")
+          dateButton = dateWrapper.append("a")
             .text(dateFormat(now))
             .on("click", function() {
               d3.event.preventDefault();
