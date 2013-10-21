@@ -29,6 +29,10 @@
 
     originTitle: "Where are you coming from?",
     originColumnSize: "one-third",
+
+    travelTimeTitle: "When do you want to leave?",
+    travelModeTitle: "How will you travel?",
+
     destTitle: "Going to...",
     destColumnSize: "two-thirds",
 
@@ -160,7 +164,9 @@
     //
     _setupDom: function() {
       var that = this,
-          root = d3.select(this.root),
+          root = d3.select(this.root)
+            .classed("has-origin", !!this.getOrigin())
+            .classed("has-destination", !!this.getDestination()),
           form = this._form = root.append("form")
             .attr("target", "#")
             .attr("class", "trip-planner"),
@@ -193,12 +199,11 @@
         .attr("class", "title")
         .html(this.options.originTitle || "");
 
-      var originLabel = originInputs.append("p")
+      var originField = originInputs.append("div")
+        .attr("class", "origin-field");
+
+      var originLabel = originField.append("p")
         .append("label");
-      originLabel.append("img")
-        .attr("src", this.options.pointImageUrls.origin)
-        .attr("class", "point")
-        .attr("title", "origin");
       originLabel
         .append("input")
           .attr("class", "origin")
@@ -211,17 +216,50 @@
             that.setOrigin(this.value);
           });
 
+      var travelTime = originInputs.append("div")
+        .attr("class", "travel-time");
+
+      travelTime.append("h3")
+        .attr("class", "title")
+        .html(this.options.travelTimeTitle || "");
+
+      travelTime.append("div")
+        .attr("class", "date-picker")
+        .call(this._setupDatePicker, this);
+
+      var travelMode = originInputs.append("div")
+        .attr("class", "travel-mode");
+
+      travelMode.append("h3")
+        .attr("class", "title")
+        .html(this.options.travelModeTitle || "");
+
+      travelMode.append("select")
+        .attr("class", "mode")
+        .on("change", function() {
+          var mode = this.options[this.selectedIndex].value;
+          that.setTravelMode(mode);
+        })
+        .selectAll("option")
+          .data(this.options.travelModes)
+          .enter()
+          .append("option")
+            .attr("value", function(d) { return d.value; })
+            .text(function(d) { return d.title; })
+            .attr("selected", function(d) {
+              return d.value === that._request.travelMode
+                ? "selected"
+                : null;
+            });
+
+      destInputs = destInputs.append("div")
+        .attr("class", "section");
+
       destInputs.append("h3")
         .attr("class", "title")
         .html(this.options.destTitle || "");
 
-      destInputs = destInputs.append("p");
-
       var destLabel = destInputs.append("label");
-      destLabel.append("img")
-        .attr("src", this.options.pointImageUrls.destination)
-        .attr("class", "point")
-        .attr("title", "destination");
 
       this._locationsById = {};
 
@@ -300,28 +338,6 @@
 
       }
 
-      destInputs.append("select")
-        .attr("class", "mode")
-        .on("change", function() {
-          var mode = this.options[this.selectedIndex].value;
-          that.setTravelMode(mode);
-        })
-        .selectAll("option")
-          .data(this.options.travelModes)
-          .enter()
-          .append("option")
-            .attr("value", function(d) { return d.value; })
-            .text(function(d) { return d.title; })
-            .attr("selected", function(d) {
-              return d.value === that._request.travelMode
-                ? "selected"
-                : null;
-            });
-
-      destInputs.append("span")
-        .attr("class", "date-picker")
-        .call(this._setupDatePicker, this);
-
       destInputs.append("input")
         .attr("class", "submit")
         .attr({
@@ -329,11 +345,7 @@
           value: "Go!"
         });
 
-      var nearbyTitle = nearbyPanel.append("h3");
-      nearbyTitle.append("img")
-        .attr("class", "icon")
-        .attr("src", this.options.pointImageUrls.destination);
-      nearbyTitle.append("span")
+      var nearbyTitle = nearbyPanel.append("h3")
         .text("Nearby");
 
       nearbyPanel.append("div")
