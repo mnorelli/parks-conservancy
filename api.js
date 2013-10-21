@@ -214,7 +214,7 @@ function autoExpand(resultsObj, callback){
         q.drain = function() {
             resultsObj.geojson = geojson;
             callback(null, resultsObj);
-        }
+        };
 
         q.push(tasks, function (err, data) {});
 
@@ -577,8 +577,177 @@ var getItemsFromBBox = function(req, res, next){
     });
 };
 
-var getRecordByUrl = function(req, res, next){
 
+
+/**
+ *
+ */
+
+ function getGeojsonForRecord(resultsObj, callback){
+     //var item = resultsObj.results[0];
+     var tasks = [];
+     var found = {};
+     var parkboundaries = [];
+     var trails = [];
+     var geojson = [];
+     resultsObj.results.forEach(function(item){
+
+         if(item && item.hasOwnProperty('attributes')){
+             if(item.kind == 'park' && item.attributes.filename){
+                 if(!found[item.attributes.filename]){
+                     found[item.attributes.filename] = 1;
+                     parkboundaries.push(item.attributes.filename);
+                 }
+
+             }
+             if(item.kind == 'location' && item.attributes.parklocationtype && item.attributes.parklocationtype == 'Trailhead'){
+                 if(!found[item.attributes.title]){
+                     trails.push(item.attributes.title);
+                 }
+             }
+
+
+             /*
+             if(item.attributes && item.attributes.relatedpark){
+                 var parkid = item.attributes.relatedpark;
+                 if(!relatedparks[parkid]){
+                     relatedparks[parkid] = 1;
+                     var where = "where attributes->'id' = $1";
+                     var params = [parkid];
+
+                     var task = {
+
+                     }
+                     db.baseQuery(['*'], where, params, '', '', function(err, data){
+                         if(err){
+                             cb();
+                         }else{
+                             attrs_[prop_] = data.results[0].attributes;
+                             cb();
+                         }
+                     });
+
+                 }
+             }*/
+
+         }
+     });
+
+     if(parkboundaries.length){
+         var arr = [];
+         for(var i = 1; i <= parkboundaries.length; i++) {
+             arr.push('$'+i);
+         }
+         var where = "WHERE convio_filename IN (" + arr.join(',') + ")";
+         var params = parkboundaries;
+
+         var task = {
+             prop: geojson,
+             attrs:'',
+             query: function(attrs_, prop_, cb){
+                 db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
+                     if(err){
+                         cb();
+                     }else{
+                         prop_.push(out);
+                         cb();
+                     }
+                 });
+             }
+         }
+         tasks.push(task);
+     }
+
+     if(tasks.length){
+         var q = async.queue(function (task, qcallback) {
+
+             task.query(task.attrs, task.prop, function(err){
+                 qcallback();
+             });
+
+         }, 2);
+
+         q.drain = function() {
+             resultsObj.geojson = geojson;
+             callback(null, resultsObj);
+         };
+
+         q.push(tasks, function (err, data) {});
+
+     }else{
+         resultsObj.geojson = geojson;
+         callback(null, resultsObj);
+     }
+
+ };
+
+
+var getRecordByUrl = function(req, res, next){
+    var url = req.params.url || null;
+    console.log("URL: ", url);
+    if(!url){
+        res.json(200, {error: 'invalid parameters'});
+    }else{
+        url = '%' + url;
+        var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes->'url' LIKE $1";
+        var params = [url];
+        db.runQuery(query, params, function(err, data){
+            if(data){
+
+                var results = db.processResult('',data);
+                getGeojsonForRecord(results, function(err, data){
+                    // this should only return data
+                    if(err){
+                        res.json(200, err);
+                    }else{
+                        res.json(200, data);
+                    }
+
+                });
+
+            }else{
+                res.json(200, err);
+            }
+        });
+    }
+};
+
+var getRecordByAttribute = function(req, res, next){
+    var attr = req.params.attribute || null;
+    var value = req.params.value || null;
+
+    if(!attr){
+        res.json(200, {error: 'invalid parameters'});
+    }else{
+        var query,
+            params;
+        if(value){
+            params = [attr,value];
+            query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes->$1=$2";
+        }else{
+            params = [attr];
+            query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes ? $1";
+        }
+
+        db.runQuery(query, params, function(err, data){
+            if(data){
+
+                var results = db.processResult('',data);
+                getGeojsonForRecord(results, function(err, data){
+                    // this should only return data
+                    if(err){
+                        res.json(200, err);
+                    }else{
+                        res.json(200, data);
+                    }
+
+                });
+
+            }else{
+                res.json(200, err);
+            }
+        });
+    }
 }
 
 
@@ -588,8 +757,12 @@ server.use(restify.CORS());
 server.use(restify.fullResponse());
 server.use(restify.gzipResponse());
 
-// API Method
-//server.get('/record/url/:url', getRecordByUrl)
+// API Methods
+
+server.get('/record/attribute/:attribute', getRecordByAttribute); // no value expected
+server.get('/record/attribute/:attribute/:value', getRecordByAttribute); // w/ value expected
+
+server.get('/record/url/:url', getRecordByUrl) // get a record by the url property
 server.get('/kind/:kind', getByKind);
 server.get('/:kind/name/:name', getByName);
 server.get('/:kind/file/:file', getByFilename);
