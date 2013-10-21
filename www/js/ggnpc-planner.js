@@ -172,6 +172,9 @@
       this._travelTime = this._coerceDate(this.options.departureTime) || new Date();
 
       this.directions = new google.maps.DirectionsService();
+
+      this._locationsById = {};
+
       this._setupDom();
 
       if (this.options.bounds) {
@@ -241,30 +244,27 @@
         .attr("class", "title")
         .html(this.options.originTitle || "");
 
-      originSection.append("div")
-        .append("input")
-          .attr("class", "origin")
-          .attr("tabindex", 1)
-          .attr({
-            type: "text",
-            name: "origin",
-            value: this._request.origin
-          })
-          .on("change", function() {
-            that.setOrigin(this.value);
-          });
+      var originRow = originSection.append("div");
 
-      var travelTime = originColumn.append("div")
-        .attr("class", "travel-time section");
+      originRow.append("img")
+        .attr("class", "point")
+        .attr("src", this.options.pointImageUrls.origin);
 
-      travelTime.append("h3")
-        .attr("class", "title")
-        .html(this.options.travelTimeTitle || "");
+      originRow.append("input")
+        .attr("class", "origin")
+        .attr("tabindex", 1)
+        .attr({
+          type: "text",
+          name: "origin",
+          value: this._request.origin
+        })
+        .on("change", function() {
+          that.setOrigin(this.value);
+        });
 
-      travelTime.append("div")
-        .attr("class", "date-picker")
-        .call(this._setupDatePicker, this);
-
+      /*
+       * travel mode inputs
+       */
       var travelMode = originColumn.append("div")
         .attr("class", "travel-mode section");
 
@@ -290,6 +290,20 @@
                 : null;
             });
 
+      /*
+       * travel time inputs
+       */
+      var travelTime = originColumn.append("div")
+        .attr("class", "travel-time section");
+
+      travelTime.append("h3")
+        .attr("class", "title")
+        .html(this.options.travelTimeTitle || "");
+
+      travelTime.append("div")
+        .attr("class", "date-picker")
+        .call(this._setupDatePicker, this);
+
       var destSection = destColumn.append("div")
         .attr("class", "destination section");
 
@@ -297,17 +311,21 @@
         .attr("class", "title")
         .html(this.options.destTitle || "");
 
-      this._locationsById = {};
+      var destRow = destSection.append("div");
+
+      destRow.append("img")
+        .attr("class", "point")
+        .attr("src", this.options.pointImageUrls.destination);
 
       if (this.options.freezeDestination) {
 
-        var destText = destSection.append("span")
+        var destText = destRow.append("span")
           .attr("class", "destination frozen")
           .text(this.getDestinationTitle());
 
       } else if (Array.isArray(this.options.destinationOptions)) {
 
-        var destSelect = destSection.append("select")
+        var destSelect = destRow.append("select")
           .attr("class", "destination")
           .attr("name", "destination")
           .attr("tabindex", 2)
@@ -368,7 +386,7 @@
 
       } else {
 
-        destSection.append("input")
+        destRow.append("input")
           .attr("class", "destination")
           .attr("tabindex", 2)
           .attr({
@@ -382,7 +400,7 @@
 
       }
 
-      destSection.append("input")
+      destRow.append("input")
         .attr("class", "submit")
         .attr("tabindex", 3)
         .attr({
