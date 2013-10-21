@@ -36,6 +36,8 @@
     destTitle: "Going to...",
     destColumnSize: "two-thirds",
 
+    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take <b>about <span class="duration"></span></b> to get there. ',
+
     travelModes: [
       {title: "Driving", value: google.maps.DirectionsTravelMode.DRIVING},
       {title: "Transit", value: google.maps.DirectionsTravelMode.TRANSIT},
@@ -73,13 +75,13 @@
       .classed("loading", true);
 
     // console.log("loading destinations...");
-    /*
     loader.load(function(error, locations) {
       if (error) return console.error("unable to load locations:", error);
 
       console.log("loaded", locations.length, "locations");
       destinations = locations;
 
+      /*
       GGNPC.planner.BespokeDirections.load(bespokeSheetId, function(error, rowsByFilename) {
         destinations.forEach(function(d) {
           if (d.filename in rowsByFilename) {
@@ -87,12 +89,12 @@
           }
         });
       });
+      */
 
       initialize();
     });
-    */
 
-    initialize();
+    // initialize();
 
     function initialize() {
       root.classed("loading", false);
@@ -112,9 +114,12 @@
         }
       }
 
+      /*
       planner.addListener("origin", autoRoute);
-      planner.addListener("destination", autoRoute);
       planner.addListener("travelMode", autoRoute);
+      */
+
+      planner.addListener("destination", autoRoute);
 
       planner.addListener("route", function(route) {
         console.log("routed:", route);
@@ -141,7 +146,8 @@
   TripPlanner.prototype = utils.extend(new google.maps.MVCObject(), {
     // the constructor
     initialize: function(root, options) {
-      this.root = utils.coerceElement(root);
+      this.root = utils.coerceElement(root).appendChild(document.createElement("div"));
+      this.root.className = "trip-planner";
       this.options = utils.extend({}, TripPlanner.defaults, options);
 
       this._request = {
@@ -168,8 +174,7 @@
             .classed("has-origin", !!this.getOrigin())
             .classed("has-destination", !!this.getDestination()),
           form = this._form = root.append("form")
-            .attr("target", "#")
-            .attr("class", "trip-planner"),
+            .attr("target", "#"),
           inputs = form.append("div")
             .attr("class", "inputs row"),
           originColumn = inputs.append("div")
@@ -177,7 +182,9 @@
           destColumn = inputs.append("div")
             .attr("class", "destination column " + this.options.destColumnSize),
           mapRoot = form.append("div")
-            .attr("class", "maps row"),
+            .attr("class", "maps hide-default")
+            .append("div")
+              .attr("class", "row"),
           originMapRoot = mapRoot.append("div")
             .attr("class", "map origin column " + this.options.originColumnSize),
           destMapRoot = mapRoot.append("div")
@@ -185,16 +192,25 @@
           tripInfo = form.append("div")
             .attr("class", "row trip-info"),
           tripDesc = tripInfo.append("span")
-            .attr("class", "trip-desc"),
+            .attr("class", "trip-desc")
+            .html(this.options.tripDescriptionHTML),
           linksRoot = tripInfo.append("span")
             .attr("class", "links"),
           directionsRoot = form.append("div")
             .attr("class", "row directions"),
           directionsPanel = directionsRoot.append("div")
-            .attr("class", "directions-panel column half"),
-          nearbyPanel = directionsRoot.append("div")
+            .attr("class", "google-directions"),
+          destInfoRow = form.append("div")
+            .attr("class", "row dest-info-row"),
+          destInfoBlock = destInfoRow.append("div")
+            .attr("class", "dest-info column half"),
+          nearbyBlock = destInfoRow.append("div")
             .attr("class", "nearby-panel column half");
 
+      var toggleDirectionsLink = tripDesc.append("a")
+        .attr("class", "toggle-directions")
+        .html("Show directions")
+        .call(makeToggle, directionsPanel, "Hide directions");
 
       var originSection = originColumn.append("div")
         .attr("class", "origin-field section");
@@ -268,6 +284,7 @@
         var destSelect = destSection.append("select")
           .attr("class", "destination")
           .attr("name", "destination")
+          .attr("tabindex", 2)
           .on("change", function() {
             var dest = d3.select(this.options[this.selectedIndex]).datum();
             that.setDestination(dest);
@@ -347,10 +364,10 @@
           value: "Go!"
         });
 
-      var nearbyTitle = nearbyPanel.append("h3")
+      var nearbyTitle = nearbyBlock.append("h3")
         .text("Nearby");
 
-      nearbyPanel.append("div")
+      nearbyBlock.append("div")
         .attr("class", "nearby-locations");
 
       this.originMap = new ggnpc.maps.Map(originMapRoot.node(), this.options.originMap);
@@ -686,7 +703,10 @@
         .selectAll(".location")
         .remove();
 
-      root.select(".links")
+      root.selectAll(".links a.custom")
+        .remove();
+
+      root.select(".dest-info")
         .text("");
 
       // this.originMap.directionsDisplay.setDirections(null);
@@ -697,10 +717,17 @@
       google.maps.event.trigger(this, "route", response);
 
       var route = response.routes[0],
-          leg0 = route.legs[0],
-          legN = route.legs[route.legs.length - 1],
-          start = leg0.start_location,
-          end = legN.end_location;
+          leg = route.legs[0],
+          start = leg.start_location,
+          end = leg.end_location;
+
+      var root = d3.select(this.root);
+
+      var tripDesc = root.select(".trip-desc");
+      tripDesc.select(".distance")
+        .text(leg.distance.text.replace(/ mi$/, " miles"));
+      tripDesc.select(".duration")
+        .text(leg.duration.text.replace(/ mins$/, " minutes"));
 
       this.originMap.directionsDisplay.setDirections(response);
       this.originMap.setZoom(this.options.originMap.zoom || 15);
@@ -762,9 +789,9 @@
 
       console.log("link params:", params);
 
-      var links = linkRoot.selectAll("a")
+      var links = linkRoot.selectAll("a.custom")
         .data([
-          {html: "Directions in Google Maps"}
+          {html: "View in Google Maps"}
         ])
         .enter()
         .append("a")
@@ -1096,6 +1123,27 @@
 
   function quantize(n, f) {
     return f * Math.round(n / f);
+  }
+
+  function makeToggle(selection, target, activeText) {
+    var offText = selection.html();
+
+    selection
+      .classed("toggle", true)
+      .on("click", function() {
+        d3.event.preventDefault();
+
+        var that = d3.select(this),
+            active = !that.classed("active");
+        that.classed("active", active);
+
+        if (active && activeText) that.html(activeText);
+        else if (!active && offText) that.html(offText);
+
+        target.style("display", active ? null : "none");
+      });
+
+    target.style("display", selection.classed("active") ? null : "none");
   }
 
 })(this);

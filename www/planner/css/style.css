@@ -7,6 +7,14 @@
   color: #666;
 }
 
+.trip-planner a {
+  cursor: pointer;
+}
+
+.trip-planner b {
+  font-weight: bold;
+}
+
 /* Google map pin icons */
 .trip-planner .inputs img.point {
   display: inline-block;
@@ -43,12 +51,22 @@
   margin: 0 0 10px 0;
 }
 
-.trip-planner .maps {
-  display: none;
+.trip-planner .hide-default {
+  height: 0;
+  overflow: hidden;
+          transition: 1s height;
+  -webkit-transition: 1s height;
+     -moz-transition: 1s height;
+      -ms-transition: 1s height;
+       -o-transition: 1s height;
+}
+
+.trip-planner.routed .hide-default {
+  height: auto;
 }
 
 .trip-planner.routed .maps {
-  display: block;
+  height: auto;
 }
 
 .trip-planner .map {
@@ -201,15 +219,25 @@
   .date-picker table.calendar tfoot button {
   }
 
+.trip-planner .trip-info {
+  position: relative;
+  padding: 20px;
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.trip-planner .links {
+  position: absolute;
+  right: 0;
+}
+
 .trip-planner .links a {
   display: inline-block;
   margin: 0 10px;
-  padding: 5px 0;
 }
 
-.trip-planner .links a:before {
-  content: "∞";
-  font-weight: bold;
-  text-decoration: none !important;
-  margin-right: 5px;
+.trip-planner .links a + a {
+  border-left: 1px solid #666;
+  padding-left: 10px;
+  margin-left: 0;
 }
