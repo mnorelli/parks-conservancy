@@ -72,7 +72,7 @@
     loader.load(function(error, locations) {
       if (error) return console.error("unable to load locations:", error);
 
-      // console.log("loaded", locations.length, "locations");
+      console.log("loaded", locations.length, "locations");
       destinations = locations;
 
       /*
@@ -174,8 +174,12 @@
             .attr("class", "map origin column " + this.options.originColumnSize),
           destMapRoot = mapRoot.append("div")
             .attr("class", "map destination column " + this.options.destColumnSize),
-          linksRoot = form.append("div")
-            .attr("class", "row links"),
+          tripInfo = form.append("div")
+            .attr("class", "row trip-info"),
+          tripDesc = tripInfo.append("span")
+            .attr("class", "trip-desc"),
+          linksRoot = tripInfo.append("span")
+            .attr("class", "links"),
           directionsRoot = form.append("div")
             .attr("class", "row directions"),
           directionsPanel = directionsRoot.append("div")
@@ -525,7 +529,7 @@
 
         var that = this;
         d3.select(this.root)
-          .classed("has-destination", !!this._request.destination);
+          .classed("has-destination", !!this._request.destination)
           .selectAll("select.destination option")
             .attr("selected", function(d) {
               return d === that._request.destination
