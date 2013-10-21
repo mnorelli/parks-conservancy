@@ -69,13 +69,13 @@
       .classed("loading", true);
 
     // console.log("loading destinations...");
+    /*
     loader.load(function(error, locations) {
       if (error) return console.error("unable to load locations:", error);
 
       console.log("loaded", locations.length, "locations");
       destinations = locations;
 
-      /*
       GGNPC.planner.BespokeDirections.load(bespokeSheetId, function(error, rowsByFilename) {
         destinations.forEach(function(d) {
           if (d.filename in rowsByFilename) {
@@ -83,10 +83,12 @@
           }
         });
       });
-      */
 
       initialize();
     });
+    */
+
+    initialize();
 
     function initialize() {
       root.classed("loading", false);
