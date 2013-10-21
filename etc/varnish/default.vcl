@@ -9,10 +9,61 @@ backend s3_cache {
     .port = "80";
 }
 
-backend parks_conservancy {
-    .host = "stamen-parks-tp.herokuapp.com";
-    .port = "80";
+director parks_conservancy round-robin {
+  {
+    .backend = {
+      .host = "107.22.196.175";
+      .port = "http";
+    }
+  }
+  {
+    .backend = {
+      .host = "184.73.211.6";
+      .port = "http";
+    }
+  }
+  {
+    .backend = {
+      .host = "23.21.136.36";
+      .port = "http";
+    }
+  }
+  {
+    .backend = {
+      .host = "184.73.192.39";
+      .port = "http";
+    }
+  }
+  {
+    .backend = {
+      .host = "54.225.208.28";
+      .port = "http";
+    }
+  }
+  {
+    .backend = {
+      .host = "23.23.245.47";
+      .port = "http";
+    }
+  }
+  {
+    .backend = {
+      .host = "50.17.233.187";
+      .port = "http";
+    }
+  }
+  {
+    .backend = {
+      .host = "107.20.245.78";
+      .port = "http";
+    }
+  }
 }
+
+# backend parks_conservancy {
+#     .host = "ggnpc-tp.herokuapp.com";
+#     .port = "80";
+# }
 
 # Below is a commented-out copy of the default VCL logic.  If you
 # redefine any of these subroutines, the built-in logic will be
@@ -25,7 +76,7 @@ sub vcl_recv {
     } else {
         set req.backend = parks_conservancy;
         # rewrite the Host header so Heroku recognizes it
-        set req.http.host = "stamen-parks-tp.herokuapp.com";
+        set req.http.host = "ggnpc-tp.herokuapp.com";
     }
 
     # serve stable objects
@@ -107,9 +158,10 @@ sub vcl_fetch {
     unset beresp.http.x-amz-id-2;
     unset beresp.http.x-amz-request-id;
 
-    if (beresp.status == 200) {
-      # keep objects for 90d (we'll be invalidating them directly)
-      set beresp.ttl = 90d;
+    if (beresp.status == 200 &&
+        beresp.http.X-Incomplete != "true") {
+        # keep objects for 90d (we'll be invalidating them directly)
+        set beresp.ttl = 90d;
     }
 
     return (deliver);
