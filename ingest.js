@@ -15,12 +15,6 @@ var ARGV = opts.argv;
 var testKind = 'all';
 
 
-var DEBUG = true;
-var DEBUGLEVEL = 2;
-var logger = function(level, msg){
-    if(DEBUG && level >= DEBUGLEVEL)console.log(msg);
-}
-
 
 var CONN;
 // check if running on Heroku
@@ -41,7 +35,6 @@ if(process.env.DYNO){
 
 
 var XML_PATH = process.env.XML_PATH;
-
 var defs = require("./lib/template_definitions.js")();
 
 var convio_types =[
@@ -144,7 +137,7 @@ var parseItem = function(item, mapper){
             try{
                 value = et.parse( item.findtext(mapper.query) ).getroot().get(mapper.attr);
             }catch(e){
-                logger(1, ('[Error] - Could not find attribute of the child. ( ' + mapper.query + ' )'));
+                console.log('[Error] - Could not find attribute of the child. ( ' + mapper.query + ' )');
             }
 
         }else{
@@ -152,7 +145,7 @@ var parseItem = function(item, mapper){
             try{
                 value = item.get(mapper.attr)
             }catch(e){
-                logger(1, '[Error] - Could not find attribute of the item.');
+                console.log('[Error] - Could not find attribute of the item.');
             }
 
         }
@@ -162,7 +155,7 @@ var parseItem = function(item, mapper){
         try{
             value = item.findtext(mapper.query);
         }catch(e){
-            logger(1, '[Error] - Could not find text.');
+            console.log('[Error] - Could not find text.');
         }
 
     }
@@ -184,7 +177,7 @@ var parseItem = function(item, mapper){
     }
 
     return value;
-}
+};
 
 // find nodes by query
 var findNodes = function(xml){
@@ -248,15 +241,19 @@ var loadXmlFile = function(callback){
     request(XML_PATH, function (error, response, body) {
         if (!error && response.statusCode == 200) {
 
-            var xml = et.parse(body.toString());
-            callback(xml);
+            try{
+                var xml = et.parse(body.toString());
+                callback(xml);
+            }catch(e){
+                console.log(e);
+            }
 
         }else{
 
             callback(null);
         }
     });
-}
+};
 
 var run = function(){
 
@@ -277,14 +274,14 @@ var run = function(){
             if(xml){
                 client.query('BEGIN', function(err) {
                     if(err){
-                        logger(2, err);
+                        console.log(err);
                         return rollback(client, done);
                     }
 
                     process.nextTick(function() {
                         client.query('TRUNCATE convio',function(err) {
                             if(err){
-                                logger(2, err);
+                                console.log( err);
                                 return rollback(client, done);
                             }
 
@@ -298,31 +295,31 @@ var run = function(){
                                     var attrsString = hstore.stringify(node.attributes),
                                         kind = node.kind;
 
-                                    logger(2, '(' + nodes.length + ') -- ' + kind + ' -- ' + attrsString);
+                                    console.log( '(' + nodes.length + ') -- ' + kind + ' -- ' + attrsString);
 
                                     client.query('INSERT INTO convio (kind, attributes) VALUES ($1, $2)', [kind, attrsString], function(err, result) {
 
                                         if(err){
                                             console.log("PROBLEM WITH THE INSERT")
 
-                                            logger(2, err);
+                                            console.log( err);
                                             return rollback(client, done);
                                         }
 
                                         insertNode();
                                     });
                                 }else{
-                                    logger(2, "ABOUT TO COMMIT: ");
-                                    logger(2, '-----------------------------');
+                                    console.log( "ABOUT TO COMMIT: ");
+                                    console.log( '-----------------------------');
 
                                     client.query('COMMIT', function(err){
                                         if(err){
-                                            logger(2, "COMMIT ERROR");
+                                            console.log( "COMMIT ERROR");
                                         }else{
-                                            logger(2, 'COMMIT DONE!');
+                                            console.log( 'COMMIT DONE!');
                                         }
 
-                                        logger(2, '');
+                                        console.log( '');
 
                                         console.log(summary);
                                         done();
@@ -364,11 +361,12 @@ var groupProperty = function(items, prop){
 var dryrun = function(){
     loadXmlFile(function(xml){
         if (xml){
-            var nodes = findNodes(xml);
-            console.log(summary);
+            console.log("XML PARSED!")
+            //var nodes = findNodes(xml);
+            //console.log(summary);
         }
     });
-}
+};
 
 run();
 //dryrun();

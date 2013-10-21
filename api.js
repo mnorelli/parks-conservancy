@@ -577,6 +577,10 @@ var getItemsFromBBox = function(req, res, next){
     });
 };
 
+var getRecordByUrl = function(req, res, next){
+
+}
+
 
 // server setup
 var server = restify.createServer();
@@ -584,7 +588,8 @@ server.use(restify.CORS());
 server.use(restify.fullResponse());
 server.use(restify.gzipResponse());
 
-// API Methods
+// API Method
+//server.get('/record/url/:url', getRecordByUrl)
 server.get('/kind/:kind', getByKind);
 server.get('/:kind/name/:name', getByName);
 server.get('/:kind/file/:file', getByFilename);
