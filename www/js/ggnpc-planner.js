@@ -45,6 +45,7 @@
       {title: "Walking", value: google.maps.DirectionsTravelMode.WALKING}
     ],
 
+    freezeDestination: false,
     destinationOptions: [],
 
     pointImageUrls: {
@@ -114,7 +115,8 @@
         origin: hash.from, // || "2017 Mission St, SF",
         destination: hash.to,
         travelMode: hash.mode,
-        destinationOptions: destinations
+        destinationOptions: destinations,
+        freezeDestination: hash.to && hash.freeze === true
       });
 
       autoRoute();
@@ -239,9 +241,7 @@
         .attr("class", "title")
         .html(this.options.originTitle || "");
 
-      var originLabel = originSection.append("p")
-        .append("label");
-      originLabel
+      originSection.append("div")
         .append("input")
           .attr("class", "origin")
           .attr("tabindex", 1)
@@ -299,7 +299,13 @@
 
       this._locationsById = {};
 
-      if (Array.isArray(this.options.destinationOptions)) {
+      if (this.options.freezeDestination) {
+
+        var destText = destSection.append("span")
+          .attr("class", "destination frozen")
+          .text(this.getDestinationTitle());
+
+      } else if (Array.isArray(this.options.destinationOptions)) {
 
         var destSelect = destSection.append("select")
           .attr("class", "destination")
@@ -574,6 +580,13 @@
 
     getDestination: function() {
       return this._request.destination;
+    },
+
+    getDestinationTitle: function(dest) {
+      if (!dest) dest = this.getDestination();
+      return (typeof dest === "string")
+        ? dest
+        : dest.title;
     },
 
     getDestinationString: function(dest) {
