@@ -190,7 +190,9 @@
           destMapRoot = mapRoot.append("div")
             .attr("class", "map destination column " + this.options.destColumnSize),
           tripInfo = form.append("div")
-            .attr("class", "row trip-info"),
+            .attr("class", "trip-info-wrapper hide-default")
+            .append("div")
+              .attr("class", "row trip-info"),
           tripDesc = tripInfo.append("span")
             .attr("class", "trip-desc")
             .html(this.options.tripDescriptionHTML),
@@ -201,11 +203,18 @@
           directionsPanel = directionsRoot.append("div")
             .attr("class", "google-directions"),
           destInfoRow = form.append("div")
-            .attr("class", "row dest-info-row"),
+            .append("div")
+              .attr("class", "dest-info-wrapper hide-default")
+              .append("div")
+                .attr("class", "row dest-info-row hide-default"),
           destInfoBlock = destInfoRow.append("div")
-            .attr("class", "dest-info column half"),
+            .attr("class", "dest-info column half")
+            .append("div")
+              .attr("class", "section"),
           nearbyBlock = destInfoRow.append("div")
-            .attr("class", "nearby-panel column half");
+            .attr("class", "nearby-panel column half")
+            .append("div")
+              .attr("class", "section");
 
       var toggleDirectionsLink = tripDesc.append("a")
         .attr("class", "toggle-directions")
@@ -365,10 +374,17 @@
         });
 
       var nearbyTitle = nearbyBlock.append("h3")
+        .attr("class", "title")
         .text("Nearby");
 
       nearbyBlock.append("div")
         .attr("class", "nearby-locations");
+
+      destInfoBlock.append("h3")
+        .attr("class", "title");
+      destInfoBlock.append("address");
+      destInfoBlock.append("p")
+        .attr("class", "description");
 
       this.originMap = new ggnpc.maps.Map(originMapRoot.node(), this.options.originMap);
       this.destMap = new ggnpc.maps.Map(destMapRoot.node(), this.options.destMap);
@@ -707,7 +723,8 @@
         .remove();
 
       root.select(".dest-info")
-        .text("");
+        .selectAll(".title, address, .description")
+          .text("");
 
       // this.originMap.directionsDisplay.setDirections(null);
       // this.destMap.directionsDisplay.setDirections(null);
@@ -739,6 +756,7 @@
       this.destMap.setCenter(end);
 
       this._updateLinks(response, request);
+      this._updateDestinationInfo(this._request.destination, leg.end_address);
       this._updateNearbyLocations();
       this._updateBespokeDirections();
     },
@@ -795,12 +813,36 @@
         ])
         .enter()
         .append("a")
+          .attr("class", "custom")
           .attr("target", "_blank")
           .html(function(d) { return d.html; })
           .attr("href", function(d) {
             var p = utils.extend({}, params, d.params);
             return that._getGoogleMapsUrl(p);
           });
+    },
+
+
+    _updateDestinationInfo: function(dest, address) {
+      var info = d3.select(this.root)
+        .select(".dest-info");
+
+      console.log("destination info:", dest);
+
+      if (typeof dest === "object") {
+        info.select(".title")
+          .text(dest.title);
+        info.select(".description")
+          .text(dest.description);
+      } else {
+        info.select(".title")
+          .text(dest);
+        info.select(".desc")
+          .text("");
+      }
+
+      info.select("address")
+        .text(address);
     },
 
     _updateNearbyLocations: function() {
