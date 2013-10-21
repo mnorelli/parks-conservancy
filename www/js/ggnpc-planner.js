@@ -36,7 +36,7 @@
     destTitle: "Going to...",
     destColumnSize: "half",
 
-    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take <b>about <span class="duration"></span></b> to get there <b class="mode">by car</b>. ',
+    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
 
     travelModes: [
       {title: "by car", value: google.maps.DirectionsTravelMode.DRIVING},
@@ -795,6 +795,11 @@
         .text(leg.distance.text.replace(/ mi$/, " miles"));
       tripDesc.select(".duration")
         .text(leg.duration.text.replace(/ mins$/, " minutes"));
+      var mode = this.options.travelModes.filter(function(d) {
+        return d.value === request.travelMode;
+      })[0];
+      tripDesc.select(".mode")
+        .text(mode ? mode.title : "");
 
       this.originMap.directionsDisplay.setDirections(response);
       this.originMap.setZoom(this.options.originMap.zoom || 15);
