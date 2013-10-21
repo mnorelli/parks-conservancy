@@ -500,6 +500,8 @@
     setOrigin: function(origin) {
       if (origin != this._request.origin) {
         this._request.origin = origin;
+        d3.select(this.root)
+          .classed("has-origin", !!origin);
         google.maps.event.trigger(this, "origin", origin);
       }
       return this;
@@ -523,6 +525,7 @@
 
         var that = this;
         d3.select(this.root)
+          .classed("has-destination", !!this._request.destination);
           .selectAll("select.destination option")
             .attr("selected", function(d) {
               return d === that._request.destination
