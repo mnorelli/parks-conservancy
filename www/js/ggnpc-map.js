@@ -249,7 +249,6 @@
       },
 
       _setContext: function(file) {
-
         if (this._contextRequest) this._contextRequest.abort();
 
         d3.select(this._extras)
@@ -261,9 +260,6 @@
         // XXX abstract this in GGNPC.API?
         var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
             that = this;
-
-
-        console.log("URL: ", url);
 
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
@@ -282,7 +278,6 @@
 
       _updateContext: function(data) {
         console.log("mini-map update context:", data);
-
         var that = this;
         // update directions link
         if(data.parent.hasOwnProperty('attributes')){
@@ -296,28 +291,9 @@
                   freeze: true
                 })].join("#");
               });
-
-
         }
-
       },
-      _drawOverlays: function(){
-
-      },
-
-      _bufferBounds: function(bds, amount){
-
-        var ne = bds.getNorthEast(),
-          sw = bds.getSouthWest(),
-          n = ne.lat() + amount,
-          e = ne.lng() + amount,
-          s = sw.lat() - amount,
-          w = sw.lng() - amount;
-
-        console.log(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e))
-
-        return new google.maps.LatLngBounds(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e));
-      }
+      _drawOverlays: function(){}
 
     });
 
@@ -375,7 +351,6 @@
       },
 
       initialize: function(root, options) {
-
         // include drawing tools
         GGNPC.utils.extend(this, GGNPC.overlayTools);
 
@@ -386,9 +361,7 @@
         var root = this.root;
         root.classList.add("big-map");
 
-        //this._setupExtras(root);
-
-
+        this._setupExtras(root);
 
         // window resizing
         this.rootOffsetTop = d3.select(root).node().offsetTop;
@@ -401,6 +374,7 @@
 
         handleWindowResizeProxy();
 
+
         // redraw map
         google.maps.event.trigger(this, "resize");
 
@@ -411,14 +385,11 @@
       },
 
       _handleWindowResize: function(){
+        // width is taken care of in css (width: 100%;)
+        var h = window.innerHeight,
+            mapH = h - (this.rootOffsetTop + this.options.padding.bottom);
 
-        var w = window.innerWidth,
-            h = window.innerHeight,
-            mh = h - (this.rootOffsetTop + this.options.padding.bottom);
-        this.root.style.height =  mh + "px";
-
-
-        console.log(w, h);
+        this.root.style.height =  mapH + "px";
       },
 
       _setContext: function(file) {
@@ -437,7 +408,7 @@
             console.warn("big-map: no such context:", file, error);
             return;
           }
-          // XXX: normalizing data until I fix this in api
+          // XXX: normalizing data until I fix this in API (seanc)
           data.outlines = data.geojson[0] || [];
           data.parent = data.results[0] || {};
 
@@ -446,27 +417,14 @@
           that._contextRequest = null;
         });
       },
-
-      _updateContext: function(){
-
-      },
-
-      _drawOverlays: function(){
+      // XXX: UI elements would be set up here
+      _setupExtras: function(root){
 
       },
+      _updateContext: function(data){
 
-      _bufferBounds: function(bds, amount){
-
-        var ne = bds.getNorthEast(),
-          sw = bds.getSouthWest(),
-          n = ne.lat() + amount,
-          e = ne.lng() + amount,
-          s = sw.lat() - amount,
-          w = sw.lng() - amount;
-
-        console.log(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e))
-
-        return new google.maps.LatLngBounds(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e));
+      },
+      _drawOverlays: function(data){
       }
     });
 
@@ -549,6 +507,19 @@
           }
         }
 
+      },
+      // XXX: not tested or
+      // even the best approach to buffering a Google LatLngBounds object
+      _bufferBounds: function(bds, amount){
+
+        var ne = bds.getNorthEast(),
+          sw = bds.getSouthWest(),
+          n = ne.lat() + amount,
+          e = ne.lng() + amount,
+          s = sw.lat() - amount,
+          w = sw.lng() - amount;
+
+        return new google.maps.LatLngBounds(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e));
       }
     };
 
