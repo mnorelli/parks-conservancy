@@ -134,6 +134,7 @@
       ]
     };
 
+    // FIXME THIS IS SETTING THE MiniMap PROTOTYPE!
     MiniMap.prototype = utils.extend(Map.prototype, {
 
       initialize: function(root, options) {
