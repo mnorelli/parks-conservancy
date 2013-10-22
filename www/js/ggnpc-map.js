@@ -342,7 +342,7 @@
             .select("a.directions")
               .attr("href", function(d) {
                 return [d.href, utils.qs.format({
-                  from: "2017 Mission St, SF CA",
+                  from: null, // "2017 Mission St, SF CA",
                   to: [parent.title, parent.id].join(":"),
                   freeze: true
                 })].join("#");
