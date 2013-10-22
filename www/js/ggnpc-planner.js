@@ -289,6 +289,11 @@
         that.setTravelMode(mode);
       });
 
+      if (!this.getTravelMode()) {
+        var mode = this._modeSelector.getMode();
+        this.setTravelMode(mode);
+      }
+
       /*
        * travel time inputs
        */
@@ -1205,6 +1210,10 @@
 
     getMode: function() {
       return this._mode;
+    },
+
+    getModeAt: function(index) {
+      return this._modes[index];
     },
 
     setMode: function(mode) {
