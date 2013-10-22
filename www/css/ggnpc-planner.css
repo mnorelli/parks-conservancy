@@ -358,3 +358,31 @@
 .text-options.time .content a.hour.current {
   font-weight: bold;
 }
+
+/* XXX outreach stuff */
+.trip-planner .welcome {
+  padding: 10px 20px 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.trip-planner .welcome p {
+  margin: 0 0 20px 0;
+}
+
+.trip-planner .welcome blockquote {
+  color: #000;
+  font-weight: bold;
+  margin: 0 0 20px 40px;
+}
+
+.trip-planner .welcome small {
+  font-size: 11px;
+}
+
+.trip-planner .welcome img {
+  float: right;
+  width: 71px;
+  height: 95px;
+  margin: -10px 0 0 10px;
+}
