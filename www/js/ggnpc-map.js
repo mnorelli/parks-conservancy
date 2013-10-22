@@ -155,11 +155,11 @@
         ],
         outline: {
           fitBounds: true,
-          strokeColor: "#333",
-          strokeOpacity: .4,
-          strokeWeight: 1,
-          fillColor: "#4afb05",
-          fillOpacity: .55,
+          strokeColor: 'none',
+          strokeOpacity: 1,
+          strokeWeight: 0,
+          fillColor: '#5AB95D',
+          fillOpacity: .8,
           zIndex: 1000
         },
         markers: {
@@ -338,11 +338,11 @@
         ],
         outline: {
           fitBounds: true,
-          strokeColor: "#333",
-          strokeOpacity: .4,
-          strokeWeight: 1,
-          fillColor: "#4afb05",
-          fillOpacity: .55,
+          strokeColor: '#5AB95D',
+          strokeOpacity: 1,
+          strokeWeight: 4,
+          fillColor: 'none',
+          fillOpacity: 0,
           zIndex: 1000
         },
         markers: {
