@@ -24,7 +24,7 @@
       var map = this,
           url = ggnpc.maps.Map.defaults.apiUrl + "kind/location";
 
-      console.log("loading:", url);
+      // console.log("loading:", url);
       d3.json(url, function(error, data) {
         var allLocations = data.results
               .map(function(d) { return d.attributes; }),
@@ -35,7 +35,7 @@
             locations = ids.map(function(id) {
               return locationsById[id];
             });
-        console.log("locations:", locations);
+        // console.log("locations:", locations);
 
         var markers = map.markers = locations.map(function(d) {
           var pos = utils.coerceLatLng(d.location),
@@ -44,7 +44,7 @@
                 map: map,
                 title: d.title
               });
-          console.log("loc @", pos.toString());
+          // console.log("loc @", pos.toString());
 
           var content = marker.content = d3.select(document.createElement("div"))
             .html(map.options.contentTemplate);
@@ -75,7 +75,7 @@
   });
 
   Outreach.defaults = {
-    center: new google.maps.LatLng(37.80366778701285, -122.46903032608033),
+    center: new google.maps.LatLng(37.806482104900844, -122.46537805007937),
     zoom: 15,
     contentTemplate: [
       '<h4 class="title">{title}</h4>',
