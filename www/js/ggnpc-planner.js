@@ -131,14 +131,31 @@
         .html("Show directions")
         .call(makeToggle, directionsPanel, "Hide directions");
 
-      var originSection = originColumn.append("div")
-        .attr("class", "origin-field section");
+      var originGroup = originColumn.append("div")
+        .attr("class", "origin-group");
 
-      originSection.append("h3")
+      var originLocation = originGroup.append("div")
+        .attr("class", "section");
+
+      var originTitle = originLocation.append("h3")
         .attr("class", "title")
         .html(this.options.originTitle || "");
 
-      var originRow = originSection.append("div");
+      var originToggle = originTitle.append("a")
+        .text("Change Transportion")
+        .attr("class", "toggle")
+        .on("click", function() {
+          var visible = originInputs.style("display") === "none";
+          originInputs
+            .style("display", visible ? null : "none");
+          if (visible) {
+            originInputs.select("input.origin")
+              .node()
+                .focus();
+          }
+        });
+
+      var originRow = originLocation.append("div");
 
       originRow.append("img")
         .attr("class", "point")
@@ -156,10 +173,16 @@
           that.setOrigin(this.value);
         });
 
+      var originInputs = originGroup.append("div")
+        .attr("class", "time-transport")
+        .style("display", !!this.getOrigin()
+          ? "none"
+          : null);
+
       /*
        * travel mode inputs
        */
-      var travelMode = originColumn.append("div")
+      var travelMode = originInputs.append("div")
         .attr("class", "travel-mode section");
 
       travelMode.append("h3")
@@ -184,7 +207,7 @@
       /*
        * travel time inputs
        */
-      var travelTime = originColumn.append("div")
+      var travelTime = originInputs.append("div")
         .attr("class", "travel-time section");
 
       travelTime.append("h3")
@@ -331,7 +354,7 @@
 
       }
 
-      var submitButton = originColumn.append("input")
+      var submitButton = originInputs.append("input")
         .attr("class", "submit")
         .attr("tabindex", 3)
         .attr({
@@ -352,17 +375,19 @@
       destInfoBlock.append("p")
         .attr("class", "description");
 
-      // XXX
-      console.log("frozen?", frozen);
+      // XXX custom "welcome" content certain locations (outreach)
+      // console.log("frozen?", frozen);
       if (frozen) {
         // switch origin & dest columns
         inputs.node().insertBefore(destColumn.node(), originColumn.node());
 
         var dest = this.getDestination();
         if (dest && dest.welcomeContent) {
-          destColumn.append("div")
-            .attr("class", "section welcome")
-            .html(dest.welcomeContent);
+          destColumn
+            .classed("has-welcome", true)
+            .append("div")
+              .attr("class", "section welcome")
+              .html(dest.welcomeContent);
         }
       }
 
@@ -395,6 +420,12 @@
         this._request.origin = origin;
         d3.select(this.root)
           .classed("has-origin", !!origin);
+        if (origin) {
+          d3.select(this.root)
+            .select(".time-transport")
+            .style("display", "none");
+        } else {
+        }
         google.maps.event.trigger(this, "origin", origin);
       }
       return this;
@@ -521,6 +552,7 @@
       }
 
       console.log("route(", request, ")");
+      this._setElementOrder(".origin.column", ".destination.column");
 
       var that = this,
           root = d3.select(this.root)
@@ -547,6 +579,22 @@
           if (callback) callback(response, null);
         }
       });
+    },
+
+    _setElementOrder: function() {
+      var selectors = [].slice.call(arguments),
+          first = this.root.querySelector(selectors[0]),
+          root = first.parentNode,
+          previous;
+      while (selectors.length) {
+        var el = this.root.querySelector(selectors.shift());
+        if (previous) {
+          root.insertBefore(el, previous.nextChild);
+        } else {
+          root.insertBefore(el, root.firstChild);
+        }
+        previous = el;
+      }
     },
 
     _coerceDate: function(time) {
@@ -650,6 +698,7 @@
       this._updateDestinationInfo(this._request.destination, leg.end_address);
       this._updateNearbyLocations();
       this._updateBespokeDirections();
+      this._updateDestinationName();
     },
 
     // URL params cribbed from:
@@ -719,7 +768,7 @@
       var info = d3.select(this.root)
         .select(".dest-info");
 
-      console.log("destination info:", dest);
+      // console.log("destination info:", dest);
 
       if (typeof dest === "object") {
         info.select(".title")
@@ -811,6 +860,28 @@
         return true;
       }
 
+      return false;
+    },
+
+    _updateDestinationName: function() {
+      clearTimeout(this._destNameInterval);
+
+      var dest = this.getDestination();
+      if (typeof dest === "object") {
+        var panel = this.destMap.directionsDisplay.getPanel();
+        this._destNameInterval = setTimeout(function() {
+          d3.select(panel)
+            .selectAll(".adp-placemark .adp-text")
+            .datum(function() { return this.innerText; })
+            .filter(function(text) {
+              return text === "United States";
+            })
+            .text(dest.title);
+        }, 100);
+        return true;
+      }
+
+      console.warn("destination is not an object");
       return false;
     },
 

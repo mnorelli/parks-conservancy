@@ -70,6 +70,10 @@
   height: 350px;
 }
 
+.trip-planner .inputs .column:first-child {
+  padding-right: 20px;
+}
+
 .trip-planner .column.destination {
   border-left: 2px solid #fff;
 }
@@ -361,7 +365,7 @@
 
 /* XXX outreach stuff */
 .trip-planner .welcome {
-  padding: 10px 20px 10px;
+  padding: 10px 0;
   font-size: 18px;
   line-height: 24px;
 }
@@ -399,18 +403,45 @@
   font-weight: bold;
 }
 
-.trip-planner.frozen .destination.column .section {
+.trip-planner.frozen .destination.has-welcome .section {
   display: none;
 }
 
-.trip-planner.frozen .destination.column .welcome {
+.trip-planner.frozen .destination.has-welcome .welcome {
   display: block;
 }
 
-.trip-planner.frozen.has-origin .destination.column .section {
+.trip-planner.frozen.has-origin .destination.has-welcome .section {
   display: block;
 }
 
-.trip-planner.frozen.has-origin .destination.column .welcome {
+.trip-planner.frozen.has-origin .destination.has-welcome .welcome {
   display: none;
+}
+
+.trip-planner .origin-group a.toggle {
+  font-size: 11px;
+  float: right;
+}
+
+.trip-planner.routed input.submit {
+  display: none;
+}
+
+/* Google directions stuff */
+.google-directions * {
+  font-family: Verdana, sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.google-directions .adp-placemark td {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.google-directions .adp-placemark img {
+  vertical-align: middle;
+  margin-right: 10px;
 }
