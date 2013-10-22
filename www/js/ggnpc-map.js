@@ -269,7 +269,7 @@
           this._markers.push(marker);
 
           // adjust map bounds only if fitBounds hasn't been called
-          if(!fitBoundsCalled && this.options.outline.fitBounds){
+          if(!fitBoundsCalled && this.options.markers.fitBounds){
             var bounds = new google.maps.LatLngBounds();
 
             this._markers.forEach(function (m, i) {
@@ -331,6 +331,9 @@
         fillColor: "#4afb05",
         fillOpacity: .55,
         zIndex: 1000
+      },
+      markers: {
+        fitBounds: true // outline.fitBounds takes precedence
       },
       paths: [
         /*
