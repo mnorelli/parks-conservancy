@@ -157,6 +157,7 @@
    * TripPlanner API
    */
   TripPlanner.prototype = utils.extend(new google.maps.MVCObject(), {
+
     // the constructor
     initialize: function(root, options) {
       this.root = utils.coerceElement(root).appendChild(document.createElement("div"));
@@ -1003,6 +1004,58 @@
       }
     }
 
+  });
+
+  // "nearby" view
+  var NearbyPlanner = planner.NearbyPlanner = utils.extend(new google.maps.MVCObject(), {
+  });
+
+  // rewrite TripPlanner.prototype._setupDatePicker() to use this
+  var DateTimePicker = planner.DateTimePicker = utils.extend(new google.maps.MVCObject(), {
+    initialize: function(root, options) {
+    },
+
+    getFullDate: function() {
+      return new Date(this._date.getTime());
+    },
+
+    setFullDate: function(date) {
+      return this;
+    },
+
+    getDate: function() {
+      return this.getFullDate();
+    },
+
+    setDate: function(date) {
+      return this;
+    },
+
+    _setup: function() {
+    },
+
+    _update: function() {
+    }
+  });
+
+  // rewrite TripPlanner.prototype._setupDom() to use this
+  var TravelModePicker = planner.TravelModePicker = utils.extend(new google.maps.MVCObject(), {
+    initialize: function(root, options) {
+    },
+
+    getMode: function() {
+      return this._mode;
+    },
+
+    setMode: function(mode) {
+      return this;
+    },
+
+    _setup: function() {
+    },
+
+    _update: function() {
+    }
   });
 
   /*
