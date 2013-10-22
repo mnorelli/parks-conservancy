@@ -66,9 +66,11 @@
         destinations,
         // XXX make this a global to modify
         bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
-        loader = new GGNPC.planner.DestinationLoader(),
-        hash = GGNPC.utils.qs.parse(location.hash),
+        loader = new DestinationLoader(),
+        hash = utils.qs.parse(location.hash),
         root = utils.coerceElement(options.root || "trip-planner");
+
+    GGNPC.planner.loader = loader;
 
     if (!root) {
       console.log("planner: no root", options.root);
@@ -115,9 +117,11 @@
     function initialize() {
       root.classed("loading", false);
 
+      var dest = loader.resolveLocation(hash.to);
+
       planner = new TripPlanner(root.node(), {
         origin: hash.from, // || "2017 Mission St, SF",
-        destination: hash.to,
+        destination: dest,
         travelMode: hash.mode,
         destinationOptions: destinations,
         freezeDestination: hash.to && hash.freeze === true
@@ -134,13 +138,16 @@
       planner.addListener("origin", autoRoute);
       planner.addListener("destination", autoRoute);
       planner.addListener("travelMode", autoRoute);
+      planner.addListener("travelTime", autoRoute);
+      planner.addListener("travelTimeType", autoRoute);
 
       planner.addListener("route", function(route) {
         console.log("routed:", route);
         location.hash = GGNPC.utils.qs.format({
           from: planner.getOrigin(),
           to: planner.getDestinationString(),
-          mode: planner.getTravelMode().toLowerCase()
+          mode: planner.getTravelMode().toLowerCase(),
+          freeze: planner.options.freezeDestination ? true : null
         });
         // TODO: implement date, time and (arrival|departure)
       });
@@ -623,10 +630,16 @@
 
       var that = this,
           root = d3.select(this.root)
-            .classed("routed", false)
             .classed("routing", true);
 
+      clearTimeout(this._unroutedTimeout);
+      this._unroutedTimeout = setTimeout(function() {
+        root.classed("routed", false);
+      }, 100);
+
       this.directions.route(request, function(response, stat) {
+        clearTimeout(that._unroutedTimeout);
+
         root
           .classed("routed", true)
           .classed("routing", false);
@@ -635,6 +648,7 @@
           that._updateRoute(response, request);
           if (callback) callback(null, response);
         } else {
+          console.log("unable to route:", response, stat);
           google.maps.event.trigger(this, "error", response);
           if (callback) callback(response, null);
         }
@@ -1438,7 +1452,7 @@
   DestinationLoader.defaults = {
     // XXX get the apiUrl from Map.defaults
     apiUrl: ggnpc.maps.Map.defaults.apiUrl,
-    locationTypes: ["Access", "Trailhead", "Visitor Center"],
+    locationTypes: ["Access", "Trailhead", "Visitor Center", "Point of Interest"],
     groupByPark: true,
     nearbyThreshold: 1, // miles
     nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
@@ -1468,8 +1482,13 @@
         d3.json(options.apiUrl + "kind/location", function(error, data) {
           if (error) return callback(error, null);
 
-          var locations = data.results.map(that._getAttibutes),
+          var locations = that._allLocations = data.results.map(that._getAttibutes),
               allLocations = locations.slice();
+
+          that._allLocationsById = d3.nest()
+            .key(function(d) { return d.id; })
+            .rollup(function(d) { return d[0]; })
+            .map(allLocations);
 
           if (options.locationTypes && options.locationTypes.length > 0) {
             locations = locations.filter(function(d) {
@@ -1564,6 +1583,19 @@
           callback(null, that._locations = locations);
         });
       });
+    },
+
+    resolveLocation: function(str) {
+      if (str.indexOf(":") > -1) {
+        var parts = str.split(":"),
+            title = parts[0],
+            id = parts[1];
+        if (id in this._allLocationsById) {
+          return this._allLocationsById[id];
+        } else {
+          return title;
+        }
+      }
     },
 
     getParks: function() {
