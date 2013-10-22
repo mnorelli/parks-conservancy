@@ -76,8 +76,6 @@
   });
 
   Outreach.defaults = {
-    center: new google.maps.LatLng(37.806482104900844, -122.46537805007937),
-    zoom: 15,
     contentTemplate: [
       '<h4 class="title">{title}</h4>',
       '<p class="description">{description}</p>',
