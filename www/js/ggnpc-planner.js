@@ -1092,31 +1092,30 @@
     },
 
     _setup: function() {
-      var that = this,
-          modes = d3.select(this.root)
-            .selectAll("span.mode")
-              .data(this._modes)
-              .enter()
-              .append("a")
-                .attr("href", function(d) {
-                  return "#mode=" + d.value.toLowerCase();
-                })
-                .attr("class", function(d) {
-                  return ["mode", d.value.toLowerCase()].join(" ");
-                })
-                .attr("title", function(d) {
-                  return d.title;
-                })
-                .on("click", function(d) {
-                  d3.event.preventDefault();
-                  that.setMode(d.value);
-                  modes.classed("selected", function(o) {
-                    return o.value === d.value;
-                  });
-                });
-
-      modes.append("span")
-        .text(function(d) { return d.title; });
+      var that = this;
+      d3.select(this.root)
+        .selectAll("span.mode")
+          .data(this._modes)
+          .enter()
+          .append("a")
+            .attr("href", function(d) {
+              return "#mode=" + d.value.toLowerCase();
+            })
+            .attr("class", function(d) {
+              return ["mode", d.value.toLowerCase()].join(" ");
+            })
+            .attr("title", function(d) {
+              return d.title;
+            })
+            .on("click", function(d) {
+              d3.event.preventDefault();
+              that.setMode(d.value);
+              modes.classed("selected", function(o) {
+                return o.value === d.value;
+              });
+            })
+            .append("span")
+              .text(function(d) { return d.title; });
     },
 
     _update: function() {
