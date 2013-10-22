@@ -87,10 +87,9 @@
 
   Outreach.inject = function(options) {
     var out = Outreach.instance = new Outreach(options.root);
-    out.showLocations([
-      "312646248", // Golden Gate Roundhouse
-      "312645340"  // Crissy Marsh
-    ]);
+    if (options.locations) {
+      out.showLocations(options.locations);
+    }
     return out;
   };
 
