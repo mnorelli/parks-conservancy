@@ -78,7 +78,9 @@
     //
     _setupDom: function() {
       var that = this,
+          frozen = !!this.options.freezeDestination,
           root = d3.select(this.root)
+            .classed("frozen", frozen)
             .classed("has-origin", !!this.getOrigin())
             .classed("has-destination", !!this.getDestination()),
           form = this._form = root.append("form")
@@ -329,12 +331,12 @@
 
       }
 
-      destRow.append("input")
+      var submitButton = destRow.append("input")
         .attr("class", "submit")
         .attr("tabindex", 3)
         .attr({
           type: "submit",
-          value: "Go!"
+          value: "Plan my Trip!"
         });
 
       var nearbyTitle = nearbyBlock.append("h3")
@@ -349,6 +351,21 @@
       destInfoBlock.append("address");
       destInfoBlock.append("p")
         .attr("class", "description");
+
+      // XXX
+      console.log("frozen?", frozen);
+      if (frozen) {
+        // switch origin & dest columns
+        inputs.node().insertBefore(destColumn.node(), originColumn.node());
+
+        var dest = this.getDestination();
+        if (dest && dest.welcomeContent) {
+          destColumn.html(dest.welcomeContent);
+        }
+
+        submitButton.remove();
+        originColumn.node().appendChild(submitButton.node());
+      }
 
       this.originMap = new ggnpc.maps.Map(originMapRoot.node(), this.options.originMap);
       this.destMap = new ggnpc.maps.Map(destMapRoot.node(), this.options.destMap);
