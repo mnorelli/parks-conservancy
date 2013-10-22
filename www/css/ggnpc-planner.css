@@ -256,7 +256,7 @@
   margin-right: 10px;
 }
 
-.trip-planner .travel-modes .mode {
+.travel-modes .mode {
   display: inline-block;
   width: 90px;
   height: 90px;
@@ -264,9 +264,36 @@
   color: #ccc;
   cursor: pointer;
   border: 1px solid transparent;
+  background-image: url(images/transport-icons.png);
+  background-repeat: no-repeat;
 }
 
-.trip-planner .travel-modes .mode.selected {
-  color: #000;
+.travel-modes .mode span {
+  display: none;
+}
+
+.travel-modes .mode:hover {
   border-color: #999;
 }
+
+.travel-modes .mode.selected {
+  color: #000;
+  border-color: #f60;
+}
+
+.travel-modes .mode.walking             { background-position: -5px -105px; }
+.travel-modes .mode.walking:hover,
+.travel-modes .mode.walking.selected    { background-position: -5px -5px; }
+
+.travel-modes .mode.transit             { background-position: -105px -105px; }
+.travel-modes .mode.transit:hover,
+.travel-modes .mode.transit.selected    { background-position: -105px -5px; }
+
+.travel-modes .mode.driving             { background-position: -205px -105px; }
+.travel-modes .mode.driving:hover,
+.travel-modes .mode.driving.selected    { background-position: -205px -5px; }
+
+.travel-modes .mode.bicycling           { background-position: -305px -105px; }
+.travel-modes .mode.bicycling:hover,
+.travel-modes .mode.bicycling.selected  { background-position: -305px -5px; }
+
