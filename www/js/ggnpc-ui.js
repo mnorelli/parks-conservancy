@@ -138,7 +138,7 @@
               {off: +1, html: "&gt;"},
             ])
             .enter()
-            .append("button")
+            .append("a")
               .attr("class", function(d) {
                 return [
                   "offset",
@@ -149,7 +149,7 @@
               .on("click", function(d) {
                 d3.event.preventDefault();
                 var offset = d3.time.month.offset(month, d.off);
-                dispatch.month(offset);
+                dispatch.month(offset, this);
               });
         }
       } else {
@@ -167,11 +167,14 @@
               .append("td")
                 .attr("colspan", 7);
 
-          tfoot.append("button")
+          tfoot.append("a")
             .attr("class", "today")
             .datum(d3.time.day.floor(new Date()))
             .text(todayFormat)
-            .on("click", dispatch.day);
+            .on("click", function(d) {
+              d3.event.preventDefault();
+              dispatch.day(d, this);
+            });
         }
       }
 
