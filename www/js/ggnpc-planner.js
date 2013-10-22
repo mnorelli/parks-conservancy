@@ -47,13 +47,6 @@
 
     tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
 
-    travelModes: [
-      {title: "by car", value: google.maps.DirectionsTravelMode.DRIVING},
-      {title: "by transit", value: google.maps.DirectionsTravelMode.TRANSIT},
-      {title: "by bike", value: google.maps.DirectionsTravelMode.BICYCLING},
-      {title: "on foot", value: google.maps.DirectionsTravelMode.WALKING}
-    ],
-
     freezeDestination: false,
     destinationOptions: [],
 
@@ -176,7 +169,9 @@
       this._request = {
         origin: this.options.origin,
         destination: this._resolveDestination(this.options.destination),
-        travelMode: String(this.options.travelMode || this.options.travelModes[0].value).toUpperCase()
+        travelMode: this.options.travelMode
+          ? this.options.travelMode.toUpperCase()
+          : null
       };
 
       this._travelTime = this._coerceDate(this.options.departureTime) || new Date();
@@ -282,31 +277,14 @@
         .attr("class", "title")
         .html(this.options.travelModeTitle || "");
 
-      var modes = travelMode.append("div")
-        .attr("class", "travel-modes")
-        .selectAll("span.mode")
-          .data(this.options.travelModes)
-          .enter()
-          .append("a")
-            .attr("href", function(d) {
-              return "#mode=" + d.value.toLowerCase();
-            })
-            .attr("class", function(d) {
-              return ["mode", d.value.toLowerCase()].join(" ");
-            })
-            .classed("selected", function(d) {
-              return d.value === that._request.travelMode;
-            })
-            .on("click", function(d) {
-              d3.event.preventDefault();
-              that.setTravelMode(d.value);
-              modes.classed("selected", function(o) {
-                return o.value === d.value;
-              });
-            });
-
-      modes.append("span")
-        .text(function(d) { return d.title; });
+      var modeRoot = travelMode.append("div")
+        .attr("class", "travel-modes");
+      this._modeSelector = new TravelModePicker(modeRoot.node(), {
+        mode: this.getTravelMode()
+      });
+      this._modeSelector.addListener("change", function(mode) {
+        that.setTravelMode(mode);
+      });
 
       /*
        * travel time inputs
@@ -668,11 +646,10 @@
         .text(leg.distance.text.replace(/ mi$/, " miles"));
       tripDesc.select(".duration")
         .text(leg.duration.text.replace(/ mins$/, " minutes"));
-      var mode = this.options.travelModes.filter(function(d) {
-        return d.value === request.travelMode;
-      })[0];
+
+      var mode = this._modeSelector.getModeTitle(request.travelMode);
       tripDesc.select(".mode")
-        .text(mode ? mode.title : "");
+        .text(mode);
 
       this.originMap.directionsDisplay.setDirections(response);
       this.originMap.setZoom(this.options.originMap.zoom || 15);
@@ -1081,8 +1058,15 @@
   };
 
   // rewrite TripPlanner.prototype._setupDom() to use this
-  var TravelModePicker = planner.TravelModePicker = utils.extend(new google.maps.MVCObject(), {
+  var TravelModePicker = planner.TravelModePicker = planner.Class(new google.maps.MVCObject(), {
     initialize: function(root, options) {
+      this.root = utils.coerceElement(root);
+      this.options = utils.extend({}, TravelModePicker.defaults, options);
+
+      this._modes = this.options.modes;
+
+      this._setup();
+      this.setMode(this.options.mode || this._modes[0].value);
     },
 
     getMode: function() {
@@ -1090,15 +1074,65 @@
     },
 
     setMode: function(mode) {
+      if (mode != this._mode) {
+        this._mode = mode.toUpperCase();
+        this._update();
+        google.maps.event.trigger(this, "change", this._mode);
+      }
       return this;
     },
 
+    getModeTitle: function(mode) {
+      var mode = this._modes.filter(function(d) {
+        return d.value === mode;
+      })[0];
+      return mode ? mode.title : null;
+    },
+
     _setup: function() {
+      var that = this,
+          modes = d3.select(this.root)
+            .selectAll("span.mode")
+              .data(this._modes)
+              .enter()
+              .append("a")
+                .attr("href", function(d) {
+                  return "#mode=" + d.value.toLowerCase();
+                })
+                .attr("class", function(d) {
+                  return ["mode", d.value.toLowerCase()].join(" ");
+                })
+                .on("click", function(d) {
+                  d3.event.preventDefault();
+                  that.setMode(d.value);
+                  modes.classed("selected", function(o) {
+                    return o.value === d.value;
+                  });
+                });
+
+      modes.append("span")
+        .text(function(d) { return d.title; });
     },
 
     _update: function() {
+      var that = this,
+          mode = this._mode;
+      d3.select(this.root)
+        .selectAll(".mode")
+          .classed("selected", function(d) {
+            return d.value === mode;
+          });
     }
   });
+
+  TravelModePicker.defaults = {
+    modes: [
+      {title: "by car",     value: google.maps.DirectionsTravelMode.DRIVING},
+      {title: "by transit", value: google.maps.DirectionsTravelMode.TRANSIT},
+      {title: "by bike",    value: google.maps.DirectionsTravelMode.BICYCLING},
+      {title: "on foot",    value: google.maps.DirectionsTravelMode.WALKING}
+    ]
+  };
 
   /*
    * Bespoke Directions stuff
