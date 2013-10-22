@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+.container {
+  width: 960px;
+  margin: 20px auto;
+}
+
+#header {
+  padding: 40px 170px 0;
+  background-image: url(images/ggnpc-logo-2012.png);
+  background-position: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+#header h1,
+#header h2 {
+  line-height: 1em;
+  margin: 0;
+}
+
+#map {
+  height: 600px;
+}
+
+.gm-style * {
+  font-family: inherit !important;
+}
+
+.gm-style .title {
+  margin: 0;
+}
+
+.gm-style a.directions {
+}
