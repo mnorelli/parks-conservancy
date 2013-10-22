@@ -360,8 +360,8 @@
 
         var dest = this.getDestination();
         if (dest && dest.welcomeContent) {
-          destColumn
-            .classed("welcome", true)
+          destColumn.append("div")
+            .attr("class", "section welcome")
             .html(dest.welcomeContent);
         }
       }

@@ -398,3 +398,19 @@
   padding: 14px 30px;
   font-weight: bold;
 }
+
+.trip-planner.frozen .destination.column .section {
+  display: none;
+}
+
+.trip-planner.frozen .destination.column .welcome {
+  display: block;
+}
+
+.trip-planner.frozen.has-origin .destination.column .section {
+  display: block;
+}
+
+.trip-planner.frozen.has-origin .destination.column .welcome {
+  display: none;
+}
