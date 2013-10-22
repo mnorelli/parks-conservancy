@@ -134,8 +134,8 @@
             .attr("class", "month");
           caption.selectAll("button.offset")
             .data([
-              {off: -1, html: "&lt;"},
-              {off: +1, html: "&gt;"},
+              {off: -1, html: "&#x25c0;"},
+              {off: +1, html: "&#x25b6;"},
             ])
             .enter()
             .append("a")
