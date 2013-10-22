@@ -8,9 +8,40 @@
         utils = GGNPC.utils,
         maps = GGNPC.maps = {};
 
-    // base() just returns a new map
-    maps.base = function(root, options) {
-      return new Map(root, options);
+    // technique lifted from:
+    // <http://www.portlandwebworks.com/blog/extending-googlemapsmap-object>
+    google.maps.Map = (function(constructor) {
+      var f = function() {
+        if (!arguments.length) return;
+        constructor.apply(this, arguments);
+      };
+      f.prototype = constructor.prototype;
+      return f;
+    })(google.maps.Map);
+
+    /*
+     * create a new extensible class. Note that the
+     * "initialize" method of your prototype will become the
+     * class constructor.
+     *
+     * var MyClass = new maps.Class(google.maps.Map, {
+     *  initialize: function(root, options) {
+     *    google.maps.Map.apply(this, arguments);
+     *    // ...
+     *  }
+     * });
+     */
+    maps.Class = function(parent, proto) {
+      var klass = function() {
+        if (typeof klass.prototype.initialize === "function") {
+          klass.prototype.initialize.apply(this, arguments);
+        }
+      };
+      klass.prototype = utils.extend(new parent(), proto);
+      klass.extend = function(methods) {
+        return new maps.Class(klass, methods);
+      };
+      return klass;
     };
 
     maps.collapseOptions = function(root, options, defaults) {
@@ -32,15 +63,17 @@
      * GGNPC.maps.Map extends google.maps.Map
      * and sets the default map type to our ParkMapType (to show our tiles)
      */
-    var Map = maps.Map = function(root, options) {
-      options = this.options = maps.collapseOptions(root, options, Map.defaults);
-      google.maps.Map.call(this, options.root, options);
+    var Map = maps.Map = new maps.Class(
+      google.maps.Map,
+    {
+      initialize: function(root, options) {
+        options = this.options = maps.collapseOptions(root, options, Map.defaults);
+        google.maps.Map.call(this, options.root || document.createElement("div"), options);
 
-      this.mapTypes.set(maps.ParkMapType.name, maps.ParkMapType);
-      this.setMapTypeId(maps.ParkMapType.name);
-    };
-
-    Map.prototype = new google.maps.Map(document.createElement("div"));
+        this.mapTypes.set(maps.ParkMapType.name, maps.ParkMapType);
+        this.setMapTypeId(maps.ParkMapType.name);
+      }
+    });
 
     Map.defaults = {
       root: "map",
@@ -98,50 +131,10 @@
       }
     });
 
-
-    var MiniMap = maps.MiniMap = function(root, options) {
-      var defaults = utils.extend({}, Map.defaults, MiniMap.defaults);
-      options = maps.collapseOptions(root, options, defaults);
-      this.initialize(options.root, options);
-    };
-
-    MiniMap.defaults = {
-      bounds: new google.maps.LatLngBounds(
-        new google.maps.LatLng(37.558072, -122.681354),
-        new google.maps.LatLng(37.99226, -122.276233)
-      ),
-      zoomControl: false,
-      links: [
-        {type: "big-map", href: "/mapping/", text: "See Larger Map"},
-        {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
-      ],
-      outline: {
-        fitBounds: true,
-        strokeColor: "#333",
-        strokeOpacity: .4,
-        strokeWeight: 1,
-        fillColor: "#4afb05",
-        fillOpacity: .55,
-        zIndex: 1000
-      },
-      paths: [
-        /*
-        {
-          //pattern: new RegExp("/visit/park-sites/(.+)$"),
-          pattern: new RegExp(".*"),
-          run: function(str, file) {
-            this._setContext(file);
-          }
-        }
-        */
-      ]
-    };
-
-    // FIXME THIS IS SETTING THE MiniMap PROTOTYPE!
-    MiniMap.prototype = utils.extend(Map.prototype, {
-
+    var MiniMap = maps.MiniMap = Map.extend({
       initialize: function(root, options) {
-        Map.call(this, root, options);
+        var options = maps.collapseOptions(root, options, MiniMap.defaults);
+        Map.call(this, options.root, options);
 
         var root = this.root;
         root.classList.add("mini-map");
@@ -319,6 +312,40 @@
       }
 
     });
+
+    MiniMap.defaults = {
+      bounds: new google.maps.LatLngBounds(
+        new google.maps.LatLng(37.558072, -122.681354),
+        new google.maps.LatLng(37.99226, -122.276233)
+      ),
+      zoomControl: false,
+      links: [
+        {type: "big-map", href: "/mapping/", text: "See Larger Map"},
+        {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
+      ],
+      outline: {
+        fitBounds: true,
+        strokeColor: "#333",
+        strokeOpacity: .4,
+        strokeWeight: 1,
+        fillColor: "#4afb05",
+        fillOpacity: .55,
+        zIndex: 1000
+      },
+      paths: [
+        /*
+        {
+          //pattern: new RegExp("/visit/park-sites/(.+)$"),
+          pattern: new RegExp(".*"),
+          run: function(str, file) {
+            this._setContext(file);
+          }
+        }
+        */
+      ]
+    };
+
+
 
     MiniMap.inject = function(options, callback) {
       if (options.mini) {
