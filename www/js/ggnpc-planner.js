@@ -331,7 +331,7 @@
 
       }
 
-      var submitButton = destRow.append("input")
+      var submitButton = originColumn.append("input")
         .attr("class", "submit")
         .attr("tabindex", 3)
         .attr({
@@ -364,9 +364,6 @@
             .classed("welcome", true)
             .html(dest.welcomeContent);
         }
-
-        submitButton.remove();
-        originColumn.node().appendChild(submitButton.node());
       }
 
       this.originMap = new ggnpc.maps.Map(originMapRoot.node(), this.options.originMap);
