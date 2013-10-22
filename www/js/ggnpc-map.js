@@ -112,8 +112,8 @@
       ),
       zoomControl: false,
       links: [
-        {type: "big-map", href: "/map/", text: "See Larger Map"},
-        {type: "directions", href: "/map/planner/", text: "Get Directions"}
+        {type: "big-map", href: "/mapping/", text: "See Larger Map"},
+        {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
       ],
       outline: {
         fitBounds: true,
@@ -251,7 +251,8 @@
             .attr("href", function(d) {
               return [d.href, utils.qs.format({
                 from: "2017 Mission St, SF CA",
-                to: [parent.title, parent.id].join(":")
+                to: [parent.title, parent.id].join(":"),
+                freeze: true
               })].join("#");
             });
       }
