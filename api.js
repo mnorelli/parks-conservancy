@@ -750,6 +750,11 @@ var getRecordByAttribute = function(req, res, next){
     }
 }
 
+/*
+
+\copy (select kind as kind, attributes->'id' as id, attributes->'title' as title, attributes->'url' as url, attributes->'location' as location, attributes->'locationmap' as locationmap from convio where geom is null) To '~/Desktop/convio-no-locations.csv' With CSV HEADER;
+*/
+
 
 // server setup
 var server = restify.createServer();
@@ -762,7 +767,7 @@ server.use(restify.gzipResponse());
 server.get('/record/attribute/:attribute', getRecordByAttribute); // no value expected
 server.get('/record/attribute/:attribute/:value', getRecordByAttribute); // w/ value expected
 
-server.get('/record/url/:url', getRecordByUrl) // get a record by the url property
+server.get('/record/url/:url', getRecordByUrl) // get a record by the url property, similar to attribute method but uses LIKE matching
 server.get('/kind/:kind', getByKind);
 server.get('/:kind/name/:name', getByName);
 server.get('/:kind/file/:file', getByFilename);
