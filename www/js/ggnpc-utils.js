@@ -132,5 +132,17 @@ var GGNPC = (function(exports){
       return google.maps.geometry.spherical.computeDistanceBetween(a, b, EARTH_RADIUS_MILES);
     };
 
+    utils.wrapFormat = function(format, cleanFormat, cleanParse) {
+      var clean = function(input) {
+        return cleanFormat(format(input));
+      };
+      if (cleanParse) {
+        clean.parse = function(input) {
+          return cleanParse(format.parse(input));
+        };
+      }
+      return clean;
+    };
+
     return exports;
 })(GGNPC || {});
