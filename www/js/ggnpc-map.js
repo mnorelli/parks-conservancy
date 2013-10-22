@@ -409,6 +409,7 @@
         markers: {
           fitBounds: true // outline.fitBounds takes precedence
         },
+        padding: {top: 0, right: 0, bottom: 60, left: 0}, //used for adjusting map size on window resize
         paths: [
           /*
           {
@@ -423,6 +424,7 @@
       },
 
       initialize: function(root, options) {
+        var that = this;
         var options = maps.collapseOptions(root, options, BigMap.defaults);
         Map.call(this, options.root, options);
 
@@ -430,16 +432,20 @@
         root.classList.add("big-map");
         //this._setupExtras(root);
 
-        var that = this;
+
+
+        // window resizing
         this.rootOffsetTop = d3.select(root).node().offsetTop;
-
-
+        // sorry, best way I came up with dealing with scope issues
+        // when using debounce method
         function handleWindowResizeProxy(){
           that._handleWindowResize();
         }
         d3.select(window).on('resize', GGNPC.utils.debounce(handleWindowResizeProxy, 100));
 
         handleWindowResizeProxy();
+
+        // redraw map
         google.maps.event.trigger(this, "resize");
 
         if (this.options.bounds) this.fitBounds(this.options.bounds);
@@ -452,7 +458,7 @@
 
         var w = window.innerWidth,
             h = window.innerHeight,
-            mh = h - (this.rootOffsetTop + 60);
+            mh = h - (this.rootOffsetTop + this.options.padding.bottom);
         this.root.style.height =  mh + "px";
 
 
