@@ -4,174 +4,12 @@
       planner = ggnpc.planner = {},
       utils = ggnpc.utils;
 
-  planner.Class = function() {
-    var proto = utils.extend.apply(null, arguments),
-        klass = function() {
-          proto.initialize.apply(this, arguments);
-        };
-    klass.prototype = proto;
-    return klass;
-  };
-
   /*
    * Trip Planner
    */
-  var TripPlanner = planner.TripPlanner = function(root, options) {
-    this.initialize(root, options);
-  };
-
-  /*
-   * default options
-   */
-  TripPlanner.defaults = {
-    bounds: new google.maps.LatLngBounds(
-      new google.maps.LatLng(37.558072, -122.681354),
-      new google.maps.LatLng(37.99226, -122.276233)
-    ),
-
-    originMap: {
-      zoom: 15,
-    },
-    destMap: {
-      zoom: 14
-    },
-
-    originTitle: "Where are you coming from?",
-    originColumnSize: "half",
-
-    travelTimeTitle: "When do you want to leave?",
-    travelModeTitle: "How will you travel?",
-
-    destTitle: "Going to...",
-    destColumnSize: "half",
-
-    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
-
-    freezeDestination: false,
-    destinationOptions: [],
-
-    travelTimeType: null,
-
-    pointImageUrls: {
-      origin: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&text=A&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1",
-      destination: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-b.png&text=B&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1"
-    }
-  };
-
-  TripPlanner.inject = function(options, callback) {
-    console.log("TripPlanner.inject(", options, callback, ")");
-    if (!options) options = {};
-
-    var planner,
-        destinations,
-        // XXX make this a global to modify
-        bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
-        loader = new DestinationLoader(),
-        hash = utils.qs.parse(location.hash),
-        root = utils.coerceElement(options.root || "trip-planner");
-
-    GGNPC.planner.loader = loader;
-
-    if (!root) {
-      console.log("planner: no root", options.root);
-      if (callback) callback("No such element:", options.root);
-      return;
-    }
-
-    root = d3.select(root)
-      .classed("loading", true);
-
-    var message = root.append("p")
-      .attr("class", "loading-message")
-      .text("Loading the trip planner...");
-
-    // console.log("loading destinations...");
-    loader.load(function(error, locations) {
-      if (error) {
-        message.text("Unable to load locations!");
-        return console.error("unable to load locations:", error);
-      }
-
-      message
-        .text("Loaded " + locations.length + " locations!")
-        .remove();
-
-      console.log("loaded", locations.length, "locations");
-      destinations = locations;
-
-      /*
-      GGNPC.planner.BespokeDirections.load(bespokeSheetId, function(error, rowsByFilename) {
-        destinations.forEach(function(d) {
-          if (d.filename in rowsByFilename) {
-            d.bespoke_directions = rowsByFilename[d.filename];
-          }
-        });
-      });
-      */
-
-      initialize();
-    });
-
-    // initialize();
-
-    function initialize() {
-      root.classed("loading", false);
-
-      var dest = loader.resolveLocation(hash.to);
-      if (dest && dest.accessLocations) {
-        console.log("got access for:", dest, dest.accessLocations[0]);
-        dest = dest.accessLocations[0];
-      }
-      console.log("resolved dest:", hash.to, "->", dest);
-
-      planner = new TripPlanner(root.node(), {
-        origin: hash.from, // || "2017 Mission St, SF",
-        destination: dest,
-        travelMode: hash.mode,
-        destinationOptions: destinations,
-        freezeDestination: hash.to && hash.freeze === true
-      });
-
-      autoRoute();
-
-      function autoRoute() {
-        if (planner.getOrigin() && planner.getDestination()) {
-          planner.route();
-        }
-      }
-
-      planner.addListener("origin", autoRoute);
-      planner.addListener("destination", autoRoute);
-      planner.addListener("travelMode", autoRoute);
-      planner.addListener("travelTime", autoRoute);
-      planner.addListener("travelTimeType", autoRoute);
-
-      planner.addListener("route", function(route) {
-        console.log("routed:", route);
-        location.hash = GGNPC.utils.qs.format({
-          from: planner.getOrigin(),
-          to: planner.getDestinationString(),
-          mode: planner.getTravelMode().toLowerCase(),
-          freeze: planner.options.freezeDestination ? true : null
-        });
-        // TODO: implement date, time and (arrival|departure)
-      });
-
-      planner.addListener("error", function(error) {
-        console.warn("error:", error);
-      });
-
-      if (callback) callback(null, planner);
-
-      TripPlanner.instance = planner;
-    }
-  };
-
-  /*
-   * TripPlanner API
-   */
-  TripPlanner.prototype = utils.extend(new google.maps.MVCObject(), {
-
+  var TripPlanner = planner.TripPlanner = new ggnpc.maps.Class(
+    google.maps.MVCObject,
+  {
     // the constructor
     initialize: function(root, options) {
       this.root = utils.coerceElement(root).appendChild(document.createElement("div"));
@@ -953,12 +791,162 @@
 
   });
 
+  /*
+   * default options
+   */
+  TripPlanner.defaults = {
+    bounds: new google.maps.LatLngBounds(
+      new google.maps.LatLng(37.558072, -122.681354),
+      new google.maps.LatLng(37.99226, -122.276233)
+    ),
+
+    originMap: {
+      zoom: 15,
+    },
+    destMap: {
+      zoom: 14
+    },
+
+    originTitle: "Where are you coming from?",
+    originColumnSize: "half",
+
+    travelTimeTitle: "When do you want to leave?",
+    travelModeTitle: "How will you travel?",
+
+    destTitle: "Going to...",
+    destColumnSize: "half",
+
+    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
+
+    freezeDestination: false,
+    destinationOptions: [],
+
+    travelTimeType: null,
+
+    pointImageUrls: {
+      origin: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&text=A&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1",
+      destination: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-b.png&text=B&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1"
+    }
+  };
+
+  TripPlanner.inject = function(options, callback) {
+    console.log("TripPlanner.inject(", options, callback, ")");
+    if (!options) options = {};
+
+    var planner,
+        destinations,
+        // XXX make this a global to modify
+        bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
+        loader = new DestinationLoader(),
+        hash = utils.qs.parse(location.hash),
+        root = utils.coerceElement(options.root || "trip-planner");
+
+    GGNPC.planner.loader = loader;
+
+    if (!root) {
+      console.log("planner: no root", options.root);
+      if (callback) callback("No such element:", options.root);
+      return;
+    }
+
+    root = d3.select(root)
+      .classed("loading", true);
+
+    var message = root.append("p")
+      .attr("class", "loading-message")
+      .text("Loading the trip planner...");
+
+    // console.log("loading destinations...");
+    loader.load(function(error, locations) {
+      if (error) {
+        message.text("Unable to load locations!");
+        return console.error("unable to load locations:", error);
+      }
+
+      message
+        .text("Loaded " + locations.length + " locations!")
+        .remove();
+
+      console.log("loaded", locations.length, "locations");
+      destinations = locations;
+
+      /*
+      GGNPC.planner.BespokeDirections.load(bespokeSheetId, function(error, rowsByFilename) {
+        destinations.forEach(function(d) {
+          if (d.filename in rowsByFilename) {
+            d.bespoke_directions = rowsByFilename[d.filename];
+          }
+        });
+      });
+      */
+
+      initialize();
+    });
+
+    // initialize();
+
+    function initialize() {
+      root.classed("loading", false);
+
+      var dest = loader.resolveLocation(hash.to);
+      if (dest && dest.accessLocations) {
+        console.log("got access for:", dest, dest.accessLocations[0]);
+        dest = dest.accessLocations[0];
+      }
+      console.log("resolved dest:", hash.to, "->", dest);
+
+      planner = new TripPlanner(root.node(), {
+        origin: hash.from, // || "2017 Mission St, SF",
+        destination: dest,
+        travelMode: hash.mode,
+        destinationOptions: destinations,
+        freezeDestination: hash.to && hash.freeze === true
+      });
+
+      autoRoute();
+
+      function autoRoute() {
+        if (planner.getOrigin() && planner.getDestination()) {
+          planner.route();
+        }
+      }
+
+      planner.addListener("origin", autoRoute);
+      planner.addListener("destination", autoRoute);
+      planner.addListener("travelMode", autoRoute);
+      planner.addListener("travelTime", autoRoute);
+      planner.addListener("travelTimeType", autoRoute);
+
+      planner.addListener("route", function(route) {
+        console.log("routed:", route);
+        location.hash = GGNPC.utils.qs.format({
+          from: planner.getOrigin(),
+          to: planner.getDestinationString(),
+          mode: planner.getTravelMode().toLowerCase(),
+          freeze: planner.options.freezeDestination ? true : null
+        });
+        // TODO: implement date, time and (arrival|departure)
+      });
+
+      planner.addListener("error", function(error) {
+        console.warn("error:", error);
+      });
+
+      if (callback) callback(null, planner);
+
+      TripPlanner.instance = planner;
+    }
+  };
+
+
+  planner.BaseClass = new ggnpc.maps.Class(google.maps.MVCObject);
+
   // "nearby" view
-  var NearbyPlanner = planner.NearbyPlanner = utils.extend(new google.maps.MVCObject(), {
+  var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
   });
 
   // rewrite TripPlanner.prototype._setupDatePicker() to use this
-  var DateTimePicker = planner.DateTimePicker = planner.Class(new google.maps.MVCObject(), {
+  var DateTimePicker = planner.DateTimePicker = planner.BaseClass.extend({
     initialize: function(root, options) {
       this.root = utils.coerceElement(root);
       this.options = utils.extend({}, DateTimePicker.defaults, options);
@@ -1216,7 +1204,7 @@
   };
 
   // rewrite TripPlanner.prototype._setupDom() to use this
-  var TravelModePicker = planner.TravelModePicker = planner.Class(new google.maps.MVCObject(), {
+  var TravelModePicker = planner.TravelModePicker = planner.BaseClass.extend({
     initialize: function(root, options) {
       this.root = utils.coerceElement(root);
       this.options = utils.extend({}, TravelModePicker.defaults, options);
@@ -1298,7 +1286,7 @@
     ]
   };
 
-  var TextPlusOptions = planner.TextPlusOptions = planner.Class(new google.maps.MVCObject(), {
+  var TextPlusOptions = planner.TextPlusOptions = planner.BaseClass.extend({
     initialize: function(root, options) {
       this.root = utils.coerceElement(root);
 
@@ -1448,30 +1436,15 @@
    * loader.load(function(error, locations) {
    * });
    */
-  var DestinationLoader = planner.DestinationLoader = function(options) {
-    this.options = utils.extend({}, DestinationLoader.defaults, options);
-    this._parks = [];
-    this._parksById = {};
-    this._allLocations = [];
-    this._allLocationsById = {};
-  };
+  var DestinationLoader = planner.DestinationLoader = planner.BaseClass.extend({
+    initialize: function(options) {
+      this.options = utils.extend({}, DestinationLoader.defaults, options);
+      this._parks = [];
+      this._parksById = {};
+      this._allLocations = [];
+      this._allLocationsById = {};
+    },
 
-  DestinationLoader.defaults = {
-    // XXX get the apiUrl from Map.defaults
-    apiUrl: ggnpc.maps.Map.defaults.apiUrl,
-    locationTypes: ["Access", "Trailhead", "Visitor Center", "Point of Interest"],
-    groupByPark: true,
-    nearbyThreshold: 1, // miles
-    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
-    nearbyTypeCounts: {
-      "Restroom": 1,
-      "Cafe": 1,
-      "Visitor Center": 1,
-      "Trailhead": 2
-    }
-  };
-  
-  DestinationLoader.prototype = {
     load: function(callback) {
       var that = this,
           options = this.options;
@@ -1638,6 +1611,21 @@
 
     _sortByTitle: function(a, b) {
       return d3.ascending(a.title, b.title);
+    }
+  };
+
+  DestinationLoader.defaults = {
+    // XXX get the apiUrl from Map.defaults
+    apiUrl: ggnpc.maps.Map.defaults.apiUrl,
+    locationTypes: ["Access", "Trailhead", "Visitor Center", "Point of Interest"],
+    groupByPark: true,
+    nearbyThreshold: 1, // miles
+    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
+    nearbyTypeCounts: {
+      "Restroom": 1,
+      "Cafe": 1,
+      "Visitor Center": 1,
+      "Trailhead": 2
     }
   };
 
