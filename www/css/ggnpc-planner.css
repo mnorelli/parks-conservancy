@@ -139,6 +139,10 @@
   width: 20%;
 }
 
+.date-picker select {
+  margin-right: 1em;
+}
+
 .date-picker span.date input {
   width: 10em;
 }
