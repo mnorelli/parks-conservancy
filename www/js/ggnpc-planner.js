@@ -277,6 +277,7 @@
         .attr("class", "title")
         .html(this.options.travelModeTitle || "");
 
+      // set up the travel mode selector
       var modeRoot = travelMode.append("div")
         .attr("class", "travel-modes");
       this._modeSelector = new TravelModePicker(modeRoot.node(), {
@@ -296,6 +297,7 @@
         .attr("class", "title")
         .html(this.options.travelTimeTitle || "");
 
+      // set up the date/time picker
       var datePicker = travelTime.append("div")
         .attr("class", "date-picker");
       this._datePicker = new DateTimePicker(datePicker.node());
@@ -1101,6 +1103,9 @@
                 })
                 .attr("class", function(d) {
                   return ["mode", d.value.toLowerCase()].join(" ");
+                })
+                .attr("title", function(d) {
+                  return d.title;
                 })
                 .on("click", function(d) {
                   d3.event.preventDefault();
