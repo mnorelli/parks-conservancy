@@ -134,6 +134,8 @@
     var MiniMap = maps.MiniMap = Map.extend({
       initialize: function(root, options) {
         var options = maps.collapseOptions(root, options, MiniMap.defaults);
+
+        console.log("OPTS: ", options);
         Map.call(this, options.root, options);
 
         var root = this.root;
@@ -200,6 +202,12 @@
       _setContext: function(file) {
 
         if (this._contextRequest) this._contextRequest.abort();
+
+        d3.select(this._extras)
+          .select("a.big-map")
+            .attr("href", function(d) {
+              return [d.href, file].join("#");
+            });
 
         // XXX abstract this in GGNPC.API?
         var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
@@ -293,6 +301,7 @@
                 })].join("#");
               });
 
+
         }
 
       },
@@ -319,6 +328,13 @@
         new google.maps.LatLng(37.99226, -122.276233)
       ),
       zoomControl: false,
+      draggable: false,
+      disableDefaultUI: true,
+      disableDoubleClickZoom: true,
+      keyboardShortcuts: false,
+      panControl: false,
+      streetViewControl: false,
+      scaleControl: false,
       links: [
         {type: "big-map", href: "/mapping/", text: "See Larger Map"},
         {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
