@@ -125,12 +125,15 @@
         zIndex: 1000
       },
       paths: [
+        /*
         {
-          pattern: new RegExp("/visit/park-sites/(.+)$"),
+          //pattern: new RegExp("/visit/park-sites/(.+)$"),
+          pattern: new RegExp(".*"),
           run: function(str, file) {
             this._setContext(file);
           }
         }
+        */
       ]
     };
 
@@ -149,7 +152,8 @@
         if (this.options.bounds) this.fitBounds(this.options.bounds);
 
         // XXX this happens automatically if it's called setPath()
-        if (this.options.path) this._setPath(this.options.path);
+        //if (this.options.path) this._setPath(this.options.path);
+        if(this.options.path) this._setContext(this.options.path);
       },
 
       _setupExtras: function(root) {
@@ -201,18 +205,25 @@
       },
 
       _setContext: function(file) {
-        console.log("min-map context:", file);
 
         if (this._contextRequest) this._contextRequest.abort();
 
         // XXX abstract this in GGNPC.API?
-        var url = [this.options.apiUrl, "context", file].join("/"),
+        var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
             that = this;
+
+
+        console.log("URL: ", url);
+
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
             console.warn("mini-map: no such context:", file, error);
             return;
           }
+          // XXX: normalizing data until I fix this in api
+          data.outlines = data.geojson[0] || [];
+          data.parent = data.results[0] || {};
+
           that._updateContext(data);
           that._contextRequest = null;
         });
@@ -220,8 +231,9 @@
 
       _updateContext: function(data) {
         console.log("mini-map update context:", data);
-        var that = this;
 
+        var that = this;
+        var fitBoundsCalled = false;
         if (data.outlines.length) {
           if (this._shapes) {
             this._shapes.forEach(function(shape) {
@@ -241,20 +253,69 @@
 
           this._shapes = shapes;
           if (shapes.geojsonBounds && this.options.outline.fitBounds) {
+            fitBoundsCalled = true;
             this.fitBounds(shapes.geojsonBounds);
           }
         }
 
-        var parent = data.parent.results[0].attributes;
-        d3.select(this._extras)
-          .select("a.directions")
-            .attr("href", function(d) {
-              return [d.href, utils.qs.format({
-                from: "2017 Mission St, SF CA",
-                to: [parent.title, parent.id].join(":"),
-                freeze: true
-              })].join("#");
+        // stick a pin in it!
+        if(data.parent.hasOwnProperty('latitude') && data.parent.hasOwnProperty('longitude')){
+
+          if(this._markers){
+            this._markers.forEach(function(marker){
+              marker.setMap(null);
             });
+          }
+
+          this._markers = [];
+
+          var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
+              map: that
+          });
+          this._markers.push(marker);
+
+          // adjust map bounds only if fitBounds hasn't been called
+          if(!fitBoundsCalled && this.options.outline.fitBounds){
+            var bounds = new google.maps.LatLngBounds();
+
+            this._markers.forEach(function (m, i) {
+                bounds.extend(m.getPosition());
+            });
+
+            this.fitBounds(this._bufferBounds(bounds, .02));
+          }
+        }
+
+        // update directions link
+        if(data.parent.hasOwnProperty('attributes')){
+          var parent = data.parent.attributes;
+          d3.select(this._extras)
+            .select("a.directions")
+              .attr("href", function(d) {
+                return [d.href, utils.qs.format({
+                  from: "2017 Mission St, SF CA",
+                  to: [parent.title, parent.id].join(":"),
+                  freeze: true
+                })].join("#");
+              });
+
+        }
+
+      },
+
+      _bufferBounds: function(bds, amount){
+
+        var ne = bds.getNorthEast(),
+          sw = bds.getSouthWest(),
+          n = ne.lat() + amount,
+          e = ne.lng() + amount,
+          s = sw.lat() - amount,
+          w = sw.lng() - amount;
+
+        console.log(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e))
+
+        return new google.maps.LatLngBounds(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e));
       }
 
     });
