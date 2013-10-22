@@ -1473,7 +1473,7 @@
 
         var parksById = that._parksById;
 
-        d3.json(options.apiUrl + "record/attribute/access/TRUE", function(error, data) {
+        d3.json(options.apiUrl + "kind/location", function(error, data) {
           if (error) return callback(error, null);
 
           var locations = data.results.map(that._getAttibutes),
@@ -1484,13 +1484,9 @@
             that._allLocationsById[d.id] = d;
           });
 
-          /*
-          if (options.locationTypes && options.locationTypes.length > 0) {
-            locations = locations.filter(function(d) {
-              return d.relatedpark && options.locationTypes.indexOf(d.parklocationtype) > -1;
-            });
-          }
-          */
+          locations = locations.filter(function(d) {
+            return d.access === "TRUE";
+          });
 
           if (options.nearbyThreshold) {
             var nearbyTypes = options.nearbyTypes,
