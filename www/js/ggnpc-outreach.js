@@ -58,7 +58,8 @@
               return [
                 this.href,
                 utils.qs.format({
-                  to: [d.title, d.id].join(":")
+                  to: [d.title, d.id].join(":"),
+                  freeze: true
                 })
               ].join("#");
             });
