@@ -179,9 +179,11 @@
       },
 
       initialize: function(root, options) {
+        // include drawing tools
+        GGNPC.utils.extend(this, GGNPC.overlayTools);
+
         var options = maps.collapseOptions(root, options, MiniMap.defaults);
 
-        console.log("OPTS: ", options);
         Map.call(this, options.root, options);
 
         var root = this.root;
@@ -273,6 +275,7 @@
           data.parent = data.results[0] || {};
 
           that._updateContext(data);
+          that._drawOverlays(data);
           that._contextRequest = null;
         });
       },
@@ -281,60 +284,6 @@
         console.log("mini-map update context:", data);
 
         var that = this;
-        var fitBoundsCalled = false;
-        if (data.outlines.length) {
-          if (this._shapes) {
-            this._shapes.forEach(function(shape) {
-              shape.setMap(null);
-            });
-            this._shapes = null;
-          }
-
-          // XXX will this data structure ever *not* exist?
-          var feature = JSON.parse(data.outlines.results[0].geom),
-              shapes = new GeoJSON(feature, this.options.outline, true);
-          console.log("shapes:", shapes);
-
-          shapes.forEach(function(shape) {
-            shape.setMap(that);
-          });
-
-          this._shapes = shapes;
-          if (shapes.geojsonBounds && this.options.outline.fitBounds) {
-            fitBoundsCalled = true;
-            this.fitBounds(shapes.geojsonBounds);
-          }
-        }
-
-        // stick a pin in it!
-        if(data.parent.hasOwnProperty('latitude') && data.parent.hasOwnProperty('longitude')){
-
-          if(this._markers){
-            this._markers.forEach(function(marker){
-              marker.setMap(null);
-            });
-          }
-
-          this._markers = [];
-
-          var marker = new google.maps.Marker({
-              position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
-              map: that
-          });
-          this._markers.push(marker);
-
-          // adjust map bounds only if fitBounds hasn't been called
-          if(!fitBoundsCalled && this.options.markers.fitBounds){
-            var bounds = new google.maps.LatLngBounds();
-
-            this._markers.forEach(function (m, i) {
-                bounds.extend(m.getPosition());
-            });
-
-            this.fitBounds(this._bufferBounds(bounds, .02));
-          }
-        }
-
         // update directions link
         if(data.parent.hasOwnProperty('attributes')){
           var parent = data.parent.attributes;
@@ -350,6 +299,9 @@
 
 
         }
+
+      },
+      _drawOverlays: function(){
 
       },
 
@@ -383,7 +335,6 @@
         }
       }
     };
-
 
     var BigMap = maps.BigMap = Map.extend({
       defaults: {
@@ -424,12 +375,17 @@
       },
 
       initialize: function(root, options) {
+
+        // include drawing tools
+        GGNPC.utils.extend(this, GGNPC.overlayTools);
+
         var that = this;
         var options = maps.collapseOptions(root, options, BigMap.defaults);
         Map.call(this, options.root, options);
 
         var root = this.root;
         root.classList.add("big-map");
+
         //this._setupExtras(root);
 
 
@@ -486,12 +442,57 @@
           data.parent = data.results[0] || {};
 
           that._updateContext(data);
+          that._drawOverlays(data);
           that._contextRequest = null;
         });
       },
 
-      _updateContext: function(data) {
-        console.log("big-map update context:", data);
+      _updateContext: function(){
+
+      },
+
+      _drawOverlays: function(){
+
+      },
+
+      _bufferBounds: function(bds, amount){
+
+        var ne = bds.getNorthEast(),
+          sw = bds.getSouthWest(),
+          n = ne.lat() + amount,
+          e = ne.lng() + amount,
+          s = sw.lat() - amount,
+          w = sw.lng() - amount;
+
+        console.log(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e))
+
+        return new google.maps.LatLngBounds(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e));
+      }
+    });
+
+    BigMap.inject = function(options, callback) {
+      if (options.root) {
+        var root = utils.coerceElement(options.root);
+        if (root) {
+          var map = new BigMap(root, {
+            path: location.pathname,
+            hash: location.hash.replace('#','')
+          });
+
+          if (callback) callback(null, map);
+
+          BigMap.instance = map;
+        }
+      }
+    };
+
+
+    // handles drawing shapes and markers on a map
+    // overrides the _drawOverlays method in Big & Little Maps
+    // call this in map initialize fn:
+    // GGNPC.utils.extend(this, GGNPC.overlayTools);
+    GGNPC.overlayTools = {
+      _drawOverlays: function(data) {
 
         var that = this;
         var fitBoundsCalled = false;
@@ -548,36 +549,6 @@
           }
         }
 
-      },
-
-      _bufferBounds: function(bds, amount){
-
-        var ne = bds.getNorthEast(),
-          sw = bds.getSouthWest(),
-          n = ne.lat() + amount,
-          e = ne.lng() + amount,
-          s = sw.lat() - amount,
-          w = sw.lng() - amount;
-
-        console.log(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e))
-
-        return new google.maps.LatLngBounds(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e));
-      }
-    });
-
-    BigMap.inject = function(options, callback) {
-      if (options.root) {
-        var root = utils.coerceElement(options.root);
-        if (root) {
-          var map = new BigMap(root, {
-            path: location.pathname,
-            hash: location.hash.replace('#','')
-          });
-
-          if (callback) callback(null, map);
-
-          BigMap.instance = map;
-        }
       }
     };
 
