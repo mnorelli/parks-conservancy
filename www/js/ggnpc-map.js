@@ -384,4 +384,77 @@
       }
     };
 
+
+    var BigMap = maps.BigMap = Map.extend({
+      defaults: {
+        bounds: new google.maps.LatLngBounds(
+          new google.maps.LatLng(37.558072, -122.681354),
+          new google.maps.LatLng(37.99226, -122.276233)
+        ),
+        mapTypeControl: false,
+        scrollwheel: false,
+        links: [
+          {type: "big-map", href: "/mapping/", text: "See Larger Map"},
+          {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
+        ],
+        outline: {
+          fitBounds: true,
+          strokeColor: "#333",
+          strokeOpacity: .4,
+          strokeWeight: 1,
+          fillColor: "#4afb05",
+          fillOpacity: .55,
+          zIndex: 1000
+        },
+        markers: {
+          fitBounds: true // outline.fitBounds takes precedence
+        },
+        paths: [
+          /*
+          {
+            //pattern: new RegExp("/visit/park-sites/(.+)$"),
+            pattern: new RegExp(".*"),
+            run: function(str, file) {
+              this._setContext(file);
+            }
+          }
+          */
+        ]
+      },
+
+      initialize: function(root, options) {
+        var options = maps.collapseOptions(root, options, BigMap.defaults);
+
+        console.log("OPTS: ", options);
+        Map.call(this, options.root, options);
+
+        var root = this.root;
+        root.classList.add("big-map");
+        //this._setupExtras(root);
+
+        google.maps.event.trigger(this, "resize");
+
+        if (this.options.bounds) this.fitBounds(this.options.bounds);
+
+        // XXX this happens automatically if it's called setPath()
+        //if (this.options.path) this._setPath(this.options.path);
+        //if(this.options.path) this._setContext(this.options.path);
+      }
+    });
+
+    BigMap.inject = function(options, callback) {
+      if (options.root) {
+        var root = utils.coerceElement(options.root);
+        if (root) {
+          var map = new BigMap(root, {
+            path: location.pathname
+          });
+
+          if (callback) callback(null, map);
+
+          BigMap.instance = map;
+        }
+      }
+    };
+
 })(this);

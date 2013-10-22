@@ -44,6 +44,23 @@
         }
       },
 
+      {
+        name: "big-map",
+        reqs: [
+          "js/vendor/d3.v3.min.js",
+          "js/vendor/geojson.js",
+          "css/ggnpc-big-map.css"
+        ],
+        // path: new RegExp("/planner(/|.html)?$"),
+        path: "/mapping/big-map.html",
+        options: {
+          root: "#big-map"
+        },
+        run: function(options) {
+          GGNPC.maps.BigMap.inject(options);
+        }
+      },
+
       // this is the "default" route that runs for all other pages
       {
         name: "default",
