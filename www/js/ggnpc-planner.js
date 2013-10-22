@@ -50,6 +50,8 @@
     freezeDestination: false,
     destinationOptions: [],
 
+    travelTimeType: null,
+
     pointImageUrls: {
       origin: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&text=A&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1",
       destination: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-b.png&text=B&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1"
@@ -143,6 +145,7 @@
           to: planner.getDestinationString(),
           mode: planner.getTravelMode().toLowerCase()
         });
+        // TODO: implement date, time and (arrival|departure)
       });
 
       planner.addListener("error", function(error) {
@@ -175,6 +178,7 @@
       };
 
       this._travelTime = this._coerceDate(this.options.departureTime) || new Date();
+      this._travelTimeType = this.options.travelTimeType;
 
       this.directions = new google.maps.DirectionsService();
 
@@ -300,10 +304,45 @@
       // set up the date/time picker
       var datePicker = travelTime.append("div")
         .attr("class", "date-picker");
+
+      var departChanged = false,
+          departOptions = datePicker.append("span")
+            .attr("class", "time-type")
+            .append("select")
+              .attr("name", "time-type")
+              .on("change", function() {
+                var d = d3.select(this.options[this.selectedIndex]).datum();
+                if (d.value) {
+                  that.setTravelTimeType(d.value);
+                } else {
+                  departChanged = true;
+                  that._datePicker.setDate(new Date());
+                  departChanged = false;
+                }
+              })
+              .selectAll("option")
+              .data([
+                {title: "Leave now", value: null},
+                {title: "Depart at", value: "departure"},
+                {title: "Arrive at", value: "arrival"}
+              ])
+              .enter()
+              .append("option")
+                .attr("value", function(d) { return d.value; })
+                .text(function(d) { return d.title; });
+
       this._datePicker = new DateTimePicker(datePicker.node());
       this._datePicker.addListener("change", function(date) {
         console.log("date change:", date);
         that.setTravelTime(date);
+
+        if (!departChanged && !that.getTravelTimeType()) {
+          that.setTravelTimeType(null);
+          departOptions
+            .attr("selected", function(d, i) {
+              return (d.value === "departure") ? "selected" : null;
+            });
+        }
       });
 
       var destSection = destColumn.append("div")
@@ -517,6 +556,19 @@
       return this;
     },
 
+    // "arrival" or "departure"
+    getTravelTimeType: function() {
+      return this._travelTimeType;
+    },
+
+    setTravelTimeType: function(type) {
+      if (this._travelTimeType != type) {
+        this._travelTimeType = type;
+        google.maps.event.trigger(this, "travelTimeType", this._travelTimeType);
+      }
+      return this;
+    },
+
     route: function(callback) {
       this._clearRoute();
 
@@ -526,9 +578,22 @@
       }
 
       if (!isNaN(this._travelTime)) {
-        request.transitOptions = {
-          departureTime: this._travelTime
-        };
+        switch (this._travelTimeType) {
+          case "departure":
+            request.transitOptions = {
+              departureTime: this._travelTime
+            };
+            break;
+          case "arrival":
+            request.transitOptions = {
+              arrivalTime: this._travelTime
+            };
+            break;
+          default:
+            if (this._travelTimeType) {
+              console.warn("invalid travel time type:", this._travelTimeType);
+          }
+        }
       }
 
       var error;
@@ -711,6 +776,7 @@
       if (req.transitOptions && req.transitOptions.departureTime instanceof Date) {
         params.date = req.transitOptions.departureTime;
       }
+      // TODO how to specify arrival time???
 
       console.log("link params:", params);
 
@@ -1016,6 +1082,11 @@
         });
       }
 
+      this.addListener("change", function(d) {
+        datePicker.month(d);
+        setDay(d);
+        timer.setValue(timeFormat(d));
+      });
     },
 
     getDate: function() {
@@ -1023,6 +1094,7 @@
     },
 
     setDate: function(date, preserveTime) {
+      var then = this.getDate();
       if (this._date && preserveTime) {
         this._date.setFullYear(date.getFullYear());
         this._date.setMonth(date.getMonth());
@@ -1030,7 +1102,7 @@
       } else {
         this._date = date;
       }
-      this._update();
+      this._update(then);
       return this;
     },
 
@@ -1039,13 +1111,14 @@
     },
 
     setTime: function(date) {
+      var then = this.getDate();
       if (this._date) {
         this._date.setHours(date.getHours());
         this._date.setMinutes(date.getMinutes());
       } else {
         this._date = date;
       }
-      this._update();
+      this._update(then);
       return this;
     },
 
@@ -1055,23 +1128,32 @@
 
     setHour: function(hour) {
       if (!this._date || hour != this._date.getHours()) {
+        var then = this.getDate();
         this._date.setHours(hour);
-        this._update();
+        this._update(then);
       }
       return this;
     },
 
     setMinutes: function(minutes) {
       if (!this._date || minutes != this._date.getMinutes()) {
+        var then = this.getDate();
         this._date.setMinutes(minutes);
+        this._update(then);
       }
       return this;
     },
 
-    _update: function() {
+    _update: function(then) {
+      var round = function(d) { return d3.time.hour.floor(d).getTime(); },
+          now = this.getDate();
+      if (then && round(then) === round(now)) {
+        console.log("same date:", then);
+        return;
+      }
+
       // XXX
       var root = d3.select(this.root),
-          now = this.getDate(),
           currentHour = now.getHours(),
           currentMinute = quantize(this._date.getMinutes(), this.options.minuteStep, Math.ceil);
       if (currentMinute === 60) {
@@ -1262,7 +1344,9 @@
     },
 
     setValue: function(value) {
-      this._input.property("value", value);
+      if (value != this._input.property("value")) {
+        this._input.property("value", value);
+      }
       return this;
     }
   });
