@@ -41,9 +41,13 @@
       klass.extend = function(methods) {
         return new maps.Class(klass, methods);
       };
+      if (proto && typeof proto.defaults === "object") {
+        klass.defaults = utils.extend({}, parent.defaults, proto.defaults);
+      }
       return klass;
     };
 
+    // collapse options
     maps.collapseOptions = function(root, options, defaults) {
       if (arguments.length === 1) {
         if (typeof root === "string") {
@@ -66,6 +70,24 @@
     var Map = maps.Map = new maps.Class(
       google.maps.Map,
     {
+      defaults: {
+        root: "map",
+        backgroundColor: '#fff',
+        center: new google.maps.LatLng(37.7706, -122.3782),
+        zoom: 12,
+        mapTypeControlOptions: {
+          mapTypeIds: ['parks']
+        },
+        scrollwheel: false,
+        panControl: false,
+        streetViewControl: false,
+        scaleControl: false,
+        mapTypeControl: false,
+        minZoom: 10,
+        maxZoom: 18,
+        apiUrl: "http://stamen-parks-api-staging.herokuapp.com/"
+      },
+
       initialize: function(root, options) {
         options = this.options = maps.collapseOptions(root, options, Map.defaults);
         google.maps.Map.call(this, options.root || document.createElement("div"), options);
@@ -74,24 +96,6 @@
         this.setMapTypeId(maps.ParkMapType.name);
       }
     });
-
-    Map.defaults = {
-      root: "map",
-      backgroundColor: '#fff',
-      center: new google.maps.LatLng(37.7706, -122.3782),
-      zoom: 12,
-      mapTypeControlOptions: {
-        mapTypeIds: ['parks']
-      },
-      scrollwheel: false,
-      panControl: false,
-      streetViewControl: false,
-      scaleControl: false,
-      mapTypeControl: false,
-      minZoom: 10,
-      maxZoom: 18,
-      apiUrl: "http://stamen-parks-api-staging.herokuapp.com/"
-    };
 
     maps.ParkMapType = new google.maps.ImageMapType({
       name: "parks",
@@ -132,6 +136,48 @@
     });
 
     var MiniMap = maps.MiniMap = Map.extend({
+      defaults: {
+        bounds: new google.maps.LatLngBounds(
+          new google.maps.LatLng(37.558072, -122.681354),
+          new google.maps.LatLng(37.99226, -122.276233)
+        ),
+        zoomControl: false,
+        draggable: false,
+        disableDefaultUI: true,
+        disableDoubleClickZoom: true,
+        keyboardShortcuts: false,
+        panControl: false,
+        streetViewControl: false,
+        scaleControl: false,
+        links: [
+          {type: "big-map", href: "/mapping/", text: "See Larger Map"},
+          {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
+        ],
+        outline: {
+          fitBounds: true,
+          strokeColor: "#333",
+          strokeOpacity: .4,
+          strokeWeight: 1,
+          fillColor: "#4afb05",
+          fillOpacity: .55,
+          zIndex: 1000
+        },
+        markers: {
+          fitBounds: true // outline.fitBounds takes precedence
+        },
+        paths: [
+          /*
+          {
+            //pattern: new RegExp("/visit/park-sites/(.+)$"),
+            pattern: new RegExp(".*"),
+            run: function(str, file) {
+              this._setContext(file);
+            }
+          }
+          */
+        ]
+      },
+
       initialize: function(root, options) {
         var options = maps.collapseOptions(root, options, MiniMap.defaults);
 
@@ -321,50 +367,6 @@
       }
 
     });
-
-    MiniMap.defaults = {
-      bounds: new google.maps.LatLngBounds(
-        new google.maps.LatLng(37.558072, -122.681354),
-        new google.maps.LatLng(37.99226, -122.276233)
-      ),
-      zoomControl: false,
-      draggable: false,
-      disableDefaultUI: true,
-      disableDoubleClickZoom: true,
-      keyboardShortcuts: false,
-      panControl: false,
-      streetViewControl: false,
-      scaleControl: false,
-      links: [
-        {type: "big-map", href: "/mapping/", text: "See Larger Map"},
-        {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
-      ],
-      outline: {
-        fitBounds: true,
-        strokeColor: "#333",
-        strokeOpacity: .4,
-        strokeWeight: 1,
-        fillColor: "#4afb05",
-        fillOpacity: .55,
-        zIndex: 1000
-      },
-      markers: {
-        fitBounds: true // outline.fitBounds takes precedence
-      },
-      paths: [
-        /*
-        {
-          //pattern: new RegExp("/visit/park-sites/(.+)$"),
-          pattern: new RegExp(".*"),
-          run: function(str, file) {
-            this._setContext(file);
-          }
-        }
-        */
-      ]
-    };
-
-
 
     MiniMap.inject = function(options, callback) {
       if (options.mini) {

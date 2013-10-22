@@ -10,6 +10,41 @@
   var TripPlanner = planner.TripPlanner = new ggnpc.maps.Class(
     google.maps.MVCObject,
   {
+    defaults: {
+      bounds: new google.maps.LatLngBounds(
+        new google.maps.LatLng(37.558072, -122.681354),
+        new google.maps.LatLng(37.99226, -122.276233)
+      ),
+
+      originMap: {
+        zoom: 15,
+      },
+      destMap: {
+        zoom: 14
+      },
+
+      originTitle: "Where are you coming from?",
+      originColumnSize: "half",
+
+      travelTimeTitle: "When do you want to leave?",
+      travelModeTitle: "How will you travel?",
+
+      destTitle: "Going to...",
+      destColumnSize: "half",
+
+      tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
+
+      freezeDestination: false,
+      destinationOptions: [],
+
+      travelTimeType: null,
+
+      pointImageUrls: {
+        origin: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&text=A&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1",
+        destination: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-b.png&text=B&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1"
+      }
+    },
+
     // the constructor
     initialize: function(root, options) {
       this.root = utils.coerceElement(root).appendChild(document.createElement("div"));
@@ -791,44 +826,6 @@
 
   });
 
-  /*
-   * default options
-   */
-  TripPlanner.defaults = {
-    bounds: new google.maps.LatLngBounds(
-      new google.maps.LatLng(37.558072, -122.681354),
-      new google.maps.LatLng(37.99226, -122.276233)
-    ),
-
-    originMap: {
-      zoom: 15,
-    },
-    destMap: {
-      zoom: 14
-    },
-
-    originTitle: "Where are you coming from?",
-    originColumnSize: "half",
-
-    travelTimeTitle: "When do you want to leave?",
-    travelModeTitle: "How will you travel?",
-
-    destTitle: "Going to...",
-    destColumnSize: "half",
-
-    tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
-
-    freezeDestination: false,
-    destinationOptions: [],
-
-    travelTimeType: null,
-
-    pointImageUrls: {
-      origin: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&text=A&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1",
-      destination: "http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-b.png&text=B&psize=16&font=fonts/Roboto-Regular.ttf&color=ff333333&ax=44&ay=48&scale=1"
-    }
-  };
-
   TripPlanner.inject = function(options, callback) {
     console.log("TripPlanner.inject(", options, callback, ")");
     if (!options) options = {};
@@ -947,6 +944,10 @@
 
   // rewrite TripPlanner.prototype._setupDatePicker() to use this
   var DateTimePicker = planner.DateTimePicker = planner.BaseClass.extend({
+    defaults: {
+      minuteStep: 15
+    },
+
     initialize: function(root, options) {
       this.root = utils.coerceElement(root);
       this.options = utils.extend({}, DateTimePicker.defaults, options);
@@ -1199,12 +1200,17 @@
     }
   });
 
-  DateTimePicker.defaults = {
-    minuteStep: 15
-  };
-
   // rewrite TripPlanner.prototype._setupDom() to use this
   var TravelModePicker = planner.TravelModePicker = planner.BaseClass.extend({
+    defaults: {
+      modes: [
+        {title: "by car",     value: google.maps.DirectionsTravelMode.DRIVING},
+        {title: "by transit", value: google.maps.DirectionsTravelMode.TRANSIT},
+        {title: "by bike",    value: google.maps.DirectionsTravelMode.BICYCLING},
+        {title: "on foot",    value: google.maps.DirectionsTravelMode.WALKING}
+      ]
+    },
+
     initialize: function(root, options) {
       this.root = utils.coerceElement(root);
       this.options = utils.extend({}, TravelModePicker.defaults, options);
@@ -1277,16 +1283,11 @@
     }
   });
 
-  TravelModePicker.defaults = {
-    modes: [
-      {title: "by car",     value: google.maps.DirectionsTravelMode.DRIVING},
-      {title: "by transit", value: google.maps.DirectionsTravelMode.TRANSIT},
-      {title: "by bike",    value: google.maps.DirectionsTravelMode.BICYCLING},
-      {title: "on foot",    value: google.maps.DirectionsTravelMode.WALKING}
-    ]
-  };
-
   var TextPlusOptions = planner.TextPlusOptions = planner.BaseClass.extend({
+    defaults: {
+      toggleText: ["&#x25bc;", "&#x25bc;"]
+    },
+
     initialize: function(root, options) {
       this.root = utils.coerceElement(root);
 
@@ -1373,10 +1374,6 @@
     }
   });
 
-  TextPlusOptions.defaults = {
-    toggleText: ["&#x25bc;", "&#x25bc;"]
-  };
-
   /*
    * Bespoke Directions stuff
    */
@@ -1437,6 +1434,21 @@
    * });
    */
   var DestinationLoader = planner.DestinationLoader = planner.BaseClass.extend({
+    defaults: {
+      // XXX get the apiUrl from Map.defaults
+      apiUrl: ggnpc.maps.Map.defaults.apiUrl,
+      locationTypes: ["Access", "Trailhead", "Visitor Center", "Point of Interest"],
+      groupByPark: true,
+      nearbyThreshold: 1, // miles
+      nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
+      nearbyTypeCounts: {
+        "Restroom": 1,
+        "Cafe": 1,
+        "Visitor Center": 1,
+        "Trailhead": 2
+      }
+    },
+
     initialize: function(options) {
       this.options = utils.extend({}, DestinationLoader.defaults, options);
       this._parks = [];
@@ -1612,22 +1624,7 @@
     _sortByTitle: function(a, b) {
       return d3.ascending(a.title, b.title);
     }
-  };
-
-  DestinationLoader.defaults = {
-    // XXX get the apiUrl from Map.defaults
-    apiUrl: ggnpc.maps.Map.defaults.apiUrl,
-    locationTypes: ["Access", "Trailhead", "Visitor Center", "Point of Interest"],
-    groupByPark: true,
-    nearbyThreshold: 1, // miles
-    nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
-    nearbyTypeCounts: {
-      "Restroom": 1,
-      "Cafe": 1,
-      "Visitor Center": 1,
-      "Trailhead": 2
-    }
-  };
+  });
 
   function quantize(n, f, round) {
     if (!round) round = Math.round;
