@@ -6,6 +6,7 @@ var moment = require('moment');
 var pg = require('pg');
 var hstore = require('node-postgres-hstore');
 var url = require('url');
+var googleGeocoder = require('geocoder');
 
 var opts = require("optimist")
     .usage("--test will run the Convio feed inhaler with out saving to DB.  Optional can set a specific kind in environment variable.")
@@ -255,21 +256,21 @@ var loadXmlFile = function(callback){
     });
 };
 
-var run = function(){
-
+var run = function(callback){
+    var rollbacked = false;
     var rollback = function(client, done) {
+        rollbacked = true;
         client.query('ROLLBACK', function(err) {
-        //if there was a problem rolling back the query
-        //something is seriously messed up.  Return the error
-        //to the done function to close & remove this client from
-        //the pool.  If you leave a client in the pool with an unaborted
-        //transaction __very bad things__ will happen.
-        return done(err);
+            return done(err);
         });
+        callback('error');
     };
 
     pg.connect(CONN, function(err, client, done) {
-        if(err) throw err;
+        if(err) {
+            callback('error');
+            throw err;
+        }
         loadXmlFile(function(xml){
             if(xml){
                 client.query('BEGIN', function(err) {
@@ -323,6 +324,8 @@ var run = function(){
 
                                         console.log(summary);
                                         done();
+
+                                        callback(null);
                                     });
                                 }
                             }
@@ -333,10 +336,121 @@ var run = function(){
                     });
 
                 });
+
+            }else{ // no xml
+                callback('error');
             }
         });
     });
-}
+};
+
+
+// XXX: this still needs to be tested on an actual update
+var geocodeAndCreateGeom = function(){
+    var regexp = new RegExp(/^.*\bCA\b/);
+    pg.connect(CONN, function(err, client, done) {
+        if(err) {
+            return callback({
+                'error fetching client from pool': err
+            });
+        }
+        var query = "select attributes->'id' as id, attributes->'location' as location from convio where geom is null";
+        var params = [];
+        client.query(query, params, function(err, result) {
+            //call `done()` to release the client back to the pool
+            done();
+
+            if(err) {
+                return callback({
+                    'error running query': err
+                });
+            }
+
+            var addresses = [];
+
+            // runs pgsql functions
+            function createGeoms(){
+                console.log('');
+                console.log("**** Creating Geom fields for convio items ****");
+
+                client.query('select convio_convert_locations()', [], function(err, resp) {
+                    done();
+                });
+                client.query('select convio_convert_locationmap()', [], function(err, resp) {
+                    done();
+                });
+                client.query('select convio_convert_locationlinks()', [], function(err, resp) {
+                    done();
+                });
+            }
+
+            function _geocode(){
+                if(!addresses.length) {
+                    createGeoms();
+                    return;
+                }
+
+                var item = addresses.pop();
+                console.log("Location: ", item.location);
+                if(regexp.test(item.location)){
+
+                    console.log("");
+                    console.log("Starting geocoding for item: ", item.id);
+
+                    googleGeocoder.geocode(item.location, function ( err, data ) {
+                        if(data.hasOwnProperty('status') && data.status.toLowerCase() == 'ok'){
+                            var lat = data.results[0].geometry.location.lat,
+                                lng = data.results[0].geometry.location.lng,
+                                locStr = lat + "," + lng,
+                                addrStr = item.location;
+
+                            console.log("Found lat/lng (%s,%s)", lat, lng);
+
+                            var q = "UPDATE convio set geom = ST_SetSRID(ST_MakePoint($1, $2), 4326), attributes = attributes || hstore(ARRAY['location',$3,'address',$4]) where attributes->'id' = $5;";
+
+                            client.query(q, [lng, lat, locStr, addrStr, item.id], function(err, resp) {
+
+                                if(err){
+                                    console.log("Error writing result to DB: ", err);
+                                }else{
+                                    console.log("Successfully wrote result to DB");
+                                }
+
+                                done();
+
+                                _geocode();
+                            });
+
+                        }else{
+                            _geocode();
+                        }
+
+                    });
+
+                } else {
+                    _geocode();
+                }
+            }
+
+            if(result && result.hasOwnProperty('rows')){
+                result.rows.forEach(function(row){
+                    if(regexp.test(row.location)){
+                        addresses.push(row);
+                    }
+                });
+            }
+
+            if(addresses.length){
+                console.log('Found %s rows that need geocoding.', addresses.length);
+            }else{
+                console.log("No rows to process");
+            }
+
+            _geocode();
+
+        });
+    });
+};
 
 
 var groupProperty = function(items, prop){
@@ -368,6 +482,11 @@ var dryrun = function(){
     });
 };
 
-run();
+// XXX: callback to geocodeAndCreateGeom still needs to be tested on an actual ingest
+run(function(err){
+    if(!err){
+        geocodeAndCreateGeom();
+    }
+});
 //dryrun();
 

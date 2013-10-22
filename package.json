@@ -15,7 +15,8 @@
     "optimist": "",
     "async":"",
     "cheerio":"",
-    "d3": ""
+    "d3": "",
+    "geocoder":""
   },
   "engines": {
     "node": "~0.10.13",
