@@ -182,11 +182,18 @@
         // include drawing tools
         GGNPC.utils.extend(this, GGNPC.overlayTools);
 
+        var linkRoot = d3.select(root)
+            .html('')
+            .append('a');
+
+        root = linkRoot.node();
+
         var options = maps.collapseOptions(root, options, MiniMap.defaults);
 
         Map.call(this, options.root, options);
 
         var root = this.root;
+
         root.classList.add("mini-map");
         this._setupExtras(root);
 
@@ -251,11 +258,16 @@
       _setContext: function(file) {
         if (this._contextRequest) this._contextRequest.abort();
 
+        var that = this;
         d3.select(this._extras)
           .select("a.big-map")
             .attr("href", function(d) {
               return [d.href, file].join("#");
             });
+        d3.select(this.root)
+          .attr('href', function(){
+            return [that.options.links[0].href, file].join("#");
+          });
 
         // XXX abstract this in GGNPC.API?
         var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
@@ -399,9 +411,6 @@
         // XXX abstract this in GGNPC.API?
         var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
             that = this;
-
-
-        console.log("URL: ", file, url);
 
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
