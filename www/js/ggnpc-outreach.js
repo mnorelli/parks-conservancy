@@ -85,12 +85,4 @@
     ].join("\n")
   };
 
-  Outreach.inject = function(options) {
-    var out = Outreach.instance = new Outreach(options.root);
-    if (options.locations) {
-      out.showLocations(options.locations);
-    }
-    return out;
-  };
-
 })(this);
