@@ -150,7 +150,7 @@
         streetViewControl: false,
         scaleControl: false,
         links: [
-          {type: "big-map", href: "/mapping/", text: "See Larger Map"},
+          {type: "big-map", href: "/mapping/big-map.html", text: "See Larger Map"},
           {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
         ],
         outline: {
@@ -394,7 +394,7 @@
         mapTypeControl: false,
         scrollwheel: false,
         links: [
-          {type: "big-map", href: "/mapping/", text: "See Larger Map"},
+          {type: "big-map", href: "/mapping/big-map.html", text: "See Larger Map"},
           {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
         ],
         outline: {
@@ -424,21 +424,138 @@
 
       initialize: function(root, options) {
         var options = maps.collapseOptions(root, options, BigMap.defaults);
-
-        console.log("OPTS: ", options);
         Map.call(this, options.root, options);
 
         var root = this.root;
         root.classList.add("big-map");
         //this._setupExtras(root);
 
+        var that = this;
+        this.rootOffsetTop = d3.select(root).node().offsetTop;
+
+
+        function handleWindowResizeProxy(){
+          that._handleWindowResize();
+        }
+        d3.select(window).on('resize', GGNPC.utils.debounce(handleWindowResizeProxy, 100));
+
+        handleWindowResizeProxy();
         google.maps.event.trigger(this, "resize");
 
         if (this.options.bounds) this.fitBounds(this.options.bounds);
 
         // XXX this happens automatically if it's called setPath()
-        //if (this.options.path) this._setPath(this.options.path);
-        //if(this.options.path) this._setContext(this.options.path);
+        if(this.options.hash) this._setContext(this.options.hash);
+      },
+
+      _handleWindowResize: function(){
+
+        var w = window.innerWidth,
+            h = window.innerHeight,
+            mh = h - (this.rootOffsetTop + 60);
+        this.root.style.height =  mh + "px";
+
+
+        console.log(w, h);
+      },
+
+      _setContext: function(file) {
+
+        if (this._contextRequest) this._contextRequest.abort();
+
+        // XXX abstract this in GGNPC.API?
+        var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
+            that = this;
+
+
+        console.log("URL: ", file, url);
+
+        this._contextRequest = d3.json(url, function(error, data) {
+          if (error) {
+            console.warn("big-map: no such context:", file, error);
+            return;
+          }
+          // XXX: normalizing data until I fix this in api
+          data.outlines = data.geojson[0] || [];
+          data.parent = data.results[0] || {};
+
+          that._updateContext(data);
+          that._contextRequest = null;
+        });
+      },
+
+      _updateContext: function(data) {
+        console.log("big-map update context:", data);
+
+        var that = this;
+        var fitBoundsCalled = false;
+        if (data.outlines.length) {
+          if (this._shapes) {
+            this._shapes.forEach(function(shape) {
+              shape.setMap(null);
+            });
+            this._shapes = null;
+          }
+
+          // XXX will this data structure ever *not* exist?
+          var feature = JSON.parse(data.outlines.results[0].geom),
+              shapes = new GeoJSON(feature, this.options.outline, true);
+          console.log("shapes:", shapes);
+
+          shapes.forEach(function(shape) {
+            shape.setMap(that);
+          });
+
+          this._shapes = shapes;
+          if (shapes.geojsonBounds && this.options.outline.fitBounds) {
+            fitBoundsCalled = true;
+            this.fitBounds(shapes.geojsonBounds);
+          }
+        }
+
+        // stick a pin in it!
+        if(data.parent.hasOwnProperty('latitude') && data.parent.hasOwnProperty('longitude')){
+
+          if(this._markers){
+            this._markers.forEach(function(marker){
+              marker.setMap(null);
+            });
+          }
+
+          this._markers = [];
+
+          var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
+              map: that
+          });
+          this._markers.push(marker);
+
+          // adjust map bounds only if fitBounds hasn't been called
+          if(!fitBoundsCalled && this.options.markers.fitBounds){
+            var bounds = new google.maps.LatLngBounds();
+
+            this._markers.forEach(function (m, i) {
+                bounds.extend(m.getPosition());
+            });
+
+            this.fitBounds(this._bufferBounds(bounds, .02));
+          }
+        }
+
+      },
+
+      _bufferBounds: function(bds, amount){
+
+        var ne = bds.getNorthEast(),
+          sw = bds.getSouthWest(),
+          n = ne.lat() + amount,
+          e = ne.lng() + amount,
+          s = sw.lat() - amount,
+          w = sw.lng() - amount;
+
+        console.log(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e))
+
+        return new google.maps.LatLngBounds(new google.maps.LatLng(s,w), new google.maps.LatLng(n,e));
       }
     });
 
@@ -447,7 +564,8 @@
         var root = utils.coerceElement(options.root);
         if (root) {
           var map = new BigMap(root, {
-            path: location.pathname
+            path: location.pathname,
+            hash: location.hash.replace('#','')
           });
 
           if (callback) callback(null, map);
