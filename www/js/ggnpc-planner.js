@@ -118,6 +118,7 @@
       root.classed("loading", false);
 
       var dest = loader.resolveLocation(hash.to);
+      console.log("resolved dest:", hash.to, "->", dest);
 
       planner = new TripPlanner(root.node(), {
         origin: hash.from, // || "2017 Mission St, SF",
@@ -1248,7 +1249,7 @@
 
     _setup: function() {
       var that = this;
-      d3.select(this.root)
+      var modes = d3.select(this.root)
         .selectAll("span.mode")
           .data(this._modes)
           .enter()
@@ -1447,6 +1448,8 @@
     this.options = utils.extend({}, DestinationLoader.defaults, options);
     this._parks = [];
     this._parksById = {};
+    this._allLocations = [];
+    this._allLocationsById = {};
   };
 
   DestinationLoader.defaults = {
@@ -1475,6 +1478,8 @@
           .sort(that._sortByTitle);
         parks.forEach(function(d) {
           that._parksById[d.id] = d;
+          that._allLocations.push(d);
+          that._allLocationsById[d.id] = d;
         });
 
         var parksById = that._parksById;
@@ -1482,13 +1487,13 @@
         d3.json(options.apiUrl + "kind/location", function(error, data) {
           if (error) return callback(error, null);
 
-          var locations = that._allLocations = data.results.map(that._getAttibutes),
+          var locations = data.results.map(that._getAttibutes),
               allLocations = locations.slice();
 
-          that._allLocationsById = d3.nest()
-            .key(function(d) { return d.id; })
-            .rollup(function(d) { return d[0]; })
-            .map(allLocations);
+          allLocations.forEach(function(d) {
+            that._allLocations.push(d);
+            that._allLocationsById[d.id] = d;
+          });
 
           if (options.locationTypes && options.locationTypes.length > 0) {
             locations = locations.filter(function(d) {
@@ -1586,15 +1591,17 @@
     },
 
     resolveLocation: function(str) {
-      if (str.indexOf(":") > -1) {
+      if (str && str.indexOf(":") > -1) {
         var parts = str.split(":"),
             title = parts[0],
             id = parts[1];
         if (id in this._allLocationsById) {
           return this._allLocationsById[id];
         } else {
-          return title;
+          return str;
         }
+      } else {
+        return str;
       }
     },
 
