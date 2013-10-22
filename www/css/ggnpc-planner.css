@@ -247,6 +247,11 @@
   padding-right: 20px;
 }
 
+.trip-planner .dest-info address {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
 .trip-planner span.destination.frozen {
   font-weight: bold;
   margin-right: 10px;
