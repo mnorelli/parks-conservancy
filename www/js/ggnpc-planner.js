@@ -118,6 +118,10 @@
       root.classed("loading", false);
 
       var dest = loader.resolveLocation(hash.to);
+      if (dest && dest.accessLocations) {
+        console.log("got access for:", dest, dest.accessLocations[0]);
+        dest = dest.accessLocations[0];
+      }
       console.log("resolved dest:", hash.to, "->", dest);
 
       planner = new TripPlanner(root.node(), {
@@ -1484,7 +1488,7 @@
 
         var parksById = that._parksById;
 
-        d3.json(options.apiUrl + "kind/location", function(error, data) {
+        d3.json(options.apiUrl + "record/attribute/access/TRUE", function(error, data) {
           if (error) return callback(error, null);
 
           var locations = data.results.map(that._getAttibutes),
@@ -1495,11 +1499,13 @@
             that._allLocationsById[d.id] = d;
           });
 
+          /*
           if (options.locationTypes && options.locationTypes.length > 0) {
             locations = locations.filter(function(d) {
               return d.relatedpark && options.locationTypes.indexOf(d.parklocationtype) > -1;
             });
           }
+          */
 
           if (options.nearbyThreshold) {
             var nearbyTypes = options.nearbyTypes,
@@ -1571,17 +1577,30 @@
           }
 
           if (options.groupByPark) {
-            locations = d3.nest()
+            var locationsByParkId = d3.nest()
               .key(function(d) { return d.relatedpark; })
-              .entries(locations)
+              .map(locations);
+
+            locations = d3.entries(locationsByParkId)
               .map(function(d) {
-                if (!parksById[d.key]) console.warn("bad park id:", d.key);
-                return (d.values.length > 1 && parksById[d.key])
-                  ? utils.extend({}, parksById[d.key], {
-                      children: d.values.sort(that._sortByTitle)
-                    })
-                  : d.values[0];
+                if (!d.key) {
+                  console.warn("no park id for", d.value.length, "locations");
+                  return null;
+                }
+
+                var park = parksById[d.key];
+                if (!park) console.warn("bad park id:", d.key);
+
+                if (park && d.value.length > 1) {
+                  park.accessLocations = d.value;
+                  return utils.extend({}, park, {
+                    children: d.value.sort(that._sortByTitle)
+                  });
+                } else {
+                  return d.value[0];
+                }
               })
+              .filter(function(d) { return d; })
               .sort(that._sortByTitle);
           }
 
