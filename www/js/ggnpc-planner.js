@@ -873,73 +873,103 @@
 
     _setup: function() {
       var root = d3.select(this.root),
-          dateFormat = d3.time.format("%a, %b. %e, %Y"),
+          dateFormat = d3.time.format("%m/%d/%Y"),
+          timeFormat = utils.wrapFormat(d3.time.format("%I:%M%p"),
+            function(str) {
+              return str.toLowerCase()
+                .replace(/^0/, "");
+            },
+            function(str) {
+              return str.toLowerCase();
+            }),
           now = this._date,
           that = this;
+
+      var dateRoot = root.append("span")
+            .attr("class", "date"),
+          dater = new TextPlusOptions(dateRoot.node(), {
+            value: dateFormat(now)
+          });
+
+      dater.addListener("change", function(str) {
+        var date = dateFormat.parse(str);
+        if (date) {
+          datePicker.month(date);
+          setDay(date, true);
+          // that.setDate(date, true);
+        } else {
+          console.warn("bad date:", str);
+        }
+      });
+
+      var timeRoot = root.append("span")
+            .attr("class", "time"),
+          timer = new TextPlusOptions(timeRoot.node(), {
+            value: timeFormat(now)
+          });
+      timer.addListener("change", function(str) {
+        var time = timeFormat.parse(str);
+        if (time) {
+          that.setTime(time, true);
+        } else {
+          console.warn("bad time:", str);
+        }
+      });
 
       var datePicker = ggnpc.ui.datePicker()
             .on("month", function(month) {
               // console.log("month:", month);
               table
                 .call(datePicker.month(month))
-                .call(updateDays, that.getTravelTime());
+                .call(updateDays, that.getDate());
             })
             .on("day", function(day) {
-              datePopup.call(toggle);
+              dater.close();
               setDay(day);
             }),
-          dateWrapper = root.append("span")
-            .attr("class", "date"),
-          dateButton = dateWrapper.append("a")
-            .attr("class", "date-toggle")
-            .text(dateFormat(now))
-            .on("click", function() {
-              d3.event.preventDefault();
-              datePopup.call(toggle);
-            }),
-          datePopup = dateWrapper.append("div")
-            .style("display", "none")
-            .attr("class", "popup"),
-          table = datePopup.append("table")
-            .attr("class", "calendar")
-            .call(datePicker)
-            .call(updateDays, now),
-          timeWrapper = root.append("span")
-            .attr("class", "time"),
-          hourSelect = timeWrapper.append("select")
-            .attr("class", "hour")
-            .attr("name", "hour")
-            .on("change", function() {
-              that.setHour(this.selectedIndex);
-            }),
-          minuteSelect = timeWrapper.append("select")
-            .attr("class", "minute")
-            .attr("name", "minute")
-            .on("change", function() {
-              that.setMinutes(+this.options[this.selectedIndex].value);
-            });
+          table = d3.select(dater.content)
+            .append("table")
+              .attr("class", "calendar")
+              .call(datePicker)
+              .call(updateDays, now);
 
-      var minuteFormat = d3.format("02");
-      hourSelect.selectAll("option")
+      var timeOptions = d3.select(timer.content)
+        .selectAll(".hour")
         .data(d3.range(0, 24))
         .enter()
-        .append("option")
-          .attr("value", function(h) { return h; })
+        .append("a")
+          .attr("class", "hour")
           .text(function(h) {
-            var a = h >= 12 ? "pm" : "am";
-            return h > 12
-              ? (h - 12) + a
-              : (h || 12) + a;
+            var d = new Date();
+            d.setHours(h);
+            d.setMinutes(0);
+            return timeFormat(d);
+          })
+          .on("click", function(h) {
+            that.setHour(h);
+            that.setMinutes(0); // XXX
+            var d = that.getDate();
+            timer.setValue(timeFormat(d));
+            timer.close();
           });
 
-      minuteSelect.selectAll("option")
-        .data(d3.range(0, 60, this.options.minuteStep))
-        .enter()
-        .append("option")
-          .attr("value", function(m) { return m; })
-          .text(function(m) {
-            return ":" + minuteFormat(m);
-          });
+      dater.resize();
+      timer.resize();
+
+      timer.open();
+
+      var currentTime = timeOptions
+            .filter(function(h) {
+              return h === now.getHours();
+            })
+            .classed("current", true);
+      if (!currentTime.empty()) {
+        var offset = currentTime.property("offsetTop");
+        d3.select(timer.content)
+          .property("scrollTop", offset);
+      }
+
+      timer.close();
 
       function updateDays(selection, day) {
         var isSelected = dayMatcher(day),
@@ -961,8 +991,7 @@
         that.setDate(day, true);
 
         var then = that.getDate();
-        dateButton
-          .text(dateFormat(then));
+        dater.setValue(dateFormat(then));
 
         table
           .call(datePicker.day(then))
@@ -998,6 +1027,21 @@
         this._date.setFullYear(date.getFullYear());
         this._date.setMonth(date.getMonth());
         this._date.setDate(date.getDate());
+      } else {
+        this._date = date;
+      }
+      this._update();
+      return this;
+    },
+
+    getTime: function() {
+      return this.getDate();
+    },
+
+    setTime: function(date) {
+      if (this._date) {
+        this._date.setHours(date.getHours());
+        this._date.setMinutes(date.getMinutes());
       } else {
         this._date = date;
       }
@@ -1136,6 +1180,95 @@
       {title: "by bike",    value: google.maps.DirectionsTravelMode.BICYCLING},
       {title: "on foot",    value: google.maps.DirectionsTravelMode.WALKING}
     ]
+  };
+
+  var TextPlusOptions = planner.TextPlusOptions = planner.Class(new google.maps.MVCObject(), {
+    initialize: function(root, options) {
+      this.root = utils.coerceElement(root);
+
+      options = this.options = utils.extend({}, TextPlusOptions.defaults, options);
+
+      var that = this,
+          root = d3.select(this.root)
+            .classed("text-options", true),
+          input = root.append("input")
+            .attr("class", "value")
+            .attr("type", "text")
+            .attr("name", this.options.name)
+            .attr("value", this.options.value || "")
+            .on("change", function() {
+              google.maps.event.trigger(that, "change", this.value);
+            }),
+          active = false,
+          button = root.append("a")
+            .attr("class", "toggle")
+            .on("click", function() {
+              that.toggle();
+            }),
+          content = root.append("div")
+            .attr("class", "content-wrapper")
+            .append("div")
+              .attr("class", "content");
+
+      // TODO: click outside to close
+
+      this._input = input;
+      this.input = input.node();
+
+      this._content = content;
+      this.content = content.node();
+
+      this._button = button;
+      this.close();
+    },
+
+    open: function() {
+      return this._setOpen(true);
+    },
+
+    close: function() {
+      return this._setOpen(false);
+    },
+
+    _setOpen: function(open) {
+      this._open = open;
+      this._button
+        .classed("active", open)
+        .html(this.options.toggleText[open ? 1 : 0]);
+      this._content
+        .style("display", open ? null : "none");
+      return this;
+    },
+
+    resize: function() {
+      var open = this._open;
+      this.open();
+
+      var width = this._content
+        .style("width", "auto")
+        .property("offsetWidth");
+      this._content
+        .style("margin-left", -Math.floor(width / 2) + "px");
+
+      this._setOpen(open);
+    },
+
+    toggle: function() {
+      return this._setOpen(!this._open);
+    },
+
+    getValue: function() {
+      return this._input.property("value");
+    },
+
+    setValue: function(value) {
+      this._input.property("value", value);
+      return this;
+    }
+  });
+
+  TextPlusOptions.defaults = {
+    toggleText: ["&#x25bc;", "&#x25bc;"]
   };
 
   /*

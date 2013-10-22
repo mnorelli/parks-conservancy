@@ -139,34 +139,24 @@
   width: 20%;
 }
 
-.date-picker {
-  display: block;
+.date-picker span.date input {
+  width: 10em;
 }
 
-.date-picker span.date {
-  position: relative;
-}
-
-.date-picker div.popup {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  z-index: 1000;
-  background: #fff;
-  border: 1px solid #eee;
-  width: 14em;
-  margin: 5px 0 0 -7em;
-  box-shadow: 0 0 5px rgba(0,0,0,.5);
+.date-picker span.time input {
+  width: 6em;
 }
 
 .date-picker table.calendar {
   width: 100%;
   position: relative;
+  border-collapse: separate;
 }
 
   .date-picker table.calendar td,
-  .date-picker table.calendar th {
-    padding: 2px 4px;
+  .date-picker table.calendar th,
+  .date-picker table.calendar caption {
+    padding: 2px 4px !important;
     text-align: center;
   }
 
@@ -174,6 +164,7 @@
     color: #999;
     text-align: right;
     vertical-align: top;
+    border: 1px solid transparent;
   }
 
   .date-picker table.calendar td.day.current {
@@ -189,7 +180,7 @@
   }
 
   .date-picker table.calendar td.day.today {
-    border: 1px solid #666;
+    border-color: #666;
   }
 
   .date-picker table.calendar td.day.selected {
@@ -199,11 +190,12 @@
   .date-picker table.calendar caption {
     position: relative;
     background: #eee;
+    padding: 4px !important;
   }
 
   .date-picker table.calendar caption .offset {
     position: absolute;
-    top: -1px;
+    top: 4px;
     padding: 0 5px;
     font-weight: bold;
     cursor: pointer;
@@ -297,3 +289,63 @@
 .travel-modes .mode.bicycling:hover,
 .travel-modes .mode.bicycling.selected  { background-position: -305px -5px; }
 
+.text-options {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin-right: 1em;
+}
+
+.text-options input.value {
+  width: auto;
+}
+
+.text-options .toggle {
+  position: absolute;
+  bottom: 5px;
+  line-height: 1em;
+  height: 1em;
+  right: 0;
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
+  color: #999;
+}
+
+.text-options .toggle.active {
+  color: #000;
+}
+
+.text-options .content-wrapper {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  z-index: 2000;
+}
+
+.text-options .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15em;
+  margin: 4px 0 0 -7.5em;
+  min-height: 1em;
+  max-height: 15em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.text-options.time .content a.hour {
+  display: block;
+  padding: 2px 20px 2px 4px;
+  color: #666;
+}
+
+.text-options.time .content a.hour.current {
+  font-weight: bold;
+}
