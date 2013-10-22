@@ -131,12 +131,9 @@
         }
       }
 
-      /*
       planner.addListener("origin", autoRoute);
-      planner.addListener("travelMode", autoRoute);
-      */
-
       planner.addListener("destination", autoRoute);
+      planner.addListener("travelMode", autoRoute);
 
       planner.addListener("route", function(route) {
         console.log("routed:", route);
@@ -185,6 +182,7 @@
       this._locationsById = {};
 
       this._setupDom();
+      this._updateTravelTime();
 
       if (this.options.bounds) {
         this.originMap.fitBounds(this.options.bounds);
@@ -540,8 +538,16 @@
       if (mode != this._request.travelMode) {
         this._request.travelMode = mode.toUpperCase();
         google.maps.event.trigger(this, "travelMode", this._request.travelMode);
+        this._updateTravelTime();
       }
       return this;
+    },
+
+    _updateTravelTime: function() {
+      var transit = this._request.travelMode === google.maps.DirectionsTravelMode.TRANSIT;
+      d3.select(this.root)
+        .select(".travel-time.section")
+          .style("display", transit ? null : "none");
     },
 
     getTravelTime: function() {
@@ -577,7 +583,7 @@
         request.destination = this._getObjectLocation(request.destination);
       }
 
-      if (!isNaN(this._travelTime)) {
+      if (request.travelMode === google.maps.DirectionsTravelMode.TRANSIT && (this._travelTime instanceof Date)) {
         switch (this._travelTimeType) {
           case "departure":
             request.transitOptions = {
