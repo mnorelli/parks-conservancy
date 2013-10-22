@@ -360,7 +360,9 @@
 
         var dest = this.getDestination();
         if (dest && dest.welcomeContent) {
-          destColumn.html(dest.welcomeContent);
+          destColumn
+            .classed("welcome", true)
+            .html(dest.welcomeContent);
         }
 
         submitButton.remove();
@@ -902,53 +904,74 @@
     function initialize() {
       root.classed("loading", false);
 
-      var dest = loader.resolveLocation(hash.to);
-      if (dest && dest.accessLocations) {
-        console.log("got access for:", dest, dest.accessLocations[0]);
-        dest = dest.accessLocations[0];
-      }
-      console.log("resolved dest:", hash.to, "->", dest);
+      var dest;
+      loader.resolveLocation(hash.to, function(error, loc) {
+        dest = loc;
 
-      planner = new TripPlanner(root.node(), {
-        origin: hash.from, // || "2017 Mission St, SF",
-        destination: dest,
-        travelMode: hash.mode,
-        destinationOptions: destinations,
-        freezeDestination: hash.to && hash.freeze === true
-      });
-
-      autoRoute();
-
-      function autoRoute() {
-        if (planner.getOrigin() && planner.getDestination()) {
-          planner.route();
+        if (dest && dest.id) {
+          return loadContent(dest, done);
         }
+        done();
+      });
+
+      // for loading welcome outreach content
+      function loadContent(loc, callback) {
+        var url = ["/map/outreach-data", loc.id + ".html"].join("/");
+        return d3.text(url, function(error, content) {
+          if (error) return callback(null, loc);
+          loc.welcomeContent = content;
+          callback(null, loc);
+        });
       }
 
-      planner.addListener("origin", autoRoute);
-      planner.addListener("destination", autoRoute);
-      planner.addListener("travelMode", autoRoute);
-      planner.addListener("travelTime", autoRoute);
-      planner.addListener("travelTimeType", autoRoute);
+      function done() {
+        if (dest && dest.accessLocations) {
+          console.log("got access for:", dest, dest.accessLocations[0]);
+          dest = dest.accessLocations[0];
+        }
+        console.log("resolved dest:", hash.to, "->", dest);
 
-      planner.addListener("route", function(route) {
-        console.log("routed:", route);
-        location.hash = GGNPC.utils.qs.format({
-          from: planner.getOrigin(),
-          to: planner.getDestinationString(),
-          mode: planner.getTravelMode().toLowerCase(),
-          freeze: planner.options.freezeDestination ? true : null
+        planner = new TripPlanner(root.node(), {
+          origin: hash.from, // || "2017 Mission St, SF",
+          destination: dest,
+          travelMode: hash.mode,
+          destinationOptions: destinations,
+          freezeDestination: hash.to && hash.freeze === true
         });
-        // TODO: implement date, time and (arrival|departure)
-      });
 
-      planner.addListener("error", function(error) {
-        console.warn("error:", error);
-      });
+        autoRoute();
 
-      if (callback) callback(null, planner);
+        planner.addListener("origin", autoRoute);
+        planner.addListener("destination", autoRoute);
+        planner.addListener("travelMode", autoRoute);
+        planner.addListener("travelTime", autoRoute);
+        planner.addListener("travelTimeType", autoRoute);
 
-      TripPlanner.instance = planner;
+        planner.addListener("route", function(route) {
+          console.log("routed:", route);
+          location.hash = GGNPC.utils.qs.format({
+            from: planner.getOrigin(),
+            to: planner.getDestinationString(),
+            mode: planner.getTravelMode().toLowerCase(),
+            freeze: planner.options.freezeDestination ? true : null
+          });
+          // TODO: implement date, time and (arrival|departure)
+        });
+
+        planner.addListener("error", function(error) {
+          console.warn("error:", error);
+        });
+
+        TripPlanner.instance = planner;
+
+        if (callback) callback(null, planner);
+      }
+    }
+
+    function autoRoute() {
+      if (planner.getOrigin() && planner.getDestination()) {
+        planner.route();
+      }
     }
   };
 
@@ -1607,19 +1630,16 @@
       });
     },
 
-    resolveLocation: function(str) {
+    resolveLocation: function(str, callback) {
       if (str && str.indexOf(":") > -1) {
         var parts = str.split(":"),
             title = parts[0],
             id = parts[1];
         if (id in this._allLocationsById) {
-          return this._allLocationsById[id];
-        } else {
-          return str;
+          return callback(null, this._allLocationsById[id]);
         }
-      } else {
-        return str;
       }
+      return callback(null, str);
     },
 
     getParks: function() {
