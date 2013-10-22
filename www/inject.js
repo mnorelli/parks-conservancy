@@ -44,6 +44,23 @@
         }
       },
 
+      {
+        name: "outreach",
+        reqs: [
+          "js/vendor/d3.v3.min.js",
+          "css/ggnpc-outreach.css",
+          "js/ggnpc-outreach.js"
+        ],
+        // path: new RegExp("/planner(/|.html)?$"),
+        path: "/outreach.html",
+        options: {
+          root: "#page_content"
+        },
+        run: function(options) {
+          GGNPC.Outreach.inject(options);
+        }
+      },
+
       // this is the "default" route that runs for all other pages
       {
         name: "default",
