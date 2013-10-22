@@ -168,6 +168,7 @@
                 .text(function(d) { return d.text; });
       },
 
+      // not using in little map space
       _setPath: function(rawPath) {
         if (this._path === rawPath) return this;
 
