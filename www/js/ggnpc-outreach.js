@@ -20,7 +20,7 @@
 
       this.info = new google.maps.InfoWindow({
         content: this.options.contentTemplate,
-        maxWidth: 300
+        maxWidth: 320
       });
     },
 
