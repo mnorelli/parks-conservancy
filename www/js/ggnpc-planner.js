@@ -522,6 +522,7 @@
       this._clearRoute();
 
       var request = utils.extend({}, this._request);
+      console.log("Route-> ", request)
       if (typeof request.destination === "object") {
         request.destination = this._getObjectLocation(request.destination);
       }
@@ -544,6 +545,8 @@
           }
         }
       }
+
+      request.destination = "loc:" + request.destination;
 
       var error;
       if (!request.origin) {
@@ -655,7 +658,7 @@
     _clearRoute: function() {
       // clear nearby locations
       var root = d3.select(this.root);
-      
+
       root.selectAll(".nearby-locations")
         .selectAll(".location")
         .remove();
@@ -1175,7 +1178,7 @@
             today = d3.time.day.floor(new Date()),
             isToday = dayMatcher(new Date());
         // console.log("select:", day, "today:", new Date());
-        selection.selectAll("td.day")  
+        selection.selectAll("td.day")
           .classed("today", isSelected)
           .classed("selected", isToday)
           .classed("valid", function(d) {
