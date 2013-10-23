@@ -1,5 +1,4 @@
 (function(exports) {
-
   // locate or create the parks global namespace
   var ggnpc = exports.GGNPC || (exports.GGNPC = {});
 

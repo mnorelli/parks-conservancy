@@ -348,7 +348,7 @@
         markers: {
           fitBounds: true // outline.fitBounds takes precedence
         },
-        padding: {top: 0, right: 0, bottom: 60, left: 0}, //used for adjusting map size on window resize
+        padding: {top: 0, right: 0, bottom: 0, left: 0}, //used for adjusting map size on window resize
         paths: [
           /*
           {
