@@ -368,6 +368,11 @@
 
         var that = this;
         var options = maps.collapseOptions(root, options, BigMap.defaults);
+
+        // parse options out of hash params
+        options = this._parseHashParams(options);
+
+        // initialize Map
         Map.call(this, options.root, options);
 
         var root = this.root;
@@ -375,25 +380,94 @@
 
         this._setupExtras(root);
 
-        // window resizing
+        // set up a bounds_change handler to update the hash
+        function handleBoundsChangeProxy(){
+          that._handleBoundsChange();
+        }
+
+        google.maps.event.addListener(this, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 100));
+
+
+        // set up resize handler on 'window' to resize our map container
         this.rootOffsetTop = d3.select(root).node().offsetTop;
+
         // sorry, best way I came up with dealing with scope issues
         // when using debounce method
         function handleWindowResizeProxy(){
           that._handleWindowResize();
         }
+
         d3.select(window).on('resize', GGNPC.utils.debounce(handleWindowResizeProxy, 100));
 
-        handleWindowResizeProxy();
-
+        handleWindowResizeProxy(); // call resize to set the map container height
 
         // redraw map
         google.maps.event.trigger(this, "resize");
 
-        if (this.options.bounds) this.fitBounds(this.options.bounds);
+        // apply coords from hash or call fitBounds
+        if(this.options.hashParams && this.options.hashParams.hasOwnProperty('coords')){
+          this.setCenter(this.options.hashParams.coords.latlng);
+          this.setZoom(this.options.hashParams.coords.zoom);
+        }else if (this.options.bounds){
+          this.fitBounds(this.options.bounds);
+        }
 
-        // XXX this happens automatically if it's called setPath()
-        if(this.options.hash) this._setContext(this.options.hash);
+        // load content from api
+        if(this.options.path) this._setContext(this.options.path);
+      },
+
+      _parseHashParams: function(options){
+        if(options.hashParams){
+          var params = options.hashParams;
+          for(var k in params){
+            if(k === 'coords'){
+              var valid = true;
+              var parts = params[k].split(':');
+
+              if(parts.length === 3){
+                params.coords = {
+                  zoom: +parts[0],
+                  latitude: +parts[1],
+                  longitude: +parts[2]
+                }
+
+                if(isNaN(params.coords.zoom) || isNaN(params.coords.latitude) || isNaN(params.coords.longitude)){
+                  valid = false;
+                }else{
+                  if(params.coords.zoom < this.options.minZoom)params.coords.zoom = this.options.minZoom;
+                  if(params.coords.zoom > this.options.maxZoom)params.coords.zoom = this.options.maxZoom;
+
+                  params.coords.latlng = new google.maps.LatLng(params.coords.latitude, params.coords.longitude);
+                }
+
+              }else{
+                valid = false;
+              }
+
+              if(!valid) delete params[k]; // invalid coords properties delete
+            }
+          }
+
+          options.hashParams = params;
+        }
+        return options;
+      },
+      _updateHash: function(){
+
+          var c = this.getCenter(),
+              z = this.getZoom(),
+              s = z + ":" + c.lat().toFixed(5) + ":" + c.lng().toFixed(5);
+
+          var h = '#' + this.options.path + '?' + 'coords=' + s;
+
+          location.replace(h);
+      },
+
+      _handleBoundsChange: function(){
+        // XXX: load more content from api
+
+        // update coords in the hash
+        this._updateHash();
       },
 
       _handleWindowResize: function(){
@@ -422,7 +496,13 @@
           data.parent = data.results[0] || {};
 
           that._updateContext(data);
-          that._drawOverlays(data);
+
+          // tell overlays to skip fitBounds
+          // if we have coords from hash
+          // XXX: this should only be called on initialization
+          var skipFitBounds = (that.options.hashParams && that.options.hashParams.hasOwnProperty('coords')) ? true : false;
+
+          that._drawOverlays(data, skipFitBounds);
           that._contextRequest = null;
         });
       },
@@ -441,9 +521,20 @@
       if (options.root) {
         var root = utils.coerceElement(options.root);
         if (root) {
+
+          // parse hash for path & params
+          var hash = location.hash.replace('#','');
+          var hashParts = hash.split('?');
+          var path = hashParts.shift();
+          var params = {};
+          hashParts.forEach(function(part){
+            var kv = part.split('=');
+            if(kv.length === 2)params[kv[0]] = kv[1];
+          });
+
           var map = new BigMap(root, {
-            path: location.pathname,
-            hash: location.hash.replace('#','')
+            path: path,
+            hashParams: params
           });
 
           if (callback) callback(null, map);
@@ -459,10 +550,10 @@
     // call this in map initialize fn:
     // GGNPC.utils.extend(this, GGNPC.overlayTools);
     GGNPC.overlayTools = {
-      _drawOverlays: function(data) {
+      _drawOverlays: function(data, skipFitBounds) {
 
         var that = this;
-        var fitBoundsCalled = false;
+        var fitBoundsCalled = skipFitBounds || false;
         if (data.outlines.length) {
           if (this._shapes) {
             this._shapes.forEach(function(shape) {
@@ -481,8 +572,9 @@
           });
 
           this._shapes = shapes;
-          if (shapes.geojsonBounds && this.options.outline.fitBounds) {
+          if (shapes.geojsonBounds && this.options.outline.fitBounds && !fitBoundsCalled) {
             fitBoundsCalled = true;
+            console.log("Fitting bounds")
             this.fitBounds(shapes.geojsonBounds);
           }
         }
@@ -512,6 +604,7 @@
                 bounds.extend(m.getPosition());
             });
 
+            console.log("Fitting bounds - marker")
             this.fitBounds(this._bufferBounds(bounds, .02));
           }
         }
