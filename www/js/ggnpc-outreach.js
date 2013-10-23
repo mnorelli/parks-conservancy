@@ -3,20 +3,24 @@
   var ggnpc = exports.GGNPC || (exports.GGNPC = {}),
       utils = ggnpc.utils;
 
-  var Outreach = ggnpc.Outreach = function(root, options) {
-    this.initialize(root, options);
-  };
+  var Outreach = ggnpc.Outreach = ggnpc.maps.Map.extend({
+    defaults: {
+      locationData: {},
+      contentTemplate: [
+        '<h4 class="title">{title}</h4>',
+        '<p class="description">{description}</p>',
+        '<a class="directions" href="/mapping/trip-planner.html">Get Directions</a>'
+      ].join("\n")
+    },
 
-  var Map = new ggnpc.maps.Map(document.createElement("div"));
-
-  Outreach.prototype = utils.extend(Map, {
     initialize: function(root, options) {
       options = this.options = ggnpc.maps.collapseOptions(root, options, Outreach.defaults);
+      console.log("options:", options);
       ggnpc.maps.Map.call(this, options.root, options);
 
       this.info = new google.maps.InfoWindow({
         content: this.options.contentTemplate,
-        maxWidth: 300
+        maxWidth: 320
       });
     },
 
@@ -38,6 +42,12 @@
         // console.log("locations:", locations);
 
         var markers = map.markers = locations.map(function(d) {
+          if (d.id in map.options.locationData) {
+            console.log("merging:", d, map.options.locationData[d.id]);
+            utils.extend(d, map.options.locationData[d.id]);
+            console.log("merged:", d);
+          }
+
           var pos = utils.coerceLatLng(d.location),
               marker = new google.maps.Marker({
                 position: pos,
@@ -74,13 +84,5 @@
       });
     }
   });
-
-  Outreach.defaults = {
-    contentTemplate: [
-      '<h4 class="title">{title}</h4>',
-      '<p class="description">{description}</p>',
-      '<a class="directions" href="/mapping/trip-planner.html">Get Directions</a>'
-    ].join("\n")
-  };
 
 })(this);

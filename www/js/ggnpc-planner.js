@@ -20,17 +20,17 @@
         zoom: 15,
       },
       destMap: {
-        zoom: 14
+        zoom: 15
       },
 
       originTitle: "Where are you coming from?",
-      originColumnSize: "half",
+      originColumnSize: "one-third",
 
       travelTimeTitle: "When do you want to leave?",
       travelModeTitle: "How will you travel?",
 
       destTitle: "Going to...",
-      destColumnSize: "half",
+      destColumnSize: "two-thirds",
 
       tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
 
@@ -88,9 +88,9 @@
           inputs = form.append("div")
             .attr("class", "inputs row"),
           originColumn = inputs.append("div")
-            .attr("class", "origin column " + this.options.originColumnSize),
+            .attr("class", "origin column half"),
           destColumn = inputs.append("div")
-            .attr("class", "destination column " + this.options.destColumnSize),
+            .attr("class", "destination column half"),
           mapRoot = form.append("div")
             .attr("class", "maps hide-default")
             .append("div")
@@ -129,7 +129,7 @@
       var toggleDirectionsLink = tripDesc.append("a")
         .attr("class", "toggle-directions")
         .html("Show directions")
-        .call(makeToggle, directionsPanel, "Hide directions");
+        .call(makeToggle, directionsPanel.classed("active", true), "Hide directions");
 
       var originGroup = originColumn.append("div")
         .attr("class", "origin-group");
@@ -141,8 +141,9 @@
         .attr("class", "title")
         .html(this.options.originTitle || "");
 
+      /*
       var originToggle = originTitle.append("a")
-        .text("Change Transportion")
+        .text("Change Transportation")
         .attr("class", "toggle")
         .on("click", function() {
           var visible = originInputs.style("display") === "none";
@@ -154,6 +155,7 @@
                 .focus();
           }
         });
+      */
 
       var originRow = originLocation.append("div");
 
@@ -174,10 +176,12 @@
         });
 
       var originInputs = originGroup.append("div")
-        .attr("class", "time-transport")
+        .attr("class", "time-transport");
+      /*
         .style("display", !!this.getOrigin()
           ? "none"
           : null);
+      */
 
       /*
        * travel mode inputs
@@ -354,7 +358,7 @@
 
       }
 
-      var submitButton = originInputs.append("input")
+      var submitButton = originColumn.append("input")
         .attr("class", "submit")
         .attr("tabindex", 3)
         .attr({
@@ -421,9 +425,11 @@
         d3.select(this.root)
           .classed("has-origin", !!origin);
         if (origin) {
+          /*
           d3.select(this.root)
             .select(".time-transport")
             .style("display", "none");
+          */
         } else {
         }
         google.maps.event.trigger(this, "origin", origin);
@@ -1312,8 +1318,8 @@
   var TravelModePicker = planner.TravelModePicker = planner.BaseClass.extend({
     defaults: {
       modes: [
-        {title: "by car",     value: google.maps.DirectionsTravelMode.DRIVING},
         {title: "by transit", value: google.maps.DirectionsTravelMode.TRANSIT},
+        {title: "by car",     value: google.maps.DirectionsTravelMode.DRIVING},
         {title: "by bike",    value: google.maps.DirectionsTravelMode.BICYCLING},
         {title: "on foot",    value: google.maps.DirectionsTravelMode.WALKING}
       ]
@@ -1654,7 +1660,7 @@
 
             // assign a nearby[] array to each location based on distance from
             // it to the other locations
-            locations.forEach(function(d) {
+            allLocations.forEach(function(d) {
               var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location)),
                   nearby = nearbyCandidates
                     .filter(function(b) {
@@ -1739,18 +1745,21 @@
       .classed("toggle", true)
       .on("click", function() {
         d3.event.preventDefault();
-
-        var that = d3.select(this),
-            active = !that.classed("active");
-        that.classed("active", active);
-
-        if (active && activeText) that.html(activeText);
-        else if (!active && offText) that.html(offText);
-
-        target.style("display", active ? null : "none");
+        update.call(this);
       });
 
-    target.style("display", selection.classed("active") ? null : "none");
+    function update() {
+      var that = d3.select(this),
+          active = !that.classed("active");
+      that.classed("active", active);
+
+      if (active && activeText) that.html(activeText);
+      else if (!active && offText) that.html(offText);
+
+      target.style("display", active ? null : "none");
+    }
+
+    selection.each(update);
   }
 
 })(this);

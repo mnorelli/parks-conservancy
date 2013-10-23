@@ -16,7 +16,7 @@
     <div class="container">
       <div id="header">
         <h1>Hi! Thanks for trying out our new Trip Planner!</h1>
-        <h2>We hope you&rsquo;ll have a fun morning playing with us.</h2>
+        <h2>We hope you&rsquo;ll have a fun afternoon playing with us.</h2>
 
         <p><i>The idea is pretty simple.</i> Using the Trip Planner, we want
         you to find your way to one of two destinations near the Golden Gate
@@ -26,7 +26,7 @@
         and coffee and Conservancy folks waiting to say thanks.</p>
 
         <p><b>Ready?</b> Step 1 is to choose from one of the two destinations below...
-        <img src=""></p>
+        <img src="http://mt.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-b.png&amp;text=&nbsp;&amp;psize=16&amp;font=fonts/Roboto-Regular.ttf&amp;color=ff333333&amp;ax=44&amp;ay=48&amp;scale=1"></p>
 
       </div>
       <div id="map">
@@ -35,7 +35,17 @@
     <script>
       var outreach = new GGNPC.Outreach("#map", {
         center: new google.maps.LatLng(37.806482104900844, -122.46537805007937),
-        zoom: 15
+        zoom: 15,
+        locationData: {
+          // Crissy Field Overlook
+          "312645111": {
+            description: "Look back on Crissy Field towards downtown. This is about 20 minutes away from the second meeting place."
+          },
+          // Battery East Vista
+          "312646338": {
+            description: "An excellent view of the Golden Gate Bridge! This spot is about 30 minutes away from the second meeting place."
+          }
+        }
       });
 
       outreach.showLocations([
