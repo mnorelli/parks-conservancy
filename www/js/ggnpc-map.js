@@ -565,7 +565,7 @@
           // XXX will this data structure ever *not* exist?
           var feature = JSON.parse(data.outlines.results[0].geom),
               shapes = new GeoJSON(feature, this.options.outline, true);
-          console.log("shapes:", shapes);
+          //console.log("shapes:", shapes);
 
           shapes.forEach(function(shape) {
             shape.setMap(that);
@@ -574,7 +574,6 @@
           this._shapes = shapes;
           if (shapes.geojsonBounds && this.options.outline.fitBounds && !fitBoundsCalled) {
             fitBoundsCalled = true;
-            console.log("Fitting bounds")
             this.fitBounds(shapes.geojsonBounds);
           }
         }
@@ -604,8 +603,7 @@
                 bounds.extend(m.getPosition());
             });
 
-            console.log("Fitting bounds - marker")
-            this.fitBounds(this._bufferBounds(bounds, .02));
+            this.fitBounds(this._bufferBounds(bounds, .003));
           }
         }
 
