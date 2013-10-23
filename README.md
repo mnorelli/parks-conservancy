@@ -75,6 +75,10 @@ for a month while debugging Varnish).
 
 `node ../bin/seed.js -b="-123.640 36.791 -121.025 38.719" -z 10 -Z 14`
 
+Focused extent, covering park most park areas:
+
+`-122.7177 37.4828 -122.3538 37.9543`
+
 ## Data Dependencies
 
 * `sql/zoom.sql`
