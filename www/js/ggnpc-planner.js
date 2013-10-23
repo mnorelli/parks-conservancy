@@ -129,7 +129,7 @@
       var toggleDirectionsLink = tripDesc.append("a")
         .attr("class", "toggle-directions")
         .html("Show directions")
-        .call(makeToggle, directionsPanel, "Hide directions");
+        .call(makeToggle, directionsPanel.classed("active", true), "Hide directions");
 
       var originGroup = originColumn.append("div")
         .attr("class", "origin-group");
@@ -1745,18 +1745,21 @@
       .classed("toggle", true)
       .on("click", function() {
         d3.event.preventDefault();
-
-        var that = d3.select(this),
-            active = !that.classed("active");
-        that.classed("active", active);
-
-        if (active && activeText) that.html(activeText);
-        else if (!active && offText) that.html(offText);
-
-        target.style("display", active ? null : "none");
+        update.call(this);
       });
 
-    target.style("display", selection.classed("active") ? null : "none");
+    function update() {
+      var that = d3.select(this),
+          active = !that.classed("active");
+      that.classed("active", active);
+
+      if (active && activeText) that.html(activeText);
+      else if (!active && offText) that.html(offText);
+
+      target.style("display", active ? null : "none");
+    }
+
+    selection.each(update);
   }
 
 })(this);
