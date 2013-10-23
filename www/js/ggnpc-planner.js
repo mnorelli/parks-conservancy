@@ -1660,7 +1660,7 @@
 
             // assign a nearby[] array to each location based on distance from
             // it to the other locations
-            locations.forEach(function(d) {
+            allLocations.forEach(function(d) {
               var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location)),
                   nearby = nearbyCandidates
                     .filter(function(b) {
