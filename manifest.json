@@ -1,0 +1,16 @@
+{
+  "layers": {
+    "postgis": {
+      "sql": "CREATE EXTENSION IF NOT EXISTS postgis"
+    },
+    "hstore": {
+      "sql": "CREATE EXTENSION IF NOT EXISTS hstore"
+    },
+    "cpad_units": "https://maps.gis.ca.gov/Downloads/Data/Government/CPAD_2013b.zip/CPAD_2013b_Units.shp",
+    "park_units": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/GGNRA_web_boundaries_20130916.zip/GGNRA_web_boundaries_20130916.shp",
+    "planet_osm_polygon": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/planet_osm_polygon.pgdump.gz",
+    "nhdarea": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/nhdarea.pgdump.gz",
+    "ggnra_parking_areas": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/08b_GGNRA_parking_areas_20120417.zip/ggnra_parkingareas.shp",
+    "pt_parking_areas": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/08a_PT_parking_areas_2010.zip/Parking_2010.shp"
+  }
+}
