@@ -364,7 +364,12 @@
             }
           }
           */
-        ]
+        ],
+        contentTemplate: [
+          '<h4 class="title">{title}</h4>',
+          '<p class="description">{description}</p>',
+          '<a class="directions" href="/mapping/trip-planner.html">Get Directions</a>'
+        ].join("\n")
       },
 
       initialize: function(root, options) {
@@ -434,6 +439,7 @@
         this._boundsRequest = d3.json(url, function(error, data) {
           data.children = data.results;
           that._addMarkers(data, true);
+          that._updateFilters();
         });
       },
 
@@ -530,7 +536,56 @@
       },
       // XXX: UI elements would be set up here
       _setupExtras: function(root){
+        console.log("ROOT: ", root)
+        this.filterPanel = d3.select(root).append('div')
+          .attr('class', 'panel filter-panel');
 
+        this.filterPanel.append('h4')
+          .attr('class', 'title')
+          .text("Current Markers");
+
+        this.filterPanel.append('ul')
+          .attr('class', 'list-links');
+      },
+      _updateFilters: function(){
+        if(!this._markersByType) return;
+        var that = this;
+        var data = [];
+        for(var k in this._markersByType){
+          data.push({
+            key: k,
+            data: this._markersByType[k]
+          });
+        }
+
+        data.sort(function(a,b){
+          return d3.descending(a.data.length, b.data.length);
+        });
+
+        var items = this.filterPanel.select('ul').selectAll('li')
+          .data(data);
+        var itemsEnter = items.enter()
+          .append('li');
+
+        itemsEnter.append('a');
+
+        items.exit().remove();
+
+        items.select('a')
+          .attr('href','#')
+          .classed('active', function(d){
+            return !that._filtered[d.key];
+          })
+          .text(function(d){
+            return d.key + " - " + d.data.length;
+          }).on('click', function(d){
+            d3.event.preventDefault();
+
+            //d3.event.preventDefault ? d3.event.preventDefault() : d3.event.returnValue = false;
+            that._toggleMarkersByType(d.key);
+            var active = d3.select(this).classed('active');
+            d3.select(this).classed('active', !active);
+        });
       },
       _updateContext: function(data){
 
@@ -539,7 +594,24 @@
       },
       _setInfoWindowContent: function(infowindow, data){
         if(infowindow ){
+          var attrs = data.attributes;
+          var elm = d3.select(document.createElement("div"))
+            .html(this.options.contentTemplate);
 
+          elm.select('.title').text(attrs.title);
+          elm.select('.description').html(attrs.description);
+          elm.select('a.directions')
+            .attr("href", function(){
+              return [
+                this.href,
+                utils.qs.format({
+                  to: [attrs.title, attrs.id].join(":"),
+                  freeze: true
+                })
+              ].join("#");
+            });
+
+            /*
             var txt = '';
             txt += '<strong>Kind</strong>:' + data.kind + '<br\>';
             for(var k in data.attributes){
@@ -549,8 +621,9 @@
                     txt += '<strong>' + k + '</strong>' + ': ' + data.attributes[k] + '<br\>';
                 }
             }
+            */
 
-            infowindow.setContent(txt);
+            infowindow.setContent(elm.node());
         }
 
       }
@@ -590,6 +663,19 @@
     // call this in map initialize fn:
     // GGNPC.utils.extend(this, GGNPC.overlayTools);
     GGNPC.overlayTools = {
+      _markersByType:{},
+      _filtered:{},
+      _toggleMarkersByType: function(kind){
+        var that = this;
+        this._markers.forEach(function(m){
+          if(m._kind == kind){
+            m.visible = !m.visible;
+            that._filtered[kind] = m.visible;
+            m.setMap( (m.visible) ? that : null );
+          }
+
+        });
+      },
       _addMarkers: function(data, skipFitBounds){
         var marker;
         var that = this;
@@ -600,6 +686,7 @@
           });
         }
         this._markers = [];
+        this._markersByType = {};
 
         // Children
         if(data.children){
@@ -643,10 +730,37 @@
           this.fitBounds(this._bufferBounds(bounds, .003));
         }
 
+        // group by type
+        this._markers.forEach(function(m){
+          var attrs = m._data.attributes,
+            kind = m._data.kind;
+
+          if(kind == 'location') kind = attrs.parklocationtype;
+
+          m._kind = kind;
+
+          var visible = (that._filtered.hasOwnProperty(kind) && !that._filtered[kind]) ? false : true;
+          m.visible = visible;
+          that._filtered[kind] = visible;
+          m.setMap( (visible) ? that : null );
+
+          if(!that._markersByType.hasOwnProperty(kind)){
+            that._markersByType[kind] = [];
+          }
+          that._markersByType[kind].push(marker);
+        });
+
+        console.log(that._markersByType)
+
         // assign infoWindows, if _setInfoWindowContent is available
         if(!this._setInfoWindowContent)return;
+
         this._markers.forEach(function(m){
-          var infoWindow = new google.maps.InfoWindow();
+          var infoWindow = new google.maps.InfoWindow({
+            title: marker._data.attributes.title || null,
+            maxWidth: 320
+          });
+
           google.maps.event.addListener(m, 'click', function() {
 
             if (that._currentInfoWindow != null) {

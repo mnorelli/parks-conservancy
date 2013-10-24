@@ -31,3 +31,46 @@
     border: none !important;
     margin-bottom: 0 !important;
 }
+
+/* popups */
+.gm-style * {
+    font-family: inherit !important;
+}
+
+.gm-style .title {
+    margin: 0;
+    color: #000;
+}
+
+.gm-style a.directions {
+}
+
+.panel{
+    position: absolute;
+    z-index: 9999;
+    background: #fff;
+    padding: 20px;
+}
+.panel .title{
+    color: #000;
+}
+
+.filter-panel{
+    top: 10px;
+    left: 50px;
+}
+
+.list-links{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list-links > li > a{
+    display: block;
+    padding: 4px 0;
+    color: #000;
+}
+.active{
+    color: #999 !important;
+}
