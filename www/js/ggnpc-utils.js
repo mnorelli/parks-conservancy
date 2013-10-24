@@ -163,5 +163,18 @@ var GGNPC = (function(exports){
       return clean;
     };
 
+    utils.elementContains = function(a, b) {
+      return utils.elementHasAncestor(b, a);
+    };
+
+    utils.elementHasAncestor = function(a, b) {
+      var p = a.parentNode;
+      while (p) {
+        if (p === b) return true;
+        p = p.parentNode;
+      }
+      return false;
+    };
+
     return exports;
 })(GGNPC || {});
