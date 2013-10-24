@@ -59,3 +59,9 @@ INSERT INTO trailheads (name, geom)
 
 `tnt_trailheads` were obtained by using
 [transitandtrails-cli](https://github.com/mojodna/node-transitandtrails-cli).
+
+## `convio_parking_lots_20131024.zip`
+
+```
+ogr2ogr parking_lots.shp PG:"<redacted>" -sql "select attributes->'id' id, attributes->'url' url, attributes->'title' title, attributes->'filename' filename, attributes->'description' description, attributes->'relatedpark' relatedpark, geom from convio where attributes->'parklocationtype' = 'Parking Lot'"
+```
