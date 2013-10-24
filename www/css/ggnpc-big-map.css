@@ -1,24 +1,29 @@
 #content{
     width: 100% !important;
 }
+
 #header, #nav, #footer, #footer2{
     position: relative;
     width: 890px !important;
     margin: 0 auto;
     z-index: 10;
 }
+
 #footer{
     margin-top: -30px;
     background: #fff;
     padding: 10px;
 }
+
 #wide_title{
     display: none !important;
 }
+
 #main_content{
     padding: 0 !important;
     margin-top: -140px !important;
 }
+
 .big-map {
     position: relative;
     width: 100%;

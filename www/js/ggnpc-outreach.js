@@ -39,7 +39,7 @@
             locations = ids.map(function(id) {
               return locationsById[id];
             });
-          console.log("locations:", locations);
+          //console.log("locations:", locations);
 
         var markers = map.markers = locations.map(function(d) {
           if (d.id in map.options.locationData) {

@@ -39,3 +39,15 @@ Are in the `www` directory of master branch.
 The testing proxy is in `proxy.js` here. See the [injection
 strategy](https://github.com/stamen/parks-conservancy/wiki/Injection-Strategy)
 page for more info about how the inject script and proxy work together.
+
+## Updating Injection App
+
+Add remote to master branch
+```bash
+git remote add parks-inject git@heroku.com:stamen-parks-inject.git
+```
+
+Then push to App:
+```bash
+git push parks-inject origin:master
+```

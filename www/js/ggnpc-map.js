@@ -387,7 +387,6 @@
 
         google.maps.event.addListener(this, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 100));
 
-
         // set up resize handler on 'window' to resize our map container
         this.rootOffsetTop = d3.select(root).node().offsetTop;
 
@@ -414,6 +413,23 @@
 
         // load content from api
         if(this.options.path) this._setContext(this.options.path);
+
+
+        //
+      },
+
+      _loadContentOnBoundsChange: function(){
+        if (this._boundsRequest) this._boundsRequest.abort();
+        // XXX abstract this in GGNPC.API?
+        var bounds = this.getBounds().toUrlValue();
+
+        var url = [this.options.apiUrl, "bbox", encodeURIComponent(bounds)].join("/"),
+            that = this;
+
+        this._boundsRequest = d3.json(url, function(error, data) {
+          data.children = data.results;
+          that._addMarkers(data, true);
+        });
       },
 
       _parseHashParams: function(options){
@@ -465,6 +481,7 @@
 
       _handleBoundsChange: function(){
         // XXX: load more content from api
+        this._loadContentOnBoundsChange();
 
         // update coords in the hash
         this._updateHash();
@@ -514,7 +531,25 @@
 
       },
       _drawOverlays: function(data){
+      },
+      _setInfoWindowContent: function(infowindow, data){
+        if(infowindow ){
+
+            var txt = '';
+            txt += '<strong>Kind</strong>:' + data.kind + '<br\>';
+            for(var k in data.attributes){
+                if(data.attributes[k].indexOf('http') === 0){
+                    txt += '<strong>' + k + '</strong>' + ': <a href="' + data.attributes[k] + '" target="_blank">' + data.attributes[k] + '</a><br\>';
+                }else{
+                    txt += '<strong>' + k + '</strong>' + ': ' + data.attributes[k] + '<br\>';
+                }
+            }
+
+            infowindow.setContent(txt);
+        }
+
       }
+
     });
 
     BigMap.inject = function(options, callback) {
@@ -550,10 +585,80 @@
     // call this in map initialize fn:
     // GGNPC.utils.extend(this, GGNPC.overlayTools);
     GGNPC.overlayTools = {
+      _addMarkers: function(data, skipFitBounds){
+        var marker;
+        var that = this;
+
+        if(this._markers){
+          this._markers.forEach(function(marker){
+            marker.setMap(null);
+          });
+        }
+        this._markers = [];
+
+        // Children
+        if(data.children){
+          data.children.forEach(function(child){
+            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
+              marker = new google.maps.Marker({
+                  position: new google.maps.LatLng(child.latitude, child.longitude),
+                  map: that
+              });
+              marker._data = child;
+              that._markers.push(marker);
+            }
+          });
+        }
+
+        // Parent
+        if(data.parent && data.parent.hasOwnProperty('latitude') && data.parent.hasOwnProperty('longitude')){
+
+          marker = new google.maps.Marker({
+              position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
+              map: that
+          });
+
+          marker._data = data.parent;
+          this._markers.push(marker);
+
+
+        }
+
+        // adjust map bounds only if fitBounds hasn't been called
+        if(!skipFitBounds && this.options.markers.fitBounds){
+          var bounds = new google.maps.LatLngBounds();
+
+          this._markers.forEach(function (m, i) {
+              bounds.extend(m.getPosition());
+          });
+
+          this.fitBounds(this._bufferBounds(bounds, .003));
+        }
+
+        // assign infoWindows, if _setInfoWindowContent is available
+        if(!this._setInfoWindowContent)return;
+        this._markers.forEach(function(m){
+          var infoWindow = new google.maps.InfoWindow();
+          google.maps.event.addListener(m, 'click', function() {
+
+            if (that._currentInfoWindow != null) {
+                that._currentInfoWindow.close();
+            }
+
+            infoWindow.open(that, m);
+            that._setInfoWindowContent(infoWindow, m._data);
+            that._currentInfoWindow = infoWindow;
+          });
+        });
+
+      },
+
       _drawOverlays: function(data, skipFitBounds) {
 
         var that = this;
         var fitBoundsCalled = skipFitBounds || false;
+
+        // Outlines
         if (data.outlines.length) {
           if (this._shapes) {
             this._shapes.forEach(function(shape) {
@@ -578,34 +683,7 @@
           }
         }
 
-        // stick a pin in it!
-        if(data.parent.hasOwnProperty('latitude') && data.parent.hasOwnProperty('longitude')){
-
-          if(this._markers){
-            this._markers.forEach(function(marker){
-              marker.setMap(null);
-            });
-          }
-
-          this._markers = [];
-
-          var marker = new google.maps.Marker({
-              position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
-              map: that
-          });
-          this._markers.push(marker);
-
-          // adjust map bounds only if fitBounds hasn't been called
-          if(!fitBoundsCalled && this.options.markers.fitBounds){
-            var bounds = new google.maps.LatLngBounds();
-
-            this._markers.forEach(function (m, i) {
-                bounds.extend(m.getPosition());
-            });
-
-            this.fitBounds(this._bufferBounds(bounds, .003));
-          }
-        }
+        this._addMarkers(data, fitBoundsCalled);
 
       },
       // XXX: not tested or
