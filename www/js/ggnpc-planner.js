@@ -694,6 +694,8 @@
       tripDesc.select(".mode")
         .text(mode);
 
+      this._updateDestinationName(response);
+
       this.originMap.directionsDisplay.setDirections(response);
       this.originMap.setZoom(this.options.originMap.zoom || 15);
       var bounds = utils.getLatLngBounds(start, end);
@@ -707,7 +709,6 @@
       this._updateDestinationInfo(this._request.destination, leg.end_address);
       this._updateNearbyLocations();
       this._updateBespokeDirections();
-      this._updateDestinationName();
     },
 
     // URL params cribbed from:
@@ -872,25 +873,18 @@
       return false;
     },
 
-    _updateDestinationName: function() {
-      clearTimeout(this._destNameInterval);
-
+    _updateDestinationName: function(response) {
       var dest = this.getDestination();
-      if (typeof dest === "object") {
-        var panel = this.destMap.directionsDisplay.getPanel();
-        this._destNameInterval = setTimeout(function() {
-          d3.select(panel)
-            .selectAll(".adp-placemark .adp-text")
-            .datum(function() { return this.innerText; })
-            .filter(function(text) {
-              return text === "United States";
-            })
-            .text(dest.title);
-        }, 100);
-        return true;
+      if (typeof dest !== "object") return;
+      var route = response.routes[0],
+          leg = route.legs[0];
+      switch (leg.end_address) {
+        case "":
+        case "United States":
+          leg.end_address = dest.title;
+          return true;
+          break;
       }
-
-      console.warn("destination is not an object");
       return false;
     },
 
