@@ -18,7 +18,7 @@ data: postgis hstore \
       data-pt-parking-areas data-ggnra-parking-areas \
       data-ggnra-park-units data-ggnra-restrooms \
       data-offshore-boundaries data-ggnra-buildings \
-      data-trailheads
+      data-trailheads data-parking-lots
 
 postgis:
 	echo "create extension postgis;" | \
@@ -341,6 +341,18 @@ data-ggnra-buildings: data/ggnra_buildings.zip
 
 data-trailheads:
 	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q -f trailheads.sql
+	touch $@
+
+data-parking-lots:
+	ogr2ogr --config PG_USE_COPY YES \
+	        -t_srs EPSG:900913 \
+	        -nln parking_lots \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/vsicurl/http://data.stamen.com.s3.amazonaws.com/parks-conservancy/convio_parking_lots_20131024.zip/parking_lots.shp | \
+	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data/cpad.zip: data/.placeholder
