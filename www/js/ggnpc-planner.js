@@ -375,7 +375,6 @@
 
       destInfoBlock.append("h3")
         .attr("class", "title");
-      destInfoBlock.append("address");
       destInfoBlock.append("p")
         .attr("class", "description");
 
@@ -790,9 +789,6 @@
         info.select(".desc")
           .text("");
       }
-
-      info.select("address")
-        .text(address);
     },
 
     _updateNearbyLocations: function() {
