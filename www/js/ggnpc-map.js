@@ -269,18 +269,23 @@
             return [that.options.links[0].href, file].join("#");
           });
 
+        if(file.charAt(0) == "/") file = file.slice(1);
+        if(file.length < 1)return;
         // XXX abstract this in GGNPC.API?
         var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
             that = this;
-
+        console.log('mini-map url -> ', url);
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
             console.warn("mini-map: no such context:", file, error);
             return;
           }
+
           // XXX: normalizing data until I fix this in api
           data.outlines = data.geojson[0] || [];
           data.parent = data.results[0] || {};
+
+
 
           that._updateContext(data);
           that._drawOverlays(data);
@@ -599,6 +604,7 @@
         // Children
         if(data.children){
           data.children.forEach(function(child){
+            //if(child.attributes.parklocationtype && child.attributes.parklocationtype != 'Parking Lot' ){
             if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
               marker = new google.maps.Marker({
                   position: new google.maps.LatLng(child.latitude, child.longitude),
@@ -607,6 +613,8 @@
               marker._data = child;
               that._markers.push(marker);
             }
+            //}
+
           });
         }
 
@@ -625,7 +633,7 @@
         }
 
         // adjust map bounds only if fitBounds hasn't been called
-        if(!skipFitBounds && this.options.markers.fitBounds){
+        if(!skipFitBounds && this.options.markers.fitBounds && this._markers.length){
           var bounds = new google.maps.LatLngBounds();
 
           this._markers.forEach(function (m, i) {
