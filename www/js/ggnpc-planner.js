@@ -949,28 +949,26 @@
 
   });
 
-  TripPlanner.inject = function(options, callback) {
-    console.log("TripPlanner.inject(", options, callback, ")");
+  TripPlanner.inject = function(options) {
+    console.log("TripPlanner.inject(", options, ")");
     if (!options) options = {};
 
     var planner,
+        layout,
         destinations,
-        // XXX make this a global to modify
-        bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
         model = new DestinationModel(),
         hash = utils.qs.parse(location.hash),
         root = utils.coerceElement(options.root || "trip-planner");
 
-    GGNPC.planner.DestinationModel.instance = model;
-
     if (!root) {
       console.log("planner: no root", options.root);
-      if (callback) callback("No such element:", options.root);
       return;
     }
 
     root = d3.select(root)
       .classed("loading", true);
+
+    GGNPC.planner.DestinationModel.instance = model;
 
     var message = root.append("p")
       .attr("class", "loading-message")
@@ -983,15 +981,24 @@
         return console.error("unable to load locations:", error);
       }
 
+      message
+        // .text("Loaded " + destinations.length + " destinations!")
+        .remove();
+
+      if (options.nearby === true) {
+        console.log("using the nearby planner...");
+        planner = new NearbyPlanner(root.node(), {
+          destinationModel: model
+        });
+
+        return;
+      }
+
       // get the appropriate destinations from the model
       destinations = model.getDestinations({
         access: true,
         groupByPark: true
       });
-
-      message
-        .text("Loaded " + destinations.length + " destinations!")
-        .remove();
 
       console.log("loaded", destinations.length, "destinations");
 
@@ -1075,8 +1082,6 @@
         });
 
         TripPlanner.instance = planner;
-
-        if (callback) callback(null, planner);
       }
     }
 
@@ -1096,72 +1101,76 @@
       originTitle: "You&rsquo;re coming from:",
       dateTitle: "Leaving:",
       modeTitle: "",
-      nearbyTitle: "Here are a few options for a park visit:"
+      nearbyTitle: "Here are a few options for a park visit:",
+
+      pointImageUrls: TripPlanner.defaults.pointImageUrls
     },
 
     initialize: function(root, options) {
-      this.root = utils.coerceElement(root);
+      this.root = utils.coerceElement(root).appendChild(document.createElement("div"));
+      this.root.className = "trip-planner nearby-planner";
       this.options = utils.extend({}, NearbyPlanner.defaults, options);
       this._setup();
+
+      this._model = this.options.destinationModel || new DestinationModel();
     },
 
     _setup: function() {
       var that = this,
-          root = d3.select(this.root)
-            .classed("trip-planner", true)
-            .classed("nearby-planner", true),
+          root = d3.select(this.root),
           inputs = root.append("div")
             .attr("class", "row inputs"),
           originColumn = inputs.append("div")
             .attr("class", "column origin one-third"),
+          originSection = originColumn.append("div")
+            .attr("class", "section"),
           dateColumn = inputs.append("div")
             .attr("class", "column date-time one-third"),
+          dateSection = dateColumn.append("div")
+            .attr("class", "section"),
           modeColumn = inputs.append("div")
             .attr("class", "column mode one-third"),
+          modeSection = modeColumn.append("div")
+            .attr("class", "section"),
           mainRow = root.append("div")
             .attr("class", "row main"),
           mapColumn = mainRow.append("div")
-            .attr("class", "column map"),
+            .attr("class", "column map half"),
           nearbyColumn = mainRow.append("div")
-            .attr("class", "column nearby");
+            .attr("class", "column nearby half");
 
-      originColumn
-        .classed("section", true)
-        .append("h3")
-          .attr("class", "title")
-          .html(this.options.originTitle);
+      originSection.append("h3")
+        .attr("class", "title")
+        .html(this.options.originTitle);
 
-      originColumn.append("img")
+      originSection.append("img")
         .attr("class", "point")
         .attr("src", this.options.pointImageUrls.origin);
 
-      originColumn.append("input")
+      originSection.append("input")
+        .attr("class", "origin")
         .attr("type", "text")
         .attr("value", this._origin)
         .on("change", function() {
           that.setOrigin(this.value);
         });
 
-      dateColumn
-        .classed("section", true)
-        .append("h3")
-          .attr("class", "title")
-          .text(this.options.dateTitle);
+      dateSection.append("h3")
+        .attr("class", "title")
+        .text(this.options.dateTitle);
 
-      var dateRoot = dateColumn.append("div")
+      var dateRoot = dateSection.append("div")
         .attr("class", "date-picker");
       var datePicker = this._datePicker = new DateTimePicker(dateRoot.node());
-      datePicker.on("change", function(date) {
+      datePicker.addListener("change", function(date) {
         that.setTravelTime(date);
       });
 
-      modeColumn
-        .classed("section", true)
-        .append("h3")
-          .attr("class", "title")
-          .text(this.options.modeTitle);
+      modeSection.append("h3")
+        .attr("class", "title")
+        .html(this.options.modeTitle || "&nbsp;");
 
-      var modeSelect = modeColumn.append("select")
+      var modeSelect = modeSection.append("select")
         .attr("name", "mode")
         .attr("class", "mode")
         .on("change", function() {
@@ -1184,11 +1193,14 @@
 
       var map = this.map = new ggnpc.maps.Map(mapColumn.node());
 
-      nearbyColumn.append("h3")
+      var nearbySection = nearbyColumn.append("div")
+        .attr("class", "section");
+
+      nearbySection.append("h3")
         .attr("class", "title")
         .text(this.options.nearbyTitle);
 
-      this._nearbyRoot = nearbyColumn.append("div")
+      this._nearbyRoot = nearbySection.append("div")
         .attr("class", "nearby-locations");
     },
 

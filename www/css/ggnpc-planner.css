@@ -475,3 +475,10 @@
   vertical-align: middle;
   margin-right: 5px;
 }
+
+
+/* nearby planner stuff */
+
+.nearby-planner .nearby.column {
+  padding-left: 20px;
+}
