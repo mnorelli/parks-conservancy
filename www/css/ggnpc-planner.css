@@ -109,7 +109,7 @@
 }
 
 .trip-planner .nearby-locations .location {
-  display: table-row;
+  display: table;
   font-size: 11px;
   width: 100%;
   clear: left;
