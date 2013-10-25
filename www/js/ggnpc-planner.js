@@ -116,6 +116,8 @@
             .html(this.options.tripDescriptionHTML),
           linksRoot = tripInfo.append("span")
             .attr("class", "links"),
+          warningRow = form.append("div")
+            .attr("class", "row warning hide-default"),
           destInfoRow = form.append("div")
             .attr("class", "row dest-info-row hide-default"),
           directionsColumn = destInfoRow.append("div")
@@ -374,8 +376,13 @@
       nearbyBlock.append("div")
         .attr("class", "nearby-locations");
 
-      destInfoBlock.append("h3")
+      var destTitle = destInfoBlock.append("h3")
         .attr("class", "title");
+      destTitle.append("span")
+        .attr("class", "icon");
+      destTitle.append("span")
+        .attr("class", "text");
+
       destInfoBlock.append("p")
         .attr("class", "description");
 
@@ -666,7 +673,7 @@
         .remove();
 
       root.select(".dest-info")
-        .selectAll(".title, address, .description")
+        .selectAll(".title .text, .description")
           .text("");
 
       // this.originMap.directionsDisplay.setDirections(null);
@@ -759,35 +766,60 @@
 
       var links = linkRoot.selectAll("a.custom")
         .data([
-          {html: "View in Google Maps"}
+          {text: "Print Directions", href: "?print"}, // TODO: add params to URL
+          {text: "View in Google Maps", href: this._getGoogleMapsUrl(params)}
         ])
         .enter()
         .append("a")
           .attr("class", "custom")
           .attr("target", "_blank")
-          .html(function(d) { return d.html; })
-          .attr("href", function(d) {
-            var p = utils.extend({}, params, d.params);
-            return that._getGoogleMapsUrl(p);
-          });
+          .text(function(d) { return d.text; })
+          .attr("href", function(d) { d.href; });
     },
 
 
     _updateDestinationInfo: function(dest, address) {
-      var info = d3.select(this.root)
-        .select(".dest-info");
+      var info = this._form.select(".dest-info"),
+          warning = this._form.select(".warning");
 
       // console.log("destination info:", dest);
 
       if (typeof dest === "object") {
-        info.select(".title")
-          .text(dest.title);
+        info.datum(dest)
+          .select(".title .text")
+            .text(dest.title);
+
+        info.select(".icon")
+          .attr("class", function(d) {
+            var klass = this.className.replace(/icon-\w+/g, ""),
+                type = dest.parklocationtype
+                  .toLowerCase()
+                  .replace(/ +/g, "_");
+            return [klass, "icon-" + type].join(" ");
+          });
+
         info.select(".description")
           .text(dest.description || "(no description)");
+
+        // TODO: figure out which field this comes from in different data sources
+        // (TnT, Convio)
+        /*
+        dest.warning = [
+          "<h4>Drivers, Please Note:</h4>",
+          "Parking is <u><i>very</i></u> difficult, <b>blah blah blah</b>."
+        ].join("\n");
+        */
+
+        warning.style("display", dest.warning ? null : "none")
+          .html(dest.warning);
+
       } else {
         info.select(".title")
           .text(dest);
         info.select(".desc")
+          .text("");
+
+        warning.style("display", "none")
           .text("");
       }
     },
@@ -1914,6 +1946,11 @@
         if (id in this._allLocationsById) {
           return callback(null, this._allLocationsById[id]);
         }
+        return this.api.get("location/id/" + id, function(error, data) {
+          if (error) return callback(null, str);
+          console.log("got location:", data);
+          callback(null, str);
+        });
       }
       return callback(null, str);
     },
