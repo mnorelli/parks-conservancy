@@ -1046,6 +1046,161 @@
 
   // "nearby" view
   var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
+    defaults: {
+      originTitle: "You&rsquo;re coming from:",
+      dateTitle: "Leaving:",
+      modeTitle: "",
+      nearbyTitle: "Here are a few options for a park visit:"
+    },
+
+    initialize: function(root, options) {
+      this.root = utils.coerceElement(root);
+      this.options = utils.extend({}, NearbyPlanner.defaults, options);
+      this._setup();
+    },
+
+    _setup: function() {
+      var that = this,
+          root = d3.select(this.root)
+            .classed("nearby-planner", true),
+          inputs = root.append("div")
+            .attr("class", "row inputs"),
+          originColumn = inputs.append("div")
+            .attr("class", "column origin one-third"),
+          dateColumn = inputs.append("div")
+            .attr("class", "column date-time one-third"),
+          modeColumn = inputs.append("div")
+            .attr("class", "column mode one-third"),
+          mainRow = root.append("div")
+            .attr("class", "row main"),
+          mapColumn = mainRow.append("div")
+            .attr("class", "column map"),
+          nearbyColumn = mainRow.append("div")
+            .attr("class", "column nearby");
+
+      originColumn
+        .classed("section", true)
+        .append("h3")
+          .attr("class", "title")
+          .html(this.options.originTitle);
+
+      originColumn.append("img")
+        .attr("class", "point")
+        .attr("src", this.options.pointImageUrls.origin);
+
+      originColumn.append("input")
+        .attr("type", "text")
+        .attr("value", this._origin)
+        .on("change", function() {
+          that.setOrigin(this.value);
+        });
+
+      dateColumn
+        .classed("section", true)
+        .append("h3")
+          .attr("class", "title")
+          .text(this.options.dateTitle);
+
+      var dateRoot = dateColumn.append("div")
+        .attr("class", "date-picker");
+      var datePicker = this._datePicker = new DateTimePicker(dateRoot.node());
+      datePicker.on("change", function(date) {
+        that.setTravelTime(date);
+      });
+
+      modeColumn
+        .classed("section", true)
+        .append("h3")
+          .attr("class", "title")
+          .text(this.options.modeTitle);
+
+      var modeSelect = modeColumn.append("select")
+        .attr("name", "mode")
+        .attr("class", "mode")
+        .on("change", function() {
+          var mode = this.options[this.selectedIndex].value;
+          that.setTravelMode(mode);
+        });
+      
+      var selectedMode = this.getTravelMode();
+      modeSelect.selectAll("option")
+        .data(TravelModePicker.defaults.modes)
+        .enter()
+        .append("option")
+          .text(function(d) { return d.title; })
+          .attr("value", function(d) { return d.value; })
+          .attr("selected", function(d) {
+            return d.value === selectedMode
+              ? "selected"
+              : null;
+          });
+
+      var map = this.map = new ggnpc.maps.Map(mapColumn.node());
+
+      nearbyColumn.append("h3")
+        .attr("class", "title")
+        .text(this.options.nearbyTitle);
+
+      this._nearbyRoot = nearbyColumn.append("div")
+        .attr("class", "nearby-locations");
+    },
+
+    getOrigin: function() {
+      return this._origin;
+    },
+
+    setOrigin: function(origin) {
+      if (origin != this._origin) {
+        this._origin = origin;
+        google.maps.event.trigger(this, "origin", this._origin);
+        this._updateOrigin();
+      }
+      return this;
+    },
+
+    getTravelTime: function() {
+      return this._travelTime;
+    },
+
+    setTravelTime: function(date) {
+      if (!this._travelTime || date.getTime() != this._travelTime.getTime()) {
+        this._travelTime = date;
+        google.maps.event.trigger(this, "travelTime", this._travelTime);
+      }
+      return this;
+    },
+
+    getTravelMode: function() {
+      return this._travelMode;
+    },
+
+    setTravelMode: function(mode) {
+      if (mode !== this._travelMode) {
+        this._travelMode = mode;
+        google.maps.event.trigger(this, "travelMode", this._travelMode);
+
+        d3.select(this.root)
+          .select(".date-time.column")
+          .style("display", this._travelMode === google.maps.DirectionsTravelMode.TRANSIT
+            ? null
+            : "none");
+      }
+      return this;
+    },
+
+    _updateOrigin: function() {
+      var origin = this.getOrigin();
+      if (origin) {
+        // TODO
+      } else {
+        console.warn("no origin");
+      }
+    },
+
+    _updateNearbyLocations: function() {
+      // TODO
+      // resize map after showing nearby locations?
+    }
   });
 
   // rewrite TripPlanner.prototype._setupDatePicker() to use this
