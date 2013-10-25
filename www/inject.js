@@ -29,6 +29,7 @@
         name: "trip-planner",
         reqs: [
           "js/vendor/d3.v3.min.js",
+          "js/ggnpc-api.js",
           "css/ggnpc-planner.css",
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
