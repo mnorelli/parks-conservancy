@@ -1,0 +1,23 @@
+{
+  "name": "ggnpc-trailhead-importer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stamen/parks-conservancy.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/stamen/parks-conservancy/issues"
+  },
+  "dependencies": {
+    "transitandtrails": "~0.1.0",
+    "async": "~0.2.9",
+    "require-env": "0.0.3"
+  }
+}
