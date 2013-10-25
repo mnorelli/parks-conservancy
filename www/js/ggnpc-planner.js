@@ -676,8 +676,8 @@
         .selectAll(".title .text, .description")
           .text("");
 
-      // this.originMap.directionsDisplay.setDirections(null);
-      // this.destMap.directionsDisplay.setDirections(null);
+      this.originMap.directionsDisplay.setMap();
+      this.destMap.directionsDisplay.setMap();
     },
 
     _updateRoute: function(response, request) {
@@ -702,11 +702,13 @@
 
       this._updateDestinationName(response);
 
+      this.originMap.directionsDisplay.setMap(this.originMap);
       this.originMap.directionsDisplay.setDirections(response);
       this.originMap.setZoom(this.options.originMap.zoom || 15);
       var bounds = utils.getLatLngBounds(start, end);
       this.originMap.fitBounds(bounds);
 
+      this.destMap.directionsDisplay.setMap(this.destMap);
       this.destMap.directionsDisplay.setDirections(response);
       this.destMap.setZoom(this.options.destMap.zoom || 15);
       this.destMap.setCenter(end);
@@ -988,8 +990,22 @@
       if (options.nearby === true) {
         console.log("using the nearby planner...");
         planner = new NearbyPlanner(root.node(), {
+          origin: hash.from,
+          travelMode: hash.mode,
           destinationModel: model
         });
+
+        GGNPC.planner.NearbyPlanner.instance = planner;
+
+        planner.addListener("travelMode", updateHash);
+        planner.addListener("nearby", updateHash);
+
+        function updateHash() {
+          location.hash = GGNPC.utils.qs.format({
+            from: planner.getOrigin(),
+            mode: planner.getTravelMode().toLowerCase()
+          });
+        }
 
         return;
       }
@@ -1099,9 +1115,18 @@
   var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
     defaults: {
       originTitle: "You&rsquo;re coming from:",
-      dateTitle: "Leaving:",
-      modeTitle: "",
+      modeTitle: "Leaving:",
+      dateTitle: "",
       nearbyTitle: "Here are a few options for a park visit:",
+
+      nearbyDistance: 15,
+      nearbyDistanceGroup: 5,
+      nearbyLimit: 50,
+      nearbyTypes: [
+        "Trailhead",
+        "Visitor Center",
+        "Landmark"
+      ],
 
       pointImageUrls: TripPlanner.defaults.pointImageUrls
     },
@@ -1110,7 +1135,15 @@
       this.root = utils.coerceElement(root).appendChild(document.createElement("div"));
       this.root.className = "trip-planner nearby-planner";
       this.options = utils.extend({}, NearbyPlanner.defaults, options);
+
       this._setup();
+
+      this.geocoder = new google.maps.Geocoder();
+      this.directions = new google.maps.DirectionsService();
+      this.directionsDisplay = new google.maps.DirectionsRenderer();
+
+      if (this.options.travelMode) this.setTravelMode(this.options.travelMode);
+      if (this.options.origin) this.setOrigin(this.options.origin);
 
       this._model = this.options.destinationModel || new DestinationModel();
     },
@@ -1118,21 +1151,24 @@
     _setup: function() {
       var that = this,
           root = d3.select(this.root),
-          inputs = root.append("div")
+          form = this._form = root.append("form")
+            .attr("target", "?#")
+            .on("submit", function() {
+              d3.event.preventDefault();
+              var origin = originInput.property("value");
+              that.setOrigin(origin);
+            }),
+          inputs = form.append("div")
             .attr("class", "row inputs"),
           originColumn = inputs.append("div")
             .attr("class", "column origin one-third"),
           originSection = originColumn.append("div")
             .attr("class", "section"),
-          dateColumn = inputs.append("div")
-            .attr("class", "column date-time one-third"),
-          dateSection = dateColumn.append("div")
-            .attr("class", "section"),
           modeColumn = inputs.append("div")
             .attr("class", "column mode one-third"),
           modeSection = modeColumn.append("div")
             .attr("class", "section"),
-          mainRow = root.append("div")
+          mainRow = form.append("div")
             .attr("class", "row main"),
           mapColumn = mainRow.append("div")
             .attr("class", "column map half"),
@@ -1147,30 +1183,25 @@
         .attr("class", "point")
         .attr("src", this.options.pointImageUrls.origin);
 
-      originSection.append("input")
+      var originInput = originSection.append("input")
         .attr("class", "origin")
         .attr("type", "text")
+        .attr("tabindex", 1)
         .attr("value", this._origin)
         .on("change", function() {
           that.setOrigin(this.value);
+        })
+        .each(function() {
+          this.focus();
         });
-
-      dateSection.append("h3")
-        .attr("class", "title")
-        .text(this.options.dateTitle);
-
-      var dateRoot = dateSection.append("div")
-        .attr("class", "date-picker");
-      var datePicker = this._datePicker = new DateTimePicker(dateRoot.node());
-      datePicker.addListener("change", function(date) {
-        that.setTravelTime(date);
-      });
 
       modeSection.append("h3")
         .attr("class", "title")
         .html(this.options.modeTitle || "&nbsp;");
 
-      var modeSelect = modeSection.append("select")
+      var modeDiv = modeSection.append("div");
+
+      var modeSelect = modeDiv.append("select")
         .attr("name", "mode")
         .attr("class", "mode")
         .on("change", function() {
@@ -1178,9 +1209,10 @@
           that.setTravelMode(mode);
         });
       
-      var selectedMode = this.getTravelMode();
+      var selectedMode = this.getTravelMode(),
+          modes = TravelModePicker.defaults.modes;
       modeSelect.selectAll("option")
-        .data(TravelModePicker.defaults.modes)
+        .data(modes)
         .enter()
         .append("option")
           .text(function(d) { return d.title; })
@@ -1191,7 +1223,23 @@
               : null;
           });
 
+      if (!this._travelMode) {
+        this._travelMode = modes[0].value;
+      }
+
+      var dateRoot = modeDiv.append("span")
+        .attr("class", "date-picker");
+      var datePicker = this._datePicker = new DateTimePicker(dateRoot.node());
+      datePicker.addListener("change", function(date) {
+        that.setTravelTime(date);
+      });
+
       var map = this.map = new ggnpc.maps.Map(mapColumn.node());
+
+      this.originMarker = new google.maps.Marker({
+        map: map,
+        icon: this.options.pointImageUrls.origin
+      });
 
       var nearbySection = nearbyColumn.append("div")
         .attr("class", "section");
@@ -1212,6 +1260,10 @@
       if (origin != this._origin) {
         this._origin = origin;
         google.maps.event.trigger(this, "origin", this._origin);
+
+        this._form.select("input.origin")
+          .property("value", this._origin);
+
         this._updateOrigin();
       }
       return this;
@@ -1235,11 +1287,17 @@
 
     setTravelMode: function(mode) {
       if (mode !== this._travelMode) {
-        this._travelMode = mode;
+        mode = this._travelMode = mode.toUpperCase();
         google.maps.event.trigger(this, "travelMode", this._travelMode);
 
-        d3.select(this.root)
-          .select(".date-time.column")
+        this._form.selectAll("select.mode option")
+          .attr("selected", function(d) {
+            return d.value === mode
+              ? "selected"
+              : null;
+          });
+
+        this._form.select(".date-picker")
           .style("display", this._travelMode === google.maps.DirectionsTravelMode.TRANSIT
             ? null
             : "none");
@@ -1248,17 +1306,166 @@
     },
 
     _updateOrigin: function() {
+      // XXX cancel last request?
       var origin = this.getOrigin();
       if (origin) {
-        // TODO
+        var that = this,
+            request = {
+              address: origin,
+              bounds: this.options.bounds,
+              region: "us"
+            };
+        this._clearNearbyLocations();
+        this.geocoder.geocode(request, function(results, stat) {
+          if (stat === google.maps.GeocoderStatus.OK) {
+            console.log("got geocode results:", results);
+            that._setResult(results[0]);
+          } else {
+            that._showOriginError(stat);
+          }
+        });
       } else {
         console.warn("no origin");
       }
     },
 
-    _updateNearbyLocations: function() {
-      // TODO
-      // resize map after showing nearby locations?
+    _setResult: function(result) {
+      var center = result.geometry.location,
+          origin = this.getOrigin(),
+          options = this.options,
+          that = this;
+
+      this._result = result;
+      this.originMarker.setOptions({
+        position: center,
+        content: result.formatted_address
+      });
+
+      var nearby = this._model.getLocationsNearLatLng(center,
+          options.nearbyDistance,
+          options.nearbyTypes);
+      console.log("got", nearby.length, "nearby locations:", nearby);
+
+      nearby = nearby.slice(0, this.options.nearbyLimit);
+
+      google.maps.event.trigger(this, "nearby", nearby);
+
+      var bounds = new google.maps.LatLngBounds(center, center);
+      nearby.forEach(function(d) {
+        bounds.extend(d.latlng);
+      });
+      this.map.fitBounds(bounds);
+
+      var byDistance = d3.nest()
+        .key(function(d) { return options.nearbyDistanceGroup * Math.ceil(d.distance / options.nearbyDistanceGroup); })
+        .entries(nearby);
+
+      var group = this._nearbyRoot.selectAll(".group")
+        .data(byDistance, function(d) { return d.key; });
+
+      group.exit().remove();
+
+      group.enter().append("div")
+        .attr("class", "group")
+        .append("h4")
+          .text(function(d) {
+            return ["About", d.key, "miles away"].join(" ");
+          });
+
+      var loc = group.selectAll(".location")
+        .data(function(d) { return d.values; });
+
+      loc.exit().remove();
+      var enter = loc.enter()
+        .append("div")
+          .attr("class", "location");
+
+      enter.append("span")
+        .attr("class", "icon");
+
+      enter.append("span")
+        .attr("class", "title")
+        .append("a");
+
+      enter.append("span")
+        .attr("class", "distance");
+
+      loc
+        .attr("id", function(d) { return "nearby-" + d.id; })
+        .attr("class", function(d) {
+          var type = d.parklocationtype
+            .toLowerCase()
+            .replace(/ +/g, "_");
+          return ["location", type].join(" ");
+        });
+
+      loc.select(".title a")
+        .attr("href", function(d) {
+          return "?#" + utils.qs.format({
+            from: origin,
+            to: that.getLocationString(d)
+          });
+        })
+        .on("mouseover", function(d) {
+          that.routeTo(d.latlng);
+        })
+        .on("mouseout", function(d) {
+          that.clearRoute();
+        })
+        .on("click", function(d) {
+          d3.event.preventDefault();
+          console.log("click:", d);
+        })
+        .text(function(d) { return d.title; });
+
+      google.maps.event.trigger(this.map, "resize");
+      this.map.setCenter(center);
+    },
+
+    routeTo: function(latlng, callback) {
+      this._routeClear = false;
+      this.directionsDisplay.setMap(this.map);
+      var that = this,
+          request = {
+            origin: this.getOrigin(),
+            destination: "loc:" + [latlng.lat(), latlng.lng()].join(","),
+            travelMode: this.getTravelMode()
+          };
+      console.log("attempting to route:", request);
+      this.directions.route(request, function(response, stat) {
+        if (that._routeClear) {
+          if (callback) callback("cleared", null);
+          return;
+        }
+
+        if (stat === google.maps.DirectionsStatus.OK) {
+          that._updateRoute(response, request);
+          if (callback) callback(null, response);
+        } else {
+          console.error("Unable to route: " + stat);
+          google.maps.event.trigger(this, "error", response);
+          if (callback) callback(response, null);
+        }
+      });
+    },
+
+    _updateRoute: function(response, request) {
+      this.directionsDisplay.setDirections(response);
+    },
+
+    clearRoute: function() {
+      this._routeClear = true;
+      this.directionsDisplay.setMap();
+    },
+
+    getLocationString: function(dest) {
+      return (typeof dest === "string")
+        ? dest
+        : [dest.title, dest.id].join(":");
+    },
+
+    _clearNearbyLocations: function() {
+      // XXX remove all the groups?
     }
   });
 
@@ -1902,6 +2109,14 @@
 
     collateNearby: function(locations, typeLimits) {
       if (locations.length === 0) return locations;
+
+      if (Array.isArray(typeLimits)) {
+        var types = typeLimits;
+        typeLimits = {};
+        types.forEach(function(type) {
+          typeLimits[type] = 100; // XXX
+        });
+      }
 
       var byType = d3.nest()
         .key(function(d) { return d.parklocationtype; })

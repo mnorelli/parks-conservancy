@@ -479,6 +479,14 @@
 
 /* nearby planner stuff */
 
+.nearby-planner .column.one-third {
+  width: 33.3%;
+}
+
 .nearby-planner .nearby.column {
   padding-left: 20px;
+}
+
+.nearby-planner .date-picker {
+  margin-left: 1em;
 }
