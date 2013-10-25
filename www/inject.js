@@ -37,7 +37,7 @@
         // path: new RegExp("/planner(/|.html)?$"),
         path: "/mapping/trip-planner.html",
         options: {
-          root: "#page_content"
+          root: "#trip-planner"
         },
         run: function(options) {
           GGNPC.planner.TripPlanner.inject(options);

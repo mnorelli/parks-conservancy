@@ -1,6 +1,5 @@
 #trip-planner {
-  width: 960px;
-  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .trip-planner {
@@ -26,6 +25,8 @@
 .trip-planner .row {
   display: table;
   width: 100%;
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /* layout columns */
@@ -51,14 +52,8 @@
   margin: 0 0 10px 0;
 }
 
-.trip-planner .hide-default {
-  height: 0;
-  overflow: hidden;
-          transition: 1s height;
-  -webkit-transition: 1s height;
-     -moz-transition: 1s height;
-      -ms-transition: 1s height;
-       -o-transition: 1s height;
+.trip-planner .maps {
+  margin: 0 -10px;
 }
 
 .trip-planner.routed .hide-default {
@@ -244,20 +239,6 @@
   margin-left: 0;
 }
 
-.trip-planner.routed .dest-info-wrapper {
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
-}
-
-.trip-planner .dest-info {
-  padding-right: 20px;
-}
-
-.trip-planner .dest-info address {
-  font-style: italic;
-  margin-bottom: 20px;
-}
-
 .trip-planner span.destination.frozen {
   font-size: 18px;
   font-weight: bold;
@@ -433,6 +414,10 @@
   display: none;
 }
 
+.trip-planner .dest-info-row .column:last-child {
+  padding-left: 20px;
+}
+
 /* Google directions stuff */
 .google-directions * {
   font-family: Verdana, sans-serif;
@@ -442,11 +427,13 @@
 
 .google-directions .adp-placemark td {
   font-size: 18px;
+  line-height: 22px;
   font-weight: bold;
-  padding: 4px;
+  padding: 5px;
+  vertical-align: middle;
 }
 
 .google-directions .adp-placemark img {
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 5px;
 }

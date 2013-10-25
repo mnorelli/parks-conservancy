@@ -116,28 +116,25 @@
             .html(this.options.tripDescriptionHTML),
           linksRoot = tripInfo.append("span")
             .attr("class", "links"),
-          directionsRoot = form.append("div")
-            .attr("class", "row directions"),
-          directionsPanel = directionsRoot.append("div")
-            .attr("class", "google-directions"),
           destInfoRow = form.append("div")
-            .append("div")
-              .attr("class", "dest-info-wrapper hide-default")
-              .append("div")
-                .attr("class", "row dest-info-row hide-default"),
-          destInfoBlock = destInfoRow.append("div")
-            .attr("class", "dest-info column half")
-            .append("div")
-              .attr("class", "section"),
-          nearbyBlock = destInfoRow.append("div")
-            .attr("class", "nearby-panel column half")
-            .append("div")
-              .attr("class", "section");
+            .attr("class", "row dest-info-row hide-default"),
+          directionsColumn = destInfoRow.append("div")
+            .attr("class", "directions column one-third"),
+          directionsPanel = directionsColumn.append("div")
+            .attr("class", "google-directions"),
+          destInfoColumn = destInfoRow.append("div")
+            .attr("class", "column two-thirds"),
+          destInfoBlock = destInfoColumn.append("div")
+            .attr("class", "dest-info section"),
+          nearbyBlock = destInfoColumn.append("div")
+            .attr("class", "nearby-panel section");
 
+      /*
       var toggleDirectionsLink = tripDesc.append("a")
         .attr("class", "toggle-directions")
         .html("Show directions")
         .call(makeToggle, directionsPanel.classed("active", true), "Hide directions");
+      */
 
       var originGroup = originColumn.append("div")
         .attr("class", "origin-group");
@@ -786,7 +783,7 @@
         info.select(".title")
           .text(dest.title);
         info.select(".description")
-          .text(dest.description);
+          .text(dest.description || "(no description)");
       } else {
         info.select(".title")
           .text(dest);
