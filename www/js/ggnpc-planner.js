@@ -919,7 +919,7 @@
         destinations,
         // XXX make this a global to modify
         bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
-        loader = new DestinationLoader(),
+        loader = new DestinationModel(),
         hash = utils.qs.parse(location.hash),
         root = utils.coerceElement(options.root || "trip-planner");
 
@@ -1691,13 +1691,13 @@
   };
 
   /*
-   * GGNPC.planner.DestinationLoader loads locations from the API. Usage:
+   * GGNPC.planner.DestinationModel loads locations from the API. Usage:
    *
-   * var loader = new GGNPC.planner.DestinationLoader({ ... });
+   * var loader = new GGNPC.planner.DestinationModel({ ... });
    * loader.load(function(error, locations) {
    * });
    */
-  var DestinationLoader = planner.DestinationLoader = planner.BaseClass.extend({
+  var DestinationModel = planner.DestinationModel = planner.BaseClass.extend({
     defaults: {
       // XXX get the apiUrl from Map.defaults
       apiUrl: ggnpc.maps.Map.defaults.apiUrl,
@@ -1714,7 +1714,7 @@
     },
 
     initialize: function(options) {
-      this.options = utils.extend({}, DestinationLoader.defaults, options);
+      this.options = utils.extend({}, DestinationModel.defaults, options);
       this._parks = [];
       this._parksById = {};
       this._allLocations = [];
