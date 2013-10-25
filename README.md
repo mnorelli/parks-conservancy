@@ -73,7 +73,15 @@ for a month while debugging Varnish).
 
 ## Seeding
 
-`node ../bin/seed.js -b="-123.640 36.791 -121.025 38.719" -z 10 -Z 14`
+Full map extent:
+
+`heroku run 'seed -b="-123.640 36.791 -121.025 38.719" -z 10 -Z 14'`
+
+Focused areas for higher zooms:
+
+`heroku run 'seed -b="-122.7177 37.4828 -122.3538 37.9543" -z 15 -Z 18'`
+
+(>= 1 worker process will need to be running)
 
 ## Data Dependencies
 
