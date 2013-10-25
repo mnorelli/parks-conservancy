@@ -798,8 +798,13 @@
             return [klass, "icon-" + type].join(" ");
           });
 
+        var desc = dest.description;
+        if (!desc && dest.relatedpark) {
+          var park = this._model.getParkById(dest.relatedpark);
+          if (park) desc = park.description;
+        }
         info.select(".description")
-          .text(dest.description || "(no description)");
+          .text(desc || "(no description)");
 
         // TODO: figure out which field this comes from in different data sources
         // (TnT, Convio)
