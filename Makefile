@@ -340,7 +340,15 @@ data-ggnra-buildings: data/ggnra_buildings.zip
 	touch $@
 
 data-trailheads:
-	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q -f trailheads.sql
+	ogr2ogr --config PG_USE_COPY YES \
+	        -t_srs EPSG:900913 \
+	        -nln trailheads \
+		-nlt PROMOTE_TO_MULTI \
+		-lco GEOMETRY_NAME=geom \
+		-lco SRID=900913 \
+		-f PGDump /vsistdout/ \
+		/vsizip/vsicurl/http://data.stamen.com.s3.amazonaws.com/parks-conservancy/trailheads_20131025.zip/trailheads.shp | \
+	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
 data-parking-lots:
