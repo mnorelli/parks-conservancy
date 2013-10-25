@@ -34,6 +34,14 @@
 
       tripDescriptionHTML: 'That&rsquo;s <b class="distance"></b>, and should take about <b class="duration"></b> to get there <b class="mode">by car</b>. ',
 
+      nearbyDistance: 1.0, // miles
+      nearbyTypes: {
+        "Restroom": 1,
+        "Cafe": 1,
+        "Visitor Center": 1,
+        "Trailhead": 2
+      },
+
       freezeDestination: false,
       destinationOptions: [],
 
@@ -51,6 +59,8 @@
       this.root.className = "trip-planner";
       this.options = utils.extend({}, TripPlanner.defaults, options);
 
+      this._model = this.options.destinationModel || new DestinationModel();
+
       this._request = {
         origin: this.options.origin,
         destination: this._resolveDestination(this.options.destination),
@@ -63,8 +73,6 @@
       this._travelTimeType = this.options.travelTimeType;
 
       this.directions = new google.maps.DirectionsService();
-
-      this._locationsById = {};
 
       this._setupDom();
       this._updateTravelTime();
@@ -300,12 +308,8 @@
         dests.forEach(function(d, i) {
           d._index = i;
           if (d.children) {
-            d.children.forEach(function(c) {
-              that._locationsById[c.id] = c;
-            });
             groups.push(d);
           } else {
-            that._locationsById[d.id] = d;
             options.push(d);
           }
         });
@@ -375,7 +379,6 @@
 
       destInfoBlock.append("h3")
         .attr("class", "title");
-      destInfoBlock.append("address");
       destInfoBlock.append("p")
         .attr("class", "description");
 
@@ -790,17 +793,17 @@
         info.select(".desc")
           .text("");
       }
-
-      info.select("address")
-        .text(address);
     },
 
     _updateNearbyLocations: function() {
       var dest = this.getDestination(),
           that = this,
+          nearby = this._model.getLocationsNearLocation(dest,
+            this.options.nearbyDistance,
+            this.options.nearbyTypes),
           loc = d3.select(this.root).select(".nearby-locations")
             .selectAll(".location")
-            .data(dest.nearby || []);
+            .data(nearby);
 
       loc.exit().remove();
 
@@ -887,11 +890,8 @@
       return false;
     },
 
-    getLocationById: function(id) {
-      return this._locationsById[id];
-    },
-
     _hasDestination: function(dest) {
+      // TODO make this work with the destination model
       var options = this.options.destinationOptions;
       // console.log("has dest:", dest);
       if (!options) {
@@ -923,11 +923,11 @@
         destinations,
         // XXX make this a global to modify
         bespokeSheetId = "0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc",
-        loader = new DestinationLoader(),
+        model = new DestinationModel(),
         hash = utils.qs.parse(location.hash),
         root = utils.coerceElement(options.root || "trip-planner");
 
-    GGNPC.planner.loader = loader;
+    GGNPC.planner.DestinationModel.instance = model;
 
     if (!root) {
       console.log("planner: no root", options.root);
@@ -943,19 +943,25 @@
       .text("Loading the trip planner...");
 
     // console.log("loading destinations...");
-    loader.load(function(error, locations) {
+    model.load(function(error) {
       if (error) {
         message.text("Unable to load locations!");
         return console.error("unable to load locations:", error);
       }
 
+      // get the appropriate destinations from the model
+      destinations = model.getDestinations({
+        access: true,
+        groupByPark: true
+      });
+
       message
-        .text("Loaded " + locations.length + " locations!")
+        .text("Loaded " + destinations.length + " destinations!")
         .remove();
 
-      console.log("loaded", locations.length, "locations");
-      destinations = locations;
+      console.log("loaded", destinations.length, "destinations");
 
+      // TODO: bring back bespoke directions
       /*
       GGNPC.planner.BespokeDirections.load(bespokeSheetId, function(error, rowsByFilename) {
         destinations.forEach(function(d) {
@@ -975,13 +981,14 @@
       root.classed("loading", false);
 
       var dest;
-      loader.resolveLocation(hash.to, function(error, loc) {
+      // resolve the destination asynchronously
+      model.resolveLocation(hash.to, function(error, loc) {
         dest = loc;
-
         if (dest && dest.id) {
           return loadContent(dest, done);
+        } else {
+          done();
         }
-        done();
       });
 
       // for loading welcome outreach content
@@ -1006,7 +1013,8 @@
           destination: dest,
           travelMode: hash.mode,
           destinationOptions: destinations,
-          freezeDestination: hash.to && hash.freeze === true
+          freezeDestination: hash.to && hash.freeze === true,
+          destinationModel: model
         });
 
         autoRoute();
@@ -1050,6 +1058,162 @@
 
   // "nearby" view
   var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
+    defaults: {
+      originTitle: "You&rsquo;re coming from:",
+      dateTitle: "Leaving:",
+      modeTitle: "",
+      nearbyTitle: "Here are a few options for a park visit:"
+    },
+
+    initialize: function(root, options) {
+      this.root = utils.coerceElement(root);
+      this.options = utils.extend({}, NearbyPlanner.defaults, options);
+      this._setup();
+    },
+
+    _setup: function() {
+      var that = this,
+          root = d3.select(this.root)
+            .classed("trip-planner", true)
+            .classed("nearby-planner", true),
+          inputs = root.append("div")
+            .attr("class", "row inputs"),
+          originColumn = inputs.append("div")
+            .attr("class", "column origin one-third"),
+          dateColumn = inputs.append("div")
+            .attr("class", "column date-time one-third"),
+          modeColumn = inputs.append("div")
+            .attr("class", "column mode one-third"),
+          mainRow = root.append("div")
+            .attr("class", "row main"),
+          mapColumn = mainRow.append("div")
+            .attr("class", "column map"),
+          nearbyColumn = mainRow.append("div")
+            .attr("class", "column nearby");
+
+      originColumn
+        .classed("section", true)
+        .append("h3")
+          .attr("class", "title")
+          .html(this.options.originTitle);
+
+      originColumn.append("img")
+        .attr("class", "point")
+        .attr("src", this.options.pointImageUrls.origin);
+
+      originColumn.append("input")
+        .attr("type", "text")
+        .attr("value", this._origin)
+        .on("change", function() {
+          that.setOrigin(this.value);
+        });
+
+      dateColumn
+        .classed("section", true)
+        .append("h3")
+          .attr("class", "title")
+          .text(this.options.dateTitle);
+
+      var dateRoot = dateColumn.append("div")
+        .attr("class", "date-picker");
+      var datePicker = this._datePicker = new DateTimePicker(dateRoot.node());
+      datePicker.on("change", function(date) {
+        that.setTravelTime(date);
+      });
+
+      modeColumn
+        .classed("section", true)
+        .append("h3")
+          .attr("class", "title")
+          .text(this.options.modeTitle);
+
+      var modeSelect = modeColumn.append("select")
+        .attr("name", "mode")
+        .attr("class", "mode")
+        .on("change", function() {
+          var mode = this.options[this.selectedIndex].value;
+          that.setTravelMode(mode);
+        });
+      
+      var selectedMode = this.getTravelMode();
+      modeSelect.selectAll("option")
+        .data(TravelModePicker.defaults.modes)
+        .enter()
+        .append("option")
+          .text(function(d) { return d.title; })
+          .attr("value", function(d) { return d.value; })
+          .attr("selected", function(d) {
+            return d.value === selectedMode
+              ? "selected"
+              : null;
+          });
+
+      var map = this.map = new ggnpc.maps.Map(mapColumn.node());
+
+      nearbyColumn.append("h3")
+        .attr("class", "title")
+        .text(this.options.nearbyTitle);
+
+      this._nearbyRoot = nearbyColumn.append("div")
+        .attr("class", "nearby-locations");
+    },
+
+    getOrigin: function() {
+      return this._origin;
+    },
+
+    setOrigin: function(origin) {
+      if (origin != this._origin) {
+        this._origin = origin;
+        google.maps.event.trigger(this, "origin", this._origin);
+        this._updateOrigin();
+      }
+      return this;
+    },
+
+    getTravelTime: function() {
+      return this._travelTime;
+    },
+
+    setTravelTime: function(date) {
+      if (!this._travelTime || date.getTime() != this._travelTime.getTime()) {
+        this._travelTime = date;
+        google.maps.event.trigger(this, "travelTime", this._travelTime);
+      }
+      return this;
+    },
+
+    getTravelMode: function() {
+      return this._travelMode;
+    },
+
+    setTravelMode: function(mode) {
+      if (mode !== this._travelMode) {
+        this._travelMode = mode;
+        google.maps.event.trigger(this, "travelMode", this._travelMode);
+
+        d3.select(this.root)
+          .select(".date-time.column")
+          .style("display", this._travelMode === google.maps.DirectionsTravelMode.TRANSIT
+            ? null
+            : "none");
+      }
+      return this;
+    },
+
+    _updateOrigin: function() {
+      var origin = this.getOrigin();
+      if (origin) {
+        // TODO
+      } else {
+        console.warn("no origin");
+      }
+    },
+
+    _updateNearbyLocations: function() {
+      // TODO
+      // resize map after showing nearby locations?
+    }
   });
 
   // rewrite TripPlanner.prototype._setupDatePicker() to use this
@@ -1540,30 +1704,21 @@
   };
 
   /*
-   * GGNPC.planner.DestinationLoader loads locations from the API. Usage:
+   * GGNPC.planner.DestinationModel loads locations from the API. Usage:
    *
-   * var loader = new GGNPC.planner.DestinationLoader({ ... });
+   * var loader = new GGNPC.planner.DestinationModel({ ... });
    * loader.load(function(error, locations) {
    * });
    */
-  var DestinationLoader = planner.DestinationLoader = planner.BaseClass.extend({
+  var DestinationModel = planner.DestinationModel = planner.BaseClass.extend({
     defaults: {
       // XXX get the apiUrl from Map.defaults
       apiUrl: ggnpc.maps.Map.defaults.apiUrl,
       locationTypes: ["Access", "Trailhead", "Visitor Center", "Point of Interest"],
-      groupByPark: true,
-      nearbyThreshold: 1, // miles
-      nearbyTypes: ["Restroom", "Cafe", "Visitor Center", "Trailhead"],
-      nearbyTypeCounts: {
-        "Restroom": 1,
-        "Cafe": 1,
-        "Visitor Center": 1,
-        "Trailhead": 2
-      }
     },
 
     initialize: function(options) {
-      this.options = utils.extend({}, DestinationLoader.defaults, options);
+      this.options = utils.extend({}, DestinationModel.defaults, options);
       this._parks = [];
       this._parksById = {};
       this._allLocations = [];
@@ -1571,136 +1726,187 @@
     },
 
     load: function(callback) {
-      var that = this,
-          options = this.options;
-      return d3.json(options.apiUrl + "kind/park", function(error, data) {
-        if (error) return callback(error, null);
-
-        var parks = that._parks = data.results.map(that._getAttibutes)
-          .sort(that._sortByTitle);
-        parks.forEach(function(d) {
-          that._parksById[d.id] = d;
-          that._allLocations.push(d);
-          that._allLocationsById[d.id] = d;
-        });
-
-        var parksById = that._parksById;
-
-        d3.json(options.apiUrl + "kind/location", function(error, data) {
-          if (error) return callback(error, null);
-
-          var locations = data.results.map(that._getAttibutes),
-              allLocations = locations.slice();
-
-          allLocations.forEach(function(d) {
-            that._allLocations.push(d);
-            that._allLocationsById[d.id] = d;
-          });
-
-          locations = locations.filter(function(d) {
-            return d.access === "TRUE";
-          });
-
-          if (options.nearbyThreshold) {
-            var nearbyTypes = options.nearbyTypes,
-                nearbyThreshold = options.nearbyThreshold,
-                nearbyLimit = options.nearbyLimit,
-                nearbyCandidates = nearbyTypes
-                  ? allLocations.filter(function(d) {
-                    return nearbyTypes.indexOf(d.parklocationtype) > -1;
-                  })
-                  : allLocations.slice();
-
-            // give each nearby candidate a google.maps.LatLng
-            nearbyCandidates.forEach(function(d) {
-              d.latlng = utils.coerceLatLng(d.location);
-            });
-
-            var collateNearbyLocatons = function(nearby, debug) {
-              if (nearby.length === 0) return nearby;
-
-              if (debug) console.log(nearby.length, "nearby locations");
-
-              var byType = d3.nest()
-                .key(function(d) { return d.parklocationtype; })
-                .sortValues(function(a, b) {
-                  return d3.ascending(a._dist, b._dist);
-                })
-                .map(nearby);
-
-              if (options.nearbyTypeCounts) {
-                for (var type in options.nearbyTypeCounts) {
-                  var len = options.nearbyTypeCounts[type];
-                  if (type in byType) {
-                    byType[type] = byType[type].slice(0, len);
-                  }
-                }
-              }
-
-              if (debug) console.log("nearby by type:", byType);
-
-              var collated = [];
-              d3.values(byType).forEach(function(typeList) {
-                collated = collated.concat(typeList);
-              });
-
-              if (debug) console.log("collated:", collated.map(function(d) { return d.parklocationtype; }));
-
-              collated.sort(function(a, b) {
-                return d3.ascending(a._dist, b._dist);
-              });
-
-              if (nearbyLimit) {
-                collated = collated.slice(0, nearbyLimit);
-              }
-
-              return collated;
-            };
-
-            // assign a nearby[] array to each location based on distance from
-            // it to the other locations
-            allLocations.forEach(function(d) {
-              var a = d.latlng || (d.latlng = utils.coerceLatLng(d.location)),
-                  nearby = nearbyCandidates
-                    .filter(function(b) {
-                      return b != d &&
-                        (b._dist = utils.distanceInMiles(a, b.latlng)) <= nearbyThreshold;
-                    });
-              d.nearby = collateNearbyLocatons(nearby, false);
-            });
-          }
-
-          if (options.groupByPark) {
-            var locationsByParkId = d3.nest()
-              .key(function(d) { return d.relatedpark; })
-              .map(locations);
-
-            locations = d3.entries(locationsByParkId)
-              .map(function(d) {
-                if (!d.key) {
-                  console.warn("no park id for", d.value.length, "locations");
-                  return null;
-                }
-
-                var park = parksById[d.key];
-                if (!park) console.warn("bad park id:", d.key);
-
-                if (park && d.value.length > 1) {
-                  park.accessLocations = d.value;
-                  return utils.extend({}, park, {
-                    children: d.value.sort(that._sortByTitle)
-                  });
-                } else {
-                  return d.value[0];
-                }
-              })
-              .filter(function(d) { return d; })
-              .sort(that._sortByTitle);
-          }
-
-          callback(null, that._locations = locations);
-        });
+      var that = this;
+      return d3.json(this.options.apiUrl + "kind/park", function(error, data) {
+        if (error) return callback(error);
+        that.addParks(data);
+        that.loadLocations(callback);
       });
+    },
+
+    addParks: function(data) {
+      var that = this,
+          parks = data.results
+            .map(this._getAttibutes)
+            .sort(this._sortByTitle);
+
+      parks.forEach(function(d) {
+        that.addLocation(d);
+        that._parksById[d.id] = d;
+      });
+
+      this._parks = parks;
+    },
+
+    loadLocations: function(callback) {
+      var that = this;
+      return d3.json(this.options.apiUrl + "kind/location", function(error, data) {
+        if (error) return callback(error, null);
+        that.addLocations(data);
+        callback(null, that);
+      });
+    },
+
+    addLocation: function(d) {
+      d.latlng = utils.coerceLatLng(d.location);
+      this._allLocations.push(d);
+      this._allLocationsById[d.id] = d;
+
+      if (d.access === "TRUE" && (d.relatedpark in this._parksById)) {
+        var park = this._parksById[d.relatedpark];
+        if (park.accessLocations) {
+          park.accessLocations.push(d);
+        } else {
+          park.accessLocations = [d];
+        }
+      }
+    },
+
+    addLocations: function(data) {
+      var that = this,
+          options = this.options,
+          parksById = this._parksById,
+          locations = data.results.map(that._getAttibutes),
+          allLocations = locations.slice();
+
+      allLocations.forEach(this.addLocation.bind(this));
+      this._locations = locations;
+    },
+
+    getDestinations: function(options) {
+      if (!options) options = {};
+
+      var locations = this._locations.slice();
+
+      if (options.access) {
+        locations = locations.filter(function(d) {
+          return d.access === "TRUE";
+        });
+      }
+
+      if (options.groupByPark) {
+        // filter out locations without a related park?
+        locations = locations.filter(function(d) {
+          return d.relatedpark;
+        });
+
+        var parksById = this._parksById,
+            that = this;
+        locations = d3.nest()
+          .key(function(d) { return d.relatedpark; })
+          .entries(locations)
+          .map(function(d) {
+            var park = parksById[d.key],
+                locs = d.values;
+            if (park && locs.length > 1) {
+              return utils.extend({
+                children: locs.sort(that._sortByTitle)
+              }, park);
+            } else {
+              return locs[0];
+            }
+          });
+      }
+
+      return locations;
+    },
+
+    getLocationsNearLocation: function(loc, distance, typeLimits) {
+      var latlng = loc.latlng,
+          locations = this._allLocations
+            .filter(function(d) {
+              return d !== loc
+                  && d.title !== loc.title
+                  && d.latlng instanceof google.maps.LatLng;
+            }),
+          nearby = locations.filter(function(d) {
+            d.distance = utils.distanceInMiles(latlng, d.latlng);
+            return d.distance <= distance;
+          });
+
+      return typeLimits
+        ? this.collateNearby(nearby, typeLimits)
+        : nearby.sort(this._sortByDistance);
+    },
+
+    getLocationsNearLatLng: function(latlng, distance, typeLimits) {
+      var locations = this._allLocations
+            .filter(function(d) {
+              return d.latlng instanceof google.maps.LatLng;
+            }),
+          nearby = locations.filter(function(d) {
+            d.distance = utils.distanceInMiles(latlng, d.latlng);
+            return d.distance <= distance;
+          });
+
+      return typeLimits
+        ? this.collateNearby(nearby, typeLimits)
+        : nearby.sort(this._sortByDistance);
+    },
+
+    collateNearby: function(locations, typeLimits) {
+      if (locations.length === 0) return locations;
+
+      var byType = d3.nest()
+        .key(function(d) { return d.parklocationtype; })
+        .sortValues(function(a, b) {
+          return d3.ascending(a.distance, b.distance);
+        })
+        .map(locations);
+
+      var collated = [];
+      for (var type in typeLimits) {
+        var len = typeLimits[type];
+        if (type in byType) {
+          var subset = byType[type].slice(0, len);
+          collated = collated.concat(subset);
+        }
+      }
+
+      return collated.sort(this._sortByDistance);
+    },
+
+    getLocationsByPark: function(filter) {
+      var locations = this._allLocations.slice();
+      if (filter) {
+        locations = locations.filter(filter);
+      }
+
+      var locationsByParkId = d3.nest()
+        .key(function(d) { return d.relatedpark; })
+        .map(this._locations);
+
+      return d3.entries(locationsByParkId)
+        .map(function(d) {
+          if (!d.key) {
+            console.warn("no park id for", d.value.length, "locations");
+            return null;
+          }
+
+          var park = parksById[d.key];
+          if (!park) console.warn("bad park id:", d.key);
+
+          if (park && d.value.length > 1) {
+            park.accessLocations = d.value;
+            return utils.extend({}, park, {
+              children: d.value.sort(that._sortByTitle)
+            });
+          } else {
+            return d.value[0];
+          }
+        })
+        .filter(function(d) { return d; })
+        .sort(that._sortByTitle);
     },
 
     resolveLocation: function(str, callback) {
@@ -1729,6 +1935,10 @@
 
     _sortByTitle: function(a, b) {
       return d3.ascending(a.title, b.title);
+    },
+
+    _sortByDistance: function(a, b) {
+      return d3.ascending(a.distance, b.distance);
     }
   });
 
