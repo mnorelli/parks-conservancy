@@ -1712,9 +1712,6 @@
    */
   var DestinationModel = planner.DestinationModel = planner.BaseClass.extend({
     defaults: {
-      // XXX get the apiUrl from Map.defaults
-      apiUrl: ggnpc.maps.Map.defaults.apiUrl,
-      locationTypes: ["Access", "Trailhead", "Visitor Center", "Point of Interest"],
     },
 
     initialize: function(options) {
@@ -1723,11 +1720,14 @@
       this._parksById = {};
       this._allLocations = [];
       this._allLocationsById = {};
+      this.api = (this.options.api instanceof ggnpc.API)
+        ? this.options.api
+        : new ggnpc.API(this.options.api);
     },
 
     load: function(callback) {
       var that = this;
-      return d3.json(this.options.apiUrl + "kind/park", function(error, data) {
+      return this.api.get("kind/park", function(error, data) {
         if (error) return callback(error);
         that.addParks(data);
         that.loadLocations(callback);
@@ -1750,7 +1750,7 @@
 
     loadLocations: function(callback) {
       var that = this;
-      return d3.json(this.options.apiUrl + "kind/location", function(error, data) {
+      return this.api.get("kind/location", function(error, data) {
         if (error) return callback(error, null);
         that.addLocations(data);
         callback(null, that);
