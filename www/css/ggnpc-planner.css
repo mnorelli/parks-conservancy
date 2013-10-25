@@ -78,15 +78,30 @@
   border-left: 2px solid #fff;
 }
 
-.trip-planner input.origin,
-.trip-planner input.destination {
-  font-size: 18px;
-  width: 16em;
-  max-width: 90%;
+.trip-planner input,
+.trip-planner select {
+  font-size: 14px !important;
+  -webkit-appearance: none;
+  padding: 4px 6px;
+  color: inherit;
+  border-radius: 2px;
+  border: 1px solid #cecece;
 }
 
-.trip-planner address {
-  line-height: 1.4em;
+.trip-planner input[type=text] {
+  max-width: 90%;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.1);
+}
+
+.trip-planner select {
+  padding-right: 25px;
+  background-image: url(images/select-caret.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.trip-planner input.origin {
+  width: 16em;
 }
 
 .trip-planner .nearby-locations {
@@ -299,18 +314,17 @@
 
 .text-options .toggle {
   position: absolute;
-  bottom: 5px;
-  line-height: 1em;
-  height: 1em;
+  top: 0;
   right: 0;
   width: 20px;
-  text-align: center;
-  vertical-align: middle;
-  color: #999;
+  height: 100%;
+
+  background-image: url(images/select-caret.png);
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
 .text-options .toggle.active {
-  color: #000;
 }
 
 .text-options .content-wrapper {

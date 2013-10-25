@@ -1585,7 +1585,7 @@
 
   var TextPlusOptions = planner.TextPlusOptions = planner.BaseClass.extend({
     defaults: {
-      toggleText: ["&#x25bc;", "&#x25bc;"]
+      toggleText: ["", ""]
     },
 
     initialize: function(root, options) {
