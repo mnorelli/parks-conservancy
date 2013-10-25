@@ -11,7 +11,7 @@ distclean:
 	rm -rf data/
 
 data: postgis hstore \
-      data-cpad data-osm \
+      data-cpad data-cpad-supplemental data-osm \
       data-nhd data-water-fill \
       data-ggnpc-locations data-ggnra-trails data-ggnra-boundary \
       data-ggnra-legislative data-restoration-areas \
@@ -177,7 +177,7 @@ data-osm: data/sf-bay-area.osm.pbf
 			  data/sf-bay-area.osm.pbf
 	touch $@
 
-data-cpad: data/cpad.zip
+data-cpad:
 	ogr2ogr --config PG_USE_COPY YES \
 		-t_srs EPSG:900913 \
 		-nln cpad_units \
@@ -185,25 +185,30 @@ data-cpad: data/cpad.zip
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
 		-f PGDump /vsistdout/ \
-		/vsizip/data/cpad.zip/CPAD19_Units.shp | \
+		/vsizip/vsicurl/https://maps.gis.ca.gov/Downloads/Data/Government/CPAD_2013b.zip/CPAD_2013b_Units.shp | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	touch $@
+
+data-cpad-supplemental: data/Supplemental_CPAD_DOD_Feb2010.zip data/Supplemental_PRO_Res_Boundary.zip
 	ogr2ogr --config PG_USE_COPY YES \
 		-t_srs EPSG:900913 \
-		-nln cpad_superunits \
+		-nln cpad_dod \
 		-nlt PROMOTE_TO_MULTI \
 		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
 		-f PGDump /vsistdout/ \
-		/vsizip/data/cpad.zip/CPAD19_SuperUnits.shp | \
+		/vsizip/data/Supplemental_CPAD_DOD_Feb2010.zip/CPAD_DOD_current.shp | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
+	
 	ogr2ogr --config PG_USE_COPY YES \
 		-t_srs EPSG:900913 \
-		-nln cpad_holdings \
+		-nln cpad_res \
 		-nlt PROMOTE_TO_MULTI \
-		-lco GEOMETRY_NAME=v
+		-lco GEOMETRY_NAME=geom \
 		-lco SRID=900913 \
-		-f PGDump /vsistdout/ s
-		/vsizip/data/cpad.zip/CPAD19_Holdings.shp | \
+		-lco PRECISION=false \
+		-f PGDump /vsistdout/ \
+		/vsizip/data/Supplemental_PRO_Res_Boundary.zip/PRO_Res_Boundary_20091009.shp | \
 		PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
@@ -363,9 +368,6 @@ data-parking-lots:
 	PGDATABASE=${PGDATABASE} PGHOST=${PGHOST} PGPORT=${PGPORT} PGUSER=${PGUSER} PGPASSWORD=${PGPASSWORD} psql -q
 	touch $@
 
-data/cpad.zip: data/.placeholder
-	curl -sL http://maps.gis.ca.gov/Downloads/Data/Government/CPAD19_ALL.zip -o $@
-
 data/sf-bay-area.osm.pbf: data/.placeholder
 	curl -sL http://osm-extracted-metros.s3.amazonaws.com/sf-bay-area.osm.pbf -o $@
 
@@ -416,6 +418,12 @@ data/ggnra_offshore_boundaries.zip: data/.placeholder
 
 data/ggnra_buildings.zip: data/.placeholder
 	curl -sL http://data.stamen.com.s3.amazonaws.com/parks-conservancy/ggnra_buildings_2013.zip -o $@
+
+data/Supplemental_CPAD_DOD_Feb2010.zip: data/.placeholder
+	curl -sL https://projects.atlas.ca.gov/frs/download.php/10723/Supplemental_CPAD_DOD_Feb2010.zip -o $@
+
+data/Supplemental_PRO_Res_Boundary.zip: data/.placeholder
+	curl -sL https://projects.atlas.ca.gov/frs/download.php/10724/Supplemental_PRO_Res_Boundary.zip -o $@
 
 %/.placeholder:
 	mkdir -p ${@D}
