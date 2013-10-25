@@ -205,8 +205,8 @@
         (function(tile, that){
           d3.json(tile.template, function(data){
             if(!data){
-              q.attempts ++;
-              if(q.attempts < 3){
+              tile.attempts ++;
+              if(tile.attempts < 3){
                 window.setTimeout(function(){
                   that.loadjson(tile);
                 }, 200);
