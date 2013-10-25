@@ -57,8 +57,12 @@
   margin: 0 -10px;
 }
 
+.trip-planner .hide-default {
+  display: none;
+}
+
 .trip-planner.routed .hide-default {
-  height: auto;
+  display: block;
 }
 
 .trip-planner .map {
