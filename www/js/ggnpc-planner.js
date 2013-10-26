@@ -437,15 +437,22 @@
       return this;
     },
 
+    /*
+     * Resize the maps. This is necessary if the maps' DOM elements (or
+     * their ancestors) were display: none previously, as Google can't
+     * infer their directions when they're not displayed.
+     */
     resize: function() {
       google.maps.event.trigger(this.originMap, "resize");
       google.maps.event.trigger(this.destMap, "resize");
     },
 
+    // get the destination
     getDestination: function() {
       return this._request.destination;
     },
 
+    // get the destination title
     getDestinationTitle: function(dest) {
       if (!dest) dest = this.getDestination();
       return (typeof dest === "string")
@@ -453,6 +460,7 @@
         : dest.title;
     },
 
+    // get the destination as a linkable string (for the hash/query)
     getDestinationString: function(dest) {
       if (!dest) dest = this.getDestination();
       return (typeof dest === "string")
@@ -460,6 +468,7 @@
         : [dest.title, dest.id].join(":");
     },
 
+    // set the destination
     setDestination: function(dest) {
       if (dest != this._request.destination) {
         this._request.destination = this._resolveDestination(dest);
@@ -479,10 +488,12 @@
       return this;
     },
 
+    // get the travel mode
     getTravelMode: function(mode) {
       return this._request.travelMode;
     },
 
+    // set the travel mode
     setTravelMode: function(mode) {
       if (mode != this._request.travelMode) {
         this._request.travelMode = mode.toUpperCase();
@@ -492,17 +503,12 @@
       return this;
     },
 
-    _updateTravelTime: function() {
-      var transit = this._request.travelMode === google.maps.DirectionsTravelMode.TRANSIT;
-      d3.select(this.root)
-        .select(".travel-time.section")
-          .style("display", transit ? null : "none");
-    },
-
+    // get the travel time
     getTravelTime: function() {
       return this._travelTime;
     },
 
+    // set the travel time
     setTravelTime: function(time) {
       if (time != this._travelTime) {
         this._travelTime = this._coerceDate(time);
@@ -511,11 +517,20 @@
       return this;
     },
 
-    // "arrival" or "departure"
+    // (private) update the travel time
+    _updateTravelTime: function() {
+      var transit = this._request.travelMode === google.maps.DirectionsTravelMode.TRANSIT;
+      d3.select(this.root)
+        .select(".travel-time.section")
+          .style("display", transit ? null : "none");
+    },
+
+    // get the travel time type: "arrival" or "departure"
     getTravelTimeType: function() {
       return this._travelTimeType;
     },
 
+    // set the travel time type: "arrival" or "departure"
     setTravelTimeType: function(type) {
       if (this._travelTimeType != type) {
         this._travelTimeType = type;
@@ -524,6 +539,7 @@
       return this;
     },
 
+    // attempt to route between the current origin and destination
     route: function(callback) {
       this._clearRoute();
 
@@ -595,6 +611,10 @@
       });
     },
 
+    /*
+     * reorder elements by selector, e.g.:
+     * _setElementOrder(".foo", ".bar")
+     */
     _setElementOrder: function() {
       var selectors = [].slice.call(arguments),
           first = this.root.querySelector(selectors[0]),
