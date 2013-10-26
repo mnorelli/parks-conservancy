@@ -1114,14 +1114,20 @@
   // "nearby" view
   var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
     defaults: {
+      // various text bits
       originTitle: "You&rsquo;re coming from:",
       modeTitle: "Leaving:",
-      dateTitle: "",
       nearbyTitle: "Here are a few options for a park visit:",
 
-      nearbyDistance: 15,
+      // distance threshold in miles
+      nearbyDistance: 100,
+      // group nearby locations by this distance interval (in miles)
       nearbyDistanceGroup: 5,
-      nearbyLimit: 50,
+      // limit the nearby location list to this many items
+      nearbyLimit: 15,
+      // only show nearby locations of this type.
+      // NOTE: if this is an object e.g. {"Trailhead": 3, ...}, then the
+      // results will be cut down to a max number of locations by type
       nearbyTypes: [
         "Trailhead",
         "Visitor Center",
@@ -1136,7 +1142,7 @@
       this.root.className = "trip-planner nearby-planner";
       this.options = utils.extend({}, NearbyPlanner.defaults, options);
 
-      this._setup();
+      this._setupDom();
 
       this.geocoder = new google.maps.Geocoder();
       this.directions = new google.maps.DirectionsService();
@@ -1148,7 +1154,7 @@
       this._model = this.options.destinationModel || new DestinationModel();
     },
 
-    _setup: function() {
+    _setupDom: function() {
       var that = this,
           root = d3.select(this.root),
           form = this._form = root.append("form")
