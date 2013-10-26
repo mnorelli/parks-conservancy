@@ -8,6 +8,9 @@
   "/labels/": {
     "origin": "http://ggnpc-map-labels.herokuapp.com"
   },
+  "/unlabeled/": {
+    "origin": "http://ggnpc-sandwich-maker.herokuapp.com/((terrain-grey-hills,$fff[@60],$fff[hsl-saturation])[@35],ggnpc-background[multiply]),ggnpc-features"
+  },
   "/": {
     "origin": "http://ggnpc-sandwich-maker.herokuapp.com/((terrain-grey-hills,$fff[@60],$fff[hsl-saturation])[@35],ggnpc-background[multiply]),ggnpc-features,ggnpc-labels"
   }
