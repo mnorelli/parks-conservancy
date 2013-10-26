@@ -490,3 +490,17 @@
 .nearby-planner .date-picker {
   margin-left: 1em;
 }
+
+.nearby-planner .map.column {
+  position: relative;
+}
+
+.nearby-planner .map.column .map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  max-height: 600px;
+}

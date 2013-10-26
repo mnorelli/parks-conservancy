@@ -1240,7 +1240,9 @@
         that.setTravelTime(date);
       });
 
-      var map = this.map = new ggnpc.maps.Map(mapColumn.node());
+      var mapRoot = mapColumn.append("div")
+        .attr("class", "map");
+      var map = this.map = new ggnpc.maps.Map(mapRoot.node());
 
       this.originMarker = new google.maps.Marker({
         map: map,
@@ -1418,10 +1420,12 @@
         .on("mouseout", function(d) {
           that.clearRoute();
         })
+        /*
         .on("click", function(d) {
           d3.event.preventDefault();
-          console.log("click:", d);
+          // console.log("click:", d);
         })
+        */
         .text(function(d) { return d.title; });
 
       google.maps.event.trigger(this.map, "resize");
