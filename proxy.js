@@ -1,85 +1,41 @@
-var http = require("http"),
-    httpProxy = require("http-proxy"),
-    connect = require("connect"),
-    proxyPort = process.env.PORT || 8000,
-    proxyTarget = {
-      host: "www.parksconservancy.org",
-      port: 80
-    },
-    filePattern = new RegExp("^/map/(.*)$"),
-    filePath = __dirname + "/www",
-    fileTarget = {
-      host: "localhost",
-      port: 8001
-    },
-    options = {
-      changeOrigin: true
-    },
+var express = require("express"),
+    request = require("request"),
     injection = [
       '\n<script src="/map/inject.js"></script>',
       '\n<script src="/map/nav.js"></script>'
     ].join("");
 
-console.log("+ listening on port:", proxyPort);
-console.log("+ proxying requests from:", proxyTarget.host);
-console.log("+ serving static files from:", filePath);
+var app = express();
+app.use("/map", express.static(__dirname + "/www"));
+app.use(function(req, res, next) {
+  var headers = req.headers;
+  headers.Host = "www.parksconservancy.org";
 
-/*
- * our proxy server either:
- * 1. serves up static assets from www/ if the path matches /map/*, or
- * 2. proxies requests from parksconservancy.org and modifies HTML output
- *    to include the injection payload.
- */
-var proxyServer = httpProxy
-  .createServer(options, function(req, res, proxy) {
-    console.log("  -", req.url);
-    // if the request URL matches our file pattern...
-    var match = req.url.match(filePattern);
-    if (match) {
-      // then proxy it through our static file server
-      proxy.proxyRequest(req, res, fileTarget);
-    } else {
-      // otherwise, proxy it from parksconservancy.org
-      proxy.proxyRequest(req, res, proxyTarget);
+  // ensure we don't get a compressed response
+  delete headers["accept-encoding"];
 
-      // and add the proxyResponse listener to inject our payload
-      // if the response has an HTML content-type
-      if (proxy.listeners("proxyResponse").length === 0) {
-        proxy.on("proxyResponse", function(req, res, response) {
-          // ignore "local" requests
-          if (req.local) return;
-          var type = response.headers["content-type"],
-              html = type ? type.match(/html/) : false;
-          if (html) {
-            // this is kind of tricky... we monkey patch res.write
-            // to write our payload to the end of the response body
-            var _end = res.end;
-            res.end = function() {
-              this.write(injection);
-              return _end.apply(this, arguments);
-            };
-          }
-        });
-      }
+  return request[req.method.toLowerCase()]({
+    headers: headers,
+    uri: "http://www.parksconservancy.org" + req.url,
+    encoding: "utf8"
+  }, function(error, response, body) {
+    if (error) {
+      return res.send(503);
     }
-  })
-  .listen(proxyPort);
 
-/*
- * our static file server rewrites the request path like so
- * (URI -> file path):
- *
- * /map/(.*) -> www/$1
- */
-var serveStatic = connect.static(filePath),
-    fileServer = connect()
-      .use(function(req, res) {
-        var match = req.url.match(filePattern),
-            path = match[1];
-        console.log("  *", req.url, "->", path);
-        req.url = "/" + path;
-        // flag this request as local so we don't rewrite it
-        req.local = true;
-        return serveStatic.apply(this, arguments);
-      })
-      .listen(fileTarget.port);
+    res.status(response.statusCode);
+
+    Object.keys(response.headers).forEach(function(header) {
+      if (["connection", "content-encoding", "transfer-encoding"].indexOf(header) < 0) {
+        res.set(header, response.headers[header]);
+      }
+    });
+
+    body = body.replace("</body>", injection + "</body>");
+
+    return res.send(body);
+  });
+});
+app.listen(process.env.PORT || 8000, function() {
+  console.log("+ listening on port:", this.address().port);
+});
