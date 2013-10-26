@@ -48,6 +48,10 @@ var GGNPC = (function(exports){
         : new google.maps.LatLng(+loc[0], +loc[1]);
     };
 
+    utils.latLngToString = function(latlng) {
+      return "loc:" + [latlng.lat(), latlng.lng()].join(",");
+    };
+
     utils.getLatLngBounds = function(locA, locB) {
       var locations = Array.isArray(locA)
         ? locA.map(function(d) {
