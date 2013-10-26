@@ -431,17 +431,15 @@
         this._request.origin = origin;
         d3.select(this.root)
           .classed("has-origin", !!origin);
-        if (origin) {
-          /*
-          d3.select(this.root)
-            .select(".time-transport")
-            .style("display", "none");
-          */
-        } else {
-        }
+        this.resize();
         google.maps.event.trigger(this, "origin", origin);
       }
       return this;
+    },
+
+    resize: function() {
+      google.maps.event.trigger(this.originMap, "resize");
+      google.maps.event.trigger(this.destMap, "resize");
     },
 
     getDestination: function() {
@@ -476,6 +474,7 @@
                 ? "selected"
                 : null;
             });
+        this.resize();
       }
       return this;
     },
@@ -552,7 +551,7 @@
         }
       }
 
-      request.destination = "loc:" + request.destination;
+      // request.destination = "loc:" + request.destination;
 
       var error;
       if (!request.origin) {
@@ -658,7 +657,8 @@
     },
 
     _getObjectLocation: function(obj) {
-      return obj.location;
+      var latlng = obj.latlng || utils.coerceLatLng(obj.location);
+      return utils.latLngToString(latlng);
     },
 
     _clearRoute: function() {
@@ -701,6 +701,8 @@
         .text(mode);
 
       this._updateDestinationName(response);
+
+      this.resize();
 
       this.originMap.directionsDisplay.setMap(this.originMap);
       this.originMap.directionsDisplay.setDirections(response);
@@ -1438,7 +1440,7 @@
       var that = this,
           request = {
             origin: this.getOrigin(),
-            destination: "loc:" + [latlng.lat(), latlng.lng()].join(","),
+            destination: utils.latLngToString(latlng),
             travelMode: this.getTravelMode()
           };
       console.log("attempting to route:", request);
