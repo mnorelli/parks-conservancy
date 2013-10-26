@@ -84,7 +84,7 @@
         scaleControl: false,
         mapTypeControl: false,
         minZoom: 10,
-        maxZoom: 18,
+        maxZoom: 20,
         apiUrl: "http://stamen-parks-api-staging.herokuapp.com/"
       },
 
