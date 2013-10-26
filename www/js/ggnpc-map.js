@@ -83,8 +83,6 @@
         streetViewControl: false,
         scaleControl: false,
         mapTypeControl: false,
-        minZoom: 10,
-        maxZoom: 20,
         apiUrl: "http://stamen-parks-api-staging.herokuapp.com/"
       },
 
@@ -101,8 +99,8 @@
       name: "parks",
       urlTemplate: "http://{S}.map.parks.stamen.com/{Z}/{X}/{Y}.png",
       subdomains: "a b c d".split(" "),
-      maxZoom: 18,
-      minZoom: 10,
+      minZoom: 8,
+      maxZoom: 20,
       tileSize: new google.maps.Size(256, 256),
       getTileUrl: function(coord, zoom) {
         coord = this.getNormalizedCoord(coord, zoom);
