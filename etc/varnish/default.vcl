@@ -164,6 +164,11 @@ sub vcl_fetch {
         set beresp.ttl = 90d;
     }
 
+    if (beresp.http.content-type ~ "text") {
+        # compress text responses
+        set beresp.do_gzip = true;
+    }
+
     return (deliver);
 }
 
@@ -213,3 +218,4 @@ sub vcl_error {
 # sub vcl_fini {
 # 	return (ok);
 # }
+
