@@ -290,7 +290,7 @@
         scaleControl: false,
         links: [
           {type: "big-map", href: "/map/", text: "See Larger Map"},
-          {type: "directions", href: "/map/", text: "Get Directions"}
+          {type: "directions", href: "/map/trip-planner.html", text: "Get Directions"}
         ],
         outline: {
           fitBounds: true,
