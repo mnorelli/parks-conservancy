@@ -137,7 +137,7 @@
 
     maps.GridMapType = new google.maps.ImageMapType({
       name: "grid",
-      urlTemplate: "http://map.parks.stamen.com/labels/{Z}/{X}/{Y}.json",
+      urlTemplate: "http://ggnpc-map-labels.herokuapp.com/{Z}/{X}/{Y}.json",//http://ggnpc-map-labels.herokuapp.com/{z}/{x}/{y}.json
       subdomains: "",
       maxZoom: 18,
       minZoom: 10,
@@ -157,6 +157,8 @@
           console.log('Tiles-> ', this.tiles);
           this.resolveMarkersInView();
           console.log("Markers-> ", this.markerIdsInView);
+
+          google.maps.event.trigger(this, 'tileJsonLoaded');
         }
       },
       resolveMarkersInView: function(){
@@ -164,10 +166,11 @@
         this.markerIdsInView = [];
         for(var k in this.tiles){
           var t = this.tiles[k];
-          t.data.keys.forEach(function(id){
-            var _id = +id || null;
-            if(_id && !isNaN(_id)) that.markerIdsInView.push(_id);
-          });
+          var data = t.data.data;
+          for(var obj in data){
+            var filename = data[obj].filename || null;
+            if(filename && filename.length) that.markerIdsInView.push(filename);
+          }
         }
       },
       removeTileFromQueue: function(tile){
@@ -564,6 +567,10 @@
 
         // load content from api
         if(this.options.path) this._setContext(this.options.path);
+
+        google.maps.event.addListener(this, 'tileJsonLoaded', function(){
+          console.log("OMG _ Tile Json Loaded");
+        });
 
 
         //
