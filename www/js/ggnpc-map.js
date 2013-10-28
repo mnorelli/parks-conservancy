@@ -286,8 +286,8 @@
         streetViewControl: false,
         scaleControl: false,
         links: [
-          {type: "big-map", href: "/mapping/big-map.html", text: "See Larger Map"},
-          {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
+          {type: "big-map", href: "/map/", text: "See Larger Map"},
+          {type: "directions", href: "/map/", text: "Get Directions"}
         ],
         outline: {
           fitBounds: true,
@@ -474,8 +474,8 @@
         mapTypeControl: false,
         scrollwheel: false,
         links: [
-          {type: "big-map", href: "/mapping/big-map.html", text: "See Larger Map"},
-          {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
+          {type: "big-map", href: "/map/", text: "See Larger Map"},
+          {type: "directions", href: "/map/trip-planner.html", text: "Get Directions"}
         ],
         outline: {
           fitBounds: true,
@@ -504,7 +504,7 @@
         contentTemplate: [
           '<h4 class="title">{title}</h4>',
           '<p class="description">{description}</p>',
-          '<a class="directions" href="/mapping/trip-planner.html">Get Directions</a>'
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
         ].join("\n")
       },
 

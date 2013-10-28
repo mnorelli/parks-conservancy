@@ -34,8 +34,7 @@
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
         ],
-        // path: new RegExp("/planner(/|.html)?$"),
-        path: "/mapping/trip-planner.html",
+        path: "/map/trip-planner.html",
         options: {
           root: "#trip-planner"
         },
@@ -51,8 +50,7 @@
           "js/vendor/geojson.js",
           "css/ggnpc-big-map.css"
         ],
-        // path: new RegExp("/planner(/|.html)?$"),
-        path: "/mapping/big-map.html",
+        path: "/map/",
         options: {
           root: "#big-map"
         },

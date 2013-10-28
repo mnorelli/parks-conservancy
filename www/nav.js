@@ -48,9 +48,9 @@
           .attr("class", "stamen")
           .append("a")
             .text("Plan a Trip")
-            .attr("href", "/mapping/trip-planner.html");
+            .attr("href", "/map/trip-planner.html");
 
-      var mapUrl = "/mapping/big-map.html";
+      var mapUrl = "/map/";
       menus.select(".content ul.level1:last-child")
         .append("li")
           .attr("class", "stamen")
