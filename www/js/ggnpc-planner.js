@@ -798,7 +798,7 @@
           .attr("class", "custom")
           .attr("target", "_blank")
           .text(function(d) { return d.text; })
-          .attr("href", function(d) { d.href; });
+          .attr("href", function(d) { return d.href; });
     },
 
 
