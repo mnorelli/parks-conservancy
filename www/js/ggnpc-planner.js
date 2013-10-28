@@ -1042,18 +1042,12 @@
 
       if (options.bespokeURL) {
         console.log("loading bespoke directions from CSV:", options.bespokeURL);
-        BespokeDirections.load(options.bespokeURL, function(error, rowsById) {
+        BespokeDirections.loadFromCSV(options.bespokeURL, function(error, rowsById) {
           if (error) {
             console.warn("Unable to get bespoke directions:", error);
           } else {
             console.log("got bespoke directions:", rowsById);
-            destinations.forEach(function(d) {
-              var id = d.filename.split("/").pop();
-              if (id in rowsById) {
-                console.log("+ bespoke:", d, "->", id, rowsById[id]);
-                d.bespoke_directions = rowsById[id];
-              }
-            });
+            model.setBespokeDirections(rowsById);
           }
 
           initialize();
@@ -1065,13 +1059,7 @@
             console.warn("Unable to get bespoke directions:", error);
           } else {
             console.log("got bespoke directions:", rowsById);
-            destinations.forEach(function(d) {
-              var id = d.filename.split("/").pop();
-              if (id in rowsById) {
-                console.log("+ bespoke:", d, "->", id, rowsById[id]);
-                d.bespoke_directions = rowsById[id];
-              }
-            });
+            model.setBespokeDirections(rowsById);
           }
 
           initialize();
@@ -1965,10 +1953,10 @@
    * Bespoke Directions stuff
    */
   var BespokeDirections = planner.BespokeDirections = {
-    loadCSV: function(url, callback) {
+    loadFromCSV: function(url, callback) {
       return d3.csv(url, function(error, rows) {
         if (error) return callback(error);
-        var mapped = BespokeDirections.map(rows);
+        var mapped = BespokeDirections.map(rows, "Convio ID", "Directions");
         return callback(null, mapped);
       });
     },
@@ -1979,17 +1967,17 @@
         simpleSheet: true,
         callback: function(rows) {
           console.log("bespoke rows:", rows);
-          var mapped = BespokeDirections.map(rows);
+          var mapped = BespokeDirections.map(rows, "convioid", "directions");
           return callback(null, mapped);
         }
       });
     },
 
-    map: function(rows) {
+    map: function(rows, idKey, directionsKey) {
       return d3.nest()
-        .key(function(d) { return d.convioid; })
+        .key(function(d) { return d[idKey]; })
         .rollup(function(d) {
-          return BespokeDirections.parse(d[0].directions);
+          return BespokeDirections.parse(d[0][directionsKey]);
         })
         .map(rows);
     },
@@ -2142,6 +2130,22 @@
       }
 
       return locations;
+    },
+
+    setBespokeDirections: function(rowsById) {
+      this._allLocations.forEach(function(d) {
+        var id = (d.filename || "").split("/").pop();
+        if (id in rowsById) {
+          console.log("+ bespoke:", d.title);
+          d.bespoke_directions = rowsById[id];
+
+          if (d.accessLocations) {
+            d.accessLocations.forEach(function(a) {
+              a.bespoke_directions = d.bespoke_directions;
+            });
+          }
+        }
+      });
     },
 
     getLocationsNearLocation: function(loc, distance, typeLimits) {
