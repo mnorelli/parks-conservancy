@@ -18,9 +18,8 @@ module.exports = function(window, options, callback) {
     return 5280 * mi;
   };
 
-  var createSVG = function(tripData, scales) {
-    var elevation = tripData.elevation,
-        elevationData = elevation.slice(1);
+  var createSVG = function(trip, scales) {
+    var coordinates = trip.features[0].geometry.coordinates;
 
     var heightExtent   = scales.height,
         distanceExtent = scales.distance,
@@ -45,23 +44,23 @@ module.exports = function(window, options, callback) {
 
     var line = d3.svg.line()
           // .x(function(d) { return x(milesToFeet(d.distance)); })
-          .x(function(d) { return ~~x(d.distance); })
-          .y(function(d) { return ~~y(d.height); });
+          .x(function(d) { return ~~x(d[3]); })
+          .y(function(d) { return ~~y(d[2]); });
     
     svg.selectAll("path.elevation")
-        .data(elevationData)
+        .data(coordinates)
       .enter().append("path")
         // .style("stroke", "#000")
         .style("stroke", function(d) { 
-          return color(d.height);
+          return color(d[2]);
         })
         .attr("class", function(d, i) { return "elevation route-segment" + (i+1); })
         .attr("d", function(d, i) {
-          if (i === elevationData.length-1) {
+          if (i === coordinates.length - 1) {
             return "M0,0";
           }
 
-          return line([d, elevationData[i+1]]);
+          return line([d, coordinates[i + 1]]);
         });
 
     return callback(null, svg);
