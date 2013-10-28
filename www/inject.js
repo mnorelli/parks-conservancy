@@ -29,14 +29,14 @@
         name: "trip-planner",
         reqs: [
           "js/vendor/d3.v3.min.js",
+          "js/ggnpc-api.js",
           "css/ggnpc-planner.css",
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
         ],
-        // path: new RegExp("/planner(/|.html)?$"),
-        path: "/mapping/trip-planner.html",
+        path: "/map/trip-planner.html",
         options: {
-          root: "#page_content"
+          root: "#trip-planner"
         },
         run: function(options) {
           GGNPC.planner.TripPlanner.inject(options);
@@ -50,8 +50,7 @@
           "js/vendor/geojson.js",
           "css/ggnpc-big-map.css"
         ],
-        // path: new RegExp("/planner(/|.html)?$"),
-        path: "/mapping/big-map.html",
+        path: "/map/",
         options: {
           root: "#big-map"
         },
@@ -332,7 +331,7 @@
    * IE8-safe adapted query string parse & format:
    * <https://github.com/shawnbot/qs>
    */
-  var qs={decode:function(str){str=String(str).replace(/\+/g,"%20");return decodeURIComponent(str)},encode:function(str){return encodeURIComponent(str).replace(/%2C/g,",").replace(/%3A/g,":").replace(/%3B/g,";").replace(/%20/g,"+")},parse:function(str){if(str.charAt(0)==="#"||str.charAt(0)==="?"){str=str.substr(1)}var data={},bits=str.split("&"),len=bits.length;for(var i=0;i<len;i++){var bit=bits[i];if(!bit)continue;var parts=bit.split("=",2),key=qs.decode(parts[0]),val=qs.decode(parts[1]);if(val){var num=+val;if(isNaN(num)){switch(val){case"true":val=true;break;case"false":val=false;break}}else{val=num}}if(data.hasOwnProperty(key)){if(Array.isArray(data[key])){data[key].push(val)}else{data[key]=[data[key],val]}}else{data[key]=val}}return data},format:function(data){var keys=Object.keys(data),len=keys.length,bits=[];for(var i=0;i<len;i++){var k=keys[i];if(k&&data[k]!==null||typeof data[k]!=="undefined"){bits.push([qs.encode(k),qs.encode(String(data[k]))].join("="))}}return bits.join("&")}};
+  var qs={decode:function(str){str=String(str).replace(/\+/g,"%20");return decodeURIComponent(str)},encode:function(str){return encodeURIComponent(str).replace(/%2C/g,",").replace(/%3A/g,":").replace(/%3B/g,";").replace(/%20/g,"+")},parse:function(str){if(str.charAt(0)==="#"||str.charAt(0)==="?"){str=str.substr(1)}var data={},bits=str.split("&"),len=bits.length;for(var i=0;i<len;i++){var bit=bits[i];if(!bit)continue;var parts=bit.split("=",2),key=qs.decode(parts[0]),val;if(parts.length===1){val=true}else{val=qs.decode(parts[1]);var num=+val;if(isNaN(num)){switch(val){case"true":val=true;break;case"false":val=false;break}}else{val=num}}if(data.hasOwnProperty(key)){if(Array.isArray(data[key])){data[key].push(val)}else{data[key]=[data[key],val]}}else{data[key]=val}}return data},format:function(data){var keys=Object.keys(data),len=keys.length,bits=[];for(var i=0;i<len;i++){var k=keys[i];if(k&&data[k]!==null||typeof data[k]!=="undefined"){bits.push([qs.encode(k),qs.encode(String(data[k]))].join("="))}}return bits.join("&")}};
 
   // this is where <script> and <link> elements get appended
   var head = document.getElementsByTagName("head")[0];

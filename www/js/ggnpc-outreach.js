@@ -9,7 +9,7 @@
       contentTemplate: [
         '<h4 class="title">{title}</h4>',
         '<p class="description">{description}</p>',
-        '<a class="directions" href="/mapping/trip-planner.html">Get Directions</a>'
+        '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
       ].join("\n")
     },
 

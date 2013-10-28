@@ -1,363 +1,288 @@
 {
-  "elevation": [
+  "type": "FeatureCollection",
+  "features": [
     {
-      "distance": 0,
-      "height": 816.93,
-      "coordinates": [
-        37.8271244682,
-        -122.49921083499999
-      ]
-    },
-    {
-      "distance": 0,
-      "height": 816.93,
-      "coordinates": [
-        37.827130000000004,
-        -122.49923000000001
-      ]
-    },
-    {
-      "distance": 0.01,
-      "height": 816.93,
-      "coordinates": [
-        37.826997353126806,
-        -122.49932885169983
-      ]
-    },
-    {
-      "distance": 0.03,
-      "height": 820.21,
-      "coordinates": [
-        37.82695074421905,
-        -122.49966144561768
-      ]
-    },
-    {
-      "distance": 0.05,
-      "height": 767.72,
-      "coordinates": [
-        37.826857526315216,
-        -122.50007450580597
-      ]
-    },
-    {
-      "distance": 0.05,
-      "height": 767.72,
-      "coordinates": [
-        37.826857526315216,
-        -122.50015497207642
-      ]
-    },
-    {
-      "distance": 0.08,
-      "height": 771,
-      "coordinates": [
-        37.82714565400109,
-        -122.50044465065002
-      ]
-    },
-    {
-      "distance": 0.09,
-      "height": 764.44,
-      "coordinates": [
-        37.82728124311107,
-        -122.5005841255188
-      ]
-    },
-    {
-      "distance": 0.1,
-      "height": 764.44,
-      "coordinates": [
-        37.82745072914817,
-        -122.50066995620728
-      ]
-    },
-    {
-      "distance": 0.12,
-      "height": 767.72,
-      "coordinates": [
-        37.82764563760963,
-        -122.50084698200226
-      ]
-    },
-    {
-      "distance": 0.14,
-      "height": 793.96,
-      "coordinates": [
-        37.827819359934814,
-        -122.50106692314148
-      ]
-    },
-    {
-      "distance": 0.16,
-      "height": 784.12,
-      "coordinates": [
-        37.82809477253903,
-        -122.50126004219055
-      ]
-    },
-    {
-      "distance": 0.18,
-      "height": 784.12,
-      "coordinates": [
-        37.82831510188229,
-        -122.50125467777252
-      ]
-    },
-    {
-      "distance": 0.19,
-      "height": 807.09,
-      "coordinates": [
-        37.82823035990504,
-        -122.50101864337921
-      ]
-    },
-    {
-      "distance": 0.21,
-      "height": 820.21,
-      "coordinates": [
-        37.828001556080366,
-        -122.50080406665802
-      ]
-    },
-    {
-      "distance": 0.27,
-      "height": 866.14,
-      "coordinates": [
-        37.827637163339375,
-        -122.49985992908478
-      ]
-    },
-    {
-      "distance": 0.29,
-      "height": 872.7,
-      "coordinates": [
-        37.82780664855903,
-        -122.49960243701935
-      ]
-    },
-    {
-      "distance": 0.3,
-      "height": 872.7,
-      "coordinates": [
-        37.827734617388245,
-        -122.4994683265686
-      ]
-    },
-    {
-      "distance": 0.31,
-      "height": 872.7,
-      "coordinates": [
-        37.827603266248765,
-        -122.49951660633087
-      ]
-    },
-    {
-      "distance": 0.32,
-      "height": 872.7,
-      "coordinates": [
-        37.82759902911132,
-        -122.49970436096191
-      ]
-    },
-    {
-      "distance": 0.33,
-      "height": 866.14,
-      "coordinates": [
-        37.827632926203925,
-        -122.49986529350281
-      ]
-    },
-    {
-      "distance": 0.33,
-      "height": 866.14,
-      "coordinates": [
-        37.827632926203925,
-        -122.49986529350281
-      ]
-    },
-    {
-      "distance": 0.34,
-      "height": 872.7,
-      "coordinates": [
-        37.82759902911132,
-        -122.49970436096191
-      ]
-    },
-    {
-      "distance": 0.35,
-      "height": 872.7,
-      "coordinates": [
-        37.827603266248765,
-        -122.49951660633087
-      ]
-    },
-    {
-      "distance": 0.36,
-      "height": 872.7,
-      "coordinates": [
-        37.827734617388245,
-        -122.4994683265686
-      ]
-    },
-    {
-      "distance": 0.37,
-      "height": 872.7,
-      "coordinates": [
-        37.82780664855903,
-        -122.49960243701935
-      ]
-    },
-    {
-      "distance": 0.39,
-      "height": 866.14,
-      "coordinates": [
-        37.827637163339375,
-        -122.49985992908478
-      ]
-    },
-    {
-      "distance": 0.45,
-      "height": 820.21,
-      "coordinates": [
-        37.828001556080366,
-        -122.50080406665802
-      ]
-    },
-    {
-      "distance": 0.47,
-      "height": 807.09,
-      "coordinates": [
-        37.82823035990504,
-        -122.50101864337921
-      ]
-    },
-    {
-      "distance": 0.48,
-      "height": 784.12,
-      "coordinates": [
-        37.82831510188229,
-        -122.50125467777252
-      ]
-    },
-    {
-      "distance": 0.5,
-      "height": 784.12,
-      "coordinates": [
-        37.82809477253903,
-        -122.50126004219055
-      ]
-    },
-    {
-      "distance": 0.52,
-      "height": 793.96,
-      "coordinates": [
-        37.827819359934814,
-        -122.50106692314148
-      ]
-    },
-    {
-      "distance": 0.54,
-      "height": 767.72,
-      "coordinates": [
-        37.82764563760963,
-        -122.50084698200226
-      ]
-    },
-    {
-      "distance": 0.56,
-      "height": 764.44,
-      "coordinates": [
-        37.82745072914817,
-        -122.50066995620728
-      ]
-    },
-    {
-      "distance": 0.57,
-      "height": 764.44,
-      "coordinates": [
-        37.82728124311107,
-        -122.5005841255188
-      ]
-    },
-    {
-      "distance": 0.58,
-      "height": 771,
-      "coordinates": [
-        37.82714565400109,
-        -122.50044465065002
-      ]
-    },
-    {
-      "distance": 0.61,
-      "height": 767.72,
-      "coordinates": [
-        37.826857526315216,
-        -122.50015497207642
-      ]
-    },
-    {
-      "distance": 0.61,
-      "height": 767.72,
-      "coordinates": [
-        37.826857526315216,
-        -122.50007450580597
-      ]
-    },
-    {
-      "distance": 0.63,
-      "height": 820.21,
-      "coordinates": [
-        37.82695074421905,
-        -122.49966144561768
-      ]
-    },
-    {
-      "distance": 0.65,
-      "height": 816.93,
-      "coordinates": [
-        37.826997353126806,
-        -122.49932885169983
-      ]
-    },
-    {
-      "distance": 0.66,
-      "height": 816.93,
-      "coordinates": [
-        37.827130000000004,
-        -122.49923000000001
-      ]
-    },
-    {
-      "distance": 0.66,
-      "height": 816.93,
-      "coordinates": [
-        37.8271244682,
-        -122.49921083499999
-      ]
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.49921083499999,
+            37.8271244682,
+            816.93,
+            0
+          ],
+          [
+            -122.49923000000001,
+            37.827130000000004,
+            816.93,
+            0
+          ],
+          [
+            -122.49932885169983,
+            37.826997353126806,
+            816.93,
+            0.01
+          ],
+          [
+            -122.49966144561768,
+            37.82695074421905,
+            820.21,
+            0.03
+          ],
+          [
+            -122.50007450580597,
+            37.826857526315216,
+            767.72,
+            0.05
+          ],
+          [
+            -122.50015497207642,
+            37.826857526315216,
+            767.72,
+            0.05
+          ],
+          [
+            -122.50044465065002,
+            37.82714565400109,
+            771,
+            0.08
+          ],
+          [
+            -122.5005841255188,
+            37.82728124311107,
+            764.44,
+            0.09
+          ],
+          [
+            -122.50066995620728,
+            37.82745072914817,
+            764.44,
+            0.1
+          ],
+          [
+            -122.50084698200226,
+            37.82764563760963,
+            767.72,
+            0.12
+          ],
+          [
+            -122.50106692314148,
+            37.827819359934814,
+            793.96,
+            0.14
+          ],
+          [
+            -122.50126004219055,
+            37.82809477253903,
+            784.12,
+            0.16
+          ],
+          [
+            -122.50125467777252,
+            37.82831510188229,
+            784.12,
+            0.18
+          ],
+          [
+            -122.50101864337921,
+            37.82823035990504,
+            807.09,
+            0.19
+          ],
+          [
+            -122.50080406665802,
+            37.828001556080366,
+            820.21,
+            0.21
+          ],
+          [
+            -122.49985992908478,
+            37.827637163339375,
+            866.14,
+            0.27
+          ],
+          [
+            -122.49960243701935,
+            37.82780664855903,
+            872.7,
+            0.29
+          ],
+          [
+            -122.4994683265686,
+            37.827734617388245,
+            872.7,
+            0.3
+          ],
+          [
+            -122.49951660633087,
+            37.827603266248765,
+            872.7,
+            0.31
+          ],
+          [
+            -122.49970436096191,
+            37.82759902911132,
+            872.7,
+            0.32
+          ],
+          [
+            -122.49986529350281,
+            37.827632926203925,
+            866.14,
+            0.33
+          ],
+          [
+            -122.49986529350281,
+            37.827632926203925,
+            866.14,
+            0.33
+          ],
+          [
+            -122.49970436096191,
+            37.82759902911132,
+            872.7,
+            0.34
+          ],
+          [
+            -122.49951660633087,
+            37.827603266248765,
+            872.7,
+            0.35
+          ],
+          [
+            -122.4994683265686,
+            37.827734617388245,
+            872.7,
+            0.36
+          ],
+          [
+            -122.49960243701935,
+            37.82780664855903,
+            872.7,
+            0.37
+          ],
+          [
+            -122.49985992908478,
+            37.827637163339375,
+            866.14,
+            0.39
+          ],
+          [
+            -122.50080406665802,
+            37.828001556080366,
+            820.21,
+            0.45
+          ],
+          [
+            -122.50101864337921,
+            37.82823035990504,
+            807.09,
+            0.47
+          ],
+          [
+            -122.50125467777252,
+            37.82831510188229,
+            784.12,
+            0.48
+          ],
+          [
+            -122.50126004219055,
+            37.82809477253903,
+            784.12,
+            0.5
+          ],
+          [
+            -122.50106692314148,
+            37.827819359934814,
+            793.96,
+            0.52
+          ],
+          [
+            -122.50084698200226,
+            37.82764563760963,
+            767.72,
+            0.54
+          ],
+          [
+            -122.50066995620728,
+            37.82745072914817,
+            764.44,
+            0.56
+          ],
+          [
+            -122.5005841255188,
+            37.82728124311107,
+            764.44,
+            0.57
+          ],
+          [
+            -122.50044465065002,
+            37.82714565400109,
+            771,
+            0.58
+          ],
+          [
+            -122.50015497207642,
+            37.826857526315216,
+            767.72,
+            0.61
+          ],
+          [
+            -122.50007450580597,
+            37.826857526315216,
+            767.72,
+            0.61
+          ],
+          [
+            -122.49966144561768,
+            37.82695074421905,
+            820.21,
+            0.63
+          ],
+          [
+            -122.49932885169983,
+            37.826997353126806,
+            816.93,
+            0.65
+          ],
+          [
+            -122.49923000000001,
+            37.827130000000004,
+            816.93,
+            0.66
+          ],
+          [
+            -122.49921083499999,
+            37.8271244682,
+            816.93,
+            0.66
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1295,
+        "name": "Marin headlands lookouts and Hawk Hill",
+        "description": "<p>\r\n\tThis hike will take you to the top of one of the most famous lookout spots in the Marin Headlands, and is an easy jaunt from San Francisco.&nbsp;</p>\r\n<p>\r\n\tGet there by taking the twisy and scenic Conzelman Road, which offer many amazing lookout spots with ample parking. Pull over and take in the breathtaking views, and make sure your breaks are in good working order as you enter the steep and narrow one-way section.&nbsp;</p>\r\n<p>\r\n\tHawk Hill comes up rather suddenly at a large tunnel in the hillside. Park in front and then make your way through the tunnel and abandoned Nike missle site until you come out the other end, then take the trail up to the peak.&nbsp;</p>\r\n<p>\r\n\tAt the top you&#39;ll get 360-degree views of San Francisco, the Golden Gate, and the Headlands as it stretches out to Point Bonita. Hawk Hill gets its name from - you got it-- the hawks and other raptors that use the strong sea breeze to stay bouyant and search for prey. A lot of research into migrating hawks is done on this hill.</p>\r\n<p>\r\n\tThere are some disused and closed trails, so be sure to stay on the well trodden path for safety. You can also walk down the staircase leading back to Conzelman Road, and then back west to the parking lot if you want to extend your trip.&nbsp;</p>\r\n",
+        "ending_trailhead_id": 1534,
+        "starting_trailhead_id": 1534,
+        "author_id": 3444,
+        "length_miles": 0.6522403068572583,
+        "starting_trailhead": {
+          "latitude": 37.8271244682,
+          "longitude": -122.499210835
+        },
+        "duration": "Halfday",
+        "intensity": "Easy",
+        "height": [
+          764.44,
+          872.7
+        ],
+        "distance": [
+          0,
+          0.66
+        ]
+      }
     }
-  ],
-  "metadata": {
-    "id": 1295,
-    "name": "Marin headlands lookouts and Hawk Hill",
-    "description": "<p>\r\n\tThis hike will take you to the top of one of the most famous lookout spots in the Marin Headlands, and is an easy jaunt from San Francisco.&nbsp;</p>\r\n<p>\r\n\tGet there by taking the twisy and scenic Conzelman Road, which offer many amazing lookout spots with ample parking. Pull over and take in the breathtaking views, and make sure your breaks are in good working order as you enter the steep and narrow one-way section.&nbsp;</p>\r\n<p>\r\n\tHawk Hill comes up rather suddenly at a large tunnel in the hillside. Park in front and then make your way through the tunnel and abandoned Nike missle site until you come out the other end, then take the trail up to the peak.&nbsp;</p>\r\n<p>\r\n\tAt the top you&#39;ll get 360-degree views of San Francisco, the Golden Gate, and the Headlands as it stretches out to Point Bonita. Hawk Hill gets its name from - you got it-- the hawks and other raptors that use the strong sea breeze to stay bouyant and search for prey. A lot of research into migrating hawks is done on this hill.</p>\r\n<p>\r\n\tThere are some disused and closed trails, so be sure to stay on the well trodden path for safety. You can also walk down the staircase leading back to Conzelman Road, and then back west to the parking lot if you want to extend your trip.&nbsp;</p>\r\n",
-    "ending_trailhead_id": 1534,
-    "starting_trailhead_id": 1534,
-    "author_id": 3444,
-    "length_miles": 0.6522403068572583,
-    "starting_trailhead": {
-      "latitude": 37.8271244682,
-      "longitude": -122.499210835
-    },
-    "duration": "Halfday",
-    "intensity": "Easy",
-    "height": [
-      764.44,
-      872.7
-    ],
-    "distance": [
-      0,
-      0.66
-    ]
-  }
+  ]
 }

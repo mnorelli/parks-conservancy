@@ -83,8 +83,6 @@
         streetViewControl: false,
         scaleControl: false,
         mapTypeControl: false,
-        minZoom: 10,
-        maxZoom: 18,
         apiUrl: "http://stamen-parks-api-staging.herokuapp.com/"
       },
 
@@ -101,8 +99,8 @@
       name: "parks",
       urlTemplate: "http://{S}.map.parks.stamen.com/{Z}/{X}/{Y}.png",
       subdomains: "a b c d".split(" "),
-      maxZoom: 18,
-      minZoom: 10,
+      minZoom: 8,
+      maxZoom: 20,
       tileSize: new google.maps.Size(256, 256),
       getTileUrl: function(coord, zoom) {
         coord = this.getNormalizedCoord(coord, zoom);
@@ -291,8 +289,8 @@
         streetViewControl: false,
         scaleControl: false,
         links: [
-          {type: "big-map", href: "/mapping/big-map.html", text: "See Larger Map"},
-          {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
+          {type: "big-map", href: "/map/", text: "See Larger Map"},
+          {type: "directions", href: "/map/", text: "Get Directions"}
         ],
         outline: {
           fitBounds: true,
@@ -479,8 +477,8 @@
         mapTypeControl: false,
         scrollwheel: false,
         links: [
-          {type: "big-map", href: "/mapping/big-map.html", text: "See Larger Map"},
-          {type: "directions", href: "/mapping/trip-planner.html", text: "Get Directions"}
+          {type: "big-map", href: "/map/", text: "See Larger Map"},
+          {type: "directions", href: "/map/trip-planner.html", text: "Get Directions"}
         ],
         outline: {
           fitBounds: true,
@@ -509,7 +507,7 @@
         contentTemplate: [
           '<h4 class="title">{title}</h4>',
           '<p class="description">{description}</p>',
-          '<a class="directions" href="/mapping/trip-planner.html">Get Directions</a>'
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
         ].join("\n")
       },
 

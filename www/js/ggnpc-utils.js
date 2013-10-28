@@ -48,6 +48,10 @@ var GGNPC = (function(exports){
         : new google.maps.LatLng(+loc[0], +loc[1]);
     };
 
+    utils.latLngToString = function(latlng) {
+      return "loc:" + [latlng.lat(), latlng.lng()].join(",");
+    };
+
     utils.getLatLngBounds = function(locA, locB) {
       var locations = Array.isArray(locA)
         ? locA.map(function(d) {
@@ -91,18 +95,23 @@ var GGNPC = (function(exports){
       },
 
       parse: function(str) {
+
         // remove the leading # or ?
         if (str.charAt(0) === "#" || str.charAt(0) === "?") {
           str = str.substr(1);
         }
+        if (!str) return {};
+
         var data = {};
         str.split("&").forEach(function(bit) {
           var parts = bit.split("=", 2),
-              key = qs.decode(parts[0]),
-              val = qs.decode(parts[1]);
+              key = qs.decode(parts[0]);
 
-          if (val) {
-            var num = +val;
+          if (parts.length === 1) {
+            val = true;
+          } else {
+            var val = qs.decode(parts[1]),
+                num = +val;
             if (isNaN(num)) {
               switch (val) {
                 case "true": val = true; break;
