@@ -133,146 +133,201 @@
       }
     });
 
-    maps.GridMapType = new google.maps.ImageMapType({
-      name: "grid",
-      urlTemplate: "http://ggnpc-map-labels.herokuapp.com/{Z}/{X}/{Y}.json",//http://ggnpc-map-labels.herokuapp.com/{z}/{x}/{y}.json
-      subdomains: "",
-      maxZoom: 18,
-      minZoom: 10,
-      tiles:{},
-      queue:[],
-      queueHash:{},
-      processing:[],
-      markerIdsInView:[],
-      cache:{},
-      blankImage: 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=',
-      tileSize: new google.maps.Size(256, 256),
 
-      checkTilesLoaded: function(){
-        console.log("Queue-> ", this.queue.length);
-        if(this.queue.length <= 0){
-          console.log("Queue Done!");
-          console.log('Tiles-> ', this.tiles);
-          this.resolveMarkersInView();
-          console.log("Markers-> ", this.markerIdsInView);
+    /*
+     * Tilejson manager
+     * Loads tiled json that is used to create markers on the map
+     * dispatches ['tileJsonLoaded']
+    */
 
-          google.maps.event.trigger(this, 'tileJsonLoaded');
-        }
-      },
-      resolveMarkersInView: function(){
-        var that = this;
-        this.markerIdsInView = [];
-        for(var k in this.tiles){
-          var t = this.tiles[k];
-          var data = t.data.data;
-          for(var obj in data){
-            var filename = data[obj].filename || null;
-            if(filename && filename.length) that.markerIdsInView.push(filename);
-          }
-        }
-      },
-      removeTileFromQueue: function(tile){
-        delete this.queueHash[tile.cacheKey];
+    // XXX - process options
+    maps.GridMapType = function(options){
+      this.tileSize =  new google.maps.Size(256, 256);
 
-        var idx = -1;
-        this.queue.forEach(function(t,i){
-          if(t.cacheKey === tile.cacheKey) idx = i;
-        });
-        if(idx >= 0) this.queue.splice(idx,1);
-      },
-      tileLoaded: function(tile){
-        tile.status = 'loaded';
-        if(!this.tiles.hasOwnProperty(tile.cacheKey)) this.tiles[tile.cacheKey] = tile;
-        this.removeTileFromQueue(tile);
-        this.checkTilesLoaded();
+      options = options || {};
+
+      this.name = "grid";
+      this.urlTemplate = "http://{S}.map.parks.stamen.com/labels/{Z}/{X}/{Y}.json";
+      this.subdomains = "";
+      this.maxZoom = 18;
+      this.minZoom = 10;
+
+      this.tiles = {};
+      this.queue = [];
+      this.opacity = 0;
+      this.queueHash = {};
+      this.processing = [];
+      this.markerIdsInView = [];
+      this.cache = {};
+      this.blankImage = 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
+
+      this.fakeTiles = {};
+      this.subdomains = "a b c d".split(" ");
+
+    };
 
 
-      },
-      tileFailed: function(tile){
-        tile.status = 'error';
-        this.removeTileFromQueue(tile);
-        this.checkTilesLoaded();
-      },
-      loadjson: function(tile){
 
-        if(this.tiles[tile.cacheKey]){
-          this.tileLoaded( this.tiles[tile.cacheKey] );
-          return;
-        }
+    maps.GridMapType.prototype.getMarkers = function(){
+      return this.markerIdsInView;
+    };
 
-        tile.status = 'loading';
+    maps.GridMapType.prototype.checkTilesLoaded = function(){
+      var that = this;
+      console.log("Queue-> ", this.queue.length);
+      if(this.queue.length <= 0){
+        console.log("Queue Done!");
+        console.log('Tiles-> ', this.tiles);
+        this.resolveMarkersInView();
+        console.log("Markers-> ", this.markerIdsInView);
 
-        var that = this;
-        (function(tile, that){
-          d3.json(tile.template, function(data){
-            if(!data){
-              tile.attempts ++;
-              if(tile.attempts < 3){
-                window.setTimeout(function(){
-                  that.loadjson(tile);
-                }, 200);
-
-              }else{
-                that.tileFailed(tile);
-              }
-            }else{
-              tile.data = data;
-              that.tileLoaded(tile);
-            }
-          });
-        })(tile, that);
-
-      },
-
-      getTileUrl: function(coord, zoom) {
-        coord = this.getNormalizedCoord(coord, zoom);
-        if (!coord) return null;
-        var x = coord.x,
-            y = coord.y,
-            t = this.urlTemplate
-          .replace("{Z}", zoom)
-          .replace("{X}", x)
-          .replace("{Y}", y);
-
-        var cacheKey = zoom + '/' + coord.x + '/' + coord.y;
-
-        if(this.queueHash.hasOwnProperty(cacheKey)) return null;
-        this.queueHash[cacheKey] = 1;
-
-        var tile = {
-          cacheKey: cacheKey,
-          template: t,
-          data: null,
-          x:x,
-          y:y,
-          z:zoom,
-          attempts: 0,
-          status: 'waiting'
-        };
-        this.queue.push(tile);
-
-        this.loadjson(tile);
-        return null;
-
-      },
-
-      getNormalizedCoord: function(coord, zoom) {
-        var y = coord.y;
-        var x = coord.x;
-        // tile range in one direction range is dependent on zoom level
-        // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
-        var tileRange = 1 << zoom;
-        // don't repeat across y-axis (vertically)
-        if (y < 0 || y >= tileRange) {
-            return null;
-        }
-        // repeat across x-axis
-        if (x < 0 || x >= tileRange) {
-            x = (x % tileRange + tileRange) % tileRange;
-        }
-        return {x: x, y: y};
+        // firing in 'this' context failed
+        google.maps.event.trigger(window, 'tileJsonLoaded');
       }
-    });
+    };
+    maps.GridMapType.prototype.resolveMarkersInView = function(){
+      var that = this;
+      this.markerIdsInView = [];
+      for(var k in this.tiles){
+        var t = this.tiles[k];
+        var data = t.data.data;
+        for(var obj in data){
+          var filename = data[obj].filename || null;
+          if(filename && filename.length) that.markerIdsInView.push(filename);
+        }
+      }
+    };
+    maps.GridMapType.prototype.removeTileFromQueue = function(tile){
+      delete this.queueHash[tile.cacheKey];
+
+      var idx = -1;
+      this.queue.forEach(function(t,i){
+        if(t.cacheKey === tile.cacheKey) idx = i;
+      });
+      if(idx >= 0) this.queue.splice(idx,1);
+    };
+
+    maps.GridMapType.prototype.tileLoaded =function(tile){
+      tile.status = 'loaded';
+      if(!this.tiles.hasOwnProperty(tile.cacheKey)) this.tiles[tile.cacheKey] = tile;
+      this.removeTileFromQueue(tile);
+      this.checkTilesLoaded();
+
+
+    };
+    maps.GridMapType.prototype.tileFailed = function(tile){
+      tile.status = 'error';
+      this.removeTileFromQueue(tile);
+      this.checkTilesLoaded();
+    };
+    maps.GridMapType.prototype.loadjson = function(tile){
+
+      if(this.tiles[tile.cacheKey]){
+        this.tileLoaded( this.tiles[tile.cacheKey] );
+        return;
+      }
+
+      tile.status = 'loading';
+
+      var that = this;
+      (function(tile, that){
+        d3.json(tile.url, function(data){
+          if(!data){
+            tile.attempts ++;
+            if(tile.attempts < 3){
+              window.setTimeout(function(){
+                that.loadjson(tile);
+              }, 200);
+
+            }else{
+              that.tileFailed(tile);
+            }
+          }else{
+            tile.data = data;
+            that.tileLoaded(tile);
+          }
+        });
+      })(tile, that);
+
+    };
+
+
+    maps.GridMapType.prototype.getTile = function(coord, zoom, ownerDocument){
+
+      var t = this.getTileUrl(coord,zoom);
+      if(!t) return null;
+
+      if(this.queueHash.hasOwnProperty(t.cacheKey)) return null;
+      this.queueHash[t.cacheKey] = 1;
+
+      var tile = {
+        cacheKey: t.cacheKey,
+        url: t.tileUrl,
+        data: null,
+        x:t.normalizedCoord.x,
+        y:t.normalizedCoord.y,
+        z:zoom,
+        attempts: 0,
+        status: 'waiting'
+      };
+      this.queue.push(tile);
+
+      this.loadjson(tile);
+
+      var img = new Image(256, 256);
+      img.src = this.blankImage;
+      img.style.display = 'none';
+      //img.onerror = function() { img.style.display = 'none'; };
+
+      return img;
+
+    };
+
+    // XXX See: https://github.com/mapbox/wax/blob/master/dist/wax.g.js#L3491
+    maps.GridMapType.prototype.releaseTile = function(tile){
+      //...
+    };
+
+    maps.GridMapType.prototype.getTileUrl = function(coord, zoom) {
+      coord = this.getNormalizedCoord(coord, zoom);
+      if (!coord) return null;
+      var x = coord.x,
+          y = coord.y,
+          i = (zoom + x + y) % this.subdomains.length,
+          t = this.urlTemplate
+        .replace("{S}", this.subdomains[i])
+        .replace("{Z}", zoom)
+        .replace("{X}", x)
+        .replace("{Y}", y);
+
+      var cacheKey = zoom + '/' + coord.x + '/' + coord.y;
+
+      return {
+        tileUrl: t,
+        cacheKey: cacheKey,
+        normalizedCoord: coord
+      };
+
+    };
+
+    maps.GridMapType.prototype.getNormalizedCoord = function(coord, zoom) {
+      var y = coord.y;
+      var x = coord.x;
+      // tile range in one direction range is dependent on zoom level
+      // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
+      var tileRange = 1 << zoom;
+      // don't repeat across y-axis (vertically)
+      if (y < 0 || y >= tileRange) {
+          return null;
+      }
+      // repeat across x-axis
+      if (x < 0 || x >= tileRange) {
+          x = (x % tileRange + tileRange) % tileRange;
+      }
+      return {x: x, y: y};
+    };
+
+
 
     var MiniMap = maps.MiniMap = Map.extend({
       defaults: {
@@ -527,8 +582,9 @@
         var root = this.root;
         root.classList.add("big-map");
 
-        this.overlayMapTypes.insertAt(
-      0, maps.GridMapType);
+        // tile json set up
+        var tilejsonLayer = new maps.GridMapType();
+        this.overlayMapTypes.insertAt(0, tilejsonLayer);
 
         this._setupExtras(root);
 
@@ -566,9 +622,14 @@
         // load content from api
         if(this.options.path) this._setContext(this.options.path);
 
-        google.maps.event.addListener(this, 'tileJsonLoaded', function(){
-          console.log("OMG _ Tile Json Loaded");
+
+        // listen for tile json loaded event
+        // XXX: draw invisible markers that match these filenames
+        google.maps.event.addListener(window, 'tileJsonLoaded', function(){
+          console.log("Event-> tile json loaded");
+          console.log(tilejsonLayer.getMarkers())
         });
+
 
 
         //
