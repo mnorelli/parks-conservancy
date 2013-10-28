@@ -30,13 +30,15 @@
         reqs: [
           "js/vendor/d3.v3.min.js",
           "js/ggnpc-api.js",
+          // "js/vendor/tabletop.js", // XXX only needed if we set options.bespokeSheetId
           "css/ggnpc-planner.css",
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
         ],
         path: "/map/trip-planner.html",
         options: {
-          root: "#trip-planner"
+          root: "#trip-planner",
+          bespokeURL: "https://docs.google.com/spreadsheet/pub?key=0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc&single=true&gid=0&output=csv",
         },
         run: function(options) {
           GGNPC.planner.TripPlanner.inject(options);
@@ -280,16 +282,42 @@
     link.rel = "stylesheet";
     link.href = url;
 
-    head.appendChild(link);
+    return injector.xhr(url, function(error, xhr) {
+      if (error) return callback(error);
+      // console.log("loaded css:", xhr.getAllResponseHeaders(), xhr);
 
-    var img = new Image();
-    img.onerror = img.onload = function(e) {
-      // console.log(this, e.type);
-      callback(null, link);
+      // XXX the trick here is to add it to the DOM *after* the XHR
+      // loads, otherwise Chrome (WebKit?) won't register changes to the
+      // stylesheet in the inspector
+      head.appendChild(link);
+      return callback(null, link, xhr);
+    });
+  };
+
+  // general-purpose XHR (for CSS, in particular)
+  injector.xhr = function(url, callback) {
+    // shim XMLHttpRequest if the browser doesn't have it
+    if (typeof XMLHttpRequest === "undefined") {
+      XMLHttpRequest = function() {
+        try { return new ActiveXObject("Msxml2.XMLHTTP.6.0"); }
+        catch (e) {}
+        try { return new ActiveXObject("Msxml2.XMLHTTP.3.0"); }
+        catch (e) {}
+        try { return new ActiveXObject("Microsoft.XMLHTTP"); }
+        catch (e) {}
+        throw new Error("This browser does not support XMLHttpRequest.");
+      };
+    }
+
+    var req = new XMLHttpRequest();
+    req.onreadystatechange = function() {
+      if (req.readyState === 4) {
+        callback(null, req);
+      }
     };
-    img.src = url;
-
-    return link;
+    req.open("GET", url, true);
+    req.send(null);
+    return req;
   };
 
   /*
