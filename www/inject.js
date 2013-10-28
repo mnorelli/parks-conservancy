@@ -30,7 +30,7 @@
         reqs: [
           "js/vendor/d3.v3.min.js",
           "js/ggnpc-api.js",
-          "js/vendor/tabletop.js", // XXX only needed if we set options.bespokeSheetId
+          // "js/vendor/tabletop.js", // XXX only needed if we set options.bespokeSheetId
           "css/ggnpc-planner.css",
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
