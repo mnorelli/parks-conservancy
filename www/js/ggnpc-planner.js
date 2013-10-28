@@ -925,7 +925,7 @@
         this._bespokeDirectionsInterval = setTimeout(function() {
           d3.select(panel)
             .select("table.adp-directions tbody")
-            .call(planner.BespokeDirections.augmentGoogleDisplay, dest.bespoke_directions);
+            .call(BespokeDirections.augmentGoogleDisplay, dest.bespoke_directions);
         }, 100);
         return true;
       }
@@ -1040,21 +1040,46 @@
 
       console.log("loaded", destinations.length, "destinations");
 
-      // TODO: bring back bespoke directions
-      /*
-      GGNPC.planner.BespokeDirections.load(bespokeSheetId, function(error, rowsByFilename) {
-        destinations.forEach(function(d) {
-          if (d.filename in rowsByFilename) {
-            d.bespoke_directions = rowsByFilename[d.filename];
+      if (options.bespokeURL) {
+        console.log("loading bespoke directions from CSV:", options.bespokeURL);
+        BespokeDirections.load(options.bespokeURL, function(error, rowsById) {
+          if (error) {
+            console.warn("Unable to get bespoke directions:", error);
+          } else {
+            console.log("got bespoke directions:", rowsById);
+            destinations.forEach(function(d) {
+              var id = d.filename.split("/").pop();
+              if (id in rowsById) {
+                console.log("+ bespoke:", d, "->", id, rowsById[id]);
+                d.bespoke_directions = rowsById[id];
+              }
+            });
           }
+
+          initialize();
         });
-      });
-      */
+      } else if (options.bespokeSheetId) {
+        console.log("loading bespoke directions from:", options.bespokeSheetId);
+        BespokeDirections.loadFromSpreadsheet(options.bespokeSheetId, function(error, rowsById) {
+          if (error) {
+            console.warn("Unable to get bespoke directions:", error);
+          } else {
+            console.log("got bespoke directions:", rowsById);
+            destinations.forEach(function(d) {
+              var id = d.filename.split("/").pop();
+              if (id in rowsById) {
+                console.log("+ bespoke:", d, "->", id, rowsById[id]);
+                d.bespoke_directions = rowsById[id];
+              }
+            });
+          }
 
-      initialize();
+          initialize();
+        });
+      } else {
+        initialize();
+      }
     });
-
-    // initialize();
 
     function initialize() {
       root.classed("loading", false);
@@ -1939,21 +1964,34 @@
   /*
    * Bespoke Directions stuff
    */
-  planner.BespokeDirections = {
-    load: function(sheetId, callback) {
+  var BespokeDirections = planner.BespokeDirections = {
+    loadCSV: function(url, callback) {
+      return d3.csv(url, function(error, rows) {
+        if (error) return callback(error);
+        var mapped = BespokeDirections.map(rows);
+        return callback(null, mapped);
+      });
+    },
+
+    loadFromSpreadsheet: function(sheetId, callback) {
       return Tabletop.init({
         key: sheetId,
         simpleSheet: true,
         callback: function(rows) {
-          var rowsByFilename = d3.nest()
-            .key(function(d) { return d.filename; })
-            .rollup(function(d) {
-              return planner.BespokeDirections.parse(d[0].directions);
-            })
-            .map(rows);
-          callback(null, rowsByFilename);
+          console.log("bespoke rows:", rows);
+          var mapped = BespokeDirections.map(rows);
+          return callback(null, mapped);
         }
       });
+    },
+
+    map: function(rows) {
+      return d3.nest()
+        .key(function(d) { return d.convioid; })
+        .rollup(function(d) {
+          return BespokeDirections.parse(d[0].directions);
+        })
+        .map(rows);
     },
 
     parse: function(text) {

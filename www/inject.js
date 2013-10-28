@@ -30,13 +30,15 @@
         reqs: [
           "js/vendor/d3.v3.min.js",
           "js/ggnpc-api.js",
+          "js/vendor/tabletop.js", // XXX only needed if we set options.bespokeSheetId
           "css/ggnpc-planner.css",
           "js/ggnpc-planner.js",
           "js/ggnpc-ui.js"
         ],
         path: "/map/trip-planner.html",
         options: {
-          root: "#trip-planner"
+          root: "#trip-planner",
+          bespokeURL: "https://docs.google.com/spreadsheet/pub?key=0AnaQ5qurLjURdE9QdGNscWE3dFU1cnJGa3BjU1BNOHc&single=true&gid=0&output=csv",
         },
         run: function(options) {
           GGNPC.planner.TripPlanner.inject(options);
