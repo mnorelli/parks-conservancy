@@ -282,16 +282,42 @@
     link.rel = "stylesheet";
     link.href = url;
 
-    head.appendChild(link);
+    return injector.xhr(url, function(error, xhr) {
+      if (error) return callback(error);
+      // console.log("loaded css:", xhr.getAllResponseHeaders(), xhr);
 
-    var img = new Image();
-    img.onerror = img.onload = function(e) {
-      // console.log(this, e.type);
-      callback(null, link);
+      // XXX the trick here is to add it to the DOM *after* the XHR
+      // loads, otherwise Chrome (WebKit?) won't register changes to the
+      // stylesheet in the inspector
+      head.appendChild(link);
+      return callback(null, link, xhr);
+    });
+  };
+
+  // general-purpose XHR (for CSS, in particular)
+  injector.xhr = function(url, callback) {
+    // shim XMLHttpRequest if the browser doesn't have it
+    if (typeof XMLHttpRequest === "undefined") {
+      XMLHttpRequest = function() {
+        try { return new ActiveXObject("Msxml2.XMLHTTP.6.0"); }
+        catch (e) {}
+        try { return new ActiveXObject("Msxml2.XMLHTTP.3.0"); }
+        catch (e) {}
+        try { return new ActiveXObject("Microsoft.XMLHTTP"); }
+        catch (e) {}
+        throw new Error("This browser does not support XMLHttpRequest.");
+      };
+    }
+
+    var req = new XMLHttpRequest();
+    req.onreadystatechange = function() {
+      if (req.readyState === 4) {
+        callback(null, req);
+      }
     };
-    img.src = url;
-
-    return link;
+    req.open("GET", url, true);
+    req.send(null);
+    return req;
   };
 
   /*
