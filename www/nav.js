@@ -32,10 +32,12 @@
           return {
             href: href
           }
-        })
+        });
+        /*
         .filter(function(d) {
           return !d.href.match(/about/);
         });
+        */
 
       // Trip Planner
       menus.filter(function(d) {
