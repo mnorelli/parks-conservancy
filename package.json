@@ -24,7 +24,10 @@
     "wellknown": "~0.1.1"
   },
   "engines": {
-    "node": "~0.10.13",
-    "npm": "~1.2.30"
+    "node": "~0.10.13"
+  },
+  "jshintConfig": {
+    "node": true,
+    "indent": 4
   }
 }
