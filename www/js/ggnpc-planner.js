@@ -61,13 +61,7 @@
 
       this._model = this.options.destinationModel || new DestinationModel();
 
-      this._request = {
-        origin: this.options.origin,
-        destination: this._resolveDestination(this.options.destination),
-        travelMode: this.options.travelMode
-          ? this.options.travelMode.toUpperCase()
-          : null
-      };
+      this._request = {};
 
       this._travelTime = this._coerceDate(this.options.departureTime) || new Date();
       this._travelTimeType = this.options.travelTimeType;
@@ -81,6 +75,10 @@
         this.originMap.fitBounds(this.options.bounds);
         this.destMap.fitBounds(this.options.bounds);
       }
+
+      if (this.options.origin) this.setOrigin(this.options.origin);
+      if (this.options.destination) this.setDestination(this.options.destination);
+      if (this.options.travelMode) this.setTravelMode(this.options.travelMode);
     },
 
     //
@@ -282,11 +280,13 @@
         .attr("class", "point")
         .attr("src", this.options.pointImageUrls.destination);
 
+      destSection.append("p")
+        .attr("class", "description");
+
       if (this.options.freezeDestination) {
 
-        var destText = destRow.append("span")
-          .attr("class", "destination frozen")
-          .text(this.getDestinationTitle());
+        destRow.append("span")
+          .attr("class", "frozen-title");
 
       } else if (Array.isArray(this.options.destinationOptions)) {
 
@@ -389,17 +389,10 @@
       // XXX custom "welcome" content certain locations (outreach)
       // console.log("frozen?", frozen);
       if (frozen) {
-        // switch origin & dest columns
-        inputs.node().insertBefore(destColumn.node(), originColumn.node());
-
-        var dest = this.getDestination();
-        if (dest && dest.welcomeContent) {
-          destColumn
-            .classed("has-welcome", true)
-            .append("div")
-              .attr("class", "section welcome")
-              .html(dest.welcomeContent);
-        }
+        destColumn
+          // .classed("has-welcome", true)
+          .append("div")
+            .attr("class", "section welcome");
       }
 
       this.originMap = new ggnpc.maps.Map(originMapRoot.node(), this.options.originMap);
@@ -455,6 +448,7 @@
     // get the destination title
     getDestinationTitle: function(dest) {
       if (!dest) dest = this.getDestination();
+      if (!dest) return null;
       return (typeof dest === "string")
         ? dest
         : dest.title;
@@ -463,6 +457,7 @@
     // get the destination as a linkable string (for the hash/query)
     getDestinationString: function(dest) {
       if (!dest) dest = this.getDestination();
+      if (!dest) return null;
       return (typeof dest === "string")
         ? dest
         : [dest.title, dest.id].join(":");
@@ -471,7 +466,8 @@
     // set the destination
     setDestination: function(dest) {
       if (dest != this._request.destination) {
-        this._request.destination = this._resolveDestination(dest);
+        var value = dest;
+        dest = this._request.destination = this._resolveDestination(dest);
         google.maps.event.trigger(this, "destination", dest);
 
         var that = this;
@@ -483,6 +479,27 @@
                 ? "selected"
                 : null;
             });
+
+        if (this.options.freezeDestination) {
+          this._form.select(".frozen-title")
+            .text(this.getDestinationTitle());
+
+          var welcome = dest ? dest.welcomeContent : null;
+          this._form.select(".destination.column")
+            .classed("has-welcome", welcome)
+            .select(".welcome")
+              .html(welcome);
+        }
+
+        var descRoot = this._form.select(".destination .description");
+        console.log("desc root:", descRoot.node());
+        if (typeof dest === "object") {
+          var desc = this._getDestinationDescription(dest, true);
+          descRoot.text(desc);
+        } else {
+          descRoot.text("");
+        }
+
         this.resize();
       }
       return this;
@@ -582,7 +599,7 @@
       }
 
       console.log("route(", request, ")");
-      this._setElementOrder(".origin.column", ".destination.column");
+      // this._setElementOrder(".origin.column", ".destination.column");
 
       var that = this,
           root = d3.select(this.root)
@@ -822,13 +839,8 @@
             return [klass, "icon-" + type].join(" ");
           });
 
-        var desc = dest.description;
-        if (!desc && dest.relatedpark) {
-          var park = this._model.getParkById(dest.relatedpark);
-          if (park) desc = park.description;
-        }
-        info.select(".description")
-          .text(desc || "(no description)");
+        var desc = this._getDestinationDescription(dest);
+        info.select(".description").text(desc || "");
 
         // TODO: figure out which field this comes from in different data sources
         // (TnT, Convio)
@@ -851,6 +863,15 @@
         warning.style("display", "none")
           .text("");
       }
+    },
+
+    _getDestinationDescription: function(dest, usePark) {
+      var desc = dest.description;
+      if (!desc && usePark && dest.relatedpark) {
+        var park = this._model.getParkById(dest.relatedpark);
+        if (park) return park.description;
+      }
+      return desc;
     },
 
     _updateNearbyLocations: function() {
@@ -1072,9 +1093,11 @@
     function initialize() {
       root.classed("loading", false);
 
-      var dest;
+      var to = options.to || hash.to,
+          frozen = options.to || (hash.to && hash.freeze === true),
+          dest;
       // resolve the destination asynchronously
-      model.resolveLocation(hash.to, function(error, loc) {
+      model.resolveLocation(to, function(error, loc) {
         dest = loc;
         if (dest && dest.id) {
           return loadContent(dest, done);
@@ -1098,14 +1121,14 @@
           console.log("got access for:", dest, dest.accessLocations[0]);
           dest = dest.accessLocations[0];
         }
-        console.log("resolved dest:", hash.to, "->", dest);
+        console.log("resolved dest:", to, "->", dest);
 
         planner = new TripPlanner(root.node(), {
           origin: hash.from, // || "2017 Mission St, SF",
           destination: dest,
           travelMode: hash.mode,
           destinationOptions: destinations,
-          freezeDestination: hash.to && hash.freeze === true,
+          freezeDestination: frozen,
           destinationModel: model
         });
 
@@ -1121,7 +1144,7 @@
           console.log("routed:", route);
           location.hash = GGNPC.utils.qs.format({
             from: planner.getOrigin(),
-            to: planner.getDestinationString(),
+            to: frozen ? null : planner.getDestinationString(),
             mode: planner.getTravelMode().toLowerCase(),
             freeze: planner.options.freezeDestination ? true : null
           });
@@ -1149,6 +1172,11 @@
   // "nearby" view
   var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
     defaults: {
+      bounds: new google.maps.LatLngBounds(
+        new google.maps.LatLng(37.558072, -122.681354),
+        new google.maps.LatLng(37.99226, -122.276233)
+      ),
+
       // various text bits
       originTitle: "You&rsquo;re coming from:",
       modeTitle: "Leaving:",
@@ -1202,11 +1230,11 @@
           inputs = form.append("div")
             .attr("class", "row inputs"),
           originColumn = inputs.append("div")
-            .attr("class", "column origin one-third"),
+            .attr("class", "column origin"),
           originSection = originColumn.append("div")
             .attr("class", "section"),
           modeColumn = inputs.append("div")
-            .attr("class", "column mode one-third"),
+            .attr("class", "column mode"),
           modeSection = modeColumn.append("div")
             .attr("class", "section"),
           mainRow = form.append("div")
@@ -1278,6 +1306,9 @@
       var mapRoot = mapColumn.append("div")
         .attr("class", "map");
       var map = this.map = new ggnpc.maps.Map(mapRoot.node());
+      if (this.options.bounds) {
+        map.fitBounds(this.options.bounds);
+      }
 
       this.originMarker = new google.maps.Marker({
         map: map,
@@ -1412,7 +1443,7 @@
         .attr("class", "group")
         .append("h4")
           .text(function(d) {
-            return ["About", d.key, "miles away"].join(" ");
+            return ["Less than", d.key, "miles away"].join(" ");
           });
 
       var loc = group.selectAll(".location")
