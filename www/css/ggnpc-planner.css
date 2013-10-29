@@ -23,15 +23,20 @@
 
 /* bootstrap-like layout rows */
 .trip-planner .row {
-  display: table;
-  width: 100%;
        box-sizing: border-box;
   -moz-box-sizing: border-box;
+  clear: both;
+}
+
+.trip-planner .row:after {
+  display: table;
+  height: 0;
+  clear: both;
 }
 
 /* layout columns */
 .trip-planner .column {
-  display: table-cell;
+  float: left;
        box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
@@ -480,7 +485,7 @@
 /* nearby planner stuff */
 
 .nearby-planner .column.one-third {
-  width: 33.3%;
+  width: 40%;
 }
 
 .nearby-planner .nearby.column {

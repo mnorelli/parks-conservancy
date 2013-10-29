@@ -1202,11 +1202,11 @@
           inputs = form.append("div")
             .attr("class", "row inputs"),
           originColumn = inputs.append("div")
-            .attr("class", "column origin one-third"),
+            .attr("class", "column origin"),
           originSection = originColumn.append("div")
             .attr("class", "section"),
           modeColumn = inputs.append("div")
-            .attr("class", "column mode one-third"),
+            .attr("class", "column mode"),
           modeSection = modeColumn.append("div")
             .attr("class", "section"),
           mainRow = form.append("div")
