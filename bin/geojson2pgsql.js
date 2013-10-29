@@ -53,18 +53,19 @@ var getDimensionality = function(geometry) {
   }
 };
 
-// TODO add geometry type as an arg
-var getGeometryType = function(dimensionality) {
+var getGeometryType = function(geometry) {
+  var dimensionality = getDimensionality(geometry);
+
   switch (dimensionality) {
   case 2:
-    return "LineString";
+    return geometry.type;
 
   case 3:
-    // TODO allow an option to make this 'LineStringM'
-    return "LineStringZ";
+    // TODO allow an option to make this '<type>M'
+    return geometry.type + "Z";
 
   case 4:
-    return "LineStringZM";
+    return geometry.type + "ZM";
 
   default:
     throw new Error("Unsupported number of dimensions: " + dimensionality);
@@ -94,7 +95,7 @@ var data = require(path.join(process.cwd(), source));
 var sampleFeature = getFeatures(data)[0];
 
 var idType = getType(sampleFeature.id),
-    geometryType = getGeometryType(getDimensionality(sampleFeature.geometry)),
+    geometryType = getGeometryType(sampleFeature.geometry),
     srid = 4326; // TODO make this configurable, sample it from the features list
 
 var client = new pg.Client(env.require("DATABASE_URL"));
