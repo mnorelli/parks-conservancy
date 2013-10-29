@@ -26,10 +26,14 @@
 
 .big-map {
     position: relative;
-    width: 100%;
+    width: 100% !important;
     height: 400px;
     border: none !important;
     margin-bottom: 0 !important;
+}
+
+.big-map > div{
+    width: 100% !important;
 }
 
 /* popups */

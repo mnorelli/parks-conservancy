@@ -605,10 +605,17 @@
         }
 
         d3.select(window).on('resize', GGNPC.utils.debounce(handleWindowResizeProxy, 100));
+        google.maps.event.addListener(this, 'resize', function(){
+          console.log("Map Resize happened")
+
+        });
 
         handleWindowResizeProxy(); // call resize to set the map container height
 
+
+
         // redraw map
+        //d3.select('.big-map').style('width', '100%');
         google.maps.event.trigger(this, "resize");
 
         // apply coords from hash or call fitBounds
@@ -708,9 +715,11 @@
       _handleWindowResize: function(){
         // width is taken care of in css (width: 100%;)
         var h = window.innerHeight,
+            w = window.innerWidth,
             mapH = h - (this.rootOffsetTop + this.options.padding.bottom);
 
         this.root.style.height =  mapH + "px";
+        this.root.style.width = w + "px"; // for some reason root with css property 'width: 100%' isn't working
       },
 
       _setContext: function(file) {
