@@ -1081,8 +1081,8 @@ server.get('/bbox/:bbox', getItemsFromBBox);
 
 var trips = require("./lib/trips");
 
-server.get('/trips', trips.getTrips);
-server.get('/trips/:id', trips.getTripById);
+server.get('/trips.json', trips.getTrips);
+server.get('/trips/:id.json', trips.getTripById);
 
 
 
