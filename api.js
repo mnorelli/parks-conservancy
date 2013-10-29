@@ -1079,6 +1079,11 @@ server.get('/list/context/:context', getInitialContextList);
 
 server.get('/bbox/:bbox', getItemsFromBBox);
 
+var trips = require("./lib/trips");
+
+server.get('/trips', trips.getTrips);
+server.get('/trips/:id', trips.getTripById);
+
 
 
 // start server
