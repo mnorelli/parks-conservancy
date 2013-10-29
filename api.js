@@ -926,7 +926,7 @@ var _getRecordByUrl = function(url, geo, callback){
                     }
                 });
             }else{
-                callback(null, data);
+                callback(null, results);
             }
 
         }else{
