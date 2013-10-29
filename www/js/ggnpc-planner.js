@@ -1172,6 +1172,11 @@
   // "nearby" view
   var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
     defaults: {
+      bounds: new google.maps.LatLngBounds(
+        new google.maps.LatLng(37.558072, -122.681354),
+        new google.maps.LatLng(37.99226, -122.276233)
+      ),
+
       // various text bits
       originTitle: "You&rsquo;re coming from:",
       modeTitle: "Leaving:",
@@ -1301,6 +1306,9 @@
       var mapRoot = mapColumn.append("div")
         .attr("class", "map");
       var map = this.map = new ggnpc.maps.Map(mapRoot.node());
+      if (this.options.bounds) {
+        map.fitBounds(this.options.bounds);
+      }
 
       this.originMarker = new google.maps.Marker({
         map: map,
@@ -1435,7 +1443,7 @@
         .attr("class", "group")
         .append("h4")
           .text(function(d) {
-            return ["About", d.key, "miles away"].join(" ");
+            return ["Less than", d.key, "miles away"].join(" ");
           });
 
       var loc = group.selectAll(".location")
