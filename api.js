@@ -960,8 +960,8 @@ var getRecordByUrl = function(req, res, next){
                     if(err){
                         callback(err);
                     }else{
-                        if(data.rows && data.rows[0])
-                            out.parent = data.rows[0];
+                        if(data.results && data.results[0])
+                            out.parent = data.results[0];
 
                         callback(null, data);
                     }
