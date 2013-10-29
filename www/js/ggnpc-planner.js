@@ -424,6 +424,10 @@
         this._request.origin = origin;
         d3.select(this.root)
           .classed("has-origin", !!origin);
+
+        this._form.select("input.origin")
+          .property("value", origin);
+
         this.resize();
         google.maps.event.trigger(this, "origin", origin);
       }
