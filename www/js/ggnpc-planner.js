@@ -1475,10 +1475,14 @@
 
       loc.select(".title a")
         .attr("href", function(d) {
-          return "?#" + utils.qs.format({
-            from: origin,
-            to: that.getLocationString(d)
-          });
+          return [
+            "?", utils.qs.format({
+              to: that.getLocationString(d)
+            }),
+            "#", utils.qs.format({
+              from: origin
+            })
+          ].join("");
         })
         .on("mouseover", function(d) {
           that.routeTo(d.latlng);
