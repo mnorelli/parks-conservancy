@@ -353,6 +353,8 @@
     var MiniMap = maps.MiniMap = Map.extend({
       defaults: {
         bounds: maps.BOUNDS,
+        center: new google.maps.LatLng(37.7706, -122.3782),
+        zoom: 12,
         zoomControl: false,
         draggable: false,
         disableDefaultUI: true,
@@ -413,6 +415,7 @@
 
         if (this.options.bounds) this.fitBounds(this.options.bounds);
 
+        return;
         // XXX this happens automatically if it's called setPath()
         //if (this.options.path) this._setPath(this.options.path);
         if(this.options.path) this._setContext(this.options.path);
@@ -494,8 +497,10 @@
           }
 
           // XXX: normalizing data until I fix this in api
-          data.outlines = data.geojson[0] || [];
-          data.parent = data.results[0] || {};
+          //data.outlines = data.geojson[0] || [];
+          data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
+          //data.outlines = data.outlines[0].results || [];
+          //data.parent = data.results[0] || {};
 
 
 
@@ -632,6 +637,7 @@
         //d3.select('.big-map').style('width', '100%');
         google.maps.event.trigger(this, "resize");
 
+
         // apply coords from hash or call fitBounds
         if(this.options.hashParams && this.options.hashParams.hasOwnProperty('coords')){
           this.setCenter(this.options.hashParams.coords.latlng);
@@ -640,12 +646,20 @@
           this.fitBounds(this.options.bounds);
         }
 
+        this.markerTypes = {
+          'parent':null,
+          'markers':[],
+          'outlines':[]
+        };
+
         // load content from api
+        console.log("Path-> ", this.options.path);
+        //if(!this.options.path) this.options.path =
         if(this.options.path) this._setContext(this.options.path);
 
 
         // listen for tile json loaded event
-        // XXX: draw invisible markers that match these filenames
+        // XXX: draw invisible markers that match filenames
         google.maps.event.addListener(window, 'tileJsonLoaded', function(){
           console.log("Event-> tile json loaded");
           console.log(tilejsonLayer.getMarkers())
@@ -657,12 +671,14 @@
       },
 
       _loadContentOnBoundsChange: function(){
+        return;
         if (this._boundsRequest) this._boundsRequest.abort();
         // XXX abstract this in GGNPC.API?
         var bounds = this.getBounds().toUrlValue();
 
         var url = [this.options.apiUrl, "bbox", encodeURIComponent(bounds)].join("/"),
             that = this;
+
 
         this._boundsRequest = d3.json(url, function(error, data) {
           data.children = data.results;
@@ -742,16 +758,24 @@
 
         // XXX abstract this in GGNPC.API?
         var url = [this.options.apiUrl, "record", "url", encodeURIComponent(file)].join("/"),
+            bounds = this.getBounds().toUrlValue()
             that = this;
 
+        if(bounds) url += "?extent=" + bounds;
+
+
+
+        console.log("Url-> ", url)
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
             console.warn("big-map: no such context:", file, error);
             return;
           }
+
+          console.log("Data-> ", data);
           // XXX: normalizing data until I fix this in API (seanc)
-          data.outlines = data.geojson[0] || [];
-          data.parent = data.results[0] || {};
+          data.outlines = data.outlines[0].results || [];
+          //data.parent = data.results[0] || {};
 
           that._updateContext(data);
 
@@ -766,7 +790,7 @@
       },
       // XXX: UI elements would be set up here
       _setupExtras: function(root){
-        console.log("ROOT: ", root)
+        //console.log("ROOT: ", root)
         this.filterPanel = d3.select(root).append('div')
           .attr('class', 'panel filter-panel');
 
@@ -875,7 +899,7 @@
           });
 
           var map = new BigMap(root, {
-            path: path,
+            path: path || '/',
             hashParams: params
           });
 
@@ -909,6 +933,8 @@
       _addMarkers: function(data, skipFitBounds){
         var marker;
         var that = this;
+
+        console.log('Add Markers-> ', data);
 
         if(this._markers){
           this._markers.forEach(function(marker){
@@ -950,14 +976,19 @@
         }
 
         // adjust map bounds only if fitBounds hasn't been called
-        if(!skipFitBounds && this.options.markers.fitBounds && this._markers.length){
-          var bounds = new google.maps.LatLngBounds();
+        if(!skipFitBounds && this.options.markers.fitBounds){
+          if(this._markers.length){
+            var bounds = new google.maps.LatLngBounds();
 
-          this._markers.forEach(function (m, i) {
-              bounds.extend(m.getPosition());
-          });
+            this._markers.forEach(function (m, i) {
+                bounds.extend(m.getPosition());
+            });
 
-          this.fitBounds(this._bufferBounds(bounds, .003));
+            this.fitBounds(this._bufferBounds(bounds, .003));
+          }else{
+            this.fitBounds(this.options.bounds);
+          }
+
         }
 
         // group by type
@@ -980,7 +1011,7 @@
           that._markersByType[kind].push(marker);
         });
 
-        console.log(that._markersByType)
+        console.log('Markers In Extent-> ',that._markersByType)
 
         // assign infoWindows, if _setInfoWindowContent is available
         if(!this._setInfoWindowContent)return;
@@ -1020,18 +1051,26 @@
           }
 
           // XXX will this data structure ever *not* exist?
-          var feature = JSON.parse(data.outlines.results[0].geom),
-              shapes = new GeoJSON(feature, this.options.outline, true);
-          //console.log("shapes:", shapes);
+          if(data.outlines){
+            var bounds = new google.maps.LatLngBounds();
+            data.outlines.forEach(function(feature){
+              var feature = JSON.parse(feature.geom),
+                  shapes = new GeoJSON(feature, that.options.outline, true);
+              shapes.forEach(function(shape) {
+                shape.setMap(that);
+              });
 
-          shapes.forEach(function(shape) {
-            shape.setMap(that);
-          });
+              this._shapes = shapes;
+              if (shapes.geojsonBounds){
+                bounds.union(shapes.geojsonBounds)
+              }
+            });
 
-          this._shapes = shapes;
-          if (shapes.geojsonBounds && this.options.outline.fitBounds && !fitBoundsCalled) {
-            fitBoundsCalled = true;
-            this.fitBounds(shapes.geojsonBounds);
+            if (bounds && this.options.outline.fitBounds && !fitBoundsCalled) {
+              fitBoundsCalled = true;
+              this.fitBounds(shapes.geojsonBounds);
+            }
+
           }
         }
 
