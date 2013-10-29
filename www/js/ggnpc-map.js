@@ -498,9 +498,8 @@
               .attr("href", function(d) {
                 return [d.href, utils.qs.format({
                   from: null, // "2017 Mission St, SF CA",
-                  to: [parent.title, parent.id].join(":"),
-                  freeze: true
-                })].join("#");
+                  to: [parent.title, parent.id].join(":")
+                })].join("?");
               });
         }
       },
@@ -800,7 +799,7 @@
       _drawOverlays: function(data){
       },
       _setInfoWindowContent: function(infowindow, data){
-        if(infowindow ){
+        if (infowindow) {
           var attrs = data.attributes;
           var elm = d3.select(document.createElement("div"))
             .html(this.options.contentTemplate);
@@ -812,10 +811,9 @@
               return [
                 this.href,
                 utils.qs.format({
-                  to: [attrs.title, attrs.id].join(":"),
-                  freeze: true
+                  to: [attrs.title, attrs.id].join(":")
                 })
-              ].join("#");
+              ].join("?");
             });
 
             /*
