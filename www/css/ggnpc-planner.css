@@ -259,7 +259,7 @@
   margin-left: 0;
 }
 
-.trip-planner span.destination.frozen {
+.trip-planner .frozen-title {
   font-size: 18px;
   font-weight: bold;
   margin-right: 10px;
@@ -406,6 +406,11 @@
   border: none;
   border-radius: 4px;
   padding: 14px 30px;
+}
+
+.trip-planner .destination .description {
+  margin: 10px 0 0 0;
+  margin-left: 32px; /* width of the pin image + margin */
 }
 
 .trip-planner.frozen .destination.has-welcome .section {
