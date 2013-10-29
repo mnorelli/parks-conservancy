@@ -11,10 +11,7 @@
     google.maps.MVCObject,
   {
     defaults: {
-      bounds: new google.maps.LatLngBounds(
-        new google.maps.LatLng(37.558072, -122.681354),
-        new google.maps.LatLng(37.99226, -122.276233)
-      ),
+      bounds: ggnpc.maps.BOUNDS,
 
       originMap: {
         zoom: 15,
@@ -1176,10 +1173,7 @@
   // "nearby" view
   var NearbyPlanner = planner.NearbyPlanner = planner.BaseClass.extend({
     defaults: {
-      bounds: new google.maps.LatLngBounds(
-        new google.maps.LatLng(37.558072, -122.681354),
-        new google.maps.LatLng(37.99226, -122.276233)
-      ),
+      bounds: ggnpc.maps.BOUNDS,
 
       // various text bits
       originTitle: "You&rsquo;re coming from:",

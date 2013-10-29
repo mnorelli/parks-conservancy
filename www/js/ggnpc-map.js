@@ -8,6 +8,12 @@
         utils = GGNPC.utils,
         maps = GGNPC.maps = {};
 
+    // TODO: replace these with the actual bounds
+    maps.BOUNDS = new google.maps.LatLngBounds(
+      new google.maps.LatLng(37.558072, -122.681354),
+      new google.maps.LatLng(37.992260, -122.276233)
+    );
+
     // technique lifted from:
     // <http://www.portlandwebworks.com/blog/extending-googlemapsmap-object>
     google.maps.Map = (function(constructor) {
@@ -95,7 +101,17 @@
       }
     });
 
+    // default gray tiles
+    var DefaultMapType = new google.maps.StyledMapType([
+      {
+        "stylers": [
+           {"saturation": -100}
+        ]
+      }
+    ]);
+
     maps.ParkMapType = new google.maps.ImageMapType({
+      // TODO: define bounds in coordinate space
       name: "parks",
       urlTemplate: "http://{S}.map.parks.stamen.com/{Z}/{X}/{Y}.png",
       subdomains: "a b c d".split(" "),
@@ -103,6 +119,10 @@
       maxZoom: 20,
       tileSize: new google.maps.Size(256, 256),
       getTileUrl: function(coord, zoom) {
+        // TODO:
+        // if (coord out of bounds) {
+        //   return DefaultMapType.getTileUrl(coord, zoom)
+        // }
         coord = this.getNormalizedCoord(coord, zoom);
         if (!coord) return null;
         var x = coord.x,
@@ -332,10 +352,7 @@
 
     var MiniMap = maps.MiniMap = Map.extend({
       defaults: {
-        bounds: new google.maps.LatLngBounds(
-          new google.maps.LatLng(37.558072, -122.681354),
-          new google.maps.LatLng(37.99226, -122.276233)
-        ),
+        bounds: maps.BOUNDS,
         zoomControl: false,
         draggable: false,
         disableDefaultUI: true,
@@ -525,10 +542,7 @@
 
     var BigMap = maps.BigMap = Map.extend({
       defaults: {
-        bounds: new google.maps.LatLngBounds(
-          new google.maps.LatLng(37.558072, -122.681354),
-          new google.maps.LatLng(37.99226, -122.276233)
-        ),
+        bounds: maps.BOUNDS,
         mapTypeControl: false,
         scrollwheel: false,
         links: [
