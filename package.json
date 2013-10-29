@@ -7,16 +7,17 @@
   "author": "",
   "dependencies": {
     "request": "~2.21.0",
-    "elementtree": "",
-    "moment": "",
-    "pg": "",
-    "node-postgres-hstore": "",
-    "restify": "",
-    "optimist": "",
-    "async":"",
-    "cheerio":"",
-    "d3": "",
-    "geocoder":""
+    "elementtree": "~0.1.5",
+    "moment": "~2.4.0",
+    "pg": "~2.8.2",
+    "node-postgres-hstore": "~0.0.4",
+    "restify": "~2.6.0",
+    "optimist": "~0.6.0",
+    "async":"~0.2.9",
+    "cheerio":"0.12.3",
+    "d3": "~3.3.9",
+    "geocoder":"~0.1.0"
+    "require-env": "0.0.3"
   },
   "engines": {
     "node": "~0.10.13",
