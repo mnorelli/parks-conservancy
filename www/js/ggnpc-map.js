@@ -329,6 +329,7 @@
 
 
 
+
     var MiniMap = maps.MiniMap = Map.extend({
       defaults: {
         bounds: new google.maps.LatLngBounds(
@@ -877,9 +878,10 @@
         this._markers.forEach(function(m){
           if(m._kind == kind){
             m.visible = !m.visible;
-            that._filtered[kind] = m.visible;
-            m.setMap( (m.visible) ? that : null );
           }
+
+          that._filtered[kind] = m.visible;
+          m.setMap( (m.visible) ? that : null );
 
         });
       },
@@ -946,7 +948,7 @@
 
           m._kind = kind;
 
-          var visible = (that._filtered.hasOwnProperty(kind) && !that._filtered[kind]) ? false : true;
+          var visible = (that._filtered.hasOwnProperty(kind) && that._filtered[kind]) ? true:false;
           m.visible = visible;
           that._filtered[kind] = visible;
           m.setMap( (visible) ? that : null );
