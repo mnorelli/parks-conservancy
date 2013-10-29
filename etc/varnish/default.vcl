@@ -164,7 +164,8 @@ sub vcl_fetch {
         set beresp.ttl = 90d;
     }
 
-    if (beresp.http.content-type ~ "text") {
+    if (beresp.http.content-type ~ "text" ||
+        beresp.http.content-type ~ "json") {
         # compress text responses
         set beresp.do_gzip = true;
     }
