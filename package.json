@@ -13,11 +13,13 @@
     "node-postgres-hstore": "~0.0.4",
     "restify": "~2.6.0",
     "optimist": "~0.6.0",
-    "async":"~0.2.9",
-    "cheerio":"0.12.3",
+    "async": "~0.2.9",
+    "cheerio": "0.12.3",
     "d3": "~3.3.9",
-    "geocoder":"~0.1.0",
-    "require-env": "0.0.3"
+    "geocoder": "~0.1.0",
+    "merge-geojson-features": "~0.1.0",
+    "elevate": "~0.1.0",
+    "require-env": "0.0.3",
     "geojson2pgsql": "git+https://github.com/stamen/geojson2pgsql.git"
   },
   "engines": {
