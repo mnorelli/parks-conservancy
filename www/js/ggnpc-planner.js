@@ -424,6 +424,10 @@
         this._request.origin = origin;
         d3.select(this.root)
           .classed("has-origin", !!origin);
+
+        this._form.select("input.origin")
+          .property("value", origin);
+
         this.resize();
         google.maps.event.trigger(this, "origin", origin);
       }
@@ -1475,10 +1479,14 @@
 
       loc.select(".title a")
         .attr("href", function(d) {
-          return "?#" + utils.qs.format({
-            from: origin,
-            to: that.getLocationString(d)
-          });
+          return [
+            "?", utils.qs.format({
+              to: that.getLocationString(d)
+            }),
+            "#", utils.qs.format({
+              from: origin
+            })
+          ].join("");
         })
         .on("mouseover", function(d) {
           that.routeTo(d.latlng);
