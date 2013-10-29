@@ -413,9 +413,11 @@
 
         google.maps.event.trigger(this, "resize");
 
+        //this.setCenter(this.options.center);
+        //this.setZoom(this.options.zoom);
+
         if (this.options.bounds) this.fitBounds(this.options.bounds);
 
-        return;
         // XXX this happens automatically if it's called setPath()
         //if (this.options.path) this._setPath(this.options.path);
         if(this.options.path) this._setContext(this.options.path);
@@ -774,7 +776,7 @@
 
           console.log("Data-> ", data);
           // XXX: normalizing data until I fix this in API (seanc)
-          data.outlines = data.outlines[0].results || [];
+          data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
           //data.parent = data.results[0] || {};
 
           that._updateContext(data);
@@ -783,7 +785,7 @@
           // if we have coords from hash
           // XXX: this should only be called on initialization
           var skipFitBounds = (that.options.hashParams && that.options.hashParams.hasOwnProperty('coords')) ? true : false;
-
+          //that._drawOverlays(data, skipFitBounds);
           that._drawOverlays(data, skipFitBounds);
           that._contextRequest = null;
         });
@@ -948,7 +950,7 @@
         if(data.children){
           data.children.forEach(function(child){
             //if(child.attributes.parklocationtype && child.attributes.parklocationtype != 'Parking Lot' ){
-            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
+            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude') && !child.baked){
               marker = new google.maps.Marker({
                   position: new google.maps.LatLng(child.latitude, child.longitude),
                   map: that
@@ -1011,7 +1013,6 @@
           that._markersByType[kind].push(marker);
         });
 
-        console.log('Markers In Extent-> ',that._markersByType)
 
         // assign infoWindows, if _setInfoWindowContent is available
         if(!this._setInfoWindowContent)return;
