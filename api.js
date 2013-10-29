@@ -1,6 +1,6 @@
 var restify = require('restify');
 var db = require("./lib/db.js")();
-var url = require('url');
+var urlLib = require('url');
 var async = require('async');
 var cheerio = require('cheerio');
 
@@ -59,7 +59,7 @@ function getByFilename(req, res, next) {
 }
 
 function parseQuery(req){
-    var url_parts = url.parse(req.url, true);
+    var url_parts = urlLib.parse(req.url, true);
     var query = url_parts.query;
 
     return query;
@@ -292,7 +292,7 @@ function getByKind(req, res, next){
 }
 
 function getStuffForPark(req, res, next){
-    var url_parts = url.parse(req.url, true);
+    var url_parts = urlLib.parse(req.url, true);
     var query = url_parts.query;
 
     var restrictDate = (query && query.restrictEvents) ? true : false;
@@ -508,6 +508,10 @@ var getContextByFilename = function(req, res, next){
 
 };
 
+
+
+
+
 var getInitialContextList = function(req, res, next){
     var where, params;
     switch(req.params.context){
@@ -559,28 +563,76 @@ var getInitialContextList = function(req, res, next){
     }
 }
 
-// bbox ex: 37.673652,-122.604621,37.867421,-122.151779
-var getItemsFromBBox = function(req, res, next){
-    var bbox = req.params.bbox.split(',');
-    if(bbox.length < 4)return  res.json(200, {error: 'not valid bbox!'});
-    /// ST_MakeEnvelope(left, bottom, right, top, srid)
-    var params = [bbox[1],bbox[0],bbox[3],bbox[2]];
 
-    var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom && ST_MakeEnvelope($1, $2, $3, $4, 4326)";
+var _getItemsFromBBox = function(bbox, ctx, callback){
+    bbox = bbox || '';
+    bbox = bbox.split(',');
+
+
+    if(bbox.length < 4) return callback({error: 'not valid bbox!'});
+
+    var params = [bbox[1],bbox[0],bbox[3],bbox[2]];
+    var geo = true;
+
+    ctx = ctx || 'default';
+    var where = whereForContext(ctx);
+
+    //select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom && ST_MakeEnvelope(-122.434587,37.821513,-122.41549,37.834242, 4326) and (attributes->'parklocationtype' = 'Site of Interest' or kind = 'park' or kind = 'subprogram' or (kind = 'event' and CAST(attributes->'enddate' as date) >= current_date));
+
+    var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom && ST_MakeEnvelope($1, $2, $3, $4, 4326) " + where ;
+    //console.log(query, bbox[1],bbox[0],bbox[3],bbox[2]);
 
     db.runQuery(query, params, function(err, data){
         if(err){
-            return res.json(200, {error: 'query error'});
+            return callback({error: 'query error'});
         }
 
-        res.json(200, db.processResult('', data));
+        var processed = db.processResult('', data);
+        //console.log(processed)
+        if(processed.results && processed.results.length){
+            processed.results = processParkLocationTypes(processed.results);
+        }
+        if(geo){
+            getGeojsonForRecord(processed, function(err, data){
+                if(err){
+                    callback(err);
+                }else{
+                    callback(null, data);
+                }
+            });
+        }else{
+            callback(null, processed);
+        }
+
+    });
+}
+
+
+// bbox ex: 37.673652,-122.604621,37.867421,-122.151779
+var getItemsFromBBox = function(req, res, next){
+    var bbox = req.params.bbox;
+
+    // extract context
+    var url_parts = urlLib.parse(req.url, true);
+    var query = url_parts.query;
+    var ctx = (query && query.ctx) ? query.ctx : '';
+
+    // run
+    _getItemsFromBBox(bbox, ctx, function(err, data){
+        if(err){
+            return res.json(200, err);
+        }
+
+        res.json(200, data);
     });
 };
 
 
 
 /**
- *
+ * Adds geojson for any record with:
+ * kind = 'park'
+ * parklocationtype = 'Trailhead'
  */
 
  function getGeojsonForRecord(resultsObj, callback){
@@ -657,7 +709,6 @@ var getItemsFromBBox = function(req, res, next){
          }
          tasks.push(task);
      }
-
      if(tasks.length){
          var q = async.queue(function (task, qcallback) {
 
@@ -682,33 +733,273 @@ var getItemsFromBBox = function(req, res, next){
  };
 
 
+var resolveContext = function(url){
+    var re =  new RegExp('^\/?([^\/]*)\/','gi');
+    var found = re.exec(url);
+    return (found) ? found[1] : null;
+}
+
+/*
+-kinds-
+subprogram
+location
+park
+specie
+project
+program
+event
+
+
+attributes->'parklocationtype'
+Site of Interest
+Overlook
+Cafe
+Meeting Location
+Visitor Center
+Access
+Parking Lot
+Restoration Site
+Meeting Place
+Trailhead
+Building
+Bike Rack
+Park
+Landmark
+Campground
+Beach
+Restroom
+Water Fountain
+
+
+attributes->'volunteertype'
+Plant Nurseries
+Beaches
+Trails
+Habitats
+Landscapes & Historic Sites
+
+
+attributes->'eventtypes'
+Park Academy
+Exhibit/Installation, History, Member Event, Seasonal/Holiday
+Tours/Walk/Recreation
+Exhibit/Installation, Film/Art/Media, Food, History, Member Event, Seasonal/Holiday, Tours/Walk/Recreation
+Birds/Wildlife, History, Tours/Walk/Recreation
+Exhibit/Installation, Film/Art/Media, History, Seasonal/Holiday, Tours/Walk/Recreation
+Film/Art/Media, Food, History, Seasonal/Holiday, en Espanol
+Partner Event
+Birds/Wildlife, Environment/Science, History, Tours/Walk/Recreation
+Film/Art/Media, Food, History, Seasonal/Holiday
+Environment/Science, Birds/Wildlife, History, Tours/Walk/Recreation
+Birds/Wildlife, Environment/Science, Food, History, Member Event
+Exhibit/Installation, History, Tours/Walk/Recreation
+History, Tours/Walk/Recreation
+Birds/Wildlife, Exhibit/Installation, History, Tours/Walk/Recreation
+Volunteer
+Exhibit/Installation, Music, Environment/Science, Food, Birds/Wildlife, History, Seasonal/Holiday, Self-Guided
+Music, Partner Event, Food, Seasonal/Holiday
+Birds/Wildlife, Class/Workshop, Environment/Science, Raptor Observatory, Seasonal/Holiday
+Exhibit/Installation, Music, Environment/Science, Food, Birds/Wildlife, History, Seasonal/Holiday, Self-Guided, Volunteer
+
+*/
+
+var bakedTypes = ['Visitor Center','Trailhead','Site of Interest','Parking Lot','Restroom','Overlook','Campground','Cafe']
+var locationTypesByContext = {
+    'about': ['Visitor Center'],
+    'visit': ['Visitor Center','Landmark','Overlook'],
+    'park-improvements': ['Restoration Site'],
+    'conservation': ['Restoration Site','Site of Interest'],
+    'learn': [],
+    'get-involved': [],
+    'default': [],
+    'all':[]
+}
+var processParkLocationTypes = function(children){
+    var cleaned = [];
+    children.forEach(function(child){
+        var locationType = (child.attributes.hasOwnProperty('parklocationtype')) ? child.attributes.parklocationtype : '';
+        if(locationType != 'Park'){
+            child.baked = (bakedTypes.indexOf(locationType) > -1) ? 1 : 0;
+            cleaned.push(child);
+        }
+
+    });
+    return cleaned;
+}
+
+var addLocationsToWhereClause = function(ctx){
+    var where = "";
+
+    bakedTypes.forEach(function(t){
+        where += " or attributes->'parklocationtype' = '" + t + "'";
+    });
+
+    var ctxSpecific = locationTypesByContext[ctx] || [];
+    ctxSpecific.forEach(function(t){
+
+        if(bakedTypes.indexOf(t) < 0){
+            where += " or attributes->'parklocationtype' = '" + t + "'";
+        }
+
+    });
+
+    return where;
+
+}
+
+var whereForContext = function(ctx){
+    ctx = ctx || '';
+    // XXX: trying to remove attributes->'parklocationtype' = 'Park' from result set
+    // but this is not working
+    // removing in processParkLocationTypes fn
+    var where = " and attributes->'parklocationtype' != 'Park' and (";
+
+    // begin where creation
+    // XXX: if above problem is resolved, remove this
+    where = " and (";
+    switch(ctx){
+        case 'about':
+            where += "kind = 'park' or kind = 'program'" + addLocationsToWhereClause(ctx);
+        break;
+
+        case 'visit':
+            where += "kind = 'park'" + addLocationsToWhereClause(ctx);
+        break;
+
+        case 'park-improvements':
+            where += "kind = 'park'" + addLocationsToWhereClause(ctx);
+            //where = "(kind = 'event' and CAST(attributes->'enddate' as date) >= current_date) or attributes->'parklocationtype' = 'Meeting Place'";
+        break;
+
+        case 'conservation':
+            where += "kind = 'park'" + addLocationsToWhereClause(ctx);
+            //where = "attributes->'volunteertype' = 'Plant Nurseries' or attributes->'volunteertype' = 'Beaches' or attributes->'volunteertype' = 'Trails' or attributes->'volunteertype' = 'Habitats' or (kind = 'event' and attributes->'eventtypes' = 'Volunteer' and CAST(attributes->'enddate' as date) >= current_date)";
+        break;
+
+        case 'learn':
+            where += "(kind = 'event' and CAST(attributes->'enddate' as date) >= current_date) or kind = 'park' or kind = 'subprogram'" + addLocationsToWhereClause(ctx);
+            //where = "(kind = 'event' and CAST(attributes->'enddate' as date) >= current_date) or kind = 'program' or kind = 'subprogram'";
+            //where = "where (kind = 'event' and CAST(attributes->'enddate' as date) >= current_date and CAST(attributes->'enddate' as timestamp) < n + interval '1 month') or kind = 'program' or kind = 'subprogram';";
+        break;
+
+        case 'get-involved':
+            where += "(kind = 'event' and CAST(attributes->'enddate' as date) >= current_date) or kind = 'park' or kind = 'subprogram'" + addLocationsToWhereClause(ctx);
+            //where = "(kind = 'event' and attributes->'eventtypes' = 'Volunteer' and CAST(attributes->'enddate' as date) >= current_date)";
+        break;
+
+        case 'all':
+            where += "kind = 'park'" + addLocationsToWhereClause('all');
+        break;
+
+        default:
+            where += "kind = 'park'" + addLocationsToWhereClause('default');
+        break;
+    }
+    return where += ")";
+}
+
+var getBlankResponse = function(){
+    return {
+        context: '',
+        parent:{},
+        children:[],
+        outlines:[]
+    };
+}
+
+var _getRecordByUrl = function(url, geo, callback){
+    if(url.charAt(0) == '#')url = url.slice(1);
+    var queryUrl = '%' + url;
+    var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes->'url' LIKE $1";
+    var params = [queryUrl];
+
+    db.runQuery(query, params, function(err, data){
+        if(data){
+            var results = db.processResult('',data);
+
+            if(geo){
+                getGeojsonForRecord(results, function(err, data){
+                    if(err){
+                        callback(err);
+                    }else{
+                        callback(null, data);
+                    }
+                });
+            }else{
+                callback(null, data);
+            }
+
+        }else{
+            callback(err);
+        }
+    });
+}
+
+//
 var getRecordByUrl = function(req, res, next){
     var url = req.params.url || null;
-    console.log("URL: ", url);
+
+    var url_parts = urlLib.parse(req.url, true);
+    var query = url_parts.query;
+    var withExtent = (query && query.extent) ? true : false; // assuming get me other things around the 'parent'
+
+    var ctx = resolveContext(url);
+    var out = getBlankResponse();
+
+    out.context = ctx;
+
     if(!url){
         res.json(200, {error: 'invalid parameters'});
     }else{
-        url = '%' + url;
-        var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes->'url' LIKE $1";
-        var params = [url];
-        db.runQuery(query, params, function(err, data){
-            if(data){
 
-                var results = db.processResult('',data);
-                getGeojsonForRecord(results, function(err, data){
-                    // this should only return data
+        var queries = [];
+
+        queries.push(
+            function(callback){
+                _getRecordByUrl(url, !withExtent, function(err, data){
                     if(err){
-                        res.json(200, err);
+                        callback(err);
                     }else{
-                        res.json(200, data);
+                        if(data.rows && data.rows[0])
+                            out.parent = data.rows[0];
+
+                        callback(null, data);
                     }
-
                 });
-
-            }else{
-                res.json(200, err);
             }
+        );
+        // bbox ex: 37.673652,-122.604621,37.867421,-122.151779
+        if(withExtent){
+            queries.push(
+                function(stuff, callback){
+
+                    _getItemsFromBBox(query.extent, ctx, function(err, data){
+
+                        if(err){
+                            callback(err);
+                        }else{
+
+                            if(data.results && data.results.length){
+
+                                out.children = data.results;
+                                if(data.geojson){
+                                    out.outlines = data.geojson;
+                                }
+                            }
+
+
+                            callback(null, data);
+                        }
+                    });
+
+                }
+            );
+        }
+
+        async.waterfall(queries,function(err, data){
+            res.json(200, out);
         });
+
     }
 };
 
