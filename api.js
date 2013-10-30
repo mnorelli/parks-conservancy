@@ -612,6 +612,10 @@ var _getItemsFromBBox = function(bbox, ctx, callback){
 var getItemsFromBBox = function(req, res, next){
     var bbox = req.params.bbox;
 
+    //var url_parts = urlLib.parse(req.url, true);
+    //var query = url_parts.query;
+    //var ctx = query.ctx || '';
+
     // extract context
     var url_parts = urlLib.parse(req.url, true);
     var query = url_parts.query;
@@ -646,6 +650,7 @@ var getItemsFromBBox = function(req, res, next){
 
          if(item && item.hasOwnProperty('attributes')){
              if(item.kind == 'park' && item.attributes.filename){
+
                  if(!found[item.attributes.filename]){
                      found[item.attributes.filename] = 1;
                      parkboundaries.push(item.attributes.filename);
@@ -960,8 +965,10 @@ var getRecordByUrl = function(req, res, next){
                     if(err){
                         callback(err);
                     }else{
-                        if(data.results && data.results[0])
+                        if(data.results && data.results[0]){
                             out.parent = data.results[0];
+                            out.outlines = data.geojson || [];
+                        }
 
                         callback(null, data);
                     }
@@ -1082,6 +1089,7 @@ server.get('/bbox/:bbox', getItemsFromBBox);
 
 
 // start server
+//process.env.PORT || 5555
 server.listen( process.env.PORT || 5555, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
