@@ -98,6 +98,10 @@
 
         this.mapTypes.set(maps.ParkMapType.name, maps.ParkMapType);
         this.setMapTypeId(maps.ParkMapType.name);
+      },
+
+      resize: function() {
+        google.maps.event.trigger(this, "resize");
       }
     });
 
@@ -415,8 +419,7 @@
         root.style.height = '400px';
         root.classList.add("mini-map");
         this._setupExtras(root);
-
-        google.maps.event.trigger(this, "resize");
+        this.resize();
 
         this.setCenter(this.options.center);
         this.setZoom(this.options.zoom);
@@ -635,16 +638,14 @@
           that._handleWindowResize();
         }
 
-        d3.select(window).on('resize', GGNPC.utils.debounce(handleWindowResizeProxy, 200));
+        d3.select(window).on('resize.big-map', GGNPC.utils.debounce(handleWindowResizeProxy, 200));
         google.maps.event.addListener(this, 'resize', function(){
-          console.log("Map Resize happened")
-
+          console.log("Map Resize happened");
         });
 
         handleWindowResizeProxy(); // call resize to set the map container height
-        google.maps.event.trigger(this, "resize");
+        this.resize();
         google.maps.event.addListener(this, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 250));
-
 
         // apply coords from hash or call fitBounds
         if(this.options.hashParams && this.options.hashParams.hasOwnProperty('coords')){
