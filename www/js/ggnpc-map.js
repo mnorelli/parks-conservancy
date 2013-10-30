@@ -653,6 +653,8 @@
           'markers':[],
           'outlines':[]
         };
+        this.outlinesOnly = ['park'];
+        this.notClickable = ['Restroom']
 
         // load content from api
         console.log("Path-> ", this.options.path);
@@ -665,11 +667,60 @@
         google.maps.event.addListener(window, 'tileJsonLoaded', function(){
           console.log("Event-> tile json loaded");
           console.log(tilejsonLayer.getMarkers())
+          that.bakedMarkers = tilejsonLayer.getMarkers();
+          that.renconcileMarkers()
+
+
+
+        });
+        //
+      },
+
+      renconcileMarkers: function(){
+
+        if(!this.currentData){
+          this.markersNeedRenconciled  = true;
+          return;
+        }
+
+        this.markersNeedRenconciled = false;
+        if(!this.currentData.children) return;
+        var that = this;
+
+        var bm = this.bakedMarkers || [];
+
+        var counts = {
+          'transparent': 0,
+          'pins': 0
+        }
+
+        this.currentData.children.forEach(function(m){
+          var kind = that._getMarkerType(m); // returns a normalized kind
+
+          if(that.outlinesOnly.indexOf(m.kind) > -1){ // filter out markers that should only be outlines
+            m._markerKind = null;
+          }else if(m.baked && bm.indexOf(m.attributes.filename) > -1 && that.notClickable.indexOf(kind) < 0){ // is there a baked marker
+            m._markerKind = 'transparent';
+            counts['transparent'] ++;
+          }else if(!m.baked){ // else if not baked, display as pin
+            m._markerKind = 'pin';
+            counts['pins'] ++;
+          }else{
+            m._markerKind = null;
+          }
         });
 
+        console.log('Marker Counts -> ', counts);
 
+        // tell overlays to skip fitBounds
+        // if we have coords from hash
+        // XXX: this should only be called on initialization
+        var skipFitBounds = (that.options.hashParams && that.options.hashParams.hasOwnProperty('coords')) ? true : false;
 
-        //
+        //that._drawOverlays(data, skipFitBounds);
+        that._drawOverlays(that.currentData, skipFitBounds);
+
+        that._updateFilters();
       },
 
       _loadContentOnBoundsChange: function(){
@@ -681,10 +732,9 @@
         var url = [this.options.apiUrl, "bbox", encodeURIComponent(bounds)].join("/"),
             that = this;
 
-
         this._boundsRequest = d3.json(url, function(error, data) {
           data.children = data.results;
-          that._addMarkers(data, true);
+          that._addOverlays(data, true);
           that._updateFilters();
         });
       },
@@ -707,9 +757,7 @@
                 if(isNaN(params.coords.zoom) || isNaN(params.coords.latitude) || isNaN(params.coords.longitude)){
                   valid = false;
                 }else{
-                  if(params.coords.zoom < this.options.minZoom)params.coords.zoom = this.options.minZoom;
-                  if(params.coords.zoom > this.options.maxZoom)params.coords.zoom = this.options.maxZoom;
-
+                  params.coords.zoom = Math.max(this.options.minZoom, Math.min(params.coords.zoom,this.options.maxZoom));
                   params.coords.latlng = new google.maps.LatLng(params.coords.latitude, params.coords.longitude);
                 }
 
@@ -725,6 +773,7 @@
         }
         return options;
       },
+
       _updateHash: function(){
 
           var c = this.getCenter(),
@@ -737,7 +786,6 @@
       },
 
       _handleBoundsChange: function(){
-        // XXX: load more content from api
         this._loadContentOnBoundsChange();
 
         // update coords in the hash
@@ -745,7 +793,6 @@
       },
 
       _handleWindowResize: function(){
-        // width is taken care of in css (width: 100%;)
         var h = window.innerHeight,
             w = window.innerWidth,
             mapH = h - (this.rootOffsetTop + this.options.padding.bottom);
@@ -754,6 +801,8 @@
         this.root.style.width = w + "px"; // for some reason root with css property 'width: 100%' isn't working
       },
 
+      // this should only fire on initial load
+      // further updates happen on bounds change
       _setContext: function(file) {
 
         if (this._contextRequest) this._contextRequest.abort();
@@ -765,32 +814,29 @@
 
         if(bounds) url += "?extent=" + bounds;
 
+        //console.log("Context url-> ", url);
 
-
-        console.log("Url-> ", url)
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
             console.warn("big-map: no such context:", file, error);
             return;
           }
 
-          console.log("Data-> ", data);
+          //console.log("Data-> ", data);
+
           // XXX: normalizing data until I fix this in API (seanc)
           data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
-          //data.parent = data.results[0] || {};
+
+          that.currentData = data;
+          that._contextRequest = null;
 
           that._updateContext(data);
 
-          // tell overlays to skip fitBounds
-          // if we have coords from hash
-          // XXX: this should only be called on initialization
-          var skipFitBounds = (that.options.hashParams && that.options.hashParams.hasOwnProperty('coords')) ? true : false;
-          //that._drawOverlays(data, skipFitBounds);
-          that._drawOverlays(data, skipFitBounds);
-          that._contextRequest = null;
+          if(that.markersNeedRenconciled)that.renconcileMarkers();
+
         });
       },
-      // XXX: UI elements would be set up here
+      // create additional UI elements
       _setupExtras: function(root){
         //console.log("ROOT: ", root)
         this.filterPanel = d3.select(root).append('div')
@@ -803,6 +849,8 @@
         this.filterPanel.append('ul')
           .attr('class', 'list-links');
       },
+
+      // filter panel UI
       _updateFilters: function(){
         if(!this._markersByType) return;
         var that = this;
@@ -843,11 +891,10 @@
             d3.select(this).classed('active', !active);
         });
       },
-      _updateContext: function(data){
 
-      },
-      _drawOverlays: function(data){
-      },
+      _updateContext: function(data){},
+      _drawOverlays: function(data){},
+
       _setInfoWindowContent: function(infowindow, data){
         if (infowindow) {
           var attrs = data.attributes;
@@ -880,7 +927,6 @@
 
             infowindow.setContent(elm.node());
         }
-
       }
 
     });
@@ -932,6 +978,14 @@
 
         });
       },
+      _getMarkerType: function(props){
+
+        if(!props.kind)return null;
+
+        return (props.kind.toLowerCase() === 'location') ?
+                props.attributes.parklocationtype : props.kind;
+      },
+
       _addMarkers: function(data, skipFitBounds){
         var marker;
         var that = this;
@@ -946,17 +1000,45 @@
         this._markers = [];
         this._markersByType = {};
 
+
+
         // Children
         if(data.children){
           data.children.forEach(function(child){
             //if(child.attributes.parklocationtype && child.attributes.parklocationtype != 'Parking Lot' ){
-            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude') && !child.baked){
-              marker = new google.maps.Marker({
-                  position: new google.maps.LatLng(child.latitude, child.longitude),
-                  map: that
-              });
-              marker._data = child;
-              that._markers.push(marker);
+              //m._markerKind
+            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
+
+              if(child._markerKind){
+
+                if(child._markerKind == 'pin'){
+                  marker = new google.maps.Marker({
+                      position: new google.maps.LatLng(child.latitude, child.longitude),
+                      map: that
+                  });
+                  marker._data = child;
+                  that._markers.push(marker);
+
+                }else if (child._markerKind == 'transparent'){
+
+                  marker = new google.maps.Marker({
+                      position: new google.maps.LatLng(child.latitude, child.longitude),
+                      map: that,
+                      icon: {
+                        anchor: new google.maps.Point(0,0),
+                        path: 'M -12,-12 12,-12 12,12 -12,12 z',
+                        fillColor: '#000',
+                        fillOpacity: 0.8,
+                        scale: 1,
+                        stroke: 'none'
+                      }
+                  });
+                  marker._data = child;
+                  that._markers.push(marker);
+                }
+
+              }
+
             }
             //}
 
@@ -995,12 +1077,8 @@
 
         // group by type
         this._markers.forEach(function(m){
-          var attrs = m._data.attributes,
-            kind = m._data.kind;
-
-          if(kind == 'location') kind = attrs.parklocationtype;
-
-          m._kind = kind;
+          var attrs = m._data.attributes;
+          var kind = m._kind = that._getMarkerType(m._data);
 
           var visible = (that._filtered.hasOwnProperty(kind) && that._filtered[kind]) ? true:false;
           m.visible = visible;
@@ -1010,6 +1088,7 @@
           if(!that._markersByType.hasOwnProperty(kind)){
             that._markersByType[kind] = [];
           }
+
           that._markersByType[kind].push(marker);
         });
 
@@ -1043,6 +1122,7 @@
         var fitBoundsCalled = skipFitBounds || false;
 
         // Outlines
+        console.log("Data -> ", data);
         if (data.outlines.length) {
           if (this._shapes) {
             this._shapes.forEach(function(shape) {
@@ -1069,7 +1149,7 @@
 
             if (bounds && this.options.outline.fitBounds && !fitBoundsCalled) {
               fitBoundsCalled = true;
-              this.fitBounds(shapes.geojsonBounds);
+              this.fitBounds(bounds);
             }
 
           }
