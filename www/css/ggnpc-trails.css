@@ -1,0 +1,81 @@
+.trails {
+  font-size: 14px;
+}
+
+#trails-list .trails {
+  margin-right: -235px;
+}
+
+.trails h2 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.trails > .trail {
+  border-top: 1px solid #999;
+  padding: 20px 0;
+  clear: both;
+}
+
+.trails > .trail:after {
+  display: table;
+  height: 0;
+  clear: both;
+  content: " ";
+}
+
+.trails .trail .column {
+  float: left;
+  width: 50%;
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.trails .trail .title .text {
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+}
+
+.trails .trail .duration {
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.trails .trail .details span {
+  color: #666;
+  font-weight: 200;
+}
+
+.trails .trail .distance:after,
+.trails .trail .elevation:after {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  content: "•";
+}
+
+.trails .trail .elevation:before {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  content: "⇅";
+}
+
+.trails .trail .image {
+}
+
+.trails .trail .image img,
+.trails .trail .image svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.trails .trail .image svg {
+  height: 0;
+}
