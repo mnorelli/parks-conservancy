@@ -1070,11 +1070,12 @@ var getRecordByAttribute = function(req, res, next){
 // server setup
 var server = restify.createServer({
     formatters: {
-        'image/svg+xml': function(req, res, body) {
+        'image/svg+xml; q=0.1': function formatSVG(req, res, body) {
             return body;
         }
     }
 });
+
 server.use(restify.CORS());
 server.use(restify.fullResponse());
 server.use(restify.gzipResponse());
