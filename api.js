@@ -69,6 +69,7 @@ function parseQuery(req){
 
 var fieldsToExpand = ['location','locationmap'];
 
+
 // this is only being called from getById for now...
 function autoExpand(resultsObj, callback){
     //var item = resultsObj.results[0];
@@ -646,6 +647,10 @@ var getItemsFromBBox = function(req, res, next){
      var parkboundaries = [];
      var trails = [];
      var geojson = [];
+
+     var relatedparks = {};
+     var relatedparksTasks = [];
+     var points = [];
      resultsObj.results.forEach(function(item){
 
          if(item && item.hasOwnProperty('attributes')){
@@ -656,47 +661,84 @@ var getItemsFromBBox = function(req, res, next){
                      parkboundaries.push(item.attributes.filename);
                  }
 
-             }
-             if(item.kind == 'location' && item.attributes.parklocationtype && item.attributes.parklocationtype == 'Trailhead'){
+             }else if(item.kind == 'location' && item.attributes.parklocationtype && item.attributes.parklocationtype == 'Trailhead'){
                  if(!found[item.attributes.title]){
-                     trails.push(item.attributes.title);
+                     //trails.push(item.attributes.title);
                  }
+             }else if(item.attributes && item.attributes.relatedpark){
+
+                var pt = "ST_Contains(geom, ST_Transform('SRID=4326;POINT("+item.longitude+' '+item.latitude+")'::geometry, 900913))"
+                points.push(pt);
+
              }
-
-
+             //37.61924,-122.48643
              /*
+
+             select unit_name from park_units where ST_Within( ST_Transform('SRID=4326;POINT(-122.47643 37.61924)'::geometry, 900913), geom);
+
+             select unit_name from park_units where ST_Within( ST_Transform('SRID=4326;POINT(-122.497778 37.62)'::geometry, 900913), geom);
+             37.62, -122.497778
+
              if(item.attributes && item.attributes.relatedpark){
                  var parkid = item.attributes.relatedpark;
                  if(!relatedparks[parkid]){
                      relatedparks[parkid] = 1;
-                     var where = "where attributes->'id' = $1";
+
+                     var task = {};
+                     var query = "select attributes->'filename' from convio where attributes->'id'=$1";
                      var params = [parkid];
+                     db.runQuery(query, params, function(err, data){
+                        if(data){
 
-                     var task = {
+                            db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
+                                if(err){
+                                    cb();
+                                }else{
+                                    prop_.push(out);
+                                    cb();
+                                }
+                            });
 
-                     }
-                     db.baseQuery(['*'], where, params, '', '', function(err, data){
-                         if(err){
-                             cb();
-                         }else{
-                             attrs_[prop_] = data.results[0].attributes;
-                             cb();
-                         }
-                     });
+                        }
+
+                     })
+
+
+
+
+                     relatedparksTasks.push(task);
 
                  }
-             }*/
+             }
+             */
 
          }
      });
 
-     if(parkboundaries.length){
-         var arr = [];
-         for(var i = 1; i <= parkboundaries.length; i++) {
-             arr.push('$'+i);
+     if(parkboundaries.length ){
+        var where = "WHERE";
+        var params = [];
+        if(parkboundaries.length){
+            var arr = [];
+            for(var i = 1; i <= parkboundaries.length; i++) {
+                arr.push('$'+i);
+            }
+            where = " convio_filename IN (" + arr.join(',') + ")";
+            params.push(parkboundaries);
+        }
+
+
+         if(points.length){
+            points.forEach(function(pt){
+                if(where != 'WHERE'){
+                    where += " or " + pt;
+                }else{
+                    where += " " + pt;
+                }
+
+            });
+            console.log(where);
          }
-         var where = "WHERE convio_filename IN (" + arr.join(',') + ")";
-         var params = parkboundaries;
 
          var task = {
              prop: geojson,
@@ -724,6 +766,7 @@ var getItemsFromBBox = function(req, res, next){
          }, 2);
 
          q.drain = function() {
+
              resultsObj.geojson = geojson;
              callback(null, resultsObj);
          };
@@ -924,6 +967,8 @@ var _getRecordByUrl = function(url, geo, callback){
 
             if(geo){
                 getGeojsonForRecord(results, function(err, data){
+
+
                     if(err){
                         callback(err);
                     }else{
@@ -1004,7 +1049,12 @@ var getRecordByUrl = function(req, res, next){
         }
 
         async.waterfall(queries,function(err, data){
-            res.json(200, out);
+            if(err){
+                res.json(200, {});
+            }else{
+                res.json(200, out);
+            }
+
         });
 
     }
@@ -1102,6 +1152,6 @@ server.get('/trips/:id/elevation-profile.svg', trips.getElevationProfileForTrip)
 
 // start server
 //process.env.PORT || 5555
-server.listen( process.env.PORT || 5555, function() {
+server.listen( 5555, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
