@@ -707,7 +707,7 @@
 
         var that = this;
 
-        var bm = this.bakedMarkers;
+        var bm = this.bakedMarkers || [];
 
         var counts = {
           'transparent': 0,
@@ -743,7 +743,7 @@
             return b == m.attributes.title;
           });
           console.log(m[0])
-          bmHash[b] = (m[0].kind) ? 1 : 0;
+          bmHash[b] = (m[0] && m[0].kind) ? 1 : 0;
         })
 
 
