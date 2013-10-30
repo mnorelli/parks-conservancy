@@ -1,0 +1,494 @@
+{
+  "profiles": [
+    {
+      "id": 1287,
+      "name": "Meander in Marin",
+      "ending_trailhead_id": 1155,
+      "starting_trailhead_id": 436,
+      "author_id": 2280,
+      "length_miles": 7.7448530814104855,
+      "starting_trailhead": {
+        "latitude": 37.860715,
+        "longitude": -122.574836
+      },
+      "duration": "Day Trip",
+      "intensity": "Moderate",
+      "height": [
+        6.56,
+        1010.5
+      ],
+      "distance": [
+        0,
+        6.61
+      ],
+      "scales": {
+        "distance": [
+          0,
+          6.61
+        ],
+        "height": [
+          6.56,
+          1010.5
+        ]
+      }
+    },
+    {
+      "id": 1295,
+      "name": "Marin headlands lookouts and Hawk Hill",
+      "ending_trailhead_id": 1534,
+      "starting_trailhead_id": 1534,
+      "author_id": 3444,
+      "length_miles": 0.6522403068572583,
+      "starting_trailhead": {
+        "latitude": 37.8271244682,
+        "longitude": -122.499210835
+      },
+      "duration": "Halfday",
+      "intensity": "Easy",
+      "height": [
+        764.44,
+        872.7
+      ],
+      "distance": [
+        0,
+        0.66
+      ],
+      "scales": {
+        "distance": [
+          0,
+          0.66
+        ],
+        "height": [
+          764.44,
+          872.7
+        ]
+      }
+    },
+    {
+      "id": 1333,
+      "name": "Ridge Trail Presidio Loop",
+      "ending_trailhead_id": 1016,
+      "starting_trailhead_id": 1016,
+      "author_id": 102,
+      "length_miles": 3.7900373537368606,
+      "starting_trailhead": {
+        "latitude": 37.789697,
+        "longitude": -122.459292
+      },
+      "duration": "Halfday",
+      "intensity": "Moderate",
+      "height": [
+        91.86,
+        433.07
+      ],
+      "distance": [
+        0,
+        3.12
+      ],
+      "scales": {
+        "distance": [
+          0,
+          3.12
+        ],
+        "height": [
+          91.86,
+          433.07
+        ]
+      }
+    },
+    {
+      "id": 1338,
+      "name": "Sutro Trail/Lands End",
+      "ending_trailhead_id": 513,
+      "starting_trailhead_id": 513,
+      "author_id": 3445,
+      "length_miles": 1.5499051639077646,
+      "starting_trailhead": {
+        "latitude": 37.7801956689,
+        "longitude": -122.511704564
+      },
+      "duration": "Halfday",
+      "intensity": "Easy",
+      "height": [
+        16.4,
+        232.94
+      ],
+      "distance": [
+        0,
+        0.99
+      ],
+      "scales": {
+        "distance": [
+          0,
+          0.99
+        ],
+        "height": [
+          16.4,
+          232.94
+        ]
+      }
+    },
+    {
+      "id": 140,
+      "name": "Ridge Trail at SF's Presidio",
+      "ending_trailhead_id": 1016,
+      "starting_trailhead_id": 1016,
+      "author_id": 1746,
+      "length_miles": 3.4806709994847296,
+      "starting_trailhead": {
+        "latitude": 37.789697,
+        "longitude": -122.459292
+      },
+      "duration": "Halfday",
+      "intensity": "Easy",
+      "height": [
+        288.71,
+        426.51
+      ],
+      "distance": [
+        0,
+        3.22
+      ],
+      "scales": {
+        "distance": [
+          0,
+          3.22
+        ],
+        "height": [
+          288.71,
+          426.51
+        ]
+      }
+    },
+    {
+      "id": 1424,
+      "name": "Tennessee Valley to Alta Ridge Loop",
+      "ending_trailhead_id": 1466,
+      "starting_trailhead_id": 1466,
+      "author_id": 3564,
+      "length_miles": 5.723875296969063,
+      "starting_trailhead": {
+        "latitude": 37.8699434167,
+        "longitude": -122.527500093
+      },
+      "duration": "Halfday",
+      "intensity": "Strenuous",
+      "height": [
+        36.09,
+        1023.62
+      ],
+      "distance": [
+        0,
+        4.72
+      ],
+      "scales": {
+        "distance": [
+          0,
+          4.72
+        ],
+        "height": [
+          36.09,
+          1023.62
+        ]
+      }
+    },
+    {
+      "id": 1431,
+      "name": "Golden Gate High Ridge Tour",
+      "ending_trailhead_id": 292,
+      "starting_trailhead_id": 292,
+      "author_id": 3497,
+      "length_miles": 6.8500458186658895,
+      "starting_trailhead": {
+        "latitude": 37.860541772,
+        "longitude": -122.535859197
+      },
+      "duration": "Halfday",
+      "intensity": "Strenuous",
+      "height": [
+        52.49,
+        1010.5
+      ],
+      "distance": [
+        0,
+        6.82
+      ],
+      "scales": {
+        "distance": [
+          0,
+          6.82
+        ],
+        "height": [
+          52.49,
+          1010.5
+        ]
+      }
+    },
+    {
+      "id": 1446,
+      "name": "Crissy Field Waterfront Walk",
+      "ending_trailhead_id": 1528,
+      "starting_trailhead_id": 1528,
+      "author_id": 3564,
+      "length_miles": 1.9820236808316882,
+      "starting_trailhead": {
+        "latitude": 37.8074656429,
+        "longitude": -122.470318079
+      },
+      "duration": "Halfday",
+      "intensity": "Easy",
+      "height": [
+        -3.28,
+        82.02
+      ],
+      "distance": [
+        0,
+        1.97
+      ],
+      "scales": {
+        "distance": [
+          0,
+          1.97
+        ],
+        "height": [
+          -3.28,
+          82.02
+        ]
+      }
+    },
+    {
+      "id": 1448,
+      "name": "Muir Woods East Side Loop Hike ",
+      "ending_trailhead_id": 512,
+      "starting_trailhead_id": 970,
+      "author_id": 3497,
+      "length_miles": 5.359096720865736,
+      "starting_trailhead": {
+        "latitude": 37.8919690586,
+        "longitude": -122.570426166
+      },
+      "duration": "Halfday",
+      "intensity": "Moderate",
+      "height": [
+        150.92,
+        964.57
+      ],
+      "distance": [
+        0,
+        5.44
+      ],
+      "scales": {
+        "distance": [
+          0,
+          5.44
+        ],
+        "height": [
+          150.92,
+          964.57
+        ]
+      }
+    },
+    {
+      "id": 1449,
+      "name": "Muir Woods East Loop Hike",
+      "ending_trailhead_id": 512,
+      "starting_trailhead_id": 970,
+      "author_id": 3497,
+      "length_miles": 5.080448946757859,
+      "starting_trailhead": {
+        "latitude": 37.8919690586,
+        "longitude": -122.570426166
+      },
+      "duration": "Halfday",
+      "intensity": "Moderate",
+      "height": [
+        150.92,
+        964.57
+      ],
+      "distance": [
+        0,
+        5.12
+      ],
+      "scales": {
+        "distance": [
+          0,
+          5.12
+        ],
+        "height": [
+          150.92,
+          964.57
+        ]
+      }
+    },
+    {
+      "id": 216,
+      "name": "Lands End Loop",
+      "ending_trailhead_id": 1213,
+      "starting_trailhead_id": 1231,
+      "author_id": 1746,
+      "length_miles": 3.052187388028385,
+      "starting_trailhead": {
+        "latitude": 37.7796254058,
+        "longitude": -122.509840429
+      },
+      "duration": "Halfday",
+      "intensity": "Moderate",
+      "height": [
+        6.56,
+        354.33
+      ],
+      "distance": [
+        0,
+        3.07
+      ],
+      "scales": {
+        "distance": [
+          0,
+          3.07
+        ],
+        "height": [
+          6.56,
+          354.33
+        ]
+      }
+    },
+    {
+      "id": 263,
+      "name": "Dias Ridge Trail",
+      "ending_trailhead_id": 1154,
+      "starting_trailhead_id": 1535,
+      "author_id": 102,
+      "length_miles": 3.0493233916892346,
+      "starting_trailhead": {
+        "latitude": 37.8849306303,
+        "longitude": -122.554764748
+      },
+      "duration": "Halfday",
+      "intensity": "Easy",
+      "height": [
+        16.4,
+        800.52
+      ],
+      "distance": [
+        0,
+        2.54
+      ],
+      "scales": {
+        "distance": [
+          0,
+          2.54
+        ],
+        "height": [
+          16.4,
+          800.52
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "name": "Headlands Rodeo Beach Ramble",
+      "ending_trailhead_id": 1015,
+      "starting_trailhead_id": 1012,
+      "author_id": 16,
+      "length_miles": 7.813757406369787,
+      "starting_trailhead": {
+        "latitude": 37.8698883655,
+        "longitude": -122.514815927
+      },
+      "duration": "Day Trip",
+      "intensity": "Moderate",
+      "height": [
+        0,
+        659.45
+      ],
+      "distance": [
+        0,
+        7.87
+      ],
+      "scales": {
+        "distance": [
+          0,
+          7.87
+        ],
+        "height": [
+          0,
+          659.45
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "name": "Coastal Trail Walk, with Newts",
+      "ending_trailhead_id": 301,
+      "starting_trailhead_id": 301,
+      "author_id": 37,
+      "length_miles": 1.8939228438008686,
+      "starting_trailhead": {
+        "latitude": 37.8322237198,
+        "longitude": -122.5395298
+      },
+      "duration": "Halfday",
+      "intensity": "Easy",
+      "height": [
+        6.56,
+        347.77
+      ],
+      "distance": [
+        0,
+        1.6
+      ],
+      "scales": {
+        "distance": [
+          0,
+          1.6
+        ],
+        "height": [
+          6.56,
+          347.77
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "name": "Tennessee Valley loop",
+      "ending_trailhead_id": 292,
+      "starting_trailhead_id": 292,
+      "author_id": 1741,
+      "length_miles": 5.3086374771197296,
+      "starting_trailhead": {
+        "latitude": 37.860541772,
+        "longitude": -122.535859197
+      },
+      "duration": "Halfday",
+      "intensity": "Moderate",
+      "height": [
+        19.69,
+        856.3
+      ],
+      "distance": [
+        0,
+        5.23
+      ],
+      "scales": {
+        "distance": [
+          0,
+          5.23
+        ],
+        "height": [
+          19.69,
+          856.3
+        ]
+      }
+    }
+  ],
+  "scales": {
+    "distance": [
+      0,
+      7.87
+    ],
+    "height": [
+      -3.28,
+      1023.62
+    ]
+  }
+}

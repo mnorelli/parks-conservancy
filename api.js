@@ -1055,7 +1055,13 @@ var getRecordByAttribute = function(req, res, next){
 
 
 // server setup
-var server = restify.createServer();
+var server = restify.createServer({
+    formatters: {
+        'image/svg+xml': function(req, res, body) {
+            return body;
+        }
+    }
+});
 server.use(restify.CORS());
 server.use(restify.fullResponse());
 server.use(restify.gzipResponse());
@@ -1085,6 +1091,12 @@ server.get('/list/context/:context', getInitialContextList);
 
 
 server.get('/bbox/:bbox', getItemsFromBBox);
+
+var trips = require("./lib/trips");
+
+server.get('/trips.json', trips.getTrips);
+server.get(/\/trips\/(\d+)\.json/, trips.getTripById);
+server.get('/trips/:id/elevation-profile.svg', trips.getElevationProfileForTrip);
 
 
 
