@@ -437,8 +437,8 @@
      * infer their directions when they're not displayed.
      */
     resize: function() {
-      google.maps.event.trigger(this.originMap, "resize");
-      google.maps.event.trigger(this.destMap, "resize");
+      this.originMap.resize();
+      this.destMap.resize();
     },
 
     // get the destination
@@ -1496,7 +1496,7 @@
         */
         .text(function(d) { return d.title; });
 
-      google.maps.event.trigger(this.map, "resize");
+      this.map.resize();
       this.map.setCenter(center);
     },
 
