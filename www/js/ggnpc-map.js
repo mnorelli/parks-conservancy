@@ -169,8 +169,8 @@
       this.name = "grid";
       this.urlTemplate = "http://{S}.map.parks.stamen.com/labels/{Z}/{X}/{Y}.json";
       this.subdomains = "";
-      this.maxZoom = 18;
-      this.minZoom = 10;
+      this.maxZoom = 20;
+      this.minZoom = 14;
 
       this.tiles = {};
       this.queue = [];
@@ -197,14 +197,15 @@
       //console.log("Queue-> ", this.queue.length);
       if(this.queue.length <= 0){
         //console.log("Queue Done!");
-        console.log('Tiles-> ', this.tiles);
+        //console.log('Tiles-> ', this.tiles);
         this.resolveMarkersInView();
-        console.log("Markers-> ", this.markerIdsInView);
+        //console.log("Markers-> ", this.markerIdsInView);
 
         // firing in 'this' context failed
         google.maps.event.trigger(window, 'tileJsonLoaded');
       }
     };
+
     maps.GridMapType.prototype.resolveMarkersInView = function(){
       var that = this;
       this.markerIdsInView = [];
@@ -217,6 +218,7 @@
         }
       }
     };
+
     maps.GridMapType.prototype.removeTileFromQueue = function(tile){
       delete this.queueHash[tile.cacheKey];
 
@@ -254,7 +256,7 @@
         d3.json(tile.url, function(data){
           if(!data){
             tile.attempts ++;
-            if(tile.attempts < 3){
+            if(tile.attempts < 2){
               window.setTimeout(function(){
                 that.loadjson(tile);
               }, 200);
@@ -666,12 +668,16 @@
 
         // listen for tile json loaded event
         // XXX: draw invisible markers that match filenames
+
+        var initTilesLoadedCall = false;
         google.maps.event.addListener(window, 'tileJsonLoaded', function(){
-          console.log("Event-> tile json loaded");
-          console.log(tilejsonLayer.getMarkers())
+          //console.log("Event-> tile json loaded");
+          //console.log(tilejsonLayer.getMarkers())
+
           that.bakedMarkers = tilejsonLayer.getMarkers();
-          if(!that.contextSet){
+          if(!initTilesLoadedCall){
             that.renconcileMarkers();
+            initTilesLoadedCall = true;
           }else{
             that._loadContentOnBoundsChange();
           }
@@ -687,8 +693,6 @@
           that.dragging = false;
         });
 
-
-
         //
       },
 
@@ -698,7 +702,8 @@
           this.markersNeedRenconciled  = true;
           return;
         }
-        console.log("Reconcile Markers")
+
+        //console.log("Reconcile Markers")
 
         this.prevDataTimestamp = this.currentData.ts;
         this.markersNeedRenconciled = false;
@@ -729,7 +734,7 @@
           }else if(m.baked && bm.indexOf(m.attributes.filename) > -1 && that.notClickable.indexOf(kind) < 0){ // is there a baked marker
             m._markerKind = 'transparent';
             counts['transparent'] ++;
-          }else if(!m.baked){ // else if not baked, display as pin
+          }else if(!m.baked && !that.parentMarker){ // else if not baked, display as pin
             m._markerKind = 'pin';
             counts['pins'] ++;
           }else{
@@ -737,14 +742,24 @@
           }
         });
 
-        var bmHash = {}
+        /*
+        var vc = [];
+        var m = that.currentData.children.filter(function(m){
+            if(m.attributes.parklocationtype == "Visitor Center")vc.push(m.attributes.filename)
+        });
+        console.log("Visitor Centers-> ", vc);
+        */
+        /*
         bm.forEach(function(b){
           var m = that.currentData.children.filter(function(m){
-            return b == m.attributes.title;
+            console.log(b, m.attributes.filename)
+            return b == m.attributes.filename;
           });
-          console.log(m[0])
+          //console.log(m)
           bmHash[b] = (m[0] && m[0].kind) ? 1 : 0;
         })
+        console.log("Baked Markers Hash ->", bm.length, bmHash);
+        */
 
 
         that.currentData.children = that.currentData.children.filter(function(m){
@@ -752,7 +767,7 @@
         });
 
         console.log('Marker Counts -> ', counts);
-        console.log("Baked Markers Hash ->", bm.length, bmHash);
+
 
         // XXX: fitBounds should only happen on the first run
         // then it should never try to fit overlays in bounds
@@ -781,7 +796,7 @@
 
         url += '?ctx=' + ctx;
 
-        console.log("Bounds url -> ", url);
+        //console.log("Bounds url -> ", url);
         this._boundsRequest = d3.json(url, function(error, data) {
           if(error){
             console.warn("big-map: failed to load data on bounds change", url, error);
@@ -955,6 +970,11 @@
         this.currentData = data;
         this.currentData.ts = +new Date();
         this._contextRequest = null;
+        if(this.currentData.parent && this.currentData.parent.kind){
+          this.parentMarker = this.currentData.parent;
+        }else{
+          this.parentMarker = null;
+        }
         console.log("Update Context called")
         if(this.markersNeedRenconciled)this.renconcileMarkers();
         this.contextSet = true;
@@ -1057,8 +1077,8 @@
       },
 
       _findMarker: function(id){
-        for(var i = 0; i < this.markers.length; i++){
-          if(this.markers[i].convioId === id) return this.markers[i];
+        for(var i = 0; i < this._markers.length; i++){
+          if(this._markers[i].convioId === id) return this._markers[i];
         }
         return null;
       },
@@ -1085,7 +1105,8 @@
         // Children
         if(data.children){
           data.children.forEach(function(child){
-            if(that._findMarker(child.attributes.id) != null){
+            var marker = that._findMarker(child.attributes.id);
+            if(marker != null){
               marker.attached = true;
               return;
             }
@@ -1120,9 +1141,10 @@
                       }
                   });
                   marker._data = child;
-                  that._markers.push(marker);
                   marker.convioId = child.attributes.id;
                   marker.attached = true;
+                  that._markers.push(marker);
+
 
                 }
 
@@ -1138,7 +1160,7 @@
         if(data.parent
             && data.parent.hasOwnProperty('latitude')
             && data.parent.hasOwnProperty('longitude')
-            && !that._findMarker(data.parent.attributes.id )) {
+            && !this._findMarker(data.parent.attributes.id )) {
 
           marker = new google.maps.Marker({
               position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
@@ -1148,12 +1170,13 @@
           marker._data = data.parent;
           marker.attached = true;
           marker.isParent = true;
+          marker.convioId = data.parent.attributes.id
           this._markers.push(marker);
         }
 
-        this._markers = this._markers.filter(function(d){
+        this._markers = this._markers.filter(function(marker){
           if(!marker.attached)marker.setMap(null);
-          return d.attached;
+          return marker.attached;
         });
 
 
@@ -1203,10 +1226,12 @@
         if(!this._setInfoWindowContent)return;
 
         this._markers.forEach(function(m){
+          if(m.hasInfoWindow) return;
           var infoWindow = new google.maps.InfoWindow({
-            title: marker._data.attributes.title || null,
+            title: null,
             maxWidth: 320
           });
+          m.hasInfoWindow = true;
 
           google.maps.event.addListener(m, 'click', function() {
 
@@ -1218,18 +1243,26 @@
             that._setInfoWindowContent(infoWindow, m._data);
             that._currentInfoWindow = infoWindow;
           });
+
+          if(m.isParent && !m.initialWindowCalled){
+            m.initialWindowCalled = true;
+            infoWindow.open(that, m);
+            that._setInfoWindowContent(infoWindow, m._data);
+            that._currentInfoWindow = infoWindow;
+          }
         });
 
       },
 
       _clearGeometries: function(){
         this._shapes.forEach(function(boundary){
-          if(boundary instanceof Array){
-            boundary.forEach(function(p){
+          var geojson = boundary.geojson;
+          if(geojson instanceof Array){
+            geojson.forEach(function(p){
               p.setMap(null);
             });
           }else{
-            boundary.setMap(null);
+            geojson.setMap(null);
           }
         });
       },
@@ -1248,23 +1281,31 @@
           }
 
           // XXX will this data structure ever *not* exist?
-
+          //st_asgeojson(transform(simplify(the_geom,1),4326))
           if(data.outlines){
             var bounds = new google.maps.LatLngBounds();
             data.outlines.forEach(function(f){
               var feature = JSON.parse(f.geom),
                   shapes = new GeoJSON(feature, that.options.outline, true);
 
-              shapes.forEach(function(shape) {
-                shape.setMap(that);
-              });
-              shapes[0].geojsonBounds = shapes.geojsonBounds;
-              shapes[0]._data = f.data;
 
-              that._shapes.push(shapes[0]);
-              if (shapes.geojsonBounds){
-                bounds.union(shapes.geojsonBounds)
+
+              if(shapes.type != 'Error'){
+                var obj = {};
+                obj.geojson = shapes;
+                obj.bounds = (shapes.geojsonBounds) ? shapes.geojsonBounds : null;
+                obj.data = f.data;
+
+                shapes.forEach(function(shape) {
+                  shape.setMap(that);
+                });
+
+                that._shapes.push(obj);
+                if (shapes.geojsonBounds){
+                  bounds.union(shapes.geojsonBounds)
+                }
               }
+
             });
 
             if (bounds && this.options.outline.fitBounds && !fitBoundsCalled) {
@@ -1272,22 +1313,26 @@
               this.fitBounds(bounds);
             }
 
-            this._shapes.forEach(function(m){
-              var infoWindow = new google.maps.InfoWindow({
-                title: 'hello' || null,
-                maxWidth: 320
+            this._shapes.forEach(function(shape){
+              if(!shape.data)return;
+              shape.geojson.forEach(function(s) {
+                  var infoWindow = new google.maps.InfoWindow({
+                    title: 'hello' || null,
+                    maxWidth: 320
+                  });
+                  google.maps.event.addListener(s, 'click', function() {
+
+                    if (that._currentInfoWindow != null) {
+                        that._currentInfoWindow.close();
+                    }
+                    infoWindow.open(that);
+                    infoWindow.setPosition(shape.bounds.getCenter());
+                    that._setInfoWindowContent(infoWindow, shape.data);
+                    that._currentInfoWindow = infoWindow;
+                  });
               });
 
-              google.maps.event.addListener(m, 'click', function() {
 
-                if (that._currentInfoWindow != null) {
-                    that._currentInfoWindow.close();
-                }
-                infoWindow.open(that);
-                infoWindow.setPosition(m.geojsonBounds.getCenter());
-                that._setInfoWindowContent(infoWindow, m._data);
-                that._currentInfoWindow = infoWindow;
-              });
             });
 
           }
