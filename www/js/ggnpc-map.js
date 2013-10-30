@@ -194,9 +194,9 @@
 
     maps.GridMapType.prototype.checkTilesLoaded = function(){
       var that = this;
-      console.log("Queue-> ", this.queue.length);
+      //console.log("Queue-> ", this.queue.length);
       if(this.queue.length <= 0){
-        console.log("Queue Done!");
+        //console.log("Queue Done!");
         console.log('Tiles-> ', this.tiles);
         this.resolveMarkersInView();
         console.log("Markers-> ", this.markerIdsInView);
@@ -396,25 +396,29 @@
         // include drawing tools
         GGNPC.utils.extend(this, GGNPC.overlayTools);
 
+        /*
         var linkRoot = d3.select(root)
             .html('')
             .append('a');
 
         root = linkRoot.node();
+        */
 
         var options = maps.collapseOptions(root, options, MiniMap.defaults);
 
         Map.call(this, options.root, options);
 
         var root = this.root;
-
+        root.style.width = '235px';
+        root.style.height = '400px';
         root.classList.add("mini-map");
         this._setupExtras(root);
 
         google.maps.event.trigger(this, "resize");
 
-        //this.setCenter(this.options.center);
-        //this.setZoom(this.options.zoom);
+        this.setCenter(this.options.center);
+        this.setZoom(this.options.zoom);
+
 
         if (this.options.bounds) this.fitBounds(this.options.bounds);
 
@@ -482,9 +486,15 @@
               return [d.href, file].join("#");
             });
         d3.select(this.root)
+          .on('click', function(){
+            window.location = [that.options.links[0].href, file].join("#");
+          })
+          .style('cursor','pointer');
+          /*
           .attr('href', function(){
             return [that.options.links[0].href, file].join("#");
           });
+          */
 
         if(file.charAt(0) == "/") file = file.slice(1);
         if(file.length < 1)return;
@@ -614,10 +624,8 @@
           that._handleBoundsChange();
         }
 
-        google.maps.event.addListener(this, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 100));
-
         // set up resize handler on 'window' to resize our map container
-        this.rootOffsetTop = d3.select(root).node().offsetTop;
+        this.rootOffsetTop = 0;//d3.select(root).node().offsetTop;
 
         // sorry, best way I came up with dealing with scope issues
         // when using debounce method
@@ -625,19 +633,15 @@
           that._handleWindowResize();
         }
 
-        d3.select(window).on('resize', GGNPC.utils.debounce(handleWindowResizeProxy, 100));
+        d3.select(window).on('resize', GGNPC.utils.debounce(handleWindowResizeProxy, 200));
         google.maps.event.addListener(this, 'resize', function(){
           console.log("Map Resize happened")
 
         });
 
         handleWindowResizeProxy(); // call resize to set the map container height
-
-
-
-        // redraw map
-        //d3.select('.big-map').style('width', '100%');
         google.maps.event.trigger(this, "resize");
+        google.maps.event.addListener(this, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 250));
 
 
         // apply coords from hash or call fitBounds
@@ -657,8 +661,6 @@
         this.notClickable = ['Restroom']
 
         // load content from api
-        console.log("Path-> ", this.options.path);
-        //if(!this.options.path) this.options.path =
         if(this.options.path) this._setContext(this.options.path);
 
 
@@ -668,11 +670,25 @@
           console.log("Event-> tile json loaded");
           console.log(tilejsonLayer.getMarkers())
           that.bakedMarkers = tilejsonLayer.getMarkers();
-          that.renconcileMarkers()
-
-
-
+          if(!that.contextSet){
+            that.renconcileMarkers();
+          }else{
+            that._loadContentOnBoundsChange();
+          }
+          //
         });
+
+
+        this.dragging = false;
+        google.maps.event.addListener(this, 'dragstart', function(){
+          that.dragging = true;
+        });
+        google.maps.event.addListener(this, 'dragstart', function(){
+          that.dragging = false;
+        });
+
+
+
         //
       },
 
@@ -682,23 +698,34 @@
           this.markersNeedRenconciled  = true;
           return;
         }
+        console.log("Reconcile Markers")
 
+        this.prevDataTimestamp = this.currentData.ts;
         this.markersNeedRenconciled = false;
+
         if(!this.currentData.children) return;
+
         var that = this;
 
-        var bm = this.bakedMarkers || [];
+        var bm = this.bakedMarkers;
 
         var counts = {
           'transparent': 0,
-          'pins': 0
+          'pins': 0,
+          'types': {}
         }
 
         this.currentData.children.forEach(function(m){
-          var kind = that._getMarkerType(m); // returns a normalized kind
+          var kind = that._getMarkerType(m); // returns a normalized kind, more of a type
 
-          if(that.outlinesOnly.indexOf(m.kind) > -1){ // filter out markers that should only be outlines
+          if(!counts.types.hasOwnProperty(kind))counts.types[kind] = 0;
+          counts.types[kind] ++;
+
+          if(that.outlinesOnly.indexOf(kind) > -1){ // filter out markers that should only be outlines
             m._markerKind = null;
+            that.currentData.outlines.forEach(function(outline){
+              if(outline.unit_name == m.attributes.title)outline.data = utils.extend({}, m);
+            });
           }else if(m.baked && bm.indexOf(m.attributes.filename) > -1 && that.notClickable.indexOf(kind) < 0){ // is there a baked marker
             m._markerKind = 'transparent';
             counts['transparent'] ++;
@@ -710,38 +737,69 @@
           }
         });
 
+        var bmHash = {}
+        bm.forEach(function(b){
+          var m = that.currentData.children.filter(function(m){
+            return b == m.attributes.title;
+          });
+          console.log(m[0])
+          bmHash[b] = (m[0].kind) ? 1 : 0;
+        })
+
+
+        that.currentData.children = that.currentData.children.filter(function(m){
+          return m._markerKind;
+        });
+
         console.log('Marker Counts -> ', counts);
+        console.log("Baked Markers Hash ->", bm.length, bmHash);
 
-        // tell overlays to skip fitBounds
-        // if we have coords from hash
-        // XXX: this should only be called on initialization
-        var skipFitBounds = (that.options.hashParams && that.options.hashParams.hasOwnProperty('coords')) ? true : false;
+        // XXX: fitBounds should only happen on the first run
+        // then it should never try to fit overlays in bounds
+        // It should not call map.fitBounds if there is are hash coords
+        var skipFitBounds = ((that.options.hashParams && that.options.hashParams.hasOwnProperty('coords')) || that.initFitBounds) ? true : false;
 
-        //that._drawOverlays(data, skipFitBounds);
         that._drawOverlays(that.currentData, skipFitBounds);
+
+        //console.log("Data -> ", that.currentData)
+
+        that.initFitBounds = true;
 
         that._updateFilters();
       },
 
       _loadContentOnBoundsChange: function(){
-        return;
+
+        if(!this.contextSet)return; // wait for initial context to be set
         if (this._boundsRequest) this._boundsRequest.abort();
         // XXX abstract this in GGNPC.API?
         var bounds = this.getBounds().toUrlValue();
 
-        var url = [this.options.apiUrl, "bbox", encodeURIComponent(bounds)].join("/"),
-            that = this;
+        var url  = [this.options.apiUrl, "bbox", encodeURIComponent(bounds)].join("/"),
+            that = this,
+            ctx  = (this.currentData) ? this.currentData.context || 'default' : 'default';
 
+        url += '?ctx=' + ctx;
+
+        console.log("Bounds url -> ", url);
         this._boundsRequest = d3.json(url, function(error, data) {
-          data.children = data.results;
-          that._addOverlays(data, true);
-          that._updateFilters();
+          if(error){
+            console.warn("big-map: failed to load data on bounds change", url, error);
+            return;
+          }
+          //console.log("Bounds Data ->", data);
+          that.currentData.outlines = (data.geojson && data.geojson.length) ? data.geojson[0].results : [];
+          that.currentData.children = data.results || [];
+          that.currentData.ts = +new Date();
+
+          that.renconcileMarkers();
         });
       },
 
       _parseHashParams: function(options){
         if(options.hashParams){
           var params = options.hashParams;
+
           for(var k in params){
             if(k === 'coords'){
               var valid = true;
@@ -757,7 +815,7 @@
                 if(isNaN(params.coords.zoom) || isNaN(params.coords.latitude) || isNaN(params.coords.longitude)){
                   valid = false;
                 }else{
-                  params.coords.zoom = Math.max(this.options.minZoom, Math.min(params.coords.zoom,this.options.maxZoom));
+                  params.coords.zoom = Math.max(maps.ParkMapType.minZoom, Math.min(params.coords.zoom, maps.ParkMapType.maxZoom));
                   params.coords.latlng = new google.maps.LatLng(params.coords.latitude, params.coords.longitude);
                 }
 
@@ -786,7 +844,8 @@
       },
 
       _handleBoundsChange: function(){
-        this._loadContentOnBoundsChange();
+        // tilejson is in charge of this now
+        //this._loadContentOnBoundsChange();
 
         // update coords in the hash
         this._updateHash();
@@ -819,23 +878,14 @@
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
             console.warn("big-map: no such context:", file, error);
+            this.contextSet = true;
             return;
           }
 
-          //console.log("Data-> ", data);
-
-          // XXX: normalizing data until I fix this in API (seanc)
-          data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
-
-          that.currentData = data;
-          that._contextRequest = null;
-
           that._updateContext(data);
-
-          if(that.markersNeedRenconciled)that.renconcileMarkers();
-
         });
       },
+
       // create additional UI elements
       _setupExtras: function(root){
         //console.log("ROOT: ", root)
@@ -871,10 +921,15 @@
         var itemsEnter = items.enter()
           .append('li');
 
-        itemsEnter.append('a');
+        itemsEnter.append('p');
 
         items.exit().remove();
 
+        items.select('p')
+          .text(function(d){
+            return d.key + " - " + d.data.length;
+          });
+        /*
         items.select('a')
           .attr('href','#')
           .classed('active', function(d){
@@ -890,9 +945,21 @@
             var active = d3.select(this).classed('active');
             d3.select(this).classed('active', !active);
         });
+        */
       },
 
-      _updateContext: function(data){},
+      _updateContext: function(data){
+        // XXX: normalizing data until I fix this in API (seanc)
+        data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
+
+        this.currentData = data;
+        this.currentData.ts = +new Date();
+        this._contextRequest = null;
+        console.log("Update Context called")
+        if(this.markersNeedRenconciled)this.renconcileMarkers();
+        this.contextSet = true;
+
+      },
       _drawOverlays: function(data){},
 
       _setInfoWindowContent: function(infowindow, data){
@@ -966,6 +1033,9 @@
     GGNPC.overlayTools = {
       _markersByType:{},
       _filtered:{},
+      _markers:[],
+      _shapes:[],
+      _currentMarkersHash: {},
       _toggleMarkersByType: function(kind){
         var that = this;
         this._markers.forEach(function(m){
@@ -986,25 +1056,39 @@
                 props.attributes.parklocationtype : props.kind;
       },
 
+      _findMarker: function(id){
+        for(var i = 0; i < this.markers.length; i++){
+          if(this.markers[i].convioId === id) return this.markers[i];
+        }
+        return null;
+      },
+
+
+
       _addMarkers: function(data, skipFitBounds){
         var marker;
         var that = this;
 
-        console.log('Add Markers-> ', data);
+        //console.log('Add Markers-> ', data);
+
 
         if(this._markers){
           this._markers.forEach(function(marker){
-            marker.setMap(null);
+            if(!marker.isParent)marker.attached = false;
+            //marker.setMap(null);
           });
-        }
-        this._markers = [];
-        this._markersByType = {};
+        };
+
 
 
 
         // Children
         if(data.children){
           data.children.forEach(function(child){
+            if(that._findMarker(child.attributes.id) != null){
+              marker.attached = true;
+              return;
+            }
             //if(child.attributes.parklocationtype && child.attributes.parklocationtype != 'Parking Lot' ){
               //m._markerKind
             if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
@@ -1018,6 +1102,8 @@
                   });
                   marker._data = child;
                   that._markers.push(marker);
+                  marker.convioId = child.attributes.id;
+                  marker.attached = true;
 
                 }else if (child._markerKind == 'transparent'){
 
@@ -1035,6 +1121,9 @@
                   });
                   marker._data = child;
                   that._markers.push(marker);
+                  marker.convioId = child.attributes.id;
+                  marker.attached = true;
+
                 }
 
               }
@@ -1046,7 +1135,10 @@
         }
 
         // Parent
-        if(data.parent && data.parent.hasOwnProperty('latitude') && data.parent.hasOwnProperty('longitude')){
+        if(data.parent
+            && data.parent.hasOwnProperty('latitude')
+            && data.parent.hasOwnProperty('longitude')
+            && !that._findMarker(data.parent.attributes.id )) {
 
           marker = new google.maps.Marker({
               position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
@@ -1054,10 +1146,16 @@
           });
 
           marker._data = data.parent;
+          marker.attached = true;
+          marker.isParent = true;
           this._markers.push(marker);
-
-
         }
+
+        this._markers = this._markers.filter(function(d){
+          if(!marker.attached)marker.setMap(null);
+          return d.attached;
+        });
+
 
         // adjust map bounds only if fitBounds hasn't been called
         if(!skipFitBounds && this.options.markers.fitBounds){
@@ -1075,14 +1173,22 @@
 
         }
 
+
         // group by type
+        this._markersByType = {};
         this._markers.forEach(function(m){
           var attrs = m._data.attributes;
           var kind = m._kind = that._getMarkerType(m._data);
 
-          var visible = (that._filtered.hasOwnProperty(kind) && that._filtered[kind]) ? true:false;
+          var visible = (that._filtered.hasOwnProperty(kind) && that._filtered[kind]) ? true : false;
           m.visible = visible;
+
+          if(m || m.isParent){
+            visible = true;
+            m.visible = true;
+          }
           that._filtered[kind] = visible;
+
           m.setMap( (visible) ? that : null );
 
           if(!that._markersByType.hasOwnProperty(kind)){
@@ -1116,32 +1222,46 @@
 
       },
 
+      _clearGeometries: function(){
+        this._shapes.forEach(function(boundary){
+          if(boundary instanceof Array){
+            boundary.forEach(function(p){
+              p.setMap(null);
+            });
+          }else{
+            boundary.setMap(null);
+          }
+        });
+      },
+
       _drawOverlays: function(data, skipFitBounds) {
 
         var that = this;
         var fitBoundsCalled = skipFitBounds || false;
 
         // Outlines
-        console.log("Data -> ", data);
+        //console.log("Data -> ", data);
         if (data.outlines.length) {
           if (this._shapes) {
-            this._shapes.forEach(function(shape) {
-              shape.setMap(null);
-            });
-            this._shapes = null;
+            this._clearGeometries();
+            this._shapes = [];
           }
 
           // XXX will this data structure ever *not* exist?
+
           if(data.outlines){
             var bounds = new google.maps.LatLngBounds();
-            data.outlines.forEach(function(feature){
-              var feature = JSON.parse(feature.geom),
+            data.outlines.forEach(function(f){
+              var feature = JSON.parse(f.geom),
                   shapes = new GeoJSON(feature, that.options.outline, true);
+
               shapes.forEach(function(shape) {
                 shape.setMap(that);
               });
+              shapes[0].geojsonBounds = shapes.geojsonBounds;
+              shapes[0]._data = f.data;
 
-              this._shapes = shapes;
+              that._shapes.push(shapes[0]);
               if (shapes.geojsonBounds){
                 bounds.union(shapes.geojsonBounds)
               }
@@ -1151,6 +1271,24 @@
               fitBoundsCalled = true;
               this.fitBounds(bounds);
             }
+
+            this._shapes.forEach(function(m){
+              var infoWindow = new google.maps.InfoWindow({
+                title: 'hello' || null,
+                maxWidth: 320
+              });
+
+              google.maps.event.addListener(m, 'click', function() {
+
+                if (that._currentInfoWindow != null) {
+                    that._currentInfoWindow.close();
+                }
+                infoWindow.open(that);
+                infoWindow.setPosition(m.geojsonBounds.getCenter());
+                that._setInfoWindowContent(infoWindow, m._data);
+                that._currentInfoWindow = infoWindow;
+              });
+            });
 
           }
         }

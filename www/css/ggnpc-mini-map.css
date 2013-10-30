@@ -1,5 +1,6 @@
 
 #sidebar-map{
+  position: relative;
   height: auto;
   border: none !important;
   margin-bottom: 0 !important;

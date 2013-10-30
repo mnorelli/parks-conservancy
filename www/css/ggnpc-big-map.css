@@ -9,6 +9,8 @@
     z-index: 10;
 }
 
+#footer, #footer2{ display: none; }
+
 #footer{
     margin-top: -30px;
     background: #fff;
