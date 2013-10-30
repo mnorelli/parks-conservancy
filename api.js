@@ -923,10 +923,18 @@ var getBlankResponse = function(){
     };
 }
 
+
+var base = "http://www.parksconservancy.org/";
 var _getRecordByUrl = function(url, geo, callback){
     if(url.charAt(0) == '#')url = url.slice(1);
-    var queryUrl = '%' + url;
-    var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes->'url' LIKE $1";
+    if(url.charAt(0) == '/')url = url.slice(1);
+
+    var queryUrl = (url.indexOf('http') === 0) ? url : base + url;
+
+
+    console.log("url-> ", queryUrl)
+
+    var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes->'url' = $1";
     var params = [queryUrl];
 
     db.runQuery(query, params, function(err, data){
@@ -965,6 +973,7 @@ var getRecordByUrl = function(req, res, next){
     var out = getBlankResponse();
 
     out.context = ctx;
+
 
     if(!url){
         res.json(200, {error: 'invalid parameters'});
@@ -1116,6 +1125,6 @@ server.get('/trips/:id/elevation-profile.svg', trips.getElevationProfileForTrip)
 
 // start server
 //process.env.PORT || 5555
-server.listen( process.env.PORT || 5555, function() {
+server.listen(5555, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
