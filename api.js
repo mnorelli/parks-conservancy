@@ -651,132 +651,100 @@ var getItemsFromBBox = function(req, res, next){
      var relatedparks = {};
      var relatedparksTasks = [];
      var points = [];
-     resultsObj.results.forEach(function(item){
 
-         if(item && item.hasOwnProperty('attributes')){
-             if(item.kind == 'park' && item.attributes.filename){
+     async.each(resultsObj.results, function(item,next){
 
-                 if(!found[item.attributes.filename]){
-                     found[item.attributes.filename] = 1;
-                     parkboundaries.push(item.attributes.filename);
-                 }
+        if(item && item.hasOwnProperty('attributes')){
+            if(item.kind == 'park' && item.attributes.filename){
 
-             }else if(item.kind == 'location' && item.attributes.parklocationtype && item.attributes.parklocationtype == 'Trailhead'){
-                 if(!found[item.attributes.title]){
-                     //trails.push(item.attributes.title);
-                 }
-             }else if(item.attributes && item.attributes.relatedpark){
+                if(!found[item.attributes.filename]){
+                    found[item.attributes.filename] = 1;
+                    parkboundaries.push(item.attributes.filename);
+                }
+                return next();
 
-                var pt = "ST_Contains(geom, ST_Transform('SRID=4326;POINT("+item.longitude+' '+item.latitude+")'::geometry, 900913))"
-                points.push(pt);
+            }else if(item.kind == 'location' && item.attributes.parklocationtype && item.attributes.parklocationtype == 'Trailhead'){
+                if(!found[item.attributes.title]){
+                    trails.push(item.attributes.title);
+                }
+                return next()
 
-             }
-             //37.61924,-122.48643
-             /*
+            }else if(item.attributes && item.attributes.relatedpark){
+                var query = "select attributes->'filename' as filename from convio where attributes->'id'=$1";
+                var params = [item.attributes.relatedpark];
 
-             select unit_name from park_units where ST_Within( ST_Transform('SRID=4326;POINT(-122.47643 37.61924)'::geometry, 900913), geom);
+                db.runQuery(query, params, function(err, data){
+                    if(err)
+                        return next(err);
+                    var filename;
+                    // XXX: not sure if it will be there all the time...
+                    try{
+                        filename = data.rows[0].filename;
+                    }catch(e){}
 
-             select unit_name from park_units where ST_Within( ST_Transform('SRID=4326;POINT(-122.497778 37.62)'::geometry, 900913), geom);
-             37.62, -122.497778
+                    if(filename && !found[filename]){
+                        found[filename] = 1;
+                        parkboundaries.push(filename);
+                    }
+                    next();
+                });
 
-             if(item.attributes && item.attributes.relatedpark){
-                 var parkid = item.attributes.relatedpark;
-                 if(!relatedparks[parkid]){
-                     relatedparks[parkid] = 1;
-
-                     var task = {};
-                     var query = "select attributes->'filename' from convio where attributes->'id'=$1";
-                     var params = [parkid];
-                     db.runQuery(query, params, function(err, data){
-                        if(data){
-
-                            db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
-                                if(err){
-                                    cb();
-                                }else{
-                                    prop_.push(out);
-                                    cb();
-                                }
-                            });
-
-                        }
-
-                     })
-
-
-
-
-                     relatedparksTasks.push(task);
-
-                 }
-             }
-             */
-
-         }
-     });
-
-     if(parkboundaries.length ){
-        var where = "WHERE";
-        var params = [];
-        if(parkboundaries.length){
-            var arr = [];
-            for(var i = 1; i <= parkboundaries.length; i++) {
-                arr.push('$'+i);
+            }else{
+                next();
             }
-            where = " convio_filename IN (" + arr.join(',') + ")";
-            params.push(parkboundaries);
+        }else{
+            next();
         }
 
 
-         if(points.length){
-            points.forEach(function(pt){
-                if(where != 'WHERE'){
-                    where += " or " + pt;
-                }else{
-                    where += " " + pt;
+
+     }, function(err){
+        if(parkboundaries.length ){
+           var arr = [];
+           for(var i = 1; i <= parkboundaries.length; i++) {
+               arr.push('$'+i);
+           }
+           var where = "WHERE convio_filename IN (" + arr.join(',') + ")";
+           var params = parkboundaries;
+
+            var task = {
+                prop: geojson,
+                attrs:'',
+                query: function(attrs_, prop_, cb){
+                    db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
+                        if(err){
+                            cb();
+                        }else{
+                            prop_.push(out);
+                            cb();
+                        }
+                    });
                 }
+            }
+            tasks.push(task);
+        }
+        if(tasks.length){
+            var q = async.queue(function (task, qcallback) {
 
-            });
-            console.log(where);
-         }
+                task.query(task.attrs, task.prop, function(err){
+                    qcallback();
+                });
 
-         var task = {
-             prop: geojson,
-             attrs:'',
-             query: function(attrs_, prop_, cb){
-                 db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
-                     if(err){
-                         cb();
-                     }else{
-                         prop_.push(out);
-                         cb();
-                     }
-                 });
-             }
-         }
-         tasks.push(task);
-     }
-     if(tasks.length){
-         var q = async.queue(function (task, qcallback) {
+            }, 2);
 
-             task.query(task.attrs, task.prop, function(err){
-                 qcallback();
-             });
+            q.drain = function() {
 
-         }, 2);
+                resultsObj.geojson = geojson;
+                callback(null, resultsObj);
+            };
 
-         q.drain = function() {
+            q.push(tasks, function (err, data) {});
 
-             resultsObj.geojson = geojson;
-             callback(null, resultsObj);
-         };
-
-         q.push(tasks, function (err, data) {});
-
-     }else{
-         resultsObj.geojson = geojson;
-         callback(null, resultsObj);
-     }
+        }else{
+            resultsObj.geojson = geojson;
+            callback(null, resultsObj);
+        }
+     });
 
  };
 
@@ -1049,12 +1017,7 @@ var getRecordByUrl = function(req, res, next){
         }
 
         async.waterfall(queries,function(err, data){
-            if(err){
-                res.json(200, {});
-            }else{
-                res.json(200, out);
-            }
-
+            res.json(200,out);
         });
 
     }
@@ -1152,6 +1115,6 @@ server.get('/trips/:id/elevation-profile.svg', trips.getElevationProfileForTrip)
 
 // start server
 //process.env.PORT || 5555
-server.listen( 5555, function() {
+server.listen( process.env.PORT || 5555, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
