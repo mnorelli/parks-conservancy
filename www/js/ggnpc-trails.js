@@ -9,7 +9,8 @@
       // FIXME: remove baseURL when this is live
       api: new ggnpc.API("http://localhost:5000/"),
       trailDataUri: "trips.json",
-      autoLoad: true
+      autoLoad: true,
+      expandLinkText: "View Detail + Map"
     },
 
     initialize: function(root, options) {
@@ -55,6 +56,8 @@
       trails = this._trails = trails.slice();
 
       trails.forEach(function(d) {
+        d.expanded = false;
+
         var points = d.geometry.coordinates,
             changes = [];
         points.forEach(function(c, i) {
@@ -79,10 +82,11 @@
         .append("div")
           .attr("class", "trail");
 
-      var left = enter.append("div")
+      var row = enter.append("div")
+        .attr("class", "row");
+      var left = row.append("div")
         .attr("class", "column left");
-
-      var right = enter.append("div")
+      var right = row.append("div")
         .attr("class", "column right");
 
       var title = left.append("h3")
@@ -106,14 +110,31 @@
       image.append("img")
         .attr("class", "thumbnail");
       image.append("svg")
-        .attr("class", "trail");
+        .attr("class", "graph");
 
       left.append("a")
         .attr("class", "expand")
         .text(this.options.expandLinkText)
+        .attr("href", function(d) {
+          return "#trail-" + d.id;
+        })
         .on("click", function(d) {
-          // that.expandTrail(d, this);
+          // don't set the hash
+          d3.event.preventDefault();
+
+          var expanded = d.expanded = !d.expanded;
+          var node = this.parentNode.parentNode.parentNode;
+          if (expanded) {
+            that.expandTrail(d, node);
+          } else {
+            that.collapseTrail(d, node);
+          }
         });
+
+      enter.append("div")
+        .attr("class", "row")
+        .append("div")
+          .attr("class", "map");
 
       // update
       items
@@ -141,65 +162,25 @@
           return that.api.getUrl("trips/" + d.id + "/elevation-profile.svg");
         });
 
-      return; // XXX
-      var render = this.renderer();
-      // XXX more options here?
-      items.call(render);
+      location.replace(location.hash);
     },
 
-    renderer: function() {
-      var that = this,
-          options = this.options;
-      return function() {
-        var width = 500,
-            height = 200;
+    expandTrail: function(trail, node) {
+      var root = d3.select(node)
+        .classed("expanded", true);
 
-        var xa = d3.svg.axis()
-          .orient("bottom");
+      var svg = root.select("svg.graph"),
+          mapRoot = root.select(".map");
 
-        var ya = d3.svg.axis()
-          .orient("left");
+      var map = trail.map || (trail.map = new ggnpc.maps.Map(mapRoot.node()));
+      map.resize();
+    },
 
-        var color = d3.scale.linear()
-          .domain([0,     1000,   5000,   10000])
-          .range(["#00f", "#0f0", "#ff0", "#f00"]);
+    collapseTrail: function(trail, node) {
+      var root = d3.select(node)
+        .classed("expanded", false);
 
-        var render = function(selection) {
-          var svg = selection.select("svg.trail");
-
-          var g = svg.selectAll("g.render")
-            .data(function(d) { return [d]; });
-          g.exit().remove();
-          g.enter().append("g")
-            .attr("class", "render");
-
-          // elevation (feet)
-          var yScale = d3.scale.linear()
-            .domain([0, 10000]) // TODO derive from data
-            .range([height, 0]);
-
-          // time (minutes? seconds?)
-          var xScale = d3.scale.linear()
-            .domain([0, 500]) // TODO derive from data
-            .range([height, 0]);
-
-          var map = selection.select(".map")
-            .each(function(d) {
-              var map = d._map || (d._map = new TrailMap(this));
-              map.setData(d);
-            });
-        };
-
-        render.remove = function(selection) {
-          selection.select(".map")
-            .each(function(d) {
-              d._map.remove();
-              d._map = null;
-            });
-        };
-
-        return render;
-      };
+      // XXX dispose google map?
     }
   });
 

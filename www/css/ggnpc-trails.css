@@ -12,24 +12,34 @@
   font-weight: bold;
 }
 
-.trails > .trail {
+.trails .trail {
   border-top: 1px solid #999;
   padding: 20px 0;
   clear: both;
 }
 
-.trails > .trail:after {
+.trails .row {
+  clear: both;
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.trails .row:after {
   display: table;
   height: 0;
   clear: both;
   content: " ";
 }
 
-.trails .trail .column {
+.trails .column {
   float: left;
   width: 50%;
        box-sizing: border-box;
   -moz-box-sizing: border-box;
+}
+
+.trails .column.left {
+  padding-right: 10px;
 }
 
 .trails .trail .title .text {
@@ -44,6 +54,10 @@
   font-size: 12px;
   font-weight: 200;
   text-transform: uppercase;
+}
+
+.trails .trail .details {
+  margin: 0 0 10px 0;
 }
 
 .trails .trail .details span {
@@ -64,6 +78,8 @@
   width: 20px;
   text-align: center;
   content: "⇅";
+  color: #000;
+  font-weight: bold;
 }
 
 .trails .trail .image {
@@ -78,4 +94,27 @@
 
 .trails .trail .image svg {
   height: 0;
+}
+
+.trails .trail a.expand {
+  display: block;
+  text-decoration: none;
+}
+
+.trails .trail.expanded .image img {
+  display: none;
+}
+
+.trails .trail.expanded .image svg {
+  border: 1px solid red;
+  height: 100px;
+}
+
+.trails .trail.expanded .map {
+  height: 0;
+}
+
+.trails .trail.expanded .map {
+  margin-top: 20px;
+  height: 200px;
 }
