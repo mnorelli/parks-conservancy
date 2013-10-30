@@ -29,8 +29,12 @@
   };
 
   API.prototype = {
+    getUrl: function(uri) {
+      return this.baseUrl + uri;
+    },
+
     get: function(uri, callback) {
-      var url = this.baseUrl + uri;
+      var url = this.getUrl(uri);
       return this._load(url, callback);
     }
   };
