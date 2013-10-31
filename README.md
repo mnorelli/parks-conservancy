@@ -27,6 +27,7 @@ git clone git@github.com:stamen/parks-conservancy.git -b <branch> parks-conserva
   (staging)
 * stamen-parks-dev - http://dev.parks.stamen.com/ - site templates (dev)
 * stamen-parks-api-staging - Convio API wrapper (staging)
+* stamen-parks-inject - http://stamen-parks-inject.herokuapp.com
 
 ## Heroku Databases
 

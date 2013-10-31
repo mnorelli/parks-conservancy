@@ -198,7 +198,7 @@
 
     maps.GridMapType.prototype.checkTilesLoaded = function(){
       var that = this;
-      //console.log("Queue-> ", this.queue.length);
+      console.log("Queue-> ", this.queue.length);
       if(this.queue.length <= 0){
         //console.log("Queue Done!");
         //console.log('Tiles-> ', this.tiles);
@@ -248,6 +248,10 @@
     };
     maps.GridMapType.prototype.loadjson = function(tile){
 
+      if(tile.cacheKey == 'null'){
+        this.tileFailed(tile);
+        return;
+      }
       if(this.tiles[tile.cacheKey]){
         this.tileLoaded( this.tiles[tile.cacheKey] );
         return;
@@ -280,30 +284,36 @@
 
     maps.GridMapType.prototype.getTile = function(coord, zoom, ownerDocument){
 
-      var t = this.getTileUrl(coord,zoom);
-      if(!t) return null;
+      var t = this.getTileUrl(coord,zoom),
+          tile;
+      if(t) {
 
-      if(this.queueHash.hasOwnProperty(t.cacheKey)) return null;
-      this.queueHash[t.cacheKey] = 1;
+        if(this.queueHash.hasOwnProperty(t.cacheKey)) return null;
+        this.queueHash[t.cacheKey] = 1;
 
-      var tile = {
-        cacheKey: t.cacheKey,
-        url: t.tileUrl,
-        data: null,
-        x:t.normalizedCoord.x,
-        y:t.normalizedCoord.y,
-        z:zoom,
-        attempts: 0,
-        status: 'waiting'
-      };
-      this.queue.push(tile);
+        tile = {
+          cacheKey: t.cacheKey,
+          url: t.tileUrl,
+          data: null,
+          x:t.normalizedCoord.x,
+          y:t.normalizedCoord.y,
+          z:zoom,
+          attempts: 0,
+          status: 'waiting'
+        };
+        this.queue.push(tile);
+      }else{
+        tile = {cacheKey: 'null'};
+        this.queue.push(tile);
+      }
 
-      this.loadjson(tile);
+        this.loadjson(tile);
 
-      var img = new Image(256, 256);
-      img.src = this.blankImage;
-      img.style.display = 'none';
-      //img.onerror = function() { img.style.display = 'none'; };
+        var img = new Image(256, 256);
+        img.src = this.blankImage;
+        img.style.display = 'none';
+        //img.onerror = function() { img.style.display = 'none'; };
+
 
       return img;
 
@@ -316,7 +326,7 @@
 
     maps.GridMapType.prototype.getTileUrl = function(coord, zoom) {
       coord = this.getNormalizedCoord(coord, zoom);
-      if (!coord) return null;
+      if (!coord || zoom < this.minZoom || zoom > this.maxZoom) return null;
       var x = coord.x,
           y = coord.y,
           i = (zoom + x + y) % this.subdomains.length,
