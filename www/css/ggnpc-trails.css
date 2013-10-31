@@ -159,6 +159,11 @@
   width: 100%;
 }
 
+.trails .trail .image img {
+  /* so that unloaded images don't go 1x1 */
+  max-height: 60px;
+}
+
 .trails .trail .image svg {
   display: none;
 }
@@ -198,6 +203,7 @@
   display: block;
   margin-top: 10px;
   height: 360px;
+  background-color: #eee !important;
 }
 
 .trails .trail.expanded .other-links {

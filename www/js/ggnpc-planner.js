@@ -2283,7 +2283,7 @@
             title = parts[0],
             id = parts[1];
         if (title === "trip") {
-          return this.api.get("trips/" + id + ".json", function(error, data) {
+          return this.api.get("trips/" + id + ".json?minimal=true", function(error, data) {
             if (error) return callback(null, str);
             // data is a GeoJSON FeatureCollection,
             // so grab the first feature and its properties
