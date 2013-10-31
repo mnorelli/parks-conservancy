@@ -86,7 +86,7 @@
           console.error("unable to load trails:", error);
           return callback ? callback(error) : null;
         }
-        that.setTrails(data.features);
+        that.setTrails(data);
         if (callback) callback(null, that.getTrails());
       });
     },
@@ -95,8 +95,8 @@
       return this._trails.slice();
     },
 
-    setTrails: function(trails) {
-      trails = this._trails = trails.slice();
+    setTrails: function(collection) {
+      var trails = this._trails = collection.features;
 
       var distances = [],
           elevations = [];
