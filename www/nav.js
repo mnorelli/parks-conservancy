@@ -68,6 +68,9 @@
             .attr("href", function(d) {
               return [mapUrl, d.href].join("#");
             });
+
+      menus.selectAll(".stamen a")
+        .style("color", "#f0f", true);
     }
   }
 
