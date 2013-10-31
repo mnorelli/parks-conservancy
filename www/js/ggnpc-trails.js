@@ -274,7 +274,8 @@
       var root = d3.select(node)
         .classed("expanded", true);
 
-      var svg = root.select("svg.graph"),
+      var svg = root.select("svg.graph")
+            .attr("shape-rendering", "crispEdges"),
           g = svg.select("g.content"),
           mapRoot = root.select(".map"),
           margin = {
@@ -287,10 +288,10 @@
           height = svg.property("offsetHeight"),
           xScale = d3.scale.linear()
             .domain(this.distanceDomain)
-            .range([margin.left, width - margin.right]),
+            .rangeRound([margin.left, width - margin.right]),
           yScale = d3.scale.linear()
             .domain(this.elevationDomain)
-            .range([height - margin.bottom, margin.top])
+            .rangeRound([height - margin.bottom, margin.top])
             .nice(),
           yMin = yScale.domain()[0],
           yMax = yScale.domain()[1],
