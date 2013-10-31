@@ -201,7 +201,7 @@
 }
 
 .trail path.segment.out-of-bounds {
-  stroke: #ccc !important;
+  stroke: #eee !important;
 }
 
 .trail .axis path,
