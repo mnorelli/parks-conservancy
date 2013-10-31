@@ -172,7 +172,7 @@
           .attr("class", "trail");
 
       var title = enter.append("h3")
-        .attr("class", "title");
+        .attr("class", "title toggle");
       title.append("span")
         .attr("class", "text");
       title.append("span")
@@ -186,7 +186,7 @@
         .attr("class", "column right");
 
       var details = left.append("div")
-        .attr("class", "details");
+        .attr("class", "details toggle");
       details.append("span")
         .attr("class", "distance");
       details.append("span")
@@ -195,7 +195,7 @@
         .attr("class", "intensity");
 
       var image = right.append("div")
-        .attr("class", "image");
+        .attr("class", "image toggle");
       image.append("img")
         .attr("class", "thumbnail");
       image.append("svg")
@@ -207,7 +207,7 @@
         .attr("class", "links");
 
       links.append("a")
-        .attr("class", "expand")
+        .attr("class", "expand toggle")
         .text(this.options.expandLinkText);
       links.append("a")
         .attr("class", "directions")
@@ -269,7 +269,9 @@
       items.select("a.expand")
         .attr("href", function(d) {
           return d.href = ("#trail-" + d.id);
-        })
+        });
+
+      items.selectAll(".toggle")
         .on("click", function(d) {
           d3.event.preventDefault();
           var expanded = !d.expanded,

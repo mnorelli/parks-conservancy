@@ -239,3 +239,7 @@
 .trail svg .hilite text {
   text-shadow: 0 0 2px #fff;
 }
+
+.trail .toggle {
+  cursor: pointer;
+}
