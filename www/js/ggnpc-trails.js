@@ -174,7 +174,9 @@
         });
         */
 
-      location.replace(location.hash);
+      if (location.hash) {
+        location.replace(location.hash);
+      }
     },
 
     expandTrail: function(trail, node) {
