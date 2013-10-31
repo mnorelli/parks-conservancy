@@ -273,8 +273,7 @@
         .on("click", function(d) {
           d3.event.preventDefault();
           var expanded = !d.expanded,
-              // XXX this is stupid.
-              node = this.parentNode.parentNode.parentNode;
+              node = utils.getAncestorByClassName(this, "trail");
           if (expanded) {
             that.expandTrail(d, node);
             preserveScroll(function() {
