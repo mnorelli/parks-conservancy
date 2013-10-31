@@ -15,7 +15,15 @@
         "Easy",
         "Moderate",
         "Strenuous"
-      ]
+      ],
+      tntLinkFormat: "http://www.transitandtrails.org/trips/{id}",
+      // whether to attempt fitting trails more snugly within the map
+      fitTrailsSnugly: true,
+      // how much space to give trails when fitting the map to their bounds
+      trailFitBuffer: {
+        latitude: .0005,
+        longitude: .0001
+      }
     },
 
     initialize: function(root, options) {
@@ -476,13 +484,25 @@
 
       // console.log("bounds:", bounds.toString());
       map.fitBounds(bounds);
+      if (this.options.fitTrailsSnugly) {
+        // zoom in, check buffered containment
+        map.setZoom(map.getZoom() + 1);
+        var buffer = this.options.trailFitBuffer,
+            buffered = buffer
+              ? bufferBounds(bounds,
+                  buffer.latitude,
+                  buffer.longitude)
+              : bounds;
+        if (!boundsContains(map.getBounds(), buffered)) {
+          map.setZoom(map.getZoom() - 1);
+        }
+      }
 
       var boundsChanged = utils.debounce(function() {
         var extent = map.getBounds(),
             oob;
         // if the extent is contained within the bounds, then all are in bounds
-        if (extent.contains(bounds.getNorthEast()) &&
-            extent.contains(bounds.getSouthWest())) {
+        if (boundsContains(extent, bounds)) {
           oob = false;
         // otherwise, check each segment individually
         } else {
@@ -587,6 +607,20 @@
     stashScroll();
     fn();
     popScroll();
+  }
+
+  function boundsContains(outer, inner) {
+    return outer.contains(inner.getNorthEast())
+        && outer.contains(inner.getSouthWest());
+  }
+
+  function bufferBounds(bounds, latBuffer, lonBuffer) {
+    var ne = bounds.getNorthEast(),
+        sw = bounds.getSouthWest();
+    return new google.maps.LatLngBounds(
+      new google.maps.LatLng(ne.lat() + latBuffer, ne.lng() + lonBuffer),
+      new google.maps.LatLng(sw.lat() - latBuffer, sw.lng() - lonBuffer)
+    );
   }
 
 })(this);
