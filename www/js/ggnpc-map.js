@@ -718,6 +718,13 @@
           that.dragging = false;
         });
 
+        this.tooltip = new InfoBox({
+          boxClass: 'ggnpc-tooltip',
+          disableAutoPan: true,
+          closeBoxURL: "",
+          pixelOffset: new google.maps.Size(0, -50)
+
+        });
         //
       },
 
@@ -1358,6 +1365,7 @@
         // assign infoWindows,
         // needs a _setInfoWindowContent fn in parent
         // XXX: remove dependency on parent fn
+        // XXX: needs to be cleaned up, sorry
         if(!this._setInfoWindowContent)return;
 
         this._markers.forEach(function(m){
@@ -1370,11 +1378,52 @@
 
           m.hasInfoWindow = true;
 
+          // marker mouseover
+          google.maps.event.addListener(m, 'mouseover', function() {
+            that.tooltip.open(that,m);
+            var content;
+            if(m.isBaked){
+              if(that._bakedData[m.convioId]){
+                that.tooltip.open(that,m);
+                content = that._bakedData[m.convioId].attributes.title || "";
+                that.tooltip.setContent("<p>" + content + "</p>");
+
+              }else{
+                var url = that.apiUrl + "location/file/" + encodeURIComponent(m._data.filename);
+
+                if(that.bakedDataRequest) that.bakedDataRequest.abort();
+
+                that.bakedDataRequest = d3.json(url, function(err, data){
+                  if(data){
+                    that._bakedData[m.convioId] = data.results[0];
+                    content = (that._bakedData[m.convioId]) ? that._bakedData[m.convioId].attributes.title : null;
+                    if(content){
+                      that.tooltip.open(that,m);
+                      that.tooltip.setContent("<p>" + content + "</p>");
+                    }
+
+                  }
+                });
+              }
+            }else{
+              that.tooltip.open(that,m);
+              content = m._data.attributes.title || "";
+              that.tooltip.setContent("<p>" + content + "</p>");
+            }
+          });
+
+          // marker mouseout
+          google.maps.event.addListener(m, 'mouseout', function() {
+            that.tooltip.close();
+            that.tooltip.setContent("");
+
+          });
+
+          // marker click
           google.maps.event.addListener(m, 'click', function() {
             if (that._currentInfoWindow != null) {
                 that._currentInfoWindow.close();
             }
-
 
             if(m.isBaked){
               if(that._bakedData[m.convioId]){

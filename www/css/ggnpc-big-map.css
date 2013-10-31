@@ -66,6 +66,23 @@
 
 .gm-style-iw a.directions {}
 
+/* tooltip*/
+.gm-style div.ggnpc-tooltip{
+    background: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+}
+.ggnpc-tooltip p{
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    white-space: nowrap;
+}
+
+
 .panel{
     position: absolute;
     z-index: 9999;

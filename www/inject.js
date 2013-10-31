@@ -66,6 +66,7 @@
         name: "big-map",
         reqs: [
           "js/vendor/d3.v3.min.js",
+          'js/vendor/infobox.js',
           "js/vendor/geojson.js",
           "css/ggnpc-big-map.css"
         ],
