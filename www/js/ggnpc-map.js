@@ -662,7 +662,7 @@
           'outlines':[]
         };
         this.outlinesOnly = ['park'];
-        this.notClickable = ['Restroom','Parking Lot'];
+        this.notClickable = ['Restroom'];
         this.currentData ={
           contextSet:false,
           parent:{},
@@ -707,7 +707,6 @@
 
 
       renconcileMarkers: function(){
-        console.log("renconcileMarkers")
         if(!this.currentData.contextSet){
           this.markersNeedRenconciled  = true;
           return;
@@ -742,6 +741,7 @@
             m._markerKind = null;
             that.currentData.outlines.forEach(function(outline){
               if(outline.unit_name == m.attributes.title)outline.data = utils.extend({}, m);
+
             });
           }/*else if(m.baked && bm.indexOf(m.attributes.filename) > -1 && that.notClickable.indexOf(kind) < 0){ // is there a baked marker
             m._markerKind = 'transparent';
@@ -758,6 +758,7 @@
         that.currentData.children = that.currentData.children.filter(function(m){
           return m._markerKind;
         });
+
 
         console.log('Marker Counts -> ', counts);
 
@@ -871,7 +872,6 @@
       // this should only fire on initial load
       // further updates happen on bounds change
       _setContext: function(file) {
-
         if (this._contextRequest) this._contextRequest.abort();
 
         // XXX abstract this in GGNPC.API?
@@ -956,22 +956,26 @@
         */
       },
 
-      _updateContext: function(data){
+      _processCurrentData: function(data){
         // XXX: normalizing data until I fix this in API (seanc)
         this.currentData.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
-
-        this.currentData.children = data.results || [];
+        this.currentData.children = data.results || data.children || [];
         this.currentData.ts = +new Date();
-        this.currentData.parent = data.parent || {};
+        this.currentData.parent = data.parent || this.currentData.parent || {};
+      },
 
-        this._contextRequest = null;
+      _updateContext: function(data){
+        this._processCurrentData(data);
+
         if(this.currentData.parent && this.currentData.parent.kind){
           this.parentMarker = this.currentData.parent;
         }else{
           this.parentMarker = null;
         }
-
+        this.currentData.context = data.context;
         this.currentData.contextSet = true;
+
+        this._contextRequest = null;
         if(this.markersNeedRenconciled)this.renconcileMarkers();
 
 
@@ -1167,9 +1171,10 @@
                   anchor: new google.maps.Point(0,0),
                   path: 'M -12,-12 12,-12 12,12 -12,12 z',
                   fillColor: '#000',
-                  fillOpacity: 0.2,
+                  fillOpacity: 0,
                   scale: 1,
-                  stroke: 'none'
+                  strokeColor: 'none'
+
                 }
             });
             marker._data = item;
@@ -1266,7 +1271,7 @@
         this._markers.forEach(function(m){
           if(m.hasInfoWindow) return;
           var infoWindow = new google.maps.InfoWindow({
-            title: null,
+            title: "",
             maxWidth: 320,
             disableAutoPan: true
           });
@@ -1352,6 +1357,10 @@
           if(data.outlines){
             var bounds = new google.maps.LatLngBounds();
             data.outlines.forEach(function(f){
+              if(!f.data) return;
+              if(that.parentMarker
+                && that.parentMarker.attributes.id != f.data.attributes.id) return;
+
               var feature = JSON.parse(f.geom),
                   shapes = new GeoJSON(feature, that.options.outline, true);
 
