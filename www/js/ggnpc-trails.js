@@ -453,7 +453,10 @@
         .attr("fill", "none")
         .attr("pointer-events", "all")
         .on("mouseover", function(d, i) { focus(i); })
-        .on("mouseout", function(d, i) { blur(i); });
+        .on("mouseout", function(d, i) { blur(i); })
+        .on("click", function(d) {
+          map.setCenter(d.start.latlng);
+        });
 
       var hilite = fg.select(".hilite");
       if (hilite.empty()) {
