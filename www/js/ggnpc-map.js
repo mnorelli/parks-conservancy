@@ -194,12 +194,12 @@
 
     maps.GridMapType.prototype.checkTilesLoaded = function(){
       var that = this;
-      //console.log("Queue-> ", this.queue.length);
+      console.log("Queue-> ", this.queue.length);
       if(this.queue.length <= 0){
         //console.log("Queue Done!");
         //console.log('Tiles-> ', this.tiles);
         this.resolveMarkersInView();
-        //console.log("Markers-> ", this.markerIdsInView);
+        console.log("Markers-> ", this.markerIdsInView);
 
         // firing in 'this' context failed
         google.maps.event.trigger(window, 'tileJsonLoaded');
@@ -214,7 +214,7 @@
         var data = t.data.data;
         for(var obj in data){
           var filename = data[obj].filename || null;
-          if(filename && filename.length) that.markerIdsInView.push(filename);
+          if(filename && filename.length) that.markerIdsInView.push(data[obj]);
         }
       }
     };
@@ -511,11 +511,10 @@
           }
 
           // XXX: normalizing data until I fix this in api
-          //data.outlines = data.geojson[0] || [];
-          data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
-          //data.outlines = data.outlines[0].results || [];
-          //data.parent = data.results[0] || {};
 
+          data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
+
+          if(data.outlines.length)data.parent.hide = true;
 
 
           that._updateContext(data);
@@ -660,7 +659,14 @@
           'outlines':[]
         };
         this.outlinesOnly = ['park'];
-        this.notClickable = ['Restroom']
+        this.notClickable = ['Restroom'];
+        this.currentData ={
+          contextSet:false,
+          parent:{},
+          markers:[],
+          outlines:[],
+          baked:[]
+        }
 
         // load content from api
         if(this.options.path) this._setContext(this.options.path);
@@ -674,7 +680,7 @@
           //console.log("Event-> tile json loaded");
           //console.log(tilejsonLayer.getMarkers())
 
-          that.bakedMarkers = tilejsonLayer.getMarkers();
+          that.currentData.baked = tilejsonLayer.getMarkers();
           if(!initTilesLoadedCall){
             that.renconcileMarkers();
             initTilesLoadedCall = true;
@@ -696,9 +702,10 @@
         //
       },
 
-      renconcileMarkers: function(){
 
-        if(!this.currentData){
+
+      renconcileMarkers: function(){
+        if(!this.currentData.contextSet){
           this.markersNeedRenconciled  = true;
           return;
         }
@@ -720,6 +727,8 @@
           'types': {}
         }
 
+
+
         this.currentData.children.forEach(function(m){
           var kind = that._getMarkerType(m); // returns a normalized kind, more of a type
 
@@ -731,10 +740,10 @@
             that.currentData.outlines.forEach(function(outline){
               if(outline.unit_name == m.attributes.title)outline.data = utils.extend({}, m);
             });
-          }else if(m.baked && bm.indexOf(m.attributes.filename) > -1 && that.notClickable.indexOf(kind) < 0){ // is there a baked marker
+          }/*else if(m.baked && bm.indexOf(m.attributes.filename) > -1 && that.notClickable.indexOf(kind) < 0){ // is there a baked marker
             m._markerKind = 'transparent';
             counts['transparent'] ++;
-          }else if(!m.baked && !that.parentMarker){ // else if not baked, display as pin
+          }*/else if(!m.baked && !that.parentMarker){ // else if not baked, display as pin
             m._markerKind = 'pin';
             counts['pins'] ++;
           }else{
@@ -893,7 +902,7 @@
         this._contextRequest = d3.json(url, function(error, data) {
           if (error) {
             console.warn("big-map: no such context:", file, error);
-            this.contextSet = true;
+            this.currentData.contextSet = true;
             return;
           }
 
@@ -965,19 +974,22 @@
 
       _updateContext: function(data){
         // XXX: normalizing data until I fix this in API (seanc)
-        data.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
+        this.currentData.outlines = (data.outlines && data.outlines.length) ? data.outlines[0].results : [];
 
-        this.currentData = data;
+        this.currentData.children = data.results || [];
         this.currentData.ts = +new Date();
+        this.currentData.parent = data.parent || {};
+
         this._contextRequest = null;
         if(this.currentData.parent && this.currentData.parent.kind){
           this.parentMarker = this.currentData.parent;
         }else{
           this.parentMarker = null;
         }
-        console.log("Update Context called")
+
+        this.currentData.contextSet = true;
         if(this.markersNeedRenconciled)this.renconcileMarkers();
-        this.contextSet = true;
+
 
       },
       _drawOverlays: function(data){},
@@ -1084,27 +1096,24 @@
       },
 
 
-
       _addMarkers: function(data, skipFitBounds){
         var marker;
         var that = this;
 
         //console.log('Add Markers-> ', data);
 
-
+        // mark as unattached
         if(this._markers){
           this._markers.forEach(function(marker){
-            if(!marker.isParent)marker.attached = false;
+            if(!marker.isParent )marker.attached = false;
             //marker.setMap(null);
           });
-        };
-
-
+        }
 
 
         // Children
         if(data.children){
-          data.children.forEach(function(child){
+          data.children.forEach(function(child, i){
             var marker = that._findMarker(child.attributes.id);
             if(marker != null){
               marker.attached = true;
@@ -1114,12 +1123,13 @@
               //m._markerKind
             if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
 
-              if(child._markerKind){
+              if(child._markerKind && !child.hide){
 
                 if(child._markerKind == 'pin'){
                   marker = new google.maps.Marker({
                       position: new google.maps.LatLng(child.latitude, child.longitude),
-                      map: that
+                      map: that,
+                      zIndex: 8000 + i
                   });
                   marker._data = child;
                   that._markers.push(marker);
@@ -1131,6 +1141,7 @@
                   marker = new google.maps.Marker({
                       position: new google.maps.LatLng(child.latitude, child.longitude),
                       map: that,
+
                       icon: {
                         anchor: new google.maps.Point(0,0),
                         path: 'M -12,-12 12,-12 12,12 -12,12 z',
@@ -1156,15 +1167,44 @@
           });
         }
 
+
+
+        // baked
+        if(data.baked && data.baked.length){
+          data.baked.forEach(function(item,i){
+
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(item.lat, item.lng),
+                map: that,
+                zIndex: google.maps.Marker.MAX_ZINDEX + i,
+                icon: {
+                  anchor: new google.maps.Point(0,0),
+                  path: 'M -12,-12 12,-12 12,12 -12,12 z',
+                  fillColor: '#000',
+                  fillOpacity: 0.8,
+                  scale: 1,
+                  stroke: 'none'
+                }
+            });
+            marker._data = item;
+            marker.convioId = item.id;
+            marker.attached = true;
+            marker.isBaked = true;
+            that._markers.push(marker);
+          });
+        }
+
         // Parent
         if(data.parent
             && data.parent.hasOwnProperty('latitude')
             && data.parent.hasOwnProperty('longitude')
-            && !this._findMarker(data.parent.attributes.id )) {
+            && !this._findMarker(data.parent.attributes.id )
+            && !data.parent.hide) {
 
           marker = new google.maps.Marker({
               position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
-              map: that
+              map: that,
+              zIndex: google.maps.Marker.MAX_ZINDEX + 2000
           });
 
           marker._data = data.parent;
@@ -1173,6 +1213,8 @@
           marker.convioId = data.parent.attributes.id
           this._markers.push(marker);
         }
+
+
 
         this._markers = this._markers.filter(function(marker){
           if(!marker.attached)marker.setMap(null);
