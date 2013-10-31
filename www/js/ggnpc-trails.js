@@ -252,11 +252,9 @@
         .html(function(d) { return d.properties.description; });
 
       items.select("img.thumbnail")
-        /*
         .attr("src", function(d) {
           return that.api.getUrl("trips/" + d.id + "/elevation-profile.png");
         });
-        */
 
       items.select("a.tnt")
         .attr("href", utils.template(this.options.tntLinkFormat));
