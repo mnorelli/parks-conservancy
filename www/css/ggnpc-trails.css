@@ -106,8 +106,8 @@
 }
 
 .trails .trail.expanded .image svg {
-  border: 1px solid red;
-  height: 100px;
+  background: #fafafa;
+  height: 74px; /* XXX this is the height of the SVGs @ 375px width */
 }
 
 .trails .trail.expanded .map {
