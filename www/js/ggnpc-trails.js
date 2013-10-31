@@ -10,12 +10,23 @@
       api: new ggnpc.API(),
       trailDataUri: "trips.json",
       autoLoad: true,
-      expandLinkText: "View Detail + Map",
+      expandLinkText: "View Detail & Map",
+      directionsLinkText: "Get Directions",
+      directionsLinkFormat: "/map/trip-planner.html?to=trip:{id}",
+      trailSort: "name",
       intensities: [
         "Easy",
         "Moderate",
         "Strenuous"
-      ]
+      ],
+      tntLinkFormat: "http://www.transitandtrails.org/trips/{id}",
+      // whether to attempt fitting trails more snugly within the map
+      fitTrailsSnugly: true,
+      // how much space to give trails when fitting the map to their bounds
+      trailFitBuffer: {
+        latitude: .0005,
+        longitude: .0001
+      }
     },
 
     initialize: function(root, options) {
@@ -116,16 +127,27 @@
         d.properties.elevation_gain = d3.sum(changes);
       });
 
-      var intensityOrder = this.options.intensities,
-          intensityValue = function(d) {
-            return intensityOrder.indexOf(d.properties.intensity);
-          };
-      trails.sort(function(a, b) {
-        var ai = intensityValue(a),
-            bi = intensityValue(b);
-        return d3.ascending(ai, bi) ||
-               d3.ascending(a.properties.length_miles, b.properties.length_miles);
-      });
+      switch (this.options.trailSort) {
+        case "intensity":
+          var intensityOrder = this.options.intensities,
+              intensityValue = function(d) {
+                return intensityOrder.indexOf(d.properties.intensity);
+              };
+          trails.sort(function(a, b) {
+            var ai = intensityValue(a),
+                bi = intensityValue(b);
+            return d3.ascending(ai, bi) ||
+                   d3.ascending(a.properties.length_miles, b.properties.length_miles);
+          });
+          break;
+
+        // just sort by name
+        case "name":
+        default:
+          trails.sort(function(a, b) {
+            return d3.ascending(a.properties.name, b.properties.name);
+          });
+      }
 
       if (collection.properties) {
         this.distanceDomain = collection.properties.distanceRange;
@@ -149,6 +171,13 @@
         .append("div")
           .attr("class", "trail");
 
+      var title = enter.append("h3")
+        .attr("class", "title toggle");
+      title.append("span")
+        .attr("class", "text");
+      title.append("span")
+        .attr("class", "duration");
+
       var row = enter.append("div")
         .attr("class", "row");
       var left = row.append("div")
@@ -156,15 +185,8 @@
       var right = row.append("div")
         .attr("class", "column right");
 
-      var title = left.append("h3")
-        .attr("class", "title");
-      title.append("span")
-        .attr("class", "text");
-      title.append("span")
-        .attr("class", "duration");
-
       var details = left.append("div")
-        .attr("class", "details");
+        .attr("class", "details toggle");
       details.append("span")
         .attr("class", "distance");
       details.append("span")
@@ -175,32 +197,22 @@
       var image = right.append("div")
         .attr("class", "image");
       image.append("img")
-        .attr("class", "thumbnail");
+        .attr("class", "thumbnail toggle");
       image.append("svg")
         .attr("class", "graph")
         .append("g")
           .attr("class", "content");
 
-      left.append("a")
-        .attr("class", "expand")
-        .text(this.options.expandLinkText)
-        .attr("href", function(d) {
-          return d.href = ("#trail-" + d.id);
-        })
-        .on("click", function(d) {
-          d3.event.preventDefault();
-          var expanded = !d.expanded,
-              // XXX this is stupid.
-              node = this.parentNode.parentNode.parentNode;
-          if (expanded) {
-            that.expandTrail(d, node);
-            preserveScroll(function() {
-              location.hash = d.href;
-            });
-          } else {
-            that.collapseTrail(d, node);
-          }
-        });
+      var links = left.append("div")
+        .attr("class", "links");
+
+      links.append("a")
+        .attr("class", "expand toggle")
+        .text(this.options.expandLinkText);
+      links.append("a")
+        .attr("class", "directions")
+        .attr("target", "_blank")
+        .text(this.options.directionsLinkText);
 
       var bottomRow = enter.append("div")
         .attr("class", "row");
@@ -208,6 +220,12 @@
         .attr("class", "map");
       bottomRow.append("div")
         .attr("class", "description");
+      bottomRow.append("div")
+        .attr("class", "other-links")
+        .append("a")
+          .attr("class", "tnt")
+          .attr("target", "_blank")
+          .text("View on Transit & Trails");
 
       // update
       items
@@ -226,9 +244,10 @@
           return decimalCommas(d.properties.length_miles) + " miles";
         });
       items.select(".elevation")
+        .attr("title", "elevation gain")
         .text(function(d) {
           var gain = Math.round(d.properties.elevation_gain);
-          return commas(gain) + "ft elevation gain";
+          return commas(gain) + "ft";
         });
       items.select(".intensity")
         .text(function(d) { return d.properties.intensity; });
@@ -237,11 +256,35 @@
         .html(function(d) { return d.properties.description; });
 
       items.select("img.thumbnail")
-        /*
         .attr("src", function(d) {
           return that.api.getUrl("trips/" + d.id + "/elevation-profile.png");
         });
-        */
+
+      items.select("a.tnt")
+        .attr("href", utils.template(this.options.tntLinkFormat));
+
+      items.select("a.directions")
+        .attr("href", utils.template(this.options.directionsLinkFormat));
+
+      items.select("a.expand")
+        .attr("href", function(d) {
+          return d.href = ("#trail-" + d.id);
+        });
+
+      items.selectAll(".toggle")
+        .on("click", function(d) {
+          d3.event.preventDefault();
+          var expanded = !d.expanded,
+              node = utils.getAncestorByClassName(this, "trail");
+          if (expanded) {
+            that.expandTrail(d, node);
+            preserveScroll(function() {
+              location.hash = d.href;
+            });
+          } else {
+            that.collapseTrail(d, node);
+          }
+        });
 
       // look for #trail-{id} in the hash
       var match = location.hash.match(/^#?trail-(\d+)$/);
@@ -255,7 +298,7 @@
             that.expandTrail(d, this);
           }
         });
-        console.log("found:", found);
+        // console.log("found:", found);
         // scroll to the item
         location.replace(location.hash);
       } else {
@@ -476,13 +519,25 @@
 
       // console.log("bounds:", bounds.toString());
       map.fitBounds(bounds);
+      if (this.options.fitTrailsSnugly) {
+        // zoom in, check buffered containment
+        map.setZoom(map.getZoom() + 1);
+        var buffer = this.options.trailFitBuffer,
+            buffered = buffer
+              ? bufferBounds(bounds,
+                  buffer.latitude,
+                  buffer.longitude)
+              : bounds;
+        if (!boundsContains(map.getBounds(), buffered)) {
+          map.setZoom(map.getZoom() - 1);
+        }
+      }
 
       var boundsChanged = utils.debounce(function() {
         var extent = map.getBounds(),
             oob;
         // if the extent is contained within the bounds, then all are in bounds
-        if (extent.contains(bounds.getNorthEast()) &&
-            extent.contains(bounds.getSouthWest())) {
+        if (boundsContains(extent, bounds)) {
           oob = false;
         // otherwise, check each segment individually
         } else {
@@ -587,6 +642,20 @@
     stashScroll();
     fn();
     popScroll();
+  }
+
+  function boundsContains(outer, inner) {
+    return outer.contains(inner.getNorthEast())
+        && outer.contains(inner.getSouthWest());
+  }
+
+  function bufferBounds(bounds, latBuffer, lonBuffer) {
+    var ne = bounds.getNorthEast(),
+        sw = bounds.getSouthWest();
+    return new google.maps.LatLngBounds(
+      new google.maps.LatLng(ne.lat() + latBuffer, ne.lng() + lonBuffer),
+      new google.maps.LatLng(sw.lat() - latBuffer, sw.lng() - lonBuffer)
+    );
   }
 
 })(this);

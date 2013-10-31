@@ -493,10 +493,10 @@
         }
 
         var descRoot = this._form.select(".destination .description");
-        console.log("desc root:", descRoot.node());
+        // console.log("desc root:", descRoot.node());
         if (typeof dest === "object") {
           var desc = this._getDestinationDescription(dest, true);
-          descRoot.text(desc);
+          descRoot.html(desc);
         } else {
           descRoot.text("");
         }
@@ -841,7 +841,7 @@
           });
 
         var desc = this._getDestinationDescription(dest);
-        info.select(".description").text(desc || "");
+        info.select(".description").html(desc || "");
 
         // TODO: figure out which field this comes from in different data sources
         // (TnT, Convio)
@@ -1147,7 +1147,7 @@
             from: planner.getOrigin(),
             to: frozen ? null : planner.getDestinationString(),
             mode: planner.getTravelMode().toLowerCase(),
-            freeze: planner.options.freezeDestination ? true : null
+            freeze: frozen ? true : null
           });
           // TODO: implement date, time and (arrival|departure)
         });
@@ -2282,6 +2282,28 @@
         var parts = str.split(":"),
             title = parts[0],
             id = parts[1];
+        if (title === "trip") {
+          return this.api.get("trips/" + id + ".json", function(error, data) {
+            if (error) return callback(null, str);
+            // data is a GeoJSON FeatureCollection,
+            // so grab the first feature and its properties
+            var feature = data.features[0],
+                props = feature.properties,
+                start = props.starting_trailhead;
+            console.log("resolved trip:", feature);
+            // create a dummy destination object with all of the appropriate
+            // properties:
+            callback(null, {
+              title: props.name,
+              description: props.description,
+              location: [start.latitude, start.longitude].join(","),
+              // make this look like a trail
+              parklocationtype: "Trailhead",
+              trip: feature,
+              latlng: new google.maps.LatLng(start.latitude, start.longitude)
+            });
+          });
+        }
         if (id in this._allLocationsById) {
           return callback(null, this._allLocationsById[id]);
         }

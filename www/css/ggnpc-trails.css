@@ -61,7 +61,7 @@
   }
 
 .trails .trail {
-  border-top: 1px solid #999;
+  border-top: 1px solid #ccc;
   padding: 20px 0;
   clear: both;
 }
@@ -87,7 +87,12 @@
 }
 
 .trails .column.left {
+  width: 60%;
   padding-right: 10px;
+}
+
+.trails .column.right {
+  width: 40%;
 }
 
 .trails .trail .title .text {
@@ -137,25 +142,50 @@
 }
 
 .trails .trail .image {
+  margin-top: -30px;
+}
+
+.trails .trail.expanded .column.right {
+  width: 100%;
+}
+
+.trails .trail.expanded .image {
+  margin-top: 0;
 }
 
 .trails .trail .image img,
 .trails .trail .image svg {
   display: block;
   width: 100%;
-  height: auto;
 }
 
 .trails .trail .image svg {
-  height: 0;
+  display: none;
 }
 
-.trails .trail a.expand {
+.trails .trail.expanded .image img {
+  display: none;
+}
+
+.trails .trail.expanded .image svg {
   display: block;
-  text-decoration: none;
+  height: 150px;
 }
 
-.trails .trail .description {
+.trails .trail .links a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.trails .trail .links a + a {
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.trails .trail .description,
+.trails .trail .map,
+.trails .trail .other-links {
   display: none;
 }
 
@@ -164,21 +194,14 @@
   margin: 10px 0;
 }
 
-.trails .trail.expanded .image img {
-  display: none;
-}
-
-.trails .trail.expanded .image svg {
-  height: 100px; /* XXX this is the height of the SVGs @ 375px width */
-}
-
 .trails .trail.expanded .map {
-  height: 0;
+  display: block;
+  margin-top: 10px;
+  height: 360px;
 }
 
-.trails .trail.expanded .map {
-  margin-top: 20px;
-  height: 250px;
+.trails .trail.expanded .other-links {
+  display: block;
 }
 
 .trail path.segment {
@@ -188,7 +211,7 @@
 }
 
 .trail path.segment.out-of-bounds {
-  stroke: #ccc !important;
+  stroke: #eee !important;
 }
 
 .trail .axis path,
@@ -215,4 +238,8 @@
 
 .trail svg .hilite text {
   text-shadow: 0 0 2px #fff;
+}
+
+.trail .toggle {
+  cursor: pointer;
 }

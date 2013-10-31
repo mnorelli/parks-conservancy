@@ -185,5 +185,26 @@ var GGNPC = (function(exports){
       return false;
     };
 
+    utils.getAncestorByClassName = function(node, klass, includeNode) {
+      var p = includeNode ? node : node.parentNode;
+      while (p) {
+        if (p.classList.contains(klass)) return p;
+        p = p.parentNode;
+      }
+      return null;
+    };
+
+    utils.template = function(template, format) {
+      return function(d) {
+        return template.replace(/{([^}]+)}/g, format
+          ? function(str, key) {
+            return format(d[key], key);
+          }
+          : function(str, key) {
+            return d[key];
+          });
+      };
+    };
+
     return exports;
 })(GGNPC || {});
