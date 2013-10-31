@@ -3,7 +3,8 @@ var express = require("express"),
     injection = [
       '\n<script src="/map/inject.js"></script>',
       '\n<script src="/map/nav.js"></script>'
-    ].join("");
+    ].join(""),
+    badScript = '<script type="text/javascript" src="/system/auth/session-status\\.jsp(\\?nocache=\\d+)?"></script>';
 
 var app = express();
 app.use("/map", express.static(__dirname + "/www"));
@@ -31,7 +32,11 @@ app.use(function(req, res, next) {
       }
     });
 
-    body = body.replace("</body>", injection + "</body>");
+    body = body
+      .replace(new RegExp(badScript, "g"), function(script) {
+        return "<!-- BAD: " + script + " -->";
+      })
+      .replace("</body>", injection + "</body>");
 
     return res.send(body);
   });
