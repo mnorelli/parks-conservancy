@@ -61,7 +61,7 @@
   }
 
 .trails .trail {
-  border-top: 1px solid #999;
+  border-top: 1px solid #ccc;
   padding: 20px 0;
   clear: both;
 }
@@ -87,7 +87,12 @@
 }
 
 .trails .column.left {
+  width: 60%;
   padding-right: 10px;
+}
+
+.trails .column.right {
+  width: 40%;
 }
 
 .trails .trail .title .text {
@@ -152,7 +157,6 @@
 .trails .trail .image svg {
   display: block;
   width: 100%;
-  height: 60px;
 }
 
 .trails .trail .image svg {
