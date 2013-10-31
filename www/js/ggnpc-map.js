@@ -219,6 +219,9 @@
         for(var obj in data){
           var filename = data[obj].filename || null;
           if(filename && filename.length) that.markerIdsInView.push(data[obj]);
+
+          var trail = data[obj].type = 'Trailhead';
+          if(trail)that.markerIdsInView.push(data[obj]);
         }
       }
     };
@@ -606,11 +609,15 @@
           }
           */
         ],
-        contentTemplate: [
+        contentTemplate: {
+          'default':[
           '<h4 class="title">{title}</h4>',
           '<p class="description">{description}</p>',
           '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
-        ].join("\n")
+          ].join("\n")
+        },
+        templatePattern: /\{(.*?)\}/g,
+
       },
 
       initialize: function(root, options) {
@@ -762,6 +769,19 @@
           }else{
             m._markerKind = null;
           }
+        });
+
+        this.currentData.outlines.forEach(function(f){
+          if(!f.data){
+            f.hide = true;
+            return;
+          }
+          if(that.parentMarker
+            && that.parentMarker.attributes.id != f.data.attributes.id){
+            f.hide = true;
+            return;
+          }
+
         });
 
 
@@ -993,13 +1013,34 @@
       _drawOverlays: function(data){},
 
       _setInfoWindowContent: function(infowindow, data){
+        //templatePattern
         if (infowindow) {
-          var attrs = data.attributes;
-          var elm = d3.select(document.createElement("div"))
-            .html(this.options.contentTemplate);
+          var attrs = data.attributes,
+            html = this.options.contentTemplate[data.kind] || this.options.contentTemplate['default'],
+            tags = html.match(this.options.templatePattern);
 
-          elm.select('.title').text(attrs.title);
-          elm.select('.description').html(attrs.description);
+
+          var hide = [];
+          tags.forEach(function(tag){
+            var prop = tag.replace("{","").replace("}","");
+            var content = attrs[prop] || null;
+            if(!content){
+              hide.push(prop);
+            }else{
+              html = html.replace(tag, attrs[prop] || "")
+            }
+
+          });
+
+          var elm = d3.select(document.createElement("div"))
+            .html(html);
+
+          hide.forEach(function(prop){
+            elm.select('.'+prop).style('display', 'none');
+          });
+
+          //elm.select('.title').text(attrs.title);
+          //elm.select('.description').html(attrs.description);
           elm.select('a.directions')
             .attr("href", function(){
               return [
@@ -1010,23 +1051,63 @@
               ].join("?");
             });
 
-            /*
-            var txt = '';
-            txt += '<strong>Kind</strong>:' + data.kind + '<br\>';
-            for(var k in data.attributes){
-                if(data.attributes[k].indexOf('http') === 0){
-                    txt += '<strong>' + k + '</strong>' + ': <a href="' + data.attributes[k] + '" target="_blank">' + data.attributes[k] + '</a><br\>';
-                }else{
-                    txt += '<strong>' + k + '</strong>' + ': ' + data.attributes[k] + '<br\>';
-                }
-            }
-            */
-
             infowindow.setContent(elm.node());
         }
       }
 
     });
+
+    maps.BigMap.contentTemplate = {
+      'event':[
+          '<h4 class="title"><a href="{url}">{title}<img src="{thumbnail}" class="thumbnail pull-right"></a></h4>',
+          '<p class="displaydate">{displaydate}</p>',
+          '<p class="description">{description}</p>',
+          '<p class="cost">{cost}</p>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
+        ].join("\n"),
+      'park':[
+          '<h4 class="title"><a href="{url}">{title}<img src="{thumbnail}" class="thumbnail pull-right"></a></h4>',
+          '<p class="address">{address}</p>',
+          '<p class="description">{description}</p>',
+          '<p class="hours">Open: {hours}</p>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
+        ].join("\n"),
+      'location':[
+          '<h4 class="title"><a href="{url}">{title}</a></h4>',
+          '<p class="address">{address}</p>',
+          '<p class="description">{description}</p>',
+          '<p class="hours">Open: {hours}</p>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
+        ].join("\n"),
+      'program':[
+          '<h4 class="title"><a href="{url}">{title}</a></h4>',
+          '<p class="description">{description}</p>',
+          '<p class="contactinfo">Contact: {contactinfo}</p>',
+          '<a href="donationurl">Make a donation to this program</a>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
+        ].join("\n"),
+      'subprogram':[
+          '<h4 class="title"><a href="{url}">{title}<img src="{thumbnail}" class="thumbnail pull-right"></a></h4>',
+          '<p class="date">{date}</p>',
+          '<p class="agegroup">{agegroup}, <span class="volunteertype">{volunteertype}</span></p>',
+          '<p class="description">{description}</p>',
+          '<p class="contactinfo">Contact: {contactinfo}</p>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
+        ].join("\n"),
+      'project':[
+          '<h4 class="title"><a href="{url}">{title}<img src="{thumbnail}" class="thumbnail pull-right"></a></h4>',
+          '<p class="startdate">{startdate}<span class="enddate"> - {enddate}</span></p>',
+          '<p class="description">{description}</p>',
+          '<p class="contactinfo">Contact: {contactinfo}</p>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
+        ].join("\n"),
+      'default':[
+          '<h4 class="title">{title}</h4>',
+          '<p class="description">{description}</p>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
+        ].join("\n"),
+
+    }
 
     BigMap.inject = function(options, callback) {
       if (options.root) {
@@ -1044,6 +1125,7 @@
           });
 
           var map = new BigMap(root, {
+            contentTemplate: maps.BigMap.contentTemplate,
             path: path || '/',
             hashParams: params
           });
@@ -1367,13 +1449,10 @@
           if(data.outlines){
             var bounds = new google.maps.LatLngBounds();
             data.outlines.forEach(function(f){
-              if(!f.data) return;
-              if(that.parentMarker
-                && that.parentMarker.attributes.id != f.data.attributes.id) return;
+              if(f.hide)return;
 
               var feature = JSON.parse(f.geom),
                   shapes = new GeoJSON(feature, that.options.outline, true);
-
 
               if(shapes.type != 'Error'){
                 var obj = {};

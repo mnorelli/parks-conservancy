@@ -40,13 +40,31 @@
     font-family: inherit !important;
 }
 
-.gm-style .title {
-    margin: 0;
-    color: #000;
+.gm-style-iw .title {
+    margin: 0 0 5px;
+    color: #000 !important;
 }
 
-.gm-style a.directions {
+.gm-style-iw .thumbnail{
+
 }
+.gm-style-iw .description{
+
+}
+
+.gm-style-iw .title > a{
+    color: #000 !important;
+    font-weight: bold;
+    display: block;
+}
+.gm-style-iw .title > a:hover{
+    text-decoration: underline;
+}
+.pull-right{
+    float: right;
+}
+
+.gm-style-iw a.directions {}
 
 .panel{
     position: absolute;
