@@ -11,6 +11,7 @@
       trailDataUri: "trips.json",
       autoLoad: true,
       expandLinkText: "View Detail + Map",
+      trailSort: "name",
       intensities: [
         "Easy",
         "Moderate",
@@ -124,16 +125,27 @@
         d.properties.elevation_gain = d3.sum(changes);
       });
 
-      var intensityOrder = this.options.intensities,
-          intensityValue = function(d) {
-            return intensityOrder.indexOf(d.properties.intensity);
-          };
-      trails.sort(function(a, b) {
-        var ai = intensityValue(a),
-            bi = intensityValue(b);
-        return d3.ascending(ai, bi) ||
-               d3.ascending(a.properties.length_miles, b.properties.length_miles);
-      });
+      switch (this.options.trailSort) {
+        case "intensity":
+          var intensityOrder = this.options.intensities,
+              intensityValue = function(d) {
+                return intensityOrder.indexOf(d.properties.intensity);
+              };
+          trails.sort(function(a, b) {
+            var ai = intensityValue(a),
+                bi = intensityValue(b);
+            return d3.ascending(ai, bi) ||
+                   d3.ascending(a.properties.length_miles, b.properties.length_miles);
+          });
+          break;
+
+        // just sort by name
+        case "name":
+        default:
+          trails.sort(function(a, b) {
+            return d3.ascending(a.properties.name, b.properties.name);
+          });
+      }
 
       if (collection.properties) {
         this.distanceDomain = collection.properties.distanceRange;
