@@ -155,6 +155,15 @@
   text-decoration: none;
 }
 
+.trails .trail .description {
+  display: none;
+}
+
+.trails .trail.expanded .description {
+  display: block;
+  margin: 10px 0;
+}
+
 .trails .trail.expanded .image img {
   display: none;
 }
@@ -175,6 +184,7 @@
 .trail path.segment {
   stroke-width: 2px;
   stroke-linejoin: round;
+  shape-rendering: geometricPrecision !important;
 }
 
 .trail path.segment.out-of-bounds {

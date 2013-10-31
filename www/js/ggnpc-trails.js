@@ -202,10 +202,12 @@
           }
         });
 
-      enter.append("div")
-        .attr("class", "row")
-        .append("div")
-          .attr("class", "map");
+      var bottomRow = enter.append("div")
+        .attr("class", "row");
+      bottomRow.append("div")
+        .attr("class", "map");
+      bottomRow.append("div")
+        .attr("class", "description");
 
       // update
       items
@@ -230,6 +232,9 @@
         });
       items.select(".intensity")
         .text(function(d) { return d.properties.intensity; });
+
+      items.select(".description")
+        .html(function(d) { return d.properties.description; });
 
       items.select("img.thumbnail")
         /*
@@ -288,10 +293,10 @@
           height = svg.property("offsetHeight"),
           xScale = d3.scale.linear()
             .domain(this.distanceDomain)
-            .rangeRound([margin.left, width - margin.right]),
+            .range([margin.left, width - margin.right]),
           yScale = d3.scale.linear()
             .domain(this.elevationDomain)
-            .rangeRound([height - margin.bottom, margin.top])
+            .range([height - margin.bottom, margin.top])
             .nice(),
           yMin = yScale.domain()[0],
           yMax = yScale.domain()[1],
@@ -461,6 +466,7 @@
                   strokeWeight:   innerStroke,
                   fillOpacity:    0
                 });
+            line.z = line.zIndex;
             listeners.push(
               line.addListener("mouseover", function() { focus(i); }),
               line.addListener("mouseout", function() { blur(i); })
@@ -494,7 +500,9 @@
       function focus(i) {
         var d = points[i];
         fgPaths[i].setOptions({
-          strokeWeight: outerStroke + 2
+          strokeColor: "#fff",
+          strokeWeight: outerStroke + 2,
+          zIndex: 10000
         });
         hilite.style("visibility", "visible")
           .attr("fill", d.color)
@@ -505,8 +513,12 @@
       }
 
       function blur(i) {
-        fgPaths[i].setOptions({
-          strokeWeight: innerStroke
+        var d = points[i],
+            line = fgPaths[i];
+        line.setOptions({
+          strokeColor: d.color,
+          strokeWeight: innerStroke,
+          zIndex: line.z
         });
         hilite.style("visibility", "hidden");
       }
@@ -521,11 +533,13 @@
       var root = d3.select(node)
         .classed("expanded", false);
 
-      trail.overlays.forEach(function(overlay) { overlay.setMap(null); });
-      trail.listeners.forEach(function(d) { d.remove(); });
+      if (trail.map) {
+        trail.overlays.forEach(function(overlay) { overlay.setMap(null); });
+        trail.listeners.forEach(function(d) { d.remove(); });
 
-      trail.overlays = [];
-      trail.listeners = [];
+        trail.overlays = [];
+        trail.listeners = [];
+      }
 
       if (location.hash === ("#trail-" + trail.id)) {
         preserveScroll(function() {
