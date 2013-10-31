@@ -152,6 +152,9 @@
         .select(".title .text")
           .text(function(d) { return d.properties.name; });
 
+      items.select(".duration")
+        .text(function(d) { return d.properties.duration; });
+
       var commas = d3.format(","),
           decimalCommas = d3.format(".1f,");
 

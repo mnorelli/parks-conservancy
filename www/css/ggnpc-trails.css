@@ -51,9 +51,11 @@
 }
 
 .trails .trail .duration {
+  color: #666;
   font-size: 12px;
   font-weight: 200;
   text-transform: uppercase;
+  margin-left: 1em;
 }
 
 .trails .trail .details {
