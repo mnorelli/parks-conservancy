@@ -157,19 +157,19 @@
         .append("div")
           .attr("class", "trail");
 
+      var title = enter.append("h3")
+        .attr("class", "title");
+      title.append("span")
+        .attr("class", "text");
+      title.append("span")
+        .attr("class", "duration");
+
       var row = enter.append("div")
         .attr("class", "row");
       var left = row.append("div")
         .attr("class", "column left");
       var right = row.append("div")
         .attr("class", "column right");
-
-      var title = left.append("h3")
-        .attr("class", "title");
-      title.append("span")
-        .attr("class", "text");
-      title.append("span")
-        .attr("class", "duration");
 
       var details = left.append("div")
         .attr("class", "details");
@@ -216,6 +216,12 @@
         .attr("class", "map");
       bottomRow.append("div")
         .attr("class", "description");
+      bottomRow.append("div")
+        .attr("class", "other-links")
+        .append("a")
+          .attr("class", "tnt")
+          .attr("target", "_blank")
+          .text("View on Transit & Trails");
 
       // update
       items
@@ -234,9 +240,10 @@
           return decimalCommas(d.properties.length_miles) + " miles";
         });
       items.select(".elevation")
+        .attr("title", "elevation gain")
         .text(function(d) {
           var gain = Math.round(d.properties.elevation_gain);
-          return commas(gain) + "ft elevation gain";
+          return commas(gain) + "ft";
         });
       items.select(".intensity")
         .text(function(d) { return d.properties.intensity; });
@@ -250,6 +257,11 @@
           return that.api.getUrl("trips/" + d.id + "/elevation-profile.png");
         });
         */
+
+      items.select("a.tnt")
+        .attr("href", function(d) {
+          return that.options.tntLinkFormat.replace("{id}", d.id);
+        });
 
       // look for #trail-{id} in the hash
       var match = location.hash.match(/^#?trail-(\d+)$/);
