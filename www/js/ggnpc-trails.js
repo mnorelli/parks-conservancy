@@ -86,7 +86,7 @@
           console.error("unable to load trails:", error);
           return callback ? callback(error) : null;
         }
-        that.setTrails(data.features);
+        that.setTrails(data);
         if (callback) callback(null, that.getTrails());
       });
     },
@@ -95,8 +95,8 @@
       return this._trails.slice();
     },
 
-    setTrails: function(trails) {
-      trails = this._trails = trails.slice();
+    setTrails: function(collection) {
+      var trails = this._trails = collection.features;
 
       var distances = [],
           elevations = [];
@@ -127,8 +127,13 @@
                d3.ascending(a.properties.length_miles, b.properties.length_miles);
       });
 
-      this.distanceDomain = [0, d3.max(distances)];
-      this.elevationDomain = d3.extent(elevations);
+      if (collection.properties) {
+        this.distanceDomain = collection.properties.distanceRange;
+        this.elevationDomain = collection.properties.heightRange;
+      } else {
+        this.distanceDomain = [0, d3.max(distances)];
+        this.elevationDomain = d3.extent(elevations);
+      }
 
       var that = this,
           items = this._trailRoot.selectAll(".trail")
@@ -197,10 +202,12 @@
           }
         });
 
-      enter.append("div")
-        .attr("class", "row")
-        .append("div")
-          .attr("class", "map");
+      var bottomRow = enter.append("div")
+        .attr("class", "row");
+      bottomRow.append("div")
+        .attr("class", "map");
+      bottomRow.append("div")
+        .attr("class", "description");
 
       // update
       items
@@ -226,10 +233,13 @@
       items.select(".intensity")
         .text(function(d) { return d.properties.intensity; });
 
+      items.select(".description")
+        .html(function(d) { return d.properties.description; });
+
       items.select("img.thumbnail")
         /*
         .attr("src", function(d) {
-          return that.api.getUrl("trips/" + d.id + "/elevation-profile.svg");
+          return that.api.getUrl("trips/" + d.id + "/elevation-profile.png");
         });
         */
 
@@ -269,7 +279,8 @@
       var root = d3.select(node)
         .classed("expanded", true);
 
-      var svg = root.select("svg.graph"),
+      var svg = root.select("svg.graph")
+            .attr("shape-rendering", "crispEdges"),
           g = svg.select("g.content"),
           mapRoot = root.select(".map"),
           margin = {
@@ -455,6 +466,7 @@
                   strokeWeight:   innerStroke,
                   fillOpacity:    0
                 });
+            line.z = line.zIndex;
             listeners.push(
               line.addListener("mouseover", function() { focus(i); }),
               line.addListener("mouseout", function() { blur(i); })
@@ -488,7 +500,9 @@
       function focus(i) {
         var d = points[i];
         fgPaths[i].setOptions({
-          strokeWeight: outerStroke + 2
+          strokeColor: "#fff",
+          strokeWeight: outerStroke + 2,
+          zIndex: 10000
         });
         hilite.style("visibility", "visible")
           .attr("fill", d.color)
@@ -499,8 +513,12 @@
       }
 
       function blur(i) {
-        fgPaths[i].setOptions({
-          strokeWeight: innerStroke
+        var d = points[i],
+            line = fgPaths[i];
+        line.setOptions({
+          strokeColor: d.color,
+          strokeWeight: innerStroke,
+          zIndex: line.z
         });
         hilite.style("visibility", "hidden");
       }
@@ -515,11 +533,13 @@
       var root = d3.select(node)
         .classed("expanded", false);
 
-      trail.overlays.forEach(function(overlay) { overlay.setMap(null); });
-      trail.listeners.forEach(function(d) { d.remove(); });
+      if (trail.map) {
+        trail.overlays.forEach(function(overlay) { overlay.setMap(null); });
+        trail.listeners.forEach(function(d) { d.remove(); });
 
-      trail.overlays = [];
-      trail.listeners = [];
+        trail.overlays = [];
+        trail.listeners = [];
+      }
 
       if (location.hash === ("#trail-" + trail.id)) {
         preserveScroll(function() {
