@@ -67,6 +67,10 @@
   font-weight: 200;
 }
 
+.trails .trail .details .intensity {
+  color: #000;
+}
+
 .trails .trail .distance:after,
 .trails .trail .elevation:after {
   display: inline-block;
