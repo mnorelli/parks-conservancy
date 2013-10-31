@@ -1078,6 +1078,9 @@ var getRecordByAttribute = function(req, res, next){
 // server setup
 var server = restify.createServer({
     formatters: {
+        'image/png; q=0.1': function formatPNG(req, res, body) {
+            return body;
+        },
         'image/svg+xml; q=0.1': function formatSVG(req, res, body) {
             return body;
         }
@@ -1119,6 +1122,7 @@ var trips = require("./lib/trips");
 server.get('/trips.json', trips.getTrips);
 server.get(/\/trips\/(\d+)\.json/, trips.getTripById);
 server.get('/trips/:id/elevation-profile.svg', trips.getElevationProfileForTrip);
+server.get('/trips/:id/elevation-profile.png', trips.getElevationProfileForTripAsPNG);
 
 
 
