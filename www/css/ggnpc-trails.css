@@ -184,14 +184,13 @@
 .trail .axis path,
 .trail .axis line {
   fill: none;
-  stroke: #000;
+  stroke: #666;
   stroke-width: 1px;
-  shape-rendering: cripsEdges;
   stroke-linejoin: miter;
 }
 
 .trail .axis text {
-  fill: #000;
+  fill: #666;
 }
 
 .trail svg text {
