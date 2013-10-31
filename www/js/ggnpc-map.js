@@ -198,12 +198,12 @@
 
     maps.GridMapType.prototype.checkTilesLoaded = function(){
       var that = this;
-      console.log("Queue-> ", this.queue.length);
+      //console.log("Queue-> ", this.queue.length);
       if(this.queue.length <= 0){
         //console.log("Queue Done!");
         //console.log('Tiles-> ', this.tiles);
         this.resolveMarkersInView();
-        console.log("Markers-> ", this.markerIdsInView);
+        //console.log("Markers-> ", this.markerIdsInView);
 
         // firing in 'this' context failed
         google.maps.event.trigger(window, 'tileJsonLoaded');
@@ -662,7 +662,7 @@
           'outlines':[]
         };
         this.outlinesOnly = ['park'];
-        this.notClickable = ['Restroom'];
+        this.notClickable = ['Restroom','Parking Lot'];
         this.currentData ={
           contextSet:false,
           parent:{},
@@ -677,20 +677,19 @@
 
         // listen for tile json loaded event
         // XXX: draw invisible markers that match filenames
-
         var initTilesLoadedCall = false;
         google.maps.event.addListener(window, 'tileJsonLoaded', function(){
-          //console.log("Event-> tile json loaded");
-          //console.log(tilejsonLayer.getMarkers())
 
-          that.currentData.baked = tilejsonLayer.getMarkers();
+          that.currentData.baked = tilejsonLayer.getMarkers().filter(function(m){
+            return that.notClickable.indexOf(m.type) < 0;
+          });
+
           if(!initTilesLoadedCall){
             that.renconcileMarkers();
             initTilesLoadedCall = true;
           }else{
             that._loadContentOnBoundsChange();
           }
-          //
         });
 
 
@@ -708,6 +707,7 @@
 
 
       renconcileMarkers: function(){
+        console.log("renconcileMarkers")
         if(!this.currentData.contextSet){
           this.markersNeedRenconciled  = true;
           return;
@@ -718,7 +718,7 @@
         this.prevDataTimestamp = this.currentData.ts;
         this.markersNeedRenconciled = false;
 
-        if(!this.currentData.children) return;
+
 
         var that = this;
 
@@ -754,25 +754,6 @@
           }
         });
 
-        /*
-        var vc = [];
-        var m = that.currentData.children.filter(function(m){
-            if(m.attributes.parklocationtype == "Visitor Center")vc.push(m.attributes.filename)
-        });
-        console.log("Visitor Centers-> ", vc);
-        */
-        /*
-        bm.forEach(function(b){
-          var m = that.currentData.children.filter(function(m){
-            console.log(b, m.attributes.filename)
-            return b == m.attributes.filename;
-          });
-          //console.log(m)
-          bmHash[b] = (m[0] && m[0].kind) ? 1 : 0;
-        })
-        console.log("Baked Markers Hash ->", bm.length, bmHash);
-        */
-
 
         that.currentData.children = that.currentData.children.filter(function(m){
           return m._markerKind;
@@ -797,7 +778,7 @@
 
       _loadContentOnBoundsChange: function(){
 
-        if(!this.contextSet)return; // wait for initial context to be set
+        if(!this.currentData.contextSet)return; // wait for initial context to be set
         if (this._boundsRequest) this._boundsRequest.abort();
         // XXX abstract this in GGNPC.API?
         var bounds = this.getBounds().toUrlValue();
@@ -1089,7 +1070,8 @@
       // utility function to return a type of marker
       _getMarkerType: function(props){
 
-        if(!props.kind)return null;
+        if(!props && (!props.kind || !props.type))return null;
+        if(props.type) return props.type;
 
         return (props.kind.toLowerCase() === 'location') ?
                 props.attributes.parklocationtype : props.kind;
@@ -1158,6 +1140,7 @@
                   marker._data = child;
                   marker.convioId = child.attributes.id;
                   marker.attached = true;
+                  marker.setMap( (marker.visible) ? that : null );
                   that._markers.push(marker);
                 }
               }
@@ -1169,6 +1152,11 @@
         // Baked
         if(data.baked && data.baked.length){
           data.baked.forEach(function(item,i){
+            var marker = that._findMarker(item.id);
+            if(marker != null){
+              marker.attached = true;
+              return;
+            }
 
             marker = new google.maps.Marker({
                 position: new google.maps.LatLng(item.lat, item.lng),
@@ -1188,6 +1176,7 @@
             marker.convioId = item.id;
             marker.attached = true;
             marker.isBaked = true;
+            marker.setMap( (marker.visible) ? that : null );
             that._markers.push(marker);
           });
         }
@@ -1208,10 +1197,12 @@
               zIndex: google.maps.Marker.MAX_ZINDEX + 1000
           });
 
+
           marker._data = data.parent;
           marker.attached = true;
           marker.isParent = true;
-          marker.convioId = data.parent.attributes.id
+          marker.convioId = data.parent.attributes.id;
+          marker.setMap( (marker.visible) ? that : null );
           this._markers.push(marker);
         }
 
@@ -1257,7 +1248,7 @@
           }
           that._filtered[kind] = visible;
 
-          m.setMap( (visible) ? that : null );
+          //m.setMap( (visible) ? that : null );
 
           if(!that._markersByType.hasOwnProperty(kind)){
             that._markersByType[kind] = [];
@@ -1276,14 +1267,17 @@
           if(m.hasInfoWindow) return;
           var infoWindow = new google.maps.InfoWindow({
             title: null,
-            maxWidth: 320
+            maxWidth: 320,
+            disableAutoPan: true
           });
+
           m.hasInfoWindow = true;
 
           google.maps.event.addListener(m, 'click', function() {
             if (that._currentInfoWindow != null) {
                 that._currentInfoWindow.close();
             }
+
 
             if(m.isBaked){
               if(that._bakedData[m.convioId]){
@@ -1294,10 +1288,12 @@
                 var url = that.apiUrl + "location/file/" + encodeURIComponent(m._data.filename);
                 d3.json(url, function(err, data){
                   if(data){
+
                     that._bakedData[m.convioId] = data.results[0];
                     infoWindow.open(that, m);
                     that._setInfoWindowContent(infoWindow, data.results[0]);
                     that._currentInfoWindow = infoWindow;
+
                   }
                 });
               }
@@ -1334,6 +1330,7 @@
         });
       },
 
+
       // draw overlays
       // geojson types are drawn first
       // markers are drawn last
@@ -1359,7 +1356,6 @@
                   shapes = new GeoJSON(feature, that.options.outline, true);
 
 
-
               if(shapes.type != 'Error'){
                 var obj = {};
                 obj.geojson = shapes;
@@ -1367,6 +1363,11 @@
                 obj.data = f.data;
 
                 that._shapes.push(obj);
+
+                shapes.forEach(function(shape){
+                  shape.setMap(that);
+                });
+
                 if (shapes.geojsonBounds){
                   bounds.union(shapes.geojsonBounds)
                 }
@@ -1383,8 +1384,9 @@
               if(!shape.data)return;
               shape.geojson.forEach(function(s) {
                   var infoWindow = new google.maps.InfoWindow({
-                    title: 'hello' || null,
-                    maxWidth: 320
+                    title:  null,
+                    maxWidth: 320,
+                    disableAutoPan: true
                   });
                   google.maps.event.addListener(s, 'click', function() {
 
@@ -1395,6 +1397,7 @@
                     infoWindow.setPosition(shape.bounds.getCenter());
                     that._setInfoWindowContent(infoWindow, shape.data);
                     that._currentInfoWindow = infoWindow;
+
                   });
               });
 
