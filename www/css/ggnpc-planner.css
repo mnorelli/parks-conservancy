@@ -412,6 +412,10 @@
   margin: 10px 0 0 0;
 }
 
+.trip-planner.routed .destination .description {
+  display: none;
+}
+
 .trip-planner.frozen .destination.has-welcome .section {
   display: none;
 }
