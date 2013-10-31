@@ -187,7 +187,7 @@
           g = svg.select("g.content"),
           mapRoot = root.select(".map"),
           margin = {
-            top: 10,
+            top: 20,
             left: 50,
             bottom: 20,
             right: 10
@@ -212,6 +212,46 @@
           color = d3.scale.linear()
             .domain(yDomain)
             .range(["#5b9240", "#3e6a32", "#bb5a4c", "#982e20"]);
+
+      var axes = svg.select(".axes");
+      if (axes.empty()) {
+        axes = svg.insert("g", "g")
+          .attr("class", "axes");
+        axes.selectAll(".axis")
+          .data(["x", "y"])
+          .enter()
+          .append("g")
+            .attr("class", function(d) {
+              return ["axis", d].join(" ");
+            });
+      }
+
+      var commas = d3.format(","),
+          tickFormat = function(zero) {
+            return function(n) {
+              return n > 0
+                ? commas(n)
+                : zero;
+            };
+          };
+
+      var xAxis = d3.svg.axis()
+        .orient("bottom")
+        .scale(xScale)
+        .ticks(5)
+        .tickFormat(tickFormat(0));
+      axes.select(".axis.x")
+        .attr("transform", "translate(0," + (height - margin.bottom) + ")")
+        .call(xAxis);
+
+      var yAxis = d3.svg.axis()
+        .orient("left")
+        .scale(yScale)
+        .ticks(2)
+        .tickFormat(tickFormat("sea"));
+      axes.select(".axis.y")
+        .attr("transform", "translate(" + margin.left + ",0)")
+        .call(yAxis);
 
       var points = trail.geometry.coordinates.map(function(c) {
             var distance = c[3],
@@ -264,19 +304,30 @@
       blocks.enter().append("rect");
 
       blocks
-        .attr("x", function(d) { return d.x1; })
+        .attr("x", function(d) { return Math.floor(d.x1) - 1; })
         .attr("y", 0)
-        .attr("width", function(d) { return d.x2 - d.x1; })
+        .attr("width", function(d) { return Math.ceil(d.x2 - d.x1) + 2; })
         .attr("height", height)
         .attr("fill", "none")
         .attr("pointer-events", "all")
         .on("mouseover", function(d, i) { focus(i); })
         .on("mouseout", function(d, i) { blur(i); });
 
-      var hilite = fg.select("circle.hilite");
+      var hilite = fg.select(".hilite");
       if (hilite.empty()) {
-        hilite = fg.append("circle")
-          .attr("class", "hilite");
+        hilite = fg.append("g")
+          .attr("class", "hilite")
+          .attr("pointer-events", "none");
+        hilite.selectAll("path")
+          .data(["bg", "fg"])
+          .enter()
+          .append("path")
+            .attr("class", function(d) { return d; })
+            .attr("d", "M0,0L-4,-5L-1,-5L-1,-10L1,-10L1,-5L4,-5L0,0Z")
+            .attr("transform", "translate(0,-2)");
+        hilite.append("text")
+          .attr("dy", "-1.4em")
+          .attr("text-anchor", "middle");
       }
 
       hilite
@@ -316,9 +367,6 @@
                   strokeWeight:   innerStroke,
                   fillOpacity:    0
                 });
-            if (segment[0].toString() === segment[1].toString()) {
-              console.log("self segment:", segment.toString());
-            }
             listeners.push(
               line.addListener("mouseover", function() { focus(i); }),
               line.addListener("mouseout", function() { blur(i); })
@@ -326,19 +374,26 @@
             return line;
           });
 
-      console.log("bg path:", bgPath, path);
-
       // console.log("bounds:", bounds.toString());
       map.fitBounds(bounds);
 
       function focus(i) {
         var d = points[i];
+            elevation = d.elevation;
+        fgPaths[i].setOptions({
+          strokeWeight: outerStroke + 2
+        });
         hilite.style("visibility", "visible")
-          .attr("fill", color(d.elevation))
-          .attr("transform", "translate(" + [d.x, d.y] + ")");
+          .attr("fill", color(elevation))
+          .attr("transform", "translate(" + [d.x, d.y].map(Math.round) + ")")
+          .select("text")
+            .text(commas(~~elevation) + "ft");
       }
 
       function blur(i) {
+        fgPaths[i].setOptions({
+          strokeWeight: innerStroke
+        });
         hilite.style("visibility", "hidden");
       }
 

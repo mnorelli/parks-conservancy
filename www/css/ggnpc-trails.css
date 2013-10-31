@@ -106,8 +106,7 @@
 }
 
 .trails .trail.expanded .image svg {
-  background: #fafafa;
-  height: 74px; /* XXX this is the height of the SVGs @ 375px width */
+  height: 100px; /* XXX this is the height of the SVGs @ 375px width */
 }
 
 .trails .trail.expanded .map {
@@ -116,5 +115,37 @@
 
 .trails .trail.expanded .map {
   margin-top: 20px;
-  height: 200px;
+  height: 250px;
+}
+
+.trail path.segment {
+  stroke-width: 2px;
+  stroke-linejoin: round;
+}
+
+.trail .axis path,
+.trail .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+  shape-rendering: cripsEdges;
+  stroke-linejoin: miter;
+}
+
+.trail .axis text {
+  fill: #000;
+}
+
+.trail svg text {
+  font-size: 11px;
+}
+
+.trail svg .hilite .bg {
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.trail svg .hilite text {
+  text-shadow: 0 0 2px #fff;
 }
