@@ -40,15 +40,24 @@
         */
 
       // Trip Planner
-      menus.filter(function(d) {
+      var visitMenu = menus.filter(function(d) {
         return d.href.match(/visit/);
-      })
-      .select(".content ul.level1:last-child")
+      });
+
+      visitMenu.select(".content ul.level1:last-child")
         .append("li")
           .attr("class", "stamen")
           .append("a")
             .text("Plan a Trip")
             .attr("href", "/map/trip-planner.html");
+
+      // Trails
+      visitMenu.select(".content ul.level2:last-child")
+        .insert("li", "li:first-child")
+          .attr("class", "stamen")
+          .append("a")
+            .text("Browse Trails")
+            .attr("href", "/map/trips-excursions.html");
 
       var mapUrl = "/map/";
       menus.select(".content ul.level1:last-child")
