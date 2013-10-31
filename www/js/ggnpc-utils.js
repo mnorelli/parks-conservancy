@@ -189,10 +189,10 @@ var GGNPC = (function(exports){
       return function(d) {
         return template.replace(/{([^}]+)}/g, format
           ? function(str, key) {
-            return d[key];
+            return format(d[key], key);
           }
           : function(str, key) {
-            return format(d[key], key);
+            return d[key];
           });
       };
     };
