@@ -259,9 +259,7 @@
         */
 
       items.select("a.tnt")
-        .attr("href", function(d) {
-          return that.options.tntLinkFormat.replace("{id}", d.id);
-        });
+        .attr("href", utils.template(this.options.tntLinkFormat));
 
       // look for #trail-{id} in the hash
       var match = location.hash.match(/^#?trail-(\d+)$/);
@@ -275,7 +273,7 @@
             that.expandTrail(d, this);
           }
         });
-        console.log("found:", found);
+        // console.log("found:", found);
         // scroll to the item
         location.replace(location.hash);
       } else {
