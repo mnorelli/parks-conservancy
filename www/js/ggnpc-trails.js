@@ -126,16 +126,18 @@
         .attr("class", "expand")
         .text(this.options.expandLinkText)
         .attr("href", function(d) {
-          return "#trail-" + d.id;
+          return d.href = ("#trail-" + d.id);
         })
         .on("click", function(d) {
-          // don't set the hash
           d3.event.preventDefault();
-
-          var expanded = d.expanded = !d.expanded;
-          var node = this.parentNode.parentNode.parentNode;
+          var expanded = !d.expanded,
+              // XXX this is stupid.
+              node = this.parentNode.parentNode.parentNode;
           if (expanded) {
             that.expandTrail(d, node);
+            preserveScroll(function() {
+              location.hash = d.href;
+            });
           } else {
             that.collapseTrail(d, node);
           }
@@ -177,12 +179,29 @@
         });
         */
 
-      if (location.hash) {
+      // look for #trail-{id} in the hash
+      var match = location.hash.match(/^#?trail-(\d+)$/);
+      if (match) {
+        var id = match[1], found;
+        items.each(function(d) {
+          // weak check compares Number & String
+          if (!found && d.id == id) {
+            found = d;
+            // and expand the trail if there's a match
+            that.expandTrail(d, this);
+          }
+        });
+        console.log("found:", found);
+        // scroll to the item
         location.replace(location.hash);
+      } else {
+        console.log("no hash match:", location.hash);
       }
     },
 
     expandTrail: function(trail, node) {
+      trail.expanded = true;
+
       var root = d3.select(node)
         .classed("expanded", true);
 
@@ -427,6 +446,8 @@
     },
 
     collapseTrail: function(trail, node) {
+      trail.expanded = false;
+
       var root = d3.select(node)
         .classed("expanded", false);
 
@@ -435,6 +456,12 @@
 
       trail.overlays = [];
       trail.listeners = [];
+
+      if (location.hash === ("#trail-" + trail.id)) {
+        preserveScroll(function() {
+          location.hash = "";
+        });
+      }
     }
   });
 
@@ -463,5 +490,19 @@
       // TODO
     }
   });
+
+  function stashScroll() {
+    window._scroll = [window.scrollX, window.scrollY];
+  }
+
+  function popScroll() {
+    window.scrollTo(window._scroll[0], window._scroll[1]);
+  }
+
+  function preserveScroll(fn) {
+    stashScroll();
+    fn();
+    popScroll();
+  }
 
 })(this);
