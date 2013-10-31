@@ -268,8 +268,8 @@
         .attr("height", height)
         .attr("fill", "none")
         .attr("pointer-events", "all")
-        .on("mouseover", function(d, i) { focus(d.start, i); })
-        .on("mouseout", function(d, i) { blur(d.start, i); });
+        .on("mouseover", function(d, i) { focus(i); })
+        .on("mouseout", function(d, i) { blur(i); });
 
       var hilite = fg.select("circle.hilite");
       if (hilite.empty()) {
@@ -285,71 +285,74 @@
       map.resize();
 
       var bounds = new google.maps.LatLngBounds(),
-          backs = points.map(function(d, i) {
-            var center = new google.maps.LatLng(d.lat, d.lon),
-                marker = new google.maps.Marker({
-                  position: center,
-                  map: map,
-                  zIndex: i,
-                  icon: {
-                    path: google.maps.SymbolPath.CIRCLE,
-                    scale: 8,
-                    fillColor: "black",
-                    fillOpacity: 1,
-                    strokeOpacity: 0
-                  }
-                });
-            return marker;
+          innerStroke = 5,
+          outerStroke = 10,
+          listeners = [],
+          path = points.map(function(d, i) {
+            var c = new google.maps.LatLng(d.lat, d.lon);
+            bounds.extend(c);
+            return c;
           }),
-          markers = points.map(function(d, i) {
-            var center = new google.maps.LatLng(d.lat, d.lon),
-                fill = color(d.elevation),
-                marker = new google.maps.Marker({
-                  position: center,
-                  map: map,
-                  zIndex: i * 2,
-                  icon: {
-                    path: google.maps.SymbolPath.CIRCLE,
-                    scale: 6,
-                    fillColor: fill,
-                    fillOpacity: 1,
-                    strokeOpacity: 0
-                  }
+          bgPath = new google.maps.Polyline({
+            zIndex:           1,
+            map:              map,
+            path:             path,
+            strokeOpacity:    1,
+            strokeColor:      "black",
+            strokeWeight:     outerStroke,
+            fillOpacity:      0
+          }),
+          fgPaths = path.slice(1).map(function(p, i) {
+            var strokeColor = color(points[i].elevation),
+                segment = [path[i], p],
+                line = new google.maps.Polyline({
+                  zIndex:         100 + 1,
+                  map:            map,
+                  path:           segment,
+                  strokeOpacity:  1,
+                  strokeColor:    strokeColor,
+                  strokeWeight:   innerStroke,
+                  fillOpacity:    0
                 });
-
-            // console.log(d.elevation, "->", fill);
-            bounds.extend(center);
-
-            marker.addListener("mouseover", function() { focus(d, i); });
-            marker.addListener("mouseout", function() { blur(d, i); });
-            return marker;
+            if (segment[0].toString() === segment[1].toString()) {
+              console.log("self segment:", segment.toString());
+            }
+            listeners.push(
+              line.addListener("mouseover", function() { focus(i); }),
+              line.addListener("mouseout", function() { blur(i); })
+            );
+            return line;
           });
 
-      console.log("bounds:", bounds.toString());
+      console.log("bg path:", bgPath, path);
+
+      // console.log("bounds:", bounds.toString());
       map.fitBounds(bounds);
 
-      function focus(d, i) {
+      function focus(i) {
+        var d = points[i];
         hilite.style("visibility", "visible")
           .attr("fill", color(d.elevation))
           .attr("transform", "translate(" + [d.x, d.y] + ")");
       }
 
-      function blur(d, i) {
+      function blur(i) {
         hilite.style("visibility", "hidden");
       }
 
-      trail.markers = backs.concat(markers);
+      trail.overlays = [bgPath].concat(fgPaths);
+      trail.listeners = listeners;
     },
 
     collapseTrail: function(trail, node) {
       var root = d3.select(node)
         .classed("expanded", false);
 
-      trail.markers.forEach(function(marker) {
-        marker.setMap(null);
-      });
+      trail.overlays.forEach(function(overlay) { overlay.setMap(null); });
+      trail.listeners.forEach(function(d) { d.remove(); });
 
-      trail.markers = [];
+      trail.overlays = [];
+      trail.listeners = [];
     }
   });
 
