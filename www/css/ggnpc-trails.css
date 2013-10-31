@@ -6,11 +6,59 @@
   margin-right: -235px;
 }
 
-.trails h2 {
+#trails-list h2 {
   font-size: 18px;
   line-height: 20px;
   font-weight: bold;
+  color: #000;
+  margin: 20px 0 5px 0;
 }
+
+.intensity-selector {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+  .intensity-selector .wrapper {
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 0 1px rgba(0,0,0,.2);
+  }
+
+  .intensity-selector a {
+    cursor: pointer;
+    color: #333;
+    font-size: inherit;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 9px;
+    border: 1px solid #ccc;
+    background: #eee;
+    background-image:         linear-gradient(top, #fff 0%, #eee 99%, #fff 100%);
+    background-image: -webkit-linear-gradient(top, #fff 0%, #eee 99%, #fff 100%);
+    background-image:    -moz-linear-gradient(top, #fff 0%, #eee 99%, #fff 100%);
+    background-image:     -ms-linear-gradient(top, #fff 0%, #eee 99%, #fff 100%);
+    background-image:      -o-linear-gradient(top, #fff 0%, #eee 99%, #fff 100%);
+  }
+
+  .intensity-selector a + a {
+    border-left: none;
+  }
+
+  .intensity-selector a:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  .intensity-selector a:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .intensity-selector a.selected {
+    color: #000;
+    font-weight: bold;
+  }
 
 .trails .trail {
   border-top: 1px solid #999;
@@ -81,8 +129,8 @@
 
 .trails .trail .elevation:before {
   display: inline-block;
-  width: 20px;
-  text-align: center;
+  width: 18px;
+  text-align: left;
   content: "⇅";
   color: #000;
   font-weight: bold;

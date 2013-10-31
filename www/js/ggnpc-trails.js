@@ -6,11 +6,16 @@
 
   var TrailsView = trails.TrailsView = new ggnpc.maps.Class(Object, {
     defaults: {
-      // FIXME: remove baseURL when this is live
+      titleText: "Browse Trails",
       api: new ggnpc.API(),
       trailDataUri: "trips.json",
       autoLoad: true,
-      expandLinkText: "View Detail + Map"
+      expandLinkText: "View Detail + Map",
+      intensities: [
+        "Easy",
+        "Moderate",
+        "Strenuous"
+      ]
     },
 
     initialize: function(root, options) {
@@ -26,19 +31,57 @@
     },
 
     _setupDom: function() {
-      var root = d3.select(this.root),
+      var that = this,
+          root = d3.select(this.root),
+          title = root.append("h2")
+            .text(this.options.titleText),
+          selector = root.append("div")
+            .attr("class", "intensity-selector")
+            .append("span")
+              .attr("class", "wrapper"),
           trails = root.append("div")
             .attr("class", "trails");
 
       this._trailRoot = trails;
 
-      // TODO selector
+      var all = "All",
+          intensities = [all].concat(this.options.intensities),
+          selectedIntensity = this.options.selectedIntensity || all,
+          buttons = selector.selectAll("a.intensity")
+            .data(intensities)
+            .enter()
+            .append("a")
+              .attr("class", "intensity")
+              .text(function(d) { return d; })
+              .on("click", function(intensity) {
+                if (selectedIntensity === intensity) return;
+
+                that.setFilter((intensity === all)
+                  ? d3.functor(true)
+                  : function(d) {
+                    return d.properties.intensity === intensity;
+                  });
+
+                selectedIntensity = intensity;
+                updateButtons();
+              });
+
+      updateButtons();
+
+      function updateButtons() {
+        buttons.classed("selected", function(d) {
+          return d === selectedIntensity;
+        });
+      }
     },
 
     loadTrails: function(uri, callback) {
-      var that = this;
+      var that = this,
+          root = d3.select(this.root)
+            .classed("loading", true);
       if (!uri) uri = this.options.trailDataUri;
       return this.api.get(uri, function(error, data) {
+        root.classed("loading", false);
         if (error) {
           console.error("unable to load trails:", error);
           return callback ? callback(error) : null;
@@ -71,6 +114,17 @@
           if (change > 0) changes.push(change);
         });
         d.properties.elevation_gain = d3.sum(changes);
+      });
+
+      var intensityOrder = this.options.intensities,
+          intensityValue = function(d) {
+            return intensityOrder.indexOf(d.properties.intensity);
+          };
+      trails.sort(function(a, b) {
+        var ai = intensityValue(a),
+            bi = intensityValue(b);
+        return d3.ascending(ai, bi) ||
+               d3.ascending(a.properties.length_miles, b.properties.length_miles);
       });
 
       this.distanceDomain = [0, d3.max(distances)];
@@ -197,6 +251,16 @@
       } else {
         console.log("no hash match:", location.hash);
       }
+    },
+
+    setFilter: function(filter) {
+      filter = d3.functor(filter);
+      this._trailRoot.selectAll(".trail")
+        .style("display", function() {
+          return filter.apply(this, arguments)
+            ? null
+            : "none";
+        });
     },
 
     expandTrail: function(trail, node) {
