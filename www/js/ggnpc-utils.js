@@ -185,6 +185,15 @@ var GGNPC = (function(exports){
       return false;
     };
 
+    utils.getAncestorByClassName = function(node, klass, includeNode) {
+      var p = includeNode ? node : node.parentNode;
+      while (p) {
+        if (p.classList.contains(klass)) return p;
+        p = p.parentNode;
+      }
+      return null;
+    };
+
     utils.template = function(template, format) {
       return function(d) {
         return template.replace(/{([^}]+)}/g, format
