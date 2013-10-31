@@ -127,8 +127,13 @@
                d3.ascending(a.properties.length_miles, b.properties.length_miles);
       });
 
-      this.distanceDomain = [0, d3.max(distances)];
-      this.elevationDomain = d3.extent(elevations);
+      if (collection.properties) {
+        this.distanceDomain = collection.properties.distanceRange;
+        this.elevationDomain = collection.properties.heightRange;
+      } else {
+        this.distanceDomain = [0, d3.max(distances)];
+        this.elevationDomain = d3.extent(elevations);
+      }
 
       var that = this,
           items = this._trailRoot.selectAll(".trail")
