@@ -561,6 +561,8 @@
       }
     };
 
+
+    // Big Map
     var BigMap = maps.BigMap = Map.extend({
       defaults: {
         bounds: maps.BOUNDS,
@@ -580,7 +582,7 @@
           zIndex: 1000
         },
         markers: {
-          fitBounds: true // outline.fitBounds takes precedence
+          fitBounds: true // outlines takes precedence over markers
         },
         padding: {top: 0, right: 0, bottom: 0, left: 0}, //used for adjusting map size on window resize
         paths: [
@@ -1064,11 +1066,13 @@
     // call this in map initialize fn:
     // GGNPC.utils.extend(this, GGNPC.overlayTools);
     GGNPC.overlayTools = {
-      _markersByType:{},
-      _filtered:{},
-      _markers:[],
-      _shapes:[],
-      _currentMarkersHash: {},
+      _markersByType:{},  // {type:[<marker>,...],...}
+      _filtered:{},       // keeps track of what's being filtered
+      _markers:[],        // [<marker>,...]
+      _shapes:[],         // [<overlay>,...]
+      _bakedData:{},
+
+      // toggles a marker by assigned type
       _toggleMarkersByType: function(kind){
         var that = this;
         this._markers.forEach(function(m){
@@ -1081,6 +1085,8 @@
 
         });
       },
+
+      // utility function to return a type of marker
       _getMarkerType: function(props){
 
         if(!props.kind)return null;
@@ -1089,6 +1095,7 @@
                 props.attributes.parklocationtype : props.kind;
       },
 
+      // find marker in _markers
       _findMarker: function(id){
         for(var i = 0; i < this._markers.length; i++){
           if(this._markers[i].convioId === id) return this._markers[i];
@@ -1101,13 +1108,10 @@
         var marker;
         var that = this;
 
-        //console.log('Add Markers-> ', data);
-
-        // mark as unattached
+        // set markers as unattached
         if(this._markers){
           this._markers.forEach(function(marker){
             if(!marker.isParent )marker.attached = false;
-            //marker.setMap(null);
           });
         }
 
@@ -1120,17 +1124,16 @@
               marker.attached = true;
               return;
             }
-            //if(child.attributes.parklocationtype && child.attributes.parklocationtype != 'Parking Lot' ){
-              //m._markerKind
-            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
 
+            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
               if(child._markerKind && !child.hide){
 
                 if(child._markerKind == 'pin'){
                   marker = new google.maps.Marker({
                       position: new google.maps.LatLng(child.latitude, child.longitude),
                       map: that,
-                      zIndex: 8000 + i
+                      optimized: false,
+                      zIndex: google.maps.Marker.MAX_ZINDEX + 500 + i,
                   });
                   marker._data = child;
                   that._markers.push(marker);
@@ -1156,33 +1159,27 @@
                   marker.convioId = child.attributes.id;
                   marker.attached = true;
                   that._markers.push(marker);
-
-
                 }
-
               }
-
             }
-            //}
-
           });
         }
 
 
-
-        // baked
+        // Baked
         if(data.baked && data.baked.length){
           data.baked.forEach(function(item,i){
 
             marker = new google.maps.Marker({
                 position: new google.maps.LatLng(item.lat, item.lng),
                 map: that,
+                optimized: false,
                 zIndex: google.maps.Marker.MAX_ZINDEX + i,
                 icon: {
                   anchor: new google.maps.Point(0,0),
                   path: 'M -12,-12 12,-12 12,12 -12,12 z',
                   fillColor: '#000',
-                  fillOpacity: 0.8,
+                  fillOpacity: 0.2,
                   scale: 1,
                   stroke: 'none'
                 }
@@ -1195,6 +1192,8 @@
           });
         }
 
+
+
         // Parent
         if(data.parent
             && data.parent.hasOwnProperty('latitude')
@@ -1205,7 +1204,8 @@
           marker = new google.maps.Marker({
               position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
               map: that,
-              zIndex: google.maps.Marker.MAX_ZINDEX + 2000
+              optimized: false,
+              zIndex: google.maps.Marker.MAX_ZINDEX + 1000
           });
 
           marker._data = data.parent;
@@ -1216,7 +1216,8 @@
         }
 
 
-
+        // filter out un-attached markers,
+        // removing from map in the process
         this._markers = this._markers.filter(function(marker){
           if(!marker.attached)marker.setMap(null);
           return marker.attached;
@@ -1236,11 +1237,12 @@
           }else{
             this.fitBounds(this.options.bounds);
           }
-
         }
 
 
         // group by type
+        // can remove this if
+        // not using the filter bar
         this._markersByType = {};
         this._markers.forEach(function(m){
           var attrs = m._data.attributes;
@@ -1265,7 +1267,9 @@
         });
 
 
-        // assign infoWindows, if _setInfoWindowContent is available
+        // assign infoWindows,
+        // needs a _setInfoWindowContent fn in parent
+        // XXX: remove dependency on parent fn
         if(!this._setInfoWindowContent)return;
 
         this._markers.forEach(function(m){
@@ -1277,14 +1281,33 @@
           m.hasInfoWindow = true;
 
           google.maps.event.addListener(m, 'click', function() {
-
             if (that._currentInfoWindow != null) {
                 that._currentInfoWindow.close();
             }
 
-            infoWindow.open(that, m);
-            that._setInfoWindowContent(infoWindow, m._data);
-            that._currentInfoWindow = infoWindow;
+            if(m.isBaked){
+              if(that._bakedData[m.convioId]){
+                infoWindow.open(that, m);
+                that._setInfoWindowContent(infoWindow, that._bakedData[m.convioId]);
+                that._currentInfoWindow = infoWindow;
+              }else{
+                var url = that.apiUrl + "location/file/" + encodeURIComponent(m._data.filename);
+                d3.json(url, function(err, data){
+                  if(data){
+                    that._bakedData[m.convioId] = data.results[0];
+                    infoWindow.open(that, m);
+                    that._setInfoWindowContent(infoWindow, data.results[0]);
+                    that._currentInfoWindow = infoWindow;
+                  }
+                });
+              }
+
+            }else{
+              infoWindow.open(that, m);
+              that._setInfoWindowContent(infoWindow, m._data);
+              that._currentInfoWindow = infoWindow;
+            }
+
           });
 
           if(m.isParent && !m.initialWindowCalled){
@@ -1297,6 +1320,7 @@
 
       },
 
+      // clear geojson geometries
       _clearGeometries: function(){
         this._shapes.forEach(function(boundary){
           var geojson = boundary.geojson;
@@ -1310,13 +1334,15 @@
         });
       },
 
+      // draw overlays
+      // geojson types are drawn first
+      // markers are drawn last
       _drawOverlays: function(data, skipFitBounds) {
 
         var that = this;
         var fitBoundsCalled = skipFitBounds || false;
 
-        // Outlines
-        //console.log("Data -> ", data);
+
         if (data.outlines.length) {
           if (this._shapes) {
             this._clearGeometries();
@@ -1324,7 +1350,8 @@
           }
 
           // XXX will this data structure ever *not* exist?
-          //st_asgeojson(transform(simplify(the_geom,1),4326))
+          // XXX: to polygons need to be simplified,
+          //  ie: st_asgeojson(transform(simplify(the_geom,1),4326))
           if(data.outlines){
             var bounds = new google.maps.LatLngBounds();
             data.outlines.forEach(function(f){
@@ -1338,10 +1365,6 @@
                 obj.geojson = shapes;
                 obj.bounds = (shapes.geojsonBounds) ? shapes.geojsonBounds : null;
                 obj.data = f.data;
-
-                shapes.forEach(function(shape) {
-                  shape.setMap(that);
-                });
 
                 that._shapes.push(obj);
                 if (shapes.geojsonBounds){
@@ -1384,8 +1407,8 @@
         this._addMarkers(data, fitBoundsCalled);
 
       },
-      // XXX: not tested or
-      // even the best approach to buffering a Google LatLngBounds object
+      // XXX: not tested
+      // is this even the best approach to buffering a Google LatLngBounds object
       _bufferBounds: function(bds, amount){
 
         var ne = bds.getNorthEast(),
