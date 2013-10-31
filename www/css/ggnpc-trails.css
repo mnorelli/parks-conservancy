@@ -129,6 +129,10 @@
   stroke-linejoin: round;
 }
 
+.trail path.segment.out-of-bounds {
+  stroke: #ccc !important;
+}
+
 .trail .axis path,
 .trail .axis line {
   fill: none;

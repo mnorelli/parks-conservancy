@@ -262,8 +262,10 @@
             return {
               lat: c[1],
               lon: c[0],
+              latlng: new google.maps.LatLng(c[1], c[0]),
               distance: distance,
               elevation: elevation,
+              color: color(elevation),
               x: xScale(distance),
               y: yScale(elevation)
             };
@@ -289,7 +291,7 @@
 
       lines
         .attr("stroke", function(d) {
-          return color(d.end.elevation);
+          return d.color = d.start.color;
         })
         .attr("d", function(d) {
           return "M" + [d.x1, d.y1] + "L" + [d.x2, d.y2] + "Z";
@@ -345,7 +347,7 @@
           outerStroke = 10,
           listeners = [],
           path = points.map(function(d, i) {
-            var c = new google.maps.LatLng(d.lat, d.lon);
+            var c = d.latlng;
             bounds.extend(c);
             return c;
           }),
@@ -380,17 +382,37 @@
       // console.log("bounds:", bounds.toString());
       map.fitBounds(bounds);
 
+      var boundsChanged = utils.debounce(function() {
+        var extent = map.getBounds(),
+            oob;
+        // if the extent is contained within the bounds, then all are in bounds
+        if (extent.contains(bounds.getNorthEast()) &&
+            extent.contains(bounds.getSouthWest())) {
+          oob = false;
+        // otherwise, check each segment individually
+        } else {
+          oob = function(d) {
+            return !extent.contains(d.start.latlng) || !extent.contains(d.end.latlng);
+          };
+        }
+        lines.classed("out-of-bounds", oob);
+      }, 10);
+
+      listeners.push(
+        map.addListener("bounds_changed", boundsChanged)
+      );
+
       function focus(i) {
         var d = points[i];
-            elevation = d.elevation;
         fgPaths[i].setOptions({
           strokeWeight: outerStroke + 2
         });
         hilite.style("visibility", "visible")
-          .attr("fill", color(elevation))
+          .attr("fill", d.color)
           .attr("transform", "translate(" + [d.x, d.y].map(Math.round) + ")")
           .select("text")
-            .text(commas(~~elevation) + "ft");
+            // .text(commas(~~d.elevation) + "ft, " + d.distance.toFixed(1) + "mi");
+            .text(commas(~~d.elevation) + "ft");
       }
 
       function blur(i) {
