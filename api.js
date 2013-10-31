@@ -1124,7 +1124,10 @@ server.get(/\/trips\/(\d+)\.json/, trips.getTripById);
 server.get('/trips/:id/elevation-profile.svg', trips.getElevationProfileForTrip);
 server.get('/trips/:id/elevation-profile.png', trips.getElevationProfileForTripAsPNG);
 
+var trailheads = require("./lib/trailheads");
 
+server.get('/trailheads.json', trailheads.getTrailheads);
+server.get(/\/trailheads\/(\d+)\.json/, trailheads.getTrailheadById);
 
 // start server
 //process.env.PORT || 5555
