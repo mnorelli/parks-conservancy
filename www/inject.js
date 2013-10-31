@@ -46,6 +46,23 @@
       },
 
       {
+        name: "trails",
+        reqs: [
+          "js/vendor/d3.v3.min.js",
+          "js/ggnpc-api.js",
+          "js/ggnpc-trails.js",
+          "css/ggnpc-trails.css"
+        ],
+        path: "/map/trips-excursions.html",
+        options: {
+          root: "#trails-list"
+        },
+        run: function(options) {
+          GGNPC.trails.TrailsView.inject(options);
+        }
+      },
+
+      {
         name: "big-map",
         reqs: [
           "js/vendor/d3.v3.min.js",
