@@ -172,9 +172,15 @@
   height: 150px;
 }
 
-.trails .trail a.expand {
-  display: block;
+.trails .trail .links a {
+  display: inline-block;
   text-decoration: none;
+  margin-right: 10px;
+}
+
+.trails .trail .links a + a {
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
 }
 
 .trails .trail .description,
