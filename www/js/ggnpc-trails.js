@@ -195,9 +195,9 @@
         .attr("class", "intensity");
 
       var image = right.append("div")
-        .attr("class", "image toggle");
+        .attr("class", "image");
       image.append("img")
-        .attr("class", "thumbnail");
+        .attr("class", "thumbnail toggle");
       image.append("svg")
         .attr("class", "graph")
         .append("g")
