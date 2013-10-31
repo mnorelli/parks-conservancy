@@ -10,7 +10,9 @@
       api: new ggnpc.API(),
       trailDataUri: "trips.json",
       autoLoad: true,
-      expandLinkText: "View Detail + Map",
+      expandLinkText: "View Detail & Map",
+      directionsLinkText: "Get Directions",
+      directionsLinkFormat: "/map/trip-planner.html?to=trip:{id}",
       trailSort: "name",
       intensities: [
         "Easy",
@@ -201,26 +203,16 @@
         .append("g")
           .attr("class", "content");
 
-      left.append("a")
+      var links = left.append("div")
+        .attr("class", "links");
+
+      links.append("a")
         .attr("class", "expand")
-        .text(this.options.expandLinkText)
-        .attr("href", function(d) {
-          return d.href = ("#trail-" + d.id);
-        })
-        .on("click", function(d) {
-          d3.event.preventDefault();
-          var expanded = !d.expanded,
-              // XXX this is stupid.
-              node = this.parentNode.parentNode.parentNode;
-          if (expanded) {
-            that.expandTrail(d, node);
-            preserveScroll(function() {
-              location.hash = d.href;
-            });
-          } else {
-            that.collapseTrail(d, node);
-          }
-        });
+        .text(this.options.expandLinkText);
+      links.append("a")
+        .attr("class", "directions")
+        .attr("target", "_blank")
+        .text(this.options.directionsLinkText);
 
       var bottomRow = enter.append("div")
         .attr("class", "row");
@@ -270,6 +262,28 @@
 
       items.select("a.tnt")
         .attr("href", utils.template(this.options.tntLinkFormat));
+
+      items.select("a.directions")
+        .attr("href", utils.template(this.options.directionsLinkFormat));
+
+      items.select("a.expand")
+        .attr("href", function(d) {
+          return d.href = ("#trail-" + d.id);
+        })
+        .on("click", function(d) {
+          d3.event.preventDefault();
+          var expanded = !d.expanded,
+              // XXX this is stupid.
+              node = this.parentNode.parentNode.parentNode;
+          if (expanded) {
+            that.expandTrail(d, node);
+            preserveScroll(function() {
+              location.hash = d.href;
+            });
+          } else {
+            that.collapseTrail(d, node);
+          }
+        });
 
       // look for #trail-{id} in the hash
       var match = location.hash.match(/^#?trail-(\d+)$/);
