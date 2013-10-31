@@ -493,10 +493,10 @@
         }
 
         var descRoot = this._form.select(".destination .description");
-        console.log("desc root:", descRoot.node());
+        // console.log("desc root:", descRoot.node());
         if (typeof dest === "object") {
           var desc = this._getDestinationDescription(dest, true);
-          descRoot.text(desc);
+          descRoot.html(desc);
         } else {
           descRoot.text("");
         }
@@ -841,7 +841,7 @@
           });
 
         var desc = this._getDestinationDescription(dest);
-        info.select(".description").text(desc || "");
+        info.select(".description").html(desc || "");
 
         // TODO: figure out which field this comes from in different data sources
         // (TnT, Convio)
