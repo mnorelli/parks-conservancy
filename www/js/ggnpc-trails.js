@@ -234,7 +234,7 @@
       items.select("img.thumbnail")
         /*
         .attr("src", function(d) {
-          return that.api.getUrl("trips/" + d.id + "/elevation-profile.svg");
+          return that.api.getUrl("trips/" + d.id + "/elevation-profile.png");
         });
         */
 
