@@ -97,11 +97,13 @@ function getById(req, res, next) {
         return res.json(200, {'error':'invalid parameters'});
     }
     var geo = returnGeometry(req);
+
     var params = [req.params.id];
     var query = "select kind, attributes, ST_X(geom) as longitude, ST_Y(geom) as latitude from convio where geom is not null and attributes->'id' = $1";
 
 
     _getRecord(query, params, geo, function(err, data){
+
         if(err){
             res.json(200, err);
         }else{
@@ -556,14 +558,11 @@ var whereForContext = function(ctx){
 
 
 var _getRecord = function(query, params, geo, callback){
-
     db.runQuery(query, params, function(err, data){
         if(data){
             var results = db.processResult('',data);
-
             if(geo){
                 getGeojsonForRecord(results, function(err, data){
-
 
                     if(err){
                         callback(err);
@@ -754,6 +753,6 @@ server.get(/\/trailheads\/(\d+)\.json/, trailheads.getTrailheadById);
 
 // start server
 //process.env.PORT || 5555
-server.listen(process.env.PORT || 5555, function() {
+server.listen(5555, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
