@@ -40,7 +40,7 @@
     font-family: inherit !important;
 }
 
-.gm-style-iw .title {
+.gm-style-iw .title, .trips-section > h4 {
     margin: 0 0 5px;
     color: #000 !important;
 }
@@ -66,6 +66,71 @@
 
 .gm-style-iw a.directions {}
 
+.trips-section, .trips-section *{
+    box-sizing: border-box;
+}
+.trips-section{
+    display:none !important;
+    margin: 10px 0 0;
+}
+.trips-section.active{
+    display: block !important;
+}
+.trips-section > h4{
+    font-size: 14px;
+    margin-bottom: 5px
+}
+.trips{
+    padding-bottom: 5px;
+}
+.trip{
+    margin-bottom: 15px;
+}
+
+.trips .trip .title .text {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0;
+}
+.trips .trip .duration {
+    color: #666;
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+.trips .trip .details {
+    margin: 0 0 10px 0;
+}
+.trips .trip .details span {
+    color: #666;
+    font-weight: 200;
+}
+.trips .trip .details .intensity {
+    color: #000;
+}
+.trips .trip .distance:after, .trips .trip .elevation:after {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    content: "•";
+}
+.trips .trip .elevation:before {
+    display: inline-block;
+    width: 18px;
+    text-align: left;
+    content: "⇅";
+    color: #000;
+    font-weight: bold;
+}
+.trips .trip .links a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
 /* tooltip*/
 .gm-style div.ggnpc-tooltip{
     background: #fff;
@@ -82,7 +147,7 @@
     white-space: nowrap;
 }
 
-
+/* panels */
 .panel{
     position: absolute;
     z-index: 9999;
@@ -109,6 +174,9 @@
     padding: 4px 0;
     color: #000;
 }
-.active{
+.list-links .active{
     color: #999 !important;
 }
+
+
+/* vector */

@@ -217,11 +217,20 @@
         var t = this.tiles[k];
         var data = t.data.data;
         for(var obj in data){
+          data[obj].baked = true;
           var filename = data[obj].filename || null;
-          if(filename && filename.length) that.markerIdsInView.push(data[obj]);
+          if(filename && filename.length) {
+            data[obj].kind = 'location';
+            that.markerIdsInView.push(data[obj]);
+          }else if(data[obj].type == 'Trailhead'){
+            var trail = data[obj].type || null;
+            if(trail){
+              data[obj].kind = 'trailhead';
+              that.markerIdsInView.push(data[obj]);
+            }
+          }
 
-          var trail = data[obj].type = 'Trailhead';
-          if(trail)that.markerIdsInView.push(data[obj]);
+
         }
       }
     };
@@ -581,10 +590,10 @@
         bounds: maps.BOUNDS,
         mapTypeControl: false,
         scrollwheel: false,
-        links: [
-          {type: "big-map", href: "/map/", text: "See Larger Map"},
-          {type: "directions", href: "/map/trip-planner.html", text: "Get Directions"}
-        ],
+        directionsLinkText: "Get Directions",
+        directionsTripLinkFormat: "/map/trip-planner.html?to=trip:{id}",
+        tripsLinkFormat: "/map/trips-excursions.html#trail-{id}",
+
         outline: {
           fitBounds: true,
           strokeColor: '#5AB95D',
@@ -592,7 +601,7 @@
           strokeWeight: 4,
           fillColor: 'none',
           fillOpacity: 0,
-          zIndex: 1000
+          zIndex: 10
         },
         markers: {
           fitBounds: true // outlines takes precedence over markers
@@ -617,8 +626,38 @@
           ].join("\n")
         },
         templatePattern: /\{(.*?)\}/g,
-
+        formatters:{
+          'commas': d3.format(","),
+          'decimalCommas': d3.format(".1f,")
+        },
+        trailStyles: {
+          strokeColor: '#91785b',
+          strokeOpacity: 1,
+          strokeWeight: 4,
+          fillColor: 'none',
+          fillOpacity: 0,
+        }
       },
+
+      /*
+      line-color: #91785b;
+      [use_type='Hiking'] {
+          line-color: #58a618;
+        }
+
+        [use_type='Multi-Use'] {
+          line-color: #999999;
+        }
+
+        [use_type='Hiking and Horses'] {
+          line-color: #cb724a;
+        }
+
+        [use_type='Hiking and Bikes'] {
+          line-color: #008542;
+        }
+      */
+
 
       initialize: function(root, options) {
         // include drawing tools
@@ -1019,12 +1058,17 @@
       },
       _drawOverlays: function(data){},
 
-      _setInfoWindowContent: function(infowindow, data){
+      //http://0.0.0.0:5000/map/#visit/park-sites/baker-beach.html?coords=15:37.85730:-122.53863
+      _setInfoWindowContent: function(infowindow, data, tripsData){
         //templatePattern
+        //utils.template(this.options.directionsLinkFormat)
         if (infowindow) {
-          var attrs = data.attributes,
-            html = this.options.contentTemplate[data.kind] || this.options.contentTemplate['default'],
-            tags = html.match(this.options.templatePattern);
+          var that = this,
+            attrs = data.attributes || data,
+            type = data.kind || 'default',
+            html = this.options.contentTemplate[type],
+            tags = html.match(this.options.templatePattern),
+            id = data._id || attrs.id;
 
 
           var hide = [];
@@ -1046,17 +1090,85 @@
             elm.select('.'+prop).style('display', 'none');
           });
 
-          //elm.select('.title').text(attrs.title);
-          //elm.select('.description').html(attrs.description);
           elm.select('a.directions')
             .attr("href", function(){
               return [
                 this.href,
                 utils.qs.format({
-                  to: [attrs.title, attrs.id].join(":")
+                  to: [attrs.title || attrs.name, id].join(":")
                 })
               ].join("?");
             });
+
+            tripsData = tripsData || [];
+            if(tripsData && tripsData.length){
+
+              elm.select('.trips-section').classed('active', true);
+
+              var trips = elm.select('.trips')
+                .selectAll('.trip')
+                .data(tripsData);
+
+              var tripsEnter = trips.enter()
+                .append('div')
+                .attr('class', 'trip');
+
+              var tripTitle = trips.append('h3')
+                .attr('class', 'title');
+              tripTitle.append('span')
+                .attr('class', 'text')
+                .text(function(d){
+                  return d.properties.name;
+                });
+              tripTitle.append('span')
+                .attr('class', 'duration')
+                .text(function(d){
+                  return d.properties.duration;
+                });
+
+              var tripMeta = trips.append('div')
+                .attr('class', 'trip-meta');
+
+              var tripDetails = tripMeta.append('div')
+                .attr('class', 'details');
+              tripDetails.append('span')
+                .attr('class', 'distance')
+                .text(function(d){
+                  return that.options.formatters['decimalCommas'](d.properties.length_miles) + " miles";
+                });
+              tripDetails.append('span')
+                .attr('class', 'elevation')
+                .attr('title', 'elevation gain')
+                .text(function(d){
+                  var gain = Math.round(d.properties.elevation_gain);
+                  return that.options.formatters['commas'](gain) + "ft";
+                });
+              tripDetails.append('span')
+                .attr('class', 'intensity')
+                .text(function(d){
+                  return d.properties.intensity;
+                });
+
+                var tripLinks = trips.append('div')
+                  .attr('class', 'links');
+
+                  //directionsTripLinkFormat: "/map/trip-planner.html?to=trip:{id}",
+                  //tripsLinkFormat: "/map/trips-excursions.html#trail-{id}",
+                tripLinks.append('a')
+                  .attr('class', 'directions')
+                  .attr('href', function(d){
+                    return that.options.tripsLinkFormat.replace('{id}', d.id);
+                  })
+                  .text('View Details & Map');
+                tripLinks.append('a')
+                  .attr('class', 'directions')
+                  .attr('href', function(d){
+                    return that.options.directionsTripLinkFormat.replace('{id}', d.id);
+                  })
+                  .text('Get Directions');
+
+
+            }
 
             infowindow.setContent(elm.node());
         }
@@ -1108,6 +1220,14 @@
           '<p class="contactinfo">Contact: {contactinfo}</p>',
           '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
         ].join("\n"),
+      'trailhead':[
+          '<h4 class="title name"><a href="{url}">{name}</a></h4>',
+          '<p class="address">{address}</p>',
+          '<p class="description">{description}</p>',
+          '<p class="hours">Open: {hours}</p>',
+          '<a class="directions" href="/map/trip-planner.html">Get Directions</a>',
+          '<div class="trips-section"><h4>Excursions</h4><div class="trips"></div></div>',
+        ].join("\n"),
       'default':[
           '<h4 class="title">{title}</h4>',
           '<p class="description">{description}</p>',
@@ -1154,7 +1274,9 @@
       _filtered:{},       // keeps track of what's being filtered
       _markers:[],        // [<marker>,...]
       _shapes:[],         // [<overlay>,...]
+      _trailData:{},
       _bakedData:{},
+      _trails:[],
 
       // toggles a marker by assigned type
       _toggleMarkersByType: function(kind){
@@ -1183,131 +1305,239 @@
       // find marker in _markers
       _findMarker: function(id){
         for(var i = 0; i < this._markers.length; i++){
-          if(this._markers[i].convioId === id) return this._markers[i];
+          if(this._markers[i].id_ === id) return this._markers[i];
         }
         return null;
       },
 
+      _addPinMarker: function(data, idx, parent){
+        idx = idx || 1;
+
+        var marker = that._findMarker(data.attributes.id);
+        if(marker != null){
+          marker.attached = true;
+          return marker;
+        }
+
+        if(!data.hasOwnProperty('latitude')
+            || !data.hasOwnProperty('longitude')
+            || data.hide) return null;
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(data.latitude, data.longitude),
+            map: this,
+            optimized: false,
+            zIndex: google.maps.Marker.MAX_ZINDEX + 500 + idx,
+        });
+
+        marker._data = data;
+        marker.id_ = data.attributes.id;
+        marker.attached = true;
+        if(parent) marker.isParent = true;
+
+        marker.setMap( (marker.visible) ? this : null );
+        this._markers.push(marker);
+
+
+        return marker;
+      },
+      _addBakedMarker: function(data, idx){
+        idx = idx || 1;
+
+        var marker = that._findMarker(data._id);
+        if(marker != null){
+          marker.attached = true;
+          return marker;
+        }
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(data.lat, data.lng),
+            map: this,
+            optimized: false,
+            zIndex: google.maps.Marker.MAX_ZINDEX + idx,
+            icon: {
+              anchor: new google.maps.Point(0,0),
+              path: 'M -12,-12 12,-12 12,12 -12,12 z',
+              fillColor: '#000',
+              fillOpacity: 0,
+              scale: 1,
+              strokeColor: 'none'
+
+            }
+        });
+        marker._data = data;
+
+        marker.id_ = data._id;
+        marker.attached = true;
+        marker.isBaked = true;
+        marker.setMap( (marker.visible) ? this : null );
+        this._markers.push(marker);
+
+        return marker
+      },
+
+      _addInfoWindowHandler: function(marker, infoWindow){
+        var that = this;
+
+        google.maps.event.addListener(marker, 'click', function() {
+          if (that._currentInfoWindow != null) {
+              that._currentInfoWindow.close();
+              that._removeTrails();
+          }
+
+          infoWindow.open(that, marker);
+          that._setInfoWindowContent(infoWindow, marker._data);
+          that._currentInfoWindow = infoWindow;
+        });
+
+        if(marker.isParent && !marker.initialWindowCalled){
+          marker.initialWindowCalled = true;
+          infoWindow.open(that, marker);
+          that._setInfoWindowContent(infoWindow, marker._data);
+          that._currentInfoWindow = infoWindow;
+        }
+      },
+      _addAsyncInfoWindowHandler: function(marker, infoWindow){
+        var that = this;
+        google.maps.event.addListener(marker, 'click', function() {
+          if(that.locationMarkerRequest) that.locationMarkerRequest.abort();
+
+          //console.log('Location clicked-> ', marker);
+          if (that._currentInfoWindow != null) {
+              that._currentInfoWindow.close();
+              that._removeTrails();
+          }
+
+          if(that._bakedData[marker.id_]){
+
+            infoWindow.open(that, marker);
+            that._setInfoWindowContent(infoWindow, that._bakedData[marker.id_]);
+            that._currentInfoWindow = infoWindow;
+
+          }else{
+            var url = that.apiUrl + "location/file/" + encodeURIComponent(marker._data.filename);
+            //console.log("url-> ", url);
+            that.locationMarkerRequest = d3.json(url, function(err, data){
+              if(data){
+                that._bakedData[marker.id_] = data.results[0];
+                infoWindow.open(that, marker);
+                that._setInfoWindowContent(infoWindow, that._bakedData[marker.id_]);
+                that._currentInfoWindow = infoWindow;
+              }
+
+            });
+          }
+
+        });
+      },
+
+      _addTrailInfoWindowHandler: function(marker, infoWindow){
+        var that = this;
+
+
+        google.maps.event.addListener(infoWindow,'closeclick',function(){
+           that._removeTrails();
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+          if(that.trailRequest) that.trailRequest.abort();
+
+          console.log('Trail clicked-> ', marker);
+          if (that._currentInfoWindow != null) {
+              that._currentInfoWindow.close();
+              that._removeTrails();
+          }
+
+          if(that._trailData[marker.id_]){
+            console.log('TrailData already loaded!')
+
+            that._trailData[marker.id_].features.forEach(function(d){
+              that._addTrail(d);
+            });
+
+            infoWindow.open(that, marker);
+            that._setInfoWindowContent(infoWindow, marker._data, that._trailData[marker.id_].features);
+            that._currentInfoWindow = infoWindow;
+
+          }else{
+
+            var url = that.apiUrl + "trips.json?trailhead=" + marker.id_;
+            console.log("url-> ", url);
+
+            that.trailRequest = d3.json(url, function(err, data){
+              console.log('Trail data-> ', data);
+
+              if(data){
+                console.log('data: ', data)
+                if(data.features.length){
+
+                  var elevations = [];
+                  data.features.forEach(function(d) {
+                    var points = d.geometry.coordinates,
+                        changes = [];
+
+                    points.forEach(function(c, i) {
+                      elevations.push(c[2]);
+                      if (i === 0) return;
+                      var change = c[2] - points[i - 1][2];
+                      if (change > 0) changes.push(change);
+                    });
+                    d.properties.elevation_gain = d3.sum(changes);
+                  });
+
+                  marker._data.hasTrip = true;
+
+                  data.features.forEach(function(d){
+                    that._addTrail(d);
+                  })
+                  //that._addTrail(data);
+                }else{
+                  marker._data.hasTrip = false;
+                }
+
+                that._trailData[marker.id_] = data;
+                infoWindow.open(that, marker);
+                that._setInfoWindowContent(infoWindow, marker._data, data.features);
+                that._currentInfoWindow = infoWindow;
+
+              }
+            });
+          }
+
+        });
+
+
+      },
 
       _addMarkers: function(data, skipFitBounds){
         var marker;
         var that = this;
 
         // set markers as unattached
+        // this only works if you update all markers at one time
         if(this._markers){
           this._markers.forEach(function(marker){
-            if(!marker.isParent )marker.attached = false;
+            marker.attached = false;
           });
         }
-
 
         // Children
         if(data.children){
-          data.children.forEach(function(child, i){
-            var marker = that._findMarker(child.attributes.id);
-            if(marker != null){
-              marker.attached = true;
-              return;
-            }
-
-            if(child.hasOwnProperty('latitude') && child.hasOwnProperty('longitude')){
-              if(child._markerKind && !child.hide){
-
-                if(child._markerKind == 'pin'){
-                  marker = new google.maps.Marker({
-                      position: new google.maps.LatLng(child.latitude, child.longitude),
-                      map: that,
-                      optimized: false,
-                      zIndex: google.maps.Marker.MAX_ZINDEX + 500 + i,
-                  });
-                  marker._data = child;
-                  that._markers.push(marker);
-                  marker.convioId = child.attributes.id;
-                  marker.attached = true;
-
-                }else if (child._markerKind == 'transparent'){
-
-                  marker = new google.maps.Marker({
-                      position: new google.maps.LatLng(child.latitude, child.longitude),
-                      map: that,
-
-                      icon: {
-                        anchor: new google.maps.Point(0,0),
-                        path: 'M -12,-12 12,-12 12,12 -12,12 z',
-                        fillColor: '#000',
-                        fillOpacity: 0.8,
-                        scale: 1,
-                        stroke: 'none'
-                      }
-                  });
-                  marker._data = child;
-                  marker.convioId = child.attributes.id;
-                  marker.attached = true;
-                  marker.setMap( (marker.visible) ? that : null );
-                  that._markers.push(marker);
-                }
-              }
-            }
+          data.children.forEach(function(item, i){
+            marker = that._addPinMarker(item, i);
           });
         }
 
-
-        // Baked
+        // Baked in types
         if(data.baked && data.baked.length){
           data.baked.forEach(function(item,i){
-            var marker = that._findMarker(item.id);
-            if(marker != null){
-              marker.attached = true;
-              return;
-            }
-
-            marker = new google.maps.Marker({
-                position: new google.maps.LatLng(item.lat, item.lng),
-                map: that,
-                optimized: false,
-                zIndex: google.maps.Marker.MAX_ZINDEX + i,
-                icon: {
-                  anchor: new google.maps.Point(0,0),
-                  path: 'M -12,-12 12,-12 12,12 -12,12 z',
-                  fillColor: '#000',
-                  fillOpacity: 0,
-                  scale: 1,
-                  strokeColor: 'none'
-
-                }
-            });
-            marker._data = item;
-            marker.convioId = item.id;
-            marker.attached = true;
-            marker.isBaked = true;
-            marker.setMap( (marker.visible) ? that : null );
-            that._markers.push(marker);
+            marker = that._addBakedMarker(item, i);
           });
         }
 
-
-
         // Parent
-        if(data.parent
-            && data.parent.hasOwnProperty('latitude')
-            && data.parent.hasOwnProperty('longitude')
-            && !this._findMarker(data.parent.attributes.id )
-            && !data.parent.hide) {
-
-          marker = new google.maps.Marker({
-              position: new google.maps.LatLng(data.parent.latitude, data.parent.longitude),
-              map: that,
-              optimized: false,
-              zIndex: google.maps.Marker.MAX_ZINDEX + 1000
-          });
-
-
-          marker._data = data.parent;
-          marker.attached = true;
-          marker.isParent = true;
-          marker.convioId = data.parent.attributes.id;
-          marker.setMap( (marker.visible) ? that : null );
-          this._markers.push(marker);
+        if(data.parent){
+          marker = that._addPinMarker(data.parent, 500, true);
         }
 
 
@@ -1340,7 +1570,6 @@
         // not using the filter bar
         this._markersByType = {};
         this._markers.forEach(function(m){
-          var attrs = m._data.attributes;
           var kind = m._kind = that._getMarkerType(m._data);
 
           var visible = (that._filtered.hasOwnProperty(kind) && that._filtered[kind]) ? true : false;
@@ -1350,9 +1579,8 @@
             visible = true;
             m.visible = true;
           }
-          that._filtered[kind] = visible;
 
-          //m.setMap( (visible) ? that : null );
+          that._filtered[kind] = visible;
 
           if(!that._markersByType.hasOwnProperty(kind)){
             that._markersByType[kind] = [];
@@ -1362,14 +1590,16 @@
         });
 
 
-        // assign infoWindows,
+        // assign infoWindows
         // needs a _setInfoWindowContent fn in parent
         // XXX: remove dependency on parent fn
-        // XXX: needs to be cleaned up, sorry
-        if(!this._setInfoWindowContent)return;
+        if(!this._setInfoWindowContent) return;
 
         this._markers.forEach(function(m){
-          if(m.hasInfoWindow) return;
+          if(m.hasInfoWindow) return; // marker has an infoWindow already
+
+          // initialize a infowWindow
+          // XXX: use one global window
           var infoWindow = new google.maps.InfoWindow({
             title: "",
             maxWidth: 320,
@@ -1378,93 +1608,37 @@
 
           m.hasInfoWindow = true;
 
-          // marker mouseover
-          google.maps.event.addListener(m, 'mouseover', function() {
-            that.tooltip.open(that,m);
-            var content;
-            if(m.isBaked){
-              if(that._bakedData[m.convioId]){
-                that.tooltip.open(that,m);
-                content = that._bakedData[m.convioId].attributes.title || "";
-                that.tooltip.setContent("<p>" + content + "</p>");
+          // should need this but just in case
+          m._data = m._data || {};
 
-              }else{
-                var url = that.apiUrl + "location/file/" + encodeURIComponent(m._data.filename);
+          // tooltip
+          google.maps.event.addListener(marker, 'mouseover', function() {
+            var content = marker._data.name || marker._data.attributes.title || "";
+            that.tooltip.open(that, marker);
+            that.tooltip.setContent("<p>" + content + "</p>");
 
-                if(that.bakedDataRequest) that.bakedDataRequest.abort();
-
-                that.bakedDataRequest = d3.json(url, function(err, data){
-                  if(data){
-                    that._bakedData[m.convioId] = data.results[0];
-                    content = (that._bakedData[m.convioId]) ? that._bakedData[m.convioId].attributes.title : null;
-                    if(content){
-                      that.tooltip.open(that,m);
-                      that.tooltip.setContent("<p>" + content + "</p>");
-                    }
-
-                  }
-                });
-              }
-            }else{
-              that.tooltip.open(that,m);
-              content = m._data.attributes.title || "";
-              that.tooltip.setContent("<p>" + content + "</p>");
-            }
           });
 
-          // marker mouseout
-          google.maps.event.addListener(m, 'mouseout', function() {
+          google.maps.event.addListener(marker, 'mouseout', function() {
             that.tooltip.close();
             that.tooltip.setContent("");
-
           });
 
-          // marker click
-          google.maps.event.addListener(m, 'click', function() {
-            if (that._currentInfoWindow != null) {
-                that._currentInfoWindow.close();
-            }
-
-            if(m.isBaked){
-              if(that._bakedData[m.convioId]){
-                infoWindow.open(that, m);
-                that._setInfoWindowContent(infoWindow, that._bakedData[m.convioId]);
-                that._currentInfoWindow = infoWindow;
-              }else{
-                var url = that.apiUrl + "location/file/" + encodeURIComponent(m._data.filename);
-                d3.json(url, function(err, data){
-                  if(data){
-
-                    that._bakedData[m.convioId] = data.results[0];
-                    infoWindow.open(that, m);
-                    that._setInfoWindowContent(infoWindow, data.results[0]);
-                    that._currentInfoWindow = infoWindow;
-
-                  }
-                });
-              }
-
-            }else{
-              infoWindow.open(that, m);
-              that._setInfoWindowContent(infoWindow, m._data);
-              that._currentInfoWindow = infoWindow;
-            }
-
-          });
-
-          if(m.isParent && !m.initialWindowCalled){
-            m.initialWindowCalled = true;
-            infoWindow.open(that, m);
-            that._setInfoWindowContent(infoWindow, m._data);
-            that._currentInfoWindow = infoWindow;
+          // click handlers
+          if(m.isBaked && m._data.kind === 'trailhead'){
+            that._addTrailInfoWindowHandler(m, infoWindow);
+          }else if(m.isBaked){
+            that._addAsyncInfoWindowHandler(m, infoWindow);
+          }else{
+            that._addInfoWindowHandler(m, infoWindow);
           }
-        });
 
+        });
       },
 
       // clear geojson geometries
-      _clearGeometries: function(){
-        this._shapes.forEach(function(boundary){
+      _clearGeometries: function(arr){
+        arr.forEach(function(boundary){
           var geojson = boundary.geojson;
           if(geojson instanceof Array){
             geojson.forEach(function(p){
@@ -1476,6 +1650,30 @@
         });
       },
 
+      _addTrail: function(feature){
+        var opts = utils.extend({}, this.options.trailStyles);
+        opts.zIndex = 1;
+        var trail = new GeoJSON(feature, opts, true);
+        if(trail.type != 'Error'){
+          var obj = {};
+          obj.geojson = trail;
+          obj.bounds = (trail.geojsonBounds) ? trail.geojsonBounds : null;
+
+          that._trails.push(obj);
+
+          if(trail instanceof Array){
+              trail.forEach(function(p){
+                  p.setMap(that);
+              });
+          }else{
+              trail.setMap(that);
+          }
+        }
+      },
+      _removeTrails: function(){
+        if(!this.trails) return;
+        this._clearGeometries(this._trails);
+      },
 
       // draw overlays
       // geojson types are drawn first
@@ -1488,7 +1686,7 @@
 
         if (data.outlines.length) {
           if (this._shapes) {
-            this._clearGeometries();
+            this._clearGeometries(this._shapes);
             this._shapes = [];
           }
 
@@ -1557,10 +1755,8 @@
         this._addMarkers(data, fitBoundsCalled);
 
       },
-      // XXX: not tested
       // is this even the best approach to buffering a Google LatLngBounds object
-      _bufferBounds: function(bds, amount){
-
+      _bufferBounds: function(bounds, amount){
         var ne = bds.getNorthEast(),
           sw = bds.getSouthWest(),
           n = ne.lat() + amount,
