@@ -307,6 +307,9 @@ var run = function(callback){
                                         console.log( '');
 
                                         console.log(summary);
+
+                                        console.log( '');
+
                                         done();
 
                                         callback(null);
@@ -356,6 +359,7 @@ var geocodeAndCreateGeom = function(){
             function createGeoms(){
                 console.log('');
                 console.log("**** Creating Geom fields for convio items ****");
+                console.log('');
 
                 client.query('select convio_convert_locations()', [], function(err, resp) {
                     done();
@@ -366,6 +370,12 @@ var geocodeAndCreateGeom = function(){
                 client.query('select convio_convert_locationlinks()', [], function(err, resp) {
                     done();
                 });
+                client.query('select convio_convert_relatedparklocation()', [], function(err, resp) {
+                    done();
+                });
+
+                console.log( '');
+                console.log('Convio ingest complete....:)');
             }
 
             function _geocode(){
