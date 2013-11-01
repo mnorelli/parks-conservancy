@@ -695,10 +695,6 @@
 
         this._setupExtras(root);
 
-        // set up a bounds_change handler to update the hash
-        function handleBoundsChangeProxy(){
-          that._handleBoundsChange();
-        }
 
         // set up resize handler on 'window' to resize our map container
         this.rootOffsetTop = 0;//d3.select(root).node().offsetTop;
@@ -716,15 +712,18 @@
 
         handleWindowResizeProxy(); // call resize to set the map container height
         this.resize();
-        google.maps.event.addListener(this, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 250));
 
+
+        this.initFitBounds = false;
         // apply coords from hash or call fitBounds
         if(this.options.hashParams && this.options.hashParams.hasOwnProperty('coords')){
           this.setCenter(this.options.hashParams.coords.latlng);
           this.setZoom(this.options.hashParams.coords.zoom);
+          this.initFitBounds = true;
         }else if (this.options.bounds){
           this.fitBounds(this.options.bounds);
         }
+        this._updateHash();
 
         this.markerTypes = {
           'parent':null,
@@ -778,7 +777,65 @@
           pixelOffset: new google.maps.Size(0, -50)
 
         });
+
+        window.onhashchange = function(evt){
+          // parse hash for path & params
+          var hash = location.hash.replace('#','');
+          var hashParts = hash.split('?');
+          var path = hashParts.shift();
+          path = path || '/';
+
+          var params = {};
+          hashParts.forEach(function(part){
+            var kv = part.split('=');
+            if(kv.length === 2)params[kv[0]] = kv[1];
+          });
+
+          console.log(path, that.options.path);
+          console.log(params)
+
+          if(path !== that.options.path){
+            that.options.path = path;
+            that.currentData.contextSet = false;
+
+            that._wipeOverlays();
+            that.currentData.parent = {};
+            that.currentData.markers = [];
+            that.currentData.outlines = [];
+            that.markersNeedRenconciled = true;
+
+            that._setContext(that.options.path);
+            that._updateHash();
+          }
+
+        };
         //
+      },
+
+      initFitMapToBounds: function(bounds) {
+        if(this.initFitBounds) return;
+        this.initFitBounds = true;
+
+        var that = this;
+
+        this.fitBounds(bounds);   // does the job asynchronously
+        google.maps.event.addListenerOnce(this, 'bounds_changed', function(event) {
+          var newSpan = this.getBounds().toSpan();              // the span of the map set by Google fitBounds (always larger by what we ask)
+          var askedSpan = bounds.toSpan();                     // the span of what we asked for
+          var latRatio = (newSpan.lat()/askedSpan.lat()) - 1;  // the % of increase on the latitude
+          var lngRatio = (newSpan.lng()/askedSpan.lng()) - 1;  // the % of increase on the longitude
+          // if the % of increase is too big (> to a threshold) we zoom in
+          if (Math.min(latRatio, lngRatio) > 0.46) {
+            // 0.46 is the threshold value for zoming in. It has been established empirically by trying different values.
+            this.setZoom(this.getZoom() + 1);
+          }
+
+          // set up a bounds_change handler to update the hash
+          function handleBoundsChangeProxy(){
+            that._handleBoundsChange();
+          }
+          google.maps.event.addListener(that, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 250));
+        });
       },
 
 
@@ -849,21 +906,9 @@
           return m._markerKind;
         });
 
-
         console.log('Marker Counts -> ', counts);
 
-
-        // XXX: fitBounds should only happen on the first run
-        // then it should never try to fit overlays in bounds
-        // It should not call map.fitBounds if there is are hash coords
-        var skipFitBounds = ((that.options.hashParams && that.options.hashParams.hasOwnProperty('coords')) || that.initFitBounds) ? true : false;
-
-        that._drawOverlays(that.currentData, skipFitBounds);
-
-        //console.log("Data -> ", that.currentData)
-
-        that.initFitBounds = true;
-
+        that._drawOverlays(that.currentData, this.initFitBounds);
         that._updateFilters();
       },
 
@@ -1659,6 +1704,21 @@
         });
       },
 
+      _wipeOverlays: function(){
+        that._removeTrails();
+        if (this._shapes) {
+          this._clearGeometries(this._shapes);
+        }
+        this._shapes = [];
+        if(this._markers){
+          this._markers = this._markers.filter(function(marker){
+            marker.setMap(null);
+            marker = null;
+          });
+        }
+        this._markers = [];
+      },
+
       // clear geojson geometries
       _clearGeometries: function(arr){
         arr.forEach(function(boundary){
@@ -1666,9 +1726,11 @@
           if(geojson instanceof Array){
             geojson.forEach(function(p){
               p.setMap(null);
+              p = null;
             });
           }else{
             geojson.setMap(null);
+            geojson = null;
           }
         });
       },
@@ -1712,6 +1774,7 @@
       _removeTrails: function(){
         if(!this._trails) return;
         this._clearGeometries(this._trails);
+        this._trails = [];
       },
       _togglehighlightTrail: function(id){
         var trail = this._findTrail(id);
@@ -1786,7 +1849,12 @@
 
             if (bounds && this.options.outline.fitBounds && !fitBoundsCalled) {
               fitBoundsCalled = true;
-              this.fitBounds(bounds);
+
+              if(that.initFitBounds){
+                that.fitBounds(bounds);
+              }else{
+                that.initFitMapToBounds(bounds)
+              }
             }
 
             this._shapes.forEach(function(shape){
@@ -1826,8 +1894,8 @@
       },
       // is this even the best approach to buffering a Google LatLngBounds object
       _bufferBounds: function(bounds, amount){
-        var ne = bds.getNorthEast(),
-          sw = bds.getSouthWest(),
+        var ne = bounds.getNorthEast(),
+          sw = bounds.getSouthWest(),
           n = ne.lat() + amount,
           e = ne.lng() + amount,
           s = sw.lat() - amount,
