@@ -754,6 +754,6 @@ server.get(/\/trailheads\/(\d+)\.json/, trailheads.getTrailheadById);
 
 // start server
 //process.env.PORT || 5555
-server.listen(5555, function() {
+server.listen(process.env.PORT || 5555, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
