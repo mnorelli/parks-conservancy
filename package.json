@@ -18,11 +18,12 @@
     "d3": "~3.3.9",
     "geocoder": "~0.1.0",
     "merge-geojson-features": "~0.1.0",
-    "elevate": "~0.1.0",
-    "require-env": "0.0.3",
+    "elevate": "~0.1.1",
+    "require-env": "~0.0.3",
     "geojson2pgsql": "git+https://github.com/stamen/geojson2pgsql.git",
     "wellknown": "~0.1.1",
-    "jsdom": "~0.8.8"
+    "jsdom": "~0.8.8",
+    "transitandtrails-cli": "~0.1.1"
   },
   "engines": {
     "node": "~0.10.13"
