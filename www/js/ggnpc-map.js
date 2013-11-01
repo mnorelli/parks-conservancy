@@ -632,11 +632,15 @@
         },
         trailStyles: {
           strokeColor: '#91785b',
-          strokeOpacity: 1,
+          strokeOpacity: .4,
           strokeWeight: 4,
           fillColor: 'none',
           fillOpacity: 0,
-        }
+        },
+        trailStylesHover:{
+          strokeOpacity: 1,
+          strokeWeight: 6,
+        },
       },
 
       /*
@@ -1204,7 +1208,7 @@
           '<a class="directions" href="/map/trip-planner.html">Get Directions</a>'
         ].join("\n"),
       'location':[
-          '<h4 class="title"><a href="{url}">{title}</a></h4>',
+          '<h4 class="title">{title}</h4>',
           '<p class="address">{address}</p>',
           '<p class="description">{description}</p>',
           '<p class="hours">Open: {hours}</p>',
@@ -1389,6 +1393,8 @@
       },
 
       _closeCurrentInfoWindow: function(){
+        if(that.locationMarkerRequest) that.locationMarkerRequest.abort();
+        if(that.trailRequest) that.trailRequest.abort();
         if (that._currentInfoWindow != null) {
             that._currentInfoWindow.close();
             that._removeTrails();
@@ -1416,7 +1422,6 @@
       _addAsyncInfoWindowHandler: function(marker, infoWindow){
         var that = this;
         google.maps.event.addListener(marker, 'click', function() {
-          if(that.locationMarkerRequest) that.locationMarkerRequest.abort();
 
           that._closeCurrentInfoWindow();
 
@@ -1428,7 +1433,7 @@
 
           }else{
             var url = that.apiUrl + "location/file/" + encodeURIComponent(marker._data.filename);
-            //console.log("url-> ", url);
+            console.log("url-> ", url);
             that.locationMarkerRequest = d3.json(url, function(err, data){
               if(data){
                 that._bakedData[marker.id_] = data.results[0];
@@ -1442,6 +1447,9 @@
 
         });
       },
+      _locationRequest: function(){
+
+      },
 
       _addTrailInfoWindowHandler: function(marker, infoWindow){
         var that = this;
@@ -1452,9 +1460,8 @@
         });
 
         google.maps.event.addListener(marker, 'click', function() {
-          if(that.trailRequest) that.trailRequest.abort();
-
           that._closeCurrentInfoWindow();
+          console.log("Marker Clicked: ", marker.id_)
 
           if(that._trailData[marker.id_]){
             console.log('TrailData already loaded!')
@@ -1511,10 +1518,7 @@
               }
             });
           }
-
         });
-
-
       },
 
       _addMarkers: function(data, skipFitBounds){
@@ -1603,8 +1607,8 @@
         // XXX: remove dependency on parent fn
         if(!this._setInfoWindowContent) return;
 
-        this._markers.forEach(function(m){
-          if(m.hasInfoWindow) return; // marker has an infoWindow already
+        this._markers.forEach(function(marker){
+          if(marker.hasInfoWindow) return; // marker has an infoWindow already
 
           // initialize a infowWindow
           // XXX: use one global window
@@ -1614,13 +1618,14 @@
             disableAutoPan: true
           });
 
-          m.hasInfoWindow = true;
+          marker.hasInfoWindow = true;
 
           // should need this but just in case
-          m._data = m._data || {};
+          marker._data = marker._data || {};
 
           // tooltip
           google.maps.event.addListener(marker, 'mouseover', function() {
+            console.log("Marker MouseOver-> ", marker)
             var content = marker._data.name || marker._data.attributes.title || "";
             that.tooltip.open(that, marker);
             that.tooltip.setContent("<p>" + content + "</p>");
@@ -1633,12 +1638,12 @@
           });
 
           // click handlers
-          if(m.isBaked && m._data.kind === 'trailhead'){
-            that._addTrailInfoWindowHandler(m, infoWindow);
-          }else if(m.isBaked){
-            that._addAsyncInfoWindowHandler(m, infoWindow);
+          if(marker.isBaked && marker._data.kind === 'trailhead'){
+            that._addTrailInfoWindowHandler(marker, infoWindow);
+          }else if(marker.isBaked){
+            that._addAsyncInfoWindowHandler(marker, infoWindow);
           }else{
-            that._addInfoWindowHandler(m, infoWindow);
+            that._addInfoWindowHandler(marker, infoWindow);
           }
 
         });
@@ -1708,10 +1713,10 @@
 
         if(!active){
           trail.isActive = true;
-          trail.setOptions({'strokeWeight': 6});
+          trail.setOptions(this.options.trailStylesHover);
         }else{
           trail.isActive = false;
-          trail.setOptions({'strokeWeight': this.options.trailStyles.strokeWeight});
+          trail.setOptions(this.options.trailStyles);
         }
       },
       _findTrail: function(id){
