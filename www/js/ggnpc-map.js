@@ -454,6 +454,23 @@
         if(this.options.path) this._setContext(this.options.path);
       },
 
+      initFitMapToBounds: function(bounds) {
+        var that = this;
+        this.fitBounds(this._bufferBounds(bounds, .003));   // does the job asynchronously
+        google.maps.event.addListenerOnce(this, 'bounds_changed', function(event) {
+          var newSpan = this.getBounds().toSpan();              // the span of the map set by Google fitBounds (always larger by what we ask)
+          var askedSpan = bounds.toSpan();                     // the span of what we asked for
+          var latRatio = (newSpan.lat()/askedSpan.lat()) - 1;  // the % of increase on the latitude
+          var lngRatio = (newSpan.lng()/askedSpan.lng()) - 1;  // the % of increase on the longitude
+          // if the % of increase is too big (> to a threshold) we zoom in
+          if (Math.min(latRatio, lngRatio) > 0.46) {
+            // 0.46 is the threshold value for zoming in. It has been established empirically by trying different values.
+            this.setZoom(this.getZoom() + 1);
+          }
+
+        });
+      },
+
       _setupExtras: function(root) {
         var extras = this._extras = document.createElement("div");
         extras.className = "mini-map-extras";
@@ -1383,7 +1400,7 @@
 
       _addPinMarker: function(data, idx, parent){
         idx = idx || 1;
-        var marker = that._findMarker(data.attributes.id);
+        var marker = this._findMarker(data.attributes.id);
         if(marker != null){
           marker.attached = true;
           return marker;
