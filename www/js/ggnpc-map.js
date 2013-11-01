@@ -1399,7 +1399,7 @@
         var that = this;
 
         google.maps.event.addListener(marker, 'click', function() {
-          _closeCurrentInfoWindow();
+          that._closeCurrentInfoWindow();
 
           infoWindow.open(that, marker);
           that._setInfoWindowContent(infoWindow, marker._data);
@@ -1418,7 +1418,7 @@
         google.maps.event.addListener(marker, 'click', function() {
           if(that.locationMarkerRequest) that.locationMarkerRequest.abort();
 
-          _closeCurrentInfoWindow();
+          that._closeCurrentInfoWindow();
 
           if(that._bakedData[marker.id_]){
 
@@ -1454,7 +1454,7 @@
         google.maps.event.addListener(marker, 'click', function() {
           if(that.trailRequest) that.trailRequest.abort();
 
-          _closeCurrentInfoWindow();
+          that._closeCurrentInfoWindow();
 
           if(that._trailData[marker.id_]){
             console.log('TrailData already loaded!')
