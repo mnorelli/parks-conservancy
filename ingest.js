@@ -16,23 +16,7 @@ var ARGV = opts.argv;
 var testKind = 'all';
 
 
-
-var CONN;
-// check if running on Heroku
-if(process.env.DYNO){
-    CONN = process.env.DATABASE_URL;
-}else{
-    var config = url.parse(process.env.DATABASE_URL);
-
-    CONN = {
-      user: config.auth.split(':')[0],
-      password: config.auth.split(':')[1],
-      database: config.path.slice(1),
-      host: config.hostname,
-      port: config.port,
-      ssl: true
-    };
-}
+var CONN = process.env.DATABASE_URL;
 
 
 var XML_PATH = process.env.XML_PATH;
