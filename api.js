@@ -392,7 +392,7 @@ var getItemsFromBBox = function(req, res, next){
 
 
 var resolveContext = function(url){
-    var re =  new RegExp('^\/?([^\/]*)\/','gi');
+    var re =  new RegExp('^\/?([^\/]*)\/?','gi');
     var found = re.exec(url);
     return (found) ? found[1] : null;
 }
@@ -591,10 +591,10 @@ var getRecordByUrl = function(req, res, next){
     var extent = hasExtent(req);
     var withExtent = (extent) ? true : false;
 
-    var ctx = resolveContext(url);
     var out = getBlankResponse();
-
+    var ctx = resolveContext(url);
     out.context = ctx;
+
 
 
     if(!url){
@@ -603,6 +603,7 @@ var getRecordByUrl = function(req, res, next){
         // process url
         if(url.charAt(0) == '#')url = url.slice(1);
         if(url.charAt(0) == '/')url = url.slice(1);
+
 
         var queryUrl = (url.indexOf('http') === 0) ? url : base + url;
 
