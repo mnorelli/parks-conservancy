@@ -1388,14 +1388,18 @@
         return marker
       },
 
+      _closeCurrentInfoWindow: function(){
+        if (that._currentInfoWindow != null) {
+            that._currentInfoWindow.close();
+            that._removeTrails();
+        }
+      },
+
       _addInfoWindowHandler: function(marker, infoWindow){
         var that = this;
 
         google.maps.event.addListener(marker, 'click', function() {
-          if (that._currentInfoWindow != null) {
-              that._currentInfoWindow.close();
-              that._removeTrails();
-          }
+          _closeCurrentInfoWindow();
 
           infoWindow.open(that, marker);
           that._setInfoWindowContent(infoWindow, marker._data);
@@ -1414,11 +1418,7 @@
         google.maps.event.addListener(marker, 'click', function() {
           if(that.locationMarkerRequest) that.locationMarkerRequest.abort();
 
-          //console.log('Location clicked-> ', marker);
-          if (that._currentInfoWindow != null) {
-              that._currentInfoWindow.close();
-              that._removeTrails();
-          }
+          _closeCurrentInfoWindow();
 
           if(that._bakedData[marker.id_]){
 
@@ -1454,11 +1454,7 @@
         google.maps.event.addListener(marker, 'click', function() {
           if(that.trailRequest) that.trailRequest.abort();
 
-          console.log('Trail clicked-> ', marker);
-          if (that._currentInfoWindow != null) {
-              that._currentInfoWindow.close();
-              that._removeTrails();
-          }
+          _closeCurrentInfoWindow();
 
           if(that._trailData[marker.id_]){
             console.log('TrailData already loaded!')
@@ -1681,8 +1677,9 @@
               trail.setMap(that);
 
               google.maps.event.addListener(trail, 'click', function() {
+                // do we want to link to trips page?
+                // might be a UI nightmare
                 //that.options.tripsLinkFormat.replace('{id}', d.id);
-
               });
               google.maps.event.addListener(trail, 'mouseover', function() {
                 var klass= '.trip-' + obj.id_;
@@ -1698,7 +1695,7 @@
         }
       },
       _removeTrails: function(){
-        if(!this.trails) return;
+        if(!this._trails) return;
         this._clearGeometries(this._trails);
       },
       _togglehighlightTrail: function(id){
