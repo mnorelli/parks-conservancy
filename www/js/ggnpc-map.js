@@ -1111,7 +1111,19 @@
 
               var tripsEnter = trips.enter()
                 .append('div')
-                .attr('class', 'trip');
+                .attr('class', function(d){
+                  return 'trip trip-' + d.properties.id;
+                });
+
+              trips
+                .on('mouseenter', function(d){
+                  d3.select(this).classed('hover', true);
+                  that._togglehighlightTrail(d.properties.id);
+                })
+                .on('mouseleave', function(d){
+                  d3.select(this).classed('hover', false);
+                  that._togglehighlightTrail(d.properties.id);
+                });
 
               var tripTitle = trips.append('h3')
                 .attr('class', 'title');
@@ -1658,7 +1670,7 @@
           var obj = {};
           obj.geojson = trail;
           obj.bounds = (trail.geojsonBounds) ? trail.geojsonBounds : null;
-
+          obj.id_ = feature.properties.id;
           that._trails.push(obj);
 
           if(trail instanceof Array){
@@ -1667,12 +1679,52 @@
               });
           }else{
               trail.setMap(that);
+
+              google.maps.event.addListener(trail, 'click', function() {
+                //that.options.tripsLinkFormat.replace('{id}', d.id);
+
+              });
+              google.maps.event.addListener(trail, 'mouseover', function() {
+                var klass= '.trip-' + obj.id_;
+                d3.select(klass).classed('hover', true);
+                that._togglehighlightTrail(obj.id_);
+              });
+              google.maps.event.addListener(trail, 'mouseout', function() {
+                var klass= '.trip-' + obj.id_;
+                d3.select(klass).classed('hover', false);
+                that._togglehighlightTrail(obj.id_);
+              });
           }
         }
       },
       _removeTrails: function(){
         if(!this.trails) return;
         this._clearGeometries(this._trails);
+      },
+      _togglehighlightTrail: function(id){
+        var trail = this._findTrail(id);
+
+        if(!trail && !trail.geojson)return;
+        trail = trail.geojson;
+        var active = trail.isActive || false;
+
+
+        if(!active){
+          trail.isActive = true;
+          trail.setOptions({'strokeWeight': 6});
+        }else{
+          trail.isActive = false;
+          trail.setOptions({'strokeWeight': this.options.trailStyles.strokeWeight});
+        }
+      },
+      _findTrail: function(id){
+        if(!this._trails) return null;
+
+        for(var i = 0; i < this._trails.length; i++){
+          if(this._trails[i].id_ === id) return this._trails[i];
+        }
+
+        return null;
       },
 
       // draw overlays

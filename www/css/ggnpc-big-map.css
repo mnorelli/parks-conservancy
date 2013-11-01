@@ -41,7 +41,7 @@
 }
 
 .gm-style-iw .title, .trips-section > h4 {
-    margin: 0 0 5px;
+    margin: 0;
     color: #000 !important;
 }
 
@@ -78,13 +78,16 @@
 }
 .trips-section > h4{
     font-size: 14px;
-    margin-bottom: 5px
 }
 .trips{
     padding-bottom: 5px;
 }
 .trip{
-    margin-bottom: 15px;
+    padding: 10px 5px;
+    background: #fff;
+}
+.trip.hover{
+    background: #ededed !important;
 }
 
 .trips .trip .title .text {
