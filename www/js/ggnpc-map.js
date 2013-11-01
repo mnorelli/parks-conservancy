@@ -603,6 +603,16 @@
           fillOpacity: 0,
           zIndex: 10
         },
+        outlineDefaultStyle: {
+          strokeColor: '#5AB95D',
+          strokeOpacity: 1,
+          strokeWeight: 4,
+          fillColor: 'none',
+          fillOpacity: 0
+        },
+        outlineHover: {
+          strokeColor: '#336633'
+        },
         markers: {
           fitBounds: true // outlines takes precedence over markers
         },
@@ -1787,11 +1797,16 @@
                     maxWidth: 320,
                     disableAutoPan: true
                   });
+
+                  google.maps.event.addListener(s, 'mouseover', function() {
+                    s.setOptions(that.options.outlineHover);
+                  });
+                  google.maps.event.addListener(s, 'mouseout', function() {
+                    s.setOptions(that.options.outlineDefaultStyle);
+                  });
                   google.maps.event.addListener(s, 'click', function() {
 
-                    if (that._currentInfoWindow != null) {
-                        that._currentInfoWindow.close();
-                    }
+                    that._closeCurrentInfoWindow();
                     infoWindow.open(that);
                     infoWindow.setPosition(shape.bounds.getCenter());
                     that._setInfoWindowContent(infoWindow, shape.data);
