@@ -1328,7 +1328,6 @@
 
       _addPinMarker: function(data, idx, parent){
         idx = idx || 1;
-
         var marker = that._findMarker(data.attributes.id);
         if(marker != null){
           marker.attached = true;
@@ -1536,7 +1535,8 @@
         // Children
         if(data.children){
           data.children.forEach(function(item, i){
-            marker = that._addPinMarker(item, i);
+            if(item.attributes)
+              marker = that._addPinMarker(item, i);
           });
         }
 
@@ -1548,7 +1548,7 @@
         }
 
         // Parent
-        if(data.parent){
+        if(data.parent && data.parent.attributes){
           marker = that._addPinMarker(data.parent, 500, true);
         }
 
