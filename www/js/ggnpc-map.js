@@ -1534,7 +1534,7 @@
 
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(data.lat, data.lng),
-            anchorPoint: new google.maps.Point(-1,-2),
+            anchorPoint: new google.maps.Point(-1,0),
             map: this,
             optimized: false,
             zIndex: (google.maps.Marker.MAX_ZINDEX - 1000) + idx,
