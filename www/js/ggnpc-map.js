@@ -957,8 +957,8 @@
       },
 
       adjustMainMenu: function(){
-        var menu = new MenuOverlay(this);
-        /*
+        //var menu = new MenuOverlay(this);
+
         var that = this;
         var menuOn = false;
         var header = d3.select('#header'),
@@ -990,7 +990,7 @@
             menuOn = false;
             delayLeave();
           });
-        */
+
       },
 
       initFitMapToBounds: function(bounds) {
