@@ -6,22 +6,32 @@
     position: fixed;
     top: 0;
     left: 0;
-
 }
+#header, #nav, #footer, #footer2{
+    position: relative;
+    width: 890px !important;
+    margin: 0 auto;
+    z-index: 10;
+}
+#header{
+    z-index: 11;
+    padding-bottom: 20px;
+}
+.menu-active #header{
+}
+
 #logo a img{
     display: none;
 }
-#top_utility, #main_menu_wrapper{
-    display: block;
+#top_utility, #nav{
+    display: none;
     visibility:hidden;
-}
-
-#top_utility, #main_menu_wrapper{
     opacity:0;
     transition: opacity 0.5s .1s ease;
 }
 
-.menu-active #top_utility, .menu-active #main_menu_wrapper{
+.menu-active #top_utility, .menu-active #nav{
+    display: block;
     visibility:visible;
     opacity: 1;
 }
@@ -92,18 +102,6 @@
     color: #fff;
 }
 
-
-
-#header, #nav, #footer, #footer2{
-    position: relative;
-    width: 890px !important;
-    margin: 0 auto;
-    z-index: 10;
-}
-#header{
-    z-index: 11;
-    padding-bottom: 20px;
-}
 
 /* end convio hacking */
 

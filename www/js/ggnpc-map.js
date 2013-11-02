@@ -835,6 +835,7 @@
         var menuOn = false;
         var header = d3.select('#header'),
             nav = d3.select('#nav'),
+            logo = d3.select('#logo'),
             content = d3.select('#content');
 
         function leaveMenu(){
@@ -855,7 +856,8 @@
             if(that.dragging)return;
             menuOn = true;
             content.classed('menu-active', true);
-          })
+          });
+        elm
           .on('mouseleave', function(){
             menuOn = false;
             delayLeave();
