@@ -353,7 +353,7 @@ var getItemsFromBBox = function(req, res, next){
                 prop: geojson,
                 attrs:'',
                 query: function(attrs_, prop_, cb){
-                    db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name'], where, params, '', '', function(err, out){
+                    db.baseGeoQuery(['ST_AsGeoJSON(ST_Transform(geom, 4326)) as geom', 'unit_name', 'acres'], where, params, '', '', function(err, out){
                         if(err){
                             cb();
                         }else{
@@ -461,7 +461,8 @@ Exhibit/Installation, Music, Environment/Science, Food, Birds/Wildlife, History,
 
 */
 
-var bakedTypes = ['Visitor Center','Trailhead','Site of Interest','Parking Lot','Restroom','Overlook','Campground','Cafe']
+//var bakedTypes = ['Visitor Center','Trailhead','Site of Interest','Parking Lot','Restroom','Overlook','Campground','Cafe'];
+var bakedTypes = [];
 var locationTypesByContext = {
     'about': ['Visitor Center'],
     'visit': ['Visitor Center','Landmark','Overlook'],
