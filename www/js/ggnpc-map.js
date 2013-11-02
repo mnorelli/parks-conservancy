@@ -601,6 +601,124 @@
     };
 
 
+
+
+    MenuOverlay.prototype = new google.maps.OverlayView();
+
+    /** @constructor */
+    function MenuOverlay(map) {
+
+      // Initialize all properties.
+      this.map_ = map;
+
+      // Define a property to hold the image's div. We'll
+      // actually create this div upon receipt of the onAdd()
+      // method so we'll leave it null for now.
+      this.div_ = null;
+
+      // Explicitly call setMap on this overlay.
+      this.setMap(map);
+    }
+
+    /**
+     * onAdd is called when the map's panes are ready and the overlay has been
+     * added to the map.
+     */
+    MenuOverlay.prototype.onAdd = function() {
+
+      var div = document.createElement('div');
+      div.style.borderStyle = 'none';
+      div.style.borderWidth = '0px';
+      div.style.left = '0px';
+      div.style.top = '0px';
+      div.style.position = 'fixed';
+
+
+      var innerdiv = document.createElement('div');
+      innerdiv.id = 'hdr';
+      innerdiv.style.width = '100%';
+      innerdiv.style.height = 'auto';
+      innerdiv.style.display = 'block';
+      innerdiv.style.position = 'relative';
+
+      div.appendChild(innerdiv);
+
+
+
+
+
+      var that = this;
+      var menuOn = false;
+      var header = d3.select('#header'),
+          nav = d3.select('#nav'),
+          logo = d3.select('#logo'),
+          content = d3.select(innerdiv);
+
+
+      function leaveMenu(){
+        if(menuOn)return;
+        menuOn = false;
+        content.classed('menu-active', false);
+      }
+
+      var delayLeave = GGNPC.utils.debounce(leaveMenu, 400);
+      var elm = content.append('div');
+      elm.classed('faux-header', true);
+
+      elm.node().appendChild(header.node());
+      elm.node().appendChild(nav.node());
+
+      //div.appendChild(elm.node());
+
+      elm
+        .on('mouseenter', function(){
+          if(that.dragging)return;
+          menuOn = true;
+          content.classed('menu-active', true);
+        });
+      elm
+        .on('mouseleave', function(){
+          menuOn = false;
+          delayLeave();
+        });
+
+
+      this.div_ = div;
+      // Add the element to the "overlayLayer" pane.
+      var panes = this.getPanes();
+      panes.floatPane.appendChild(div);
+
+
+    };
+
+    MenuOverlay.prototype.draw = function() {
+
+      // We use the south-west and north-east
+      // coordinates of the overlay to peg it to the correct position and size.
+      // To do this, we need to retrieve the projection from the overlay.
+      var overlayProjection = this.getProjection();
+
+      // Retrieve the south-west and north-east coordinates of this overlay
+      // in LatLngs and convert them to pixel coordinates.
+      // We'll use these coordinates to resize the div.
+      var sw = overlayProjection.fromLatLngToDivPixel(this.map_.getBounds().getSouthWest());
+      var ne = overlayProjection.fromLatLngToDivPixel(this.map_.getBounds().getNorthEast());
+
+      // Resize the image's div to fit the indicated dimensions.
+      var div = this.div_;
+      //div.style.left = sw.x + 'px';
+      //div.style.top = ne.y + 'px';
+
+    };
+
+    // The onRemove() method will be called automatically from the API if
+    // we ever set the overlay's map property to 'null'.
+    MenuOverlay.prototype.onRemove = function() {
+      this.div_.parentNode.removeChild(this.div_);
+      this.div_ = null;
+    };
+
+
     // Big Map
     var BigMap = maps.BigMap = Map.extend({
       defaults: {
@@ -839,6 +957,8 @@
       },
 
       adjustMainMenu: function(){
+        var menu = new MenuOverlay(this);
+        /*
         var that = this;
         var menuOn = false;
         var header = d3.select('#header'),
@@ -870,6 +990,7 @@
             menuOn = false;
             delayLeave();
           });
+        */
       },
 
       initFitMapToBounds: function(bounds) {
