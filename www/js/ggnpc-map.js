@@ -393,7 +393,7 @@
         scaleControl: false,
         links: [
           {type: "big-map", href: "/map/", text: "See Larger Map"},
-          {type: "directions", href: "/map/trip-planner.html", text: "Get Directions"}
+          {type: "directions", href: "/visit/trip-planner.html", text: "Get Directions"}
         ],
         outline: {
           fitBounds: true,
@@ -608,7 +608,7 @@
         mapTypeControl: false,
         scrollwheel: false,
         directionsLinkText: "Get Directions",
-        directionsTripLinkFormat: "/map/trip-planner.html?to=trip:{id}",
+        directionsTripLinkFormat: "/visit/trip-planner.html?to=trip:{id}",
         tripsLinkFormat: "/map/trips-excursions.html#trail-{id}",
 
         outline: {
@@ -1799,7 +1799,6 @@
           // tooltip
           google.maps.event.addListener(marker, 'mouseover', function() {
             if(marker == that._currentMarker) return;
-            console.log("Marker MouseOver-> ", marker)
             var content = marker._data.name || marker._data.attributes.title || "";
             that.tooltip.open(that, marker);
             that.tooltip.setContent("<p>" + content + "</p>");
