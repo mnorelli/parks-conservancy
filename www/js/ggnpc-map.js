@@ -613,22 +613,23 @@
 
         outline: {
           fitBounds: true,
-          strokeColor: '#5AB95D',
+          strokeColor: '#a9bf8c',
           strokeOpacity: 1,
-          strokeWeight: 4,
+          strokeWeight: 2,
           fillColor: 'none',
           fillOpacity: 0,
           zIndex: 10
         },
         outlineDefaultStyle: {
-          strokeColor: '#5AB95D',
+          strokeColor: '#a9bf8c',
           strokeOpacity: 1,
-          strokeWeight: 4,
+          strokeWeight: 2,
           fillColor: 'none',
           fillOpacity: 0
         },
         outlineHover: {
-          strokeColor: '#336633'
+          strokeColor: '#336633',
+          strokeOpacity: 1,
         },
         markers: {
           fitBounds: true // outlines takes precedence over markers
@@ -1083,6 +1084,8 @@
 
       // create additional UI elements
       _setupExtras: function(root){
+        console.log(exports.GGNPC);
+        exports.GGNPC.ui.mapKey(root);
         //console.log("ROOT: ", root)
         this.filterPanel = d3.select(root).append('div')
           .attr('class', 'panel filter-panel');
@@ -1388,7 +1391,6 @@
       }
     };
 
-
     // handles drawing shapes and markers on a map
     // overrides the _drawOverlays method in Big & Little Maps
     // call this in map initialize fn:
@@ -1481,7 +1483,7 @@
             icon: {
               anchor: new google.maps.Point(0,0),
               path: 'M -12,-12 12,-12 12,12 -12,12 z',
-              fillColor: '#000',
+              fillColor: 'none',
               fillOpacity: 0,
               scale: 1,
               strokeColor: 'none'

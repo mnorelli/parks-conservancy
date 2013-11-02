@@ -4,6 +4,125 @@
   var ggnpc = exports.GGNPC || (exports.GGNPC = {}),
       ui = ggnpc.ui || (ggnpc.ui = {});
 
+  ui.mapKey = function(selection){
+    var active = false;
+
+    var panel = d3.select(selection).append('panel')
+      .attr('class', 'panel panel-mapkey');
+
+    var container = panel.append('div')
+      .attr('class', 'key-container');
+
+    container.append('h3')
+      .attr('class', 'key-title')
+      .text('Map Key');
+
+    var key = container.selectAll('.key-item')
+      .data(ui.mapKey.items);
+
+    var keyEnter = key.enter()
+        .append('div')
+        .attr('class', 'key-item');
+
+    keyEnter.append('h3');
+
+    var item = key.select('h3')
+      .attr('class', 'key-label')
+      .text(function(d){
+        return d.label;
+      });
+
+    item.append('span')
+      .attr('class', function(d){
+        return 'key-icon ' + (d.klass || '');
+      });
+
+
+    var children = key.selectAll('.key-child')
+      .data(function(d){
+        return d.children || [];
+      });
+
+    var childrenEnter = children.enter()
+      .append('div')
+      .attr('class','key-child');
+
+    childrenEnter.append('p')
+
+    var trail = children.select('p')
+      .attr('class', 'key-label')
+      .text(function(d){
+        return d.label;
+      });
+
+    trail.append('span')
+      .attr('class', function(d){
+        return 'key-trail ' + (d.klass || '');
+      });
+
+
+    var btn = panel.append('button')
+      .attr('class', 'key-btn')
+      .on('click', function(){
+        active = !active
+        panel.classed('active', active);
+      })
+
+    btn.append('span')
+      .attr('class', 'default')
+      .text('Map Key');
+
+    btn.append('span')
+      .attr('class', 'close')
+      .html('Hide <i>x</i>');
+
+  };
+
+
+
+  ui.mapKey.items = [
+    {
+      label:'Trailhead',
+      klass: 'icon-trailhead',
+      children:[
+        {label:'Hikers', klass: 'trail-hikers'},
+        {label:'Accessible', klass: 'trail-accessible'},
+        {label:'Hikers + Bikes', klass: 'trail-hikers-bikes'},
+        {label:'Hikers + Horses', klass: 'trail-hikers-horses'},
+        {label:'Multi-Use', klass: 'trail-multi-use'},
+        {label:'Closed', klass: 'trail-closed'}
+      ]
+    },
+    {
+      label: 'Restroom',
+      klass: 'icon-restroom',
+    },
+    {
+      label: 'Overlook / View',
+      klass: 'icon-overlook',
+    },
+    {
+      label: 'Cafe',
+      klass: 'icon-cafe',
+    },
+    {
+      label: 'Water Fountain',
+      klass: 'icon-fountain',
+    },
+    {
+      label: 'Campground',
+      klass: 'icon-campground',
+    },
+    {
+      label: 'Parking Lot',
+      klass: 'icon-parking',
+    },
+    {
+      label: 'Visitor Center',
+      klass: 'icon-visitorcenter',
+    }
+  ]
+
   ui.calendar = function() {
     var startDay = d3.functor(0), // Sunday
         date = d3.functor(new Date()),
@@ -121,7 +240,7 @@
         selected = null,
         calendar = ui.calendar(),
         monthFormat = d3.time.format("%b. %Y");
-    
+
     function picker(selection) {
       selection
         .call(calendar);

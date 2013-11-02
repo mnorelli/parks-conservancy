@@ -24,16 +24,17 @@
     display: none;
 }
 #top_utility, #nav{
-    display: none;
+
     visibility:hidden;
     opacity:0;
-    transition: opacity 0.5s .1s ease;
+
+    transition:visibility 0s ease 0.5s,opacity 0.5s ease;
 }
 
 .menu-active #top_utility, .menu-active #nav{
-    display: block;
     visibility:visible;
-    opacity: 1;
+    opacity:1;
+    transition-delay:0s;
 }
 
 #header #logo {
@@ -235,6 +236,8 @@
     background: #fff;
     padding: 20px;
 }
+
+
 .panel .title{
     color: #000;
 }
@@ -258,6 +261,161 @@
 .list-links .active{
     color: #999 !important;
 }
+
+/* map key */
+.panel-mapkey{
+    bottom: 30px;
+    left: 10px;
+    background: transparent;
+    color: #000;
+    font-family: Verdana;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-weight: 300;
+    padding: 0;
+}
+
+.key-container{
+    position: relative;
+    top: -3px;
+    left: 2px;
+    background: #dbe7ca;
+    padding: 20px 20px  5px;
+    display: none;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+}
+.active .key-container{
+    display: block;
+}
+
+.key-title{
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.key-label{
+    font-size: 12px;
+    color: #000;
+    font-weight: 300;
+}
+
+h3.key-label{
+    line-height: 20px;
+}
+
+.key-child{
+    margin-left: 15px;
+}
+
+.key-child:last-child{
+    margin-bottom: 15px;
+}
+
+.key-child p{
+    margin-bottom: 5px;
+}
+
+.key-btn{
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 9px 25px 8px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1;
+    cursor: pointer;
+}
+.key-btn:focus{
+    outline: none;
+}
+.active .key-btn{
+    background: #ff9999;
+}
+
+.key-btn .default{
+    display: inline;
+}
+.key-btn .close{
+    display: none;
+}
+.active .key-btn .close{
+    display: inline;
+}
+.active .key-btn .default{
+    display: none;
+}
+.key-btn .close i{
+
+}
+
+.key-icon,
+.key-trail{
+    display: inline-block;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url('images/key-icons.png');
+    float: left;
+    height: 20px;
+    width: 20px;
+    line-height: 1;
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+
+.key-trail{
+    height: 6px;
+    position: relative;
+    top: 5px;
+}
+
+.key-icon.icon-trailhead{
+    background-position: 0 0;
+}
+.key-icon.icon-restroom{
+    background-position: 0 -20px;
+}
+.key-icon.icon-overlook{
+    background-position: 0 -80px;
+}
+.key-icon.icon-cafe{
+    background-position: 0 -160px;
+}
+.key-icon.icon-fountain{
+    background-position: 0 -40px;
+}
+.key-icon.icon-campground{
+    background-position: 0 -100px;
+}
+.key-icon.icon-parking{
+    background-position: 0 -120px;
+}
+.key-icon.icon-visitorcenter{
+    background-position: 0 -140px;
+}
+
+.key-trail.trail-hikers{
+    background-position: 0 -180px;
+}
+.key-trail.trail-accessible{
+    background-position: 0 -186px;
+}
+.key-trail.trail-hikers-bikes{
+    background-position: 0 -192px;
+}
+.key-trail.trail-hikers-horses{
+    background-position: 0 -211px;
+}
+.key-trail.trail-multi-use{
+    background-position: 0 -205px;
+}
+.key-trail.trail-closed{
+    background-position: 0 -199px;
+}
+
+
+
 
 
 /* vector */

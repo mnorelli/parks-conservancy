@@ -68,6 +68,7 @@
           "js/vendor/d3.v3.min.js",
           'js/vendor/infobox.js',
           "js/vendor/geojson.js",
+          "js/ggnpc-ui.js",
           "css/ggnpc-big-map.css"
         ],
         path: "/map/",
