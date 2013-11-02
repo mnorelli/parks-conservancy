@@ -393,7 +393,7 @@
         scaleControl: false,
         links: [
           {type: "big-map", href: "/map/", text: "See Larger Map"},
-          {type: "directions", href: "/visit/trip-planner.html", text: "Get Directions"}
+          {type: "directions", href: "/map/trip-planner.html", text: "Get Directions"}
         ],
         outline: {
           fitBounds: true,
@@ -608,7 +608,7 @@
         mapTypeControl: false,
         scrollwheel: false,
         directionsLinkText: "Get Directions",
-        directionsTripLinkFormat: "/visit/trip-planner.html?to=trip:{id}",
+        directionsTripLinkFormat: "/map/trip-planner.html?to=trip:{id}",
         tripsLinkFormat: "/map/trips-excursions.html#trail-{id}",
 
         outline: {
