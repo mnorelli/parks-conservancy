@@ -11,7 +11,7 @@
       .attr('class', 'panel panel-mapkey');
 
     var container = panel.append('div')
-      .attr('class', 'key-container');
+      .attr('class', 'panel-container');
 
     container.append('h3')
       .attr('class', 'key-title')
@@ -62,7 +62,7 @@
 
 
     var btn = panel.append('button')
-      .attr('class', 'key-btn')
+      .attr('class', 'map-btn')
       .on('click', function(){
         active = !active
         panel.classed('active', active);

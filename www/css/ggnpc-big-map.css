@@ -236,6 +236,17 @@
     background: #fff;
     padding: 20px;
 }
+.panel-container{
+    position: relative;
+    top: -3px;
+    left: 2px;
+    background: #fff;
+    padding: 20px 20px  5px;
+    display: none;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+}
 
 
 .panel .title{
@@ -274,18 +285,10 @@
     padding: 0;
 }
 
-.key-container{
-    position: relative;
-    top: -3px;
-    left: 2px;
+.panel-mapkey .panel-container{
     background: #dbe7ca;
-    padding: 20px 20px  5px;
-    display: none;
-    border-radius: 2px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
-    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
 }
-.active .key-container{
+.active .panel-container{
     display: block;
 }
 
@@ -316,7 +319,7 @@ h3.key-label{
     margin-bottom: 5px;
 }
 
-.key-btn{
+.map-btn{
     background: #000;
     color: #fff;
     border: 0;
@@ -327,26 +330,26 @@ h3.key-label{
     line-height: 1;
     cursor: pointer;
 }
-.key-btn:focus{
+.map-btn:focus{
     outline: none;
 }
-.active .key-btn{
+.active .map-btn{
     background: #ff9999;
 }
 
-.key-btn .default{
+.map-btn .default{
     display: inline;
 }
-.key-btn .close{
+.map-btn .close{
     display: none;
 }
-.active .key-btn .close{
+.active .map-btn .close{
     display: inline;
 }
-.active .key-btn .default{
+.active .map-btn .default{
     display: none;
 }
-.key-btn .close i{
+.map-btn .close i{
 
 }
 
@@ -414,8 +417,92 @@ h3.key-label{
     background-position: 0 -199px;
 }
 
+.panel.date-picker{
+    right: 10px;
+    bottom: 30px;
+    padding: 0;
+    background: transparent;
+}
+.panel.date-picker .map-btn{
+    float: right;
+}
 
 
+.date-picker select {
+  margin-right: 1em;
+}
+
+.date-picker span.date input {
+  width: 10em;
+}
+
+.date-picker span.time input {
+  width: 6em;
+}
+
+.date-picker table.calendar {
+  width: 100%;
+  position: relative;
+  border-collapse: separate;
+}
+
+  .date-picker table.calendar td,
+  .date-picker table.calendar th,
+  .date-picker table.calendar caption {
+    padding: 2px 4px !important;
+    text-align: center;
+  }
+
+  .date-picker table.calendar td.day {
+    color: #999;
+    text-align: right;
+    vertical-align: top;
+    border: 1px solid transparent;
+  }
+
+  .date-picker table.calendar td.day.current {
+    color: #333;
+  }
+
+  .date-picker table.calendar td.day.valid {
+    cursor: pointer;
+  }
+
+  .date-picker table.calendar td.day.invalid {
+    color: #ccc;
+  }
+
+  .date-picker table.calendar td.day.today {
+    border-color: #666;
+  }
+
+  .date-picker table.calendar td.day.selected {
+    text-decoration: underline;
+  }
+
+  .date-picker table.calendar caption {
+    position: relative;
+    background: #eee;
+    padding: 4px !important;
+  }
+
+  .date-picker table.calendar caption .offset {
+    position: absolute;
+    top: 4px;
+    padding: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .date-picker table.calendar caption .offset.prev { left: 0; }
+  .date-picker table.calendar caption .offset.next { right: 0; }
+
+  .date-picker table.calendar tfoot {
+    text-align: center;
+  }
+
+  .date-picker table.calendar tfoot button {
+  }
 
 
 /* vector */

@@ -629,7 +629,7 @@
         },
         outlineHover: {
           strokeColor: '#336633',
-          strokeOpacity: 1,
+          strokeOpacity: 1
         },
         markers: {
           fitBounds: true // outlines takes precedence over markers
@@ -728,6 +728,11 @@
           console.log("Map Resize happened");
         });
 
+        function handleBoundsChangeProxy(){
+          that._handleBoundsChange();
+        }
+        google.maps.event.addListener(that, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 250));
+
         handleWindowResizeProxy(); // call resize to set the map container height
         this.resize();
 
@@ -796,6 +801,7 @@
 
         });
 
+        // XXX: browsers that don't support hashchange
         window.onhashchange = function(evt){
           // parse hash for path & params
           var hash = location.hash.replace('#','');
@@ -809,10 +815,11 @@
             if(kv.length === 2)params[kv[0]] = kv[1];
           });
 
-          console.log(path, that.options.path);
-          console.log(params)
+          //console.log(path, that.options.path);
+          //console.log(params)
 
           if(path !== that.options.path){
+            console.log("!!!!! Path has changed (%s,%s)", path, that.options.path)
             that.options.path = path;
             that.currentData.contextSet = false;
 
@@ -871,7 +878,7 @@
 
         var that = this;
 
-        this.fitBounds(bounds);   // does the job asynchronously
+        this.fitBounds(bounds);
         google.maps.event.addListenerOnce(this, 'bounds_changed', function(event) {
           var newSpan = this.getBounds().toSpan();              // the span of the map set by Google fitBounds (always larger by what we ask)
           var askedSpan = bounds.toSpan();                     // the span of what we asked for
@@ -883,11 +890,6 @@
             this.setZoom(this.getZoom() + 1);
           }
 
-          // set up a bounds_change handler to update the hash
-          function handleBoundsChangeProxy(){
-            that._handleBoundsChange();
-          }
-          google.maps.event.addListener(that, 'bounds_changed', GGNPC.utils.debounce(handleBoundsChangeProxy, 250));
         });
       },
 
@@ -899,23 +901,15 @@
           return;
         }
 
-        //console.log("Reconcile Markers")
-
         this.prevDataTimestamp = this.currentData.ts;
         this.markersNeedRenconciled = false;
-
-
-
-        var that = this;
-
-        var bm = this.bakedMarkers || [];
-
-        var counts = {
-          'transparent': 0,
-          'pins': 0,
-          'types': {}
-        }
-
+        var that = this,
+            bm = this.bakedMarkers || [],
+            counts = {
+              'transparent': 0,
+              'pins': 0,
+              'types': {}
+            };
 
 
         this.currentData.children.forEach(function(m){
@@ -930,6 +924,7 @@
               if(outline.unit_name == m.attributes.title)outline.data = utils.extend({}, m);
 
             });
+
           }/*else if(m.baked && bm.indexOf(m.attributes.filename) > -1 && that.notClickable.indexOf(kind) < 0){ // is there a baked marker
             m._markerKind = 'transparent';
             counts['transparent'] ++;
@@ -984,8 +979,10 @@
             console.warn("big-map: failed to load data on bounds change", url, error);
             return;
           }
+
           //console.log("Bounds Data ->", data);
           that.currentData.outlines = (data.geojson && data.geojson.length) ? data.geojson[0].results : [];
+
           that.currentData.children = data.results || [];
           that.currentData.ts = +new Date();
 
@@ -1084,7 +1081,6 @@
 
       // create additional UI elements
       _setupExtras: function(root){
-        console.log(exports.GGNPC);
         exports.GGNPC.ui.mapKey(root);
         //console.log("ROOT: ", root)
         this.filterPanel = d3.select(root).append('div')
@@ -1096,6 +1092,10 @@
 
         this.filterPanel.append('ul')
           .attr('class', 'list-links');
+
+        // cal
+        this.calendar = calendar(root);
+
       },
 
       // filter panel UI
@@ -1391,6 +1391,63 @@
       }
     };
 
+    var calendar = function(selection){
+      var now = new Date(),
+        active = false;
+
+      var panel = d3.select(selection).append('div')
+          .attr('class', 'panel date-picker');
+
+      var container = panel.append('div')
+        .attr('class', 'panel-container');
+
+      var datePicker = GGNPC.ui.datePicker()
+        .on("month", function(month) {
+          // console.log("month:", month);
+          table
+            .call(datePicker.month(month))
+            .call(updateDays, getDate());
+        })
+        .on("day", function(day) {
+          //dater.close();
+          //setDay(day);
+        }),
+      table = d3.select(container.node())
+        .append("table")
+          .attr("class", "calendar")
+          .call(datePicker)
+          .call(updateDays, now);
+
+      var btn = panel.append('button')
+        .attr('class', 'map-btn')
+        .on('click', function(){
+          active = !active
+          panel.classed('active', active);
+        })
+
+      btn.append('span')
+        .attr('class', 'default')
+        .text('Event Calendar');
+
+      btn.append('span')
+        .attr('class', 'close')
+        .html('Hide <i>x</i>');
+
+      function updateDays(){
+
+      }
+
+      function getDate() {
+        return new Date(this._date.getTime());
+      }
+
+      return {}
+
+    };
+
+
+
+
     // handles drawing shapes and markers on a map
     // overrides the _drawOverlays method in Big & Little Maps
     // call this in map initialize fn:
@@ -1452,7 +1509,7 @@
             position: new google.maps.LatLng(data.latitude, data.longitude),
             map: this,
             optimized: false,
-            zIndex: google.maps.Marker.MAX_ZINDEX + 500 + idx,
+            zIndex: (google.maps.Marker.MAX_ZINDEX - 500) + idx,
         });
 
         marker._data = data;
@@ -1477,9 +1534,10 @@
 
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(data.lat, data.lng),
+            anchorPoint: new google.maps.Point(-1,-2),
             map: this,
             optimized: false,
-            zIndex: google.maps.Marker.MAX_ZINDEX + idx,
+            zIndex: (google.maps.Marker.MAX_ZINDEX - 1000) + idx,
             icon: {
               anchor: new google.maps.Point(0,0),
               path: 'M -12,-12 12,-12 12,12 -12,12 z',
@@ -1502,19 +1560,25 @@
       },
 
       _closeCurrentInfoWindow: function(){
-        if(that.locationMarkerRequest) that.locationMarkerRequest.abort();
-        if(that.trailRequest) that.trailRequest.abort();
-        if (that._currentInfoWindow != null) {
-            that._currentInfoWindow.close();
-            that._removeTrails();
+        if(this.locationMarkerRequest) this.locationMarkerRequest.abort();
+        if(this.trailRequest) this.trailRequest.abort();
+        if (this._currentInfoWindow != null) {
+            this._currentInfoWindow.close();
+            this._removeTrails();
         }
+        if(that._currentMarker != null){
+          that._currentMarker = null;
+        }
+        this.tooltip.close();
       },
 
       _addInfoWindowHandler: function(marker, infoWindow){
         var that = this;
 
+
         google.maps.event.addListener(marker, 'click', function() {
           that._closeCurrentInfoWindow();
+          that._currentMarker = marker;
 
           infoWindow.open(that, marker);
           that._setInfoWindowContent(infoWindow, marker._data);
@@ -1533,6 +1597,7 @@
         google.maps.event.addListener(marker, 'click', function() {
 
           that._closeCurrentInfoWindow();
+          that._currentMarker = marker;
 
           if(that._bakedData[marker.id_]){
 
@@ -1570,10 +1635,8 @@
 
         google.maps.event.addListener(marker, 'click', function() {
           that._closeCurrentInfoWindow();
-          console.log("Marker Clicked: ", marker.id_)
-
+          that._currentMarker = marker;
           if(that._trailData[marker.id_]){
-            console.log('TrailData already loaded!')
 
             that._trailData[marker.id_].features.forEach(function(d){
               that._addTrail(d);
@@ -1735,6 +1798,7 @@
 
           // tooltip
           google.maps.event.addListener(marker, 'mouseover', function() {
+            if(marker == that._currentMarker) return;
             console.log("Marker MouseOver-> ", marker)
             var content = marker._data.name || marker._data.attributes.title || "";
             that.tooltip.open(that, marker);
@@ -1857,6 +1921,27 @@
         return null;
       },
 
+      _highlightOutlines: function(name){
+        this._shapes.forEach(function(shapes){
+          if(shapes.name != name){
+            shapes.geojson.forEach(function(shape){
+              shape.setOptions({"strokeOpacity": .3});
+            });
+          }else{
+            shapes.geojson.forEach(function(shape){
+              shape.setOptions({"strokeOpacity": 1});
+            });
+          }
+        });
+      },
+      _resetOutlines: function(){
+        this._shapes.forEach(function(shapes){
+          shapes.geojson.forEach(function(shape){
+              shape.setOptions({"strokeOpacity": 1});
+          });
+        });
+      },
+
       // draw overlays
       // geojson types are drawn first
       // markers are drawn last
@@ -1877,17 +1962,28 @@
           //  ie: st_asgeojson(transform(simplify(the_geom,1),4326))
           if(data.outlines){
             var bounds = new google.maps.LatLngBounds();
-            data.outlines.forEach(function(f){
+
+            data.outlines = data.outlines.sort(function(a,b){
+              return d3.descending(a.acres, b.acres);
+            });
+
+            data.outlines.forEach(function(f,i){
               if(f.hide)return;
+              var opts = utils.extend({}, that.options.outline);
+              opts.zIndex = (google.maps.Marker.MAX_ZINDEX - 1200) + i;
+              if(opts.zIndex < 1 )opts.zIndex = 1;
 
               var feature = JSON.parse(f.geom),
                   shapes = new GeoJSON(feature, that.options.outline, true);
+
 
               if(shapes.type != 'Error'){
                 var obj = {};
                 obj.geojson = shapes;
                 obj.bounds = (shapes.geojsonBounds) ? shapes.geojsonBounds : null;
                 obj.data = f.data;
+                obj.zIndex = opts.zIndex;
+                obj.name = f.unit_name;
 
                 that._shapes.push(obj);
 
@@ -1923,17 +2019,23 @@
 
                   google.maps.event.addListener(s, 'mouseover', function() {
                     s.setOptions(that.options.outlineHover);
+                    that._highlightOutlines(shape.name);
+                    //s.setOptions({'zIndex': shape.zIndex + 2});
                   });
                   google.maps.event.addListener(s, 'mouseout', function() {
                     s.setOptions(that.options.outlineDefaultStyle);
+                    that._resetOutlines();
+                    //s.setOptions({'zIndex': shape.zIndex});
                   });
-                  google.maps.event.addListener(s, 'click', function() {
-
+                  google.maps.event.addListener(s, 'click', function(evt) {
+                    console.log(evt)
                     that._closeCurrentInfoWindow();
                     infoWindow.open(that);
-                    infoWindow.setPosition(shape.bounds.getCenter());
+                    var latlng = evt.latLng || shape.bounds.getCenter();
+                    infoWindow.setPosition(latlng);
                     that._setInfoWindowContent(infoWindow, shape.data);
                     that._currentInfoWindow = infoWindow;
+                    that.fitBounds(shape.bounds)
 
                   });
               });
