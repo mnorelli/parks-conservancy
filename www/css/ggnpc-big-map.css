@@ -1,12 +1,61 @@
 #content{
     width: 100% !important;
 }
+#main_content{
+    position: fixed;
+    top: 0;
+    left: 0;
 
-#header, #nav, #footer, #footer2{
-    position: relative;
-    width: 890px !important;
-    margin: 0 auto;
-    z-index: 10;
+}
+#logo a img{
+    display: none;
+}
+#top_utility, #main_menu_wrapper{
+    display: block;
+    visibility:hidden;
+}
+
+#top_utility, #main_menu_wrapper{
+    opacity:0;
+    transition: opacity 0.5s .1s ease;
+}
+
+.menu-active #top_utility, .menu-active #main_menu_wrapper{
+    visibility:visible;
+    opacity: 1;
+}
+
+
+#header #logo {
+float: left;
+height: auto;
+width: auto;
+position: relative;
+}
+#header #logo a:after{
+    content: "+";
+    font-size: 15px;
+    background: #000;
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+    top: -8px;
+    position: absolute;
+    right: -20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 18px;
+    top: 100%;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+    margin-top: -22px;
+    border-radius: 10px;
+}
+
+.menu-active #header #logo a:after{
+    opacity: 0;
+    visibility:hidden;
 }
 
 #footer, #footer2{ display: none; }
@@ -23,8 +72,38 @@
 
 #main_content{
     padding: 0 !important;
-    margin-top: -140px !important;
+    margin-top: 0 !important;
 }
+
+#logo a{
+    background: url('images/ggnpc-logo-2012.png') no-repeat 0 0;
+    width: 92px;
+    height: 71px;
+    display: inline-block;
+}
+
+#main_menu,
+#top_utility > ul{
+    background: #000;
+    padding: 0;
+}
+#main_menu ul.primary a,
+#main_menu ul.primary a:visited,
+#main_menu a, #top_utility ul.primary > li > a{
+    color: #fff;
+}
+
+
+
+#header, #nav, #footer, #footer2{
+    position: relative;
+    width: 890px !important;
+    margin: 0 auto;
+    z-index: 10;
+}
+#header{ z-index: 11; }
+
+
 
 .big-map {
     position: relative;

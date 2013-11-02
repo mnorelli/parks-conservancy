@@ -740,7 +740,7 @@
         }else if (this.options.bounds){
           this.fitBounds(this.options.bounds);
         }
-        this._updateHash();
+
 
         this.markerTypes = {
           'parent':null,
@@ -824,9 +824,42 @@
             that._setContext(that.options.path);
             that._updateHash();
           }
-
         };
+
+        this.adjustMainMenu();
         //
+      },
+
+      adjustMainMenu: function(){
+        var that = this;
+        var menuOn = false;
+        var header = d3.select('#header'),
+            nav = d3.select('#nav'),
+            content = d3.select('#content');
+
+        function leaveMenu(){
+          if(menuOn)return;
+          menuOn = false;
+          content.classed('menu-active', false);
+        }
+
+        var delayLeave = GGNPC.utils.debounce(leaveMenu, 400);
+        var elm = content.insert("div", ":first-child");
+        elm.classed('faux-header', true);
+
+        elm.node().appendChild(header.node());
+        elm.node().appendChild(nav.node());
+
+        elm
+          .on('mouseenter', function(){
+            if(that.dragging)return;
+            menuOn = true;
+            content.classed('menu-active', true);
+          })
+          .on('mouseleave', function(){
+            menuOn = false;
+            delayLeave();
+          });
       },
 
       initFitMapToBounds: function(bounds) {
@@ -1127,6 +1160,7 @@
         this.currentData.context = data.context;
         this.currentData.contextSet = true;
 
+        console.log("_updateContext--> ", this.currentData)
         this._contextRequest = null;
         if(this.markersNeedRenconciled)this.renconcileMarkers();
 
