@@ -772,10 +772,6 @@
           ].join("\n")
         },
         templatePattern: /\{(.*?)\}/g,
-        formatters:{
-          'commas': d3.format(","),
-          'decimalCommas': d3.format(".1f,")
-        },
         trailStyles: {
           strokeColor: '#91785b',
           strokeOpacity: .4,
@@ -786,7 +782,7 @@
         trailStylesHover:{
           strokeOpacity: 1,
           strokeWeight: 6,
-        },
+        }
       },
 
       /*
@@ -818,6 +814,15 @@
 
         // parse options out of hash params
         options = this._parseHashParams(options);
+
+        this.currentDate = this.options.currentDate || new Date();
+
+        // moved this out of options because as
+        // getting initialized before d3 was ready
+        this.options.formatters = {
+          'commas': d3.format(","),
+          'decimalCommas': d3.format(".1f,")
+        };
 
         // initialize Map
         Map.call(this, options.root, options);
@@ -972,6 +977,7 @@
           content.classed('menu-active', false);
         }
 
+        //console.log("Panes-> ",google.maps.MapPanes.floatPane)
         var delayLeave = GGNPC.utils.debounce(leaveMenu, 400);
         var elm = content.insert("div", ":first-child");
         elm.classed('faux-header', true);
@@ -1033,6 +1039,8 @@
             };
 
 
+        var format = d3.time.format("%Y-%m-%d %H:%M");
+
         this.currentData.children.forEach(function(m){
           var kind = that._getMarkerType(m); // returns a normalized kind, more of a type
 
@@ -1055,7 +1063,13 @@
           }else{
             m._markerKind = null;
           }
+
+          if(m.kind == 'event' && m.attributes.startdate && m.attributes.enddate){
+            m.attributes.enddate = format.parse(m.attributes.enddate);
+            m.attributes.startdate = format.parse(m.attributes.startdate);
+          }
         });
+
 
         this.currentData.outlines.forEach(function(f){
           if(!f.data){
@@ -1075,11 +1089,15 @@
           return m._markerKind;
         });
 
+
+
         console.log('Marker Counts -> ', counts);
+        that.calendar.filterEvents(that.currentData.children);
 
         that._drawOverlays(that.currentData, this.initFitBounds);
         that._updateFilters();
       },
+
 
       _loadContentOnBoundsChange: function(){
 
@@ -1512,9 +1530,12 @@
       }
     };
 
+    // http://0.0.0.0:5000/map/#/get-involved/?coords=11:37.77548:-122.47879
     var calendar = function(selection){
       var now = new Date(),
         active = false;
+      var today =  d3.time.day(new Date());
+      var datesHash = {};
 
       var panel = d3.select(selection).append('div')
           .attr('class', 'panel date-picker');
@@ -1528,11 +1549,15 @@
           table
             .call(datePicker.month(month))
             .call(updateDays, getDate());
+
+          updateDaysWithEvents();
         })
         .on("day", function(day) {
+          console.log("On Day: ", arguments);
           //dater.close();
           //setDay(day);
         }),
+
       table = d3.select(container.node())
         .append("table")
           .attr("class", "calendar")
@@ -1554,15 +1579,52 @@
         .attr('class', 'close')
         .html('Hide <i>x</i>');
 
-      function updateDays(){
 
+      function updateDays(){
+        console.log("Update Days: ", arguments);
       }
 
       function getDate() {
-        return new Date(this._date.getTime());
+        return new Date(today.getTime());
       }
 
-      return {}
+      function updateDaysWithEvents(){
+        container.selectAll("td.day")
+        .classed("no-events", function(d) {
+          return !datesHash.hasOwnProperty(+d);
+        })
+      }
+
+      function _filterEvents(markers){
+        if(!markers)return;
+
+        markers.forEach(function(marker,i){
+          //console.log('M: ', marker.attributes.startdate)
+          if(!marker.attributes.startdate && !marker.attributes.enddate)return;
+          //console.log('M: ', marker.attributes.startdate, marker.attributes.enddate)
+          var start = d3.time.day(marker.attributes.startdate),
+            end = d3.time.day(marker.attributes.enddate);
+
+          if(!datesHash.hasOwnProperty(+start)){
+            datesHash[+start] = [];
+          }
+          datesHash[+start].push(marker);
+          if(start <= today && end >= today){
+            console.log('M: ', marker.attributes.startdate);
+          }
+        });
+
+        updateDaysWithEvents();
+
+        for(var d in datesHash){
+          console.log(new Date(parseInt(d, 10)));
+        }
+
+      }
+
+      return {
+        filterEvents:_filterEvents
+      }
 
     };
 

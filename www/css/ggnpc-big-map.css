@@ -503,6 +503,9 @@ h3.key-label{
 
   .date-picker table.calendar tfoot button {
   }
+  .date-picker .no-events{
+    color: #eee !important;
+  }
 
 
 /* vector */
