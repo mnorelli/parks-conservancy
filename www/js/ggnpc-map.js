@@ -1555,7 +1555,7 @@
         .on("day", function(day) {
           console.log("On Day: ", arguments);
           //dater.close();
-          //setDay(day);
+          //setDay(now);
         }),
 
       table = d3.select(container.node())
@@ -2199,16 +2199,27 @@
                     disableAutoPan: true
                   });
 
-                  google.maps.event.addListener(s, 'mouseover', function() {
+                  google.maps.event.addListener(s, 'mouseover', function(evt) {
                     s.setOptions(that.options.outlineHover);
                     that._highlightOutlines(shape.name);
+
+                    that.tooltip.open(that);
+                    var latlng = evt.latLng || shape.bounds.getCenter();
+                    that.tooltip.setPosition(latlng);
+                    var content = shape.name || "";
+                    that.tooltip.setContent("<p>" + content + "</p>");
                     //s.setOptions({'zIndex': shape.zIndex + 2});
                   });
+
                   google.maps.event.addListener(s, 'mouseout', function() {
                     s.setOptions(that.options.outlineDefaultStyle);
                     that._resetOutlines();
+
+                    that.tooltip.close();
+                    that.tooltip.setContent("");
                     //s.setOptions({'zIndex': shape.zIndex});
                   });
+
                   google.maps.event.addListener(s, 'click', function(evt) {
                     console.log(evt)
                     that._closeCurrentInfoWindow();
@@ -2221,6 +2232,8 @@
 
                   });
               });
+
+
 
 
             });
