@@ -830,12 +830,23 @@
         var root = this.root;
         root.classList.add("big-map");
 
+        // marker helpers
+        this.outlinesOnly = ['park'];
+        this.notClickable = ['Restroom'];
+        this.bakedTypes = ['Visitor Center','Trailhead','Site of Interest','Parking Lot','Restroom','Overlook','Campground','Cafe'];
+        this.currentData ={
+          contextSet:false,
+          parent:{},
+          markers:[],
+          outlines:[],
+          baked:[]
+        };
+
         // tile json set up
         var tilejsonLayer = new maps.GridMapType();
         this.overlayMapTypes.insertAt(0, tilejsonLayer);
 
         this._setupExtras(root);
-
 
         // set up resize handler on 'window' to resize our map container
         this.rootOffsetTop = 0;//d3.select(root).node().offsetTop;
@@ -871,20 +882,7 @@
         }
 
 
-        this.markerTypes = {
-          'parent':null,
-          'markers':[],
-          'outlines':[]
-        };
-        this.outlinesOnly = ['park'];
-        this.notClickable = ['Restroom'];
-        this.currentData ={
-          contextSet:false,
-          parent:{},
-          markers:[],
-          outlines:[],
-          baked:[]
-        }
+
 
         // load content from api
         if(this.options.path) this._setContext(this.options.path);
@@ -1236,8 +1234,8 @@
         this.calendar = new DateTimePicker(root);
 
         this.calendar.addListener('markerChange', function(){
-          console.log("Marker Events have been updated.....");
-          that._drawOverlays(that.currentData, this.initFitBounds);
+          if(!that.currentData.children.length) return;
+          that._drawOverlays(that.currentData, true);
           that._updateFilters();
         });
       },
@@ -1608,7 +1606,6 @@
 
         function updateDays(selection, day) {
 
-          console.log("------------< Update Days >-----------");
           var isSelected = dayMatcher(day),
               today = d3.time.day.floor(new Date()),
               isToday = dayMatcher(new Date());
@@ -1726,16 +1723,8 @@
         if(!this.markers || +this._date === this._lastMarkerUpdateTime) return;
         this._lastMarkerUpdateTime = +this._date;
 
-        console.log("------------< Update Markers >-----------");
-        console.log("this._date--> ", this._date);
-
         var todayStart =  d3.time.day(this._date),
             todayEnd = d3.time.day.ceil(this._date);
-
-        var evtcts = {
-            on: 0,
-            off: 0
-          };
 
         this.markers.forEach(function(marker){
           if(!marker.attributes.startdate && !marker.attributes.enddate) return;
@@ -1745,23 +1734,16 @@
 
           if(start === todayStart || (start <= todayStart && end >= todayEnd)){
             marker.hide = false;
-            evtcts.on ++;
-            //console.log('M: ', marker.attributes.startdate);
           }else{
-            evtcts.off++;
             marker.hide = true;
           }
         });
-        console.log(evtcts);
-        console.log("------------< End Update Markers >-----------");
 
         google.maps.event.trigger(this, "markerChange");
       },
 
       filterEvents: function(markers){
         if(!markers)return;
-
-        console.log("------------< Filter Events >-----------");
 
         var that = this;
         this.datesHash = {};
@@ -1796,9 +1778,8 @@
           }
         });
 
-        //that.updateDays(container, today);
+        console.log("Filter Events-> ", evtcts);
 
-        console.log("Filter Events-> ", evtcts)
         this._update(this.getDate(), true);
 
       },
@@ -1813,7 +1794,6 @@
 
         google.maps.event.trigger(this, "change", this.getDate());
       }
-
 
     });
 
@@ -2081,7 +2061,6 @@
         // Children
         if(data.children){
           data.children.forEach(function(item, i){
-            if(item.kind == 'event')console.log("marker-> ", item.hide)
             if(item.attributes)
               marker = that._addPinMarker(item, i);
           });
