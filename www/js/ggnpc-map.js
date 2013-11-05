@@ -1633,6 +1633,11 @@
             })
             .classed("invalid", function(d) {
               return d < today;
+            })
+            .attr('title', function(d){
+              var start = +d3.time.day.floor(d);
+              return (that.datesHash.hasOwnProperty(start)) ? GGNPC.utils.pluralize('event', that.datesHash[start].length) :
+                'no events';
             });
 
 
