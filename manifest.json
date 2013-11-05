@@ -8,14 +8,14 @@
     },
 
     "cpad_units": "https://maps.gis.ca.gov/Downloads/Data/Government/CPAD_2013b.zip/CPAD_2013b_Units.shp",
-    "cpad_dod": "https://projects.atlas.ca.gov/frs/download.php/10723/Supplemental_CPAD_DOD_Feb2010.zip/CPAD_DOD_current.shp",
-    "cpad_res": "https://projects.atlas.ca.gov/frs/download.php/10724/Supplemental_PRO_Res_Boundary.zip/PRO_Res_Boundary_20091009.shp",
+    "cpad_dod": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/Supplemental_CPAD_DOD_Feb2010.zip/CPAD_DOD_current.shp",
+    "cpad_res": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/Supplemental_PRO_Res_Boundary.zip/PRO_Res_Boundary_20091009.shp",
 
     "osm": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/sf-bay-area.pgdump.gz",
     "nhd": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/nhd.pgdump.gz",
-    "water_fill": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/water-fill.zip/water-fille.shp",
+    "water_fill": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/water-fill.zip/water-fill.shp",
 
-    "locations": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/03_GGNPC_locations_20130417.zip/GGNPC_locations_20130418.shp",
+    "locations": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/03_GGNPC_locations_20130417.zip/GGNPC_locations_20130417.shp",
     "ggnra_restrooms": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/restrooms_20130816.zip/GGNPC_locations_20130816_restrooms3.shp",
     "trails": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/trails_goga_20130816.zip/trails_goga_20130816.shp",
     "park_units": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/GGNRA_web_boundaries_20130916.zip/GGNRA_web_boundaries_20130916.shp",
