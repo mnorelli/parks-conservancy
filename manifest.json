@@ -6,11 +6,43 @@
     "hstore": {
       "sql": "CREATE EXTENSION IF NOT EXISTS hstore"
     },
+
     "cpad_units": "https://maps.gis.ca.gov/Downloads/Data/Government/CPAD_2013b.zip/CPAD_2013b_Units.shp",
+    "cpad_dod": "https://projects.atlas.ca.gov/frs/download.php/10723/Supplemental_CPAD_DOD_Feb2010.zip/CPAD_DOD_current.shp",
+    "cpad_res": "https://projects.atlas.ca.gov/frs/download.php/10724/Supplemental_PRO_Res_Boundary.zip/PRO_Res_Boundary_20091009.shp",
+
+    "osm": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/sf-bay-area.pgdump.gz",
+    "nhd": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/nhd.pgdump.gz",
+    "water_fill": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/water-fill.zip/water-fille.shp",
+
+    "locations": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/03_GGNPC_locations_20130417.zip/GGNPC_locations_20130418.shp",
+    "ggnra_restrooms": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/restrooms_20130816.zip/GGNPC_locations_20130816_restrooms3.shp",
+    "trails": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/trails_goga_20130816.zip/trails_goga_20130816.shp",
     "park_units": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/GGNRA_web_boundaries_20130916.zip/GGNRA_web_boundaries_20130916.shp",
-    "planet_osm_polygon": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/planet_osm_polygon.pgdump.gz",
-    "nhdarea": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/nhdarea.pgdump.gz",
+    "pt_parking_areas": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/08a_PT_parking_areas_2010.zip/Parking_2010.shp",
     "ggnra_parking_areas": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/08b_GGNRA_parking_areas_20120417.zip/ggnra_parkingareas.shp",
-    "pt_parking_areas": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/08a_PT_parking_areas_2010.zip/Parking_2010.shp"
+    "ggnra_offshore_boundaries": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/GGNRA_boundary_2013_offshoreline.zip/GGNRA_boundary_2013_offshoreline.shp",
+    "ggnra_buildings": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/ggnra_buildings_2013.zip/ggnra_buildings_2013.shp",
+
+    "parking_lots": "http://data.stamen.com.s3.amazonaws.com/parks-conservancy/convio_parking_lots_20131024.zip/parking_lots.shp",
+
+    "cluster-planet_osm_line": {
+      "sql": "CLUSTER planet_osm_line USING planet_osm_line_index"
+    },
+    "cluster-planet_osm_point": {
+      "sql": "CLUSTER planet_osm_point USING planet_osm_point_index"
+    },
+    "cluster-planet_osm_polygon": {
+      "sql": "CLUSTER planet_osm_polygon USING planet_osm_polygon_index"
+    },
+    "cluster-nhdarea": {
+      "sql": "CLUSTER nhdarea USING nhdarea_geom_idx"
+    },
+    "cluster-nhdflowline": {
+      "sql": "CLUSTER nhdflowline USING nhdflowline_geom_idx"
+    },
+    "cluster-nhdwaterbody": {
+      "sql": "CLUSTER nhdwaterbody USING nhdwaterbody_geom_idx"
+    }
   }
 }
