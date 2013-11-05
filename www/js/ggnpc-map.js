@@ -1539,6 +1539,11 @@
     var DateTimePicker = maps.DateTimePicker = maps.BaseClass.extend({
       defaults: {},
 
+      dowFormatter: function(d){
+        var names = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+        return names[d.getDay()];
+      },
+
       initialize: function(root, options) {
         this.active = false;
         this.root = utils.coerceElement(root);
@@ -1595,13 +1600,17 @@
               })
               .on("day", function(day) {
                 setDay(day);
-              }),
-            table = d3.select(container.node())
+              });
+
+        datePicker.setDowFormatter(that.dowFormatter);
+
+        datePicker.setMonthFormatter(d3.time.format("%B %Y"));
+
+        var table = d3.select(container.node())
               .append("table")
                 .attr("class", "calendar")
                 .call(datePicker)
                 .call(updateDays, now);
-
 
 
         function updateDays(selection, day) {
@@ -1615,9 +1624,9 @@
           selection.selectAll("td.day")
             .classed("today", isSelected)
             .classed("selected", isToday)
-            .classed("no-events", function(d) {
+            .classed("has-events", function(d) {
               var start = +d3.time.day.floor(d)
-              return !that.datesHash.hasOwnProperty(start);
+              return that.datesHash.hasOwnProperty(start);
             })
             .classed("valid", function(d) {
               return d >= today;

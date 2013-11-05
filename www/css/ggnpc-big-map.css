@@ -235,6 +235,10 @@
     z-index: 9999;
     background: #fff;
     padding: 20px;
+    box-sizing: border-box;
+}
+.panel * {
+    box-sizing: border-box;
 }
 .panel-container{
     position: relative;
@@ -295,12 +299,14 @@
 .key-title{
     color: #000;
     margin-bottom: 15px;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 .key-label{
-    font-size: 12px;
+    font-size: 11px;
     color: #000;
-    font-weight: 300;
+    font-weight: normal;
 }
 
 h3.key-label{
@@ -324,9 +330,9 @@ h3.key-label{
     color: #fff;
     border: 0;
     border-radius: 4px;
-    padding: 9px 25px 8px;
-    font-weight: 300;
-    font-size: 12px;
+    padding: 8px 25px 9px;
+    font-weight: bold;
+    font-size: 11px;
     line-height: 1;
     cursor: pointer;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -424,6 +430,9 @@ h3.key-label{
     padding: 0;
     background: transparent;
 }
+.panel.date-picker .panel-container{
+    padding: 20px 10px 10px;
+}
 .panel.date-picker .map-btn{
     float: right;
 }
@@ -455,18 +464,18 @@ h3.key-label{
   .date-picker table.calendar caption {
     padding: 2px 4px !important;
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .date-picker table.calendar td.day {
     color: #000;
-    text-align: right;
+    text-align: center;
     vertical-align: top;
     border: 1px solid transparent;
   }
 
   .date-picker table.calendar td.day.current {
-    color: #333;
+    color: #000;
   }
 
   .date-picker table.calendar td.day.valid {
@@ -478,7 +487,7 @@ h3.key-label{
   }
 
   .date-picker table.calendar td.day.today {
-    border-color: #666;
+    background: #ccc;
   }
 
   .date-picker table.calendar td.day.selected {
@@ -486,22 +495,33 @@ h3.key-label{
     color: #fff;
   }
 
+  .date-picker table.calendar td.day.has-events {
+    font-weight: bold;
+  }
   .date-picker table.calendar caption {
     position: relative;
     background: #fff;
-    padding: 4px !important;
+    padding: 5px 0 !important;
     text-align: left;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 11px;
+    color: #000;
+  }
+  .date-picker table.calendar caption .month{
+    position: relative;
+    top: -3px;
   }
 
   .date-picker table.calendar caption .offset {
     position: absolute;
-    top: 4px;
-    padding: 0 5px;
+    top: 0px;
+    padding: 1px 3px;
     font-weight: bold;
     cursor: pointer;
+    color: #fff;
+    background: #999;
+    font-size: 8px;
   }
 
   .date-picker table.calendar caption .offset.prev { right: 20px; }
@@ -509,12 +529,10 @@ h3.key-label{
 
   .date-picker table.calendar tfoot {
     text-align: center;
+    display: none;
   }
 
   .date-picker table.calendar tfoot button {
-  }
-  .date-picker .no-events{
-    color: #ccc !important;
   }
 
 

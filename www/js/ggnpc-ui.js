@@ -325,6 +325,17 @@
       calendar.date(month = d);
       return picker;
     };
+    // XXX: couldn't find another way to set calendar formatting
+    picker.setDowFormatter = function(fmt){
+      if (!arguments.length) return calendar.dowFormat();
+      calendar.dowFormat(fmt);
+      return picker;
+    }
+    picker.setMonthFormatter = function(fmt){
+      if (!arguments.length) return monthFormat;
+      monthFormat = fmt
+      return picker;
+    }
 
     return d3.rebind(picker, dispatch, "on");
   };
