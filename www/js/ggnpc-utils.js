@@ -206,11 +206,13 @@ var GGNPC = (function(exports){
       };
     };
 
+    // simple pluralization method
     utils.pluralize = function(str, count, plural){
       if (plural == null)
           plural = str + 's';
 
-        return count == 1 ? count + ' ' + str : count + ' ' + plural;
+        return count == 1 ? count + ' ' + str
+                            : count + ' ' + plural;
     }
 
     return exports;
